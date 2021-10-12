@@ -4707,4 +4707,665 @@ HTTP request sent, awaiting response... 200 OK
 Length: 2523 (2.5K) [text/x-python3]
 Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/z_function.py’
 
-     0K ..
+     0K ..                                                    100%  125K=0.02s
+
+2021-10-12 20:45:17 (125 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/z_function.py’ saved [2523/2523]
+
+--2021-10-12 20:45:17--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:45:17 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/__init__.py’ saved [0/0]
+
+--2021-10-12 20:45:17--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/co2_emission.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 716 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/co2_emission.py’
+
+     0K                                                       100% 85.7M=0s
+
+2021-10-12 20:45:18 (85.7 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/co2_emission.py’ saved [716/716]
+
+--2021-10-12 20:45:18--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/covid_stats_via_xpath.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 827 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/covid_stats_via_xpath.py’
+
+     0K                                                       100% 97.0M=0s
+
+2021-10-12 20:45:18 (97.0 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/covid_stats_via_xpath.py’ saved [827/827]
+
+--2021-10-12 20:45:18--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/crawl_google_results.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 798 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/crawl_google_results.py’
+
+     0K                                                       100% 92.2M=0s
+
+2021-10-12 20:45:18 (92.2 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/crawl_google_results.py’ saved [798/798]
+
+--2021-10-12 20:45:18--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/crawl_google_scholar_citation.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 957 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/crawl_google_scholar_citation.py’
+
+     0K                                                       100% 41.6K=0.02s
+
+2021-10-12 20:45:19 (41.6 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/crawl_google_scholar_citation.py’ saved [957/957]
+
+--2021-10-12 20:45:19--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/currency_converter.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4147 (4.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/currency_converter.py’
+
+     0K ....                                                  100%  180K=0.02s
+
+2021-10-12 20:45:19 (180 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/currency_converter.py’ saved [4147/4147]
+
+--2021-10-12 20:45:19--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/current_stock_price.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 501 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/current_stock_price.py’
+
+     0K                                                       100% 72.6M=0s
+
+2021-10-12 20:45:19 (72.6 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/current_stock_price.py’ saved [501/501]
+
+--2021-10-12 20:45:19--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/current_weather.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 947 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/current_weather.py’
+
+     0K                                                       100% 42.2K=0.02s
+
+2021-10-12 20:45:20 (42.2 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/current_weather.py’ saved [947/947]
+
+--2021-10-12 20:45:20--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/daily_horoscope.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1005 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/daily_horoscope.py’
+
+     0K                                                       100% 44.7K=0.02s
+
+2021-10-12 20:45:20 (44.7 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/daily_horoscope.py’ saved [1005/1005]
+
+--2021-10-12 20:45:20--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/emails_from_url.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2972 (2.9K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/emails_from_url.py’
+
+     0K ..                                                    100%  132K=0.02s
+
+2021-10-12 20:45:20 (132 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/emails_from_url.py’ saved [2972/2972]
+
+--2021-10-12 20:45:20--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/fetch_bbc_news.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 556 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/fetch_bbc_news.py’
+
+     0K                                                       100% 64.3M=0s
+
+2021-10-12 20:45:20 (64.3 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/fetch_bbc_news.py’ saved [556/556]
+
+--2021-10-12 20:45:20--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/fetch_github_info.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1458 (1.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/fetch_github_info.py’
+
+     0K .                                                     100% 62.9K=0.02s
+
+2021-10-12 20:45:21 (62.9 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/fetch_github_info.py’ saved [1458/1458]
+
+--2021-10-12 20:45:21--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/fetch_jobs.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 897 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/fetch_jobs.py’
+
+     0K                                                       100% 39.9K=0.02s
+
+2021-10-12 20:45:21 (39.9 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/fetch_jobs.py’ saved [897/897]
+
+--2021-10-12 20:45:21--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/get_imdb_top_250_movies_csv.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 925 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/get_imdb_top_250_movies_csv.py’
+
+     0K                                                       100% 41.4K=0.02s
+
+2021-10-12 20:45:21 (41.4 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/get_imdb_top_250_movies_csv.py’ saved [925/925]
+
+--2021-10-12 20:45:21--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/get_imdbtop.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 718 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/get_imdbtop.py’
+
+     0K                                                       100% 74.4M=0s
+
+2021-10-12 20:45:22 (74.4 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/get_imdbtop.py’ saved [718/718]
+
+--2021-10-12 20:45:22--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/instagram_crawler.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4137 (4.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/instagram_crawler.py’
+
+     0K ....                                                  100%  183K=0.02s
+
+2021-10-12 20:45:22 (183 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/instagram_crawler.py’ saved [4137/4137]
+
+--2021-10-12 20:45:22--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/instagram_pic.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 654 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/instagram_pic.py’
+
+     0K                                                       100% 72.7M=0s
+
+2021-10-12 20:45:22 (72.7 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/instagram_pic.py’ saved [654/654]
+
+--2021-10-12 20:45:22--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/instagram_video.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 559 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/instagram_video.py’
+
+     0K                                                       100% 49.3M=0s
+
+2021-10-12 20:45:23 (49.3 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/instagram_video.py’ saved [559/559]
+
+--2021-10-12 20:45:23--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/recaptcha_verification.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2607 (2.5K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/recaptcha_verification.py’
+
+     0K ..                                                    100%  112K=0.02s
+
+2021-10-12 20:45:23 (112 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/recaptcha_verification.py’ saved [2607/2607]
+
+--2021-10-12 20:45:23--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:23 ERROR 404: Not Found.
+
+--2021-10-12 20:45:23--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:23 ERROR 404: Not Found.
+
+--2021-10-12 20:45:23--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/slack_message.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 695 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/slack_message.py’
+
+     0K                                                       100% 40.4M=0s
+
+2021-10-12 20:45:23 (40.4 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/slack_message.py’ saved [695/695]
+
+--2021-10-12 20:45:23--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/test_fetch_github_info.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 859 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/test_fetch_github_info.py’
+
+     0K                                                       100% 38.4K=0.02s
+
+2021-10-12 20:45:24 (38.4 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/test_fetch_github_info.py’ saved [859/859]
+
+--2021-10-12 20:45:24--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/world_covid19_stats.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 931 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/world_covid19_stats.py’
+
+     0K                                                       100% 41.6K=0.02s
+
+2021-10-12 20:45:24 (41.6 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/web_programming/world_covid19_stats.py’ saved [931/931]
+
+--2021-10-12 20:45:24--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-scripts/TODO.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 236 [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-scripts/TODO.md’
+
+     0K                                                       100% 11.7M=0s
+
+2021-10-12 20:45:24 (11.7 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-scripts/TODO.md’ saved [236/236]
+
+--2021-10-12 20:45:24--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-scripts/readme.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2830 (2.8K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-scripts/readme.md’
+
+     0K ..                                                    100%  125K=0.02s
+
+2021-10-12 20:45:24 (125 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-scripts/readme.md’ saved [2830/2830]
+
+--2021-10-12 20:45:24--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-scripts/requirements.txt
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 78 [text/plain]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-scripts/requirements.txt’
+
+     0K                                                       100% 6.17M=0s
+
+2021-10-12 20:45:25 (6.17 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-scripts/requirements.txt’ saved [78/78]
+
+--2021-10-12 20:45:25--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/%28Tutorial%29_Reading_and_Writing_Files_in_Python.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /_resources/python-prac/readings/(tutorial)_reading_and_writing_files_in_python [following]
+--2021-10-12 20:45:25--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/(tutorial)_reading_and_writing_files_in_python
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 44985 (44K) [text/html]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/(Tutorial)_Reading_and_Writing_Files_in_Python.html’
+
+     0K .......... .......... .......... .......... ...       100%  207K=0.2s
+
+2021-10-12 20:45:25 (207 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/(Tutorial)_Reading_and_Writing_Files_in_Python.html’ saved [44985/44985]
+
+--2021-10-12 20:45:25--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/%28Tutorial%29_Reading_and_Writing_Files_in_Python.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 33795 (33K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/(Tutorial)_Reading_and_Writing_Files_in_Python.md’
+
+     0K .......... .......... .......... ...                  100% 1005K=0.03s
+
+2021-10-12 20:45:26 (1005 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/(Tutorial)_Reading_and_Writing_Files_in_Python.md’ saved [33795/33795]
+
+--2021-10-12 20:45:26--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/10_External_Python_packages_you_are_going_to_love.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6318 (6.2K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/10_External_Python_packages_you_are_going_to_love.md’
+
+     0K ......                                                100%  331K=0.02s
+
+2021-10-12 20:45:26 (331 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/10_External_Python_packages_you_are_going_to_love.md’ saved [6318/6318]
+
+--2021-10-12 20:45:26--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/30-python-snippets.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4195 (4.1K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/30-python-snippets.md’
+
+     0K ....                                                  100%  196K=0.02s
+
+2021-10-12 20:45:26 (196 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/30-python-snippets.md’ saved [4195/4195]
+
+--2021-10-12 20:45:26--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/A_quick_yet_complete_tour_of_lists_in_Python3_in_just_seven_minutes.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9968 (9.7K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/A_quick_yet_complete_tour_of_lists_in_Python3_in_just_seven_minutes.md’
+
+     0K .........                                             100%  442K=0.02s
+
+2021-10-12 20:45:27 (442 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/A_quick_yet_complete_tour_of_lists_in_Python3_in_just_seven_minutes.md’ saved [9968/9968]
+
+--2021-10-12 20:45:27--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/An_A-Z_of_useful_Python_tricks.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16509 (16K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/An_A-Z_of_useful_Python_tricks.md’
+
+     0K .......... ......                                     100%  228K=0.07s
+
+2021-10-12 20:45:27 (228 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/An_A-Z_of_useful_Python_tricks.md’ saved [16509/16509]
+
+--2021-10-12 20:45:27--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/Automate-Boring-Stuff-with-Python.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 50781 (50K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/Automate-Boring-Stuff-with-Python.md’
+
+     0K .......... .......... .......... .......... ......... 100%  711K=0.07s
+
+2021-10-12 20:45:27 (711 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/Automate-Boring-Stuff-with-Python.md’ saved [50781/50781]
+
+--2021-10-12 20:45:27--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/Controlling_the_Web_with_Python.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12967 (13K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/Controlling_the_Web_with_Python.md’
+
+     0K .......... ..                                         100%  182K=0.07s
+
+2021-10-12 20:45:28 (182 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/Controlling_the_Web_with_Python.md’ saved [12967/12967]
+
+--2021-10-12 20:45:28--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/How_to_build_a_URL_crawler_to_map_a_website_using_Python.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5812 (5.7K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/How_to_build_a_URL_crawler_to_map_a_website_using_Python.md’
+
+     0K .....                                                 100%  259K=0.02s
+
+2021-10-12 20:45:28 (259 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/How_to_build_a_URL_crawler_to_map_a_website_using_Python.md’ saved [5812/5812]
+
+--2021-10-12 20:45:28--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/The_Python_RegEx_Cheat_Sheet_for_Budding_Programmers.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12714 (12K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/The_Python_RegEx_Cheat_Sheet_for_Budding_Programmers.md’
+
+     0K .......... ..                                         100%  559K=0.02s
+
+2021-10-12 20:45:28 (559 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/The_Python_RegEx_Cheat_Sheet_for_Budding_Programmers.md’ saved [12714/12714]
+
+--2021-10-12 20:45:28--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/beginners.pdf
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 217418 (212K) [application/pdf]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/beginners.pdf’
+
+     0K .......... .......... .......... .......... .......... 23%  520K 0s
+    50K .......... .......... .......... .......... .......... 47%  122K 1s
+   100K .......... .......... .......... .......... .......... 70%  237K 0s
+   150K .......... .......... .......... .......... .......... 94%  243K 0s
+   200K .......... ..                                         100% 46.1M=0.9s
+
+2021-10-12 20:45:29 (230 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/beginners.pdf’ saved [217418/217418]
+
+--2021-10-12 20:45:29--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/importing-data-python.pdf
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 138489 (135K) [application/pdf]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/importing-data-python.pdf’
+
+     0K .......... .......... .......... .......... .......... 36%  194K 0s
+    50K .......... .......... .......... .......... .......... 73%  243K 0s
+   100K .......... .......... .......... .....                100%  171K=0.7s
+
+2021-10-12 20:45:30 (202 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/importing-data-python.pdf’ saved [138489/138489]
+
+--2021-10-12 20:45:30--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/jupyter-notebook-cheat-sheet.pdf
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 804299 (785K) [application/pdf]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/jupyter-notebook-cheat-sheet.pdf’
+
+     0K .......... .......... .......... .......... ..........  6%  510K 1s
+    50K .......... .......... .......... .......... .......... 12%  122K 3s
+   100K .......... .......... .......... .......... .......... 19%  243K 3s
+   150K .......... .......... .......... .......... .......... 25%  242K 3s
+   200K .......... .......... .......... .......... .......... 31%  238K 2s
+   250K .......... .......... .......... .......... .......... 38%  244K 2s
+   300K .......... .......... .......... .......... .......... 44%  122K 2s
+   350K .......... .......... .......... .......... .......... 50%  248K 2s
+   400K .......... .......... .......... .......... .......... 57%  244K 2s
+   450K .......... .......... .......... .......... .......... 63%  247K 1s
+   500K .......... .......... .......... .......... .......... 70%  122K 1s
+   550K .......... .......... .......... .......... .......... 76%  247K 1s
+   600K .......... .......... .......... .......... .......... 82%  246K 1s
+   650K .......... .......... .......... .......... .......... 89%  245K 0s
+   700K .......... .......... .......... .......... .......... 95%  123K 0s
+   750K .......... .......... .......... .....                100% 43.9M=3.8s
+
+2021-10-12 20:45:34 (208 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/jupyter-notebook-cheat-sheet.pdf’ saved [804299/804299]
+
+--2021-10-12 20:45:34--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/numpy.pdf
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 665028 (649K) [application/pdf]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/numpy.pdf’
+
+     0K .......... .......... .......... .......... ..........  7%  501K 1s
+    50K .......... .......... .......... .......... .......... 15%  122K 3s
+   100K .......... .......... .......... .......... .......... 23%  248K 2s
+   150K .......... .......... .......... .......... .......... 30%  241K 2s
+   200K .......... .......... .......... .......... .......... 38%  243K 2s
+   250K .......... .......... .......... .......... .......... 46%  124K 2s
+   300K .......... .......... .......... .......... .......... 53%  244K 1s
+   350K .......... .......... .......... .......... .......... 61%  246K 1s
+   400K .......... .......... .......... .......... .......... 69%  246K 1s
+   450K .......... .......... .......... .......... .......... 76%  244K 1s
+   500K .......... .......... .......... .......... .......... 84%  123K 0s
+   550K .......... .......... .......... .......... .......... 92%  248K 0s
+   600K .......... .......... .......... .......... ......... 100%  242K=3.2s
+
+2021-10-12 20:45:38 (206 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/numpy.pdf’ saved [665028/665028]
+
+--2021-10-12 20:45:38--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/python-basics.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 40055 (39K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/python-basics.md’
+
+     0K .......... .......... .......... .........            100%  336K=0.1s
+
+2021-10-12 20:45:38 (336 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/python-basics.md’ saved [40055/40055]
+
+--2021-10-12 20:45:38--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:38 ERROR 404: Not Found.
+
+--2021-10-12 20:45:38--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/readings/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:38 ERROR 404: Not Found.
+
+--2021-10-12 20:45:38--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/files
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:39 ERROR 404: Not Found.
+
+--2021-10-12 20:45:39--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/package-lock.json
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 364 [application/json]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/package-lock.json’
+
+     0K                                                       100% 50.9M=0s
+
+2021-10-12 20:45:39 (50.9 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/package-lock.json’ saved [364/364]
+
+--2021-10-12 20:45:39--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/README.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 328778 (321K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/README.md’
+
+     0K .......... .......... .......... .......... .......... 15%  503K 1s
+    50K .......... .......... .......... .......... .......... 31%  196K 1s
+   100K .......... .......... .......... .......... .......... 46%  244K 1s
+   150K .......... .......... .......... .......... .......... 62%  124K 1s
+   200K .......... .......... .......... .......... .......... 77%  245K 0s
+   250K .......... .......... .......... .......... .......... 93%  246K 0s
+   300K .......... .......... .                               100%  102K=1.6s
+
+2021-10-12 20:45:41 (204 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/README.md’ saved [328778/328778]
+
+--2021-10-12 20:45:41--  https://ds-unit-5-lambda.netlify.app/_resources/pythonium/content/gitbook/images/apple-touch-icon-precomposed-152.png
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1864 (1.8K) [image/png]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/pythonium/content/gitbook/images/apple-touch-icon-precomposed-152.png’
+
+     0K .                                                     100% 86.6K=0.02s
+
+2021-10-12 20:45:41 (86.6 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/pythonium/content/gitbook/images/apple-touch-icon-precomposed-152.png’ saved [1864/1864]
+
+--2021-10-12 20:45:41--  https://ds-unit-5-lambda.netlify.app/_resources/pythonium/content/curriculum/additional_concepts/Lambda.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /_resources/pythonium/content/curriculum/additional_concepts/lambda [following]
+--2021-10-12 20:45:41--  https://ds-unit-5-lambda.netlify.app/_resources/pythonium/content/curriculum/additional_concepts/lambda
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 35942 (35K) [text/html]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/pythonium/content/curriculum/additional_concepts/Lambda.html’
+
+     0K .......... .......... .......... .....                100% 1.57M=0.02s
+
+2021-10-12 20:45:41 (1.57 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/pythonium/content/curriculum/additional_concepts/Lambda.html’ saved [35942/35942]
+
+--2021-10-12 20:45:41--  https://ds-unit-5-lambda.netlify.app/_resources/pythonium/content/curriculum/additional_concepts/List_and_dictionary_comprehension.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /_resources/pythonium/content/curriculum/additional_concepts/list_and_dictionary_comprehension [following]
+--2021-10-12 20:45:42--  https://ds-unit-5-lambda.netlify.app/_resources/pythonium/content/curriculum/additional_concepts/list_and_dictionary_comprehension
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 40449 (40K) [text/html]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/pythonium/content/curriculum/additional_concepts/List_and_dictionary_comprehension.html’
+
+     0K .......... .......... .......... .........            100% 1.73M=0.02s
+
+2021-10-12 20:45:42 (1.73 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/pythonium/content/curriculum/additional_concepts/List_and_dictionary_comprehension.html’ saved [40449/40449]
+
+--2021-10-12 20:45:42--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22cid:css-0eb91b86-d081-4741-afbf-1d9d28ca508f@mhtml.blink%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:42 ERROR 404: Not Found.
+
+Warning: wildcards not supported in HTTP.
+--2021-10-12 20:45:42--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/=3D%22https://cdn-images-1.medium.com/max/800/0*rbMyH5LxQQFozL7F%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:42 ERROR 404: Not Found.
+
+--2021-10-12 20:45:42--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/coells/100days%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:42 ERROR 404: Not Found.
+
+--2021-10-12 20:45:42--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://www.nayuki.io/category/programming%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:42 ERROR 404: Not Found.
+
+--2021-10-12 20:45:42--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/algorithm-visualizer/algori=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:42 ERROR 404: Not Found.
+
+--2021-10-12 20:45:42--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://mitpress.mit.edu/books/algorithms-opti=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:42 ERROR 404: Not Found.
+
+--2021-10-12 20:45:42--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://www.algorithm-archive.org/%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:43 ERROR 404: Not Found.
+
+--2021-10-12 20:45:43--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/algorithm-archivists/algor=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:43 ERROR 404: Not Found.
+
+--2021-10-12 20:45:43--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22http://index-of.co.uk/Algorithms/Algorithms%20=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:43 ERROR 404: Not Found.
+
+--2021-10-12 20:45:43--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/scandum/quadsort%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:43 ERROR 404: Not Found.
+
+--2021-10-12 20:45:43--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/resumejob/system-design-alg=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:43 ERROR 404: Not Found.
+
+--2021-10-12 20:45:43--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22http://greenteapress.com/complexity/html/index=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:43 ERROR 404: Not Found.
+
+--2021-10-12 20:45:43--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/TheAlgorithms/Rust%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:44 ERROR 404: Not Found.
+
+--2021-10-12 20:45:44--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://news.ycombinator.com/item?id=3D234293=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:44 ERROR 404: Not Found.
+
+--2021-10-12 20:45:44--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://page.skerritt.blog/algorithms/%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:44 ERROR 404: Not Found.
+
+--2021-10-12 20:45:44--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/brandonskerritt/Algorithms=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:44 ERROR 404: Not Found.
+
+--2021-10-12 20:45:44--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://news.ycombinator.com/item?id=3D236624=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:44 ERROR 404: Not Found.
+
+--2021-10-12 20:45:44--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://labuladong.gitbook.io/algo-en/%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:44 ERROR 404: Not Found.
+
+--2021-10-12 20:45:44--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://news.ycombinator.com/item=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:44 ERROR 404: Not Found.
+
+--2021-10-12 20:45:44--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://sites.uclouvain.be/absil/amsbook/%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:45 ERROR 404: Not Found.
+
+--2021-10-12 20:45:45--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://news.ycombinator.com/item?id=3D242876=
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:45 ERROR 404: Not Found.
+
+--2021-10-12 20:45:45--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/TheAlgorithms/Python%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:45 ERROR 404: Not Found.
+
+--2021-10-12 20:45:45--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/TheAlgorithms/Javascript%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:45 ERROR 404: Not Found.
+
+--2021-10-12 20:45:45--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/williamfiset/Algorithms%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:45 ERROR 404: Not Found.
+
+--2021-10-12 20:45:45--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/scandum/wolfsort%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:45 ERROR 404: Not Found.
+
+--2021-10-12 20:45:45--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22https://github.com/fcampelo/EC-Bestiary%22
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:46 ERROR 404: Not Found.
+
+--2021-10-12 20:45:46--  https://ds-unit-5-lambda.netlify.app/_weeks/wk17/d1/challenges/3D%22http://elementsofprogrammin
