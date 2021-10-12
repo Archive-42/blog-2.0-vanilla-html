@@ -2974,10 +2974,9 @@ Object Oriented JavaScript
 
 1. ### What is an Intl object
 
+   The Intl object is the namespace for the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, and date and time formatting. It provides access to several constructors and language sensitive functions.
 
-    The Intl object is the namespace for the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, and date and time formatting. It provides access to several constructors and language sensitive functions.
-
-233. ### How do you perform language specific date and time formatting
+1. ### How do you perform language specific date and time formatting
 
 
     You can use the `Intl.DateTimeFormat` object which is a constructor for objects that enable language-sensitive date and time formatting. Let's see this behavior with an example,
@@ -5577,7 +5576,6 @@ Object Oriented JavaScript
 
 1.  ### How to invoke an IIFE without any extra brackets?
 
-
     Immediately Invoked Function Expressions(IIFE) requires a pair of parenthesis to wrap the function which contains set of statements.
 
         (function (dt) {
@@ -5590,7 +5588,7 @@ Object Oriented JavaScript
             console.log(dt.toLocaleTimeString());
         })(new Date());
 
-422. ### Is that possible to use expressions in switch cases?
+1.  ### Is that possible to use expressions in switch cases?
 
 
     You might have seen expressions used in switch condition but it is also possible to use for switch cases by assigning true value for the switch condition. Let's see the weather condition based on temparature as an example,
