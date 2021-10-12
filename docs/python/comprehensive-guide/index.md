@@ -1,444 +1,458 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
 <span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="/docs" class="button">Docs</a>
-    -   <a href="/showcase" class="button">Showcase</a>
-    -   <a href="/docs/faq/contact" class="button">Contact!</a>
-    -   <a href="/docs/python/python-ds" class="button">Python</a>
+- <a href="/docs/sitemap" class="button">Navigation</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
-    -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
-    -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
-    -   <a href="/blog/platform-docs/" class="button">platform docs</a>
-    -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
-    -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
+  - <a href="/docs" class="button">Docs</a>
+  - <a href="/showcase" class="button">Showcase</a>
+  - <a href="/docs/faq/contact" class="button">Contact!</a>
+  - <a href="/docs/python/python-ds" class="button">Python</a>
 
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
-    -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
-    -   <a href="#" class="button">Bootcamp Resources</a>
-    -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
-    -   <a href="/docs/gallery" class="button">Gallery</a>
-    -   <a href="/docs" class="button">Top Repos</a>
+- <a href="/blog/" class="button">Blog</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
-    -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+  - <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
+  - <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
+  - <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
+  - <a href="/blog/platform-docs/" class="button">platform docs</a>
+  - <a href="/docs/articles/nodejs/" class="button">nodejs</a>
+  - <a href="/blogWcomments/" class="button">Blog w Comments</a>
 
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
-    -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
-    -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
-    -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
-    -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+- <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
-    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
-    -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
-    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
-    -   <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
-    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
-    -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
-    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
-    -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+  - <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
+  - <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
+  - <a href="#" class="button">Bootcamp Resources</a>
+  - <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
+  - <a href="/docs/gallery" class="button">Gallery</a>
+  - <a href="/docs" class="button">Top Repos</a>
 
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
-    -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
-    -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
-    -   <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
-    -   <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
-    -   <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
-    -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
-    -   <span class="screen-reader-text">Github-Advanced-Search</span>
+- <a href="/docs/audio/audio" class="button">Audio</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+
+  - <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
+  - <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+
+- <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+
+  - <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
+  - <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
+  - <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
+  - [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
+  - <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+
+- <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+
+  - <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
+  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
+  - <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
+  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
+  - <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
+  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
+  - <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
+  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
+  - <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+
+- <a href="/docs/tools" class="button">Tools</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+  - <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
+  - <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
+  - <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
+  - <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
+  - <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
+  - <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
+  - <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
+  - <span class="screen-reader-text">Github-Advanced-Search</span>
 
 <span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
 
 Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Docs](/docs/)
--   [About](/docs/about/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Job Search](/docs/about/job-search/)
-    -   [Youtube](/docs/about/intrests/)
-    -   [Resume](/docs/about/resume/)
-    -   [Engineering Portfolio](/docs/about/eng-portfolio/)
-    -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
+- [Docs](/docs/)
+- [About](/docs/about/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Articles](/docs/articles/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [The HTTP Protocol](/docs/articles/http/)
-    -   [How The Web Works](/docs/articles/how-the-web-works/)
-    -   [Sorting Algorithms](/docs/articles/node-package-manager/)
-    -   [Introduction to npm](/docs/articles/npm/)
-    -   [lorem-ipsum](/docs/articles/semantic-html/)
-    -   [The Uniform Resource Locator (URL)](/docs/articles/the-uniform-resource-locator-(url)/)
-    -   [Firebase](/docs/articles/understanding-firebase/)
-    -   [Web Standards Checklist](/docs/articles/web-standards-checklist/)
-    -   [Web Developer Tools](/docs/articles/webdev-tools/)
-    -   [where-is-npm-pack](/docs/articles/node-cli-args/)
-    -   [Node Export Module](/docs/articles/node-env-variables/)
-    -   [The-package-lock.json-file](/docs/articles/node-repl/)
-    -   [node-cli-args](/docs/articles/node-run-cli/)
-    -   [packagejson](/docs/articles/node-js-language/)
-    -   [npm global or local packages](/docs/articles/v8/)
-    -   [Common Modules](/docs/articles/node-common-modules/)
-    -   [Node Buffers](/docs/articles/buffers/)
-    -   [Dev Dependencies](/docs/articles/dev-dep/)
-    -   [Fs-Module](/docs/articles/fs-module/)
-    -   [The Node.js Event Loop](/docs/articles/event-loop/)
-    -   [Install](/docs/articles/install/)
-    -   [Web Dev Review](/docs/articles/basic-web-dev/)
-    -   [module-exports](/docs/articles/module-exports/)
-    -   [Intro To Node](/docs/articles/intro/)
-    -   [Javascript and Node](/docs/articles/nodejs/)
-    -   [Node vs Browser](/docs/articles/nodevsbrowser/)
-    -   [The npx Node.js Package Runner](/docs/articles/npx/)
-    -   [Reading Files](/docs/articles/reading-files/)
-    -   [Semantic Versioning](/docs/articles/semantic/)
-    -   [OS-Module](/docs/articles/os-module/)
-    -   [Writing Files](/docs/articles/writing-files/)
-    -   [Node APIs With Express](/docs/articles/node-api-express/)
+  - [Job Search](/docs/about/job-search/)
+  - [Youtube](/docs/about/intrests/)
+  - [Resume](/docs/about/resume/)
+  - [Engineering Portfolio](/docs/about/eng-portfolio/)
+  - [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
 
--   [Audio](/docs/audio/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Audio](/docs/audio/audio/)
-    -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
-    -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
-    -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
-    -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
-    -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
+- [Articles](/docs/articles/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Community](/docs/community/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Video Chat](/docs/community/video-chat/)
+  - [The HTTP Protocol](/docs/articles/http/)
+  - [How The Web Works](/docs/articles/how-the-web-works/)
+  - [Sorting Algorithms](/docs/articles/node-package-manager/)
+  - [Introduction to npm](/docs/articles/npm/)
+  - [lorem-ipsum](/docs/articles/semantic-html/)
+  - [The Uniform Resource Locator (URL)](</docs/articles/the-uniform-resource-locator-(url)/>)
+  - [Firebase](/docs/articles/understanding-firebase/)
+  - [Web Standards Checklist](/docs/articles/web-standards-checklist/)
+  - [Web Developer Tools](/docs/articles/webdev-tools/)
+  - [where-is-npm-pack](/docs/articles/node-cli-args/)
+  - [Node Export Module](/docs/articles/node-env-variables/)
+  - [The-package-lock.json-file](/docs/articles/node-repl/)
+  - [node-cli-args](/docs/articles/node-run-cli/)
+  - [packagejson](/docs/articles/node-js-language/)
+  - [npm global or local packages](/docs/articles/v8/)
+  - [Common Modules](/docs/articles/node-common-modules/)
+  - [Node Buffers](/docs/articles/buffers/)
+  - [Dev Dependencies](/docs/articles/dev-dep/)
+  - [Fs-Module](/docs/articles/fs-module/)
+  - [The Node.js Event Loop](/docs/articles/event-loop/)
+  - [Install](/docs/articles/install/)
+  - [Web Dev Review](/docs/articles/basic-web-dev/)
+  - [module-exports](/docs/articles/module-exports/)
+  - [Intro To Node](/docs/articles/intro/)
+  - [Javascript and Node](/docs/articles/nodejs/)
+  - [Node vs Browser](/docs/articles/nodevsbrowser/)
+  - [The npx Node.js Package Runner](/docs/articles/npx/)
+  - [Reading Files](/docs/articles/reading-files/)
+  - [Semantic Versioning](/docs/articles/semantic/)
+  - [OS-Module](/docs/articles/os-module/)
+  - [Writing Files](/docs/articles/writing-files/)
+  - [Node APIs With Express](/docs/articles/node-api-express/)
 
--   [Content](/docs/content/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Lambda School Projects](/docs/content/lambda-projects/)
-    -   [Projects](/docs/content/projects/)
-    -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
-    -   [History API](/docs/content/history-api/)
-    -   [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
-    -   [Trouble Shooting](/docs/content/trouble-shooting/)
-    -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
-    -   [Archive](/docs/content/archive/)
-    -   [Embeded Websites & Projects](/docs/content/recent-projects/)
-    -   [Algorithms & Data Structures](/docs/content/algo/)
+- [Audio](/docs/audio/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Documentation](/docs/docs/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Apendix](/docs/docs/appendix/)
-    -   [lorem-ipsum](/docs/docs/bash/)
-    -   [Await](/docs/docs/await-keyword/)
-    -   [Data Structures Docs](/docs/docs/data-structures-docs/)
-    -   [Learn Css](/docs/docs/css/)
-    -   [Markdown](/docs/docs/markdown/)
-    -   [Git Repo List](/docs/docs/git-repos/)
-    -   [lorem-ipsum](/docs/docs/git-reference/)
-    -   [Sitemap](/docs/docs/sitemap/)
-    -   [Regular Expressions](/docs/docs/regex-in-js/)
-    -   [Useful Snippets](/docs/docs/content/)
-    -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
+  - [Audio](/docs/audio/audio/)
+  - [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
+  - [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
+  - [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
+  - [Discrete Fast Fourier Transform](/docs/audio/dfft/)
+  - [Fast Fourier Transform](/docs/audio/discrete-fft/)
 
--   [FAQ](/docs/faq/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Plug-ins](/docs/faq/plug-ins/)
-    -   [Contact!](/docs/faq/contact/)
+- [Community](/docs/community/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Javascript](/docs/javascript/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Javascript Concepts Review](/docs/javascript/review/)
-    -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
-    -   [Constructor Functions](/docs/javascript/constructor-functions/)
+  - [Video Chat](/docs/community/video-chat/)
 
--   [Interactive Examples](/docs/interact/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
-    -   [Callstack Visualizer](/docs/interact/callstack-visual/)
-    -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
-    -   [Clock](/docs/interact/clock/)
-    -   [Other Websites](/docs/interact/other-sites/)
+- [Content](/docs/content/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Medium](/docs/medium/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [My Sites](/docs/medium/my-websites/)
-    -   [Medium](/docs/medium/medium-links/)
+  - [Lambda School Projects](/docs/content/lambda-projects/)
+  - [Projects](/docs/content/projects/)
+  - [RECENT PROJECTS](/docs/content/data-structures-algo/)
+  - [History API](/docs/content/history-api/)
+  - [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
+  - [Trouble Shooting](/docs/content/trouble-shooting/)
+  - [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
+  - [Archive](/docs/content/archive/)
+  - [Embeded Websites & Projects](/docs/content/recent-projects/)
+  - [Algorithms & Data Structures](/docs/content/algo/)
 
--   [Quick Reference](/docs/quick-reference/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
-    -   [Git Bash](/docs/quick-reference/git-bash/)
-    -   [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
-    -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
-    -   [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
-    -   [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
-    -   [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
-    -   [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
-    -   [Quick Links](/docs/quick-reference/quick-links/)
-    -   [Understanding PATH](/docs/quick-reference/understanding-path/)
-    -   [Developer Resources](/docs/quick-reference/resources/)
-    -   [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
-    -   [Installation](/docs/quick-reference/installation/)
-    -   [Top Repos](/docs/quick-reference/topRepos/)
-    -   [Github Search](/docs/quick-reference/github-search/)
-    -   [Awesome Lists](/docs/quick-reference/awesome-lists/)
-    -   [new-repo-git](/docs/quick-reference/new-repo-instructions/)
-    -   [Notes Template](/docs/quick-reference/notes-template/)
-    -   [vscode](/docs/quick-reference/vscode/)
-    -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
-    -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
-    -   [vscode-themes](/docs/quick-reference/vscode-themes/)
+- [Documentation](/docs/docs/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [React](/docs/react/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [React Class Components Demo](/docs/react/demo/)
-    -   [React Cheat Sheets:](/docs/react/cheatsheet/)
-    -   [Introducing JSX](/docs/react/jsx/)
-    -   [Rendering Elements With React](/docs/react/render-elements/)
-    -   [React In Depth](/docs/react/react-in-depth/)
-    -   [Intro To React](/docs/react/react2/)
-    -   [React Docs](/docs/react/react-docs/)
-    -   [npx-create-react-app](/docs/react/createReactApp/)
+  - [Apendix](/docs/docs/appendix/)
+  - [lorem-ipsum](/docs/docs/bash/)
+  - [Await](/docs/docs/await-keyword/)
+  - [Data Structures Docs](/docs/docs/data-structures-docs/)
+  - [Learn Css](/docs/docs/css/)
+  - [Markdown](/docs/docs/markdown/)
+  - [Git Repo List](/docs/docs/git-repos/)
+  - [lorem-ipsum](/docs/docs/git-reference/)
+  - [Sitemap](/docs/docs/sitemap/)
+  - [Regular Expressions](/docs/docs/regex-in-js/)
+  - [Useful Snippets](/docs/docs/content/)
+  - [lorem-ipsum](/docs/docs/no-whiteboarding/)
 
--   [Tools](/docs/tools/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [more tools](/docs/tools/more-tools/)
-    -   [Data Structures](/docs/tools/data-structures/)
-    -   [General Utilities](/docs/tools/dev-utilities/)
-    -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
-    -   [md and html](/docs/tools/markdown-html/)
+- [FAQ](/docs/faq/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [My Python Docs](/docs/python/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [lorem-ipsum](/docs/python/functions/)
-    -   [lorem-ipsum](/docs/python/flow-control/)
-    -   [lorem-ipsum](/docs/python/basics/)
-    -   [lorem-ipsum](/docs/python/comprehensive-guide/)
-    -   [google-sheets-api](/docs/python/google-sheets-api/)
-    -   [Practice](/docs/python/examples/)
-    -   [lorem-ipsum](/docs/python/intro-for-js-devs/)
-    -   [Python General Notes](/docs/python/python-ds/)
-    -   [Python Cheat Sheet](/docs/python/cheat-sheet/)
-    -   [Python Snippets](/docs/python/snippets/)
-    -   [Python at length](/docs/python/at-length/)
+  - [Plug-ins](/docs/faq/plug-ins/)
+  - [Contact!](/docs/faq/contact/)
 
-lorem-ipsum
-===========
+- [Javascript](/docs/javascript/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
-Comprehensive Python Guide
---------------------------
+  - [Javascript Concepts Review](/docs/javascript/review/)
+  - [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
+  - [Constructor Functions](/docs/javascript/constructor-functions/)
 
--   [About](#about)
+- [Interactive Examples](/docs/interact/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
-    -   [Contribute](#contribute)
-    -   [Read It](#read-it)
-    -   [Python Cheatsheet](#python-cheatsheet)
-    -   [The Zen of Python](#the-zen-of-python)
-    -   [Python Basics](#python-basics)
-    -   [Math Operators](#math-operators)
-    -   [Data Types](#data-types)
-    -   [String Concatenation and Replication](#string-concatenation-and-replication)
-    -   [Variables](#variables)
-    -   [Comments](#comments)
-    -   [The print() Function](#the-print-function)
-    -   [The input() Function](#the-input-function)
-    -   [The len() Function](#the-len-function)
-    -   [The str(), int(), and float() Functions](#the-str-int-and-float-functions)
-    -   [Flow Control](#flow-control)
-    -   [Comparison Operators](#comparison-operators)
-    -   [Boolean evaluation](#boolean-evaluation)
-    -   [Boolean Operators](#boolean-operators)
-    -   [Mixing Boolean and Comparison Operators](#mixing-boolean-and-comparison-operators)
-    -   [if Statements](#if-statements)
-    -   [else Statements](#else-statements)
-    -   [elif Statements](#elif-statements)
-    -   [while Loop Statements](#while-loop-statements)
-    -   [break Statements](#break-statements)
-    -   [continue Statements](#continue-statements)
-    -   [for Loops and the range() Function](#for-loops-and-the-range-function)
-    -   [For else statement](#for-else-statement)
-    -   [Importing Modules](#importing-modules)
-    -   [Ending a Program Early with sys.exit()](#ending-a-program-early-with-sysexit)
-    -   [Functions](#functions)
-    -   [Return Values and return Statements](#return-values-and-return-statements)
-    -   [The None Value](#the-none-value)
-    -   [Keyword Arguments and print()](#keyword-arguments-and-print)
-    -   [Local and Global Scope](#local-and-global-scope)
-    -   [The global Statement](#the-global-statement)
-    -   [Exception Handling](#exception-handling)
-    -   [Basic exception handling](#basic-exception-handling)
-    -   [Final code in exception handling](#final-code-in-exception-handling)
-    -   [Lists](#lists)
-    -   [Getting Individual Values in a List with Indexes](#getting-individual-values-in-a-list-with-indexes)
-    -   [Negative Indexes](#negative-indexes)
-    -   [Getting Sublists with Slices](#getting-sublists-with-slices)
-    -   [Getting a List’s Length with len()](#getting-a-lists-length-with-len)
-    -   [Changing Values in a List with Indexes](#changing-values-in-a-list-with-indexes)
-    -   [List Concatenation and List Replication](#list-concatenation-and-list-replication)
-    -   [Removing Values from Lists with del Statements](#removing-values-from-lists-with-del-statements)
-    -   [Using for Loops with Lists](#using-for-loops-with-lists)
-    -   [Looping Through Multiple Lists with zip()](#looping-through-multiple-lists-with-zip)
-    -   [The in and not in Operators](#the-in-and-not-in-operators)
-    -   [The Multiple Assignment Trick](#the-multiple-assignment-trick)
-    -   [Augmented Assignment Operators](#augmented-assignment-operators)
-    -   [Finding a Value in a List with the index() Method](#finding-a-value-in-a-list-with-the-index-method)
-    -   [Adding Values to Lists with the append() and insert() Methods](#adding-values-to-lists-with-the-append-and-insert-methods)
-    -   [Removing Values from Lists with remove()](#removing-values-from-lists-with-remove)
-    -   [Removing Values from Lists with pop()](#removing-values-from-lists-with-pop)
-    -   [Sorting the Values in a List with the sort() Method](#sorting-the-values-in-a-list-with-the-sort-method)
-    -   [Tuple Data Type](#tuple-data-type)
-    -   [Converting Types with the list() and tuple() Functions](#converting-types-with-the-list-and-tuple-functions)
-    -   [Dictionaries and Structuring Data](#dictionaries-and-structuring-data)
-    -   [The keys(), values(), and items() Methods](#the-keys-values-and-items-methods)
-    -   [Checking Whether a Key or Value Exists in a Dictionary](#checking-whether-a-key-or-value-exists-in-a-dictionary)
-    -   [The get() Method](#the-get-method)
-    -   [The setdefault() Method](#the-setdefault-method)
-    -   [Pretty Printing](#pretty-printing)
-    -   [Merge two dictionaries](#merge-two-dictionaries)
-    -   [sets](#sets)
-    -   [Initializing a set](#initializing-a-set)
-    -   [sets: unordered collections of unique elements](#sets-unordered-collections-of-unique-elements)
-    -   [set add() and update()](#set-add-and-update)
-    -   [set remove() and discard()](#set-remove-and-discard)
-    -   [set union()](#set-union)
-    -   [set intersection](#set-intersection)
-    -   [set difference](#set-difference)
-    -   [set symetric\_difference](#set-symetric_difference)
-    -   [itertools Module](#itertools-module)
-    -   [accumulate()](#accumulate)
-    -   [combinations()](#combinations)
-    -   [combinations*with*replacement()](#combinations_with_replacement)
-    -   [count()](#count)
-    -   [cycle()](#cycle)
-    -   [chain()](#chain)
-    -   [compress()](#compress)
-    -   [dropwhile()](#dropwhile)
-    -   [filterfalse()](#filterfalse)
-    -   [groupby()](#groupby)
-    -   [islice()](#islice)
-    -   [permutations()](#permutations)
-    -   [product()](#product)
-    -   [repeat()](#repeat)
-    -   [starmap()](#starmap)
-    -   [takewhile()](#takewhile)
-    -   [tee()](#tee)
-    -   [zip\_longest()](#zip_longest)
-    -   [Comprehensions](#comprehensions)
-    -   [List comprehension](#list-comprehension)
-    -   [Set comprehension](#set-comprehension)
-    -   [Dict comprehension](#dict-comprehension)
-    -   [Manipulating Strings](#manipulating-strings)
-    -   [Escape Characters](#escape-characters)
-    -   [Raw Strings](#raw-strings)
-    -   [Multiline Strings with Triple Quotes](#multiline-strings-with-triple-quotes)
-    -   [Indexing and Slicing Strings](#indexing-and-slicing-strings)
-    -   [The in and not in Operators with Strings](#the-in-and-not-in-operators-with-strings)
-    -   [The in and not in Operators with list](#the-in-and-not-in-operators-with-list)
-    -   [The upper(), lower(), isupper(), and islower() String Methods](#the-upper-lower-isupper-and-islower-string-methods)
-    -   [The isX String Methods](#the-isx-string-methods)
-    -   [The startswith() and endswith() String Methods](#the-startswith-and-endswith-string-methods)
-    -   [The join() and split() String Methods](#the-join-and-split-string-methods)
-    -   [Justifying Text with rjust(), ljust(), and center()](#justifying-text-with-rjust-ljust-and-center)
-    -   [Removing Whitespace with strip(), rstrip(), and lstrip()](#removing-whitespace-with-strip-rstrip-and-lstrip)
-    -   [Copying and Pasting Strings with the pyperclip Module (need pip install)](#copying-and-pasting-strings-with-the-pyperclip-module-need-pip-install)
-    -   [String Formatting](#string-formatting)
-    -   [% operator](#-operator)
-    -   [String Formatting (str.format)](#string-formatting-strformat)
-    -   [Lazy string formatting](#lazy-string-formatting)
-    -   [Formatted String Literals or f-strings (Python 3.6+)](#formatted-string-literals-or-f-strings-python-36)
-    -   [Template Strings](#template-strings)
-    -   [Regular Expressions](#regular-expressions)
-    -   [Matching Regex Objects](#matching-regex-objects)
-    -   [Grouping with Parentheses](#grouping-with-parentheses)
-    -   [Matching Multiple Groups with the Pipe](#matching-multiple-groups-with-the-pipe)
-    -   [Optional Matching with the Question Mark](#optional-matching-with-the-question-mark)
-    -   [Matching Zero or More with the Star](#matching-zero-or-more-with-the-star)
-    -   [Matching One or More with the Plus](#matching-one-or-more-with-the-plus)
-    -   [Matching Specific Repetitions with Curly Brackets](#matching-specific-repetitions-with-curly-brackets)
-    -   [Greedy and Nongreedy Matching](#greedy-and-nongreedy-matching)
-    -   [The findall() Method](#the-findall-method)
-    -   [Making Your Own Character Classes](#making-your-own-character-classes)
-    -   [The Caret and Dollar Sign Characters](#the-caret-and-dollar-sign-characters)
-    -   [The Wildcard Character](#the-wildcard-character)
-    -   [Matching Everything with Dot-Star](#matching-everything-with-dot-star)
-    -   [Matching Newlines with the Dot Character](#matching-newlines-with-the-dot-character)
-    -   [Review of Regex Symbols](#review-of-regex-symbols)
-    -   [Case-Insensitive Matching](#case-insensitive-matching)
-    -   [Substituting Strings with the sub() Method](#substituting-strings-with-the-sub-method)
-    -   [Managing Complex Regexes](#managing-complex-regexes)
-    -   [Handling File and Directory Paths](#handling-file-and-directory-paths)
-    -   [Backslash on Windows and Forward Slash on OS X and Linux](#backslash-on-windows-and-forward-slash-on-os-x-and-linux)
-    -   [The Current Working Directory](#the-current-working-directory)
-    -   [Creating New Folders](#creating-new-folders)
-    -   [Absolute vs. Relative Paths](#absolute-vs-relative-paths)
-    -   [Handling Absolute and Relative Paths](#handling-absolute-and-relative-paths)
-    -   [Checking Path Validity](#checking-path-validity)
-    -   [Finding File Sizes and Folder Contents](#finding-file-sizes-and-folder-contents)
-    -   [Copying Files and Folders](#copying-files-and-folders)
-    -   [Moving and Renaming Files and Folders](#moving-and-renaming-files-and-folders)
-    -   [Permanently Deleting Files and Folders](#permanently-deleting-files-and-folders)
-    -   [Safe Deletes with the send2trash Module](#safe-deletes-with-the-send2trash-module)
-    -   [Walking a Directory Tree](#walking-a-directory-tree)
-    -   [Reading and Writing Files](#reading-and-writing-files)
-    -   [The File Reading/Writing Process](#the-file-readingwriting-process)
-    -   [Opening and reading files with the open() function](#opening-and-reading-files-with-the-open-function)
-    -   [Writing to Files](#writing-to-files)
-    -   [Saving Variables with the shelve Module](#saving-variables-with-the-shelve-module)
-    -   [Saving Variables with the pprint.pformat() Function](#saving-variables-with-the-pprintpformat-function)
-    -   [Reading ZIP Files](#reading-zip-files)
-    -   [Extracting from ZIP Files](#extracting-from-zip-files)
-    -   [Creating and Adding to ZIP Files](#creating-and-adding-to-zip-files)
-    -   [JSON, YAML and configuration files](#json-yaml-and-configuration-files)
-    -   [JSON](#json)
-    -   [YAML](#yaml)
-    -   [Anyconfig](#anyconfig)
-    -   [Debugging](#debugging)
-    -   [Raising Exceptions](#raising-exceptions)
-    -   [Getting the Traceback as a String](#getting-the-traceback-as-a-string)
-    -   [Assertions](#assertions)
-    -   [Logging](#logging)
-    -   [Logging Levels](#logging-levels)
-    -   [Disabling Logging](#disabling-logging)
-    -   [Logging to a File](#logging-to-a-file)
-    -   [Lambda Functions](#lambda-functions)
-    -   [Ternary Conditional Operator](#ternary-conditional-operator)
-    -   [args and kwargs](#args-and-kwargs)
-    -   [Things to Remember(args)](#things-to-rememberargs)
-    -   [Things to Remember(kwargs)](#things-to-rememberkwargs)
-    -   [Context Manager](#context-manager)
-    -   [with statement](#with-statement)
-    -   [Writing your own contextmanager using generator syntax](#writing-your-own-contextmanager-using-generator-syntax)
-    -   [`__main__` Top-level script environment](#__main__-top-level-script-environment)
-    -   [Advantages](#advantages)
-    -   [setup.py](#setuppy)
-    -   [Dataclasses](#dataclasses)
-    -   [Features](#features)
-    -   [Default values](#default-values)
-    -   [Type hints](#type-hints)
-    -   [Virtual Environment](#virtual-environment)
-    -   [virtualenv](#virtualenv)
-    -   [poetry](#poetry)
-    -   [pipenv](#pipenv)
-    -   [anaconda](#anaconda)
+  - [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
+  - [Callstack Visualizer](/docs/interact/callstack-visual/)
+  - [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
+  - [Clock](/docs/interact/clock/)
+  - [Other Websites](/docs/interact/other-sites/)
 
-The Zen of Python
------------------
+- [Medium](/docs/medium/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+
+  - [My Sites](/docs/medium/my-websites/)
+  - [Medium](/docs/medium/medium-links/)
+
+- [Quick Reference](/docs/quick-reference/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+
+  - [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
+  - [Git Bash](/docs/quick-reference/git-bash/)
+  - [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
+  - [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
+  - [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
+  - [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
+  - [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
+  - [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
+  - [Quick Links](/docs/quick-reference/quick-links/)
+  - [Understanding PATH](/docs/quick-reference/understanding-path/)
+  - [Developer Resources](/docs/quick-reference/resources/)
+  - [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
+  - [Installation](/docs/quick-reference/installation/)
+  - [Top Repos](/docs/quick-reference/topRepos/)
+  - [Github Search](/docs/quick-reference/github-search/)
+  - [Awesome Lists](/docs/quick-reference/awesome-lists/)
+  - [new-repo-git](/docs/quick-reference/new-repo-instructions/)
+  - [Notes Template](/docs/quick-reference/notes-template/)
+  - [vscode](/docs/quick-reference/vscode/)
+  - [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
+  - [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
+  - [vscode-themes](/docs/quick-reference/vscode-themes/)
+
+- [React](/docs/react/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+
+  - [React Class Components Demo](/docs/react/demo/)
+  - [React Cheat Sheets:](/docs/react/cheatsheet/)
+  - [Introducing JSX](/docs/react/jsx/)
+  - [Rendering Elements With React](/docs/react/render-elements/)
+  - [React In Depth](/docs/react/react-in-depth/)
+  - [Intro To React](/docs/react/react2/)
+  - [React Docs](/docs/react/react-docs/)
+  - [npx-create-react-app](/docs/react/createReactApp/)
+
+- [Tools](/docs/tools/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+
+  - [more tools](/docs/tools/more-tools/)
+  - [Data Structures](/docs/tools/data-structures/)
+  - [General Utilities](/docs/tools/dev-utilities/)
+  - [The google cloud cheat sheet](/docs/tools/cloudstorage/)
+  - [md and html](/docs/tools/markdown-html/)
+
+- [My Python Docs](/docs/python/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+  - [lorem-ipsum](/docs/python/functions/)
+  - [lorem-ipsum](/docs/python/flow-control/)
+  - [lorem-ipsum](/docs/python/basics/)
+  - [lorem-ipsum](/docs/python/comprehensive-guide/)
+  - [google-sheets-api](/docs/python/google-sheets-api/)
+  - [Practice](/docs/python/examples/)
+  - [lorem-ipsum](/docs/python/intro-for-js-devs/)
+  - [Python General Notes](/docs/python/python-ds/)
+  - [Python Cheat Sheet](/docs/python/cheat-sheet/)
+  - [Python Snippets](/docs/python/snippets/)
+  - [Python at length](/docs/python/at-length/)
+
+# lorem-ipsum
+
+## Comprehensive Python Guide
+
+- [About](#about)
+
+  - [Contribute](#contribute)
+  - [Read It](#read-it)
+  - [Python Cheatsheet](#python-cheatsheet)
+  - [The Zen of Python](#the-zen-of-python)
+  - [Python Basics](#python-basics)
+  - [Math Operators](#math-operators)
+  - [Data Types](#data-types)
+  - [String Concatenation and Replication](#string-concatenation-and-replication)
+  - [Variables](#variables)
+  - [Comments](#comments)
+  - [The print() Function](#the-print-function)
+  - [The input() Function](#the-input-function)
+  - [The len() Function](#the-len-function)
+  - [The str(), int(), and float() Functions](#the-str-int-and-float-functions)
+  - [Flow Control](#flow-control)
+  - [Comparison Operators](#comparison-operators)
+  - [Boolean evaluation](#boolean-evaluation)
+  - [Boolean Operators](#boolean-operators)
+  - [Mixing Boolean and Comparison Operators](#mixing-boolean-and-comparison-operators)
+  - [if Statements](#if-statements)
+  - [else Statements](#else-statements)
+  - [elif Statements](#elif-statements)
+  - [while Loop Statements](#while-loop-statements)
+  - [break Statements](#break-statements)
+  - [continue Statements](#continue-statements)
+  - [for Loops and the range() Function](#for-loops-and-the-range-function)
+  - [For else statement](#for-else-statement)
+  - [Importing Modules](#importing-modules)
+  - [Ending a Program Early with sys.exit()](#ending-a-program-early-with-sysexit)
+  - [Functions](#functions)
+  - [Return Values and return Statements](#return-values-and-return-statements)
+  - [The None Value](#the-none-value)
+  - [Keyword Arguments and print()](#keyword-arguments-and-print)
+  - [Local and Global Scope](#local-and-global-scope)
+  - [The global Statement](#the-global-statement)
+  - [Exception Handling](#exception-handling)
+  - [Basic exception handling](#basic-exception-handling)
+  - [Final code in exception handling](#final-code-in-exception-handling)
+  - [Lists](#lists)
+  - [Getting Individual Values in a List with Indexes](#getting-individual-values-in-a-list-with-indexes)
+  - [Negative Indexes](#negative-indexes)
+  - [Getting Sublists with Slices](#getting-sublists-with-slices)
+  - [Getting a List’s Length with len()](#getting-a-lists-length-with-len)
+  - [Changing Values in a List with Indexes](#changing-values-in-a-list-with-indexes)
+  - [List Concatenation and List Replication](#list-concatenation-and-list-replication)
+  - [Removing Values from Lists with del Statements](#removing-values-from-lists-with-del-statements)
+  - [Using for Loops with Lists](#using-for-loops-with-lists)
+  - [Looping Through Multiple Lists with zip()](#looping-through-multiple-lists-with-zip)
+  - [The in and not in Operators](#the-in-and-not-in-operators)
+  - [The Multiple Assignment Trick](#the-multiple-assignment-trick)
+  - [Augmented Assignment Operators](#augmented-assignment-operators)
+  - [Finding a Value in a List with the index() Method](#finding-a-value-in-a-list-with-the-index-method)
+  - [Adding Values to Lists with the append() and insert() Methods](#adding-values-to-lists-with-the-append-and-insert-methods)
+  - [Removing Values from Lists with remove()](#removing-values-from-lists-with-remove)
+  - [Removing Values from Lists with pop()](#removing-values-from-lists-with-pop)
+  - [Sorting the Values in a List with the sort() Method](#sorting-the-values-in-a-list-with-the-sort-method)
+  - [Tuple Data Type](#tuple-data-type)
+  - [Converting Types with the list() and tuple() Functions](#converting-types-with-the-list-and-tuple-functions)
+  - [Dictionaries and Structuring Data](#dictionaries-and-structuring-data)
+  - [The keys(), values(), and items() Methods](#the-keys-values-and-items-methods)
+  - [Checking Whether a Key or Value Exists in a Dictionary](#checking-whether-a-key-or-value-exists-in-a-dictionary)
+  - [The get() Method](#the-get-method)
+  - [The setdefault() Method](#the-setdefault-method)
+  - [Pretty Printing](#pretty-printing)
+  - [Merge two dictionaries](#merge-two-dictionaries)
+  - [sets](#sets)
+  - [Initializing a set](#initializing-a-set)
+  - [sets: unordered collections of unique elements](#sets-unordered-collections-of-unique-elements)
+  - [set add() and update()](#set-add-and-update)
+  - [set remove() and discard()](#set-remove-and-discard)
+  - [set union()](#set-union)
+  - [set intersection](#set-intersection)
+  - [set difference](#set-difference)
+  - [set symetric_difference](#set-symetric_difference)
+  - [itertools Module](#itertools-module)
+  - [accumulate()](#accumulate)
+  - [combinations()](#combinations)
+  - [combinations*with*replacement()](#combinations_with_replacement)
+  - [count()](#count)
+  - [cycle()](#cycle)
+  - [chain()](#chain)
+  - [compress()](#compress)
+  - [dropwhile()](#dropwhile)
+  - [filterfalse()](#filterfalse)
+  - [groupby()](#groupby)
+  - [islice()](#islice)
+  - [permutations()](#permutations)
+  - [product()](#product)
+  - [repeat()](#repeat)
+  - [starmap()](#starmap)
+  - [takewhile()](#takewhile)
+  - [tee()](#tee)
+  - [zip_longest()](#zip_longest)
+  - [Comprehensions](#comprehensions)
+  - [List comprehension](#list-comprehension)
+  - [Set comprehension](#set-comprehension)
+  - [Dict comprehension](#dict-comprehension)
+  - [Manipulating Strings](#manipulating-strings)
+  - [Escape Characters](#escape-characters)
+  - [Raw Strings](#raw-strings)
+  - [Multiline Strings with Triple Quotes](#multiline-strings-with-triple-quotes)
+  - [Indexing and Slicing Strings](#indexing-and-slicing-strings)
+  - [The in and not in Operators with Strings](#the-in-and-not-in-operators-with-strings)
+  - [The in and not in Operators with list](#the-in-and-not-in-operators-with-list)
+  - [The upper(), lower(), isupper(), and islower() String Methods](#the-upper-lower-isupper-and-islower-string-methods)
+  - [The isX String Methods](#the-isx-string-methods)
+  - [The startswith() and endswith() String Methods](#the-startswith-and-endswith-string-methods)
+  - [The join() and split() String Methods](#the-join-and-split-string-methods)
+  - [Justifying Text with rjust(), ljust(), and center()](#justifying-text-with-rjust-ljust-and-center)
+  - [Removing Whitespace with strip(), rstrip(), and lstrip()](#removing-whitespace-with-strip-rstrip-and-lstrip)
+  - [Copying and Pasting Strings with the pyperclip Module (need pip install)](#copying-and-pasting-strings-with-the-pyperclip-module-need-pip-install)
+  - [String Formatting](#string-formatting)
+  - [% operator](#-operator)
+  - [String Formatting (str.format)](#string-formatting-strformat)
+  - [Lazy string formatting](#lazy-string-formatting)
+  - [Formatted String Literals or f-strings (Python 3.6+)](#formatted-string-literals-or-f-strings-python-36)
+  - [Template Strings](#template-strings)
+  - [Regular Expressions](#regular-expressions)
+  - [Matching Regex Objects](#matching-regex-objects)
+  - [Grouping with Parentheses](#grouping-with-parentheses)
+  - [Matching Multiple Groups with the Pipe](#matching-multiple-groups-with-the-pipe)
+  - [Optional Matching with the Question Mark](#optional-matching-with-the-question-mark)
+  - [Matching Zero or More with the Star](#matching-zero-or-more-with-the-star)
+  - [Matching One or More with the Plus](#matching-one-or-more-with-the-plus)
+  - [Matching Specific Repetitions with Curly Brackets](#matching-specific-repetitions-with-curly-brackets)
+  - [Greedy and Nongreedy Matching](#greedy-and-nongreedy-matching)
+  - [The findall() Method](#the-findall-method)
+  - [Making Your Own Character Classes](#making-your-own-character-classes)
+  - [The Caret and Dollar Sign Characters](#the-caret-and-dollar-sign-characters)
+  - [The Wildcard Character](#the-wildcard-character)
+  - [Matching Everything with Dot-Star](#matching-everything-with-dot-star)
+  - [Matching Newlines with the Dot Character](#matching-newlines-with-the-dot-character)
+  - [Review of Regex Symbols](#review-of-regex-symbols)
+  - [Case-Insensitive Matching](#case-insensitive-matching)
+  - [Substituting Strings with the sub() Method](#substituting-strings-with-the-sub-method)
+  - [Managing Complex Regexes](#managing-complex-regexes)
+  - [Handling File and Directory Paths](#handling-file-and-directory-paths)
+  - [Backslash on Windows and Forward Slash on OS X and Linux](#backslash-on-windows-and-forward-slash-on-os-x-and-linux)
+  - [The Current Working Directory](#the-current-working-directory)
+  - [Creating New Folders](#creating-new-folders)
+  - [Absolute vs. Relative Paths](#absolute-vs-relative-paths)
+  - [Handling Absolute and Relative Paths](#handling-absolute-and-relative-paths)
+  - [Checking Path Validity](#checking-path-validity)
+  - [Finding File Sizes and Folder Contents](#finding-file-sizes-and-folder-contents)
+  - [Copying Files and Folders](#copying-files-and-folders)
+  - [Moving and Renaming Files and Folders](#moving-and-renaming-files-and-folders)
+  - [Permanently Deleting Files and Folders](#permanently-deleting-files-and-folders)
+  - [Safe Deletes with the send2trash Module](#safe-deletes-with-the-send2trash-module)
+  - [Walking a Directory Tree](#walking-a-directory-tree)
+  - [Reading and Writing Files](#reading-and-writing-files)
+  - [The File Reading/Writing Process](#the-file-readingwriting-process)
+  - [Opening and reading files with the open() function](#opening-and-reading-files-with-the-open-function)
+  - [Writing to Files](#writing-to-files)
+  - [Saving Variables with the shelve Module](#saving-variables-with-the-shelve-module)
+  - [Saving Variables with the pprint.pformat() Function](#saving-variables-with-the-pprintpformat-function)
+  - [Reading ZIP Files](#reading-zip-files)
+  - [Extracting from ZIP Files](#extracting-from-zip-files)
+  - [Creating and Adding to ZIP Files](#creating-and-adding-to-zip-files)
+  - [JSON, YAML and configuration files](#json-yaml-and-configuration-files)
+  - [JSON](#json)
+  - [YAML](#yaml)
+  - [Anyconfig](#anyconfig)
+  - [Debugging](#debugging)
+  - [Raising Exceptions](#raising-exceptions)
+  - [Getting the Traceback as a String](#getting-the-traceback-as-a-string)
+  - [Assertions](#assertions)
+  - [Logging](#logging)
+  - [Logging Levels](#logging-levels)
+  - [Disabling Logging](#disabling-logging)
+  - [Logging to a File](#logging-to-a-file)
+  - [Lambda Functions](#lambda-functions)
+  - [Ternary Conditional Operator](#ternary-conditional-operator)
+  - [args and kwargs](#args-and-kwargs)
+  - [Things to Remember(args)](#things-to-rememberargs)
+  - [Things to Remember(kwargs)](#things-to-rememberkwargs)
+  - [Context Manager](#context-manager)
+  - [with statement](#with-statement)
+  - [Writing your own contextmanager using generator syntax](#writing-your-own-contextmanager-using-generator-syntax)
+  - [`__main__` Top-level script environment](#__main__-top-level-script-environment)
+  - [Advantages](#advantages)
+  - [setup.py](#setuppy)
+  - [Dataclasses](#dataclasses)
+  - [Features](#features)
+  - [Default values](#default-values)
+  - [Type hints](#type-hints)
+  - [Virtual Environment](#virtual-environment)
+  - [virtualenv](#virtualenv)
+  - [poetry](#poetry)
+  - [pipenv](#pipenv)
+  - [anaconda](#anaconda)
+
+## The Zen of Python
 
 From the [PEP 20 -- The Zen of Python](https://www.python.org/dev/peps/pep-0020/):
 
@@ -467,10 +481,9 @@ From the [PEP 20 -- The Zen of Python](https://www.python.org/dev/peps/pep-0020/
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Python Basics
--------------
+## Python Basics
 
 ### Math Operators
 
@@ -498,13 +511,13 @@ Examples of expressions in the interactive shell:
     >>> (5 - 1) * ((7 + 1) / (3 - 1))
     16.0
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Data Types
 
 <table><thead><tr class="header"><th>Data Type</th><th>Examples</th></tr></thead><tbody><tr class="odd"><td>Integers</td><td><code>-2, -1, 0, 1, 2, 3, 4, 5</code></td></tr><tr class="even"><td>Floating-point numbers</td><td><code>-1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25</code></td></tr><tr class="odd"><td>Strings</td><td><code>'a', 'aa', 'aaa', 'Hello!', '11 cats'</code></td></tr></tbody></table>
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### String Concatenation and Replication
 
@@ -520,7 +533,7 @@ String Replication:
     >>> 'Alice' * 5
     'AliceAliceAliceAliceAlice'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Variables
 
@@ -541,7 +554,7 @@ Example:
 
 `_spam` should not be used again in the code.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Comments
 
@@ -569,7 +582,7 @@ Function docstring:
         ''' Function Docstring '''
         """
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The print() Function
 
@@ -580,7 +593,7 @@ Function docstring:
     >>> print('Hello world!', a)
     Hello world! 1
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The input() Function
 
@@ -593,7 +606,7 @@ Example Code:
     Al
     It is good to meet you, Al
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The len() Function
 
@@ -608,7 +621,7 @@ Note: test of emptiness of strings, lists, dictionary, etc, should **not** use l
     >>> if a:
     >>>     print("the list is not empty!")
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The str(), int(), and float() Functions
 
@@ -631,10 +644,9 @@ Float to Integer:
     >>> int(7.7) + 1
     8
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Flow Control
-------------
+## Flow Control
 
 ### Comparison Operators
 
@@ -703,25 +715,25 @@ And these as well:
     >>> if not a:
     >>>    pass
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Boolean Operators
 
 There are three Boolean operators: and, or, and not.
 
-The *and* Operator’s *Truth* Table:
+The _and_ Operator’s _Truth_ Table:
 
 <table><thead><tr class="header"><th>Expression</th><th>Evaluates to</th></tr></thead><tbody><tr class="odd"><td><code>True and True</code></td><td><code>True</code></td></tr><tr class="even"><td><code>True and False</code></td><td><code>False</code></td></tr><tr class="odd"><td><code>False and True</code></td><td><code>False</code></td></tr><tr class="even"><td><code>False and False</code></td><td><code>False</code></td></tr></tbody></table>
 
-The *or* Operator’s *Truth* Table:
+The _or_ Operator’s _Truth_ Table:
 
 <table><thead><tr class="header"><th>Expression</th><th>Evaluates to</th></tr></thead><tbody><tr class="odd"><td><code>True or True</code></td><td><code>True</code></td></tr><tr class="even"><td><code>True or False</code></td><td><code>True</code></td></tr><tr class="odd"><td><code>False or True</code></td><td><code>True</code></td></tr><tr class="even"><td><code>False or False</code></td><td><code>False</code></td></tr></tbody></table>
 
-The *not* Operator’s *Truth* Table:
+The _not_ Operator’s _Truth_ Table:
 
 <table><thead><tr class="header"><th>Expression</th><th>Evaluates to</th></tr></thead><tbody><tr class="odd"><td><code>not True</code></td><td><code>False</code></td></tr><tr class="even"><td><code>not False</code></td><td><code>True</code></td></tr></tbody></table>
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Mixing Boolean and Comparison Operators
 
@@ -739,14 +751,14 @@ You can also use multiple Boolean operators in an expression, along with the com
     >>> 2 + 2 == 4 and not 2 + 2 == 5 and 2 * 2 == 2 + 2
     True
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### if Statements
 
     if name == 'Alice':
         print('Hi, Alice.')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### else Statements
 
@@ -756,7 +768,7 @@ You can also use multiple Boolean operators in an expression, along with the com
     else:
         print('Hello, stranger.')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### elif Statements
 
@@ -776,7 +788,7 @@ You can also use multiple Boolean operators in an expression, along with the com
     else:
         print('You are neither Alice nor a little kid.')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### while Loop Statements
 
@@ -785,7 +797,7 @@ You can also use multiple Boolean operators in an expression, along with the com
         print('Hello, world.')
         spam = spam + 1
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### break Statements
 
@@ -798,7 +810,7 @@ If the execution reaches a break statement, it immediately exits the while loop�
             break
     print('Thank you!')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### continue Statements
 
@@ -815,7 +827,7 @@ When the program execution reaches a continue statement, the program execution i
             break
     print('Access granted.')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### for Loops and the range() Function
 
@@ -829,7 +841,7 @@ When the program execution reaches a continue statement, the program execution i
     Jimmy Five Times (3)
     Jimmy Five Times (4)
 
-The *range()* function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument. The step is the amount that the variable is increased by after each iteration.
+The _range()_ function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument. The step is the amount that the variable is increased by after each iteration.
 
     >>> for i in range(0, 10, 2):
     >>>    print(i)
@@ -860,7 +872,7 @@ This allows to specify a statement to execute in case of the full loop has been 
     >>> else:
     >>>    print("only executed when no item of the list is equal to 3")
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Importing Modules
 
@@ -872,7 +884,7 @@ This allows to specify a statement to execute in case of the full loop has been 
 
     from random import *
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Ending a Program Early with sys.exit()
 
@@ -885,10 +897,9 @@ This allows to specify a statement to execute in case of the full loop has been 
             sys.exit()
         print('You typed {}.'.format(response))
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Functions
----------
+## Functions
 
     >>> def hello(name):
     >>>     print('Hello {}'.format(name))
@@ -898,14 +909,14 @@ Functions
     Hello Alice
     Hello Bob
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Return Values and return Statements
 
 When creating a function using the def statement, you can specify what the return value should be with a return statement. A return statement consists of the following:
 
--   The return keyword.
--   The value or expression that the function should return.
+- The return keyword.
+- The value or expression that the function should return.
 
 <!-- -->
 
@@ -934,7 +945,7 @@ When creating a function using the def statement, you can specify what the retur
     fortune = getAnswer(r)
     print(fortune)
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The None Value
 
@@ -946,7 +957,7 @@ When creating a function using the def statement, you can specify what the retur
 
 Note: never compare to `None` with the `==` operator. Always use `is`.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Keyword Arguments and print()
 
@@ -960,16 +971,16 @@ Note: never compare to `None` with the `==` operator. Always use `is`.
     >>> print('cats', 'dogs', 'mice', sep=',')
     cats,dogs,mice
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Local and Global Scope
 
--   Code in the global scope cannot use any local variables.
--   However, a local scope can access global variables.
--   Code in a function’s local scope cannot use variables in any other local scope.
--   You can use the same name for different variables if they are in different scopes. That is, there can be a local variable named spam and a global variable also named spam.
+- Code in the global scope cannot use any local variables.
+- However, a local scope can access global variables.
+- Code in a function’s local scope cannot use variables in any other local scope.
+- You can use the same name for different variables if they are in different scopes. That is, there can be a local variable named spam and a global variable also named spam.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The global Statement
 
@@ -991,10 +1002,9 @@ There are four rules to tell whether a variable is in a local scope or global sc
 3.  Otherwise, if the variable is used in an assignment statement in the function, it is a local variable.
 4.  But if the variable is not used in an assignment statement, it is a global variable.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Exception Handling
-------------------
+## Exception Handling
 
 ### Basic exception handling
 
@@ -1014,7 +1024,7 @@ Exception Handling
     None
     42.0
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Final code in exception handling
 
@@ -1041,17 +1051,16 @@ Code inside the `finally` section is always executed, no matter if an exception 
     -- division finished --
     42.0
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Lists
------
+## Lists
 
     >>> spam = ['cat', 'bat', 'rat', 'elephant']
 
     >>> spam
     ['cat', 'bat', 'rat', 'elephant']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Getting Individual Values in a List with Indexes
 
@@ -1068,7 +1077,7 @@ Lists
     >>> spam[3]
     'elephant'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Negative Indexes
 
@@ -1082,7 +1091,7 @@ Lists
     >>> 'The {} is afraid of the {}.'.format(spam[-1], spam[-3])
     'The elephant is afraid of the bat.'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Getting Sublists with Slices
 
@@ -1113,7 +1122,7 @@ Slicing the complete list will perform a copy:
     >>> spam2
     ['cat', 'bat', 'rat', 'elephant']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Getting a List’s Length with len()
 
@@ -1121,7 +1130,7 @@ Slicing the complete list will perform a copy:
     >>> len(spam)
     3
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Changing Values in a List with Indexes
 
@@ -1141,7 +1150,7 @@ Slicing the complete list will perform a copy:
     >>> spam
     ['cat', 'aardvark', 'aardvark', 12345]
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### List Concatenation and List Replication
 
@@ -1158,7 +1167,7 @@ Slicing the complete list will perform a copy:
     >>> spam
     [1, 2, 3, 'A', 'B', 'C']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Removing Values from Lists with del Statements
 
@@ -1171,7 +1180,7 @@ Slicing the complete list will perform a copy:
     >>> spam
     ['cat', 'bat']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Using for Loops with Lists
 
@@ -1183,7 +1192,7 @@ Slicing the complete list will perform a copy:
     Index 2 in supplies is: flame-throwers
     Index 3 in supplies is: binders
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Looping Through Multiple Lists with zip()
 
@@ -1210,7 +1219,7 @@ Slicing the complete list will perform a copy:
     >>> 'cat' not in spam
     True
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The Multiple Assignment Trick
 
@@ -1240,7 +1249,7 @@ The multiple assignment trick can also be used to swap the values in two variabl
     >>> print(b)
     'Alice'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Augmented Assignment Operators
 
@@ -1258,7 +1267,7 @@ Examples:
     >>> bacon
     ['Zophie', 'Zophie', 'Zophie']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Finding a Value in a List with the index() Method
 
@@ -1267,7 +1276,7 @@ Examples:
     >>> spam.index('Pooka')
     1
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Adding Values to Lists with the append() and insert() Methods
 
@@ -1289,7 +1298,7 @@ Examples:
     >>> spam
     ['cat', 'chicken', 'dog', 'bat']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Removing Values from Lists with remove()
 
@@ -1302,7 +1311,7 @@ Examples:
 
 If the value appears multiple times in the list, only the first instance of the value will be removed.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Removing Values from Lists with pop()
 
@@ -1320,7 +1329,7 @@ If the value appears multiple times in the list, only the first instance of the 
     >>> spam
     ['bat', 'rat']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Sorting the Values in a List with the sort() Method
 
@@ -1353,7 +1362,7 @@ You can use the built-in function `sorted` to return a new list:
     >>> sorted(spam)
     ['ants', 'badgers', 'cats', 'dogs', 'elephants']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Tuple Data Type
 
@@ -1369,7 +1378,7 @@ You can use the built-in function `sorted` to return a new list:
 
 The main way that tuples are different from lists is that tuples, like strings, are immutable.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Converting Types with the list() and tuple() Functions
 
@@ -1382,16 +1391,15 @@ The main way that tuples are different from lists is that tuples, like strings, 
     >>> list('hello')
     ['h', 'e', 'l', 'l', 'o']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Dictionaries and Structuring Data
----------------------------------
+## Dictionaries and Structuring Data
 
 Example Dictionary:
 
     myCat = {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The keys(), values(), and items() Methods
 
@@ -1426,7 +1434,7 @@ Using the keys(), values(), and items() methods, a for loop can iterate over the
     Key: age Value: 42
     Key: color Value: red
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Checking Whether a Key or Value Exists in a Dictionary
 
@@ -1445,7 +1453,7 @@ Using the keys(), values(), and items() methods, a for loop can iterate over the
     >>> 'color' not in spam
     True
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The get() Method
 
@@ -1459,7 +1467,7 @@ Get has two parameters: key and default value if the key did not exist
     >>> 'I am bringing {} eggs.'.format(str(picnic_items.get('eggs', 0)))
     'I am bringing 0 eggs.'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The setdefault() Method
 
@@ -1485,7 +1493,7 @@ Using `setdefault` we could write the same code more succinctly:
     >>> spam
     {'color': 'black', 'age': 5, 'name': 'Pooka'}
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Pretty Printing
 
@@ -1524,7 +1532,7 @@ Using `setdefault` we could write the same code more succinctly:
      'w': 2,
      'y': 1}
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Merge two dictionaries
 
@@ -1540,8 +1548,7 @@ Using `setdefault` we could write the same code more succinctly:
     >>> z
     {'c': 4, 'a': 1, 'b': 3}
 
-sets
-----
+## sets
 
 From the Python 3 [documentation](https://docs.python.org/3/tutorial/datastructures.html)
 
@@ -1645,7 +1652,7 @@ Both methods will remove an element from the set, but `remove()` will raise a `k
     >>> s2.difference(s1) # or 's2 - s1'
     {4}
 
-### set symetric\_difference
+### set symetric_difference
 
 `symetric_difference` or `^` will return all the elements that are not common between them.
 
@@ -1654,22 +1661,21 @@ Both methods will remove an element from the set, but `remove()` will raise a `k
     >>> s1.symmetric_difference(s2)  # or 's1 ^ s2'
     {1, 4}
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-itertools Module
-----------------
+## itertools Module
 
-The *itertools* module is a collection of tools intended to be fast and use memory efficiently when handling iterators (like [lists](#lists) or [dictionaries](#dictionaries-and-structuring-data)).
+The _itertools_ module is a collection of tools intended to be fast and use memory efficiently when handling iterators (like [lists](#lists) or [dictionaries](#dictionaries-and-structuring-data)).
 
 From the official [Python 3.x documentation](https://docs.python.org/3/library/itertools.html):
 
 > The module standardizes a core set of fast, memory efficient tools that are useful by themselves or in combination. Together, they form an “iterator algebra” making it possible to construct specialized tools succinctly and efficiently in pure Python.
 
-The *itertools* module comes in the standard library and must be imported.
+The _itertools_ module comes in the standard library and must be imported.
 
 The [operator](https://docs.python.org/3/library/operator.html) module will also be used. This module is not necessary when using itertools, but needed for some of the examples below.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### accumulate()
 
@@ -1724,7 +1730,7 @@ If no function is designated the items will be summed:
     22 + 9 = 31
     31 + 1 = 32
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### combinations()
 
@@ -1742,7 +1748,7 @@ Example:
     ('circle', 'square')
     ('triangle', 'square')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### combinations*with*replacement()
 
@@ -1763,7 +1769,7 @@ Example:
     ('triangle', 'square')
     ('square', 'square')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### count()
 
@@ -1783,7 +1789,7 @@ Example:
     19
     22
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### cycle()
 
@@ -1807,7 +1813,7 @@ Example:
 
 When reached the end of the iterable it start over again from the beginning.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### chain()
 
@@ -1832,7 +1838,7 @@ Example:
     square
     pentagon
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### compress()
 
@@ -1850,7 +1856,7 @@ Example:
     circle
     square
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### dropwhile()
 
@@ -1872,7 +1878,7 @@ Example:
     10
     1
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### filterfalse()
 
@@ -1893,7 +1899,7 @@ Example:
     9
     10
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### groupby()
 
@@ -1934,7 +1940,7 @@ Example:
     decepticon
     [{'name': 'megatron', 'faction': 'decepticon'}, {'name': 'starcream', 'faction': 'decepticon'}]
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### islice()
 
@@ -1951,7 +1957,7 @@ Example:
     red
     orange
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### permutations()
 
@@ -1970,7 +1976,7 @@ Example:
     ('c', 'a', 'b')
     ('c', 'b', 'a')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### product()
 
@@ -1991,7 +1997,7 @@ Creates the cartesian products from a series of iterables.
     (3, 'b')
     (3, 'c')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### repeat()
 
@@ -2007,7 +2013,7 @@ Example:
     spam
     spam
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### starmap()
 
@@ -2025,7 +2031,7 @@ Example:
     32
     21
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### takewhile()
 
@@ -2044,7 +2050,7 @@ Example:
     3
     4
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### tee()
 
@@ -2074,9 +2080,9 @@ Example:
     green
     blue
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-### zip\_longest()
+### zip_longest()
 
 Makes an iterator that aggregates elements from each of the iterables. If the iterables are of uneven length, missing values are filled-in with fillvalue. Iteration continues until the longest iterable is exhausted.
 
@@ -2099,10 +2105,9 @@ Example:
     (None, 9)
     (None, 10)
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Comprehensions
---------------
+## Comprehensions
 
 ### List comprehension
 
@@ -2129,8 +2134,7 @@ A List comprehension can be generated from a dictionary:
     >>> ["{}:{}".format(k.upper(), v.upper()) for k, v in c.items()]
     ['NAME:POOKA', 'FIRST_NAME:OOOKA']
 
-Manipulating Strings
---------------------
+## Manipulating Strings
 
 ### Escape Characters
 
@@ -2143,7 +2147,7 @@ Example:
     How are you?
     I'm doing fine.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Raw Strings
 
@@ -2154,7 +2158,7 @@ A raw string completely ignores all escape characters and prints any backslash t
 
 Note: mostly used for regular expression definition (see `re` package)
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Multiline Strings with Triple Quotes
 
@@ -2187,7 +2191,7 @@ To keep a nicer flow in your code, you can use the `dedent` function from the `t
 
 This generates the same string than before.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Indexing and Slicing Strings
 
@@ -2230,7 +2234,7 @@ Slicing:
     >>> fizz
     'Hello'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The in and not in Operators with Strings
 
@@ -2258,7 +2262,7 @@ Slicing:
     >>> 2 in a
     True
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The upper(), lower(), isupper(), and islower() String Methods
 
@@ -2294,17 +2298,17 @@ isupper() and islower():
     >>> '12345'.isupper()
     False
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The isX String Methods
 
--   **isalpha()** returns True if the string consists only of letters and is not blank.
--   **isalnum()** returns True if the string consists only of letters and numbers and is not blank.
--   **isdecimal()** returns True if the string consists only of numeric characters and is not blank.
--   **isspace()** returns True if the string consists only of spaces,tabs, and new-lines and is not blank.
--   **istitle()** returns True if the string consists only of words that begin with an uppercase letter followed by only lowercase letters.
+- **isalpha()** returns True if the string consists only of letters and is not blank.
+- **isalnum()** returns True if the string consists only of letters and numbers and is not blank.
+- **isdecimal()** returns True if the string consists only of numeric characters and is not blank.
+- **isspace()** returns True if the string consists only of spaces,tabs, and new-lines and is not blank.
+- **istitle()** returns True if the string consists only of words that begin with an uppercase letter followed by only lowercase letters.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The startswith() and endswith() String Methods
 
@@ -2326,7 +2330,7 @@ isupper() and islower():
     >>> 'Hello world!'.endswith('Hello world!')
     True
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The join() and split() String Methods
 
@@ -2352,7 +2356,7 @@ split():
     >>> 'My name is Simon'.split('m')
     ['My na', 'e is Si', 'on']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Justifying Text with rjust(), ljust(), and center()
 
@@ -2386,7 +2390,7 @@ center():
     >>> 'Hello'.center(20, '=')
     '=======Hello========'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Removing Whitespace with strip(), rstrip(), and lstrip()
 
@@ -2404,7 +2408,7 @@ center():
     >>> spam.strip('ampS')
     'BaconSpamEggs'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Copying and Pasting Strings with the pyperclip Module (need pip install)
 
@@ -2415,10 +2419,9 @@ center():
     >>> pyperclip.paste()
     'Hello world!'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-String Formatting
------------------
+## String Formatting
 
 ### % operator
 
@@ -2434,7 +2437,7 @@ We can use the `%x` format specifier to convert an int value to a string:
 
 Note: For new code, using [str.format](#string-formatting-strformat) or [f-strings](#formatted-string-literals-or-f-strings-python-36) (Python 3.6+) is strongly recommended over the `%` operator.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### String Formatting (str.format)
 
@@ -2453,7 +2456,7 @@ The official [Python 3.x documentation](https://docs.python.org/3/library/stdtyp
 
 > The formatting operations described here exhibit a variety of quirks that lead to a number of common errors (such as failing to display tuples and dictionaries correctly). Using the newer formatted string literals or the str.format() interface helps avoid these errors. These alternatives also provide more powerful, flexible and extensible approaches to formatting text.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Lazy string formatting
 
@@ -2472,7 +2475,7 @@ Or:
 
     >>> logging.debug("User name: " + name)
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Formatted String Literals or f-strings (Python 3.6+)
 
@@ -2487,7 +2490,7 @@ It is even possible to do inline arithmetic with it:
     >>> f'Five plus ten is {a + b} and not {2 * (a + b)}.'
     'Five plus ten is 15 and not 30.'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Template Strings
 
@@ -2499,10 +2502,9 @@ A simpler and less powerful mechanism, but it is recommended when handling forma
     >>> t.substitute(name=name)
     'Hey Elizabeth!'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Regular Expressions
--------------------
+## Regular Expressions
 
 1.  Import the regex module with `import re`.
 2.  Create a Regex object with the `re.compile()` function. (Remember to use a raw string.)
@@ -2513,7 +2515,7 @@ All the regex functions in Python are in the re module:
 
     >>> import re
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Matching Regex Objects
 
@@ -2524,7 +2526,7 @@ All the regex functions in Python are in the re module:
     >>> print('Phone number found: {}'.format(mo.group()))
     Phone number found: 415-555-4242
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Grouping with Parentheses
 
@@ -2557,7 +2559,7 @@ To retrieve all the groups at once: use the groups() method—note the plural fo
     >>> print(main_number)
     555-4242
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Matching Multiple Groups with the Pipe
 
@@ -2587,7 +2589,7 @@ You can also use the pipe to match one of several patterns as part of your regex
     >>> mo.group(1)
     'mobile'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Optional Matching with the Question Mark
 
@@ -2602,7 +2604,7 @@ The ? character flags the group that precedes it as an optional part of the patt
     >>> mo2.group()
     'Batwoman'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Matching Zero or More with the Star
 
@@ -2621,7 +2623,7 @@ The \* (called the star or asterisk) means “match zero or more”—the group 
     >>> mo3.group()
     'Batwowowowoman'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Matching One or More with the Plus
 
@@ -2640,7 +2642,7 @@ While \* means “match zero or more,” the + (or plus) means “match one or m
     >>> mo3 is None
     True
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Matching Specific Repetitions with Curly Brackets
 
@@ -2657,7 +2659,7 @@ Instead of one number, you can specify a range by writing a minimum, a comma, an
     >>> mo2 is None
     True
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Greedy and Nongreedy Matching
 
@@ -2673,7 +2675,7 @@ Python’s regular expressions are greedy by default, which means that in ambigu
     >>> mo2.group()
     'HaHaHa'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The findall() Method
 
@@ -2686,10 +2688,10 @@ In addition to the search() method, Regex objects also have a findall() method. 
 
 To summarize what the findall() method returns, remember the following:
 
--   When called on a regex with no groups, such as \\d-\\d\\d\\d-\\d\\d\\d\\d, the method findall() returns a list of ng matches, such as \['415-555-9999', '212-555-0000'\].
--   When called on a regex that has groups, such as (\\d\\d\\d)-(d\\d)-(\\d\\d\\d\\d), the method findall() returns a list of es of strings (one string for each group), such as \[('415', '555', '9999'), ('212', '555', '0000')\].
+- When called on a regex with no groups, such as \\d-\\d\\d\\d-\\d\\d\\d\\d, the method findall() returns a list of ng matches, such as \['415-555-9999', '212-555-0000'\].
+- When called on a regex that has groups, such as (\\d\\d\\d)-(d\\d)-(\\d\\d\\d\\d), the method findall() returns a list of es of strings (one string for each group), such as \[('415', '555', '9999'), ('212', '555', '0000')\].
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Making Your Own Character Classes
 
@@ -2710,13 +2712,13 @@ By placing a caret character (^) just after the character class’s opening brac
     ['R', 'b', 'c', 'p', ' ', 't', 's', ' ', 'b', 'b', 'y', ' ', 'f', 'd', '.', '
     ', 'B', 'B', 'Y', ' ', 'F', 'D', '.']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The Caret and Dollar Sign Characters
 
--   You can also use the caret symbol (^) at the start of a regex to indicate that a match must occur at the beginning of the searched text.
--   Likewise, you can put a dollar sign ($) at the end of the regex to indicate the string must end with this regex pattern.
--   And you can use the ^ and $ together to indicate that the entire string must match the regex—that is, it’s not enough for a match to be made on some subset of the string.
+- You can also use the caret symbol (^) at the start of a regex to indicate that a match must occur at the beginning of the searched text.
+- Likewise, you can put a dollar sign ($) at the end of the regex to indicate the string must end with this regex pattern.
+- And you can use the ^ and $ together to indicate that the entire string must match the regex—that is, it’s not enough for a match to be made on some subset of the string.
 
 The r'^Hello' regular expression string matches strings that begin with 'Hello':
 
@@ -2741,7 +2743,7 @@ The r'\\d$' regular expression string matches strings that end with a numeric ch
     >>> whole_string_is_num.search('12 34567890') is None
     True
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The Wildcard Character
 
@@ -2752,7 +2754,7 @@ The . (or dot) character in a regular expression is called a wildcard and will m
     >>> at_regex.findall('The cat in the hat sat on the flat mat.')
     ['cat', 'hat', 'sat', 'lat', 'mat']
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Matching Everything with Dot-Star
 
@@ -2778,7 +2780,7 @@ The dot-star uses greedy mode: It will always try to match as much text as possi
     >>> mo.group()
     '<To serve man> for dinner.>'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Matching Newlines with the Dot Character
 
@@ -2792,13 +2794,13 @@ The dot-star will match everything except a newline. By passing re.DOTALL as the
     >>> newline_regex.search('Serve the public trust.\nProtect the innocent.\nUphold the law.').group()
     'Serve the public trust.\nProtect the innocent.\nUphold the law.'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Review of Regex Symbols
 
 <table><thead><tr class="header"><th>Symbol</th><th>Matches</th></tr></thead><tbody><tr class="odd"><td><code>?</code></td><td>zero or one of the preceding group.</td></tr><tr class="even"><td><code>*</code></td><td>zero or more of the preceding group.</td></tr><tr class="odd"><td><code>+</code></td><td>one or more of the preceding group.</td></tr><tr class="even"><td><code>{n}</code></td><td>exactly n of the preceding group.</td></tr><tr class="odd"><td><code>{n,}</code></td><td>n or more of the preceding group.</td></tr><tr class="even"><td><code>{,m}</code></td><td>0 to m of the preceding group.</td></tr><tr class="odd"><td><code>{n,m}</code></td><td>at least n and at most m of the preceding p.</td></tr><tr class="even"><td><code>{n,m}?</code> or <code>*?</code> or <code>+?</code></td><td>performs a nongreedy match of the preceding p.</td></tr><tr class="odd"><td><code>^spam</code></td><td>means the string must begin with spam.</td></tr><tr class="even"><td><code>spam$</code></td><td>means the string must end with spam.</td></tr><tr class="odd"><td><code>.</code></td><td>any character, except newline characters.</td></tr><tr class="even"><td><code>\d</code>, <code>\w</code>, and <code>\s</code></td><td>a digit, word, or space character, respectively.</td></tr><tr class="odd"><td><code>\D</code>, <code>\W</code>, and <code>\S</code></td><td>anything except a digit, word, or space, respectively.</td></tr><tr class="even"><td><code>[abc]</code></td><td>any character between the brackets (such as a, b, ).</td></tr><tr class="odd"><td><code>[^abc]</code></td><td>any character that isn’t between the brackets.</td></tr></tbody></table>
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Case-Insensitive Matching
 
@@ -2815,7 +2817,7 @@ To make your regex case-insensitive, you can pass re.IGNORECASE or re.I as a sec
     >>> robocop.search('Al, why does your programming book talk about robocop so much?').group()
     'robocop'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Substituting Strings with the sub() Method
 
@@ -2838,7 +2840,7 @@ Another example:
     >>> agent_names_regex.sub(r'\1****', 'Agent Alice told Agent Carol that Agent Eve knew Agent Bob was a double agent.')
     A**** told C**** that E**** knew B**** was a double agent.'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Managing Complex Regexes
 
@@ -2859,14 +2861,13 @@ you can spread the regular expression over multiple lines with comments like thi
         (\s*(ext|x|ext.)\s*\d{2,5})?  # extension
         )''', re.VERBOSE)
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Handling File and Directory Paths
----------------------------------
+## Handling File and Directory Paths
 
 There are two main modules in Python that deals with path manipulation. One is the `os.path` module and the other is the `pathlib` module. The `pathlib` module was added in Python 3.4, offering an object-oriented way to handle file system paths.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Backslash on Windows and Forward Slash on OS X and Linux
 
@@ -2919,7 +2920,7 @@ Using `pathlib` on \*nix:
     /home/asweigart/details.csv
     /home/asweigart/invite.docx
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### The Current Working Directory
 
@@ -2946,7 +2947,7 @@ Using `pathlib` on \*nix:
     >>> print(Path.cwd())
     /usr/lib/python3.6
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Creating New Folders
 
@@ -2976,18 +2977,18 @@ Oh no, we got a nasty error! The reason is that the 'delicious' directory does n
 
 And all is good :)
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Absolute vs. Relative Paths
 
 There are two ways to specify a file path.
 
--   An absolute path, which always begins with the root folder
--   A relative path, which is relative to the program’s current working directory
+- An absolute path, which always begins with the root folder
+- A relative path, which is relative to the program’s current working directory
 
 There are also the dot (.) and dot-dot (..) folders. These are not real folders but special names that can be used in a path. A single period (“dot”) for a folder name is shorthand for “this directory.” Two periods (“dot-dot”) means “the parent folder.”
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Handling Absolute and Relative Paths
 
@@ -3041,7 +3042,7 @@ Using `pathlib` on \*nix:
     >>> print(Path('/etc/passwd').relative_to('/'))
     etc/passwd
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Checking Path Validity
 
@@ -3115,7 +3116,7 @@ Using `pathlib` on \*nix:
     >>> Path('/spam').is_dir()
     False
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Finding File Sizes and Folder Contents
 
@@ -3189,7 +3190,7 @@ Using `pathlib` on \*nix:
     >>> print(total_size)
     1903178911
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Copying Files and Folders
 
@@ -3214,7 +3215,7 @@ While shutil.copy() will copy a single file, shutil.copytree() will copy an enti
     >>> shutil.copytree('C:\\bacon', 'C:\\bacon_backup')
     'C:\\bacon_backup'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Moving and Renaming Files and Folders
 
@@ -3232,15 +3233,15 @@ If there is no eggs folder, then move() will rename bacon.txt to a file named eg
     >>> shutil.move('C:\\bacon.txt', 'C:\\eggs')
     'C:\\eggs'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Permanently Deleting Files and Folders
 
--   Calling os.unlink(path) or Path.unlink() will delete the file at path.
--   Calling os.rmdir(path) or Path.rmdir() will delete the folder at path. This folder must be empty of any files or folders.
--   Calling shutil.rmtree(path) will remove the folder at path, and all files and folders it contains will also be deleted.
+- Calling os.unlink(path) or Path.unlink() will delete the file at path.
+- Calling os.rmdir(path) or Path.rmdir() will delete the folder at path. This folder must be empty of any files or folders.
+- Calling shutil.rmtree(path) will remove the folder at path, and all files and folders it contains will also be deleted.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Safe Deletes with the send2trash Module
 
@@ -3254,7 +3255,7 @@ You can install this module by running pip install send2trash from a Terminal wi
 
     >>> send2trash.send2trash('bacon.txt')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Walking a Directory Tree
 
@@ -3284,18 +3285,17 @@ You can install this module by running pip install send2trash from a Terminal wi
     The current folder is C:\delicious\walnut\waffles
     FILE INSIDE C:\delicious\walnut\waffles: butter.txt
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 `pathlib` provides a lot more functionality than the ones listed above, like getting file name, getting file extension, reading/writing a file without manually opening it, etc. Check out the [official documentation](https://docs.python.org/3/library/pathlib.html) if you want to know more!
 
-Reading and Writing Files
--------------------------
+## Reading and Writing Files
 
 ### The File Reading/Writing Process
 
 To read/write to a file in Python, you will want to use the `with` statement, which will close the file for you after you are done.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Opening and reading files with the open() function
 
@@ -3322,7 +3322,7 @@ To read/write to a file in Python, you will want to use the `with` statement, wh
     And trouble deaf heaven with my bootless cries,
     And look upon myself and curse my fate,
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Writing to Files
 
@@ -3341,7 +3341,7 @@ To read/write to a file in Python, you will want to use the `with` statement, wh
     Hello world!
     Bacon is not a vegetable.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Saving Variables with the shelve Module
 
@@ -3369,7 +3369,7 @@ Just like dictionaries, shelf values have keys() and values() methods that will 
     ['cats']
     [['Zophie', 'Pooka', 'Simon']]
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Saving Variables with the pprint.pformat() Function
 
@@ -3384,7 +3384,7 @@ Just like dictionaries, shelf values have keys() and values() methods that will 
     ...     file_obj.write('cats = {}\n'.format(pprint.pformat(cats)))
     83
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Reading ZIP Files
 
@@ -3403,7 +3403,7 @@ Just like dictionaries, shelf values have keys() and values() methods that will 
     3828
     'Compressed file is 3.63x smaller!'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Extracting from ZIP Files
 
@@ -3424,7 +3424,7 @@ The extract() method for ZipFile objects will extract a single file from the ZIP
     'C:\\spam.txt'
     'C:\\some\\new\\folders\\spam.txt'
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Creating and Adding to ZIP Files
 
@@ -3435,10 +3435,9 @@ The extract() method for ZipFile objects will extract a single file from the ZIP
 
 This code will create a new ZIP file named new.zip that has the compressed contents of spam.txt.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-JSON, YAML and configuration files
-----------------------------------
+## JSON, YAML and configuration files
 
 ### JSON
 
@@ -3456,7 +3455,7 @@ Write a JSON file with:
     with open("filename.json", "w") as f:
         f.write(json.dumps(content, indent=2))
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### YAML
 
@@ -3464,8 +3463,8 @@ Compared to JSON, YAML allows for much better human maintainability and gives yo
 
 There are two main libraries allowing to access to YAML files:
 
--   [PyYaml](https://pypi.python.org/pypi/PyYAML)
--   [Ruamel.yaml](https://pypi.python.org/pypi/ruamel.yaml)
+- [PyYaml](https://pypi.python.org/pypi/PyYAML)
+- [Ruamel.yaml](https://pypi.python.org/pypi/ruamel.yaml)
 
 Install them using `pip install` in your virtual environment.
 
@@ -3479,7 +3478,7 @@ Open a YAML file with:
         yaml=YAML()
         yaml.load(f)
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Anyconfig
 
@@ -3495,18 +3494,17 @@ Usage:
 
     conf1 = anyconfig.load("/path/to/foo/conf.d/a.yml")
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Debugging
----------
+## Debugging
 
 ### Raising Exceptions
 
 Exceptions are raised with a raise statement. In code, a raise statement consists of the following:
 
--   The raise keyword
--   A call to the Exception() function
--   A string with a helpful error message passed to the Exception() function
+- The raise keyword
+- A call to the Exception() function
+- A string with a helpful error message passed to the Exception() function
 
 <!-- -->
 
@@ -3535,11 +3533,11 @@ Often it’s the code that calls the function, not the function itself, that kno
         except Exception as err:
             print('An exception happened: ' + str(err))
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Getting the Traceback as a String
 
-The traceback is displayed by Python whenever a raised exception goes unhandled. But can also obtain it as a string by calling traceback.format\_exc(). This function is useful if you want the information from an exception’s traceback but also want an except statement to gracefully handle the exception. You will need to import Python’s traceback module before calling this function.
+The traceback is displayed by Python whenever a raised exception goes unhandled. But can also obtain it as a string by calling traceback.format_exc(). This function is useful if you want the information from an exception’s traceback but also want an except statement to gracefully handle the exception. You will need to import Python’s traceback module before calling this function.
 
     >>> import traceback
 
@@ -3558,16 +3556,16 @@ The 116 is the return value from the write() method, since 116 characters were w
       File "<pyshell#28>", line 2, in <module>
     Exception: This is the error message.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Assertions
 
 An assertion is a sanity check to make sure your code isn’t doing something obviously wrong. These sanity checks are performed by assert statements. If the sanity check fails, then an AssertionError exception is raised. In code, an assert statement consists of the following:
 
--   The assert keyword
--   A condition (that is, an expression that evaluates to True or False)
--   A comma
--   A string to display when the condition is False
+- The assert keyword
+- A condition (that is, an expression that evaluates to True or False)
+- A comma
+- A string to display when the condition is False
 
 <!-- -->
 
@@ -3590,7 +3588,7 @@ Disabling Assertions
 
 Assertions can be disabled by passing the -O option when running Python.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Logging
 
@@ -3635,7 +3633,7 @@ Say you wrote a function to calculate the factorial of a number. In mathematics,
     0
     2015-05-23 16:20:12,684 - DEBUG - End of program
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Logging Levels
 
@@ -3643,7 +3641,7 @@ Logging levels provide a way to categorize your log messages by importance. Ther
 
 <table><thead><tr class="header"><th>Level</th><th>Logging Function</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><code>DEBUG</code></td><td><code>logging.debug()</code></td><td>The lowest level. Used for small details. Usually you care about these messages only when diagnosing problems.</td></tr><tr class="even"><td><code>INFO</code></td><td><code>logging.info()</code></td><td>Used to record information on general events in your program or confirm that things are working at their point in the program.</td></tr><tr class="odd"><td><code>WARNING</code></td><td><code>logging.warning()</code></td><td>Used to indicate a potential problem that doesn’t prevent the program from working but might do so in the future.</td></tr><tr class="even"><td><code>ERROR</code></td><td><code>logging.error()</code></td><td>Used to record an error that caused the program to fail to do something.</td></tr><tr class="odd"><td><code>CRITICAL</code></td><td><code>logging.critical()</code></td><td>The highest level. Used to indicate a fatal error that has caused or is about to cause the program to stop running entirely.</td></tr></tbody></table>
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Disabling Logging
 
@@ -3662,7 +3660,7 @@ After you’ve debugged your program, you probably don’t want all these log me
 
     >>> logging.error('Error! Error!')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Logging to a File
 
@@ -3672,10 +3670,9 @@ Instead of displaying the log messages to the screen, you can write them to a te
 
     logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Lambda Functions
-----------------
+## Lambda Functions
 
 This function:
 
@@ -3685,7 +3682,7 @@ This function:
     >>> add(5, 3)
     8
 
-Is equivalent to the *lambda* function:
+Is equivalent to the _lambda_ function:
 
     >>> add = lambda x, y: x + y
     >>> add(5, 3)
@@ -3711,10 +3708,9 @@ Like regular nested functions, lambdas also work as lexical closures:
 
 Note: lambda can only evaluate an expression, like a single line of code.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Ternary Conditional Operator
-----------------------------
+## Ternary Conditional Operator
 
 Many programming languages have a ternary operator, which define a conditional expression. The most common usage is to make a terse simple conditional assignment statement. In other words, it offers one-line code to evaluate the first expression if the condition is true, otherwise it evaluates the second expression.
 
@@ -3744,10 +3740,9 @@ The code above is equivalent to:
     else:
         print('adult')
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-args and kwargs
----------------
+## args and kwargs
 
 The names `args and kwargs` are arbitrary - the important thing are the `*` and `**` operators. They can mean:
 
@@ -3835,10 +3830,9 @@ Similarly, you use `**kwargs` when you have an indefinite number of keyword argu
 3.  Keyword arguments with default values make it easy to add new behaviors to a function, especially when the function has existing callers.
 4.  Optional keyword arguments should always be passed by keyword instead of by position.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Context Manager
----------------
+## Context Manager
 
 While Python's context managers are widely used, few understand the purpose behind their use. These statements, commonly used with reading and writing files, assist the application in conserving system memory and improve resource management by ensuring specific resources are only in use for certain processes.
 
@@ -3876,10 +3870,9 @@ It is also possible to write a context manager using generator syntax thanks to 
 
     >>>
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-`__main__` Top-level script environment
----------------------------------------
+## `__main__` Top-level script environment
 
 `__main__` is the name of the scope in which top-level code executes. A module’s **name** is set equal to `__main__` when read from standard input, a script, or from an interactive prompt.
 
@@ -3915,10 +3908,9 @@ For example we are developing script which is designed to be used as module, we 
 3.  Python files can act as either reusable modules, or as standalone programs.
 4.  if `__name__ == “main”:` is used to execute some code only if the file was run directly, and not imported.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-setup.py
---------
+## setup.py
 
 The setup script is the centre of all activity in building, distributing, and installing modules using the Distutils. The main purpose of the setup script is to describe your module distribution to the Distutils, so that the various commands that operate on your modules do the right thing.
 
@@ -3930,7 +3922,7 @@ This allows you to easily install Python packages. Often it's enough to write:
 
 and module will install itself.
 
-Our initial setup.py will also include information about the license and will re-use the README.txt file for the long\_description field. This will look like:
+Our initial setup.py will also include information about the license and will re-use the README.txt file for the long_description field. This will look like:
 
     >>> from distutils.core import setup
     >>> setup(
@@ -3943,10 +3935,9 @@ Our initial setup.py will also include information about the license and will re
 
 Find more information visit <http://docs.python.org/install/index.html>.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Dataclasses
------------
+## Dataclasses
 
 `Dataclasses` are python classes but are suited for storing data objects. This module provides a decorator and functions for automatically adding generated special methods such as `__init__()` and `__repr__()` to user-defined classes.
 
@@ -3977,7 +3968,7 @@ with dataclass
     >>> obj.val
     2
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### Default values
 
@@ -4010,14 +4001,13 @@ It is mandatory to define the data type in dataclass. However, If you don't want
     ...    value: Any = 42
     ...
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Virtual Environment
--------------------
+## Virtual Environment
 
 The use of a Virtual Environment is to test python code in encapsulated environments and to also avoid filling the base Python installation with libraries we might use for only one project.
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### virtualenv
 
@@ -4057,7 +4047,7 @@ Usage:
 
         workon HelloWold
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### poetry
 
@@ -4117,7 +4107,7 @@ Usage:
 
 For more information, check the [documentation](https://poetry.eustace.io/docs/).
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### pipenv
 
@@ -4148,7 +4138,7 @@ For more information, check the [documentation](https://poetry.eustace.io/docs/)
 
 Find more information and a video in [docs.pipenv.org](https://docs.pipenv.org/).
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
 ### anaconda
 
@@ -4172,14 +4162,9 @@ Usage:
 
         conda deactivate
 
-[*Return to the Top*](#python-cheatsheet)
+[_Return to the Top_](#python-cheatsheet)
 
-Jump to Section
----------------
-
-  
-
-  
+## Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
