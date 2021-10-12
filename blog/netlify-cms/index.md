@@ -4,91 +4,88 @@ This app works best with JavaScript enabled.
 
 <span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="/docs" class="button">Docs</a>
-    -   <a href="/showcase" class="button">Showcase</a>
-    -   <a href="/docs/faq/contact" class="button">Contact!</a>
-    -   <a href="/docs/python/python-ds" class="button">Python</a>
+  - <a href="/docs" class="button">Docs</a>
+  - <a href="/showcase" class="button">Showcase</a>
+  - <a href="/docs/faq/contact" class="button">Contact!</a>
+  - <a href="/docs/python/python-ds" class="button">Python</a>
 
--   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
-    -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
-    -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
-    -   <a href="/blog/platform-docs/" class="button">platform docs</a>
-    -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
-    -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
+  - <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
+  - <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
+  - <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
+  - <a href="/blog/platform-docs/" class="button">platform docs</a>
+  - <a href="/docs/articles/nodejs/" class="button">nodejs</a>
+  - <a href="/blogWcomments/" class="button">Blog w Comments</a>
 
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
-    -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
-    -   <a href="#" class="button">Bootcamp Resources</a>
-    -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
-    -   <a href="/docs/gallery" class="button">Gallery</a>
-    -   <a href="/docs" class="button">Top Repos</a>
+  - <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
+  - <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
+  - <a href="#" class="button">Bootcamp Resources</a>
+  - <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
+  - <a href="/docs/gallery" class="button">Gallery</a>
+  - <a href="/docs" class="button">Top Repos</a>
 
--   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
-    -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+  - <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
+  - <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
 
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
-    -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
-    -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
-    -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
-    -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+  - <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
+  - <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
+  - <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
+  - [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
+  - <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
 
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
-    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
-    -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
-    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
-    -   <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
-    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
-    -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
-    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
-    -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+  - <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
+  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
+  - <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
+  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
+  - <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
+  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
+  - <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
+  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
+  - <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
 
--   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
-    -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
-    -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
-    -   <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
-    -   <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
-    -   <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
-    -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
-    -   <span class="screen-reader-text">Github-Advanced-Search</span>
+- <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+  - <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
+  - <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
+  - <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
+  - <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
+  - <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
+  - <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
+  - <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
+  - <span class="screen-reader-text">Github-Advanced-Search</span>
 
 <span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
 September 30, 2021
 
-Netlify CMS Reference Sheet
-===========================
+# Netlify CMS Reference Sheet
 
 lorem-ipsum
 
-Overview
-========
+# Overview
 
 Netlify CMS is an open source content management system for your Git workflow that enables you to provide editors with a friendly UI and intuitive workflows. You can use it with any static site generator to create faster, more flexible web projects. Content is stored in your Git repository alongside your code for easier versioning, multi-channel publishing, and the option to handle content updates directly in Git.
 
 At its core, Netlify CMS is an open-source React app that acts as a wrapper for the Git workflow, using the GitHub, GitLab, or Bitbucket API. This provides many advantages, including:
 
--   **Fast, web-based UI:** With rich-text editing, real-time preview, and drag-and-drop media uploads.
--   **Platform agnostic:** Works with most static site generators.
--   **Easy installation:** Add two files to your site and hook up the backend by including those files in your build process or linking to our Content Delivery Network (CDN).
--   **Modern authentication:** Using GitHub, GitLab, or Bitbucket and JSON web tokens.
--   **Flexible content types:** Specify an unlimited number of content types with custom fields.
--   **Fully extensible:** Create custom-styled previews, UI widgets, and editor plugins.
+- **Fast, web-based UI:** With rich-text editing, real-time preview, and drag-and-drop media uploads.
+- **Platform agnostic:** Works with most static site generators.
+- **Easy installation:** Add two files to your site and hook up the backend by including those files in your build process or linking to our Content Delivery Network (CDN).
+- **Modern authentication:** Using GitHub, GitLab, or Bitbucket and JSON web tokens.
+- **Flexible content types:** Specify an unlimited number of content types with custom fields.
+- **Fully extensible:** Create custom-styled previews, UI widgets, and editor plugins.
 
-Netlify CMS vs. Netlify
------------------------
+## Netlify CMS vs. Netlify
 
 [Netlify.com](https://www.netlify.com/) is a platform you can use to automatically build, deploy, serve, and manage your frontend sites and web apps. It also provides a variety of other features like form processing, serverless functions, and split testing. Not all Netlify sites use Netlify CMS, and not all sites using Netlify CMS are on Netlify.
 
@@ -96,20 +93,19 @@ The folks at Netlify created Netlify CMS to fill a gap in the static site genera
 
 With this in mind, you can:
 
--   Use Netlify CMS without Netlify and deploy your site where you always have, hooking up your own CI, site hosting, CDN, etc.
--   Use Netlify without Netlify CMS and edit your static site in your code editor.
--   Or, use them together and have a fully-working CMS-enabled site with [one click](https://www.netlifycms.org/docs/start-with-a-template/)!
+- Use Netlify CMS without Netlify and deploy your site where you always have, hooking up your own CI, site hosting, CDN, etc.
+- Use Netlify without Netlify CMS and edit your static site in your code editor.
+- Or, use them together and have a fully-working CMS-enabled site with [one click](https://www.netlifycms.org/docs/start-with-a-template/)!
 
 If you hook up Netlify CMS to your website, you’re basically adding a tool for content editors to make commits to your site repository without touching code or learning Git.
 
--   Add to Your Site**These generatorsstore static files in**Jekyll, GitBook/ (project root)Hugo, Gatsby, Nuxt, Gridsome, Zola, Sapper/staticNext/publicHexo, Middleman, Jigsaw/sourceSpike/viewsWyam/inputPelican/contentVuePress/.vuepress/publicElmstatic/\_site11ty/\_sitepreact-cli/src/staticnamePost type identifier, used in routes. Must be unique.labelWhat the admin UI calls the post type.folderWhere files of this type are stored, relative to the repo root.createSet to true to allow users to create new files in this collection.slugTemplate for filenames. {{year}}, {{month}}, and {{day}} pulls from the post’s date field or save date. {{slug}} is a url-safe version of the post’s title. Default is simply {{slug}}.fieldsFields listed here are shown as fields in the content editor, then saved as front matter at the beginning of the document (except for body, which follows the front matter). Each field contains the following properties:
+- Add to Your Site**These generatorsstore static files in**Jekyll, GitBook/ (project root)Hugo, Gatsby, Nuxt, Gridsome, Zola, Sapper/staticNext/publicHexo, Middleman, Jigsaw/sourceSpike/viewsWyam/inputPelican/contentVuePress/.vuepress/publicElmstatic/\_site11ty/\_sitepreact-cli/src/staticnamePost type identifier, used in routes. Must be unique.labelWhat the admin UI calls the post type.folderWhere files of this type are stored, relative to the repo root.createSet to true to allow users to create new files in this collection.slugTemplate for filenames. {{year}}, {{month}}, and {{day}} pulls from the post’s date field or save date. {{slug}} is a url-safe version of the post’s title. Default is simply {{slug}}.fieldsFields listed here are shown as fields in the content editor, then saved as front matter at the beginning of the document (except for body, which follows the front matter). Each field contains the following properties:
 
 You can adapt Netlify CMS to a wide variety of projects. It works with any content written in markdown, JSON, YAML, or TOML files, stored in a repo on [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), or [Bitbucket](https://bitbucket.org/). You can also create your own custom backend.
 
 This tutorial guides you through the steps for adding Netlify CMS to a site that’s built with a common [static site generator](https://www.staticgen.com/), like Jekyll, Hugo, Hexo, or Gatsby. Alternatively, you can [start from a template](https://www.netlifycms.org/docs/start-with-a-template) or dive right into [configuration options](https://www.netlifycms.org/docs/configuration-options).
 
-App File Structure
-------------------
+## App File Structure
 
 A static admin folder contains all Netlify CMS files, stored at the root of your published site. Where you store this folder in the source files depends on your static site generator. Here’s the static file location for a few of the most popular static site generators:
 
@@ -129,8 +125,7 @@ You can also use Netlify CMS as an npm module. Wherever you import Netlify CMS, 
 
 Then import it (assuming your project has tooling for imports):
 
-Configuration
--------------
+## Configuration
 
 Configuration is different for every site, so we’ll break it down into parts. Add all the code snippets in this section to your admin/config.yml file.
 
@@ -156,9 +151,9 @@ Netlify CMS allows users to upload images directly within the editor. For this t
 
 If you’re creating a new folder for uploaded media, you’ll need to know where your static site generator expects static files. You can refer to the paths outlined above in [App File Structure](https://www.netlifycms.org/docs/add-to-your-site/#app-file-structure), and put your media folder in the same location where you put the admin folder.
 
-Note that themedia\_folder file path is relative to the project root, so the example above would work for Jekyll, GitBook, or any other generator that stores static files at the project root. However, it would not work for Hugo, Hexo, Middleman or others that store static files in a subfolder. Here’s an example that could work for a Hugo site:
+Note that themedia_folder file path is relative to the project root, so the example above would work for Jekyll, GitBook, or any other generator that stores static files at the project root. However, it would not work for Hugo, Hexo, Middleman or others that store static files in a subfolder. Here’s an example that could work for a Hugo site:
 
-The configuration above adds a new setting, public*folder. While media*folder specifies where uploaded files are saved in the repo, public\_folder indicates where they are found in the published site. Image src attributes use this path, which is relative to the file where it’s called. For this reason, we usually start the path at the site root, using the opening /.
+The configuration above adds a new setting, public*folder. While media*folder specifies where uploaded files are saved in the repo, public_folder indicates where they are found in the published site. Image src attributes use this path, which is relative to the file where it’s called. For this reason, we usually start the path at the site root, using the opening /.
 
 *If public*folder is not set, Netlify CMS defaults to the same value as media*folder, adding an opening / if one is not included.*
 
@@ -166,16 +161,16 @@ The configuration above adds a new setting, public*folder. While media*folder�
 
 Collections define the structure for the different content types on your static site. Since every site is different, the collections settings differ greatly from one site to the next.
 
-Let’s say your site has a blog, with the posts stored in \_posts/blog, and files saved in a date-title format, like 1999-12-31-lets-party.md. Each post begins with settings in yaml-formatted front matter, like so:
+Let’s say your site has a blog, with the posts stored in _posts/blog, and files saved in a date-title format, like 1999-12-31-lets-party.md. Each post begins with settings in yaml-formatted front matter, like so:
 
 Given this example, our collections settings would look like this in your NetlifyCMS config.yml file:
 
 Let’s break that down:
 
--   label: Field label in the editor UI.
--   name: Field name in the document front matter.
--   widget: Determines UI style and value data type (details below).
--   default (optional): Sets a default value for the field.
+- label: Field label in the editor UI.
+- name: Field name in the document front matter.
+- widget: Determines UI style and value data type (details below).
+- default (optional): Sets a default value for the field.
 
 As described above, the widget property specifies a built-in or custom UI widget for a given field. When a content editor enters a value into a widget, that value is saved in the document front matter as the value for the name specified for that field. A full listing of available widgets can be found in the [Widgets doc](https://www.netlifycms.org/docs/widgets).
 
@@ -185,8 +180,7 @@ Based on this example, you can go through the post types in your site and add th
 
 The entries for any collection can be filtered based on the value of a single field. The example collection below only shows post entries with the value en in the language field.
 
-Authentication
---------------
+## Authentication
 
 Now that you have your Netlify CMS files in place and configured, all that’s left is to enable authentication. We’re using the [Netlify](https://www.netlify.com/) platform here because it’s one of the quickest ways to get started, but you can learn about other authentication options in the [Backends](https://www.netlifycms.org/docs/backends-overview) doc.
 
@@ -213,8 +207,7 @@ When a user logs in with the Netlify Identity widget, an access token directs to
 
 Note: This example script requires modern JavaScript and does not work on IE11. For legacy browser support, use function expressions (function () {}) in place of the arrow functions (() =&gt; {}), or use a transpiler such as [Babel](https://babeljs.io/).
 
-Accessing the CMS
------------------
+## Accessing the CMS
 
 Your site CMS is now fully configured and ready for login!
 
@@ -276,20 +269,17 @@ Example Tools Type Source More info
 
 [Gatsby & Netlify CMS Personal Portfolio](https://kind-mestorf-5a2bc0.netlify.com/) Gatsby portfolio [EarlGeorge/React-Gatsby](https://github.com/EarlGeorge/React-Gatsby)[read me](https://github.com/EarlGeorge/React-Gatsby/blob/master/README.md)
 
-Gatsby
-======
+# Gatsby
 
 This guide will help you get started using Netlify CMS and Gatsby.
 
 To get up and running with Gatsby, you’ll need to have [Node.js](https://nodejs.org/) installed on your computer. *Note: Gatsby’s minimum supported Node.js version is Node 8.*
 
-Create a new Gatsby site
-------------------------
+## Create a new Gatsby site
 
 Let’s create a new site using the default Gatsby Starter Blog. Run the following commands in the terminal, in the folder where you’d like to create the blog:
 
-Get to know Gatsby
-------------------
+## Get to know Gatsby
 
 In your favorite code editor, open up the code generated for your “Gatsby Starter Blog” site, and take a look at the content directory.
 
@@ -297,8 +287,7 @@ You will see that there are multiple Markdown files that represent blog posts. O
 
 We can see above that each blog post has a title, a date, a description and a body. Now, let’s recreate this using Netlify CMS.
 
-Add Netlify CMS to your site
-----------------------------
+## Add Netlify CMS to your site
 
 First let’s install some dependencies. We’ll need netlify-cms-app and gatsby-plugin-netlify-cms. Run the following command in the terminal at the root of your site:
 
@@ -331,8 +320,7 @@ Netlify’s Identity and Git Gateway services allow you to manage CMS admin user
 3.  If you’d like to allow one-click login with services like Google and GitHub, check the boxes next to the services you’d like to use, under **External providers**.
 4.  Scroll down to **Services &gt; Git Gateway**, and click **Enable Git Gateway**. This authenticates with your Git host and generates an API access token. In this case, we’re leaving the **Roles** field blank, which means any logged in user may access the CMS. For information on changing this, check the [Netlify Identity documentation](https://www.netlify.com/docs/identity/).
 
-Start publishing
-----------------
+## Start publishing
 
 It’s time to create your first blog post. Login to your site’s /admin/ page and create a new post by clicking New Blog. Add a title, a date and some text. When you click Publish, a new commit will be created in your GitHub repo with this format Create Blog “year-month-date-title”.
 
