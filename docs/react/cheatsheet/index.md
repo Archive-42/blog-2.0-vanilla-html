@@ -2,276 +2,258 @@ This app works best with JavaScript enabled.
 
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
-- <a href="/docs/sitemap" class="button">Navigation</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="/docs" class="button">Docs</a>
-  - <a href="/showcase" class="button">Showcase</a>
-  - <a href="/docs/faq/contact" class="button">Contact!</a>
-  - <a href="/docs/python/python-ds" class="button">Python</a>
+    -   <a href="/docs" class="button">Docs</a>
+    -   <a href="/showcase" class="button">Showcase</a>
+    -   <a href="/docs/faq/contact" class="button">Contact!</a>
+    -   <a href="/docs/python/python-ds" class="button">Python</a>
 
-- <a href="/blog/" class="button">Blog</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
-  - <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
-  - <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
-  - <a href="/blog/platform-docs/" class="button">platform docs</a>
-  - <a href="/docs/articles/nodejs/" class="button">nodejs</a>
-  - <a href="/blogWcomments/" class="button">Blog w Comments</a>
+    -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
+    -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
+    -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
+    -   <a href="/blog/platform-docs/" class="button">platform docs</a>
+    -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
+    -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
 
-- <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
-  - <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
-  - <a href="#" class="button">Bootcamp Resources</a>
-  - <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
-  - <a href="/docs/gallery" class="button">Gallery</a>
-  - <a href="/docs" class="button">Top Repos</a>
+    -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
+    -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
+    -   <a href="#" class="button">Bootcamp Resources</a>
+    -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
+    -   <a href="/docs/gallery" class="button">Gallery</a>
+    -   <a href="/docs" class="button">Top Repos</a>
 
-- <a href="/docs/audio/audio" class="button">Audio</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
-  - <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+    -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
+    -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
 
-- <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
-  - <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
-  - <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
-  - [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
-  - <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+    -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
+    -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
+    -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
+    -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
+    -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
 
-- <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
-  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
-  - <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
-  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
-  - <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
-  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
-  - <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
-  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
-  - <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+    -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
+    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
+    -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
+    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
+    -   <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
+    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
+    -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
+    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
+    -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
 
-- <a href="/docs/tools" class="button">Tools</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-  - <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
-  - <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
-  - <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
-  - <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
-  - <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
-  - <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
-  - <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
-  - <span class="screen-reader-text">Github-Advanced-Search</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+    -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
+    -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
+    -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
+    -   <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
+    -   <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
+    -   <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
+    -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
+    -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
-Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
+Navigate Docs<span class="icon-angle-right" data-aria-hidden="true"></span>
 
-- [Docs](/docs/)
-- [About](/docs/about/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Docs](/docs/)
+-   [About](/docs/about/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Job Search](/docs/about/job-search/)
-  - [Youtube](/docs/about/intrests/)
-  - [Resume](/docs/about/resume/)
-  - [Engineering Portfolio](/docs/about/eng-portfolio/)
-  - [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
+    -   [Job Search](/docs/about/job-search/)
+    -   [Youtube](/docs/about/intrests/)
+    -   [Resume](/docs/about/resume/)
+    -   [Engineering Portfolio](/docs/about/eng-portfolio/)
+    -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
 
-- [Articles](/docs/articles/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Articles](/docs/articles/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [The HTTP Protocol](/docs/articles/http/)
-  - [How The Web Works](/docs/articles/how-the-web-works/)
-  - [Sorting Algorithms](/docs/articles/node-package-manager/)
-  - [Introduction to npm](/docs/articles/npm/)
-  - [lorem-ipsum](/docs/articles/semantic-html/)
-  - [The Uniform Resource Locator (URL)](</docs/articles/the-uniform-resource-locator-(url)/>)
-  - [Firebase](/docs/articles/understanding-firebase/)
-  - [Web Standards Checklist](/docs/articles/web-standards-checklist/)
-  - [Web Developer Tools](/docs/articles/webdev-tools/)
-  - [where-is-npm-pack](/docs/articles/node-cli-args/)
-  - [Node Export Module](/docs/articles/node-env-variables/)
-  - [The-package-lock.json-file](/docs/articles/node-repl/)
-  - [node-cli-args](/docs/articles/node-run-cli/)
-  - [packagejson](/docs/articles/node-js-language/)
-  - [npm global or local packages](/docs/articles/v8/)
-  - [Common Modules](/docs/articles/node-common-modules/)
-  - [Node Buffers](/docs/articles/buffers/)
-  - [Dev Dependencies](/docs/articles/dev-dep/)
-  - [Fs-Module](/docs/articles/fs-module/)
-  - [The Node.js Event Loop](/docs/articles/event-loop/)
-  - [Install](/docs/articles/install/)
-  - [Web Dev Review](/docs/articles/basic-web-dev/)
-  - [module-exports](/docs/articles/module-exports/)
-  - [Intro To Node](/docs/articles/intro/)
-  - [Javascript and Node](/docs/articles/nodejs/)
-  - [Node vs Browser](/docs/articles/nodevsbrowser/)
-  - [The npx Node.js Package Runner](/docs/articles/npx/)
-  - [Reading Files](/docs/articles/reading-files/)
-  - [Semantic Versioning](/docs/articles/semantic/)
-  - [OS-Module](/docs/articles/os-module/)
-  - [Writing Files](/docs/articles/writing-files/)
-  - [Node APIs With Express](/docs/articles/node-api-express/)
+    -   [The HTTP Protocol](/docs/articles/http/)
+    -   [How The Web Works](/docs/articles/how-the-web-works/)
+    -   [Sorting Algorithms](/docs/articles/node-package-manager/)
+    -   [Introduction to npm](/docs/articles/npm/)
+    -   [lorem-ipsum](/docs/articles/semantic-html/)
+    -   [The Uniform Resource Locator (URL)](/docs/articles/the-uniform-resource-locator-(url)/)
+    -   [Firebase](/docs/articles/understanding-firebase/)
+    -   [Web Standards Checklist](/docs/articles/web-standards-checklist/)
+    -   [Web Developer Tools](/docs/articles/webdev-tools/)
+    -   [where-is-npm-pack](/docs/articles/node-cli-args/)
+    -   [Node Export Module](/docs/articles/node-env-variables/)
+    -   [The-package-lock.json-file](/docs/articles/node-repl/)
+    -   [node-cli-args](/docs/articles/node-run-cli/)
+    -   [packagejson](/docs/articles/node-js-language/)
+    -   [npm global or local packages](/docs/articles/v8/)
+    -   [Common Modules](/docs/articles/node-common-modules/)
+    -   [Node Buffers](/docs/articles/buffers/)
+    -   [Dev Dependencies](/docs/articles/dev-dep/)
+    -   [Fs-Module](/docs/articles/fs-module/)
+    -   [The Node.js Event Loop](/docs/articles/event-loop/)
+    -   [Install](/docs/articles/install/)
+    -   [Web Dev Review](/docs/articles/basic-web-dev/)
+    -   [module-exports](/docs/articles/module-exports/)
+    -   [Intro To Node](/docs/articles/intro/)
+    -   [Javascript and Node](/docs/articles/nodejs/)
+    -   [Node vs Browser](/docs/articles/nodevsbrowser/)
+    -   [The npx Node.js Package Runner](/docs/articles/npx/)
+    -   [Reading Files](/docs/articles/reading-files/)
+    -   [Semantic Versioning](/docs/articles/semantic/)
+    -   [OS-Module](/docs/articles/os-module/)
+    -   [Writing Files](/docs/articles/writing-files/)
+    -   [Node APIs With Express](/docs/articles/node-api-express/)
 
-- [Audio](/docs/audio/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Audio](/docs/audio/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Audio](/docs/audio/audio/)
-  - [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
-  - [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
-  - [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
-  - [Discrete Fast Fourier Transform](/docs/audio/dfft/)
-  - [Fast Fourier Transform](/docs/audio/discrete-fft/)
+    -   [Audio](/docs/audio/audio/)
+    -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
+    -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
+    -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
+    -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
+    -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
 
-- [Community](/docs/community/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Community](/docs/community/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Video Chat](/docs/community/video-chat/)
+    -   [Video Chat](/docs/community/video-chat/)
 
-- [Content](/docs/content/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Content](/docs/content/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Lambda School Projects](/docs/content/lambda-projects/)
-  - [Projects](/docs/content/projects/)
-  - [RECENT PROJECTS](/docs/content/data-structures-algo/)
-  - [History API](/docs/content/history-api/)
-  - [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
-  - [Trouble Shooting](/docs/content/trouble-shooting/)
-  - [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
-  - [Archive](/docs/content/archive/)
-  - [Embeded Websites & Projects](/docs/content/recent-projects/)
-  - [Algorithms & Data Structures](/docs/content/algo/)
+    -   [Lambda School Projects](/docs/content/lambda-projects/)
+    -   [Projects](/docs/content/projects/)
+    -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
+    -   [History API](/docs/content/history-api/)
+    -   [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
+    -   [Trouble Shooting](/docs/content/trouble-shooting/)
+    -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
+    -   [Archive](/docs/content/archive/)
+    -   [Embeded Websites & Projects](/docs/content/recent-projects/)
+    -   [Algorithms & Data Structures](/docs/content/algo/)
 
-- [Documentation](/docs/docs/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Documentation](/docs/docs/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Apendix](/docs/docs/appendix/)
-  - [lorem-ipsum](/docs/docs/bash/)
-  - [Await](/docs/docs/await-keyword/)
-  - [Data Structures Docs](/docs/docs/data-structures-docs/)
-  - [Learn Css](/docs/docs/css/)
-  - [Markdown](/docs/docs/markdown/)
-  - [Git Repo List](/docs/docs/git-repos/)
-  - [lorem-ipsum](/docs/docs/git-reference/)
-  - [Sitemap](/docs/docs/sitemap/)
-  - [Regular Expressions](/docs/docs/regex-in-js/)
-  - [Useful Snippets](/docs/docs/content/)
-  - [lorem-ipsum](/docs/docs/no-whiteboarding/)
+    -   [Apendix](/docs/docs/appendix/)
+    -   [lorem-ipsum](/docs/docs/bash/)
+    -   [Await](/docs/docs/await-keyword/)
+    -   [Data Structures Docs](/docs/docs/data-structures-docs/)
+    -   [Learn Css](/docs/docs/css/)
+    -   [Markdown](/docs/docs/markdown/)
+    -   [Git Repo List](/docs/docs/git-repos/)
+    -   [lorem-ipsum](/docs/docs/git-reference/)
+    -   [Sitemap](/docs/docs/sitemap/)
+    -   [Regular Expressions](/docs/docs/regex-in-js/)
+    -   [Useful Snippets](/docs/docs/content/)
+    -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
 
-- [FAQ](/docs/faq/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [FAQ](/docs/faq/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Plug-ins](/docs/faq/plug-ins/)
-  - [Contact!](/docs/faq/contact/)
+    -   [Plug-ins](/docs/faq/plug-ins/)
+    -   [Contact!](/docs/faq/contact/)
 
-- [Javascript](/docs/javascript/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Javascript](/docs/javascript/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Javascript Concepts Review](/docs/javascript/review/)
-  - [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
-  - [Constructor Functions](/docs/javascript/constructor-functions/)
+    -   [Javascript Concepts Review](/docs/javascript/review/)
+    -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
+    -   [Constructor Functions](/docs/javascript/constructor-functions/)
 
-- [Interactive Examples](/docs/interact/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Interactive Examples](/docs/interact/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
-  - [Callstack Visualizer](/docs/interact/callstack-visual/)
-  - [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
-  - [Clock](/docs/interact/clock/)
-  - [Other Websites](/docs/interact/other-sites/)
+    -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
+    -   [Callstack Visualizer](/docs/interact/callstack-visual/)
+    -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
+    -   [Clock](/docs/interact/clock/)
+    -   [Other Websites](/docs/interact/other-sites/)
 
-- [Medium](/docs/medium/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Medium](/docs/medium/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [My Sites](/docs/medium/my-websites/)
-  - [Medium](/docs/medium/medium-links/)
+    -   [My Sites](/docs/medium/my-websites/)
+    -   [Medium](/docs/medium/medium-links/)
 
-- [Quick Reference](/docs/quick-reference/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Quick Reference](/docs/quick-reference/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
-  - [Git Bash](/docs/quick-reference/git-bash/)
-  - [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
-  - [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
-  - [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
-  - [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
-  - [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
-  - [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
-  - [Quick Links](/docs/quick-reference/quick-links/)
-  - [Understanding PATH](/docs/quick-reference/understanding-path/)
-  - [Developer Resources](/docs/quick-reference/resources/)
-  - [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
-  - [Installation](/docs/quick-reference/installation/)
-  - [Top Repos](/docs/quick-reference/topRepos/)
-  - [Github Search](/docs/quick-reference/github-search/)
-  - [Awesome Lists](/docs/quick-reference/awesome-lists/)
-  - [new-repo-git](/docs/quick-reference/new-repo-instructions/)
-  - [Notes Template](/docs/quick-reference/notes-template/)
-  - [vscode](/docs/quick-reference/vscode/)
-  - [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
-  - [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
-  - [vscode-themes](/docs/quick-reference/vscode-themes/)
+    -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
+    -   [Git Bash](/docs/quick-reference/git-bash/)
+    -   [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
+    -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
+    -   [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
+    -   [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
+    -   [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
+    -   [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
+    -   [Quick Links](/docs/quick-reference/quick-links/)
+    -   [Understanding PATH](/docs/quick-reference/understanding-path/)
+    -   [Developer Resources](/docs/quick-reference/resources/)
+    -   [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
+    -   [Installation](/docs/quick-reference/installation/)
+    -   [Top Repos](/docs/quick-reference/topRepos/)
+    -   [Github Search](/docs/quick-reference/github-search/)
+    -   [Awesome Lists](/docs/quick-reference/awesome-lists/)
+    -   [new-repo-git](/docs/quick-reference/new-repo-instructions/)
+    -   [Notes Template](/docs/quick-reference/notes-template/)
+    -   [vscode](/docs/quick-reference/vscode/)
+    -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
+    -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
+    -   [vscode-themes](/docs/quick-reference/vscode-themes/)
 
-- [React](/docs/react/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [React](/docs/react/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [React Class Components Demo](/docs/react/demo/)
-  - [React Cheat Sheets:](/docs/react/cheatsheet/)
-  - [Introducing JSX](/docs/react/jsx/)
-  - [Rendering Elements With React](/docs/react/render-elements/)
-  - [React In Depth](/docs/react/react-in-depth/)
-  - [Intro To React](/docs/react/react2/)
-  - [React Docs](/docs/react/react-docs/)
-  - [npx-create-react-app](/docs/react/createReactApp/)
+    -   [React Class Components Demo](/docs/react/demo/)
+    -   [React Cheat Sheets:](/docs/react/cheatsheet/)
+    -   [Introducing JSX](/docs/react/jsx/)
+    -   [Rendering Elements With React](/docs/react/render-elements/)
+    -   [React In Depth](/docs/react/react-in-depth/)
+    -   [Intro To React](/docs/react/react2/)
+    -   [React Docs](/docs/react/react-docs/)
+    -   [npx-create-react-app](/docs/react/createReactApp/)
 
-- [Tools](/docs/tools/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Tools](/docs/tools/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [more tools](/docs/tools/more-tools/)
-  - [Data Structures](/docs/tools/data-structures/)
-  - [General Utilities](/docs/tools/dev-utilities/)
-  - [The google cloud cheat sheet](/docs/tools/cloudstorage/)
-  - [md and html](/docs/tools/markdown-html/)
+    -   [more tools](/docs/tools/more-tools/)
+    -   [Data Structures](/docs/tools/data-structures/)
+    -   [General Utilities](/docs/tools/dev-utilities/)
+    -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
+    -   [md and html](/docs/tools/markdown-html/)
 
-- [My Python Docs](/docs/python/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-  - [lorem-ipsum](/docs/python/functions/)
-  - [lorem-ipsum](/docs/python/flow-control/)
-  - [lorem-ipsum](/docs/python/basics/)
-  - [lorem-ipsum](/docs/python/comprehensive-guide/)
-  - [google-sheets-api](/docs/python/google-sheets-api/)
-  - [Practice](/docs/python/examples/)
-  - [lorem-ipsum](/docs/python/intro-for-js-devs/)
-  - [Python General Notes](/docs/python/python-ds/)
-  - [Python Cheat Sheet](/docs/python/cheat-sheet/)
-  - [Python Snippets](/docs/python/snippets/)
-  - [Python at length](/docs/python/at-length/)
+-   [My Python Docs](/docs/python/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+    -   [lorem-ipsum](/docs/python/functions/)
+    -   [lorem-ipsum](/docs/python/flow-control/)
+    -   [lorem-ipsum](/docs/python/basics/)
+    -   [lorem-ipsum](/docs/python/comprehensive-guide/)
+    -   [google-sheets-api](/docs/python/google-sheets-api/)
+    -   [Practice](/docs/python/examples/)
+    -   [lorem-ipsum](/docs/python/intro-for-js-devs/)
+    -   [Python General Notes](/docs/python/python-ds/)
+    -   [Python Cheat Sheet](/docs/python/cheat-sheet/)
+    -   [Python Snippets](/docs/python/snippets/)
+    -   [Python at length](/docs/python/at-length/)
 
-# React Cheat Sheets:
+React Cheat Sheets:
+===================
 
-## React Cheat Sheet
+React Cheat Sheet
+-----------------
 
 React:
 
-- `<script src="https://unpkg.com/react@15/dist/react.js"></script>`
-- `$ npm install react --save`
-- `$ bower install react --save`
+-   `<script           src="https://unpkg.com/react@15/dist/react.js"></script>`
+-   `$ npm install react --save`
+-   `$ bower install react --save`
 
 React DOM:
 
-- `<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>`
-- `$ npm install react-dom`
-- `$ bower install react-dom --save`
+-   `<script           src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>`
+-   `$ npm install react-dom`
+-   `$ bower install react-dom --save`
 
-## Rendering
+Rendering
+---------
 
 ### Rendering (ES5)
 
@@ -287,13 +269,15 @@ React DOM:
       document.getElementById('menu')
     )
 
-## Server-side Rendering
+Server-side Rendering
+---------------------
 
     var ReactDOMServer = require('react-dom/server')
     ReactDOMServer.renderToString(Link, {name: 'HackHall.com'})
     ReactDOMServer.renderToStaticMarkup(Link, {name: 'HackHall.com'})
 
-## Components
+Components
+----------
 
 ### ES5
 
@@ -320,13 +304,14 @@ React DOM:
       }
     }
 
-## Advanced Components
+Advanced Components
+-------------------
 
 ### Options (ES5)
 
-- `propTypes object`: Type validation in development mode
-- `getDefaultProps function()`: object of default props
-- `getInitialState function()`: object of the initial state
+-   `propTypes object`: Type validation in development mode
+-   `getDefaultProps function()`: object of default props
+-   `getInitialState function()`: object of the initial state
 
 ES5:
 
@@ -397,58 +382,61 @@ ES6 + JSX:
     Link.propTypes = { initialCount: React.PropTypes.number };
     Link.defaultProps = { initialCount: 0 };
 
-## Lifecycle Events
+Lifecycle Events
+----------------
 
 Modern React lifecycle methods (v16+) ![](DZ-97vzW4AAbcZj.jpg)
 
 Legacy Lifecycle Events:
 
-- `componentWillMount function()`
-- `componentDidMount function()`
-- `componentWillReceiveProps function(nextProps)`
-- `shouldComponentUpdate function(nextProps, nextState)-> bool`
-- `componentWillUpdate function(nextProps, nextState)`
-- `componentDidUpdate function(prevProps, prevState)`
-- `componentWillUnmount function()`
+-   `componentWillMount function()`
+-   `componentDidMount function()`
+-   `componentWillReceiveProps function(nextProps)`
+-   `shouldComponentUpdate function(nextProps, nextState)-> bool`
+-   `componentWillUpdate function(nextProps, nextState)`
+-   `componentDidUpdate function(prevProps, prevState)`
+-   `componentWillUnmount function()`
 
 Sequence of lifecycle events:
 
 ![](lifecycle-events.png)
 
-Inspired by <http://react.tips>
+Inspired by <a href="http://react.tips" class="uri">http://react.tips</a>
 
-## Special Props
+Special Props
+-------------
 
-- `key`: Unique identifier for an element to turn arrays/lists into hashes for better performance, e.g., `key={id}`
-- `ref`: Reference to an element via `this.refs.NAME`, e.g., `ref="email"` will create `this.refs.email` DOM node or `ReactDOM.findDOMNode(this.refs.email)`
-- `style`: Accept an object of styles, instead of a string (immutable since v0.14), e.g., `style={{color: red}}`
-- `className`: the HTML `class` attribute, e.g., `className="btn"`
-- `htmlFor`: the HTML `for` attribute, e.g., `htmlFor="email"`
-- `dangerouslySetInnerHTML`: raw HTML by providing an object with the key `__html`
-- `children`: content of the element via `this.props.children`, e.g., `this.props.children[0]`
-- `data-NAME`: custom attribute, e.g., `data-tooltip-text="..."`
+-   `key`: Unique identifier for an element to turn arrays/lists into hashes for better performance, e.g., `key={id}`
+-   `ref`: Reference to an element via `this.refs.NAME`, e.g., `ref="email"` will create `this.refs.email` DOM node or `ReactDOM.findDOMNode(this.refs.email)`
+-   `style`: Accept an object of styles, instead of a string (immutable since v0.14), e.g., `style={{color: red}}`
+-   `className`: the HTML `class` attribute, e.g., `className="btn"`
+-   `htmlFor`: the HTML `for` attribute, e.g., `htmlFor="email"`
+-   `dangerouslySetInnerHTML`: raw HTML by providing an object with the key `__html`
+-   `children`: content of the element via `this.props.children`, e.g., `this.props.children[0]`
+-   `data-NAME`: custom attribute, e.g., `data-tooltip-text="..."`
 
-## propTypes
+propTypes
+---------
 
 Types available under `React.PropTypes`:
 
-- `any`
-- `array`
-- `bool`
-- `element`
-- `func`
-- `node`
-- `number`
-- `object`
-- `string`
+-   `any`
+-   `array`
+-   `bool`
+-   `element`
+-   `func`
+-   `node`
+-   `number`
+-   `object`
+-   `string`
 
 To make required, append `.isRequired`.
 
 More methods:
 
-- `instanceOf(constructor)`
-- `oneOf(['News', 'Photos'])`
-- `oneOfType([propType, propType])`
+-   `instanceOf(constructor)`
+-   `oneOf(['News', 'Photos'])`
+-   `oneOfType([propType, propType])`
 
 ### Custom Validation
 
@@ -460,48 +448,51 @@ More methods:
       }
     }
 
-## Component Properties and Methods
+Component Properties and Methods
+--------------------------------
 
 Properties:
 
-- `this.refs`: Lists components with a `ref` prop
-- `this.props`: Any props passed to an element (immutable)
-- `this.state`: State set by setState and getInitialState (muttable) — avoid setting state manually with `this.state=...`
-- `this.isMounted`: Flag whether the element has a corresponding DOM node or not
+-   `this.refs`: Lists components with a `ref` prop
+-   `this.props`: Any props passed to an element (immutable)
+-   `this.state`: State set by setState and getInitialState (muttable) — avoid setting state manually with `this.state=...`
+-   `this.isMounted`: Flag whether the element has a corresponding DOM node or not
 
 Methods:
 
-- `setState(changes)`: Change state (partially) to `this.state` and trigger re-render
-- `replaceState(newState)`: Replace `this.state` and trigger re-render
-- `forceUpdate()`: Trigger DOM re-render immediately
+-   `setState(changes)`: Change state (partially) to `this.state` and trigger re-render
+-   `replaceState(newState)`: Replace `this.state` and trigger re-render
+-   `forceUpdate()`: Trigger DOM re-render immediately
 
-## React Addons
+React Addons
+------------
 
 As npm modules:
 
-- [`react-addons-css-transition-group`](http://facebook.github.io/react/docs/animation.html)
-- [`react-addons-perf`](http://facebook.github.io/react/docs/perf.html)
-- [`react-addons-test-utils`](http://facebook.github.io/react/docs/test-utils.html)
-- [`react-addons-pure-render-mixin`](http://facebook.github.io/react/docs/pure-render-mixin.html)
-- [`react-addons-linked-state-mixin`](http://facebook.github.io/react/docs/two-way-binding-helpers.html)
-- `react-addons-clone-with-props`
-- `react-addons-create-fragment`
-- `react-addons-css-transition-group`
-- `react-addons-linked-state-mixin`
-- `react-addons-pure-render-mixin`
-- `react-addons-shallow-compare`
-- `react-addons-transition-group`
-- [`react-addons-update`](http://facebook.github.io/react/docs/update.html)
+-   [`react-addons-css-transition-group`](http://facebook.github.io/react/docs/animation.html)
+-   [`react-addons-perf`](http://facebook.github.io/react/docs/perf.html)
+-   [`react-addons-test-utils`](http://facebook.github.io/react/docs/test-utils.html)
+-   [`react-addons-pure-render-mixin`](http://facebook.github.io/react/docs/pure-render-mixin.html)
+-   [`react-addons-linked-state-mixin`](http://facebook.github.io/react/docs/two-way-binding-helpers.html)
+-   `react-addons-clone-with-props`
+-   `react-addons-create-fragment`
+-   `react-addons-css-transition-group`
+-   `react-addons-linked-state-mixin`
+-   `react-addons-pure-render-mixin`
+-   `react-addons-shallow-compare`
+-   `react-addons-transition-group`
+-   [`react-addons-update`](http://facebook.github.io/react/docs/update.html)
 
-## React Components
+React Components
+----------------
 
-- <https://github.com/brillout/awesome-react-components> and <http://devarchy.com/react-components>: List of React components
-- [Material-UI](http://www.material-ui.com): Material design React components
-- <http://react-toolbox.com>: Set of React components that implement Google Material Design specification
-- <https://js.coach>: Opinionated catalog of open source JS (mostly React) packages
-- <https://react.rocks>: Catalog of React components
-- <https://khan.github.io/react-components>: Khan Academy React components
-- <http://www.reactjsx.com>: Registry of React components
+-   <a href="https://github.com/brillout/awesome-react-components" class="uri">https://github.com/brillout/awesome-react-components</a> and <a href="http://devarchy.com/react-components" class="uri">http://devarchy.com/react-components</a>: List of React components
+-   [Material-UI](http://www.material-ui.com): Material design React components
+-   <a href="http://react-toolbox.com" class="uri">http://react-toolbox.com</a>: Set of React components that implement Google Material Design specification
+-   <a href="https://js.coach" class="uri">https://js.coach</a>: Opinionated catalog of open source JS (mostly React) packages
+-   <a href="https://react.rocks" class="uri">https://react.rocks</a>: Catalog of React components
+-   <a href="https://khan.github.io/react-components" class="uri">https://khan.github.io/react-components</a>: Khan Academy React components
+-   <a href="http://www.reactjsx.com" class="uri">http://www.reactjsx.com</a>: Registry of React components
 
 ### Cheat Sheet:
 
@@ -511,7 +502,7 @@ As npm modules:
      * FILE STRUCTURE: https://reactjs.org/docs/faq-structure.html
      * ******************************************************************************************* */
 
-npm install --save react // declarative and flexible JavaScript library for building UI npm install --save react-dom // serves as the entry point of the DOM-related rendering paths npm install --save prop-types // runtime type checking for React props and similar objects
+npm install –save react // declarative and flexible JavaScript library for building UI npm install –save react-dom // serves as the entry point of the DOM-related rendering paths npm install –save prop-types // runtime type checking for React props and similar objects
 
     // notes: don't forget the command lines
 
@@ -840,11 +831,12 @@ npm install --save react // declarative and flexible JavaScript library for buil
       })
     };
 
-## Jump to Section
+Jump to Section
+---------------
 
-<table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
+<table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color: transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 
