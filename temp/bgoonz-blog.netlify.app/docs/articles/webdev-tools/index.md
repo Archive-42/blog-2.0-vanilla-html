@@ -2,278 +2,259 @@ This app works best with JavaScript enabled.
 
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
-- <a href="/docs/sitemap" class="button">Navigation</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="/docs" class="button">Docs</a>
-  - <a href="/showcase" class="button">Showcase</a>
-  - <a href="/docs/faq/contact" class="button">Contact!</a>
-  - <a href="/docs/python/python-ds" class="button">Python</a>
+    -   <a href="/docs" class="button">Docs</a>
+    -   <a href="/showcase" class="button">Showcase</a>
+    -   <a href="/docs/faq/contact" class="button">Contact!</a>
+    -   <a href="/docs/python/python-ds" class="button">Python</a>
 
-- <a href="/blog/" class="button">Blog</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
-  - <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
-  - <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
-  - <a href="/blog/platform-docs/" class="button">platform docs</a>
-  - <a href="/docs/articles/nodejs/" class="button">nodejs</a>
-  - <a href="/blogWcomments/" class="button">Blog w Comments</a>
+    -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
+    -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
+    -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
+    -   <a href="/blog/platform-docs/" class="button">platform docs</a>
+    -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
+    -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
 
-- <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
-  - <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
-  - <a href="#" class="button">Bootcamp Resources</a>
-  - <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
-  - <a href="/docs/gallery" class="button">Gallery</a>
-  - <a href="/docs" class="button">Top Repos</a>
+    -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
+    -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
+    -   <a href="#" class="button">Bootcamp Resources</a>
+    -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
+    -   <a href="/docs/gallery" class="button">Gallery</a>
+    -   <a href="/docs" class="button">Top Repos</a>
 
-- <a href="/docs/audio/audio" class="button">Audio</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
-  - <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+    -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
+    -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
 
-- <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
-  - <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
-  - <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
-  - [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
-  - <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+    -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
+    -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
+    -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
+    -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
+    -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
 
-- <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
-  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
-  - <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
-  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
-  - <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
-  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
-  - <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
-  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
-  - <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+    -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
+    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
+    -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
+    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
+    -   <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
+    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
+    -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
+    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
+    -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
 
-- <a href="/docs/tools" class="button">Tools</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-  - <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
-  - <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
-  - <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
-  - <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
-  - <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
-  - <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
-  - <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
-  - <span class="screen-reader-text">Github-Advanced-Search</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+    -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
+    -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
+    -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
+    -   <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
+    -   <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
+    -   <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
+    -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
+    -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
-Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
+Navigate Docs<span class="icon-angle-right" data-aria-hidden="true"></span>
 
-- [Docs](/docs/)
-- [About](/docs/about/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Docs](/docs/)
+-   [About](/docs/about/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Job Search](/docs/about/job-search/)
-  - [Youtube](/docs/about/intrests/)
-  - [Resume](/docs/about/resume/)
-  - [Engineering Portfolio](/docs/about/eng-portfolio/)
-  - [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
+    -   [Job Search](/docs/about/job-search/)
+    -   [Youtube](/docs/about/intrests/)
+    -   [Resume](/docs/about/resume/)
+    -   [Engineering Portfolio](/docs/about/eng-portfolio/)
+    -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
 
-- [Articles](/docs/articles/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Articles](/docs/articles/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [The HTTP Protocol](/docs/articles/http/)
-  - [How The Web Works](/docs/articles/how-the-web-works/)
-  - [Sorting Algorithms](/docs/articles/node-package-manager/)
-  - [Introduction to npm](/docs/articles/npm/)
-  - [Firebase](/docs/articles/understanding-firebase/)
-  - [The Uniform Resource Locator (URL)](</docs/articles/the-uniform-resource-locator-(url)/>)
-  - [lorem-ipsum](/docs/articles/semantic-html/)
-  - [Web Standards Checklist](/docs/articles/web-standards-checklist/)
-  - [Web Developer Tools](/docs/articles/webdev-tools/)
-  - [where-is-npm-pack](/docs/articles/node-cli-args/)
-  - [The-package-lock.json-file](/docs/articles/node-repl/)
-  - [node-cli-args](/docs/articles/node-run-cli/)
-  - [Node Export Module](/docs/articles/node-env-variables/)
-  - [npm global or local packages](/docs/articles/v8/)
-  - [packagejson](/docs/articles/node-js-language/)
-  - [Common Modules](/docs/articles/node-common-modules/)
-  - [Node Buffers](/docs/articles/buffers/)
-  - [Dev Dependencies](/docs/articles/dev-dep/)
-  - [The Node.js Event Loop](/docs/articles/event-loop/)
-  - [Web Dev Review](/docs/articles/basic-web-dev/)
-  - [Fs-Module](/docs/articles/fs-module/)
-  - [Install](/docs/articles/install/)
-  - [Intro To Node](/docs/articles/intro/)
-  - [module-exports](/docs/articles/module-exports/)
-  - [Javascript and Node](/docs/articles/nodejs/)
-  - [The npx Node.js Package Runner](/docs/articles/npx/)
-  - [Node vs Browser](/docs/articles/nodevsbrowser/)
-  - [Reading Files](/docs/articles/reading-files/)
-  - [OS-Module](/docs/articles/os-module/)
-  - [Semantic Versioning](/docs/articles/semantic/)
-  - [Writing Files](/docs/articles/writing-files/)
-  - [Node APIs With Express](/docs/articles/node-api-express/)
+    -   [The HTTP Protocol](/docs/articles/http/)
+    -   [How The Web Works](/docs/articles/how-the-web-works/)
+    -   [Sorting Algorithms](/docs/articles/node-package-manager/)
+    -   [Introduction to npm](/docs/articles/npm/)
+    -   [Firebase](/docs/articles/understanding-firebase/)
+    -   [The Uniform Resource Locator (URL)](/docs/articles/the-uniform-resource-locator-(url)/)
+    -   [lorem-ipsum](/docs/articles/semantic-html/)
+    -   [Web Standards Checklist](/docs/articles/web-standards-checklist/)
+    -   [Web Developer Tools](/docs/articles/webdev-tools/)
+    -   [where-is-npm-pack](/docs/articles/node-cli-args/)
+    -   [The-package-lock.json-file](/docs/articles/node-repl/)
+    -   [node-cli-args](/docs/articles/node-run-cli/)
+    -   [Node Export Module](/docs/articles/node-env-variables/)
+    -   [npm global or local packages](/docs/articles/v8/)
+    -   [packagejson](/docs/articles/node-js-language/)
+    -   [Common Modules](/docs/articles/node-common-modules/)
+    -   [Node Buffers](/docs/articles/buffers/)
+    -   [Dev Dependencies](/docs/articles/dev-dep/)
+    -   [The Node.js Event Loop](/docs/articles/event-loop/)
+    -   [Web Dev Review](/docs/articles/basic-web-dev/)
+    -   [Fs-Module](/docs/articles/fs-module/)
+    -   [Install](/docs/articles/install/)
+    -   [Intro To Node](/docs/articles/intro/)
+    -   [module-exports](/docs/articles/module-exports/)
+    -   [Javascript and Node](/docs/articles/nodejs/)
+    -   [The npx Node.js Package Runner](/docs/articles/npx/)
+    -   [Node vs Browser](/docs/articles/nodevsbrowser/)
+    -   [Reading Files](/docs/articles/reading-files/)
+    -   [OS-Module](/docs/articles/os-module/)
+    -   [Semantic Versioning](/docs/articles/semantic/)
+    -   [Writing Files](/docs/articles/writing-files/)
+    -   [Node APIs With Express](/docs/articles/node-api-express/)
 
-- [Audio](/docs/audio/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Audio](/docs/audio/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
-  - [Audio](/docs/audio/audio/)
-  - [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
-  - [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
-  - [Discrete Fast Fourier Transform](/docs/audio/dfft/)
-  - [Fast Fourier Transform](/docs/audio/discrete-fft/)
+    -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
+    -   [Audio](/docs/audio/audio/)
+    -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
+    -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
+    -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
+    -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
 
-- [Community](/docs/community/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Community](/docs/community/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Video Chat](/docs/community/video-chat/)
+    -   [Video Chat](/docs/community/video-chat/)
 
-- [Content](/docs/content/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Content](/docs/content/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [RECENT PROJECTS](/docs/content/data-structures-algo/)
-  - [History API](/docs/content/history-api/)
-  - [Lambda School Projects](/docs/content/lambda-projects/)
-  - [Trouble Shooting](/docs/content/trouble-shooting/)
-  - [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
-  - [Projects](/docs/content/projects/)
-  - [Archive](/docs/content/archive/)
-  - [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
-  - [Embeded Websites & Projects](/docs/content/recent-projects/)
-  - [Algorithms & Data Structures](/docs/content/algo/)
+    -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
+    -   [History API](/docs/content/history-api/)
+    -   [Lambda School Projects](/docs/content/lambda-projects/)
+    -   [Trouble Shooting](/docs/content/trouble-shooting/)
+    -   [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
+    -   [Projects](/docs/content/projects/)
+    -   [Archive](/docs/content/archive/)
+    -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
+    -   [Embeded Websites & Projects](/docs/content/recent-projects/)
+    -   [Algorithms & Data Structures](/docs/content/algo/)
 
-- [Documentation](/docs/docs/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Documentation](/docs/docs/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Apendix](/docs/docs/appendix/)
-  - [Await](/docs/docs/await-keyword/)
-  - [Git Reference](/docs/docs/git-reference/)
-  - [Data Structures Docs](/docs/docs/data-structures-docs/)
-  - [Bash Commands That Save Me Time and Frustration](/docs/docs/bash/)
-  - [Git Repo List](/docs/docs/git-repos/)
-  - [Markdown](/docs/docs/markdown/)
-  - [Regular Expressions](/docs/docs/regex-in-js/)
-  - [Sitemap](/docs/docs/sitemap/)
-  - [Learn Css](/docs/docs/css/)
-  - [Useful Snippets](/docs/docs/content/)
-  - [lorem-ipsum](/docs/docs/no-whiteboarding/)
+    -   [Apendix](/docs/docs/appendix/)
+    -   [Await](/docs/docs/await-keyword/)
+    -   [Git Reference](/docs/docs/git-reference/)
+    -   [Data Structures Docs](/docs/docs/data-structures-docs/)
+    -   [Bash Commands That Save Me Time and Frustration](/docs/docs/bash/)
+    -   [Git Repo List](/docs/docs/git-repos/)
+    -   [Markdown](/docs/docs/markdown/)
+    -   [Regular Expressions](/docs/docs/regex-in-js/)
+    -   [Sitemap](/docs/docs/sitemap/)
+    -   [Learn Css](/docs/docs/css/)
+    -   [Useful Snippets](/docs/docs/content/)
+    -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
 
-- [FAQ](/docs/faq/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [FAQ](/docs/faq/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Plug-ins](/docs/faq/plug-ins/)
-  - [Contact!](/docs/faq/contact/)
+    -   [Plug-ins](/docs/faq/plug-ins/)
+    -   [Contact!](/docs/faq/contact/)
 
-- [Javascript](/docs/javascript/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Javascript](/docs/javascript/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Javascript Concepts Review](/docs/javascript/review/)
-  - [Constructor Functions](/docs/javascript/constructor-functions/)
-  - [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
+    -   [Javascript Concepts Review](/docs/javascript/review/)
+    -   [Constructor Functions](/docs/javascript/constructor-functions/)
+    -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
 
-- [Interactive Examples](/docs/interact/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Interactive Examples](/docs/interact/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Callstack Visualizer](/docs/interact/callstack-visual/)
-  - [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
-  - [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
-  - [Other Websites](/docs/interact/other-sites/)
-  - [Clock](/docs/interact/clock/)
+    -   [Callstack Visualizer](/docs/interact/callstack-visual/)
+    -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
+    -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
+    -   [Other Websites](/docs/interact/other-sites/)
+    -   [Clock](/docs/interact/clock/)
 
-- [Medium](/docs/medium/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Medium](/docs/medium/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [My Sites](/docs/medium/my-websites/)
-  - [Medium](/docs/medium/medium-links/)
+    -   [My Sites](/docs/medium/my-websites/)
+    -   [Medium](/docs/medium/medium-links/)
 
-- [Quick Reference](/docs/quick-reference/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Quick Reference](/docs/quick-reference/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Git Bash](/docs/quick-reference/git-bash/)
-  - [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
-  - [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
-  - [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
-  - [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
-  - [Quick Links](/docs/quick-reference/quick-links/)
-  - [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
-  - [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
-  - [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
-  - [Understanding PATH](/docs/quick-reference/understanding-path/)
-  - [Developer Resources](/docs/quick-reference/resources/)
-  - [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
-  - [Installation](/docs/quick-reference/installation/)
-  - [Top Repos](/docs/quick-reference/topRepos/)
-  - [Awesome Lists](/docs/quick-reference/awesome-lists/)
-  - [Github Search](/docs/quick-reference/github-search/)
-  - [new-repo-git](/docs/quick-reference/new-repo-instructions/)
-  - [Notes Template](/docs/quick-reference/notes-template/)
-  - [vscode](/docs/quick-reference/vscode/)
-  - [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
-  - [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
-  - [vscode-themes](/docs/quick-reference/vscode-themes/)
+    -   [Git Bash](/docs/quick-reference/git-bash/)
+    -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
+    -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
+    -   [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
+    -   [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
+    -   [Quick Links](/docs/quick-reference/quick-links/)
+    -   [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
+    -   [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
+    -   [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
+    -   [Understanding PATH](/docs/quick-reference/understanding-path/)
+    -   [Developer Resources](/docs/quick-reference/resources/)
+    -   [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
+    -   [Installation](/docs/quick-reference/installation/)
+    -   [Top Repos](/docs/quick-reference/topRepos/)
+    -   [Awesome Lists](/docs/quick-reference/awesome-lists/)
+    -   [Github Search](/docs/quick-reference/github-search/)
+    -   [new-repo-git](/docs/quick-reference/new-repo-instructions/)
+    -   [Notes Template](/docs/quick-reference/notes-template/)
+    -   [vscode](/docs/quick-reference/vscode/)
+    -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
+    -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
+    -   [vscode-themes](/docs/quick-reference/vscode-themes/)
 
-- [React](/docs/react/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [React](/docs/react/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [React Cheat Sheets:](/docs/react/cheatsheet/)
-  - [React Class Components Demo](/docs/react/demo/)
-  - [Introducing JSX](/docs/react/jsx/)
-  - [Rendering Elements With React](/docs/react/render-elements/)
-  - [React In Depth](/docs/react/react-in-depth/)
-  - [Intro To React](/docs/react/react2/)
-  - [npx-create-react-app](/docs/react/createReactApp/)
-  - [React Docs](/docs/react/react-docs/)
+    -   [React Cheat Sheets:](/docs/react/cheatsheet/)
+    -   [React Class Components Demo](/docs/react/demo/)
+    -   [Introducing JSX](/docs/react/jsx/)
+    -   [Rendering Elements With React](/docs/react/render-elements/)
+    -   [React In Depth](/docs/react/react-in-depth/)
+    -   [Intro To React](/docs/react/react2/)
+    -   [npx-create-react-app](/docs/react/createReactApp/)
+    -   [React Docs](/docs/react/react-docs/)
 
-- [Tools](/docs/tools/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Tools](/docs/tools/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Data Structures](/docs/tools/data-structures/)
-  - [General Utilities](/docs/tools/dev-utilities/)
-  - [more tools](/docs/tools/more-tools/)
-  - [The google cloud cheat sheet](/docs/tools/cloudstorage/)
-  - [md and html](/docs/tools/markdown-html/)
+    -   [Data Structures](/docs/tools/data-structures/)
+    -   [General Utilities](/docs/tools/dev-utilities/)
+    -   [more tools](/docs/tools/more-tools/)
+    -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
+    -   [md and html](/docs/tools/markdown-html/)
 
-- [My Python Docs](/docs/python/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-  - [lorem-ipsum](/docs/python/basics/)
-  - [lorem-ipsum](/docs/python/flow-control/)
-  - [google-sheets-api](/docs/python/google-sheets-api/)
-  - [lorem-ipsum](/docs/python/functions/)
-  - [lorem-ipsum](/docs/python/intro-for-js-devs/)
-  - [Practice](/docs/python/examples/)
-  - [Python General Notes](/docs/python/python-ds/)
-  - [Python Cheat Sheet](/docs/python/cheat-sheet/)
-  - [lorem-ipsum](/docs/python/comprehensive-guide/)
-  - [Python Snippets](/docs/python/snippets/)
-  - [Python at length](/docs/python/at-length/)
+-   [My Python Docs](/docs/python/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+    -   [lorem-ipsum](/docs/python/basics/)
+    -   [lorem-ipsum](/docs/python/flow-control/)
+    -   [google-sheets-api](/docs/python/google-sheets-api/)
+    -   [lorem-ipsum](/docs/python/functions/)
+    -   [lorem-ipsum](/docs/python/intro-for-js-devs/)
+    -   [Practice](/docs/python/examples/)
+    -   [Python General Notes](/docs/python/python-ds/)
+    -   [Python Cheat Sheet](/docs/python/cheat-sheet/)
+    -   [lorem-ipsum](/docs/python/comprehensive-guide/)
+    -   [Python Snippets](/docs/python/snippets/)
+    -   [Python at length](/docs/python/at-length/)
 
-# Web Developer Tools
+Web Developer Tools
+===================
 
 1.  What Are Web Development Tools?
 
-##### **Client-side**Otherwise known as front-end web development, this refers to anything a user can see or engage with—an app or website are good examples. This is about providing a top-notch user experience and smooth interface (usually with a combination of HTML, CSS and various JavaScript libraries.**Server-side**Otherwise known as back-end web development, this refers to the stuff behind the scenes of apps and websites that users can't see. It's the frameworks, servers and databases that keep things running.Image Source: Paperform
+##### **Client-side**Otherwise known as front-end web development, this refers to anything a user can see or engage with—an app or website are good examples. This is about providing a top-notch user experience and smooth interface (usually with a combination of HTML, CSS and various JavaScript libraries.**Server-side**Otherwise known as back-end web development, this refers to the stuff behind the scenes of apps and websites that users can’t see. It’s the frameworks, servers and databases that keep things running.Image Source: Paperform
 
-When people speak about web development tools (or devtools in the biz), they're usually referring to the apps and software that allows web developers to test and debug the code and interface of a website or web application.
+When people speak about web development tools (or devtools in the biz), they’re usually referring to the apps and software that allows web developers to test and debug the code and interface of a website or web application.
 
-Technically, the term doesn't refer to tools that \*actually help you *build a webpage or app*. \*But that distinction isn't helpful. Web developers require a range of tools that go beyond debugging and testing—whether it be a remote collaboration tool like Slack, a design tool like Figma, or even just an online forum like [StackOverflow](https://stackoverflow.com/).
+Technically, the term doesn’t refer to tools that \*actually help you *build a webpage or app*. \*But that distinction isn’t helpful. Web developers require a range of tools that go beyond debugging and testing—whether it be a remote collaboration tool like Slack, a design tool like Figma, or even just an online forum like [StackOverflow](https://stackoverflow.com/).
 
-For that reason, we've gone beyond the traditional definition of devtools with the aim of giving a  realistic view of the kind of apps and software devs use in their day to day workflows. We think you'll find some familiar favourites, as well as some useful tools to add to your tech stack.
+For that reason, we’ve gone beyond the traditional definition of devtools with the aim of giving a  realistic view of the kind of apps and software devs use in their day to day workflows. We think you’ll find some familiar favourites, as well as some useful tools to add to your tech stack.
 
-## What To Consider When Choosing Web Development Tools
+What To Consider When Choosing Web Development Tools
+----------------------------------------------------
 
-Whether you're [bootstrapping a website](https://www.templatemonster.com/bootstrap-website-templates/) from scratch or developing a simple web application, there are few things to keep in mind. Foremost is something that applies to any tool: pick the *right option for your specific needs.*
+Whether you’re [bootstrapping a website](https://www.templatemonster.com/bootstrap-website-templates/) from scratch or developing a simple web application, there are few things to keep in mind. Foremost is something that applies to any tool: pick the *right option for your specific needs.*
 
-> _What works for one project might not work for the next. As a web developer, you constantly need to investigate new tools and ways of doing things. Of course, we all have our favourites, but as a general rule, your tech stack should never be stagnant._
+> *What works for one project might not work for the next. As a web developer, you constantly need to investigate new tools and ways of doing things. Of course, we all have our favourites, but as a general rule, your tech stack should never be stagnant.*
 
-There's one other general principle to keep in mind. Tech should simplify your workflow—not complicate it. We know how easy it is to get bogged down in the nerdy details, but when in doubt, ask yourself: *does this tool actually make my job easier?*
+There’s one other general principle to keep in mind. Tech should simplify your workflow—not complicate it. We know how easy it is to get bogged down in the nerdy details, but when in doubt, ask yourself: *does this tool actually make my job easier?*
 
 Here are a few things to think about beyond these broader considerations:
 
@@ -285,7 +266,7 @@ Here are a few things to think about beyond these broader considerations:
 
 **Portability:** This may not be a gamechanger in the age of remote work, but often web devs travel between clients, the office, home and the local cafe.
 
-**Customisation:** Whether it's a theme on Google Chrome or an add-on for your development environment, we all like to make tools feel unique to us.
+**Customisation:** Whether it’s a theme on Google Chrome or an add-on for your development environment, we all like to make tools feel unique to us.
 
 **Security:** The security of users, your employer and the sites or apps you are working on always has to be looked after.
 
@@ -297,25 +278,27 @@ Web development is an all-encompassing term that refers to a bunch of roles. You
 
 Most of the time, web developers specialise in one of the two. However, there are a few show-offs that can do both—they’re referred to as full-stack developers.
 
-> The term stack is used because the tools that websites and apps use  'stack' on top of each other to build the final product.
+> The term stack is used because the tools that websites and apps use  ‘stack’ on top of each other to build the final product.
 
-Check out this example of Paperform's tech stack for example.
+Check out this example of Paperform’s tech stack for example.
 
-## The 50 Best Web Development Tools In 2021
+The 50 Best Web Development Tools In 2021
+-----------------------------------------
 
-Alright, as we Antipodeans say, no more beating around the bush. Let's get into the list of the best web development tools we recommend using in 2021.
+Alright, as we Antipodeans say, no more beating around the bush. Let’s get into the list of the best web development tools we recommend using in 2021.
 
-**📚 Read our guide on \*\*\[**how to get web design clients fast**\](<https://paperform.co/blog/how-to-get-web-design-clients/>)**.\*\*
+**📚 Read our guide on \*\*\[**how to get web design clients fast**\](<a href="https://paperform.co/blog/how-to-get-web-design-clients/" class="uri">https://paperform.co/blog/how-to-get-web-design-clients/</a>)**.\*\*
 
-## Code and Text Editors
+Code and Text Editors
+---------------------
 
-Web developers wouldn’t be able to do their jobs fast and efficiently without text editors. A dev's text editor of choice is kind of a holy thing—once devs find a text editor they love, they tend to stick with it for the long haul.
+Web developers wouldn’t be able to do their jobs fast and efficiently without text editors. A dev’s text editor of choice is kind of a holy thing—once devs find a text editor they love, they tend to stick with it for the long haul.
 
-Which is why it's such an important decision. It's like a carpenter choosing his hammer, or a Jedi Knight choosing his lightsaber. The good news is you can't go wrong with any listed below:
+Which is why it’s such an important decision. It’s like a carpenter choosing his hammer, or a Jedi Knight choosing his lightsaber. The good news is you can’t go wrong with any listed below:
 
 ### 1. Atom
 
-The creators of [Atom](https://atom.io/) describe it as a "hackable text editor for the 21st Century". This is in reference to the insane levels of customisation it offers that allow you to make it uniquely yours.
+The creators of [Atom](https://atom.io/) describe it as a “hackable text editor for the 21st Century”. This is in reference to the insane levels of customisation it offers that allow you to make it uniquely yours.
 
 Choose from thousands of open-source packages that add new functionality, tweak the look and feel with CSS, or even add your own major features with HTML and JavaScript.
 
@@ -323,9 +306,9 @@ Using Atom really is a smooth experience. It works with Mac, Windows or Linux an
 
 ### 2. Sublime Text
 
-[Sublime Text](https://www.sublimetext.com/) is going to be at the top of any list of the best text editors. It doesn't have all the advanced features other solutions do, but what it lacks in power, it more than makes up for with its beautiful appearance and overall ease of use.
+[Sublime Text](https://www.sublimetext.com/) is going to be at the top of any list of the best text editors. It doesn’t have all the advanced features other solutions do, but what it lacks in power, it more than makes up for with its beautiful appearance and overall ease of use.
 
-> With handy keyboard shortcuts, a Command Palette that you won't be able to live without once you use it and a UX to die for, it’s an absolute pleasure to use.
+> With handy keyboard shortcuts, a Command Palette that you won’t be able to live without once you use it and a UX to die for, it’s an absolute pleasure to use.
 
 The context-aware auto-completion feature is particularly useful. It suggests code based on your text, meaning you can cut down on repetitive typing. Add to that an updated Python API, syntax definitions and hyper-fast load times, Sublime Text is hard to go past.
 
@@ -351,7 +334,8 @@ There is a bevy of appearance options, including the ability to customise fonts,
 
 VS Code is the text editor of choice for Dean McPherson, Paperform’s co-founder and resident code-geek. He uses the remote plugins for version control and to keep our global dev team working in the same virtual environment.
 
-## Web Application Frameworks
+Web Application Frameworks
+--------------------------
 
 Web application frameworks (or just web frameworks) are software libraries that are designed to help you build web services, resources and APIs.
 
@@ -387,7 +371,7 @@ You’ll find all the relevant features you’d expect for each stage of the dev
 
 The Command-line Interface (CLI) is probably the most notable feature though. it allows you to initialise, develop, scaffold and maintain Angular apps right from the command shell.
 
-**💡Pro Tip:** A JavaScript library is a collection or “library” of prewritten code snippets that can be used to repeat common JavaScript functions. It's also important to note, that which JavaScript framework you use often depends on your client's/business' stack.
+**💡Pro Tip:** A JavaScript library is a collection or “library” of prewritten code snippets that can be used to repeat common JavaScript functions. It’s also important to note, that which JavaScript framework you use often depends on your client’s/business’ stack.
 
 ### 9. React
 
@@ -421,7 +405,8 @@ What sets it apart from other frameworks is that it uses C\# instead of JavaScri
 
 If you’re looking to learn NET then there are plenty of resources. Microsoft has plenty of [learning materials](https://dotnet.microsoft.com/learn/aspnet) and there’s an active [community on GitHub](https://github.com/dotnet?WT.mc_id=dotnet-35129-website) with over 100,000 people and 3,700 companies contributing.
 
-## Front-End Frameworks
+Front-End Frameworks
+--------------------
 
 Front-end frameworks (or “CSS frameworks”) are packages containing pre-written, standardised code for easy application. It’s kind of like a coding dictionary to help you quickly complete actions without having to come up with code yourself.
 
@@ -443,15 +428,15 @@ But the real strength here is the breadth of Semantic UI’s components. Whether
 
 ### 15. Foundation
 
-The folks at [Foundation](https://foundation.zurb.com/) refer to their tool as "the most advanced responsive front-end framework in the world", which is certainly setting the bar high. Though it really is suitable for any device, medium and level of accessibility.
+The folks at [Foundation](https://foundation.zurb.com/) refer to their tool as “the most advanced responsive front-end framework in the world”, which is certainly setting the bar high. Though it really is suitable for any device, medium and level of accessibility.
 
 Foundation is packed with features to help build content-focused websites, even providing users with HTML, CSS & Javascript templates to speed up the process. You can also use Foundation For Emails to craft HTML emails that look a million bucks on any platform.
 
 ### **16. Materialize**
 
-[Materialize](https://materializecss.com/) is a modern framework based on Google's Material Design language, combining the classic [principles of design](https://paperform.co/blog/principles-of-design/) with innovation and tech. As a language its goal is to help unify user experience across any platform, which is fitting, as this is a focus at Materialize as well.
+[Materialize](https://materializecss.com/) is a modern framework based on Google’s Material Design language, combining the classic [principles of design](https://paperform.co/blog/principles-of-design/) with innovation and tech. As a language its goal is to help unify user experience across any platform, which is fitting, as this is a focus at Materialize as well.
 
-From the animations to UI elements and everything between, there's a real focus on [user experience](https://paperform.co/blog/ux-design-portfolio/) above all else. That's not to say the technical tools aren't there. They are. It's fast, robust and has a low learning curve.
+From the animations to UI elements and everything between, there’s a real focus on [user experience](https://paperform.co/blog/ux-design-portfolio/) above all else. That’s not to say the technical tools aren’t there. They are. It’s fast, robust and has a low learning curve.
 
 ### 17. ChromeDevTools
 
@@ -469,13 +454,14 @@ Svelte’s “killer app” is that is has no virtual Dom. This means there’s 
 
 ### 19. Ember
 
-[Ember.js](https://emberjs.com/) is an open-source JavaScript web framework released back in 2011. Since then it’s been adopted by a large chunk of the web dev community and it’s easy to see why—using it's simple and, whether you’re creating feature-rich apps or client-side websites, the user experience is seamless.
+[Ember.js](https://emberjs.com/) is an open-source JavaScript web framework released back in 2011. Since then it’s been adopted by a large chunk of the web dev community and it’s easy to see why—using it’s simple and, whether you’re creating feature-rich apps or client-side websites, the user experience is seamless.
 
 Working with Ember is a “batteries included” experience. Out of the box you have all the tools to start building UIs that work on any device. The built-in development environment comes with fast rebuilds, auto-reload and a test runner. Ember Data also lets you set up asynchronous relationships and keep models up to date across your app, which is perfect for remote work.
 
 Not sold? Some of the biggest and best development teams in the world use Ember to iterate on their products, including Netflix, Intercom and Apple. Convinced?
 
-## Package Managers
+Package Managers
+----------------
 
 If you’ve ever installed a bunch of programs on your computer you’ll know it’s a tedious process. You’ve got to visit each individual website, download the installer, then set each one up individually.
 
@@ -483,7 +469,7 @@ This is fine if all you’re doing is downloading Spotify. But back- and front-e
 
 ### 20. Yarn
 
-[Yarn](https://yarnpkg.com/lang/en/) is a relatively new package manager built by Facebook. It's known for its speed and stability—about the only two things you need from a package manager. But what sets it apart from similar tools is that it doubles as a project management tool.
+[Yarn](https://yarnpkg.com/lang/en/) is a relatively new package manager built by Facebook. It’s known for its speed and stability—about the only two things you need from a package manager. But what sets it apart from similar tools is that it doubles as a project management tool.
 
 Installation is a breeze, and if you get stuck, the documentation is comprehensive. The Workspace feature allows you to split your project into sub-components, which is handy for keeping multiple versions of your project live. There is also a (small) plugin library to extend functionality.
 
@@ -499,11 +485,12 @@ Debian is a stable and secure Linux-based operating system extremely popular wit
 
 In terms of functionality, it’s definitely a more low-level solution. But if you’re trying to handle the installation and removal of Debian software, it’s the place to start. For a more advanced tool try [Pacman](https://wiki.archlinux.org/title/pacman) or [APT](https://wiki.debian.org/Apt) (literally, Advanced Package Tool). Both fetch packages from remote locations and deal with more complex functions.
 
-## Git Clients
+Git Clients
+-----------
 
-In Britain, 'Git' is slang for someone you think is a bit stupid. But in the world of web development, Git is the name for the software used to track changes in file sets. Most of the time it’s used to help devs collaborate during software development.
+In Britain, ‘Git’ is slang for someone you think is a bit stupid. But in the world of web development, Git is the name for the software used to track changes in file sets. Most of the time it’s used to help devs collaborate during software development.
 
-A Git \*client \*is the software you use to work with Git repositories, which can be either remote or locally stored. These allow you to make changes to your Git project (e.g. pushing changes and staging). There are a bunch of different Git clients available across various operating systems.
+A Git \*client \*is the software you use to work with Git repositories, which can be either remote or locally stored. These allow you to make changes to your Git project (e.g. pushing changes and staging). There are a bunch of different Git clients available across various operating systems.
 
 **💡Pro Tip:** Git is a command line interface and Git clients aren’t strictly necessary. It’s kind of like using a translator versus learning a language natively. GUIs don’t have all the same functionality that a command line client offers, which is why many web devs go that route instead.
 
@@ -531,13 +518,14 @@ Whether you’re just starting out as a web developer or  are an old pro, Sourc
 
 Sourcetree is available to download for free on both MacOS and Windows. They’ve got a huge range of [tutorials](https://support.atlassian.com/bitbucket-cloud/docs/tutorial-learn-bitbucket-with-sourcetree/) that’ll have you up and running in no time. After some initial hiccups, it’s now more powerful and reliable than almost any other Git client.
 
-## API and Testing Cloud Tools
+API and Testing Cloud Tools
+---------------------------
 
 Web APIs are a crucial part of web development these days. APIs allow devs to access specific features or data within an application, service or other system.
 
 For example, the tech world recently went nuts when Notion announced the beta for their API. By accessing the API devs can now connect other apps with Notion pages and databases.
 
-**📚 Learn more about \*\*\[**Paperform’s Notion integration**\](<https://paperform.co/integrations/notion/>)**.\*\*
+**📚 Learn more about \*\*\[**Paperform’s Notion integration**\](<a href="https://paperform.co/integrations/notion/" class="uri">https://paperform.co/integrations/notion/</a>)**.\*\*
 
 When testing and building with web APIs it’s crucial to have reliable tools. Here are some of the best:
 
@@ -569,7 +557,8 @@ It’s crucial that web applications and services work the same way no matter wh
 
 It also has the ability to auto-generate full page screenshots across any browser, OS, device or resolution. And with integrated debugging, geolocation testing and seamless collaboration via Asana, Slack and Trello integrations, Lambdatest is a must-have.
 
-## Web Design and Prototyping Tools
+Web Design and Prototyping Tools
+--------------------------------
 
 It’s not enough just to know how to code. Part of being a web designer is understanding what goes into good UI and [UX design](https://paperform.co/blog/in-conversation-kyro-samaan/)—from prototyping and wire-framing to creating a visual language for your app. These [design tools](https://paperform.co/blog/ux-design-tools/) are vital.
 
@@ -597,37 +586,37 @@ Of course, Adobe XD works seamlessly with the rest of the Adobe suite (editing .
 
 [Sketch](https://www.sketch.com/) vs Figma is kind of like Apple vs Android: both offer very similar tools, and which one you prefer comes down to preference and your individual workflow.
 
-Sketch happens to be the app of choice for companies like Google, Facebook and Xbox. It's easy to use, offers a host of useful keyboard shortcuts, and is lightning fast no matter what you throw at it, from [social media designs](https://paperform.co/blog/social-media-design/) to working prototypes or fancy new icon sets.
+Sketch happens to be the app of choice for companies like Google, Facebook and Xbox. It’s easy to use, offers a host of useful keyboard shortcuts, and is lightning fast no matter what you throw at it, from [social media designs](https://paperform.co/blog/social-media-design/) to working prototypes or fancy new icon sets.
 
-Having said that, most web developers agree that Figma's prototyping capabilities are superior to Sketch. They also cite the built-in version history, collaboration features and the way Figma handles colour and text styling. The Auto-Layout is also preferred over Sketch's Smart layout.
+Having said that, most web developers agree that Figma’s prototyping capabilities are superior to Sketch. They also cite the built-in version history, collaboration features and the way Figma handles colour and text styling. The Auto-Layout is also preferred over Sketch’s Smart layout.
 
-But. That's not the whole story. Sketch is regarded as being more stable (Figma can be on the buggy side sometimes), having clearer layer organisation, and being faster to load large files. There's also a dark mode, which we all know, is music to any web developer's ear.
+But. That’s not the whole story. Sketch is regarded as being more stable (Figma can be on the buggy side sometimes), having clearer layer organisation, and being faster to load large files. There’s also a dark mode, which we all know, is music to any web developer’s ear.
 
-**💡Pro Tip:** The Figma vs Sketch battle isn't going to be decided in this blog post. Luckily, Figma is free to use and Sketch has a generous free trial. If you're unsure which is the right choice for you, just try them both.
+**💡Pro Tip:** The Figma vs Sketch battle isn’t going to be decided in this blog post. Luckily, Figma is free to use and Sketch has a generous free trial. If you’re unsure which is the right choice for you, just try them both.
 
 ### 33. ProtoPie
 
-[ProtoPie](https://www.protopie.io/) bill themselves as the "easiest way to turn your interaction design ideas into realistic prototypes". It's a no-code creation tool used to create interactive prototypes for mobile, web, desktop or the 'Internet of Things' (IoT).
+[ProtoPie](https://www.protopie.io/) bill themselves as the “easiest way to turn your interaction design ideas into realistic prototypes”. It’s a no-code creation tool used to create interactive prototypes for mobile, web, desktop or the ‘Internet of Things’ (IoT).
 
-What sets ProtoPie apart is one thing: simplicity. Their goal isn't to be the most complex tool on the market—they want to take the pain out of building workable prototypes, fast. As with any no-code tool, the emphasis is on replacing code with simple buttons and keyboard commands to simplify your workflow.
+What sets ProtoPie apart is one thing: simplicity. Their goal isn’t to be the most complex tool on the market—they want to take the pain out of building workable prototypes, fast. As with any no-code tool, the emphasis is on replacing code with simple buttons and keyboard commands to simplify your workflow.
 
-There's a gradual learning curve which makes it great for beginners. Prototypes also interact with each other, meaning you can make interactions across devices. It's not as popular as the big players, but it's certainly a powerful tool.
+There’s a gradual learning curve which makes it great for beginners. Prototypes also interact with each other, meaning you can make interactions across devices. It’s not as popular as the big players, but it’s certainly a powerful tool.
 
 ### 34. Framer
 
-If you're comfortable with code, then [Framer](https://framer.com/) is an awesome tool to empower you to create interactive, highly-customisable prototypes. Web devs around the world use it to build apps, websites, design systems and even slick new video game interfaces.
+If you’re comfortable with code, then [Framer](https://framer.com/) is an awesome tool to empower you to create interactive, highly-customisable prototypes. Web devs around the world use it to build apps, websites, design systems and even slick new video game interfaces.
 
-What sets it apart from something like Figma? Well, with Framer the idea is that you can work with designs that can \*realistically be implemented \*with code. It's a bridge for UX designers and developers to collaborate and rapidly experiment in a shared workspace.
+What sets it apart from something like Figma? Well, with Framer the idea is that you can work with designs that can \*realistically be implemented \*with code. It’s a bridge for UX designers and developers to collaborate and rapidly experiment in a shared workspace.
 
 📚 \*\*Related reading: \*\*[**How to stand out as a UX Designer**](https://paperform.co/blog/in-conversation-kyro-samaan/)
 
-Even if code isn't your thing, Framer is great. The GUI and design elements are on part with Sketch (or at least in the same ballpark) and the built-in prototyping is a breeze to use. There are also plenty of third-party packages to add new elements.
+Even if code isn’t your thing, Framer is great. The GUI and design elements are on part with Sketch (or at least in the same ballpark) and the built-in prototyping is a breeze to use. There are also plenty of third-party packages to add new elements.
 
 ### 35. Toolset
 
 Sick of doing everything with code? [Toolset](https://toolset.com/) is a WordPress page builder which lets you build custom sites without any code. This is a great option for web developers and designers looking to complete complex projects quickly.
 
-Use Toolset to design from within WordPress. Create rich sites that look great on any device and load quickly for the SEO gods. It's got everything you could require to set up custom post types, fields, templates, searches, front-end forms and more.
+Use Toolset to design from within WordPress. Create rich sites that look great on any device and load quickly for the SEO gods. It’s got everything you could require to set up custom post types, fields, templates, searches, front-end forms and more.
 
 The biggest benefit of Toolset is that it saves you from having to use a bunch of different tools to build WordPress sites—all for a reasonable price of $69.
 
@@ -635,23 +624,24 @@ The biggest benefit of Toolset is that it saves you from having to use a bunch o
 
 Animation is difficult but [Animator by Haiku](https://www.haikuforteams.com/animator/) makes it a little bit more palatable. It lets you bring motion design to production, from your initial design tools like Figma to your final codebase.
 
-Animator uses an interface called Timeline to choreograph animations in a visual way. You can sequence and animate elements using the built-in curves library, or delve deeper with the custom editor. If you're more comfortable with code, use any code editor of your choice to animate directly from your code.
+Animator uses an interface called Timeline to choreograph animations in a visual way. You can sequence and animate elements using the built-in curves library, or delve deeper with the custom editor. If you’re more comfortable with code, use any code editor of your choice to animate directly from your code.
 
 ### 37. Affinity Designer
 
 Adobe Illustrator has long been the industry standard when it comes to creating vector graphics. However, the new kid on the block, [Affinity Designer](https://affinity.serif.com/en-gb/designer/), is certainly giving Adobe a run for its money.
 
-You'll find Affinity evangelists all over the net—and for good reason. It offers a silky-smooth experience at a much more affordable price, custom-built with professional illustrators, web designers, game devs and other creatives in mind.
+You’ll find Affinity evangelists all over the net—and for good reason. It offers a silky-smooth experience at a much more affordable price, custom-built with professional illustrators, web designers, game devs and other creatives in mind.
 
 Affinity offers many of the same tools as Adobe Illustrator in a beautifully designed (and not bloated) package. Work with vectors and rasters to create concept art, print projects, logos, icons, UIs or just about anything else you can imagine.
 
-The biggest drawcard? There's no monthly fee. You can own Affinity Designer for a one-off payment of $84.99 on Windows or Mac or $34.99 on iPad.
+The biggest drawcard? There’s no monthly fee. You can own Affinity Designer for a one-off payment of $84.99 on Windows or Mac or $34.99 on iPad.
 
-## Collaboration Tools
+Collaboration Tools
+-------------------
 
-We've covered just about all the technical tools you could possibly need to be a web developer. But whether you're working in-house, at an agency or going it alone as a freelancer, [collaboration tools](https://unito.io/features/) are equally as important as your text editor of choice.
+We’ve covered just about all the technical tools you could possibly need to be a web developer. But whether you’re working in-house, at an agency or going it alone as a freelancer, [collaboration tools](https://unito.io/features/) are equally as important as your text editor of choice.
 
-Often the success of a project isn't simply down to technical brilliance—it relies on clear and efficient communication. The tools below will help you achieve it.
+Often the success of a project isn’t simply down to technical brilliance—it relies on clear and efficient communication. The tools below will help you achieve it.
 
 ### 38. ClickUp
 
@@ -693,7 +683,8 @@ Zoom is free for 40-minute calls, meaning your meetings come with a convenient e
 
 \*\*📚 Related reading: \*\*[**How to be a good interviewer**](https://paperform.co/blog/how-to-be-a-good-interviewer/)
 
-## Miscellaneous Web Development Tools
+Miscellaneous Web Development Tools
+-----------------------------------
 
 ### 43. TypeScript
 
@@ -701,19 +692,19 @@ TypeScript is an insanely popular open-source language that builds extra feature
 
 Devs love Typescript because it makes their job easier. It catches both code and type errors, as well as bugs that can easily be missed. This reduces troubleshooting time, while also saving you the effort of having to track down mistakes manually.
 
-The only real downside is that once you try TypeScript you'll find it hard to return to vanilla Java. The good thing is that you don't need to make a binary choice—all valid JavaScript code is also TypeScript code, and TypeScript can be transformed into Java too.
+The only real downside is that once you try TypeScript you’ll find it hard to return to vanilla Java. The good thing is that you don’t need to make a binary choice—all valid JavaScript code is also TypeScript code, and TypeScript can be transformed into Java too.
 
-If you want clean, simple code with excellent documentation and tools that save you hours of time, TypeScript might be worth a try. Just don't think you can master it in a few minutes, as most devs find there's a steep (albeit worthwhile) learning curve.
+If you want clean, simple code with excellent documentation and tools that save you hours of time, TypeScript might be worth a try. Just don’t think you can master it in a few minutes, as most devs find there’s a steep (albeit worthwhile) learning curve.
 
 ### 44. Sass
 
-You might've seen the term [Sass](https://sass-lang.com/guide) mentioned in web dev circles. But what is it? Well, Sass is a CSS preprocessor that extends what you can do with regular CSS, adding special features like variables, nested rules, inheritance (not the monetary type) and mixins.
+You might’ve seen the term [Sass](https://sass-lang.com/guide) mentioned in web dev circles. But what is it? Well, Sass is a CSS preprocessor that extends what you can do with regular CSS, adding special features like variables, nested rules, inheritance (not the monetary type) and mixins.
 
 The benefit is that it speeds up your workflow and modularises your code, making edits easier and more efficient to make. It allows you to achieve the same end result as regular CSS, with a fraction of the effort.
 
-For example, let's say you're working with a theme colour that you keep having to reuse in your CSS code. Rather than having to retype it every time, you can specify the colour once and save the variable. Then, every time you want to use that colour you just refer to the variable instead of hard-coding it.
+For example, let’s say you’re working with a theme colour that you keep having to reuse in your CSS code. Rather than having to retype it every time, you can specify the colour once and save the variable. Then, every time you want to use that colour you just refer to the variable instead of hard-coding it.
 
-**💡Pro Tip:** Sass is compatible with any version of CSS, the only requirement being you need Ruby installed for it to work. Just make sure you don't start using Sass before you have CSS mastered—it's important to get a firm grip of the basics first.
+**💡Pro Tip:** Sass is compatible with any version of CSS, the only requirement being you need Ruby installed for it to work. Just make sure you don’t start using Sass before you have CSS mastered—it’s important to get a firm grip of the basics first.
 
 ### 45. Stack Overflow
 
@@ -739,9 +730,9 @@ One drawback is that you can only work with one image at a time. So, if you’re
 
 ### 47. ColorPick Eyedropper Chrome Extension
 
-Whether you're designing a website, putting together a UI or creating a [Canva design](https://paperform.co/blog/canva-alternatives/), colour is serious business for web developers and designers. Colours are crucial for brand awareness, evoking certain emotions and, most importantly, accessibility.
+Whether you’re designing a website, putting together a UI or creating a [Canva design](https://paperform.co/blog/canva-alternatives/), colour is serious business for web developers and designers. Colours are crucial for brand awareness, evoking certain emotions and, most importantly, accessibility.
 
-Colour picking tools allow you to identify the Hex codes of elements on the web to gain inspiration or keep designs consistent. There are thousands of tools in this space, but you won't find one easier than [ColorPick Eyedropper for Chrome](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en).
+Colour picking tools allow you to identify the Hex codes of elements on the web to gain inspiration or keep designs consistent. There are thousands of tools in this space, but you won’t find one easier than [ColorPick Eyedropper for Chrome](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en).
 
 Just click the extension and hover over *any* element on \*any \*webpage. A small box appears with the Hex code and RGB model. These are automatically copied to the clipboard for you to use. If your only experience working with colours was using crayons in kindergarten, Material.io has a great to the [Material Design system](https://material.io/design/color/the-color-system.html#color-usage-and-palettes).
 
@@ -759,9 +750,9 @@ There are two new features that extend the functionality somewhat too. Stack Pac
 
 No guide to web development tools would be complete without recommending you treat yourself to a second monitor. The extra screen real estate makes life *so much easier* and development *so much faster.*
 
-Just think of a world where you can have IDE and terminal open on one screen, and the app that you're debugging on the other. Or Slack on the first, your browser and Stack Overflow on the second, maybe Spotify in the corner for some Lo-Fi beats.
+Just think of a world where you can have IDE and terminal open on one screen, and the app that you’re debugging on the other. Or Slack on the first, your browser and Stack Overflow on the second, maybe Spotify in the corner for some Lo-Fi beats.
 
-With one screen you're constantly cycling through open applications. Half the time you lose a tab, or forget what you're looking for altogether. This takes time, and as we all know, time is money. Treat yourself to a second monitor—it's a whole new world.
+With one screen you’re constantly cycling through open applications. Half the time you lose a tab, or forget what you’re looking for altogether. This takes time, and as we all know, time is money. Treat yourself to a second monitor—it’s a whole new world.
 
 ### 50. Paperform
 
@@ -775,13 +766,14 @@ But that’s not all you can do. Want to collect feedback from [satisfied custo
 
 With Paperform you can do all that and more. And with our 3,000+ Direct and Zapier integrations, connecting with the rest of your tech stack to streamline your web development workflow is so easy your grandma could do it
 
-![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/PF-STACK.jpg)![](https://lh4.googleusercontent.com/TGU36vvkMGBvyuV-3moKfrSXGILBOwxz43E7jYdef4p2Vqeb2P90yFchj_RYj3OpvgAZxYQ9MRYpNwuSLFo3NIYD6p96Rb8uw4QXOsribEx_JjDoxTUWE1dSBMTJ17aC4ZH70E25)Image Source: [Atom](https://atom.io/)![](https://lh5.googleusercontent.com/me7eP6zI6TqSg-oyEJyqTAoveecqRgW9NNFHRIfuAVvbIJzl9af3yArn0QMuVXH51E-MeZv6BFNk3P1qKl4eJlsaMFWAIT0z2jUWFaVCvD_GDfro_GJbe9srCT299c8Aa2yg2oO9)Image Source: [Sublime Text](https://www.sublimetext.com/)![](https://lh6.googleusercontent.com/D44i98NM_KaAxB0vloVdqpkW3QQrOeh-gahRhYT_FT1wGaN9o4BOkV4bDecBTXQRqgSmXNf8emg5FEDMjvievgGr4_UADd6xGReiBqKVEi0FvfauKVDmYOOlEA4XSqmL9ND8EMk9)Image Source: [Notepad++](https://notepad-plus-plus.org/)![](https://lh5.googleusercontent.com/D-ZILznlMZ64gUXl3ODwXyyLvJOOV6Tgem2e7Nzt8p02Yz3v4JCA5tmyFKlz7JczYh_CpJcUAN0wHxf_Z5rzVxCX50EHbctJQ2iyaMAhtARmoJqYF3Ikl-G0g_4XILXJaF62b60S)Source: [Wikipedia Commons](<https://commons.wikimedia.org/wiki/File:Vim-(logiciel)-console.png>)![](https://lh6.googleusercontent.com/252gQ1IpAEUNr3lCHi-MvLrULiBMFo56aGsb47nNy6W6ZshOFQgk4FFYaKRn8Fyy4fOBJrcVBIDBEHQU9zg59G8XbmNxkcot4zMf28sJDQWNwxBCjv-UaH8weY6BKQU6ErDlmzu5)Image Source: [Visual Studio](https://www.google.com/imgres?imgurl=https%3A%2F%2Fcode.visualstudio.com%2Fassets%2Fupdates%2F1_37%2Ficons.gif&imgrefurl=https%3A%2F%2Fcode.visualstudio.com%2Fupdates%2Fv1_37&tbnid=FK_-tkfGX0bzmM&vet=12ahUKEwjznbKQ2YfyAhXUnUsFHULwDJQQMygAegUIARDOAQ..i&docid=xSPl9orBLj6FKM&w=1930&h=1282&q=vs%20code&ved=2ahUKEwjznbKQ2YfyAhXUnUsFHULwDJQQMygAegUIARDOAQ)![](https://lh5.googleusercontent.com/sMHy-q3-qu13ZaFwDwrHy6sKhDnR_K5GdFtsL3J7Wknw9lUFNDOLx8LtRq7owH4GJIQ2bsxePWLN-CrMAdmE0TmsK71mrvaF-7pBlFqwXNMKzNhpdLYre9YmSuqpCP_URy7NxUJx)Image Source: [Django](https://www.djangoproject.com/)![](https://lh5.googleusercontent.com/mxpPHMijc7hvVz5LGZYx-QA9knoI7o3F4inDBERqyXqT7sFOqXky2R2WoyponK1WcZXMc6K5-5s3LYc1iedDCjOpu67Go6uEaTUKMc_CHfzMxFOFr_yN1TbnyTcfg7DhiKUirO9S)Image Source: [Ruby on Rails](https://rubyonrails.org/)![](https://lh4.googleusercontent.com/Xddm--wmths99nAn-_6kEFm_nwZxr1LHX-e585zbH9DVsCUMeMNYnfp2zSNVk7AZ7FvjZ4FTA_Qt23_cL4_HD6pqq5EqiVTjziFQAHgU9fbnFp0d42au3FA-LqLTRe7vORIbR8oB)Image Source: [Angular](https://angular.io/)![](https://lh5.googleusercontent.com/SF8F6NLYMhdsbjPY8lYimBA1R-A39nC2JEmDQIQAxQP0zjcVM5Cn-VBFxlKx2mNCFZY0R6E61BmeKuT6_MN5OZ5EKgIqQ6hRLkFi5pQIy0yeiNmJ_z861aE8txtAnFix2stdDPXf)Image Source: [React](https://reactjs.org/)![](https://lh4.googleusercontent.com/pdrGHJeVHJujGzs9PFtJY7E1s0aiDruAGdUquFd0iHKTIXhUaxnECP9GMwYpzmWgsejhmj0TGi6h9ej6FqI-ogSuNcYFDZqiTiGFy13PAFxVXJHKeT2PCD1lIQabE4uaLRFeeCX6)Image Source: [Vue](https://vuejs.org/) ![](https://lh6.googleusercontent.com/Vwun5FAge-Hh-IB-O2tJ9qMPuoLaSos0GRH1GxS-FD_F_EDuKJZNZk0hlOpB4Xv2gauE1vjC4sY38Ik19s0KtqgeR4IHivFcPCnDFMlAJ8EgfbGdA6fg9K8zOuiFF1GNR4mAwnes)Image Source: [Meteor](https://www.meteor.com/)![](https://lh3.googleusercontent.com/Zi7hE50XUZBiBZf9G9Jd8-gdp5GMeQ8ymf5XvkPX0wHKdC60ZlKf_uNeqcDoZo9iOaXFRMsFszhHl3Gy4N1XB7d7U1bfwCtlKXu4TJRYzh_206wQRBSK4eeAs_jatl2qyp4Rjv-m)Image Source: [ASP.NET](https://dotnet.microsoft.com/apps/aspnet)![](https://lh6.googleusercontent.com/NXYMRFbspS4M_OKEtx4AywW_r5xJdkgfIvGNYUcQhp5D5ocZYMdWKLzjMFGyVVENpsaK66j77qX8PhKXV2D1xFEPhUClwppQml00ehBAWCkt6Pzimu4EqS8A37QmxzzEKrAGznqD)Image Source: [Bootstrap](http://getbootstrap.com/)![](https://lh6.googleusercontent.com/yxo-yyVy5TmurN540Ka207_sQbyGKBqd00nvilE-fqtqYZv33OkE8jWRpBjNWO3tIxKtoi7ujMYfNS6Mbc9MCI3Fw18tjIRLo0kWosD9FRMd7t99nHbKcE_p1ArhMWppx65u0A9U)Image Source: [Semantic UI](https://semantic-ui.com/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628736193378.png)Image Source: [Foundation](https://foundation.zurb.com/)![](https://lh4.googleusercontent.com/_-hHtXVr3_H96K1TcXksh7ZrmhMucG7eIZ97alh5H-2z7ZDiWVnD6XKOAbOE-jOsgxPubVhcHNvfNPfVZq9SVbeB134GJom3h5HWbLikVv5i3SxQObohCtfqPq71JoSG1YfkUNA_)Image Source: [Materialize](https://materializecss.com/)![](https://lh5.googleusercontent.com/Xh6Lar3pQSSFHp6yhyU2ZLzuw77eVd-kqYgluxW0qLZ3KpO5_J3OTINaHVta53n5rOrcl3vjwUIupb6YaFcalhXxV0eFSpANCcczX5wjefmRMsHv6YmRzg3Xo3mUvW_WzN-lmX-B)Image Source: [ChromeDevTools](https://developer.chrome.com/docs/devtools/)![](https://lh3.googleusercontent.com/pEMKE5gpTl7SHgXBCl1r6gyGDHBeIyuoerr5dsSETZqyavGRu1VOghqgu-ZPodrZJ1QS1pBDwBHHcxDLczWZg6303oektGn-ttIjmnr_2RzXbsKwYwRbJ-nQ7NvvXOvoU7Bs-HgD)Image Source: [Svelte](https://svelte.dev/)![](https://lh6.googleusercontent.com/FdOwMdbWSLMXcnJ2gyj2NtGs5l5ShVxOPxRdw1Qj6OEeDiEXw-JPxYoN7Sbi8QLR_EquaOxyT_jey2R6JQXaqhDC_zbpMwy45PoMLjNZrk_QI6IJ3gCjBvCbA_rQl1Dabf0kX2nD)Image Source: [Ember](https://emberjs.com/)![](https://lh3.googleusercontent.com/7scAnAsMX-TlzJ6PLimPYY2Tb6aH6p1EtjLbBdz5M8SX3bIk78Q6sr1-mdc9LUgttgj2Ks_EVPP9XD6fb5LyMHK6-A8A1O-dFnVXW52AG5ZGurdFDe3AvIzO0ddGZ5DGWdE1k2mA)Image Source: [Yarn](https://yarnpkg.com/lang/en/)![](https://lh5.googleusercontent.com/6kCFq5M0LzWPsqts2sa5HMCU7NVeAG2HfaqQKmbe_sAuwH4fh_reNO1lkqn2Aq_FQO9BMNrXPv-8lTsTBhgaNIVPBy-l-hXqaHURRvhTlXdRChL6f0n2j0J0ZvnvjzUrtzubpK4D)Image Source: [npm](https://www.npmjs.com/)![](https://lh6.googleusercontent.com/sihMGTxUb8BieGKwjsMZSHtErIikM2B3ioRYAQ-U8RnRYkN9xdfYjLCA_dTbVuSxFoXFgjZsd7ljFMeBzZOcs5lSih1SJO1SLR5mTtcVGioSvOdjrUJCF20a6so4aNxnbQobt0hv)Image Source: [DPKG](https://man7.org/linux/man-pages/man1/dpkg.1.html)![](https://lh3.googleusercontent.com/9huTvL7gtUbXzzwMaYxE8GwC5Nh6RBD1984zLAbB3sx2ES98MqooBO9EN1UyTXr8uyANfcKfdWdGP2hwe3JdmdbjyK-XWkeJxymmpJd7HTKqU3QFPBXm3siMkEC9pB5sIw1RWiCi)Image Source: [Github Desktop](https://desktop.github.com/)![](https://lh4.googleusercontent.com/vEhY-y601AhXiD9FedJhwwwkd66UeRQQeyaHw9SL7LsyqUJCm7Vc4n5p0dLgQrCPJWUhiZmbFRugcKOfIlJYT3ah9W0lHjcMd3B4Pdh5kHx4yKdTOrmx709i4SYRuosO3L40_y0Y)Image Source: [GitKraken](https://www.gitkraken.com/)![](https://lh6.googleusercontent.com/IhG5Y6dLenofqcIvTY5sOrZoy7rf3f1CagwBeit_m0QZU_QZ5eoMpsWENAU2y4DB93nHq25dgX3WnTVKNNWnnYmoFaEIyT4WYE_JAi5OsjG1przlD9KLSX5-ar1CpXu1_wEhq2SY)Image Source: [Sourcetree](https://www.sourcetreeapp.com/)![](https://lh6.googleusercontent.com/1hWg3CPX-XkaeJXPECAninfnozi2o3p3RSk57Y7B8WdvZKsMODbZi3rxR5gyLORQyxbARj2-VoESeqwtWthttAZAItVnheneivMIG0ZTbPludRnzq6rMtzN2eTlEHeODaxrqmRIa)Image Source: [Postman](https://www.postman.com/)![](https://lh4.googleusercontent.com/Qg-U_I4ZNgtaun616Nlky0T5ram5v_kZ3h-F33Zmai5t9QoNqutJruPxl2yybA1elIk7J_Qs21_G4wpUR32-TYVP6bx7wCmtOIvIZaTZ3BxI1EqoIVklH-6KRRtnQT8deRXOWSZl)![](https://lh5.googleusercontent.com/XROFNSk7cll32bNRftZzEeL9VDSS3IiLRIgZ4QRhMfadnJ_LLnohR_SMSGQW_CPbiqklUkOutHhK3yRICKp4b9OMb6nLn1M1i76COiDIv_9CTTm0XgxCRt7ZH_VKIgIawnWXskPm)Image Source: [HoppScotch](https://hoppscotch.io/)![](https://lh5.googleusercontent.com/cUod2uM6ebt50jQq4JtQ7SPMfAy8Xp8Ad05fe7bSREmHxh-kiJT5el1czMEqBfjEUiPiPTUQCqOZU8Ylw386MW3G0E2jQ35T_FKsksw_cieFbsmY8ubbmMNqwWwTLwXI1z8qtfvo)Image Source: [LambdaTest](https://www.lambdatest.com/)![](https://lh5.googleusercontent.com/qlIEiSqu53w7iAu9a6DbOtf6Mhpw1PFBKQHDhr1Fpoyq5Z8md6ctRU-mZcltNt3L6o1NZw29ibT7PvOmGMj4G0t0VbU_2y5Qvs0Nd3dykkA7fyVZkYij-qcHqveR-jMrwemNP4JQ)Image Source: [Figma](https://www.figma.com/ui-design-tool/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628742272023.png)Image Source: [Adobe XD](https://www.adobe.com/products/xd.html)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628743157849.png)Image Source: [Sketch](https://www.sketch.com/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628752045112.png)Image Source: [ProtoPie](https://www.protopie.io/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628749998307.png)Image Source: [Framer](https://framer.com/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628747997257.png)Image Source: [Toolset](https://toolset.com/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628748611285.png)Image Source: [Animator by Haiku](https://www.haikuforteams.com/animator/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628751023068.png)Image Source: [Affinity Designer](https://affinity.serif.com/en-gb/designer/)![](https://lh6.googleusercontent.com/zSjT3K_KLXPwq32-5oA8RLQMAXmjNSBfTUXgxxJir7KQ6fOdd1yRYd0jzBxo7O42N3mNv5UQgIzgGmCvFb_Cc18h17DAED2ShKiPvl6qpn2LFWVogn9QcEMIX6DgHCvopX0pFB_1)Image Source: [ClickUp](https://clickup.com/)![](https://lh6.googleusercontent.com/8gm_048J2wEJ_WD_9vXB7esjB0bzTnj7hNPyhIewLbQSyEeqtuRhsYzUz7jE_n0E3GylWvamewgWYkbWSawAkAo3t5ZD-bM10TT-ZkSRSrEc3Fmib7Y7L_XTWe-OGOfdIT5zAOn1)Image Source: [Asana](https://asana.com/)![](https://lh4.googleusercontent.com/DOfqKLR_ON8XzgdLDjTuVMSa_bTKVSm9tZ3lbx3CW03AX8Q3Y9qYbP17d1EhH4F7KGNFbYRciB-NUFM775UhBHWkJbfPuhahhroh9P4EDUf714Zc-zBrXtKK644je6G8n589jewp)Image Source: [JIRA](https://www.atlassian.com/software/jira)![](https://lh4.googleusercontent.com/ES8WaJ_R9ZY9kYtfAlc-Wt28uUDmTMoRvA1zQLp2ijGfTvhVEuBYFYAS7FHSspYMokpuIv9VLqwhtxYxlnrImdxTLwFqnS_k6AqvXhPWSwqpNGc5lpfcHcbglV-I3Imcz1yOI2c_)Image Source: [Slack](https://slack.com/intl/en-au/)![](https://lh3.googleusercontent.com/9MTbGgNToiS4BrnLGuDkrIykZFtGbDE9g6khzKy7w52VnFQqnXwi2mlYjRFA9EI_49dmEyD53M3WFOxuR49RcAu_yQi3qxGI3NGs79qVKM4HJyDsQF6-5YH-hUDHrqvxnG_b_EUI)Image Source: [Zoom](https://zoom.us/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628831608408.png)Image Source: [TypeScript](https://www.typescriptlang.org/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628828564183-1.png)Image Source: [Sass](https://sass-lang.com/guide)![](https://lh6.googleusercontent.com/GVUZo-jhQxvyTfdhcC0SIpT7yTjtXiVUFDzhtxc-NuVtF5AXqQcgpCSEIZyWdLZs7rPtUYvu-lIHvY-eKymaFAT5sprEffolutJJ1gGAWJB9s37ZmGUlH6UIqleVpfciapcMvAR7)Image Source: [Stack Overflow](https://stackoverflow.com/)![](https://lh4.googleusercontent.com/VkP8y5mQdyGHN36GWELx53tup1fhCQiOPMmce1-wCGTBF18UTLrXnEa2KmDy6Op9QfwU00frx_xQBnRLIYJx7TERs0SwTNeufbMnM3RTIRS2ZDcrynUlQSEaEzoPTO7jD94kvtzr)Image Source: [Squoosh](https://squoosh.app/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628823617932.png)Image Source: Paperform![](https://lh6.googleusercontent.com/ALDwwi8tDvEmnWjsFJlyzFwWQ4p4V4uuS7egg1DNcbRWG0B02BeYbXO2o7aiRIHuSzTdStodCMJh7dSyT-L6XoyGhQArSNJam0_6HqDiEEkx4H7YkJ5fvOHy0sU3dUEE9UzqdPEa)Image Source: [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/Facebook-post---5--2-.png)Image Source: Stack Overflow![](https://lh3.googleusercontent.com/-B-6-8bBUycMywsPV65wJs1vKrkW3QCCo_Bd4eXovfkHh3uMkLyGdvBTYNDOj05o97iTVm7M4B9rLjINH8PZ9NLsIzJ7peSOcf3T2yJ9_8Efz5Rn5jMUv4xLpetCt3zF1PDs8iiU)
+![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/PF-STACK.jpg)![](https://lh4.googleusercontent.com/TGU36vvkMGBvyuV-3moKfrSXGILBOwxz43E7jYdef4p2Vqeb2P90yFchj_RYj3OpvgAZxYQ9MRYpNwuSLFo3NIYD6p96Rb8uw4QXOsribEx_JjDoxTUWE1dSBMTJ17aC4ZH70E25)Image Source: [Atom](https://atom.io/)![](https://lh5.googleusercontent.com/me7eP6zI6TqSg-oyEJyqTAoveecqRgW9NNFHRIfuAVvbIJzl9af3yArn0QMuVXH51E-MeZv6BFNk3P1qKl4eJlsaMFWAIT0z2jUWFaVCvD_GDfro_GJbe9srCT299c8Aa2yg2oO9)Image Source: [Sublime Text](https://www.sublimetext.com/)![](https://lh6.googleusercontent.com/D44i98NM_KaAxB0vloVdqpkW3QQrOeh-gahRhYT_FT1wGaN9o4BOkV4bDecBTXQRqgSmXNf8emg5FEDMjvievgGr4_UADd6xGReiBqKVEi0FvfauKVDmYOOlEA4XSqmL9ND8EMk9)Image Source: [Notepad++](https://notepad-plus-plus.org/)![](https://lh5.googleusercontent.com/D-ZILznlMZ64gUXl3ODwXyyLvJOOV6Tgem2e7Nzt8p02Yz3v4JCA5tmyFKlz7JczYh_CpJcUAN0wHxf_Z5rzVxCX50EHbctJQ2iyaMAhtARmoJqYF3Ikl-G0g_4XILXJaF62b60S)Source: [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:Vim-(logiciel)-console.png)![](https://lh6.googleusercontent.com/252gQ1IpAEUNr3lCHi-MvLrULiBMFo56aGsb47nNy6W6ZshOFQgk4FFYaKRn8Fyy4fOBJrcVBIDBEHQU9zg59G8XbmNxkcot4zMf28sJDQWNwxBCjv-UaH8weY6BKQU6ErDlmzu5)Image Source: [Visual Studio](https://www.google.com/imgres?imgurl=https%3A%2F%2Fcode.visualstudio.com%2Fassets%2Fupdates%2F1_37%2Ficons.gif&imgrefurl=https%3A%2F%2Fcode.visualstudio.com%2Fupdates%2Fv1_37&tbnid=FK_-tkfGX0bzmM&vet=12ahUKEwjznbKQ2YfyAhXUnUsFHULwDJQQMygAegUIARDOAQ..i&docid=xSPl9orBLj6FKM&w=1930&h=1282&q=vs%20code&ved=2ahUKEwjznbKQ2YfyAhXUnUsFHULwDJQQMygAegUIARDOAQ)![](https://lh5.googleusercontent.com/sMHy-q3-qu13ZaFwDwrHy6sKhDnR_K5GdFtsL3J7Wknw9lUFNDOLx8LtRq7owH4GJIQ2bsxePWLN-CrMAdmE0TmsK71mrvaF-7pBlFqwXNMKzNhpdLYre9YmSuqpCP_URy7NxUJx)Image Source: [Django](https://www.djangoproject.com/)![](https://lh5.googleusercontent.com/mxpPHMijc7hvVz5LGZYx-QA9knoI7o3F4inDBERqyXqT7sFOqXky2R2WoyponK1WcZXMc6K5-5s3LYc1iedDCjOpu67Go6uEaTUKMc_CHfzMxFOFr_yN1TbnyTcfg7DhiKUirO9S)Image Source: [Ruby on Rails](https://rubyonrails.org/)![](https://lh4.googleusercontent.com/Xddm--wmths99nAn-_6kEFm_nwZxr1LHX-e585zbH9DVsCUMeMNYnfp2zSNVk7AZ7FvjZ4FTA_Qt23_cL4_HD6pqq5EqiVTjziFQAHgU9fbnFp0d42au3FA-LqLTRe7vORIbR8oB)Image Source: [Angular](https://angular.io/)![](https://lh5.googleusercontent.com/SF8F6NLYMhdsbjPY8lYimBA1R-A39nC2JEmDQIQAxQP0zjcVM5Cn-VBFxlKx2mNCFZY0R6E61BmeKuT6_MN5OZ5EKgIqQ6hRLkFi5pQIy0yeiNmJ_z861aE8txtAnFix2stdDPXf)Image Source: [React](https://reactjs.org/)![](https://lh4.googleusercontent.com/pdrGHJeVHJujGzs9PFtJY7E1s0aiDruAGdUquFd0iHKTIXhUaxnECP9GMwYpzmWgsejhmj0TGi6h9ej6FqI-ogSuNcYFDZqiTiGFy13PAFxVXJHKeT2PCD1lIQabE4uaLRFeeCX6)Image Source: [Vue](https://vuejs.org/) ![](https://lh6.googleusercontent.com/Vwun5FAge-Hh-IB-O2tJ9qMPuoLaSos0GRH1GxS-FD_F_EDuKJZNZk0hlOpB4Xv2gauE1vjC4sY38Ik19s0KtqgeR4IHivFcPCnDFMlAJ8EgfbGdA6fg9K8zOuiFF1GNR4mAwnes)Image Source: [Meteor](https://www.meteor.com/)![](https://lh3.googleusercontent.com/Zi7hE50XUZBiBZf9G9Jd8-gdp5GMeQ8ymf5XvkPX0wHKdC60ZlKf_uNeqcDoZo9iOaXFRMsFszhHl3Gy4N1XB7d7U1bfwCtlKXu4TJRYzh_206wQRBSK4eeAs_jatl2qyp4Rjv-m)Image Source: [ASP.NET](https://dotnet.microsoft.com/apps/aspnet)![](https://lh6.googleusercontent.com/NXYMRFbspS4M_OKEtx4AywW_r5xJdkgfIvGNYUcQhp5D5ocZYMdWKLzjMFGyVVENpsaK66j77qX8PhKXV2D1xFEPhUClwppQml00ehBAWCkt6Pzimu4EqS8A37QmxzzEKrAGznqD)Image Source: [Bootstrap](http://getbootstrap.com/)![](https://lh6.googleusercontent.com/yxo-yyVy5TmurN540Ka207_sQbyGKBqd00nvilE-fqtqYZv33OkE8jWRpBjNWO3tIxKtoi7ujMYfNS6Mbc9MCI3Fw18tjIRLo0kWosD9FRMd7t99nHbKcE_p1ArhMWppx65u0A9U)Image Source: [Semantic UI](https://semantic-ui.com/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628736193378.png)Image Source: [Foundation](https://foundation.zurb.com/)![](https://lh4.googleusercontent.com/_-hHtXVr3_H96K1TcXksh7ZrmhMucG7eIZ97alh5H-2z7ZDiWVnD6XKOAbOE-jOsgxPubVhcHNvfNPfVZq9SVbeB134GJom3h5HWbLikVv5i3SxQObohCtfqPq71JoSG1YfkUNA_)Image Source: [Materialize](https://materializecss.com/)![](https://lh5.googleusercontent.com/Xh6Lar3pQSSFHp6yhyU2ZLzuw77eVd-kqYgluxW0qLZ3KpO5_J3OTINaHVta53n5rOrcl3vjwUIupb6YaFcalhXxV0eFSpANCcczX5wjefmRMsHv6YmRzg3Xo3mUvW_WzN-lmX-B)Image Source: [ChromeDevTools](https://developer.chrome.com/docs/devtools/)![](https://lh3.googleusercontent.com/pEMKE5gpTl7SHgXBCl1r6gyGDHBeIyuoerr5dsSETZqyavGRu1VOghqgu-ZPodrZJ1QS1pBDwBHHcxDLczWZg6303oektGn-ttIjmnr_2RzXbsKwYwRbJ-nQ7NvvXOvoU7Bs-HgD)Image Source: [Svelte](https://svelte.dev/)![](https://lh6.googleusercontent.com/FdOwMdbWSLMXcnJ2gyj2NtGs5l5ShVxOPxRdw1Qj6OEeDiEXw-JPxYoN7Sbi8QLR_EquaOxyT_jey2R6JQXaqhDC_zbpMwy45PoMLjNZrk_QI6IJ3gCjBvCbA_rQl1Dabf0kX2nD)Image Source: [Ember](https://emberjs.com/)![](https://lh3.googleusercontent.com/7scAnAsMX-TlzJ6PLimPYY2Tb6aH6p1EtjLbBdz5M8SX3bIk78Q6sr1-mdc9LUgttgj2Ks_EVPP9XD6fb5LyMHK6-A8A1O-dFnVXW52AG5ZGurdFDe3AvIzO0ddGZ5DGWdE1k2mA)Image Source: [Yarn](https://yarnpkg.com/lang/en/)![](https://lh5.googleusercontent.com/6kCFq5M0LzWPsqts2sa5HMCU7NVeAG2HfaqQKmbe_sAuwH4fh_reNO1lkqn2Aq_FQO9BMNrXPv-8lTsTBhgaNIVPBy-l-hXqaHURRvhTlXdRChL6f0n2j0J0ZvnvjzUrtzubpK4D)Image Source: [npm](https://www.npmjs.com/)![](https://lh6.googleusercontent.com/sihMGTxUb8BieGKwjsMZSHtErIikM2B3ioRYAQ-U8RnRYkN9xdfYjLCA_dTbVuSxFoXFgjZsd7ljFMeBzZOcs5lSih1SJO1SLR5mTtcVGioSvOdjrUJCF20a6so4aNxnbQobt0hv)Image Source: [DPKG](https://man7.org/linux/man-pages/man1/dpkg.1.html)![](https://lh3.googleusercontent.com/9huTvL7gtUbXzzwMaYxE8GwC5Nh6RBD1984zLAbB3sx2ES98MqooBO9EN1UyTXr8uyANfcKfdWdGP2hwe3JdmdbjyK-XWkeJxymmpJd7HTKqU3QFPBXm3siMkEC9pB5sIw1RWiCi)Image Source: [Github Desktop](https://desktop.github.com/)![](https://lh4.googleusercontent.com/vEhY-y601AhXiD9FedJhwwwkd66UeRQQeyaHw9SL7LsyqUJCm7Vc4n5p0dLgQrCPJWUhiZmbFRugcKOfIlJYT3ah9W0lHjcMd3B4Pdh5kHx4yKdTOrmx709i4SYRuosO3L40_y0Y)Image Source: [GitKraken](https://www.gitkraken.com/)![](https://lh6.googleusercontent.com/IhG5Y6dLenofqcIvTY5sOrZoy7rf3f1CagwBeit_m0QZU_QZ5eoMpsWENAU2y4DB93nHq25dgX3WnTVKNNWnnYmoFaEIyT4WYE_JAi5OsjG1przlD9KLSX5-ar1CpXu1_wEhq2SY)Image Source: [Sourcetree](https://www.sourcetreeapp.com/)![](https://lh6.googleusercontent.com/1hWg3CPX-XkaeJXPECAninfnozi2o3p3RSk57Y7B8WdvZKsMODbZi3rxR5gyLORQyxbARj2-VoESeqwtWthttAZAItVnheneivMIG0ZTbPludRnzq6rMtzN2eTlEHeODaxrqmRIa)Image Source: [Postman](https://www.postman.com/)![](https://lh4.googleusercontent.com/Qg-U_I4ZNgtaun616Nlky0T5ram5v_kZ3h-F33Zmai5t9QoNqutJruPxl2yybA1elIk7J_Qs21_G4wpUR32-TYVP6bx7wCmtOIvIZaTZ3BxI1EqoIVklH-6KRRtnQT8deRXOWSZl)![](https://lh5.googleusercontent.com/XROFNSk7cll32bNRftZzEeL9VDSS3IiLRIgZ4QRhMfadnJ_LLnohR_SMSGQW_CPbiqklUkOutHhK3yRICKp4b9OMb6nLn1M1i76COiDIv_9CTTm0XgxCRt7ZH_VKIgIawnWXskPm)Image Source: [HoppScotch](https://hoppscotch.io/)![](https://lh5.googleusercontent.com/cUod2uM6ebt50jQq4JtQ7SPMfAy8Xp8Ad05fe7bSREmHxh-kiJT5el1czMEqBfjEUiPiPTUQCqOZU8Ylw386MW3G0E2jQ35T_FKsksw_cieFbsmY8ubbmMNqwWwTLwXI1z8qtfvo)Image Source: [LambdaTest](https://www.lambdatest.com/)![](https://lh5.googleusercontent.com/qlIEiSqu53w7iAu9a6DbOtf6Mhpw1PFBKQHDhr1Fpoyq5Z8md6ctRU-mZcltNt3L6o1NZw29ibT7PvOmGMj4G0t0VbU_2y5Qvs0Nd3dykkA7fyVZkYij-qcHqveR-jMrwemNP4JQ)Image Source: [Figma](https://www.figma.com/ui-design-tool/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628742272023.png)Image Source: [Adobe XD](https://www.adobe.com/products/xd.html)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628743157849.png)Image Source: [Sketch](https://www.sketch.com/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628752045112.png)Image Source: [ProtoPie](https://www.protopie.io/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628749998307.png)Image Source: [Framer](https://framer.com/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628747997257.png)Image Source: [Toolset](https://toolset.com/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628748611285.png)Image Source: [Animator by Haiku](https://www.haikuforteams.com/animator/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628751023068.png)Image Source: [Affinity Designer](https://affinity.serif.com/en-gb/designer/)![](https://lh6.googleusercontent.com/zSjT3K_KLXPwq32-5oA8RLQMAXmjNSBfTUXgxxJir7KQ6fOdd1yRYd0jzBxo7O42N3mNv5UQgIzgGmCvFb_Cc18h17DAED2ShKiPvl6qpn2LFWVogn9QcEMIX6DgHCvopX0pFB_1)Image Source: [ClickUp](https://clickup.com/)![](https://lh6.googleusercontent.com/8gm_048J2wEJ_WD_9vXB7esjB0bzTnj7hNPyhIewLbQSyEeqtuRhsYzUz7jE_n0E3GylWvamewgWYkbWSawAkAo3t5ZD-bM10TT-ZkSRSrEc3Fmib7Y7L_XTWe-OGOfdIT5zAOn1)Image Source: [Asana](https://asana.com/)![](https://lh4.googleusercontent.com/DOfqKLR_ON8XzgdLDjTuVMSa_bTKVSm9tZ3lbx3CW03AX8Q3Y9qYbP17d1EhH4F7KGNFbYRciB-NUFM775UhBHWkJbfPuhahhroh9P4EDUf714Zc-zBrXtKK644je6G8n589jewp)Image Source: [JIRA](https://www.atlassian.com/software/jira)![](https://lh4.googleusercontent.com/ES8WaJ_R9ZY9kYtfAlc-Wt28uUDmTMoRvA1zQLp2ijGfTvhVEuBYFYAS7FHSspYMokpuIv9VLqwhtxYxlnrImdxTLwFqnS_k6AqvXhPWSwqpNGc5lpfcHcbglV-I3Imcz1yOI2c_)Image Source: [Slack](https://slack.com/intl/en-au/)![](https://lh3.googleusercontent.com/9MTbGgNToiS4BrnLGuDkrIykZFtGbDE9g6khzKy7w52VnFQqnXwi2mlYjRFA9EI_49dmEyD53M3WFOxuR49RcAu_yQi3qxGI3NGs79qVKM4HJyDsQF6-5YH-hUDHrqvxnG_b_EUI)Image Source: [Zoom](https://zoom.us/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628831608408.png)Image Source: [TypeScript](https://www.typescriptlang.org/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628828564183-1.png)Image Source: [Sass](https://sass-lang.com/guide)![](https://lh6.googleusercontent.com/GVUZo-jhQxvyTfdhcC0SIpT7yTjtXiVUFDzhtxc-NuVtF5AXqQcgpCSEIZyWdLZs7rPtUYvu-lIHvY-eKymaFAT5sprEffolutJJ1gGAWJB9s37ZmGUlH6UIqleVpfciapcMvAR7)Image Source: [Stack Overflow](https://stackoverflow.com/)![](https://lh4.googleusercontent.com/VkP8y5mQdyGHN36GWELx53tup1fhCQiOPMmce1-wCGTBF18UTLrXnEa2KmDy6Op9QfwU00frx_xQBnRLIYJx7TERs0SwTNeufbMnM3RTIRS2ZDcrynUlQSEaEzoPTO7jD94kvtzr)Image Source: [Squoosh](https://squoosh.app/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/screely-1628823617932.png)Image Source: Paperform![](https://lh6.googleusercontent.com/ALDwwi8tDvEmnWjsFJlyzFwWQ4p4V4uuS7egg1DNcbRWG0B02BeYbXO2o7aiRIHuSzTdStodCMJh7dSyT-L6XoyGhQArSNJam0_6HqDiEEkx4H7YkJ5fvOHy0sU3dUEE9UzqdPEa)Image Source: [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)![](https://img.paperform.co/fetch/f_webp,w_1500/https://s3.amazonaws.com/paperform-blog/2021/08/Facebook-post---5--2-.png)Image Source: Stack Overflow![](https://lh3.googleusercontent.com/-B-6-8bBUycMywsPV65wJs1vKrkW3QCCo_Bd4eXovfkHh3uMkLyGdvBTYNDOj05o97iTVm7M4B9rLjINH8PZ9NLsIzJ7peSOcf3T2yJ9_8Efz5Rn5jMUv4xLpetCt3zF1PDs8iiU)
 
-## Jump to Section
+Jump to Section
+---------------
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

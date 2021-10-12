@@ -2,262 +2,243 @@ This app works best with JavaScript enabled.
 
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
-- <a href="/docs/sitemap" class="button">Navigation</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="/docs" class="button">Docs</a>
-  - <a href="/showcase" class="button">Showcase</a>
-  - <a href="/docs/faq/contact" class="button">Contact!</a>
-  - <a href="/docs/python/python-ds" class="button">Python</a>
+    -   <a href="/docs" class="button">Docs</a>
+    -   <a href="/showcase" class="button">Showcase</a>
+    -   <a href="/docs/faq/contact" class="button">Contact!</a>
+    -   <a href="/docs/python/python-ds" class="button">Python</a>
 
-- <a href="/blog/" class="button">Blog</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
-  - <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
-  - <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
-  - <a href="/blog/platform-docs/" class="button">platform docs</a>
-  - <a href="/docs/articles/nodejs/" class="button">nodejs</a>
-  - <a href="/blogWcomments/" class="button">Blog w Comments</a>
+    -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
+    -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
+    -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
+    -   <a href="/blog/platform-docs/" class="button">platform docs</a>
+    -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
+    -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
 
-- <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
-  - <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
-  - <a href="#" class="button">Bootcamp Resources</a>
-  - <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
-  - <a href="/docs/gallery" class="button">Gallery</a>
-  - <a href="/docs" class="button">Top Repos</a>
+    -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
+    -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
+    -   <a href="#" class="button">Bootcamp Resources</a>
+    -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
+    -   <a href="/docs/gallery" class="button">Gallery</a>
+    -   <a href="/docs" class="button">Top Repos</a>
 
-- <a href="/docs/audio/audio" class="button">Audio</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
-  - <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+    -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
+    -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
 
-- <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
-  - <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
-  - <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
-  - [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
-  - <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+    -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
+    -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
+    -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
+    -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
+    -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
 
-- <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
-  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
-  - <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
-  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
-  - <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
-  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
-  - <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
-  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
-  - <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+    -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
+    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
+    -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
+    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
+    -   <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
+    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
+    -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
+    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
+    -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
 
-- <a href="/docs/tools" class="button">Tools</a>
-  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-  - <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
-  - <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
-  - <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
-  - <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
-  - <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
-  - <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
-  - <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
-  - <span class="screen-reader-text">Github-Advanced-Search</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+    -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
+    -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
+    -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
+    -   <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
+    -   <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
+    -   <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
+    -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
+    -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
-Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
+Navigate Docs<span class="icon-angle-right" data-aria-hidden="true"></span>
 
-- [Docs](/docs/)
-- [About](/docs/about/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Docs](/docs/)
+-   [About](/docs/about/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Job Search](/docs/about/job-search/)
-  - [Youtube](/docs/about/intrests/)
-  - [Resume](/docs/about/resume/)
-  - [Engineering Portfolio](/docs/about/eng-portfolio/)
-  - [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
+    -   [Job Search](/docs/about/job-search/)
+    -   [Youtube](/docs/about/intrests/)
+    -   [Resume](/docs/about/resume/)
+    -   [Engineering Portfolio](/docs/about/eng-portfolio/)
+    -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
 
-- [Articles](/docs/articles/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Articles](/docs/articles/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [The HTTP Protocol](/docs/articles/http/)
-  - [How The Web Works](/docs/articles/how-the-web-works/)
-  - [Sorting Algorithms](/docs/articles/node-package-manager/)
-  - [Introduction to npm](/docs/articles/npm/)
-  - [Firebase](/docs/articles/understanding-firebase/)
-  - [The Uniform Resource Locator (URL)](</docs/articles/the-uniform-resource-locator-(url)/>)
-  - [lorem-ipsum](/docs/articles/semantic-html/)
-  - [Web Standards Checklist](/docs/articles/web-standards-checklist/)
-  - [Web Developer Tools](/docs/articles/webdev-tools/)
-  - [where-is-npm-pack](/docs/articles/node-cli-args/)
-  - [The-package-lock.json-file](/docs/articles/node-repl/)
-  - [node-cli-args](/docs/articles/node-run-cli/)
-  - [Node Export Module](/docs/articles/node-env-variables/)
-  - [npm global or local packages](/docs/articles/v8/)
-  - [packagejson](/docs/articles/node-js-language/)
-  - [Common Modules](/docs/articles/node-common-modules/)
-  - [Node Buffers](/docs/articles/buffers/)
-  - [Dev Dependencies](/docs/articles/dev-dep/)
-  - [The Node.js Event Loop](/docs/articles/event-loop/)
-  - [Web Dev Review](/docs/articles/basic-web-dev/)
-  - [Fs-Module](/docs/articles/fs-module/)
-  - [Install](/docs/articles/install/)
-  - [Intro To Node](/docs/articles/intro/)
-  - [module-exports](/docs/articles/module-exports/)
-  - [Javascript and Node](/docs/articles/nodejs/)
-  - [The npx Node.js Package Runner](/docs/articles/npx/)
-  - [Node vs Browser](/docs/articles/nodevsbrowser/)
-  - [Reading Files](/docs/articles/reading-files/)
-  - [OS-Module](/docs/articles/os-module/)
-  - [Semantic Versioning](/docs/articles/semantic/)
-  - [Writing Files](/docs/articles/writing-files/)
-  - [Node APIs With Express](/docs/articles/node-api-express/)
+    -   [The HTTP Protocol](/docs/articles/http/)
+    -   [How The Web Works](/docs/articles/how-the-web-works/)
+    -   [Sorting Algorithms](/docs/articles/node-package-manager/)
+    -   [Introduction to npm](/docs/articles/npm/)
+    -   [Firebase](/docs/articles/understanding-firebase/)
+    -   [The Uniform Resource Locator (URL)](/docs/articles/the-uniform-resource-locator-(url)/)
+    -   [lorem-ipsum](/docs/articles/semantic-html/)
+    -   [Web Standards Checklist](/docs/articles/web-standards-checklist/)
+    -   [Web Developer Tools](/docs/articles/webdev-tools/)
+    -   [where-is-npm-pack](/docs/articles/node-cli-args/)
+    -   [The-package-lock.json-file](/docs/articles/node-repl/)
+    -   [node-cli-args](/docs/articles/node-run-cli/)
+    -   [Node Export Module](/docs/articles/node-env-variables/)
+    -   [npm global or local packages](/docs/articles/v8/)
+    -   [packagejson](/docs/articles/node-js-language/)
+    -   [Common Modules](/docs/articles/node-common-modules/)
+    -   [Node Buffers](/docs/articles/buffers/)
+    -   [Dev Dependencies](/docs/articles/dev-dep/)
+    -   [The Node.js Event Loop](/docs/articles/event-loop/)
+    -   [Web Dev Review](/docs/articles/basic-web-dev/)
+    -   [Fs-Module](/docs/articles/fs-module/)
+    -   [Install](/docs/articles/install/)
+    -   [Intro To Node](/docs/articles/intro/)
+    -   [module-exports](/docs/articles/module-exports/)
+    -   [Javascript and Node](/docs/articles/nodejs/)
+    -   [The npx Node.js Package Runner](/docs/articles/npx/)
+    -   [Node vs Browser](/docs/articles/nodevsbrowser/)
+    -   [Reading Files](/docs/articles/reading-files/)
+    -   [OS-Module](/docs/articles/os-module/)
+    -   [Semantic Versioning](/docs/articles/semantic/)
+    -   [Writing Files](/docs/articles/writing-files/)
+    -   [Node APIs With Express](/docs/articles/node-api-express/)
 
-- [Audio](/docs/audio/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Audio](/docs/audio/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
-  - [Audio](/docs/audio/audio/)
-  - [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
-  - [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
-  - [Discrete Fast Fourier Transform](/docs/audio/dfft/)
-  - [Fast Fourier Transform](/docs/audio/discrete-fft/)
+    -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
+    -   [Audio](/docs/audio/audio/)
+    -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
+    -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
+    -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
+    -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
 
-- [Community](/docs/community/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Community](/docs/community/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Video Chat](/docs/community/video-chat/)
+    -   [Video Chat](/docs/community/video-chat/)
 
-- [Content](/docs/content/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Content](/docs/content/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [RECENT PROJECTS](/docs/content/data-structures-algo/)
-  - [History API](/docs/content/history-api/)
-  - [Lambda School Projects](/docs/content/lambda-projects/)
-  - [Trouble Shooting](/docs/content/trouble-shooting/)
-  - [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
-  - [Projects](/docs/content/projects/)
-  - [Archive](/docs/content/archive/)
-  - [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
-  - [Embeded Websites & Projects](/docs/content/recent-projects/)
-  - [Algorithms & Data Structures](/docs/content/algo/)
+    -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
+    -   [History API](/docs/content/history-api/)
+    -   [Lambda School Projects](/docs/content/lambda-projects/)
+    -   [Trouble Shooting](/docs/content/trouble-shooting/)
+    -   [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
+    -   [Projects](/docs/content/projects/)
+    -   [Archive](/docs/content/archive/)
+    -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
+    -   [Embeded Websites & Projects](/docs/content/recent-projects/)
+    -   [Algorithms & Data Structures](/docs/content/algo/)
 
-- [Documentation](/docs/docs/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Documentation](/docs/docs/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Apendix](/docs/docs/appendix/)
-  - [Await](/docs/docs/await-keyword/)
-  - [Git Reference](/docs/docs/git-reference/)
-  - [Data Structures Docs](/docs/docs/data-structures-docs/)
-  - [Bash Commands That Save Me Time and Frustration](/docs/docs/bash/)
-  - [Git Repo List](/docs/docs/git-repos/)
-  - [Markdown](/docs/docs/markdown/)
-  - [Regular Expressions](/docs/docs/regex-in-js/)
-  - [Sitemap](/docs/docs/sitemap/)
-  - [Learn Css](/docs/docs/css/)
-  - [Useful Snippets](/docs/docs/content/)
-  - [lorem-ipsum](/docs/docs/no-whiteboarding/)
+    -   [Apendix](/docs/docs/appendix/)
+    -   [Await](/docs/docs/await-keyword/)
+    -   [Git Reference](/docs/docs/git-reference/)
+    -   [Data Structures Docs](/docs/docs/data-structures-docs/)
+    -   [Bash Commands That Save Me Time and Frustration](/docs/docs/bash/)
+    -   [Git Repo List](/docs/docs/git-repos/)
+    -   [Markdown](/docs/docs/markdown/)
+    -   [Regular Expressions](/docs/docs/regex-in-js/)
+    -   [Sitemap](/docs/docs/sitemap/)
+    -   [Learn Css](/docs/docs/css/)
+    -   [Useful Snippets](/docs/docs/content/)
+    -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
 
-- [FAQ](/docs/faq/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [FAQ](/docs/faq/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Plug-ins](/docs/faq/plug-ins/)
-  - [Contact!](/docs/faq/contact/)
+    -   [Plug-ins](/docs/faq/plug-ins/)
+    -   [Contact!](/docs/faq/contact/)
 
-- [Javascript](/docs/javascript/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Javascript](/docs/javascript/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Javascript Concepts Review](/docs/javascript/review/)
-  - [Constructor Functions](/docs/javascript/constructor-functions/)
-  - [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
+    -   [Javascript Concepts Review](/docs/javascript/review/)
+    -   [Constructor Functions](/docs/javascript/constructor-functions/)
+    -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
 
-- [Interactive Examples](/docs/interact/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Interactive Examples](/docs/interact/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Callstack Visualizer](/docs/interact/callstack-visual/)
-  - [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
-  - [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
-  - [Other Websites](/docs/interact/other-sites/)
-  - [Clock](/docs/interact/clock/)
+    -   [Callstack Visualizer](/docs/interact/callstack-visual/)
+    -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
+    -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
+    -   [Other Websites](/docs/interact/other-sites/)
+    -   [Clock](/docs/interact/clock/)
 
-- [Medium](/docs/medium/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Medium](/docs/medium/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [My Sites](/docs/medium/my-websites/)
-  - [Medium](/docs/medium/medium-links/)
+    -   [My Sites](/docs/medium/my-websites/)
+    -   [Medium](/docs/medium/medium-links/)
 
-- [Quick Reference](/docs/quick-reference/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Quick Reference](/docs/quick-reference/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Git Bash](/docs/quick-reference/git-bash/)
-  - [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
-  - [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
-  - [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
-  - [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
-  - [Quick Links](/docs/quick-reference/quick-links/)
-  - [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
-  - [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
-  - [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
-  - [Understanding PATH](/docs/quick-reference/understanding-path/)
-  - [Developer Resources](/docs/quick-reference/resources/)
-  - [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
-  - [Installation](/docs/quick-reference/installation/)
-  - [Top Repos](/docs/quick-reference/topRepos/)
-  - [Awesome Lists](/docs/quick-reference/awesome-lists/)
-  - [Github Search](/docs/quick-reference/github-search/)
-  - [new-repo-git](/docs/quick-reference/new-repo-instructions/)
-  - [Notes Template](/docs/quick-reference/notes-template/)
-  - [vscode](/docs/quick-reference/vscode/)
-  - [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
-  - [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
-  - [vscode-themes](/docs/quick-reference/vscode-themes/)
+    -   [Git Bash](/docs/quick-reference/git-bash/)
+    -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
+    -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
+    -   [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
+    -   [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
+    -   [Quick Links](/docs/quick-reference/quick-links/)
+    -   [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
+    -   [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
+    -   [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
+    -   [Understanding PATH](/docs/quick-reference/understanding-path/)
+    -   [Developer Resources](/docs/quick-reference/resources/)
+    -   [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
+    -   [Installation](/docs/quick-reference/installation/)
+    -   [Top Repos](/docs/quick-reference/topRepos/)
+    -   [Awesome Lists](/docs/quick-reference/awesome-lists/)
+    -   [Github Search](/docs/quick-reference/github-search/)
+    -   [new-repo-git](/docs/quick-reference/new-repo-instructions/)
+    -   [Notes Template](/docs/quick-reference/notes-template/)
+    -   [vscode](/docs/quick-reference/vscode/)
+    -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
+    -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
+    -   [vscode-themes](/docs/quick-reference/vscode-themes/)
 
-- [React](/docs/react/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [React](/docs/react/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [React Cheat Sheets:](/docs/react/cheatsheet/)
-  - [React Class Components Demo](/docs/react/demo/)
-  - [Introducing JSX](/docs/react/jsx/)
-  - [Rendering Elements With React](/docs/react/render-elements/)
-  - [React In Depth](/docs/react/react-in-depth/)
-  - [Intro To React](/docs/react/react2/)
-  - [npx-create-react-app](/docs/react/createReactApp/)
-  - [React Docs](/docs/react/react-docs/)
+    -   [React Cheat Sheets:](/docs/react/cheatsheet/)
+    -   [React Class Components Demo](/docs/react/demo/)
+    -   [Introducing JSX](/docs/react/jsx/)
+    -   [Rendering Elements With React](/docs/react/render-elements/)
+    -   [React In Depth](/docs/react/react-in-depth/)
+    -   [Intro To React](/docs/react/react2/)
+    -   [npx-create-react-app](/docs/react/createReactApp/)
+    -   [React Docs](/docs/react/react-docs/)
 
-- [Tools](/docs/tools/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Tools](/docs/tools/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-  - [Data Structures](/docs/tools/data-structures/)
-  - [General Utilities](/docs/tools/dev-utilities/)
-  - [more tools](/docs/tools/more-tools/)
-  - [The google cloud cheat sheet](/docs/tools/cloudstorage/)
-  - [md and html](/docs/tools/markdown-html/)
+    -   [Data Structures](/docs/tools/data-structures/)
+    -   [General Utilities](/docs/tools/dev-utilities/)
+    -   [more tools](/docs/tools/more-tools/)
+    -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
+    -   [md and html](/docs/tools/markdown-html/)
 
-- [My Python Docs](/docs/python/)
-  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-  - [lorem-ipsum](/docs/python/basics/)
-  - [lorem-ipsum](/docs/python/flow-control/)
-  - [google-sheets-api](/docs/python/google-sheets-api/)
-  - [lorem-ipsum](/docs/python/functions/)
-  - [lorem-ipsum](/docs/python/intro-for-js-devs/)
-  - [Practice](/docs/python/examples/)
-  - [Python General Notes](/docs/python/python-ds/)
-  - [Python Cheat Sheet](/docs/python/cheat-sheet/)
-  - [lorem-ipsum](/docs/python/comprehensive-guide/)
-  - [Python Snippets](/docs/python/snippets/)
-  - [Python at length](/docs/python/at-length/)
+-   [My Python Docs](/docs/python/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+    -   [lorem-ipsum](/docs/python/basics/)
+    -   [lorem-ipsum](/docs/python/flow-control/)
+    -   [google-sheets-api](/docs/python/google-sheets-api/)
+    -   [lorem-ipsum](/docs/python/functions/)
+    -   [lorem-ipsum](/docs/python/intro-for-js-devs/)
+    -   [Practice](/docs/python/examples/)
+    -   [Python General Notes](/docs/python/python-ds/)
+    -   [Python Cheat Sheet](/docs/python/cheat-sheet/)
+    -   [lorem-ipsum](/docs/python/comprehensive-guide/)
+    -   [Python Snippets](/docs/python/snippets/)
+    -   [Python at length](/docs/python/at-length/)
 
-# About
+About
+=====
 
-# Hi 👋, I'm Bryan
+Hi 👋, I’m Bryan
+===============
 
 ![](https://github.com/bgoonz/bgoonz/blob/master/circle-small-sharp.png?raw=true?raw=true)
 
@@ -267,13 +248,13 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
 
 ![Profile views](https://views.whatilearened.today/views/github/bgoonz/views.svg)[![Gitter](https://badges.gitter.im/bgoonz/community.svg)](https://gitter.im/bgoonz/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)[![hackmd-github-sync-badge](https://hackmd.io/5DeYj2oXTvGJ1-Xvp1Jo2Q/badge)](https://hackmd.io/5DeYj2oXTvGJ1-Xvp1Jo2Q)[![GitHub followers](https://img.shields.io/github/followers/bgoonz.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/bgoonz?tab=followers)
 
-### ➤ _Email_ [bryan.guner@gmail.com](#) _Phone_ [551-254-5505](551-254-5505)
+### ➤ *Email* [bryan.guner@gmail.com](#) *Phone* [551-254-5505](551-254-5505)
 
 #### A passionate Web Developer, Electrical Engineer, Musician & Producer
 
 ![](https://readme-jokes.vercel.app/api)
 
-[![Portfolio](https://img.shields.io/badge/-%E2%9D%A4_Portfolio-f58?style=flat-square&logo=a&logoColor=white&link=https://bg-portfolio.netlify.app/)](https://bg-portfolio.netlify.app/)[![Resume PDF](https://img.shields.io/badge/-Resume-f00?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/bgoonz/resume-cv-portfolio-samples/blob/master/2021-resume/bryan-guner-resume-2021.pdf)[![Bryan's email](https://img.shields.io/badge/bryan.guner@gmail.com-f4b400?style=flat-square&logo=gmail&logoColor=black&link=mailto:bryan.guner@gmail.com)](mailto:bryan.guner@gmail.com)[![Blog](https://img.shields.io/badge/-Blog-21759b?style=flat-square&logo=WordPress&logoColor=white&link=https://web-dev-hub.com/)](https://web-dev-hub.com/)[![Linkedin](https://img.shields.io/badge/-LinkedIn-0077b5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bryan-guner-046199128/)](https://www.linkedin.com/in/bryan-guner-046199128/)[![AngelList](https://img.shields.io/badge/-AngelList-black?style=flat-square&logo=AngelList&logoColor=white&link=https://angel.co/u/bryan-guner)](https://angel.co/u/bryan-guner)[![GitHub bgoonz](https://img.shields.io/github/followers/bgoonz?label=follow&style=social)](https://github.com/bgoonz)
+[![Portfolio](https://img.shields.io/badge/-%E2%9D%A4_Portfolio-f58?style=flat-square&logo=a&logoColor=white&link=https://bg-portfolio.netlify.app/)](https://bg-portfolio.netlify.app/)[![Resume PDF](https://img.shields.io/badge/-Resume-f00?style=flat-square&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/bgoonz/resume-cv-portfolio-samples/blob/master/2021-resume/bryan-guner-resume-2021.pdf)[](mailto:bryan.guner@gmail.com)[![Blog](https://img.shields.io/badge/-Blog-21759b?style=flat-square&logo=WordPress&logoColor=white&link=https://web-dev-hub.com/)](https://web-dev-hub.com/)[![Linkedin](https://img.shields.io/badge/-LinkedIn-0077b5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bryan-guner-046199128/)](https://www.linkedin.com/in/bryan-guner-046199128/)[![AngelList](https://img.shields.io/badge/-AngelList-black?style=flat-square&logo=AngelList&logoColor=white&link=https://angel.co/u/bryan-guner)](https://angel.co/u/bryan-guner)[![GitHub bgoonz](https://img.shields.io/github/followers/bgoonz?label=follow&style=social)](https://github.com/bgoonz)
 
 [![email](https://img.icons8.com/color/96/000000/gmail.png)](mailto:bryan.guner@gmail.com)[![facebook](https://img.icons8.com/color/96/000000/facebook.png)](https://www.facebook.com/bryan.guner/)[![twitter](https://img.icons8.com/color/96/000000/twitter-squared.png)](https://twitter.com/bgooonz)[![youtube](https://img.icons8.com/color/96/000000/youtube.png)](https://www.youtube.com/channel/UC9-rYyUMsnEBK8G8fCyrXXA/videos)[![instagram](https://img.icons8.com/color/96/000000/instagram-new.png)](https://www.instagram.com/bgoonz/?hl=en)[![linkedin](https://img.icons8.com/color/96/000000/linkedin.png)](https://www.linkedin.com/in/bryan-guner-046199128/)[![medium](https://img.icons8.com/color/96/000000/medium-logo.png)](https://bryanguner.medium.com/)[![spotify](https://img.icons8.com/color/96/000000/spotify--v1.png)](https://open.spotify.com/user/bgoonz?si=ShH9wYbIQWab5Jz_30BKFw)
 
@@ -295,25 +276,25 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
 
 About Me
 
-- 🔭 Contract Web Development **Relational Concepts**
-- 🌱 I'm currently learning **React/Redux, Python, Java, Express, jQuery**
-- 👯 I'm looking to collaborate on [Any web audio or open source educational tools.](https://goofy-euclid-1cd736.netlify.app/core-site/index.html)
-- 🤝 I'm looking for help with [Learning React](https://github.com/bgoonz/React-Practice)
-- 👨‍💻 All of my projects are available at <https://bgoonz.github.io/>
-- 📝 I regularly write articles on [medium](https://bryanguner.medium.com/) && [Web-Dev-Resource-Hub](https://web-dev-resource-hub.netlify.app/)
-- 💬 Ask me about **Anything:**
-- 📫 How to reach me **bryan.guner@gmail.com**
-- ⚡ Fun fact **I played Bamboozle Music Festival at the Meadowlands Stadium Complex when I was 14.**
+-   🔭 Contract Web Development **Relational Concepts**
+-   🌱 I’m currently learning **React/Redux, Python, Java, Express, jQuery**
+-   👯 I’m looking to collaborate on [Any web audio or open source educational tools.](https://goofy-euclid-1cd736.netlify.app/core-site/index.html)
+-   🤝 I’m looking for help with [Learning React](https://github.com/bgoonz/React-Practice)
+-   👨‍💻 All of my projects are available at <a href="https://bgoonz.github.io/" class="uri">https://bgoonz.github.io/</a>
+-   📝 I regularly write articles on [medium](https://bryanguner.medium.com/) && [Web-Dev-Resource-Hub](https://web-dev-resource-hub.netlify.app/)
+-   💬 Ask me about **Anything:**
+-   📫 How to reach me **bryan.guner@gmail.com**
+-   ⚡ Fun fact **I played Bamboozle Music Festival at the Meadowlands Stadium Complex when I was 14.**
 
 ### i really like music :headphones:
 
-#### What's the most useful business-related book you've ever read?
+#### What’s the most useful business-related book you’ve ever read?
 
 > A Random Walk Down Wall Street
 
-#### What's your favorite non-business book?
+#### What’s your favorite non-business book?
 
-> Hitchhiker's Guide To The Galaxy
+> Hitchhiker’s Guide To The Galaxy
 
 #### If money were not an issue, what would you be doing right now?
 
@@ -323,19 +304,19 @@ About Me
 
 > Try harder and listen to your parents more (the latter bit of advice would be almost certain to fall on deaf ears lol)
 
-#### What's the most creative thing you've ever done?
+#### What’s the most creative thing you’ve ever done?
 
-> I built a platform that listens to a guitarist's performance and automatically triggers guitar effects at the appropriate time in the song.
+> I built a platform that listens to a guitarist’s performance and automatically triggers guitar effects at the appropriate time in the song.
 
 #### Which founders or startups do you most admire?
 
-> Is it to basic to say Tesla... I know they're prevalent now but I've been an avid fan since as early as 2012.
+> Is it to basic to say Tesla… I know they’re prevalent now but I’ve been an avid fan since as early as 2012.
 
-#### What's your super power?
+#### What’s your super power?
 
 > Having really good ideas and forgetting them moments later.
 
-#### What's the best way for people to get in touch with you?
+#### What’s the best way for people to get in touch with you?
 
 > A text
 
@@ -345,76 +326,81 @@ Creating things that change my every day life.
 
 #### What was the most impactful class you took in school?
 
-> Modern Physics... almost changed my major after that class... but at the end of the day engineering was a much more fiscally secure avenue.
+> Modern Physics… almost changed my major after that class… but at the end of the day engineering was a much more fiscally secure avenue.
 
-#### What's something you wish you had done years earlier?
+#### What’s something you wish you had done years earlier?
 
-> Learned to code ... and sing
+> Learned to code … and sing
 
 #### What words of wisdom do you live by?
 
-> \*Disclaimer: The following wisdom is very cliche ... but... "Be the change that you wish to see in the world."
+> \*Disclaimer: The following wisdom is very cliche … but… “Be the change that you wish to see in the world.”
 
 > Mahatma Gandhi
 
-| | \#\# Portfolio:
+| \#\# Portfolio:
 
-# [netlify](https://portfolio42.netlify.app/) |
+[netlify](https://portfolio42.netlify.app/) |
+=============================================
 
-| :------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | **Languages** | ![](https://img.shields.io/badge/Lang-HTML5-informational?style=flat&logo=HTML5&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lang-CSS-informational?style=flat&logo=CSS%20Wizardry&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lang-JavaScript-informational?style=flat&logo=JavaScript&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lang-SQL-informational?style=flat&logo=SQL&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lang-Java-informational?style=flat&logo=Java&logoColor=white&color=00FF00)  
-![](https://img.shields.io/badge/Lang-Python-informational?style=flat&logo=Python&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lang-TypeScript-informational?style=flat&logo=TypeScript&logoColor=white&color=00FF00) | | **Libraries** | ![](https://img.shields.io/badge/Lib-Bootstrap-informational?style=flat&logo=Bootstrap&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lib-React-informational?style=flat&logo=React&logoColor=white&color=00FF00) | | **Frameworks** | ![](https://img.shields.io/badge/FW-Redux-informational?style=flat&logo=Redux&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/FW-Node.js-informational?style=flat&logo=Node.js&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/FW-Express-informational?style=flat&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/FW-PowerShell-informational?style=flat&logo=PowerShell&logoColor=white&color=00FF00) | | **Databases** | ![](https://img.shields.io/badge/DB-PostgreSQL-informational?style=flat&logo=PostgreSQL&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/DB-MySQL-informational?style=flat&logo=MySQL&logoColor=white&color=00FF00) | | **Testing** | ![](https://img.shields.io/badge/Test-Jest-informational?style=flat&logo=Jest&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Test-Cypress-informational?style=flat&logo=Cypress&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Test-JUnit-informational?style=flat&logo=JUnit&logoColor=white&color=00FF00) | | **Other** | ![](https://img.shields.io/badge/Editor-VS%20Code-informational?style=flat&logo=visualstudiocode&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Editor-IntelliJ%20IDEA-informational?style=flat&logo=intellijidea&logoColor=white&color=00FF00)  
+:————: | ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— | | **Languages** | ![](https://img.shields.io/badge/Lang-HTML5-informational?style=flat&logo=HTML5&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lang-CSS-informational?style=flat&logo=CSS%20Wizardry&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lang-JavaScript-informational?style=flat&logo=JavaScript&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lang-SQL-informational?style=flat&logo=SQL&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lang-Java-informational?style=flat&logo=Java&logoColor=white&color=00FF00)
+
+![](https://img.shields.io/badge/Lang-Python-informational?style=flat&logo=Python&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lang-TypeScript-informational?style=flat&logo=TypeScript&logoColor=white&color=00FF00) | | **Libraries** | ![](https://img.shields.io/badge/Lib-Bootstrap-informational?style=flat&logo=Bootstrap&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Lib-React-informational?style=flat&logo=React&logoColor=white&color=00FF00) | | **Frameworks** | ![](https://img.shields.io/badge/FW-Redux-informational?style=flat&logo=Redux&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/FW-Express-informational?style=flat&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/FW-PowerShell-informational?style=flat&logo=PowerShell&logoColor=white&color=00FF00) | | **Databases** | ![](https://img.shields.io/badge/DB-PostgreSQL-informational?style=flat&logo=PostgreSQL&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/DB-MySQL-informational?style=flat&logo=MySQL&logoColor=white&color=00FF00) | | **Testing** | ![](https://img.shields.io/badge/Test-Jest-informational?style=flat&logo=Jest&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Test-Cypress-informational?style=flat&logo=Cypress&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Test-JUnit-informational?style=flat&logo=JUnit&logoColor=white&color=00FF00) | | **Other** | ![](https://img.shields.io/badge/Editor-VS%20Code-informational?style=flat&logo=visualstudiocode&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Editor-IntelliJ%20IDEA-informational?style=flat&logo=intellijidea&logoColor=white&color=00FF00)  
 ![](https://img.shields.io/badge/Tools-ESLint-informational?style=flat&logo=ESLint&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Tools-Postman-informational?style=flat&logo=Postman&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=Git&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Tools-GitHub-informational?style=flat&logo=GitHub&logoColor=white&color=00FF00)  
 ![](https://img.shields.io/badge/OS-Windows%2010-informational?style=flat&logo=Windows&logoColor=white&color=00FF00)  
 ![](https://img.shields.io/badge/Code-LESS-informational?style=flat&logoColor=white&color=00FF00) ![](https://img.shields.io/badge/Code-Emmet-informational?style=flat&logoColor=white&color=00FF00) |
 
 Resume
 
-# ➤ Technical Skills­­­
+➤ Technical Skills­­­
+=====================
 
-<table><thead><tr class="header"><th><strong>Programming**</strong> Languages:**</th><th>JavaScript ES-6, NodeJS, React, HTML5, CSS3, SCSS, Bash Shell, Excel, SQL, NoSQL, MATLAB, Python, C++</th></tr></thead><tbody><tr class="odd"><td><strong>Databases:</strong></td><td>PostgreSQL, MongoDB</td></tr><tr class="even"><td><strong>Cloud:</strong></td><td>Docker, AWS, Google App Engine, Netlify, Digital Ocean, Heroku, Azure Cloud Services</td></tr><tr class="odd"><td><strong>OS:</strong></td><td>Linux, Windows (WSL), IOS</td></tr><tr class="even"><td><strong>Agile:</strong></td><td>GitHub, BitBucket, Jira, Confluence</td></tr><tr class="odd"><td><strong>IDEs:</strong></td><td>VSCode, Visual Studio, Atom, Code Blocks, Sublime Text 3, Brackets</td></tr></tbody></table>
+<table><thead><tr class="header"><th><strong>Programming<strong></strong> Languages:</strong></th><th>JavaScript ES-6, NodeJS, React, HTML5, CSS3, SCSS, Bash Shell, Excel, SQL, NoSQL, MATLAB, Python, C++</th></tr></thead><tbody><tr class="odd"><td><strong>Databases:</strong></td><td>PostgreSQL, MongoDB</td></tr><tr class="even"><td><strong>Cloud:</strong></td><td>Docker, AWS, Google App Engine, Netlify, Digital Ocean, Heroku, Azure Cloud Services</td></tr><tr class="odd"><td><strong>OS:</strong></td><td>Linux, Windows (WSL), IOS</td></tr><tr class="even"><td><strong>Agile:</strong></td><td>GitHub, BitBucket, Jira, Confluence</td></tr><tr class="odd"><td><strong>IDEs:</strong></td><td>VSCode, Visual Studio, Atom, Code Blocks, Sublime Text 3, Brackets</td></tr></tbody></table>
 
----
+------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#experience)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#experience)
 
-# ➤ Experience
+➤ Experience
+============
 
 <table><thead><tr class="header"><th><strong>Relational Concepts:</strong> Hallandale Beach, FL</th><th>March 2020 - Present</th></tr></thead><tbody><tr class="odd"><td><strong>Front End Web Developer</strong></td><td></td></tr><tr class="even"><td></td><td></td></tr></tbody></table>
 
-- Responsible for front-end development for a custom real estate application which provides sophisticated and fully customizable filtering to allow investors and real estate professionals to narrow in on exact search targets.
-- Designed mock-up screens, wireframes, and workflows for intuitive user experience.
-- Migrated existing multi-page user experience into singular page interfaces using React components.
-- Participated in every stage of the design from conception through development and iterative improvement.
-- Produced user stories and internal documentation for future site development and maintenance.
-- Implemented modern frameworks including Bootstrap and Font-Awesome to give the site an aesthetic overhaul.
-- Managed all test deployments using a combination of Digital Ocean and Netlify.
-- Produced unit tests using a combination of Mocha and Chai.
-- Injected Google Analytics to capture pertinent usage data to produce an insightful dashboard experience.
+-   Responsible for front-end development for a custom real estate application which provides sophisticated and fully customizable filtering to allow investors and real estate professionals to narrow in on exact search targets.
+-   Designed mock-up screens, wireframes, and workflows for intuitive user experience.
+-   Migrated existing multi-page user experience into singular page interfaces using React components.
+-   Participated in every stage of the design from conception through development and iterative improvement.
+-   Produced user stories and internal documentation for future site development and maintenance.
+-   Implemented modern frameworks including Bootstrap and Font-Awesome to give the site an aesthetic overhaul.
+-   Managed all test deployments using a combination of Digital Ocean and Netlify.
+-   Produced unit tests using a combination of Mocha and Chai.
+-   Injected Google Analytics to capture pertinent usage data to produce an insightful dashboard experience.
 
 <table><thead><tr class="header"><th><strong>Environment:</strong></th><th><strong>JavaScript, JQuery, React, HTML5 &amp; CSS, Bootstrap, DOJO, Google Cloud, Bash Script</strong></th></tr></thead><tbody></tbody></table>
 
 <table><thead><tr class="header"><th><strong>Cembre:</strong> Edison, NJ</th><th>Nov 2019 – Mar 2020</th></tr></thead><tbody><tr class="odd"><td><strong>Product Development Engineer</strong></td><td></td></tr><tr class="even"><td></td><td></td></tr></tbody></table>
 
-- Converted client's product needs into technical specs to be sent to the development team in Italy.
-- Reorganized internal file server structure.
-- Conducted remote / in person system integration and product demonstrations.
-- Presided over internal and end user software trainings in addition to producing the corresponding documentation.
-- Served as the primary point of contact for troubleshooting railroad hardware and software in the North America.
+-   Converted client’s product needs into technical specs to be sent to the development team in Italy.
+-   Reorganized internal file server structure.
+-   Conducted remote / in person system integration and product demonstrations.
+-   Presided over internal and end user software trainings in addition to producing the corresponding documentation.
+-   Served as the primary point of contact for troubleshooting railroad hardware and software in the North America.
 
 <table><thead><tr class="header"><th><strong>Environment:</strong></th><th><strong>Excel, AutoCAD, PowerPoint, Word</strong></th></tr></thead><tbody></tbody></table>
 
----
+------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#education)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#education)
 
-# ➤ Education
+➤ Education
+===========
 
-<table><thead><tr class="header"><th>**B.S. Electrical Engineering, TCNJ, ** Ewing NJ</th><th>2014 – 2019</th></tr></thead><tbody></tbody></table>
+<table><thead><tr class="header"><th><strong>B.S. Electrical Engineering, TCNJ,</strong> Ewing NJ</th><th>2014 – 2019</th></tr></thead><tbody></tbody></table>
 
 **Capstone Project – Team Lead**
 
-- Successfully completed and delivered a platform to digitize a guitar signal and perform filtering before executing frequency & time domain analysis to track a current performance against prerecorded performance.
-- Implemented the Dynamic Time Warping algorithm in C++ and Python to autonomously activate or adjust guitar effect at multiple pre-designated section of performance.
+-   Successfully completed and delivered a platform to digitize a guitar signal and perform filtering before executing frequency & time domain analysis to track a current performance against prerecorded performance.
+-   Implemented the Dynamic Time Warping algorithm in C++ and Python to autonomously activate or adjust guitar effect at multiple pre-designated section of performance.
 
 <table><thead><tr class="header"><th><strong>Environment:</strong></th><th><strong>C++, Python, MATLAB, PureData</strong></th></tr></thead><tbody></tbody></table>
 
@@ -430,7 +416,7 @@ Description
 
 Html, Css, javascript, Python, jQuery, React, FireBase, AWS S3, Netlify, Heroku, NodeJS, PostgreSQL, C++, Web Audio API
 
-My blog site contains my resource sharing and blog site ... centered mostly on web development and just a bit of audio production / generally nerdy things I find interesting.
+My blog site contains my resource sharing and blog site … centered mostly on web development and just a bit of audio production / generally nerdy things I find interesting.
 
 [Dynamic Guitar Effects Triggering Using A Modified Dynamic Time Warping Algorithm](https://project-showcase-bgoonz.netlify.app/)
 
@@ -442,7 +428,7 @@ Successfully completed and delivered a platform to digitize a guitar signal and 
 
 HTML, CSS, Javascript, Python, Java, jQuery, Repl.it-Database API
 
-A interactive and comprehensive guide and learning tool for DataStructures and Algorithms ... concentrated on JS but with some examples in Python, C++ and Java as well
+A interactive and comprehensive guide and learning tool for DataStructures and Algorithms … concentrated on JS but with some examples in Python, C++ and Java as well
 
 [MihirBeg.com](https://mihirbegmusic.netlify.app/)
 
@@ -468,49 +454,55 @@ HTML, HTML5, CSS, CSS3, Javascript, jQuery
 
 add songs and play music, it also uses to store data in INDEXEDB Database by which we can play songs, if we not clear the catch then song will remain stored in database.
 
----
+------------------------------------------------------------------------
 
----
+------------------------------------------------------------------------
 
----
+------------------------------------------------------------------------
 
----
+------------------------------------------------------------------------
 
-<img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/23b9b236-746e-409c-8e86-30b4385e3b72/hr1-raypham.gif" alt="hr-line" style="width:100.0%" height="22" />
+<img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/23b9b236-746e-409c-8e86-30b4385e3b72/hr1-raypham.gif" alt="hr-line" height="22" />
 
----
+------------------------------------------------------------------------
 
----
+------------------------------------------------------------------------
 
-# [Learning React Blog](https://ecstatic-jang-593fd1.netlify.app/readme)
+[Learning React Blog](https://ecstatic-jang-593fd1.netlify.app/readme)
+======================================================================
 
 #### React Repo:
 
 [React Repo](https://github.com/bgoonz/React-Practice)
 
----
+------------------------------------------------------------------------
 
-## [![Foo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/embed/zealous-microservice-ti7em?autoresize=1&expanddevtools=1&fontsize=14&hidenavigation=1&moduleview=1&theme=dark)
+[![Foo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/embed/zealous-microservice-ti7em?autoresize=1&expanddevtools=1&fontsize=14&hidenavigation=1&moduleview=1&theme=dark)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/23b9b236-746e-409c-8e86-30b4385e3b72/hr1-raypham.gif" alt="hr-line" style="width:100.0%" height="22" />
+<img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/23b9b236-746e-409c-8e86-30b4385e3b72/hr1-raypham.gif" alt="hr-line" height="22" />
 
-# [react-documentation-site](https://documentation-site-react2-peitff669-bgoonz.vercel.app/)
+[react-documentation-site](https://documentation-site-react2-peitff669-bgoonz.vercel.app/)
+==========================================================================================
 
 [![Edit magical-stallman-ov0d1](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/magical-stallman-ov0d1?autoresize=1&expanddevtools=1&fontsize=12&hidenavigation=1&moduleview=1&theme=dark)
 
-<img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/23b9b236-746e-409c-8e86-30b4385e3b72/hr1-raypham.gif" alt="hr-line" style="width:100.0%" height="22" />
+<img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/23b9b236-746e-409c-8e86-30b4385e3b72/hr1-raypham.gif" alt="hr-line" height="22" />
 
----
+------------------------------------------------------------------------
 
-## ➤ Codepens (mostly embeded animations)
+➤ Codepens (mostly embeded animations)
+--------------------------------------
 
-# [code-pens-embedded](https://embedable-content.netlify.app/)
+[code-pens-embedded](https://embedable-content.netlify.app/)
+============================================================
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#weekly-quick-snips)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#weekly-quick-snips)
 
-## ➤ Weekly-Quick-Snips:
+➤ Weekly-Quick-Snips:
+---------------------
 
----
+------------------------------------------------------------------------
 
 #### Snippet of the Day:
 
@@ -543,7 +535,7 @@ the method string.replaceAll(search, replaceWith) replaces all appearances of se
 
     const updatedStr = str.replaceAll('example', 'snippet'); //'this is a JSsnippets snippet and snippets are greatr'
 
----
+------------------------------------------------------------------------
 
 ### Fibonacci in Python:
 
@@ -562,11 +554,11 @@ the method string.replaceAll(search, replaceWith) replaces all appearances of se
     for i in range(10):
         print(f'{i}: {fib_iter(i)}')
 
----
+------------------------------------------------------------------------
 
-#### Yesterday's Snippet of the day:
+#### Yesterday’s Snippet of the day:
 
----
+------------------------------------------------------------------------
 
     def quicksort(l):
         # One of our base cases is an empty list or list with one element
@@ -605,13 +597,13 @@ the method string.replaceAll(search, replaceWith) replaces all appearances of se
 
     print(quicksort([9,8,7,6,5,4,3,2,1]))
 
----
+------------------------------------------------------------------------
 
-See Older Snippets! \#\#\#\# This Week's snippets: --- &gt;will replace any spaces in file names with an underscore! \`\`\`bash for file in \*; do mv "$file" \`echo $file | tr ' ' '\_'\` ; done \#\# TAKING IT A STEP FURTHER: \# Let's do it recursivley: function RecurseDirs () { oldIFS=$IFS IFS=$'\\n' for f in "$@" do \# YOUR CODE HERE!
+See Older Snippets! \#\#\#\# This Week’s snippets: — &gt;will replace any spaces in file names with an underscore! \`\`\`bash for file in \*; do mv “$file” \`echo <span class="math inline">$file | tr ' ' '\\\_'\\\` ; done \\\#\\\# TAKING IT A STEP FURTHER: \\\# Let's do it recursivley: function RecurseDirs () { oldIFS=$</span>IFS IFS=<span class="math inline">$'\\\\n' for f in "$</span>@" do \# YOUR CODE HERE!
 
-\[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)\]
+\[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)\]
 
-for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}" \]\]; then cd "${f}" RecurseDirs $(ls -1 ".") cd .. fi done IFS=$oldIFS } RecurseDirs "./"
+for file in \*; do mv “$file” `echo $file | tr ' ' '_'` ; done if \[\[ -d “<span class="math inline">${f}" \\\]\\\]; then cd "$</span>{f}” RecurseDirs <span class="math inline">$(ls -1 ".") cd .. fi done IFS=$</span>oldIFS } RecurseDirs “./”
 
      ---
      ### Copy to clipboard jQuerry
@@ -649,7 +641,7 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
       });
     })
 
----
+------------------------------------------------------------------------
 
 ### Append Files in PWD
 
@@ -660,7 +652,7 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
         if (err) throw err;
     });
 
----
+------------------------------------------------------------------------
 
 ### doesUserFrequentStarbucks.js
 
@@ -668,7 +660,7 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
     console.log(isAppleDevice);
     // Result: will return true if user is on an Apple device
 
----
+------------------------------------------------------------------------
 
 ### arr-intersection.js
 
@@ -697,7 +689,7 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
     let fame = intersection(['f', 'a', 'm', 'e']); // returns a function
     console.log(fame(['a', 'f', 'z', 'b'])); // returns [ 'f', 'a' ]
 
----
+------------------------------------------------------------------------
 
 ### arr-of-cum-partial-sums.js
 
@@ -737,7 +729,7 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
     ------------------------------------------------rPartSumArr------------------------------------------------
     */
 
----
+------------------------------------------------------------------------
 
 ### camel2Kabab.js
 
@@ -745,7 +737,7 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
         return value.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
     }
 
----
+------------------------------------------------------------------------
 
 ### camelCase.js
 
@@ -756,7 +748,7 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
         });
     }
 
----
+------------------------------------------------------------------------
 
 ### concatLinkedLists.js
 
@@ -787,7 +779,7 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
         return result.next;
     }
 
----
+------------------------------------------------------------------------
 
 ### fast-is-alpha-numeric.js
 
@@ -813,7 +805,7 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
     console.log(isAlphaNumeric(' ')); //false
     console.log(isAlphaNumeric('!')); //false
 
----
+------------------------------------------------------------------------
 
 ### find-n-replace.js
 
@@ -830,14 +822,14 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
     console.log(replaceWords('His name is Tom', 'Tom', 'john'));
     //"His name is John"
 
----
+------------------------------------------------------------------------
 
 ### flatten-arr.js
 
     /*Simple Function to flatten an array into a single layer */
     const flatten = (array) => array.reduce((accum, ele) => accum.concat(Array.isArray(ele) ? flatten(ele) : ele), []);
 
----
+------------------------------------------------------------------------
 
 ### isWeekDay.js
 
@@ -847,7 +839,7 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
     console.log(isWeekday(new Date(2021, 0, 10)));
     // Result: false (Sunday)
 
----
+------------------------------------------------------------------------
 
 ### longest-common-prefix.js
 
@@ -866,13 +858,15 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
 
 [![](https://wakatime.com/share/@bgoonz42/e088a908-1c73-434f-9eab-b73ea4f17d3c.png)](https://wakatime.com)
 
----
+------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#github-gists)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#github-gists)
 
-# ➤ Github Gists
+➤ Github Gists
+==============
 
-## [Github Gists](https://bgoonzgist.netlify.app/)
+[Github Gists](https://bgoonzgist.netlify.app/)
+-----------------------------------------------
 
 [list-of-my-websites](https://gist.github.com/bgoonz/659a9b81ac45453bedc0a1a36275b580)
 
@@ -888,17 +882,18 @@ for file in \*; do mv "$file" `echo $file | tr ' ' '_'` ; done if \[\[ -d "${f}"
 
 ![Express](https://img.shields.io/badge/-Express-blue?style=flat&logo=express) ![Nodejs](https://img.shields.io/badge/-Nodejs-green?style=flat&logo=Node.js)![Python](https://img.shields.io/badge/-Python-lightyellow?style=flat&logo=python&logoColor=blue) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
 
-- <a href="/docs/about/job-search/" class="docs-item-link">Job Search<span class="icon-angle-right" data-aria-hidden="true"></span></a>
-- <a href="/docs/about/intrests/" class="docs-item-link">Youtube<span class="icon-angle-right" data-aria-hidden="true"></span></a>
-- <a href="/docs/about/resume/" class="docs-item-link">Resume<span class="icon-angle-right" data-aria-hidden="true"></span></a>
-- <a href="/docs/about/eng-portfolio/" class="docs-item-link">Engineering Portfolio<span class="icon-angle-right" data-aria-hidden="true"></span></a>
-- <a href="/docs/about/hobbies-n-interests/" class="docs-item-link">My Hobbies &amp; Interests<span class="icon-angle-right" data-aria-hidden="true"></span></a>
+-   <a href="/docs/about/job-search/" class="docs-item-link">Job Search<span class="icon-angle-right" data-aria-hidden="true"></span></a>
+-   <a href="/docs/about/intrests/" class="docs-item-link">Youtube<span class="icon-angle-right" data-aria-hidden="true"></span></a>
+-   <a href="/docs/about/resume/" class="docs-item-link">Resume<span class="icon-angle-right" data-aria-hidden="true"></span></a>
+-   <a href="/docs/about/eng-portfolio/" class="docs-item-link">Engineering Portfolio<span class="icon-angle-right" data-aria-hidden="true"></span></a>
+-   <a href="/docs/about/hobbies-n-interests/" class="docs-item-link">My Hobbies &amp; Interests<span class="icon-angle-right" data-aria-hidden="true"></span></a>
 
-## Jump to Section
+Jump to Section
+---------------
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 
