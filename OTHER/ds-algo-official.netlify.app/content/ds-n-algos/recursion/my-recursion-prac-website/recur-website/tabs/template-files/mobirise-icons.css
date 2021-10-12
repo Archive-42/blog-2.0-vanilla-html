@@ -1,10 +1,10 @@
 @font-face {
   font-family: "MobiriseIcons";
-  src: url("mobirise-icons.eot?spat4u");
-  src: url("mobirise-icons.eot?spat4u#iefix") format("embedded-opentype"),
-    url("mobirise-icons.ttf?spat4u") format("truetype"),
-    url("mobirise-icons.woff?spat4u") format("woff"),
-    url("mobirise-icons.svg?spat4u#MobiriseIcons") format("svg");
+  src: url("https://ds-algo-official.netlify.app/content/ds-n-algos/recursion/my-recursion-prac-website/recur-website/tabs/template-files/mobirise-icons.eot?spat4u");
+  src: url("https://ds-algo-official.netlify.app/content/ds-n-algos/recursion/my-recursion-prac-website/recur-website/tabs/template-files/mobirise-icons.eot?spat4u") format("embedded-opentype"),
+    url("https://ds-algo-official.netlify.app/content/ds-n-algos/recursion/my-recursion-prac-website/recur-website/tabs/template-files/mobirise-icons.ttf?spat4u") format("truetype"),
+    url("https://ds-algo-official.netlify.app/content/ds-n-algos/recursion/my-recursion-prac-website/recur-website/tabs/template-files/mobirise-icons.woff?spat4u") format("woff"),
+    url("https://ds-algo-official.netlify.app/content/ds-n-algos/recursion/my-recursion-prac-website/recur-website/tabs/template-files/mobirise-icons.svg?spat4u") format("svg");
   font-weight: normal;
   font-style: normal;
 }

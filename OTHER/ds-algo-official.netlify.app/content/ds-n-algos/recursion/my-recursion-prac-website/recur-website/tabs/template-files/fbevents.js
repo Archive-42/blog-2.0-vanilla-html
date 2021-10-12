@@ -21,16 +21,16 @@ fbq.version = "2.9.33";
 fbq._releaseSegment = "stable";
 fbq.pendingConfigs = ["global_config"];
 ((a, b, c, d) => {
-  var e = {
+  const e = {
     exports: {},
   };
   e.exports;
   (() => {
-    var f = a.fbq;
+    const f = a.fbq;
     f.execStart = a.performance && a.performance.now && a.performance.now();
     if (
       !(() => {
-        var b = a.postMessage || (() => {});
+        const b = a.postMessage || (() => {});
         if (!f) {
           b(
             {
@@ -50,86 +50,86 @@ fbq.pendingConfigs = ["global_config"];
       })()
     )
       return;
-    var g = (() => {
-        function a(a, b) {
-          var c = [],
-            d = !0,
-            e = !1,
-            f = void 0;
-          try {
-            for (
-              var a =
-                  a[
-                    typeof Symbol === "function"
-                      ? Symbol.iterator
-                      : "@@iterator"
-                  ](),
-                g;
-              !(d = (g = a.next()).done);
-              d = !0
-            ) {
-              c.push(g.value);
-              if (b && c.length === b) break;
+    const g = (() => {
+              function a(a, b) {
+                const c = [];
+                let d = !0;
+                let e = !1;
+                let f = void 0;
+                try {
+                  for (
+                    let a =
+                            a[
+                              typeof Symbol === "function"
+                                ? Symbol.iterator
+                                : "@@iterator"
+                            ](),
+                        g;
+                    !(d = (g = a.next()).done);
+                    d = !0
+                  ) {
+                    c.push(g.value);
+                    if (b && c.length === b) break;
+                  }
+                } catch (a) {
+                  (e = !0), (f = a);
+                } finally {
+                  try {
+                    !d && a["return"] && a["return"]();
+                  } finally {
+                    if (e) throw f;
+                  }
+                }
+                return c;
+              }
+              return (b, c) => {
+                if (Array.isArray(b)) return b;
+                else if (
+                  (typeof Symbol === "function" ? Symbol.iterator : "@@iterator") in
+                  Object(b)
+                )
+                  return a(b, c);
+                else
+                  throw new TypeError(
+                    "Invalid attempt to destructure non-iterable instance"
+                  );
+              };
+            })(),
+          h = (() => {
+            function a(a, b) {
+              for (let c = 0; c < b.length; c++) {
+                const d = b[c];
+                d.enumerable = d.enumerable || !1;
+                d.configurable = !0;
+                "value" in d && (d.writable = !0);
+                Object.defineProperty(a, d.key, d);
+              }
             }
-          } catch (a) {
-            (e = !0), (f = a);
-          } finally {
-            try {
-              !d && a["return"] && a["return"]();
-            } finally {
-              if (e) throw f;
-            }
-          }
-          return c;
-        }
-        return (b, c) => {
-          if (Array.isArray(b)) return b;
-          else if (
-            (typeof Symbol === "function" ? Symbol.iterator : "@@iterator") in
-            Object(b)
-          )
-            return a(b, c);
-          else
-            throw new TypeError(
-              "Invalid attempt to destructure non-iterable instance"
-            );
-        };
-      })(),
-      h = (() => {
-        function a(a, b) {
-          for (var c = 0; c < b.length; c++) {
-            var d = b[c];
-            d.enumerable = d.enumerable || !1;
-            d.configurable = !0;
-            "value" in d && (d.writable = !0);
-            Object.defineProperty(a, d.key, d);
-          }
-        }
-        return (b, c, d) => {
-          c && a(b.prototype, c);
-          d && a(b, d);
-          return b;
-        };
-      })(),
-      i =
-        typeof Symbol === "function" &&
-        typeof (typeof Symbol === "function"
-          ? Symbol.iterator
-          : "@@iterator") === "symbol"
-          ? a => {
-              return typeof a;
-            }
-          : a => {
-              return a &&
-                typeof Symbol === "function" &&
-                a.constructor === Symbol &&
-                a !==
-                  (typeof Symbol === "function"
-                    ? Symbol.prototype
-                    : "@@prototype")
-                ? "symbol"
-                : typeof a;
+            return (b, c, d) => {
+              c && a(b.prototype, c);
+              d && a(b, d);
+              return b;
             };
+          })(),
+          i =
+            typeof Symbol === "function" &&
+            typeof (typeof Symbol === "function"
+              ? Symbol.iterator
+              : "@@iterator") === "symbol"
+              ? a => {
+                  return typeof a;
+                }
+              : a => {
+                  return a &&
+                    typeof Symbol === "function" &&
+                    a.constructor === Symbol &&
+                    a !==
+                      (typeof Symbol === "function"
+                        ? Symbol.prototype
+                        : "@@prototype")
+                    ? "symbol"
+                    : typeof a;
+                };
 
     function j(a, b) {
       if (!a)
@@ -197,7 +197,7 @@ fbq.pendingConfigs = ["global_config"];
       }));
     f.ensureModuleRegistered("SignalsConvertNodeToHTMLElement", () => {
       return ((f, g, h, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
@@ -205,7 +205,7 @@ fbq.pendingConfigs = ["global_config"];
           "use strict";
 
           function a(a) {
-            var b =
+            const b =
               (typeof HTMLElement === "undefined"
                 ? "undefined"
                 : i(HTMLElement)) === "object"
@@ -225,68 +225,70 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsEventValidation", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsLogging"),
-            b = a.logUserError,
-            c = /^[+-]?\d+(\.\d+)?$/,
-            d = "number",
-            e = "currency_code",
-            g = {
-              AED: 1,
-              ARS: 1,
-              AUD: 1,
-              BOB: 1,
-              BRL: 1,
-              CAD: 1,
-              CHF: 1,
-              CLP: 1,
-              CNY: 1,
-              COP: 1,
-              CRC: 1,
-              CZK: 1,
-              DKK: 1,
-              EUR: 1,
-              GBP: 1,
-              GTQ: 1,
-              HKD: 1,
-              HNL: 1,
-              HUF: 1,
-              IDR: 1,
-              ILS: 1,
-              INR: 1,
-              ISK: 1,
-              JPY: 1,
-              KRW: 1,
-              MOP: 1,
-              MXN: 1,
-              MYR: 1,
-              NIO: 1,
-              NOK: 1,
-              NZD: 1,
-              PEN: 1,
-              PHP: 1,
-              PLN: 1,
-              PYG: 1,
-              QAR: 1,
-              RON: 1,
-              RUB: 1,
-              SAR: 1,
-              SEK: 1,
-              SGD: 1,
-              THB: 1,
-              TRY: 1,
-              TWD: 1,
-              USD: 1,
-              UYU: 1,
-              VEF: 1,
-              VND: 1,
-              ZAR: 1,
-            };
+          let a = f.getFbeventsModules("SignalsFBEventsLogging");
+          const b = a.logUserError;
+          const c = /^[+-]?\d+(\.\d+)?$/;
+          const d = "number";
+          const e = "currency_code";
+
+          const g = {
+            AED: 1,
+            ARS: 1,
+            AUD: 1,
+            BOB: 1,
+            BRL: 1,
+            CAD: 1,
+            CHF: 1,
+            CLP: 1,
+            CNY: 1,
+            COP: 1,
+            CRC: 1,
+            CZK: 1,
+            DKK: 1,
+            EUR: 1,
+            GBP: 1,
+            GTQ: 1,
+            HKD: 1,
+            HNL: 1,
+            HUF: 1,
+            IDR: 1,
+            ILS: 1,
+            INR: 1,
+            ISK: 1,
+            JPY: 1,
+            KRW: 1,
+            MOP: 1,
+            MXN: 1,
+            MYR: 1,
+            NIO: 1,
+            NOK: 1,
+            NZD: 1,
+            PEN: 1,
+            PHP: 1,
+            PLN: 1,
+            PYG: 1,
+            QAR: 1,
+            RON: 1,
+            RUB: 1,
+            SAR: 1,
+            SEK: 1,
+            SGD: 1,
+            THB: 1,
+            TRY: 1,
+            TWD: 1,
+            USD: 1,
+            UYU: 1,
+            VEF: 1,
+            VND: 1,
+            ZAR: 1,
+          };
+
           a = {
             value: {
               isRequired: !0,
@@ -297,43 +299,43 @@ fbq.pendingConfigs = ["global_config"];
               type: e,
             },
           };
-          var h = {
-              AddPaymentInfo: {},
-              AddToCart: {},
-              AddToWishlist: {},
-              CompleteRegistration: {},
-              Contact: {},
-              CustomEvent: {
-                validationSchema: {
-                  event: {
-                    isRequired: !0,
+          const h = {
+                    AddPaymentInfo: {},
+                    AddToCart: {},
+                    AddToWishlist: {},
+                    CompleteRegistration: {},
+                    Contact: {},
+                    CustomEvent: {
+                      validationSchema: {
+                        event: {
+                          isRequired: !0,
+                        },
+                      },
+                    },
+                    CustomizeProduct: {},
+                    Donate: {},
+                    FindLocation: {},
+                    InitiateCheckout: {},
+                    Lead: {},
+                    PageView: {},
+                    PixelInitialized: {},
+                    Purchase: {
+                      validationSchema: a,
+                    },
+                    Schedule: {},
+                    Search: {},
+                    StartTrial: {},
+                    SubmitApplication: {},
+                    Subscribe: {},
+                    ViewContent: {},
                   },
+                i = {
+                  agent: !0,
+                  automaticmatchingconfig: !0,
+                  codeless: !0,
+                  tracksingleonly: !0,
                 },
-              },
-              CustomizeProduct: {},
-              Donate: {},
-              FindLocation: {},
-              InitiateCheckout: {},
-              Lead: {},
-              PageView: {},
-              PixelInitialized: {},
-              Purchase: {
-                validationSchema: a,
-              },
-              Schedule: {},
-              Search: {},
-              StartTrial: {},
-              SubmitApplication: {},
-              Subscribe: {},
-              ViewContent: {},
-            },
-            i = {
-              agent: !0,
-              automaticmatchingconfig: !0,
-              codeless: !0,
-              tracksingleonly: !0,
-            },
-            j = Object.prototype.hasOwnProperty;
+                j = Object.prototype.hasOwnProperty;
 
           function l() {
             return {
@@ -359,7 +361,7 @@ fbq.pendingConfigs = ["global_config"];
           function o(a) {
             if (a) {
               a = a.toLowerCase();
-              var b = i[a];
+              const b = i[a];
               if (b !== !0)
                 return m({
                   metadata: a,
@@ -370,7 +372,7 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function p(a) {
-            var b =
+            const b =
               arguments.length > 1 && arguments[1] !== void 0
                 ? arguments[1]
                 : {};
@@ -378,7 +380,7 @@ fbq.pendingConfigs = ["global_config"];
               return m({
                 type: "NO_EVENT_NAME",
               });
-            var c = h[a];
+            const c = h[a];
             return !c
               ? n([
                   {
@@ -391,11 +393,11 @@ fbq.pendingConfigs = ["global_config"];
 
           function q(a, b, f) {
             f = f.validationSchema;
-            var h = [];
-            for (var i in f)
+            const h = [];
+            for (const i in f)
               if (j.call(f, i)) {
-                var k = f[i],
-                  l = b[i];
+                let k = f[i];
+                const l = b[i];
                 if (k) {
                   if (k.isRequired != null && !j.call(b, i))
                     return m({
@@ -404,7 +406,7 @@ fbq.pendingConfigs = ["global_config"];
                       type: "REQUIRED_PARAM_MISSING",
                     });
                   if (k.type != null && typeof k.type === "string") {
-                    var o = !0;
+                    let o = !0;
                     switch (k.type) {
                       case d:
                         k =
@@ -453,15 +455,15 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsBaseEvent", () => {
       return ((g, i, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsUtils"),
-            b = a.map,
-            c = a.keys;
+          let a = f.getFbeventsModules("SignalsFBEventsUtils");
+          const b = a.map;
+          const c = a.keys;
           a = (() => {
             function a(b) {
               n(this, a),
@@ -473,8 +475,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "listen",
                 value(a) {
-                  var b = this,
-                    c = "" + this._regKey++;
+                  const b = this, c = "" + this._regKey++;
                   this._subscriptions[c] = a;
                   return () => {
                     delete b._subscriptions[c];
@@ -484,12 +485,14 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "listenOnce",
                 value(a) {
-                  var b = null,
-                    c = function () {
-                      b && b();
-                      b = null;
-                      return a.apply(void 0, arguments);
-                    };
+                  let b = null;
+
+                  const c = function () {
+                    b && b();
+                    b = null;
+                    return a.apply(void 0, arguments);
+                  };
+
                   b = this.listen(c);
                   return b;
                 },
@@ -497,7 +500,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "trigger",
                 value() {
-                  var a = this;
+                  const a = this;
                   for (
                     var d = arguments.length, e = Array(d), f = 0;
                     f < d;
@@ -505,7 +508,7 @@ fbq.pendingConfigs = ["global_config"];
                   )
                     e[f] = arguments[f];
                   return b(c(this._subscriptions), b => {
-                    var c;
+                    let c;
                     return (c = a._subscriptions)[b].apply(c, e);
                   });
                 },
@@ -513,7 +516,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "triggerWeakly",
                 value() {
-                  var a =
+                  const a =
                     this._coerceArgs != null
                       ? this._coerceArgs.apply(this, arguments)
                       : null;
@@ -530,26 +533,24 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsBatcher", () => {
       return ((g, i, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsConfigStore"),
-            b = 1e3,
-            c = 10;
+          const a = f.getFbeventsModules("SignalsFBEventsConfigStore"), b = 1e3, c = 10;
 
           function d() {
-            var b = a.get(null, "batching");
+            const b = a.get(null, "batching");
             return b != null ? b.maxBatchSize : c;
           }
 
           function e() {
-            var c = a.get(null, "batching");
+            const c = a.get(null, "batching");
             return c != null ? c.batchWaitTimeMs : b;
           }
-          var i = (() => {
+          const i = (() => {
             function a(b) {
               n(this, a),
                 (this._waitHandle = null),
@@ -560,7 +561,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "addToBatch",
                 value(a) {
-                  var b = this;
+                  const b = this;
                   this._waitHandle == null &&
                     (this._waitHandle = g.setTimeout(() => {
                       (b._waitHandle = null), b.forceEndBatch();
@@ -591,16 +592,16 @@ fbq.pendingConfigs = ["global_config"];
       "signalsFBEventsCoerceAutomaticMatchingConfig",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsTyped"),
-              b = a.coerce;
+            let a = f.getFbeventsModules("SignalsFBEventsTyped");
+            const b = a.coerce;
             a = a.Typed;
-            var c = a.objectWithFields({
+            const c = a.objectWithFields({
               selectedMatchKeys: a.arrayOf(a.string()),
             });
             k.exports = a => {
@@ -615,37 +616,37 @@ fbq.pendingConfigs = ["global_config"];
       "signalsFBEventsCoerceBatchingConfig",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsTyped"),
-              b = a.Typed,
-              c = a.coerce,
-              d = a.enforce,
-              e = a => {
-                var e = c(
-                  a,
-                  b.objectWithFields({
-                    max_batch_size: b.number(),
-                    wait_time_ms: b.number(),
-                  })
-                );
-                return e != null
-                  ? {
-                      batchWaitTimeMs: e.wait_time_ms,
-                      maxBatchSize: e.max_batch_size,
-                    }
-                  : d(
+            const a = f.getFbeventsModules("SignalsFBEventsTyped"),
+                  b = a.Typed,
+                  c = a.coerce,
+                  d = a.enforce,
+                  e = a => {
+                    const e = c(
                       a,
                       b.objectWithFields({
-                        batchWaitTimeMs: b.number(),
-                        maxBatchSize: b.number(),
+                        max_batch_size: b.number(),
+                        wait_time_ms: b.number(),
                       })
                     );
-              };
+                    return e != null
+                      ? {
+                          batchWaitTimeMs: e.wait_time_ms,
+                          maxBatchSize: e.max_batch_size,
+                        }
+                      : d(
+                          a,
+                          b.objectWithFields({
+                            batchWaitTimeMs: b.number(),
+                            maxBatchSize: b.number(),
+                          })
+                        );
+                  };
             k.exports = a => {
               return c(a, e);
             };
@@ -658,15 +659,15 @@ fbq.pendingConfigs = ["global_config"];
       "signalsFBEventsCoerceInferedEventsConfig",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsCoercePrimitives");
+            const a = f.getFbeventsModules("SignalsFBEventsCoercePrimitives");
             a.coerceNumber;
-            var b = a.coerceObjectWithFields;
+            const b = a.coerceObjectWithFields;
 
             function c(a) {
               return b(a, {
@@ -685,18 +686,18 @@ fbq.pendingConfigs = ["global_config"];
       "signalsFBEventsCoerceParameterExtractors",
       () => {
         return ((g, h, j, k) => {
-          var l = {
+          const l = {
             exports: {},
           };
           l.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsUtils"),
-              b = a.filter,
-              c = a.map,
-              d = f.getFbeventsModules(
-                "signalsFBEventsCoerceStandardParameter"
-              );
+            const a = f.getFbeventsModules("SignalsFBEventsUtils"),
+                  b = a.filter,
+                  c = a.map,
+                  d = f.getFbeventsModules(
+                    "signalsFBEventsCoerceStandardParameter"
+                  );
 
             function e(a) {
               if (
@@ -704,9 +705,7 @@ fbq.pendingConfigs = ["global_config"];
                 (typeof a === "undefined" ? "undefined" : i(a)) !== "object"
               )
                 return null;
-              var b = a.domain_uri,
-                c = a.event_type,
-                d = a.extractor_type;
+              let b = a.domain_uri, c = a.event_type, d = a.extractor_type;
               a = a.id;
               b = typeof b === "string" ? b : null;
               c = c != null && typeof c === "string" && c !== "" ? c : null;
@@ -746,7 +745,7 @@ fbq.pendingConfigs = ["global_config"];
                 (typeof a === "undefined" ? "undefined" : i(a)) !== "object"
               )
                 return null;
-              var b = a.parameter_type;
+              let b = a.parameter_type;
               a = a.value;
               b = d(b);
               a = a != null && typeof a === "string" && a !== "" ? a : null;
@@ -764,7 +763,7 @@ fbq.pendingConfigs = ["global_config"];
                 (typeof a === "undefined" ? "undefined" : i(a)) !== "object"
               )
                 return null;
-              var b = a.parameter_type;
+              let b = a.parameter_type;
               a = a.selector;
               b = d(b);
               a = a != null && typeof a === "string" && a !== "" ? a : null;
@@ -791,7 +790,7 @@ fbq.pendingConfigs = ["global_config"];
               a = a.parameter_selectors;
               if (Array.isArray(a)) {
                 a = c(a, h);
-                var d = b(a, Boolean);
+                const d = b(a, Boolean);
                 if (a.length === d.length)
                   return {
                     parameter_selectors: d,
@@ -812,8 +811,7 @@ fbq.pendingConfigs = ["global_config"];
                 (typeof a === "undefined" ? "undefined" : i(a)) !== "object"
               )
                 return null;
-              var b = a.context,
-                c = a.parameter_type;
+              let b = a.context, c = a.parameter_type;
               a = a.value;
               b = b != null && typeof b === "string" && b !== "" ? b : null;
               c = d(c);
@@ -828,16 +826,14 @@ fbq.pendingConfigs = ["global_config"];
             }
 
             function m(a) {
-              var b = e(a);
+              let b = e(a);
               if (
                 b == null ||
                 a == null ||
                 (typeof a === "undefined" ? "undefined" : i(a)) !== "object"
               )
                 return null;
-              var c = b.domain_uri,
-                d = b.event_type,
-                f = b.extractor_type;
+              const c = b.domain_uri, d = b.event_type, f = b.extractor_type;
               b = b.id;
               if (f === "CSS") {
                 var h = j(a);
@@ -931,14 +927,13 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("signalsFBEventsCoercePixel", () => {
       return ((g, h, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("signalsFBEventsCoercePixelID"),
-            b = f.getFbeventsModules("signalsFBEventsCoerceUserData");
+          const a = f.getFbeventsModules("signalsFBEventsCoercePixelID"), b = f.getFbeventsModules("signalsFBEventsCoerceUserData");
 
           function c(c) {
             if (
@@ -946,9 +941,7 @@ fbq.pendingConfigs = ["global_config"];
               (typeof c === "undefined" ? "undefined" : i(c)) !== "object"
             )
               return null;
-            var d = c.eventCount,
-              e = c.id,
-              f = c.userData;
+            let d = c.eventCount, e = c.id, f = c.userData;
             c = c.userDataFormFields;
             d = typeof d === "number" ? d : null;
             e = a(e);
@@ -970,22 +963,21 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("signalsFBEventsCoercePixelID", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsLogging"),
-            b = a.logUserError;
+          let a = f.getFbeventsModules("SignalsFBEventsLogging");
+          const b = a.logUserError;
           a = f.getFbeventsModules("SignalsFBEventsTyped");
-          var c = a.Typed,
-            d = a.coerce;
+          const c = a.Typed, d = a.coerce;
 
           function e(a) {
             a = d(a, c.fbid());
             if (a == null) {
-              var e = JSON.stringify(a);
+              const e = JSON.stringify(a);
               b({
                 pixelID: e != null ? e : "undefined",
                 type: "INVALID_PIXEL_ID",
@@ -1001,26 +993,26 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsCoercePrimitives", () => {
       return ((g, h, j, k) => {
-        var m = {
+        const m = {
           exports: {},
         };
         m.exports;
         (() => {
           "use strict";
-          var a =
-              Object.assign ||
-              function (a) {
-                for (var b = 1; b < arguments.length; b++) {
-                  var c = arguments[b];
-                  for (var d in c)
-                    Object.prototype.hasOwnProperty.call(c, d) && (a[d] = c[d]);
-                }
-                return a;
-              },
-            b = f.getFbeventsModules("SignalsFBEventsUtils"),
-            c = b.filter,
-            d = b.map,
-            e = b.reduce;
+          const a =
+                    Object.assign ||
+                    function (a) {
+                      for (let b = 1; b < arguments.length; b++) {
+                        const c = arguments[b];
+                        for (const d in c)
+                          Object.prototype.hasOwnProperty.call(c, d) && (a[d] = c[d]);
+                      }
+                      return a;
+                    },
+                b = f.getFbeventsModules("SignalsFBEventsUtils"),
+                c = b.filter,
+                d = b.map,
+                e = b.reduce;
 
           function g(a) {
             return Object.values(a);
@@ -1065,19 +1057,19 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function r(a, b) {
-            var c = o(a);
+            const c = o(a);
             if (c == null) return null;
             a = q(a, b);
             return a == null ? null : a.length === c.length ? a : null;
           }
 
           function s(b, c) {
-            var d = n(b);
+            const d = n(b);
             if (d == null) return null;
             b = e(
               Object.keys(d),
               (b, e) => {
-                var f = c(d[e]);
+                const f = c(d[e]);
                 return f == null ? b : a({}, b, l({}, e, f));
               },
               {}
@@ -1086,7 +1078,7 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function t(a) {
-            var b = b => {
+            const b = b => {
               return a(b);
             };
             b.nullable = !0;
@@ -1094,12 +1086,12 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function u(b, c) {
-            var d = n(b);
+            const d = n(b);
             if (d == null) return null;
             b = Object.keys(c).reduce((b, e) => {
               if (b == null) return null;
-              var f = c[e],
-                g = d[e];
+              let f = c[e];
+              const g = d[e];
               if (f.nullable === !0 && g == null)
                 return a({}, b, l({}, e, null));
               f = f(g);
@@ -1128,15 +1120,15 @@ fbq.pendingConfigs = ["global_config"];
       "signalsFBEventsCoerceStandardParameter",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsUtils");
+            let a = f.getFbeventsModules("SignalsFBEventsUtils");
             a = a.FBSet;
-            var b = new a([
+            const b = new a([
               "content_category",
               "content_ids",
               "content_name",
@@ -1177,15 +1169,13 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("signalsFBEventsCoerceUserData", () => {
       return ((g, h, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsUtils"),
-            b = a.each,
-            c = a.keys;
+          const a = f.getFbeventsModules("SignalsFBEventsUtils"), b = a.each, c = a.keys;
 
           function d(a) {
             if (
@@ -1193,9 +1183,9 @@ fbq.pendingConfigs = ["global_config"];
               a == null
             )
               return null;
-            var d = {};
+            const d = {};
             b(c(a), b => {
-              var c = a[b];
+              const c = a[b];
               typeof c === "string" && (d[b] = c);
             });
             return d;
@@ -1207,14 +1197,14 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsConfigLoadedEvent", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-            b = f.getFbeventsModules("signalsFBEventsCoercePixelID");
+          let a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+          const b = f.getFbeventsModules("signalsFBEventsCoercePixelID");
 
           function c(a) {
             a = b(a);
@@ -1228,52 +1218,62 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsConfigStore", () => {
       return ((g, i, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsQE"),
-            b = f.getFbeventsModules("SignalsFBEventsProhibitedSourcesTypedef"),
-            c = f.getFbeventsModules("SignalsFBEventsMicrodataConfigTypedef"),
-            d = f.getFbeventsModules("SignalsFBEventsUnwantedDataTypedef"),
-            e = f.getFbeventsModules(
-              "SignalsFBEventsDataProcessingOptionsConfigTypedef"
-            ),
-            g = f.getFbeventsModules("SignalsFBEventsTyped"),
-            i = g.coerce,
-            j = g.Typed;
+          const a = f.getFbeventsModules("SignalsFBEventsQE");
+          const b = f.getFbeventsModules("SignalsFBEventsProhibitedSourcesTypedef");
+          const c = f.getFbeventsModules("SignalsFBEventsMicrodataConfigTypedef");
+          const d = f.getFbeventsModules("SignalsFBEventsUnwantedDataTypedef");
+
+          const e = f.getFbeventsModules(
+            "SignalsFBEventsDataProcessingOptionsConfigTypedef"
+          );
+
+          let g = f.getFbeventsModules("SignalsFBEventsTyped");
+          const i = g.coerce;
+          const j = g.Typed;
           g = f.getFbeventsModules("SignalsFBEventsOpenBridgeConfigTypedef");
-          var k = f.getFbeventsModules(
+
+          const k = f.getFbeventsModules(
               "SignalsFBEventsParallelFireConfigTypedef"
-            ),
-            m = f.getFbeventsModules(
-              "SignalsFBEventsLocalComputationConfigTypedef"
-            ),
-            o = f.getFbeventsModules("signalsFBEventsCoercePixelID"),
-            p = f.getFbeventsModules("signalsFBEventsCoerceBatchingConfig"),
-            q = f.getFbeventsModules(
-              "signalsFBEventsCoerceAutomaticMatchingConfig"
-            ),
-            r = f.getFbeventsModules(
-              "signalsFBEventsCoerceInferedEventsConfig"
-            ),
-            s = f.getFbeventsModules("SignalsFBEventsLogging"),
-            t = s.logError,
-            u = "global",
-            v = {
-              automaticMatching: q,
-              openbridge: g,
-              batching: p,
-              inferredEvents: r,
-              microdata: c,
-              prohibitedSources: b,
-              unwantedData: d,
-              dataProcessingOptions: e,
-              parallelfire: k,
-              localcomputation: m,
-            };
+            );
+
+          const m = f.getFbeventsModules(
+            "SignalsFBEventsLocalComputationConfigTypedef"
+          );
+
+          const o = f.getFbeventsModules("signalsFBEventsCoercePixelID");
+          const p = f.getFbeventsModules("signalsFBEventsCoerceBatchingConfig");
+
+          const q = f.getFbeventsModules(
+            "signalsFBEventsCoerceAutomaticMatchingConfig"
+          );
+
+          const r = f.getFbeventsModules(
+            "signalsFBEventsCoerceInferedEventsConfig"
+          );
+
+          let s = f.getFbeventsModules("SignalsFBEventsLogging");
+          const t = s.logError;
+          const u = "global";
+
+          const v = {
+            automaticMatching: q,
+            openbridge: g,
+            batching: p,
+            inferredEvents: r,
+            microdata: c,
+            prohibitedSources: b,
+            unwantedData: d,
+            dataProcessingOptions: e,
+            parallelfire: k,
+            localcomputation: m,
+          };
+
           s = (() => {
             function b() {
               n(this, b),
@@ -1315,9 +1315,7 @@ fbq.pendingConfigs = ["global_config"];
                     })
                   );
                   if (b == null) return;
-                  var c = b.config,
-                    d = b.experimentName,
-                    e = b.pixelID;
+                  const c = b.config, d = b.experimentName, e = b.pixelID;
                   b = b.pluginName;
                   a.isInTest(d) && this.set(e, b, c);
                 },
@@ -1331,7 +1329,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "getWithGlobalFallback",
                 value(a, b) {
-                  var c = u;
+                  let c = u;
                   b = this._configStore[b];
                   a != null &&
                     Object.prototype.hasOwnProperty.call(b, a) &&
@@ -1365,13 +1363,13 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsDataProcessingOptionsConfigTypedef",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsTyped");
+            let a = f.getFbeventsModules("SignalsFBEventsTyped");
             a = a.Typed;
             a = a.objectWithFields({
               dataProcessingOptions: a.withValidation({
@@ -1409,30 +1407,33 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("SignalsFBEventsEvents", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-            b = f.getFbeventsModules("SignalsFBEventsConfigLoadedEvent"),
-            c = f.getFbeventsModules("SignalsFBEventsFiredEvent"),
-            d = f.getFbeventsModules("SignalsFBEventsGetCustomParametersEvent"),
-            e = f.getFbeventsModules("SignalsFBEventsGetIWLParametersEvent"),
-            g = f.getFbeventsModules("SignalsFBEventsIWLBootStrapEvent"),
-            h = f.getFbeventsModules("SignalsFBEventsPIIAutomatchedEvent"),
-            i = f.getFbeventsModules("SignalsFBEventsPIIConflictingEvent"),
-            j = f.getFbeventsModules("SignalsFBEventsPIIInvalidatedEvent"),
-            l = f.getFbeventsModules("SignalsFBEventsPluginLoadedEvent"),
-            m = f.getFbeventsModules("SignalsFBEventsSetEventIDEvent"),
-            n = f.getFbeventsModules("SignalsFBEventsSetIWLExtractorsEvent"),
-            o = f.getFbeventsModules(
-              "SignalsFBEventsValidateCustomParametersEvent"
-            ),
-            p = f.getFbeventsModules(
-              "SignalsFBEventsValidateUrlParametersEvent"
-            );
+          const a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+          let b = f.getFbeventsModules("SignalsFBEventsConfigLoadedEvent");
+          const c = f.getFbeventsModules("SignalsFBEventsFiredEvent");
+          const d = f.getFbeventsModules("SignalsFBEventsGetCustomParametersEvent");
+          const e = f.getFbeventsModules("SignalsFBEventsGetIWLParametersEvent");
+          const g = f.getFbeventsModules("SignalsFBEventsIWLBootStrapEvent");
+          const h = f.getFbeventsModules("SignalsFBEventsPIIAutomatchedEvent");
+          const i = f.getFbeventsModules("SignalsFBEventsPIIConflictingEvent");
+          const j = f.getFbeventsModules("SignalsFBEventsPIIInvalidatedEvent");
+          const l = f.getFbeventsModules("SignalsFBEventsPluginLoadedEvent");
+          const m = f.getFbeventsModules("SignalsFBEventsSetEventIDEvent");
+          const n = f.getFbeventsModules("SignalsFBEventsSetIWLExtractorsEvent");
+
+          const o = f.getFbeventsModules(
+            "SignalsFBEventsValidateCustomParametersEvent"
+          );
+
+          const p = f.getFbeventsModules(
+            "SignalsFBEventsValidateUrlParametersEvent"
+          );
+
           b = {
             configLoaded: b,
             execEnd: new a(),
@@ -1456,7 +1457,7 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsExperimentNames", () => {
       return ((f, g, h, i) => {
-        var j = {
+        const j = {
           exports: {},
         };
         j.exports;
@@ -1473,14 +1474,14 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsExperimentsTypedef", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsTyped"),
-            b = a.Typed;
+          let a = f.getFbeventsModules("SignalsFBEventsTyped");
+          const b = a.Typed;
           a.coerce;
           a.enforce;
           a = b.arrayOf(
@@ -1498,94 +1499,99 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsFBQ", () => {
       return ((g, i, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a =
+
+          const a =
               Object.assign ||
               function (a) {
-                for (var b = 1; b < arguments.length; b++) {
-                  var c = arguments[b];
-                  for (var d in c)
+                for (let b = 1; b < arguments.length; b++) {
+                  const c = arguments[b];
+                  for (const d in c)
                     Object.prototype.hasOwnProperty.call(c, d) && (a[d] = c[d]);
                 }
                 return a;
-              },
-            b = f.getFbeventsModules("SignalsEventValidation"),
-            c = f.getFbeventsModules("SignalsFBEventsConfigStore"),
-            d = f.getFbeventsModules("SignalsFBEventsEvents"),
-            e = d.configLoaded,
-            i = f.getFbeventsModules("SignalsFBEventsFireLock"),
-            j = f.getFbeventsModules("SignalsFBEventsJSLoader");
+              };
+
+          const b = f.getFbeventsModules("SignalsEventValidation");
+          const c = f.getFbeventsModules("SignalsFBEventsConfigStore");
+          let d = f.getFbeventsModules("SignalsFBEventsEvents");
+          const e = d.configLoaded;
+          const i = f.getFbeventsModules("SignalsFBEventsFireLock");
+          const j = f.getFbeventsModules("SignalsFBEventsJSLoader");
           d = f.getFbeventsModules("SignalsFBEventsLogging");
-          var k = f.getFbeventsModules("SignalsFBEventsOptIn"),
-            o = f.getFbeventsModules("SignalsFBEventsUtils"),
-            p = f.getFbeventsModules("signalsFBEventsGetIsIosInAppBrowser"),
-            q = f.getFbeventsModules("signalsFBEventsSendEvent"),
-            r = o.each,
-            s = o.keys,
-            t = o.map,
-            u = o.some,
-            v = d.logError,
-            w = d.logUserError,
-            x = {
-              AutomaticMatching: !0,
-              AutomaticMatchingForPartnerIntegrations: !0,
-              CommonIncludes: !0,
-              FirstPartyCookies: !0,
-              IWLBootstrapper: !0,
-              IWLParameters: !0,
-              InferredEvents: !0,
-              Microdata: !0,
-              MicrodataJsonLd: !0,
-              OpenBridge: !0,
-              ParallelFire: !0,
-              ProhibitedSources: !0,
-              Timespent: !0,
-              UnwantedData: !0,
-              LocalComputation: !0,
-              IABPCMAEBridge: !0,
-            },
-            y = {
-              Track: 0,
-              TrackCustom: 4,
-              TrackSingle: 1,
-              TrackSingleCustom: 2,
-              TrackSingleSystem: 3,
-              TrackSystem: 5,
-            };
+          const k = f.getFbeventsModules("SignalsFBEventsOptIn");
+          let o = f.getFbeventsModules("SignalsFBEventsUtils");
+          const p = f.getFbeventsModules("signalsFBEventsGetIsIosInAppBrowser");
+          const q = f.getFbeventsModules("signalsFBEventsSendEvent");
+          const r = o.each;
+          const s = o.keys;
+          const t = o.map;
+          const u = o.some;
+          const v = d.logError;
+          const w = d.logUserError;
+
+          const x = {
+            AutomaticMatching: !0,
+            AutomaticMatchingForPartnerIntegrations: !0,
+            CommonIncludes: !0,
+            FirstPartyCookies: !0,
+            IWLBootstrapper: !0,
+            IWLParameters: !0,
+            InferredEvents: !0,
+            Microdata: !0,
+            MicrodataJsonLd: !0,
+            OpenBridge: !0,
+            ParallelFire: !0,
+            ProhibitedSources: !0,
+            Timespent: !0,
+            UnwantedData: !0,
+            LocalComputation: !0,
+            IABPCMAEBridge: !0,
+          };
+
+          const y = {
+            Track: 0,
+            TrackCustom: 4,
+            TrackSingle: 1,
+            TrackSingleCustom: 2,
+            TrackSingleSystem: 3,
+            TrackSystem: 5,
+          };
+
           o = ["InferredEvents", "Microdata"];
-          var z = {
-              AutomaticSetup: o,
-            },
-            A = {
-              AutomaticMatching: ["inferredevents", "identity"],
-              AutomaticMatchingForPartnerIntegrations: [
-                "automaticmatchingforpartnerintegrations",
-              ],
-              CommonIncludes: ["commonincludes"],
-              FirstPartyCookies: ["cookie"],
-              IWLBootstrapper: ["iwlbootstrapper"],
-              IWLParameters: ["iwlparameters", "inferredevents"],
-              InferredEvents: ["inferredevents", "identity"],
-              Microdata: ["microdata", "identity"],
-              MicrodataJsonLd: ["jsonld_microdata"],
-              OpenBridge: ["openbridge"],
-              ParallelFire: ["parallelfire"],
-              ProhibitedSources: ["prohibitedsources"],
-              Timespent: ["timespent"],
-              UnwantedData: ["unwanteddata"],
-              LocalComputation: ["localcomputation"],
-              IABPCMAEBridge: ["iabpcmaebridge"],
-            };
+          const z = {
+                    AutomaticSetup: o,
+                  },
+                A = {
+                  AutomaticMatching: ["inferredevents", "identity"],
+                  AutomaticMatchingForPartnerIntegrations: [
+                    "automaticmatchingforpartnerintegrations",
+                  ],
+                  CommonIncludes: ["commonincludes"],
+                  FirstPartyCookies: ["cookie"],
+                  IWLBootstrapper: ["iwlbootstrapper"],
+                  IWLParameters: ["iwlparameters", "inferredevents"],
+                  InferredEvents: ["inferredevents", "identity"],
+                  Microdata: ["microdata", "identity"],
+                  MicrodataJsonLd: ["jsonld_microdata"],
+                  OpenBridge: ["openbridge"],
+                  ParallelFire: ["parallelfire"],
+                  ProhibitedSources: ["prohibitedsources"],
+                  Timespent: ["timespent"],
+                  UnwantedData: ["unwanteddata"],
+                  LocalComputation: ["localcomputation"],
+                  IABPCMAEBridge: ["iabpcmaebridge"],
+                };
 
           function B(a) {
             return !!(x[a] || z[a]);
           }
-          var C = (a, b, c, d) => {
+          const C = (a, b, c, d) => {
             return d == ""
               ? j.CONFIG.CDN_BASE_URL +
                   "signals/config/" +
@@ -1610,7 +1616,7 @@ fbq.pendingConfigs = ["global_config"];
           }
           d = (() => {
             function d(a, b) {
-              var e = this;
+              const e = this;
               n(this, d);
               this.VALID_FEATURES = x;
               this.optIns = new k(z);
@@ -1630,11 +1636,11 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "optIn",
                 value(a, b) {
-                  var c = this,
-                    d =
-                      arguments.length > 2 && arguments[2] !== void 0
-                        ? arguments[2]
-                        : !1;
+                  const c = this,
+                        d =
+                          arguments.length > 2 && arguments[2] !== void 0
+                            ? arguments[2]
+                            : !1;
                   if (typeof b !== "string" || !B(b))
                     throw new Error(
                       'Invalid Argument: "' +
@@ -1676,7 +1682,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "setUserProperties",
                 value(b, c) {
-                  var d = this.pluginConfig.get(null, "dataProcessingOptions");
+                  const d = this.pluginConfig.get(null, "dataProcessingOptions");
                   if (d != null && d.dataProcessingOptions.includes("LDU"))
                     return;
                   if (
@@ -1783,7 +1789,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "_argsHasAnyUserData",
                 value(a) {
-                  var b = a.userData != null && s(a.userData).length > 0;
+                  const b = a.userData != null && s(a.userData).length > 0;
                   a =
                     a.userDataFormFields != null &&
                     s(a.userDataFormFields).length > 0;
@@ -1793,7 +1799,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "fire",
                 value(a) {
-                  var b =
+                  const b =
                     arguments.length > 1 && arguments[1] !== void 0
                       ? arguments[1]
                       : !1;
@@ -1806,14 +1812,14 @@ fbq.pendingConfigs = ["global_config"];
                     g.fbq("fire", a);
                     return this;
                   }
-                  var c = this.fbq.getEventCustomParameters(
-                      this.getPixel(a.pixelId),
-                      a.eventName,
-                      a.customData
-                    ),
-                    d = a.eventData.eventID;
+                  const c = this.fbq.getEventCustomParameters(
+                            this.getPixel(a.pixelId),
+                            a.eventName,
+                            a.customData
+                          ),
+                        d = a.eventData.eventID;
                   c.append("eid", d);
-                  var e = a.customParameters;
+                  const e = a.customParameters;
                   e &&
                     r(s(e), a => {
                       if (c.containsKey(a))
@@ -1835,7 +1841,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "callMethod",
                 value(a) {
-                  var b = a[0];
+                  const b = a[0];
                   a = Array.prototype.slice.call(a, 1);
                   if (typeof b !== "string") {
                     w({
@@ -1859,7 +1865,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "getDefaultSendData",
                 value(a, b, c) {
-                  var d = this.getPixel(a);
+                  const d = this.getPixel(a);
                   c = {
                     eventData: c || {},
                     eventName: b,
@@ -1882,7 +1888,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "getOptedInPixels",
                 value(a) {
-                  var b = this;
+                  const b = this;
                   return this.optIns.listPixelIds(a).map(a => {
                     return b.pixelsByID[a];
                   });
@@ -1935,27 +1941,29 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsFiredEvent", () => {
       return ((g, h, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a =
+
+          const a =
               Object.assign ||
               function (a) {
-                for (var b = 1; b < arguments.length; b++) {
-                  var c = arguments[b];
-                  for (var d in c)
+                for (let b = 1; b < arguments.length; b++) {
+                  const c = arguments[b];
+                  for (const d in c)
                     Object.prototype.hasOwnProperty.call(c, d) && (a[d] = c[d]);
                 }
                 return a;
-              },
-            b = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-            c = f.getFbeventsModules("SignalsParamList");
+              };
+
+          let b = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+          const c = f.getFbeventsModules("SignalsParamList");
 
           function d(b, d, e) {
-            var f = null;
+            let f = null;
             (b === "GET" || b === "POST" || b === "BEACON") && (f = b);
             b = d instanceof c ? d : null;
             d =
@@ -1972,15 +1980,15 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsFireLock", () => {
       return ((g, i, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsUtils"),
-            b = a.each,
-            c = a.keys;
+          let a = f.getFbeventsModules("SignalsFBEventsUtils");
+          const b = a.each;
+          const c = a.keys;
           a = (() => {
             function a() {
               n(this, a), (this._locks = {}), (this._callbacks = []);
@@ -2064,14 +2072,14 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsGetCustomParametersEvent",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-              b = f.getFbeventsModules("signalsFBEventsCoercePixel");
+            let a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+            const b = f.getFbeventsModules("signalsFBEventsCoercePixel");
 
             function c(a, c, d) {
               a = b(a);
@@ -2088,7 +2096,7 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("signalsFBEventsGetIsChrome", () => {
       return ((f, g, h, i) => {
-        var j = {
+        const j = {
           exports: {},
         };
         j.exports;
@@ -2096,11 +2104,11 @@ fbq.pendingConfigs = ["global_config"];
           "use strict";
 
           function a() {
-            var a = f.chrome,
-              b = f.navigator,
-              c = b.vendor,
-              d = f.opr !== void 0,
-              e = b.userAgent.indexOf("Edge") > -1;
+            const a = f.chrome;
+            let b = f.navigator;
+            const c = b.vendor;
+            const d = f.opr !== void 0;
+            const e = b.userAgent.indexOf("Edge") > -1;
             b = b.userAgent.match("CriOS");
             return (
               !b &&
@@ -2111,7 +2119,7 @@ fbq.pendingConfigs = ["global_config"];
               e === !1
             );
           }
-          var b = a();
+          const b = a();
 
           function c() {
             return b;
@@ -2125,7 +2133,7 @@ fbq.pendingConfigs = ["global_config"];
       "signalsFBEventsGetIsIosInAppBrowser",
       () => {
         return ((f, g, h, i) => {
-          var j = {
+          const j = {
             exports: {},
           };
           j.exports;
@@ -2133,14 +2141,14 @@ fbq.pendingConfigs = ["global_config"];
             "use strict";
 
             function a() {
-              var a = f.navigator,
-                b = a.userAgent.indexOf("AppleWebKit"),
-                c = a.userAgent.indexOf("FBIOS"),
-                d = a.userAgent.indexOf("Instagram");
+              let a = f.navigator;
+              const b = a.userAgent.indexOf("AppleWebKit");
+              const c = a.userAgent.indexOf("FBIOS");
+              const d = a.userAgent.indexOf("Instagram");
               a = a.userAgent.indexOf("MessengerLiteForiOS");
               return b !== null && (c != -1 || d != -1 || a != -1);
             }
-            var b = a();
+            const b = a();
 
             function c() {
               return b;
@@ -2155,29 +2163,24 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsGetIWLParametersEvent",
       () => {
         return ((g, h, j, k) => {
-          var l = {
+          const l = {
             exports: {},
           };
           l.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-              b = f.getFbeventsModules("SignalsConvertNodeToHTMLElement"),
-              c = f.getFbeventsModules("signalsFBEventsCoercePixel");
+            const a = f.getFbeventsModules("SignalsFBEventsBaseEvent"), b = f.getFbeventsModules("SignalsConvertNodeToHTMLElement"), c = f.getFbeventsModules("signalsFBEventsCoercePixel");
 
             function d() {
               for (var a = arguments.length, d = Array(a), e = 0; e < a; e++)
                 d[e] = arguments[e];
-              var f = d[0];
+              const f = d[0];
               if (
                 f == null ||
                 (typeof f === "undefined" ? "undefined" : i(f)) !== "object"
               )
                 return null;
-              var g = f.unsafePixel,
-                h = f.unsafeTarget,
-                j = c(g),
-                k = h instanceof Node ? b(h) : null;
+              const g = f.unsafePixel, h = f.unsafeTarget, j = c(g), k = h instanceof Node ? b(h) : null;
               return j != null && k != null
                 ? [
                     {
@@ -2195,21 +2198,20 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("signalsFBEventsInjectMethod", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("signalsFBEventsMakeSafe");
+          const a = f.getFbeventsModules("signalsFBEventsMakeSafe");
 
           function b(b, c, d) {
-            var e = b[c],
-              f = a(d);
+            const e = b[c], f = a(d);
             b[c] = function () {
               for (var a = arguments.length, b = Array(a), c = 0; c < a; c++)
                 b[c] = arguments[c];
-              var d = e.apply(this, b);
+              const d = e.apply(this, b);
               f.apply(this, b);
               return d;
             };
@@ -2221,27 +2223,25 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsIWLBootStrapEvent", () => {
       return ((g, h, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-            b = f.getFbeventsModules("signalsFBEventsCoercePixelID");
+          let a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+          const b = f.getFbeventsModules("signalsFBEventsCoercePixelID");
 
           function c() {
             for (var a = arguments.length, c = Array(a), d = 0; d < a; d++)
               c[d] = arguments[d];
-            var e = c[0];
+            const e = c[0];
             if (
               e == null ||
               (typeof e === "undefined" ? "undefined" : i(e)) !== "object"
             )
               return null;
-            var f = e.graphToken,
-              g = e.pixelID,
-              h = b(g);
+            const f = e.graphToken, g = e.pixelID, h = b(g);
             return f != null && typeof f === "string" && h != null
               ? [
                   {
@@ -2259,27 +2259,27 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsJSLoader", () => {
       return ((f, g, h, i) => {
-        var j = {
+        const j = {
           exports: {},
         };
         j.exports;
         (() => {
           "use strict";
-          var a = {
+          const a = {
             CDN_BASE_URL: "https://connect.facebook.net/",
           };
 
           function b() {
-            var b = g.getElementsByTagName("script");
-            for (var c = 0; c < b.length; c++) {
-              var d = b[c];
+            const b = g.getElementsByTagName("script");
+            for (let c = 0; c < b.length; c++) {
+              const d = b[c];
               if (d && d.src && d.src.indexOf(a.CDN_BASE_URL) !== -1) return d;
             }
             return null;
           }
 
           function c(a) {
-            var c = g.createElement("script");
+            const c = g.createElement("script");
             c.src = a;
             c.async = !0;
             a = b();
@@ -2299,16 +2299,16 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsLegacyExperimentGroupsTypedef",
       () => {
         return ((g, h, j, k) => {
-          var l = {
+          const l = {
             exports: {},
           };
           l.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsTyped"),
-              b = a.Typed;
+            let a = f.getFbeventsModules("SignalsFBEventsTyped");
+            const b = a.Typed;
             a.coerce;
-            var c = a.enforce;
+            const c = a.enforce;
             a = f.getFbeventsModules("SignalsFBEventsTypeVersioning");
             a = a.upgrade;
 
@@ -2318,7 +2318,7 @@ fbq.pendingConfigs = ["global_config"];
                 ? Object.values(a)
                 : null;
             }
-            var e = a => {
+            const e = a => {
               a = Array.isArray(a) ? a : d(a);
               return c(
                 a,
@@ -2334,9 +2334,7 @@ fbq.pendingConfigs = ["global_config"];
             };
 
             function g(a) {
-              var b = a.name,
-                c = a.code,
-                d = a.range;
+              const b = a.name, c = a.code, d = a.range;
               a = a.passRate;
               return {
                 allocation: d[1] - d[0],
@@ -2357,13 +2355,13 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsLocalComputationConfigTypedef",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsTyped");
+            let a = f.getFbeventsModules("SignalsFBEventsTyped");
             a = a.Typed;
             a = a.objectWithFields({
               conversionBitMappings: a.arrayOf(
@@ -2405,42 +2403,40 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("SignalsFBEventsLogging", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsUtils"),
-            b = a.isArray,
-            c = a.isInstanceOf,
-            d = a.map,
-            e = f.getFbeventsModules("SignalsParamList"),
-            h = f.getFbeventsModules("signalsFBEventsSendGET"),
-            i = f.getFbeventsModules("SignalsFBEventsJSLoader"),
-            j = !1;
+          let a = f.getFbeventsModules("SignalsFBEventsUtils");
+          const b = a.isArray;
+          const c = a.isInstanceOf;
+          const d = a.map;
+          const e = f.getFbeventsModules("SignalsParamList");
+          const h = f.getFbeventsModules("signalsFBEventsSendGET");
+          const i = f.getFbeventsModules("SignalsFBEventsJSLoader");
+          let j = !1;
 
           function l() {
             j = !0;
           }
-          var m = !0;
+          let m = !0;
 
           function n() {
             m = !1;
           }
-          var o = !1;
+          let o = !1;
 
           function p() {
             o = !0;
           }
-          var q = "console",
-            r = "warn",
-            s = [];
+          const q = "console", r = "warn", s = [];
 
           function t(a) {
             g[q] && g[q][r] && (g[q][r](a), o && s.push(a));
           }
-          var u = !1;
+          let u = !1;
 
           function v() {
             u = !0;
@@ -2450,24 +2446,22 @@ fbq.pendingConfigs = ["global_config"];
             if (u) return;
             t("[Facebook Pixel] - " + a);
           }
-          var x = "Facebook Pixel Error",
-            y = function () {
-              g.postMessage != null && g.postMessage.apply(g, arguments);
-            },
-            z = {};
+          const x = "Facebook Pixel Error",
+                y = function () {
+                  g.postMessage != null && g.postMessage.apply(g, arguments);
+                },
+                z = {};
 
           function A(a) {
             switch (a.type) {
               case "FBQ_NO_METHOD_NAME":
                 return "You must provide an argument to fbq().";
               case "INVALID_FBQ_METHOD":
-                var b = a.method;
+                let b = a.method;
                 return "\"fbq('" + b + "', ...);\" is not a valid fbq command.";
               case "INVALID_FBQ_METHOD_PARAMETER":
                 b = a.invalidParamName;
-                var c = a.invalidParamValue,
-                  d = a.method,
-                  e = a.params;
+                let c = a.invalidParamValue, d = a.method, e = a.params;
                 return (
                   "Call to \"fbq('" +
                   d +
@@ -2609,13 +2603,13 @@ fbq.pendingConfigs = ["global_config"];
 
           function D(a, b) {
             try {
-              var d = g.fbq.instance.pluginConfig.get(
+              let d = g.fbq.instance.pluginConfig.get(
                 null,
                 "dataProcessingOptions"
               );
               if (d != null && d.dataPrivacyOptions.includes("LDU")) return;
               d = Math.random();
-              var f =
+              const f =
                 g.fbq && g.fbq._releaseSegment
                   ? g.fbq._releaseSegment
                   : "unknown";
@@ -2641,7 +2635,7 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function E(a) {
-            var b = JSON.stringify(a);
+            let b = JSON.stringify(a);
             if (!Object.prototype.hasOwnProperty.call(z, b)) z[b] = !0;
             else return;
             b = A(a);
@@ -2677,14 +2671,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("signalsFBEventsMakeSafe", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsLogging"),
-            b = a.logError;
+          const a = f.getFbeventsModules("SignalsFBEventsLogging"), b = a.logError;
 
           function c(a) {
             return function () {
@@ -2707,13 +2700,13 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsMicrodataConfigTypedef",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsTyped");
+            let a = f.getFbeventsModules("SignalsFBEventsTyped");
             a = a.Typed;
             a = a.objectWithFields({
               waitTimeMs: a.withValidation({
@@ -2733,37 +2726,37 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("SignalsFBEventsMobileAppBridge", () => {
       return ((g, h, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsTelemetry"),
-            b = f.getFbeventsModules("SignalsFBEventsUtils"),
-            c = b.each,
-            d = "fbmq-0.1",
-            e = {
-              AddPaymentInfo: "fb_mobile_add_payment_info",
-              AddToCart: "fb_mobile_add_to_cart",
-              AddToWishlist: "fb_mobile_add_to_wishlist",
-              CompleteRegistration: "fb_mobile_complete_registration",
-              InitiateCheckout: "fb_mobile_initiated_checkout",
-              Other: "other",
-              Purchase: "fb_mobile_purchase",
-              Search: "fb_mobile_search",
-              ViewContent: "fb_mobile_content_view",
-            },
-            h = {
-              content_ids: "fb_content_id",
-              content_type: "fb_content_type",
-              currency: "fb_currency",
-              num_items: "fb_num_items",
-              search_string: "fb_search_string",
-              value: "_valueToSum",
-              contents: "fb_content",
-            },
-            j = {};
+          const a = f.getFbeventsModules("SignalsFBEventsTelemetry"),
+                b = f.getFbeventsModules("SignalsFBEventsUtils"),
+                c = b.each,
+                d = "fbmq-0.1",
+                e = {
+                  AddPaymentInfo: "fb_mobile_add_payment_info",
+                  AddToCart: "fb_mobile_add_to_cart",
+                  AddToWishlist: "fb_mobile_add_to_wishlist",
+                  CompleteRegistration: "fb_mobile_complete_registration",
+                  InitiateCheckout: "fb_mobile_initiated_checkout",
+                  Other: "other",
+                  Purchase: "fb_mobile_purchase",
+                  Search: "fb_mobile_search",
+                  ViewContent: "fb_mobile_content_view",
+                },
+                h = {
+                  content_ids: "fb_content_id",
+                  content_type: "fb_content_type",
+                  currency: "fb_currency",
+                  num_items: "fb_num_items",
+                  search_string: "fb_search_string",
+                  value: "_valueToSum",
+                  contents: "fb_content",
+                },
+                j = {};
 
           function k(a) {
             return "fbmq_" + a[1];
@@ -2775,16 +2768,16 @@ fbq.pendingConfigs = ["global_config"];
               Object.prototype.hasOwnProperty.call(j[a[0]], a[1])
             )
               return !0;
-            var b = g[k(a)];
+            let b = g[k(a)];
             b = b && b.getProtocol.call && b.getProtocol() === d ? b : null;
             b !== null && ((j[a[0]] = j[a[0]] || {}), (j[a[0]][a[1]] = b));
             return b !== null;
           }
 
           function n(a) {
-            var b = [];
+            const b = [];
             a = j[a.id] || {};
-            for (var c in a)
+            for (const c in a)
               Object.prototype.hasOwnProperty.call(a, c) && b.push(a[c]);
             return b;
           }
@@ -2811,22 +2804,22 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function s(a) {
-            var b = {};
+            const b = {};
             if (
               a != null &&
               (typeof a === "undefined" ? "undefined" : i(a)) === "object"
             )
-              for (var c in a)
+              for (const c in a)
                 if (Object.prototype.hasOwnProperty.call(a, c)) {
-                  var d = r(a[c]);
+                  const d = r(a[c]);
                   d != null && (b[q(c)] = d);
                 }
             return b;
           }
-          var t = 0;
+          let t = 0;
 
           function u() {
-            var b = t;
+            const b = t;
             t = 0;
             a.logMobileNativeForwarding(b);
           }
@@ -2849,13 +2842,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsNetworkConfig", () => {
       return ((f, g, h, i) => {
-        var j = {
+        const j = {
           exports: {},
         };
         j.exports;
         (() => {
           "use strict";
-          var a = {
+          const a = {
             ENDPOINT: "https://www.facebook.com/tr/",
           };
           j.exports = a;
@@ -2867,14 +2860,14 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsOpenBridgeConfigTypedef",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsTyped"),
-              b = a.Typed;
+            let a = f.getFbeventsModules("SignalsFBEventsTyped");
+            const b = a.Typed;
             a.coerce;
             a = b.objectWithFields({
               endpoints: b.arrayOf(
@@ -2892,17 +2885,17 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("SignalsFBEventsOptIn", () => {
       return ((g, i, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsUtils"),
-            b = a.each,
-            c = a.filter,
-            d = a.keys,
-            e = a.some;
+          let a = f.getFbeventsModules("SignalsFBEventsUtils");
+          const b = a.each;
+          const c = a.filter;
+          const d = a.keys;
+          const e = a.some;
 
           function g(a) {
             b(d(a), b => {
@@ -2920,7 +2913,7 @@ fbq.pendingConfigs = ["global_config"];
           }
           a = (() => {
             function a() {
-              var b =
+              const b =
                 arguments.length > 0 && arguments[0] !== void 0
                   ? arguments[0]
                   : {};
@@ -2953,13 +2946,13 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "optIn",
                 value(a, c) {
-                  var d = this,
-                    e =
-                      arguments.length > 2 && arguments[2] !== void 0
-                        ? arguments[2]
-                        : !1;
+                  const d = this,
+                        e =
+                          arguments.length > 2 && arguments[2] !== void 0
+                            ? arguments[2]
+                            : !1;
                   b(this._getOpts(c), b => {
-                    var f = e == !0 && d.isOptedOut(a, c);
+                    const f = e == !0 && d.isOptedOut(a, c);
                     f || d._setOpt(a, b, !0);
                   });
                   return this;
@@ -2968,7 +2961,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "optOut",
                 value(a, c) {
-                  var d = this;
+                  const d = this;
                   b(this._getOpts(c), b => {
                     return d._setOpt(a, b, !1);
                   });
@@ -2990,7 +2983,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "listPixelIds",
                 value(a) {
-                  var b = this._opts[a];
+                  const b = this._opts[a];
                   return b != null
                     ? c(d(b), a => {
                         return b[a] === !0;
@@ -3010,13 +3003,13 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsParallelFireConfigTypedef",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsTyped");
+            let a = f.getFbeventsModules("SignalsFBEventsTyped");
             a = a.Typed;
             a = a.objectWithFields({
               target: a.string(),
@@ -3029,14 +3022,14 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("SignalsFBEventsPIIAutomatchedEvent", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-            b = f.getFbeventsModules("signalsFBEventsCoercePixel");
+          let a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+          const b = f.getFbeventsModules("signalsFBEventsCoercePixel");
 
           function c(a) {
             a = b(a);
@@ -3050,14 +3043,14 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsPIIConflictingEvent", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-            b = f.getFbeventsModules("signalsFBEventsCoercePixel");
+          let a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+          const b = f.getFbeventsModules("signalsFBEventsCoercePixel");
 
           function c(a) {
             a = b(a);
@@ -3071,14 +3064,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsPIIInvalidatedEvent", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-            b = f.getFbeventsModules("signalsFBEventsCoercePixel");
+          const a = f.getFbeventsModules("SignalsFBEventsBaseEvent"), b = f.getFbeventsModules("signalsFBEventsCoercePixel");
 
           function c(a) {
             a = b(a);
@@ -3091,13 +3083,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsPlugin", () => {
       return ((f, g, h, i) => {
-        var j = {
+        const j = {
           exports: {},
         };
         j.exports;
         (() => {
           "use strict";
-          var a = function a(b) {
+          const a = function a(b) {
             n(this, a),
               (this.__fbEventsPlugin = 1),
               (this.plugin = b),
@@ -3110,13 +3102,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsPluginLoadedEvent", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+          const a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
 
           function b(a) {
             a = a != null && typeof a === "string" ? a : null;
@@ -3129,19 +3121,18 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsPluginManager", () => {
       return ((g, j, k, l) => {
-        var m = {
+        const m = {
           exports: {},
         };
         m.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsConfigStore"),
-            b = f.getFbeventsModules("SignalsFBEventsEvents"),
-            c = b.pluginLoaded,
-            d = f.getFbeventsModules("SignalsFBEventsJSLoader");
+          const a = f.getFbeventsModules("SignalsFBEventsConfigStore");
+          let b = f.getFbeventsModules("SignalsFBEventsEvents");
+          const c = b.pluginLoaded;
+          const d = f.getFbeventsModules("SignalsFBEventsJSLoader");
           b = f.getFbeventsModules("SignalsFBEventsLogging");
-          var e = b.logError,
-            g = f.getFbeventsModules("SignalsFBEventsPlugin");
+          const e = b.logError, g = f.getFbeventsModules("SignalsFBEventsPlugin");
 
           function j(a) {
             return "fbevents.plugins." + a;
@@ -3157,7 +3148,7 @@ fbq.pendingConfigs = ["global_config"];
               e(new Error("Invalid plugin registered " + a));
               return new g(() => {});
             }
-            var c = b.__fbEventsPlugin;
+            const c = b.__fbEventsPlugin;
             b = b.plugin;
             if (c !== 1 || typeof b !== "function") {
               e(new Error("Invalid plugin registered " + a));
@@ -3191,7 +3182,7 @@ fbq.pendingConfigs = ["global_config"];
                 value(a) {
                   if (/^[a-zA-Z]\w+$/.test(a) === !1)
                     throw new Error("Invalid plugin name: " + a);
-                  var b = j(a);
+                  const b = j(a);
                   if (this._loadedPlugins[b]) return !0;
                   if (f.fbIsModuleLoaded(b)) {
                     this.registerPlugin(b, f.getFbeventsModules(b));
@@ -3223,14 +3214,14 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsProhibitedSourcesTypedef",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsTyped"),
-              b = a.Typed;
+            let a = f.getFbeventsModules("SignalsFBEventsTyped");
+            const b = a.Typed;
             a.coerce;
             a = b.objectWithFields({
               prohibitedSources: b.arrayOf(
@@ -3247,49 +3238,50 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("SignalsFBEventsQE", () => {
       return ((i, j, k, l) => {
-        var m = {
+        const m = {
           exports: {},
         };
         m.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsExperimentsTypedef"),
-            b = f.getFbeventsModules(
-              "SignalsFBEventsLegacyExperimentGroupsTypedef"
-            ),
-            c = f.getFbeventsModules("SignalsFBEventsTypeVersioning"),
-            d = f.getFbeventsModules("SignalsFBEventsTyped"),
-            e = d.coerce;
+          const a = f.getFbeventsModules("SignalsFBEventsExperimentsTypedef");
+
+          const b = f.getFbeventsModules(
+            "SignalsFBEventsLegacyExperimentGroupsTypedef"
+          );
+
+          const c = f.getFbeventsModules("SignalsFBEventsTypeVersioning");
+          let d = f.getFbeventsModules("SignalsFBEventsTyped");
+          const e = d.coerce;
           d = f.getFbeventsModules("SignalsFBEventsUtils");
-          var i = d.reduce,
-            j = () => {
-              return Math.random();
-            };
+          const i = d.reduce,
+                j = () => {
+                  return Math.random();
+                };
 
           function k(a) {
-            var b = i(
-                a,
-                (b, c, a) => {
-                  if (a === 0) {
-                    b.push([0, c.allocation]);
-                    return b;
-                  }
-                  a = g(b[a - 1], 2);
-                  a[0];
-                  a = a[1];
-                  b.push([a, a + c.allocation]);
-                  return b;
-                },
-                []
-              ),
-              c = j();
-            for (var d = 0; d < a.length; d++) {
-              var e = a[d],
-                f = e.passRate,
-                h = e.code;
+            const b = i(
+                      a,
+                      (b, c, a) => {
+                        if (a === 0) {
+                          b.push([0, c.allocation]);
+                          return b;
+                        }
+                        a = g(b[a - 1], 2);
+                        a[0];
+                        a = a[1];
+                        b.push([a, a + c.allocation]);
+                        return b;
+                      },
+                      []
+                    ),
+                  c = j();
+            for (let d = 0; d < a.length; d++) {
+              let e = a[d];
+              const f = e.passRate;
+              const h = e.code;
               e = e.name;
-              var k = g(b[d], 2),
-                l = k[0];
+              let k = g(b[d], 2), l = k[0];
               k = k[1];
               if (c >= l && c < k) {
                 l = j() < f;
@@ -3321,7 +3313,7 @@ fbq.pendingConfigs = ["global_config"];
                 key: "get",
                 value(a) {
                   if (!this._hasRolled) {
-                    var b = this._experiments;
+                    let b = this._experiments;
                     if (b == null) return null;
                     b = k(b);
                     b != null && (this._result = b);
@@ -3336,7 +3328,7 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "getCustomDataPayload",
                 value() {
-                  var a = this.get();
+                  const a = this.get();
                   return a == null
                     ? {}
                     : {
@@ -3347,14 +3339,14 @@ fbq.pendingConfigs = ["global_config"];
               {
                 key: "isInTestOrControl",
                 value(a) {
-                  var b = this.get();
+                  const b = this.get();
                   return b != null && b.name === a;
                 },
               },
               {
                 key: "isInTest",
                 value(a) {
-                  var b = this.get();
+                  const b = this.get();
                   return b != null && b.name === a && b.isInExperimentGroup;
                 },
               },
@@ -3370,16 +3362,16 @@ fbq.pendingConfigs = ["global_config"];
       "signalsFBEventsResolveLegacyArguments",
       () => {
         return ((f, h, j, k) => {
-          var l = {
+          const l = {
             exports: {},
           };
           l.exports;
           (() => {
             "use strict";
-            var a = "report";
+            const a = "report";
 
             function b(a) {
-              var b = g(a, 1);
+              let b = g(a, 1);
               b = b[0];
               return a.length === 1 && Array.isArray(b)
                 ? {
@@ -3393,8 +3385,7 @@ fbq.pendingConfigs = ["global_config"];
             }
 
             function c(b) {
-              var c = g(b, 2),
-                d = c[0];
+              let c = g(b, 2), d = c[0];
               c = c[1];
               if (typeof d === "string" && d.slice(0, a.length) === a) {
                 d = d.slice(a.length);
@@ -3413,7 +3404,7 @@ fbq.pendingConfigs = ["global_config"];
 
             function d(a) {
               a = b(a);
-              var d = a.args;
+              let d = a.args;
               a = a.isLegacySyntax;
               d = c(d);
               return {
@@ -3429,21 +3420,17 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("signalsFBEventsSendBatch", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsBatcher"),
-            b = f.getFbeventsModules("SignalsFBEventsLogging"),
-            c = b.logError;
+          const a = f.getFbeventsModules("SignalsFBEventsBatcher");
+          let b = f.getFbeventsModules("SignalsFBEventsLogging");
+          const c = b.logError;
           b = f.getFbeventsModules("SignalsFBEventsUtils");
-          var d = b.map,
-            e = f.getFbeventsModules("SignalsParamList"),
-            h = f.getFbeventsModules("signalsFBEventsSendBeacon"),
-            i = f.getFbeventsModules("signalsFBEventsSendGET"),
-            j = f.getFbeventsModules("signalsFBEventsSendXHR");
+          const d = b.map, e = f.getFbeventsModules("SignalsParamList"), h = f.getFbeventsModules("signalsFBEventsSendBeacon"), i = f.getFbeventsModules("signalsFBEventsSendGET"), j = f.getFbeventsModules("signalsFBEventsSendXHR");
 
           function l(a) {
             a = d(a, a => {
@@ -3462,7 +3449,7 @@ fbq.pendingConfigs = ["global_config"];
               });
             a || c(new Error("could not send batch"));
           }
-          var m = new a(l);
+          const m = new a(l);
 
           function n(a) {
             m.addToBatch(a);
@@ -3477,16 +3464,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("signalsFBEventsSendBeacon", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsQE"),
-            b = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
-            c = f.getFbeventsModules("SignalsFBEventsExperimentNames"),
-            d = c.SEND_BEACON_STRING_EXPERIMENT;
+          const a = f.getFbeventsModules("SignalsFBEventsQE"), b = f.getFbeventsModules("SignalsFBEventsNetworkConfig"), c = f.getFbeventsModules("SignalsFBEventsExperimentNames"), d = c.SEND_BEACON_STRING_EXPERIMENT;
 
           function e(c, e) {
             if (!g.navigator || !g.navigator.sendBeacon) return !1;
@@ -3505,39 +3489,35 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("signalsFBEventsSendEvent", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsEvents"),
-            b = a.fired,
-            c = a.setEventId,
-            d = f.getFbeventsModules("SignalsFBEventsQE"),
-            e = f.getFbeventsModules("SignalsParamList"),
-            j = f.getFbeventsModules("signalsFBEventsSendBatch"),
-            l = f.getFbeventsModules("signalsFBEventsSendBeacon"),
-            m = f.getFbeventsModules("signalsFBEventsSendGET"),
-            n = f.getFbeventsModules("signalsFBEventsSendXHR"),
-            o = f.getFbeventsModules("signalsFBEventsSendFormPOST"),
-            p = f.getFbeventsModules("signalsFBEventsGetIsChrome");
+          let a = f.getFbeventsModules("SignalsFBEventsEvents");
+          const b = a.fired;
+          const c = a.setEventId;
+          const d = f.getFbeventsModules("SignalsFBEventsQE");
+          const e = f.getFbeventsModules("SignalsParamList");
+          const j = f.getFbeventsModules("signalsFBEventsSendBatch");
+          const l = f.getFbeventsModules("signalsFBEventsSendBeacon");
+          const m = f.getFbeventsModules("signalsFBEventsSendGET");
+          const n = f.getFbeventsModules("signalsFBEventsSendXHR");
+          const o = f.getFbeventsModules("signalsFBEventsSendFormPOST");
+          const p = f.getFbeventsModules("signalsFBEventsGetIsChrome");
           a = f.getFbeventsModules("SignalsFBEventsExperimentNames");
-          var q = a.BATCHING_EXPERIMENT,
-            r = a.SEND_BEACON_STRING_EXPERIMENT,
-            s = a.SEND_XHR_EXPERIMENT,
-            t = g.top !== g,
-            u = "SubscribedButtonClick";
+          const q = a.BATCHING_EXPERIMENT, r = a.SEND_BEACON_STRING_EXPERIMENT, s = a.SEND_XHR_EXPERIMENT, t = g.top !== g, u = "SubscribedButtonClick";
 
           function v(a) {
-            var b = a.customData,
-              c = a.customParams,
-              f = a.eventName,
-              j = a.id,
-              k = a.piiTranslator,
-              l = a.documentLink,
-              m = a.referrerLink,
-              n = i.href;
+            const b = a.customData;
+            const c = a.customParams;
+            const f = a.eventName;
+            const j = a.id;
+            const k = a.piiTranslator;
+            let l = a.documentLink;
+            const m = a.referrerLink;
+            let n = i.href;
             Object.prototype.hasOwnProperty.call(a, "documentLink") && (n = l);
             l = h.referrer;
             Object.prototype.hasOwnProperty.call(a, "referrerLink") && (l = m);
@@ -3557,9 +3537,7 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function w(a) {
-            var e = a.customData,
-              f = a.eventName,
-              g = v(a);
+            const e = a.customData, f = a.eventName, g = v(a);
             c.trigger(a.id, g);
             if (d.isInTest(q)) {
               j(g);
@@ -3600,27 +3578,24 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("signalsFBEventsSendFormPOST", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
-            b = f.getFbeventsModules("SignalsFBEventsUtils"),
-            c = b.listenOnce;
+          const a = f.getFbeventsModules("SignalsFBEventsNetworkConfig"), b = f.getFbeventsModules("SignalsFBEventsUtils"), c = b.listenOnce;
 
           function d(b, d) {
             b.replaceEntry("rqm", "formPOST");
-            var e = "fb" + Math.random().toString().replace(".", ""),
-              f = h.createElement("form");
+            const e = "fb" + Math.random().toString().replace(".", ""), f = h.createElement("form");
             f.method = "post";
             f.action = d != null ? d : a.ENDPOINT;
             f.target = e;
             f.acceptCharset = "utf-8";
             f.style.display = "none";
             d = !!(g.attachEvent && !g.addEventListener);
-            var i = h.createElement("iframe");
+            const i = h.createElement("iframe");
             d && (i.name = e);
             i.src = "about:blank";
             i.id = e;
@@ -3628,7 +3603,7 @@ fbq.pendingConfigs = ["global_config"];
             f.appendChild(i);
             c(i, "load", () => {
               b.each((a, b) => {
-                var c = h.createElement("input");
+                const c = h.createElement("input");
                 c.name = decodeURIComponent(a);
                 c.value = b;
                 f.appendChild(c);
@@ -3648,18 +3623,16 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("signalsFBEventsSendGET", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
-            b = 2048;
+          const a = f.getFbeventsModules("SignalsFBEventsNetworkConfig"), b = 2048;
 
           function c(c, d) {
-            var e = d || {},
-              f = e.ignoreRequestLengthCheck;
+            let e = d || {}, f = e.ignoreRequestLengthCheck;
             f = f === void 0 ? !1 : f;
             e = e.url;
             e = e === void 0 ? a.ENDPOINT : e;
@@ -3683,29 +3656,29 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("signalsFBEventsSendXHR", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
-            b = f.getFbeventsModules("SignalsParamList"),
-            c = f.getFbeventsModules("SignalsFBEventsLogging"),
-            d = c.logError,
-            e = {
-              UNSENT: 0,
-              OPENED: 1,
-              HEADERS_RECEIVED: 2,
-              LOADING: 3,
-              DONE: 4,
-            },
-            g =
-              typeof XMLHttpRequest !== "undefined" &&
-              "withCredentials" in new XMLHttpRequest();
+          const a = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
+                b = f.getFbeventsModules("SignalsParamList"),
+                c = f.getFbeventsModules("SignalsFBEventsLogging"),
+                d = c.logError,
+                e = {
+                  UNSENT: 0,
+                  OPENED: 1,
+                  HEADERS_RECEIVED: 2,
+                  LOADING: 3,
+                  DONE: 4,
+                },
+                g =
+                  typeof XMLHttpRequest !== "undefined" &&
+                  "withCredentials" in new XMLHttpRequest();
 
           function h(a, b, c) {
-            var f = new XMLHttpRequest();
+            const f = new XMLHttpRequest();
             f.withCredentials = !0;
             f.open("POST", b);
             f.onreadystatechange = () => {
@@ -3723,14 +3696,14 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function i(c) {
-            var d =
-                arguments.length > 1 && arguments[1] !== void 0
-                  ? arguments[1]
-                  : a.ENDPOINT,
-              e = arguments[2];
+            const d =
+                      arguments.length > 1 && arguments[1] !== void 0
+                        ? arguments[1]
+                        : a.ENDPOINT,
+                  e = arguments[2];
             if (!g) return !1;
             c instanceof b && c.replaceEntry("rqm", "xhr");
-            var f = c instanceof b ? c.toFormData() : c;
+            const f = c instanceof b ? c.toFormData() : c;
             h(f, d, e);
             return !0;
           }
@@ -3741,15 +3714,15 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsSetEventIDEvent", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-            b = f.getFbeventsModules("SignalsParamList"),
-            c = f.getFbeventsModules("signalsFBEventsCoercePixel");
+          let a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+          const b = f.getFbeventsModules("SignalsParamList");
+          const c = f.getFbeventsModules("signalsFBEventsCoercePixel");
 
           function d(a, d) {
             a = c(a);
@@ -3766,35 +3739,33 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsSetIWLExtractorsEvent",
       () => {
         return ((g, h, j, k) => {
-          var l = {
+          const l = {
             exports: {},
           };
           l.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-              b = f.getFbeventsModules("SignalsFBEventsUtils"),
-              c = b.filter,
-              d = b.map,
-              e = f.getFbeventsModules(
-                "signalsFBEventsCoerceParameterExtractors"
-              ),
-              g = f.getFbeventsModules("signalsFBEventsCoercePixelID");
+            const a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+            let b = f.getFbeventsModules("SignalsFBEventsUtils");
+            const c = b.filter;
+            const d = b.map;
+
+            const e = f.getFbeventsModules(
+              "signalsFBEventsCoerceParameterExtractors"
+            );
+
+            const g = f.getFbeventsModules("signalsFBEventsCoercePixelID");
 
             function h() {
               for (var a = arguments.length, b = Array(a), f = 0; f < a; f++)
                 b[f] = arguments[f];
-              var h = b[0];
+              const h = b[0];
               if (
                 h == null ||
                 (typeof h === "undefined" ? "undefined" : i(h)) !== "object"
               )
                 return null;
-              var j = h.pixelID,
-                k = h.extractors,
-                l = g(j),
-                m = Array.isArray(k) ? d(k, e) : null,
-                n = m != null ? c(m, Boolean) : null;
+              const j = h.pixelID, k = h.extractors, l = g(j), m = Array.isArray(k) ? d(k, e) : null, n = m != null ? c(m, Boolean) : null;
               return n != null &&
                 m != null &&
                 n.length === m.length &&
@@ -3816,41 +3787,40 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("SignalsFBEventsTelemetry", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsLogging"),
-            b = f.getFbeventsModules("SignalsParamList");
+          const a = f.getFbeventsModules("SignalsFBEventsLogging"), b = f.getFbeventsModules("SignalsParamList");
           f.getFbeventsModules("SignalsFBEventsQE");
-          var c = f.getFbeventsModules("signalsFBEventsSendGET");
+          const c = f.getFbeventsModules("signalsFBEventsSendGET");
           f.getFbeventsModules("signalsFBEventsSendXHR");
           f.getFbeventsModules("signalsFBEventsSendBeacon");
-          var d = f.getFbeventsModules("SignalsFBEventsExperimentNames");
+          let d = f.getFbeventsModules("SignalsFBEventsExperimentNames");
           d.SEND_BEACON_STRING_EXPERIMENT;
           d = 0.01;
-          var e = Math.random(),
-            h =
-              g.fbq && g.fbq._releaseSegment
-                ? g.fbq._releaseSegment
-                : "unknown",
-            i = e < d || h === "canary",
-            j = "https://connect.facebook.net/log/fbevents_telemetry/";
+          const e = Math.random(),
+                h =
+                  g.fbq && g.fbq._releaseSegment
+                    ? g.fbq._releaseSegment
+                    : "unknown",
+                i = e < d || h === "canary",
+                j = "https://connect.facebook.net/log/fbevents_telemetry/";
 
           function l(d) {
-            var e =
-                arguments.length > 1 && arguments[1] !== void 0
-                  ? arguments[1]
-                  : 0,
-              f =
-                arguments.length > 2 && arguments[2] !== void 0
-                  ? arguments[2]
-                  : !1;
+            const e =
+                      arguments.length > 1 && arguments[1] !== void 0
+                        ? arguments[1]
+                        : 0,
+                  f =
+                    arguments.length > 2 && arguments[2] !== void 0
+                      ? arguments[2]
+                      : !1;
             if (!f && !i) return;
             try {
-              var k = new b(null);
+              const k = new b(null);
               k.append("v", g.fbq && g.fbq.version ? g.fbq.version : "unknown");
               k.append("rs", h);
               k.append("e", d);
@@ -3876,46 +3846,48 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsTyped", () => {
       return ((g, h, m, d) => {
-        var e = {
+        const e = {
           exports: {},
         };
         e.exports;
         (() => {
           "use strict";
-          var a =
+
+          const a =
               Object.assign ||
               function (a) {
-                for (var b = 1; b < arguments.length; b++) {
-                  var c = arguments[b];
-                  for (var d in c)
+                for (let b = 1; b < arguments.length; b++) {
+                  const c = arguments[b];
+                  for (const d in c)
                     Object.prototype.hasOwnProperty.call(c, d) && (a[d] = c[d]);
                 }
                 return a;
-              },
-            b = f.getFbeventsModules("SignalsFBEventsUtils");
+              };
+
+          let b = f.getFbeventsModules("SignalsFBEventsUtils");
           b.filter;
           b.map;
-          var c = b.reduce;
+          const c = b.reduce;
           b = f.getFbeventsModules("SignalsFBEventsUtils");
-          var d = b.isSafeInteger,
-            g = (b => {
-              k(a, b);
+          const d = b.isSafeInteger,
+                g = (b => {
+                  k(a, b);
 
-              function a() {
-                var b =
-                  arguments.length > 0 && arguments[0] !== void 0
-                    ? arguments[0]
-                    : "";
-                n(this, a);
-                var c = j(
-                  this,
-                  (a.__proto__ || Object.getPrototypeOf(a)).call(this, b)
-                );
-                c.name = "FBEventsCoercionError";
-                return c;
-              }
-              return a;
-            })(Error);
+                  function a() {
+                    const b =
+                      arguments.length > 0 && arguments[0] !== void 0
+                        ? arguments[0]
+                        : "";
+                    n(this, a);
+                    const c = j(
+                      this,
+                      (a.__proto__ || Object.getPrototypeOf(a)).call(this, b)
+                    );
+                    c.name = "FBEventsCoercionError";
+                    return c;
+                  }
+                  return a;
+                })(Error);
 
           function h(a) {
             return Object.values(a);
@@ -3976,7 +3948,7 @@ fbq.pendingConfigs = ["global_config"];
 
           function u(b) {
             return e => {
-              var d = y(e, F.object());
+              const d = y(e, F.object());
               return c(
                 Object.keys(d),
                 (c, e) => {
@@ -3995,13 +3967,13 @@ fbq.pendingConfigs = ["global_config"];
 
           function w(b) {
             return e => {
-              var d = y(e, F.object());
+              const d = y(e, F.object());
               e = c(
                 Object.keys(b),
                 (c, e) => {
                   if (c == null) return null;
-                  var f = b[e],
-                    g = d[e];
+                  let f = b[e];
+                  const g = d[e];
                   f = f(g);
                   return a({}, c, l({}, e, f));
                 },
@@ -4047,22 +4019,21 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function C(a) {
-            var b = a.def,
-              c = a.validators;
+            const b = a.def, c = a.validators;
             return a => {
-              var d = y(a, b);
+              const d = y(a, b);
               c.forEach(a => {
                 if (!a(d)) throw new g();
               });
               return d;
             };
           }
-          var D = /^[1-9][0-9]{0,25}$/;
+          const D = /^[1-9][0-9]{0,25}$/;
 
           function E() {
             return C({
               def(a) {
-                var b = x(a, F.number());
+                const b = x(a, F.number());
                 if (b != null) {
                   F.assert(d(b));
                   return "" + b;
@@ -4105,20 +4076,19 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsTypeVersioning", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
-          var a = f.getFbeventsModules("SignalsFBEventsTyped");
+          let a = f.getFbeventsModules("SignalsFBEventsTyped");
           a.coerce;
-          var b = a.enforce,
-            c = a.FBEventsCoercionError;
+          const b = a.enforce, c = a.FBEventsCoercionError;
 
           function d(a) {
             return d => {
-              for (var e = 0; e < a.length; e++) {
-                var f = a[e];
+              for (let e = 0; e < a.length; e++) {
+                const f = a[e];
                 try {
                   return b(d, f);
                 } catch (a) {
@@ -4146,14 +4116,14 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsUnwantedDataTypedef", () => {
       return ((g, h, i, j) => {
-        var k = {
+        const k = {
           exports: {},
         };
         k.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("SignalsFBEventsTyped"),
-            b = a.Typed;
+          let a = f.getFbeventsModules("SignalsFBEventsTyped");
+          const b = a.Typed;
           a.coerce;
           a = b.objectWithFields({
             blacklisted_keys: b.allowNull(
@@ -4170,14 +4140,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsUtils", () => {
       return ((f, g, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = Object.prototype.toString,
-            b = !("addEventListener" in g);
+          const a = Object.prototype.toString, b = !("addEventListener" in g);
 
           function c(a, b) {
             return b != null && a instanceof b;
@@ -4222,7 +4191,7 @@ fbq.pendingConfigs = ["global_config"];
               ? !1
               : !0;
           }
-          var m =
+          const m =
             Number.isInteger ||
             (a => {
               return (
@@ -4235,28 +4204,28 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function p(a, c, d) {
-            var e = b ? "on" + c : c;
+            const e = b ? "on" + c : c;
             c = b ? a.attachEvent : a.addEventListener;
-            var f = b ? a.detachEvent : a.removeEventListener,
-              g = function b() {
-                f && f.call(a, e, b, !1), d();
-              };
+            const f = b ? a.detachEvent : a.removeEventListener,
+                  g = function b() {
+                    f && f.call(a, e, b, !1), d();
+                  };
             c && c.call(a, e, g, !1);
           }
-          var q = Object.prototype.hasOwnProperty,
-            r = !{
-              toString: null,
-            }.propertyIsEnumerable("toString"),
-            s = [
-              "toString",
-              "toLocaleString",
-              "valueOf",
-              "hasOwnProperty",
-              "isPrototypeOf",
-              "propertyIsEnumerable",
-              "constructor",
-            ],
-            t = s.length;
+          const q = Object.prototype.hasOwnProperty,
+                r = !{
+                  toString: null,
+                }.propertyIsEnumerable("toString"),
+                s = [
+                  "toString",
+                  "toLocaleString",
+                  "valueOf",
+                  "hasOwnProperty",
+                  "isPrototypeOf",
+                  "propertyIsEnumerable",
+                  "constructor",
+                ],
+                t = s.length;
 
           function u(a) {
             if (
@@ -4264,22 +4233,22 @@ fbq.pendingConfigs = ["global_config"];
               (typeof a !== "function" || a === null)
             )
               throw new TypeError("Object.keys called on non-object");
-            var b = [];
-            for (var c in a) q.call(a, c) && b.push(c);
-            if (r) for (var d = 0; d < t; d++) q.call(a, s[d]) && b.push(s[d]);
+            const b = [];
+            for (const c in a) q.call(a, c) && b.push(c);
+            if (r) for (let d = 0; d < t; d++) q.call(a, s[d]) && b.push(s[d]);
             return b;
           }
 
           function v(a, b) {
             if (a == null) throw new TypeError(" array is null or not defined");
             a = Object(a);
-            var c = a.length >>> 0;
+            const c = a.length >>> 0;
             if (typeof b !== "function")
               throw new TypeError(b + " is not a function");
-            var d = new Array(c),
-              e = 0;
+            const d = new Array(c);
+            let e = 0;
             while (e < c) {
-              var f;
+              let f;
               e in a && ((f = a[e]), (f = b(f, e, a)), (d[e] = f));
               e++;
             }
@@ -4290,9 +4259,9 @@ fbq.pendingConfigs = ["global_config"];
             if (a == null) throw new TypeError(" array is null or not defined");
             if (typeof b !== "function")
               throw new TypeError(b + " is not a function");
-            var d = Object(a),
-              e = d.length >>> 0,
-              f = 0;
+            const d = Object(a);
+            const e = d.length >>> 0;
+            let f = 0;
             if (c != null) c = c;
             else {
               while (f < e && !(f in d)) f++;
@@ -4308,10 +4277,8 @@ fbq.pendingConfigs = ["global_config"];
 
           function x(a) {
             if (typeof a !== "function") throw new TypeError();
-            var b = Object(this),
-              c = b.length >>> 0,
-              d = arguments.length >= 2 ? arguments[1] : void 0;
-            for (var e = 0; e < c; e++)
+            const b = Object(this), c = b.length >>> 0, d = arguments.length >= 2 ? arguments[1] : void 0;
+            for (let e = 0; e < c; e++)
               if (e in b && a.call(d, b[e], e, b)) return !0;
             return !1;
           }
@@ -4322,14 +4289,12 @@ fbq.pendingConfigs = ["global_config"];
 
           function z(a) {
             if (this === void 0 || this === null) throw new TypeError();
-            var b = Object(this),
-              c = b.length >>> 0;
+            const b = Object(this), c = b.length >>> 0;
             if (typeof a !== "function") throw new TypeError();
-            var d = [],
-              e = arguments.length >= 2 ? arguments[1] : void 0;
-            for (var f = 0; f < c; f++)
+            const d = [], e = arguments.length >= 2 ? arguments[1] : void 0;
+            for (let f = 0; f < c; f++)
               if (f in b) {
-                var g = b[f];
+                const g = b[f];
                 a.call(e, g, f, b) && d.push(g);
               }
             return d;
@@ -4348,7 +4313,7 @@ fbq.pendingConfigs = ["global_config"];
           var B = /^null | null$|^[^(]* null /i,
             C = /^undefined | undefined$|^[^(]* undefined /i;
           A["default"] = A;
-          var D = (() => {
+          let D = (() => {
             function a(b) {
               n(this, a), (this.items = b || []);
             }
@@ -4419,17 +4384,17 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsValidateCustomParametersEvent",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-              b = f.getFbeventsModules("SignalsFBEventsTyped"),
-              c = b.coerce,
-              d = b.Typed,
-              e = f.getFbeventsModules("signalsFBEventsCoercePixel");
+            const a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+            let b = f.getFbeventsModules("SignalsFBEventsTyped");
+            const c = b.coerce;
+            const d = b.Typed;
+            const e = f.getFbeventsModules("signalsFBEventsCoercePixel");
             b = f.getFbeventsModules("SignalsFBEventsCoercePrimitives");
             b.coerceString;
 
@@ -4449,17 +4414,17 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEventsValidateUrlParametersEvent",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
-              b = f.getFbeventsModules("SignalsFBEventsTyped"),
-              c = b.coerce,
-              d = b.Typed,
-              e = f.getFbeventsModules("signalsFBEventsCoercePixel");
+            const a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
+            let b = f.getFbeventsModules("SignalsFBEventsTyped");
+            const c = b.coerce;
+            const d = b.Typed;
+            const e = f.getFbeventsModules("signalsFBEventsCoercePixel");
             b = f.getFbeventsModules("SignalsFBEventsCoercePrimitives");
             b.coerceString;
 
@@ -4477,14 +4442,13 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered("SignalsParamList", () => {
       return ((f, g, j, k) => {
-        var l = {
+        const l = {
           exports: {},
         };
         l.exports;
         (() => {
           "use strict";
-          var a = "deep",
-            b = "shallow";
+          const a = "deep", b = "shallow";
 
           function c(a) {
             return JSON === void 0 || JSON === null || !JSON.stringify
@@ -4497,7 +4461,7 @@ fbq.pendingConfigs = ["global_config"];
             a = typeof a === "undefined" ? "undefined" : i(a);
             return a === "number" || a === "boolean" || a === "string";
           }
-          var e = (() => {
+          const e = (() => {
             class e {
               constructor(a) {
                 n(this, e), (this._params = []), (this._piiTranslator = a);
@@ -4511,14 +4475,14 @@ fbq.pendingConfigs = ["global_config"];
 
               static exports(c) {
                 if (b.indexOf(c) !== -1) return null;
-                var d = a.exec(c);
+                const d = a.exec(c);
                 if (d == null) throw new Error("Malformed tier: " + c);
                 return d[1];
               }
 
               static onload() {
                 if (!a.FacebookIWL || !a.FacebookIWL.init) return;
-                var b = j(g.ENDPOINT);
+                const b = j(g.ENDPOINT);
                 b != null &&
                   a.FacebookIWL.set &&
                   a.FacebookIWL.set("tier", b);
@@ -4532,7 +4496,7 @@ fbq.pendingConfigs = ["global_config"];
                 {
                   key: "containsKey",
                   value(a) {
-                    for (var b = 0; b < this._params.length; b++)
+                    for (let b = 0; b < this._params.length; b++)
                       if (this._params[b].name === a) return !0;
                     return !1;
                   },
@@ -4541,7 +4505,7 @@ fbq.pendingConfigs = ["global_config"];
                   key: "get",
                   value(a) {
                     a = a;
-                    for (var b = 0; b < this._params.length; b++)
+                    for (let b = 0; b < this._params.length; b++)
                       if (this._params[b].name === a)
                         return this._params[b].value;
                     return null;
@@ -4556,7 +4520,7 @@ fbq.pendingConfigs = ["global_config"];
                 {
                   key: "replaceEntry",
                   value(a, b) {
-                    var c = 0;
+                    let c = 0;
                     while (c < this._params.length)
                       this._params[c].name === a
                         ? this._params.splice(c, 1)
@@ -4567,7 +4531,7 @@ fbq.pendingConfigs = ["global_config"];
                 {
                   key: "addRange",
                   value(a) {
-                    var c = this;
+                    const c = this;
                     a.each((a, d) => {
                       return c._append(
                         {
@@ -4583,7 +4547,7 @@ fbq.pendingConfigs = ["global_config"];
                 {
                   key: "append",
                   value(b, c) {
-                    var d =
+                    const d =
                       arguments.length > 2 && arguments[2] !== void 0
                         ? arguments[2]
                         : !1;
@@ -4601,11 +4565,11 @@ fbq.pendingConfigs = ["global_config"];
                 {
                   key: "appendHash",
                   value(b) {
-                    var c =
+                    const c =
                       arguments.length > 1 && arguments[1] !== void 0
                         ? arguments[1]
                         : !1;
-                    for (var d in b)
+                    for (const d in b)
                       Object.prototype.hasOwnProperty.call(b, d) &&
                         this._append(
                           {
@@ -4621,7 +4585,7 @@ fbq.pendingConfigs = ["global_config"];
                 {
                   key: "_append",
                   value(b, e, f) {
-                    var g = b.name;
+                    const g = b.name;
                     b = b.value;
                     d(b)
                       ? this._appendPrimitive(g, b, f)
@@ -4655,10 +4619,10 @@ fbq.pendingConfigs = ["global_config"];
                 {
                   key: "_appendObject",
                   value(a, c, d) {
-                    var e = null;
-                    for (var f in c)
+                    let e = null;
+                    for (const f in c)
                       if (Object.prototype.hasOwnProperty.call(c, f)) {
-                        var g = a + "[" + encodeURIComponent(f) + "]";
+                        const g = a + "[" + encodeURIComponent(f) + "]";
                         try {
                           this._append(
                             {
@@ -4678,9 +4642,9 @@ fbq.pendingConfigs = ["global_config"];
                 {
                   key: "each",
                   value(a) {
-                    for (var b = 0; b < this._params.length; b++) {
-                      var c = this._params[b],
-                        d = c.name;
+                    for (let b = 0; b < this._params.length; b++) {
+                      let c = this._params[b];
+                      const d = c.name;
                       c = c.value;
                       a(d, c);
                     }
@@ -4689,7 +4653,7 @@ fbq.pendingConfigs = ["global_config"];
                 {
                   key: "toQueryString",
                   value() {
-                    var a = [];
+                    const a = [];
                     this.each((b, c) => {
                       a.push(b + "=" + encodeURIComponent(c));
                     });
@@ -4699,7 +4663,7 @@ fbq.pendingConfigs = ["global_config"];
                 {
                   key: "toFormData",
                   value() {
-                    var a = new FormData();
+                    const a = new FormData();
                     this.each((b, c) => {
                       a.append(b, c);
                     });
@@ -4727,13 +4691,13 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEvents.plugins.commonincludes",
       () => {
         return ((g, h, i, j) => {
-          var k = {
+          const k = {
             exports: {},
           };
           k.exports;
           (() => {
             "use strict";
-            var a = f.getFbeventsModules("SignalsFBEventsPlugin");
+            const a = f.getFbeventsModules("SignalsFBEventsPlugin");
             k.exports = new a((a, b) => {});
           })();
           return k.exports;
@@ -4749,16 +4713,16 @@ fbq.pendingConfigs = ["global_config"];
   })();
 })(window, document, location, history);
 ((a, b, c, d) => {
-  var e = {
+  const e = {
     exports: {},
   };
   e.exports;
   (() => {
-    var f = a.fbq;
+    const f = a.fbq;
     f.execStart = a.performance && a.performance.now && a.performance.now();
     if (
       !(() => {
-        var b = a.postMessage || (() => {});
+        const b = a.postMessage || (() => {});
         if (!f) {
           b(
             {
@@ -4794,27 +4758,26 @@ fbq.pendingConfigs = ["global_config"];
       }));
     f.ensureModuleRegistered("signalsFBEventsGetIwlUrl", () => {
       return ((a, b, c, d) => {
-        var e = {
+        const e = {
           exports: {},
         };
         e.exports;
         (() => {
           "use strict";
-          var a = f.getFbeventsModules("signalsFBEventsGetTier");
+          const a = f.getFbeventsModules("signalsFBEventsGetTier");
         })();
         return e.exports;
       })(a, b, c, d);
     });
     f.ensureModuleRegistered("signalsFBEventsGetTier", () => {
       return ((f, b, c, d) => {
-        var e = {
+        const e = {
           exports: {},
         };
         e.exports;
         (() => {
           "use strict";
-          var a = /^https:\/\/www\.([A-Za-z0-9\.]+)\.facebook\.com\/tr\/?$/,
-            b = ["https://www.facebook.com/tr", "https://www.facebook.com/tr/"];
+          const a = /^https:\/\/www\.([A-Za-z0-9\.]+)\.facebook\.com\/tr\/?$/, b = ["https://www.facebook.com/tr", "https://www.facebook.com/tr/"];
         })();
         return e.exports;
       })(a, b, c, d);
@@ -4823,33 +4786,33 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEvents.plugins.iwlbootstrapper",
       () => {
         return ((a, b, c, d) => {
-          var e = {
+          const e = {
             exports: {},
           };
           e.exports;
           (() => {
             "use strict";
-            var c = f.getFbeventsModules("SignalsFBEventsIWLBootStrapEvent"),
-              d = f.getFbeventsModules("SignalsFBEventsLogging"),
-              g = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
-              h = f.getFbeventsModules("SignalsFBEventsPlugin"),
-              i = f.getFbeventsModules("signalsFBEventsGetIwlUrl"),
-              j = f.getFbeventsModules("signalsFBEventsGetTier"),
-              k = d.logUserError,
-              l = /^https:\/\/.*\.facebook\.com$/i,
-              m = "FACEBOOK_IWL_CONFIG_STORAGE_KEY",
-              n = a.sessionStorage
-                ? a.sessionStorage
-                : {
-                    getItem(a) {
-                      return null;
-                    },
-                    removeItem(a) {},
-                    setItem(a, b) {},
-                  };
+            const c = f.getFbeventsModules("SignalsFBEventsIWLBootStrapEvent"),
+                  d = f.getFbeventsModules("SignalsFBEventsLogging"),
+                  g = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
+                  h = f.getFbeventsModules("SignalsFBEventsPlugin"),
+                  i = f.getFbeventsModules("signalsFBEventsGetIwlUrl"),
+                  j = f.getFbeventsModules("signalsFBEventsGetTier"),
+                  k = d.logUserError,
+                  l = /^https:\/\/.*\.facebook\.com$/i,
+                  m = "FACEBOOK_IWL_CONFIG_STORAGE_KEY",
+                  n = a.sessionStorage
+                    ? a.sessionStorage
+                    : {
+                        getItem(a) {
+                          return null;
+                        },
+                        removeItem(a) {},
+                        setItem(a, b) {},
+                      };
             e.exports = new h((d, e) => {
               function h(c, d) {
-                var e = b.createElement("script");
+                const e = b.createElement("script");
                 e.async = !0;
                 a.FacebookIWLSessionEnd = () => {
                   n.removeItem(m), a.close();
@@ -4857,26 +4820,25 @@ fbq.pendingConfigs = ["global_config"];
                 e.src = i(c, g.ENDPOINT);
                 b.body && b.body.appendChild(e);
               }
-              var o = !1,
-                p = a => {
-                  return !!(
-                    e &&
-                    e.pixelsByID &&
-                    Object.prototype.hasOwnProperty.call(e.pixelsByID, a)
-                  );
-                };
+              let o = !1;
+
+              const p = a => {
+                return !!(
+                  e &&
+                  e.pixelsByID &&
+                  Object.prototype.hasOwnProperty.call(e.pixelsByID, a)
+                );
+              };
 
               function q() {
                 if (o) return;
-                var b = n.getItem(m);
+                let b = n.getItem(m);
                 if (!b) return;
                 b = JSON.parse(b);
-                var c = b.pixelID,
-                  d = b.graphToken,
-                  e = b.sessionStartTime;
+                const c = b.pixelID, d = b.graphToken, e = b.sessionStartTime;
                 o = !0;
                 h(c, () => {
-                  var b = p(c) ? c : null;
+                  const b = p(c) ? c : null;
                   a.FacebookIWL.init(b, d, e);
                 });
               }
@@ -4900,7 +4862,7 @@ fbq.pendingConfigs = ["global_config"];
                   q();
               }
               c.listen(b => {
-                var c = b.graphToken;
+                const c = b.graphToken;
                 b = b.pixelID;
                 s(c, b);
                 a.FacebookIWLSessionEnd = () => {
@@ -4909,10 +4871,10 @@ fbq.pendingConfigs = ["global_config"];
               });
 
               function d(a) {
-                var b = a.data,
-                  c = b.graphToken,
-                  d = b.msg_type,
-                  f = b.pixelID;
+                let b = a.data;
+                const c = b.graphToken;
+                const d = b.msg_type;
+                const f = b.pixelID;
                 b = b.sessionStartTime;
                 if (
                   e &&
@@ -4973,16 +4935,16 @@ fbq.pendingConfigs = ["global_config"];
   })();
 })(window, document, location, history);
 ((a, b, c, d) => {
-  var e = {
+  const e = {
     exports: {},
   };
   e.exports;
   (() => {
-    var f = a.fbq;
+    const f = a.fbq;
     f.execStart = a.performance && a.performance.now && a.performance.now();
     if (
       !(() => {
-        var b = a.postMessage || (() => {});
+        const b = a.postMessage || (() => {});
         if (!f) {
           b(
             {
@@ -5018,7 +4980,7 @@ fbq.pendingConfigs = ["global_config"];
       }));
     f.ensureModuleRegistered("SignalsFBEventsOptTrackingOptions", () => {
       return ((f, b, c, d) => {
-        var e = {
+        const e = {
           exports: {},
         };
         e.exports;
@@ -5044,13 +5006,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered("SignalsFBEventsProxyState", () => {
       return ((f, b, c, d) => {
-        var e = {
+        const e = {
           exports: {},
         };
         e.exports;
         (() => {
           "use strict";
-          var a = !1;
+          let a = !1;
           e.exports = {
             getShouldProxy() {
               return a;
@@ -5067,23 +5029,23 @@ fbq.pendingConfigs = ["global_config"];
       "SignalsFBEvents.plugins.opttracking",
       () => {
         return ((a, b, c, d) => {
-          var e = {
+          const e = {
             exports: {},
           };
           e.exports;
           (() => {
             "use strict";
-            var b = f.getFbeventsModules("SignalsFBEventsEvents"),
-              c = b.getCustomParameters,
-              d = b.piiAutomatched,
-              g = b.piiConflicting,
-              h = b.piiInvalidated,
-              i = f.getFbeventsModules("SignalsFBEventsOptTrackingOptions");
+            let b = f.getFbeventsModules("SignalsFBEventsEvents");
+            const c = b.getCustomParameters;
+            const d = b.piiAutomatched;
+            const g = b.piiConflicting;
+            const h = b.piiInvalidated;
+            const i = f.getFbeventsModules("SignalsFBEventsOptTrackingOptions");
             b = f.getFbeventsModules("SignalsFBEventsPlugin");
-            var j = f.getFbeventsModules("SignalsFBEventsProxyState"),
-              k = f.getFbeventsModules("SignalsFBEventsUtils"),
-              l = k.some,
-              m = !1;
+            const j = f.getFbeventsModules("SignalsFBEventsProxyState");
+            let k = f.getFbeventsModules("SignalsFBEventsUtils");
+            const l = k.some;
+            let m = !1;
 
             function n() {
               try {
@@ -5101,29 +5063,29 @@ fbq.pendingConfigs = ["global_config"];
             function p(a, b) {
               return a ? b : 0;
             }
-            var q = ["_selenium", "callSelenium", "_Selenium_IDE_Recorder"],
-              r = [
-                "__webdriver_evaluate",
-                "__selenium_evaluate",
-                "__webdriver_script_function",
-                "__webdriver_script_func",
-                "__webdriver_script_fn",
-                "__fxdriver_evaluate",
-                "__driver_unwrapped",
-                "__webdriver_unwrapped",
-                "__driver_evaluate",
-                "__selenium_unwrapped",
-                "__fxdriver_unwrapped",
-              ];
+            const q = ["_selenium", "callSelenium", "_Selenium_IDE_Recorder"],
+                  r = [
+                    "__webdriver_evaluate",
+                    "__selenium_evaluate",
+                    "__webdriver_script_function",
+                    "__webdriver_script_func",
+                    "__webdriver_script_fn",
+                    "__fxdriver_evaluate",
+                    "__driver_unwrapped",
+                    "__webdriver_unwrapped",
+                    "__driver_evaluate",
+                    "__selenium_unwrapped",
+                    "__fxdriver_unwrapped",
+                  ];
 
             function s() {
               if (u(q)) return !0;
-              var b = l(r, b => {
+              let b = l(r, b => {
                 return a.document[b] ? !0 : !1;
               });
               if (b) return !0;
               b = a.document;
-              for (var c in b)
+              for (const c in b)
                 if (c.match(/\$[a-z]dc_/) && b[c].cache_) return !0;
               if (
                 a.external &&
@@ -5153,9 +5115,7 @@ fbq.pendingConfigs = ["global_config"];
             }
 
             function v() {
-              var a = 0,
-                b = 0,
-                c = 0;
+              let a = 0, b = 0, c = 0;
               try {
                 (a = p(s(), i.IS_SELENIUM)), (b = p(t(), i.IS_HEADLESS));
               } catch (a) {
@@ -5169,36 +5129,31 @@ fbq.pendingConfigs = ["global_config"];
             }
             k = new b((a, b) => {
               if (m) return;
-              var e = {};
+              const e = {};
               h.listen(a => {
                 a != null && (e[typeof a === "string" ? a : a.id] = !0);
               });
-              var k = {};
+              const k = {};
               g.listen(a => {
                 a != null && (k[typeof a === "string" ? a : a.id] = !0);
               });
-              var l = {};
+              const l = {};
               d.listen(a => {
                 a != null && (l[typeof a === "string" ? a : a.id] = !0);
               });
               c.listen(c => {
-                var d = b.optIns,
-                  f = p(
-                    c != null && d.isOptedOut(c.id, "AutomaticSetup"),
-                    i.AUTO_CONFIG_OPT_OUT
-                  );
+                let d = b.optIns,
+                    f = p(
+                      c != null && d.isOptedOut(c.id, "AutomaticSetup"),
+                      i.AUTO_CONFIG_OPT_OUT
+                    );
                 d = p(
                   c != null && d.isOptedIn(c.id, "AutomaticSetup"),
                   i.AUTO_CONFIG
                 );
-                var g = p(a.disableConfigLoading !== !0, i.CONFIG_LOADING),
-                  h = p(n(), i.SUPPORTS_DEFINE_PROPERTY),
-                  m = p(o(), i.SUPPORTS_SEND_BEACON),
-                  q = p(c != null && k[c.id], i.HAS_CONFLICTING_PII),
-                  r = p(c != null && e[c.id], i.HAS_INVALIDATED_PII);
+                const g = p(a.disableConfigLoading !== !0, i.CONFIG_LOADING), h = p(n(), i.SUPPORTS_DEFINE_PROPERTY), m = p(o(), i.SUPPORTS_SEND_BEACON), q = p(c != null && k[c.id], i.HAS_CONFLICTING_PII), r = p(c != null && e[c.id], i.HAS_INVALIDATED_PII);
                 c = p(c != null && l[c.id], i.HAS_AUTOMATCHED_PII);
-                var s = p(j.getShouldProxy(), i.SHOULD_PROXY),
-                  t = v();
+                const s = p(j.getShouldProxy(), i.SHOULD_PROXY), t = v();
                 f =
                   f |
                   d |
@@ -5234,16 +5189,16 @@ fbq.pendingConfigs = ["global_config"];
   })();
 })(window, document, location, history);
 ((a, b, c, d) => {
-  var e = {
+  const e = {
     exports: {},
   };
   e.exports;
   (() => {
-    var f = a.fbq;
+    const f = a.fbq;
     f.execStart = a.performance && a.performance.now && a.performance.now();
     if (
       !(() => {
-        var b = a.postMessage || (() => {});
+        const b = a.postMessage || (() => {});
         if (!f) {
           b(
             {
@@ -5263,19 +5218,19 @@ fbq.pendingConfigs = ["global_config"];
       })()
     )
       return;
-    var g = (() => {
+    const g = (() => {
       function a(a, b) {
-        var c = [],
-          d = !0,
-          e = !1,
-          f = void 0;
+        const c = [];
+        let d = !0;
+        let e = !1;
+        let f = void 0;
         try {
           for (
-            var a =
-                a[
-                  typeof Symbol === "function" ? Symbol.iterator : "@@iterator"
-                ](),
-              g;
+            let a =
+                    a[
+                      typeof Symbol === "function" ? Symbol.iterator : "@@iterator"
+                    ](),
+                g;
             !(d = (g = a.next()).done);
             d = !0
           ) {
@@ -5333,74 +5288,71 @@ fbq.pendingConfigs = ["global_config"];
       }));
     f.ensureModuleRegistered("SignalsFBEvents", () => {
       return ((a, b, c, d) => {
-        var e = {
+        const e = {
           exports: {},
         };
         e.exports;
         (() => {
           "use strict";
-          var f = a.fbq;
+          const f = a.fbq;
           f.execStart =
             a.performance && typeof a.performance.now === "function"
               ? a.performance.now()
               : null;
-          var j = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
-            k = f.getFbeventsModules("SignalsFBEventsQE"),
-            l = f.getFbeventsModules("SignalsParamList"),
-            m = f.getFbeventsModules("signalsFBEventsSendEvent"),
-            n = f.getFbeventsModules("SignalsFBEventsUtils"),
-            o = f.getFbeventsModules("SignalsFBEventsLogging"),
-            p = f.getFbeventsModules("SignalsEventValidation"),
-            q = f.getFbeventsModules("SignalsFBEventsFBQ"),
-            r = f.getFbeventsModules("SignalsFBEventsJSLoader"),
-            s = f.getFbeventsModules("SignalsFBEventsFireLock"),
-            t = f.getFbeventsModules("SignalsFBEventsMobileAppBridge"),
-            u = f.getFbeventsModules("signalsFBEventsInjectMethod"),
-            v = f.getFbeventsModules("signalsFBEventsMakeSafe"),
-            w = f.getFbeventsModules("signalsFBEventsResolveLegacyArguments"),
-            x = f.getFbeventsModules("SignalsFBEventsPluginManager"),
-            y = f.getFbeventsModules("signalsFBEventsCoercePixelID"),
-            z = f.getFbeventsModules("SignalsFBEventsEvents"),
-            A = f.getFbeventsModules("SignalsFBEventsTyped"),
-            B = A.coerce,
-            aa = A.Typed,
-            C = n.each;
+          const j = f.getFbeventsModules("SignalsFBEventsNetworkConfig");
+          const k = f.getFbeventsModules("SignalsFBEventsQE");
+          const l = f.getFbeventsModules("SignalsParamList");
+          const m = f.getFbeventsModules("signalsFBEventsSendEvent");
+          let n = f.getFbeventsModules("SignalsFBEventsUtils");
+          const o = f.getFbeventsModules("SignalsFBEventsLogging");
+          const p = f.getFbeventsModules("SignalsEventValidation");
+          const q = f.getFbeventsModules("SignalsFBEventsFBQ");
+          const r = f.getFbeventsModules("SignalsFBEventsJSLoader");
+          const s = f.getFbeventsModules("SignalsFBEventsFireLock");
+          const t = f.getFbeventsModules("SignalsFBEventsMobileAppBridge");
+          const u = f.getFbeventsModules("signalsFBEventsInjectMethod");
+          const v = f.getFbeventsModules("signalsFBEventsMakeSafe");
+          const w = f.getFbeventsModules("signalsFBEventsResolveLegacyArguments");
+          const x = f.getFbeventsModules("SignalsFBEventsPluginManager");
+          const y = f.getFbeventsModules("signalsFBEventsCoercePixelID");
+          const z = f.getFbeventsModules("SignalsFBEventsEvents");
+          let A = f.getFbeventsModules("SignalsFBEventsTyped");
+          const B = A.coerce;
+          const aa = A.Typed;
+          const C = n.each;
           A = n.FBSet;
-          var D = n.isEmptyObject,
-            E = n.isPlainObject,
-            F = n.isNumber,
-            G = n.keys;
+          const D = n.isEmptyObject, E = n.isPlainObject, F = n.isNumber, G = n.keys;
           n = z.execEnd;
-          var H = z.fired,
-            I = z.getCustomParameters,
-            ba = z.iwlBootstrap,
-            J = z.piiInvalidated,
-            ca = z.setIWLExtractors,
-            K = z.validateCustomParameters,
-            L = z.validateUrlParameters,
-            da = o.logError,
-            M = o.logUserError,
-            N = s.global,
-            O = -1,
-            ea = Array.prototype.slice,
-            P = Object.prototype.hasOwnProperty,
-            Q = c.href,
-            R = !1,
-            fa = !1,
-            S = [],
-            T = {},
-            ga;
+          const H = z.fired;
+          const I = z.getCustomParameters;
+          const ba = z.iwlBootstrap;
+          const J = z.piiInvalidated;
+          const ca = z.setIWLExtractors;
+          const K = z.validateCustomParameters;
+          const L = z.validateUrlParameters;
+          const da = o.logError;
+          const M = o.logUserError;
+          const N = s.global;
+          let O = -1;
+          const ea = Array.prototype.slice;
+          const P = Object.prototype.hasOwnProperty;
+          let Q = c.href;
+          let R = !1;
+          let fa = !1;
+          const S = [];
+          const T = {};
+          let ga;
           b.referrer;
-          var U = {
-              PageView: new A(),
-              PixelInitialized: new A(),
-            },
-            V = new q(f, T),
-            W = new x(V, N),
-            ha = new A(["eid"]);
+          const U = {
+                    PageView: new A(),
+                    PixelInitialized: new A(),
+                  },
+                V = new q(f, T),
+                W = new x(V, N),
+                ha = new A(["eid"]);
 
           function ia(a) {
-            for (var b in a) P.call(a, b) && (this[b] = a[b]);
+            for (const b in a) P.call(a, b) && (this[b] = a[b]);
             return this;
           }
 
@@ -5411,10 +5363,7 @@ fbq.pendingConfigs = ["global_config"];
                 f.queue.push(arguments);
                 return;
               }
-              var b = w(a),
-                c = [].concat(i(b.args)),
-                d = b.isLegacySyntax,
-                e = c.shift();
+              const b = w(a), c = [].concat(i(b.args)), d = b.isLegacySyntax, e = c.shift();
               switch (e) {
                 case "addPixelId":
                   R = !0;
@@ -5445,10 +5394,7 @@ fbq.pendingConfigs = ["global_config"];
                   oa.apply(this, c);
                   break;
                 case "on":
-                  var j = h(c),
-                    k = j[0],
-                    l = j.slice(1),
-                    m = z[k];
+                  const j = h(c), k = j[0], l = j.slice(1), m = z[k];
                   m && m.triggerWeakly(l);
                   break;
                 case "loadPlugin":
@@ -5457,8 +5403,7 @@ fbq.pendingConfigs = ["global_config"];
                 case "dataProcessingOptions":
                   switch (c.length) {
                     case 1:
-                      var n = g(c, 1),
-                        o = n[0];
+                      const n = g(c, 1), o = n[0];
                       V.pluginConfig.set(null, "dataProcessingOptions", {
                         dataProcessingOptions: o,
                         dataProcessingCountry: null,
@@ -5466,10 +5411,7 @@ fbq.pendingConfigs = ["global_config"];
                       });
                       break;
                     case 3:
-                      var p = g(c, 3),
-                        q = p[0],
-                        r = p[1],
-                        s = p[2];
+                      const p = g(c, 3), q = p[0], r = p[1], s = p[2];
                       V.pluginConfig.set(null, "dataProcessingOptions", {
                         dataProcessingOptions: q,
                         dataProcessingCountry: r,
@@ -5477,10 +5419,7 @@ fbq.pendingConfigs = ["global_config"];
                       });
                       break;
                     case 4:
-                      var t = g(c, 3),
-                        u = t[0],
-                        v = t[1],
-                        x = t[2];
+                      const t = g(c, 3), u = t[0], v = t[1], x = t[2];
                       V.pluginConfig.set(null, "dataProcessingOptions", {
                         dataProcessingOptions: u,
                         dataProcessingCountry: v,
@@ -5505,22 +5444,22 @@ fbq.pendingConfigs = ["global_config"];
               d++
             )
               c[d - 1] = arguments[d];
-            var e = [a].concat(c);
+            const e = [a].concat(c);
             switch (a) {
               case "endpoint":
-                var g = c[0];
+                const g = c[0];
                 if (typeof g !== "string")
                   throw new Error("endpoint value must be a string");
                 j.ENDPOINT = g;
                 break;
               case "cdn":
-                var h = c[0];
+                const h = c[0];
                 if (typeof h !== "string")
                   throw new Error("cdn value must be a string");
                 r.CONFIG.CDN_BASE_URL = h;
                 break;
               case "releaseSegment":
-                var i = c[0];
+                const i = c[0];
                 if (typeof i !== "string") {
                   M({
                     invalidParamName: "new_release_segment",
@@ -5534,9 +5473,7 @@ fbq.pendingConfigs = ["global_config"];
                 f._releaseSegment = i;
                 break;
               case "autoConfig":
-                var l = c[0],
-                  m = c[1],
-                  n = l === !0 || l === "true" ? "optIn" : "optOut";
+                const l = c[0], m = c[1], n = l === !0 || l === "true" ? "optIn" : "optOut";
                 if (typeof m !== "string") {
                   M({
                     invalidParamName: "pixel_id",
@@ -5550,9 +5487,7 @@ fbq.pendingConfigs = ["global_config"];
                 V.callMethod([n, m, "AutomaticSetup"]);
                 break;
               case "firstPartyCookies":
-                var o = c[0],
-                  q = c[1],
-                  s = o === !0 || o === "true" ? "optIn" : "optOut";
+                const o = c[0], q = c[1], s = o === !0 || o === "true" ? "optIn" : "optOut";
                 typeof q === "string"
                   ? V.callMethod([s, q, "FirstPartyCookies"])
                   : q === void 0
@@ -5569,8 +5504,7 @@ fbq.pendingConfigs = ["global_config"];
                 k.setExperiments.apply(k, c);
                 break;
               case "mobileBridge":
-                var u = c[0],
-                  v = c[1];
+                const u = c[0], v = c[1];
                 if (typeof u !== "string") {
                   M({
                     invalidParamName: "pixel_id",
@@ -5594,33 +5528,27 @@ fbq.pendingConfigs = ["global_config"];
                 t.registerBridge([u, v]);
                 break;
               case "iwlExtractors":
-                var w = c[0],
-                  x = c[1];
+                const w = c[0], x = c[1];
                 ca.triggerWeakly({
                   extractors: x,
                   pixelID: w,
                 });
                 break;
               case "startIWLBootstrap":
-                var y = c[0],
-                  z = c[1];
+                const y = c[0], z = c[1];
                 ba.triggerWeakly({
                   graphToken: y,
                   pixelID: z,
                 });
                 break;
               case "parallelfire":
-                var A = c[0],
-                  C = c[1];
+                const A = c[0], C = c[1];
                 V.pluginConfig.set(A, "parallelfire", {
                   target: C,
                 });
                 break;
               case "trackSingleOnly":
-                var D = c[0],
-                  E = c[1],
-                  F = B(D, aa["boolean"]()),
-                  G = B(E, aa.fbid());
+                const D = c[0], E = c[1], F = B(D, aa["boolean"]()), G = B(E, aa.fbid());
                 if (G == null) {
                   M({
                     invalidParamName: "pixel_id",
@@ -5641,7 +5569,7 @@ fbq.pendingConfigs = ["global_config"];
                   });
                   break;
                 }
-                var H = p.validateMetadata(a);
+                const H = p.validateMetadata(a);
                 H.error && M(H.error);
                 H.warnings &&
                   H.warnings.forEach(a => {
@@ -5656,13 +5584,13 @@ fbq.pendingConfigs = ["global_config"];
                     });
                 break;
               default:
-                var I = V.pluginConfig.getWithGlobalFallback(
-                    null,
-                    "dataProcessingOptions"
-                  ),
-                  J = I != null && I.dataProcessingOptions.includes("LDU"),
-                  K = c[0],
-                  L = c[1];
+                const I = V.pluginConfig.getWithGlobalFallback(
+                          null,
+                          "dataProcessingOptions"
+                        ),
+                      J = I != null && I.dataProcessingOptions.includes("LDU"),
+                      K = c[0],
+                      L = c[1];
                 if (typeof a !== "string")
                   throw new Error(
                     "The metadata setting provided in the 'set' call is invalid."
@@ -5698,9 +5626,9 @@ fbq.pendingConfigs = ["global_config"];
 
           function Y(a, b, c) {
             O = O === -1 ? Date.now() : O;
-            var d = y(a);
+            const d = y(a);
             if (d == null) return;
-            var e = b == null || E(b);
+            const e = b == null || E(b);
             e ||
               M({
                 invalidParamName: "user_data",
@@ -5733,11 +5661,11 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function ka() {
-            for (var a = 0; a < f._initHandlers.length; a++) {
-              var b = f._initHandlers[a];
+            for (let a = 0; a < f._initHandlers.length; a++) {
+              const b = f._initHandlers[a];
               f._initsDone[a] || (f._initsDone[a] = {});
-              for (var c = 0; c < S.length; c++) {
-                var d = S[c];
+              for (let c = 0; c < S.length; c++) {
+                const d = S[c];
                 f._initsDone[a][d.id] || ((f._initsDone[a][d.id] = !0), b(d));
               }
             }
@@ -5751,7 +5679,7 @@ fbq.pendingConfigs = ["global_config"];
                 M(a);
               });
             if (P.call(T, c)) {
-              for (var d = 0, e = S.length; d < e; d++)
+              for (const d = 0, e = S.length; d < e; d++)
                 if (S[d].id === c) {
                   S[d][a] = b;
                   break;
@@ -5774,8 +5702,8 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function Z(a, b, c) {
-            for (var d = 0, e = S.length; d < e; d++) {
-              var f = S[d];
+            for (let d = 0, e = S.length; d < e; d++) {
+              const f = S[d];
               if (
                 !(a === "PageView" && this.allowDuplicatePageViews) &&
                 Object.prototype.hasOwnProperty.call(U, a) &&
@@ -5812,7 +5740,7 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function pa(a, b, c) {
-            var d = new l(f.piiTranslator);
+            const d = new l(f.piiTranslator);
             try {
               d.append("ud", (a && a.userData) || {}, !0),
                 d.append("udff", (a && a.userDataFormFields) || {}, !0);
@@ -5853,15 +5781,15 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function $(a) {
-            var d = a.customData,
-              e = a.eventData,
-              f = a.eventName;
+            const d = a.customData;
+            let e = a.eventData;
+            const f = a.eventName;
             a = a.pixel;
             if (a != null && t.pixelHasActiveBridge(a)) {
               t.sendEvent(a, f, d || {});
               return;
             }
-            var g = pa(a, f, d);
+            const g = pa(a, f, d);
             if (e != null) {
               var h = e.eventID;
               e = e.event_id;
@@ -5873,7 +5801,7 @@ fbq.pendingConfigs = ["global_config"];
             d != null && K.trigger(a, d, f);
             e = c.href;
             h = b.referrer;
-            var i = {};
+            const i = {};
             e != null && (i.dl = e);
             h != null && (i.rl = h);
             D(i) || L.trigger(a, i, f);
@@ -5890,7 +5818,7 @@ fbq.pendingConfigs = ["global_config"];
 
           function qa() {
             while (f.queue.length && !N.isLocked()) {
-              var a = f.queue.shift();
+              const a = f.queue.shift();
               X.apply(f, a);
             }
           }
@@ -5910,11 +5838,11 @@ fbq.pendingConfigs = ["global_config"];
           function ra() {
             if (f.disablePushState === !0) return;
             if (!d.pushState || !d.replaceState) return;
-            var b = v(() => {
+            const b = v(() => {
               ga = Q;
               Q = c.href;
               if (Q === ga) return;
-              var a = new ia({
+              const a = new ia({
                 allowDuplicatePageViews: !0,
               });
               X.call(a, "trackCustom", "PageView");

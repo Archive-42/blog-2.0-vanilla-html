@@ -5,17 +5,17 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=10,IE=9,IE=8" />
-  <link type="text/css" href="style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+  <link type="text/css" href="https://ds-algo-official.netlify.app/style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 
   <!-- latest jQuery direct from jQuery CDN -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js">
   </script>
 
   <!-- the mousewheel plugin - optional to provide mousewheel support -->
-  <script type="text/javascript" src="script/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="https://ds-algo-official.netlify.app/script/jquery.mousewheel.js"></script>
 
   <!-- the jScrollPane script -->
-  <script type="text/javascript" src="script/jquery.jscrollpane.min.js"></script>
+  <script type="text/javascript" src="https://ds-algo-official.netlify.app/script/jquery.jscrollpane.min.js"></script>
   <script>
 
     $( function () {
@@ -1908,7 +1908,7 @@
             u;
           a.setAttribute( "className", "t" ),
             ( a.innerHTML =
-              "   <link/><table></table><a href='/a' style='top:1px;float:left;opacity:.55;'>a</a><input type='checkbox'/>" ),
+              "   <link/><table></table><a href='https://ds-algo-official.netlify.app/a' style='top:1px;float:left;opacity:.55;'>a</a><input type='checkbox'/>" ),
             ( d = a.getElementsByTagName( "*" ) ),
             ( e = a.getElementsByTagName( "a" )[ 0 ] );
           if ( !d || !d.length || !e ) return {};
@@ -4002,7 +4002,7 @@
                   }
                   return c;
                 } ),
-                ( a.innerHTML = "<a href='#'></a>" ),
+                ( a.innerHTML = "<a href='sitemap.html#'></a>" ),
                 a.firstChild &&
                 typeof a.firstChild.getAttribute != "undefined" &&
                 a.firstChild.getAttribute( "href" ) !== "#" &&
@@ -8719,7 +8719,7 @@
               ? ( i.icon.charAt( 0 ) === "/"
                 ? ( o = i.icon )
                 : ( o = t.imagePath + i.icon ),
-                ( s += "<img src='" + o + "' alt='' />" ) )
+                ( s += "<img src='https://ds-algo-official.netlify.app/&quot;&#32;+&#32;o&#32;+&#32;&quot;' alt='' />" ) )
               : i.icon !== !1 &&
               ( i.iconClass
                 ? ( s += "<span class=' " + i.iconClass + "'></span>" )
@@ -8741,9 +8741,7 @@
                 i.title +
                 "</span>" )
               : ( u =
-                '<a href="' +
-                f +
-                '" class="' +
+                '<a href="https://ds-algo-official.netlify.app/'&#32;+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;f&#32;+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;'" class="' +
                 t.classNames.title +
                 '"' +
                 a +
@@ -11991,7 +11989,7 @@
                   located_in.lastIndexOf( "\\" )
                 );
                 locationHtml =
-                  '<td><span class=\'file_folder\'><a href="#" class="folder_link" id="' +
+                  '<td><span class=\'file_folder\'><a href="sitemap.html#" class="folder_link" id="' +
                   subdir_id +
                   '"> ' +
                   located_in +
@@ -12000,7 +11998,7 @@
 
               table_html +=
                 "<tr>" +
-                '<td><span class=\'file_folder\'><a target="iframe_a" href="#" class="folder_link" id="' +
+                '<td><span class=\'file_folder\'><a target="iframe_a" href="sitemap.html#" class="folder_link" id="' +
                 SearchLocationsID[ index ] +
                 '"> ' +
                 SearchFilenames[ index ][ 3 ] +
@@ -12068,10 +12066,7 @@
                   }
 
                   file_tmp =
-                    '<a  target="iframe_a" href="' +
-                    file_tmp +
-                    SearchFilenames[ index ][ 3 ] +
-                    "</a>";
+                    '<a  target="iframe_a" href="https://ds-algo-official.netlify.app/'&#32;+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;file_tmp&#32;+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;SearchFilenames[&#32;index&#32;][&#32;3&#32;]&#32;+"</a>";
                 }
               }
 
@@ -12080,7 +12075,7 @@
                 var located_in = SearchLocations[ index ];
                 if ( located_in === "" ) located_in = "[.]";
                 locationHtml =
-                  '<td><span class=\'file_folder\'><a target="iframe_a" href="#" class="folder_link" id="' +
+                  '<td><span class=\'file_folder\'><a target="iframe_a" href="sitemap.html#" class="folder_link" id="' +
                   SearchLocationsID[ index ] +
                   '"> ' +
                   located_in +
@@ -12211,7 +12206,7 @@
             dirName = dirName.replace( /\:\//g, "" ); // remove :\ from volume labels
           }
           breadcrumbs +=
-            '<a target="iframe_a" href="#" class="folder_link" id="' +
+            '<a target="iframe_a" href="sitemap.html#" class="folder_link" id="' +
             path[ c ] +
             '">' +
             dirName +
@@ -12231,7 +12226,7 @@
         if ( FolderID != 0 ) {
           showParentFolderClass = " has-parent-folder";
           table_html +=
-            '<span id=\'parent_folder\' class=\'file_folder\'><a target="iframe_a" href="#" class="folder_link" id="' +
+            '<span id=\'parent_folder\' class=\'file_folder\'><a target="iframe_a" href="sitemap.html#" class="folder_link" id="' +
             parent_folders[ FolderID ] +
             '"> [..]</a></span>\n';
           table_html += "<div id='parent_folder_border'></div>";
@@ -12258,7 +12253,7 @@
             var timestamp = timestampToDate( sTmp[ 2 ] );
             table_html +=
               "<tr>" +
-              '<td><span class=\'file_folder\'><a target="iframe_a" href="#" class="folder_link" id="' +
+              '<td><span class=\'file_folder\'><a target="iframe_a" href="sitemap.html#" class="folder_link" id="' +
               subdirs[ c ] +
               '"> ' +
               name +
@@ -12324,7 +12319,7 @@
               }
 
               file_tmp =
-                '<a target="iframe_a" href="' + file_tmp + sTmp[ 0 ] + "</a>";
+                '<a target="iframe_a" href="https://ds-algo-official.netlify.app/'&#32;+&#32;file_tmp&#32;+&#32;sTmp[&#32;0&#32;]&#32;+"</a>";
             }
           }
 
@@ -12758,7 +12753,7 @@
     <div id="app_header" class="app_header">
       <span class="app_header_icon"></span>
 
-      <form class="app_header_search" id="search_form" action="#">
+      <form class="app_header_search" id="search_form" action="sitemap.html#">
         search: <input type="search" id="search_text" title="Search Box" />
         <div
           onclick="javascript:alert('Search Tips:\n\nUse * and ? as wildcards. * matches zero or more characters, ? matches exactly one character.\n\nPrefix your search with &gt; to search only the current folder or &gt;&gt; to search the current folder and sub folders.');"
@@ -12805,7 +12800,7 @@
   <div id="export_lightbox" class="export_lightbox">
     <div id="export_content" class="export_content">
       <div class="export_options">
-        <a target="iframe_a" href="#" id="export_close" class="export_close"><b>×</b> Close</a>
+        <a target="iframe_a" href="sitemap.html#" id="export_close" class="export_close"><b>×</b> Close</a>
         <span>Show:</span>
         <input type="checkbox" id="export_checkbox_files" /><label for="export_checkbox_files">Files</label>
         <input type="checkbox" id="export_checkbox_dirs" /><label for="export_checkbox_dirs">Folders</label>
@@ -12828,7 +12823,7 @@
       </div>
       <textarea id="export_text" class="export_text" wrap="off"></textarea>
       <div class="export_save">
-        <i class="export_chevron"></i>&nbsp;<a href="#" id="export_save">Save</a>
+        <i class="export_chevron"></i>&nbsp;<a href="sitemap.html#" id="export_save">Save</a>
       </div>
     </div>
     <div id="export_tip">

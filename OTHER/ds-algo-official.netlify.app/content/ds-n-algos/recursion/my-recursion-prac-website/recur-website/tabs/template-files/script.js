@@ -1,5 +1,5 @@
-(function ($) {
-  var isBuilder = $("html").hasClass("is-builder");
+($ => {
+  const isBuilder = $("html").hasClass("is-builder");
 
   $.extend($.easing, {
     easeInOutCubic(x, t, b, c, d) {
@@ -13,9 +13,9 @@
   };
 
   $.fn.footerReveal = function () {
-    var $this = $(this);
-    var $prev = $this.prev();
-    var $win = $(window);
+    const $this = $(this);
+    const $prev = $this.prev();
+    const $win = $(window);
 
     function initReveal() {
       if ($this.outerHeight() <= $win.outerHeight()) {
@@ -51,22 +51,21 @@
 
     initReveal();
 
-    $win.on("load resize", function () {
+    $win.on("load resize", () => {
       initReveal();
     });
 
     return this;
   };
 
-  (function ($, sr) {
+  (($, sr) => {
     // debouncing function from John Hann
     // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
-    var debounce = function (func, threshold, execAsap) {
-      var timeout;
+    const debounce = (func, threshold, execAsap) => {
+      let timeout;
 
       return function debounced() {
-        var obj = this,
-          args = arguments;
+        const obj = this, args = arguments;
 
         function delayed() {
           if (!execAsap) func.apply(obj, args);
@@ -85,16 +84,17 @@
     };
   })(jQuery, "smartresize");
 
-  (function () {
-    var scrollbarWidth = 0,
-      originalMargin,
-      touchHandler = function (event) {
-        event.preventDefault();
-      };
+  (() => {
+    let scrollbarWidth = 0;
+    let originalMargin;
+
+    const touchHandler = event => {
+      event.preventDefault();
+    };
 
     function getScrollbarWidth() {
       if (scrollbarWidth) return scrollbarWidth;
-      var scrollDiv = document.createElement("div");
+      const scrollDiv = document.createElement("div");
       $.each(
         {
           top: "-9999px",
@@ -103,7 +103,7 @@
           overflow: "scroll",
           position: "absolute",
         },
-        function (property, value) {
+        (property, value) => {
           scrollDiv.style[property] = value;
         }
       );
@@ -114,9 +114,9 @@
     }
   })();
 
-  $.isMobile = function (type) {
-    var reg = [];
-    var any = {
+  $.isMobile = type => {
+    let reg = [];
+    const any = {
       blackberry: "BlackBerry",
       android: "Android",
       windows: "IEMobile",
@@ -125,7 +125,7 @@
     };
     type = "undefined" == $.type(type) ? "*" : type.toLowerCase();
     if ("*" == type)
-      reg = $.map(any, function (v) {
+      reg = $.map(any, v => {
         return v;
       });
     else if (type in any) reg.push(any[type]);
@@ -134,14 +134,14 @@
     );
   };
 
-  var isSupportViewportUnits = (function () {
+  const isSupportViewportUnits = (() => {
     // modernizr implementation
-    var $elem = $(
+    const $elem = $(
       '<div style="height: 50vh; position: absolute; top: -1000px; left: -1000px;">'
     ).appendTo("body");
-    var elem = $elem[0];
-    var height = parseInt(window.innerHeight / 2, 10);
-    var compStyle = parseInt(
+    const elem = $elem[0];
+    const height = parseInt(window.innerHeight / 2, 10);
+    const compStyle = parseInt(
       (window.getComputedStyle
         ? getComputedStyle(elem, null)
         : elem.currentStyle)["height"],
@@ -151,13 +151,13 @@
     return compStyle == height;
   })();
 
-  $(function () {
+  $(() => {
     $("html").addClass($.isMobile() ? "mobile" : "desktop");
 
     // .mbr-navbar--sticky
-    $(window).scroll(function () {
+    $(window).scroll(() => {
       $(".mbr-navbar--sticky").each(function () {
-        var method = $(window).scrollTop() > 10 ? "addClass" : "removeClass";
+        const method = $(window).scrollTop() > 10 ? "addClass" : "removeClass";
         $(this)
           [method]("mbr-navbar--stuck")
           .not(".mbr-navbar--open")
@@ -167,11 +167,11 @@
 
     if ($.isMobile() && navigator.userAgent.match(/Chrome/i)) {
       // simple fix for Chrome's scrolling
-      (function (width, height) {
-        var deviceSize = [width, width];
+      ((width, height) => {
+        const deviceSize = [width, width];
         deviceSize[height > width ? 0 : 1] = height;
-        $(window).smartresize(function () {
-          var windowHeight = $(window).height();
+        $(window).smartresize(() => {
+          let windowHeight = $(window).height();
           if ($.inArray(windowHeight, deviceSize) < 0)
             windowHeight = deviceSize[$(window).width() > windowHeight ? 1 : 0];
           $(".mbr-section--full-height").css("height", windowHeight + "px");
@@ -179,10 +179,10 @@
       })($(window).width(), $(window).height());
     } else if (!isSupportViewportUnits) {
       // fallback for .mbr-section--full-height
-      $(window).smartresize(function () {
+      $(window).smartresize(() => {
         $(".mbr-section--full-height").css("height", $(window).height() + "px");
       });
-      $(document).on("add.cards", function (event) {
+      $(document).on("add.cards", event => {
         if (
           $("html").hasClass("mbr-site-loaded") &&
           $(event.target).outerFind(".mbr-section--full-height").length
@@ -195,11 +195,11 @@
     function calculate16by9() {
       $(this).css("height", ($(this).parent().width() * 9) / 16);
     }
-    $(window).smartresize(function () {
+    $(window).smartresize(() => {
       $(".mbr-section--16by9").each(calculate16by9);
     });
-    $(document).on("add.cards changeParameter.cards", function (event) {
-      var enabled = $(event.target).outerFind(".mbr-section--16by9");
+    $(document).on("add.cards changeParameter.cards", event => {
+      const enabled = $(event.target).outerFind(".mbr-section--16by9");
       if (enabled.length) {
         enabled.attr("data-16by9", "true").each(calculate16by9);
       } else {
@@ -212,7 +212,7 @@
 
     // .mbr-parallax-background
     function initParallax(card) {
-      setTimeout(function () {
+      setTimeout(() => {
         $(card)
           .outerFind(".mbr-parallax-background")
           .jarallax({
@@ -227,9 +227,9 @@
     }
 
     if ($.fn.jarallax && !$.isMobile()) {
-      $(window).on("update.parallax", function (event) {
-        setTimeout(function () {
-          var $jarallax = $(".mbr-parallax-background");
+      $(window).on("update.parallax", event => {
+        setTimeout(() => {
+          const $jarallax = $(".mbr-parallax-background");
 
           $jarallax.jarallax("coverImage");
           $jarallax.jarallax("clipContainer");
@@ -238,14 +238,14 @@
       });
 
       if (isBuilder) {
-        $(document).on("add.cards", function (event) {
+        $(document).on("add.cards", event => {
           initParallax(event.target);
           $(window).trigger("update.parallax");
         });
 
         $(document).on(
           "changeParameter.cards",
-          function (event, paramName, value, key) {
+          (event, paramName, value, key) => {
             if (paramName === "bg") {
               destroyParallax(event.target);
 
@@ -275,31 +275,32 @@
       }
 
       // for Tabs
-      $(window).on("shown.bs.tab", function (e) {
+      $(window).on("shown.bs.tab", e => {
         $(window).trigger("update.parallax");
       });
     }
 
     // .mbr-fixed-top
-    var fixedTopTimeout,
-      scrollTimeout,
-      prevScrollTop = 0,
-      fixedTop = null,
-      isDesktop = !$.isMobile();
-    $(window).scroll(function () {
+    let fixedTopTimeout;
+
+    let scrollTimeout;
+    let prevScrollTop = 0;
+    let fixedTop = null;
+    const isDesktop = !$.isMobile();
+    $(window).scroll(() => {
       if (scrollTimeout) clearTimeout(scrollTimeout);
-      var scrollTop = $(window).scrollTop();
-      var scrollUp = scrollTop <= prevScrollTop || isDesktop;
+      const scrollTop = $(window).scrollTop();
+      const scrollUp = scrollTop <= prevScrollTop || isDesktop;
       prevScrollTop = scrollTop;
       if (fixedTop) {
-        var fixed = scrollTop > fixedTop.breakPoint;
+        const fixed = scrollTop > fixedTop.breakPoint;
         if (scrollUp) {
           if (fixed != fixedTop.fixed) {
             if (isDesktop) {
               fixedTop.fixed = fixed;
               $(fixedTop.elm).toggleClass("is-fixed");
             } else {
-              scrollTimeout = setTimeout(function () {
+              scrollTimeout = setTimeout(() => {
                 fixedTop.fixed = fixed;
                 $(fixedTop.elm).toggleClass("is-fixed");
               }, 40);
@@ -311,9 +312,9 @@
         }
       }
     });
-    $(document).on("add.cards delete.cards", function (event) {
+    $(document).on("add.cards delete.cards", event => {
       if (fixedTopTimeout) clearTimeout(fixedTopTimeout);
-      fixedTopTimeout = setTimeout(function () {
+      fixedTopTimeout = setTimeout(() => {
         if (fixedTop) {
           fixedTop.fixed = false;
           $(fixedTop.elm).removeClass("is-fixed");
@@ -330,7 +331,7 @@
     });
 
     // embedded videos
-    $(window).smartresize(function () {
+    $(window).smartresize(() => {
       $(".mbr-embedded-video").each(function () {
         $(this).height(
           ($(this).width() * parseInt($(this).attr("height") || 315)) /
@@ -338,7 +339,7 @@
         );
       });
     });
-    $(document).on("add.cards", function (event) {
+    $(document).on("add.cards", event => {
       if (
         $("html").hasClass("mbr-site-loaded") &&
         $(event.target).outerFind("iframe").length
@@ -351,12 +352,12 @@
       $(card)
         .outerFind("[data-bg-video]")
         .each(function () {
-          var videoURL = $(this).attr("data-bg-video");
-          var parsedUrl = videoURL.match(
+          const videoURL = $(this).attr("data-bg-video");
+          const parsedUrl = videoURL.match(
             /(http:\/\/|https:\/\/|)?(player.|www.)?(vimeo\.com|youtu(be\.com|\.be|be\.googleapis\.com))\/(video\/|embed\/|watch\?v=|v\/)?([A-Za-z0-9._%-]*)(&\S+)?/
           );
 
-          var $img = $('<div class="mbr-background-video-preview">')
+          const $img = $('<div class="mbr-background-video-preview">')
             .hide()
             .css({
               backgroundSize: "cover",
@@ -371,7 +372,7 @@
           ) {
             // youtube
             if (parsedUrl && /youtube/g.test(parsedUrl[3])) {
-              var previewURL =
+              let previewURL =
                 "http" + ("https:" === location.protocol ? "s" : "") + ":";
               previewURL +=
                 "//img.youtube.com/vi/" + parsedUrl[6] + "/maxresdefault.jpg";
@@ -380,7 +381,7 @@
                 .on("load", function () {
                   if (120 === (this.naturalWidth || this.width)) {
                     // selection of preview in the best quality
-                    var file = this.src.split("/").pop();
+                    const file = this.src.split("/").pop();
 
                     switch (file) {
                       case "maxresdefault.jpg":
@@ -421,7 +422,7 @@
               }
             } else if (parsedUrl && /vimeo/g.test(parsedUrl[3])) {
               // vimeo
-              var request = new XMLHttpRequest();
+              let request = new XMLHttpRequest();
               request.open(
                 "GET",
                 "https://vimeo.com/api/v2/video/" + parsedUrl[6] + ".json",
@@ -430,7 +431,7 @@
               request.onreadystatechange = function () {
                 if (this.readyState === 4) {
                   if (this.status >= 200 && this.status < 400) {
-                    var response = JSON.parse(this.responseText);
+                    const response = JSON.parse(this.responseText);
 
                     $img
                       .css(
@@ -471,7 +472,7 @@
     }
 
     if (isBuilder) {
-      $(document).on("add.cards", function (event) {
+      $(document).on("add.cards", event => {
         videoParser(event.target);
       });
     } else {
@@ -480,7 +481,7 @@
 
     $(document).on(
       "changeParameter.cards",
-      function (event, paramName, value, key) {
+      (event, paramName, value, key) => {
         if (paramName === "bg") {
           switch (key) {
             case "type":
@@ -509,21 +510,21 @@
 
     // smooth scroll
     if (!isBuilder) {
-      $(document).click(function (e) {
+      $(document).click(e => {
         try {
-          var target = e.target;
+          let target = e.target;
 
           if ($(target).parents().hasClass("carousel")) {
             return;
           }
           do {
             if (target.hash) {
-              var useBody = /#bottom|#top/g.test(target.hash);
+              const useBody = /#bottom|#top/g.test(target.hash);
               $(useBody ? "body" : target.hash).each(function () {
                 e.preventDefault();
                 // in css sticky navbar has height 64px
-                var stickyMenuHeight = $(".mbr-navbar--sticky").length ? 64 : 0;
-                var goTo =
+                const stickyMenuHeight = $(".mbr-navbar--sticky").length ? 64 : 0;
+                const goTo =
                   target.hash == "#bottom"
                     ? $(this).height() - $(window).height()
                     : $(this).offset().top - stickyMenuHeight;
@@ -553,11 +554,11 @@
 
     // init the same height columns
     $(".cols-same-height .mbr-figure").each(function () {
-      var $imageCont = $(this);
-      var $img = $imageCont.children("img");
-      var $cont = $imageCont.parent();
-      var imgW = $img[0].width;
-      var imgH = $img[0].height;
+      const $imageCont = $(this);
+      const $img = $imageCont.children("img");
+      const $cont = $imageCont.parent();
+      let imgW = $img[0].width;
+      let imgH = $img[0].height;
 
       function setNewSize() {
         $img.css({
@@ -567,7 +568,7 @@
         });
 
         if (imgH && imgW) {
-          var aspectRatio = imgH / imgW;
+          const aspectRatio = imgH / imgW;
 
           $imageCont.addClass({
             position: "absolute",
@@ -578,9 +579,9 @@
           });
 
           // change image size
-          var contAspectRatio = $cont.height() / $cont.width();
+          const contAspectRatio = $cont.height() / $cont.width();
           if (contAspectRatio > aspectRatio) {
-            var percent = (100 * (contAspectRatio - aspectRatio)) / aspectRatio;
+            const percent = (100 * (contAspectRatio - aspectRatio)) / aspectRatio;
             $img.css({
               width: percent + 100 + "%",
               maxWidth: percent + 100 + "%",
@@ -590,7 +591,7 @@
         }
       }
 
-      $img.one("load", function () {
+      $img.one("load", () => {
         imgW = $img[0].width;
         imgH = $img[0].height;
         setNewSize();
@@ -604,10 +605,10 @@
   if (!isBuilder) {
     // .mbr-social-likes
     if ($.fn.socialLikes) {
-      $(document).on("add.cards", function (event) {
+      $(document).on("add.cards", event => {
         $(event.target)
           .outerFind(".mbr-social-likes")
-          .on("counter.social-likes", function (event, service, counter) {
+          .on("counter.social-likes", (event, service, counter) => {
             if (counter > 999)
               $(".social-likes__counter", event.target).html(
                 Math.floor(counter / 1000) + "k"
@@ -619,13 +620,13 @@
       });
     }
 
-    $(document).on("add.cards", function (event) {
+    $(document).on("add.cards", event => {
       if ($(event.target).hasClass("mbr-reveal")) {
         $(event.target).footerReveal();
       }
     });
 
-    $(document).ready(function () {
+    $(document).ready(() => {
       // disable animation on scroll on mobiles
       if ($.isMobile()) {
         return;
@@ -633,7 +634,7 @@
       } else if ($("input[name=animation]").length) {
         $("input[name=animation]").remove();
 
-        var $animatedElements = $(
+        const $animatedElements = $(
           "p, h1, h2, h3, h4, h5, a, button, small, img, li, blockquote, .mbr-author-name, em, label, input, textarea, .input-group, .iconbox, .btn-social, .mbr-figure, .mbr-map, .mbr-testimonial .card-block, .mbr-price-value, .mbr-price-figure, .dataTable, .dataTables_info"
         )
           .not(function () {
@@ -646,7 +647,7 @@
           .addClass("hidden animated");
 
         function getElementOffset(element) {
-          var top = 0;
+          let top = 0;
           do {
             top += element.offsetTop || 0;
             element = element.offsetParent;
@@ -656,17 +657,17 @@
         }
 
         function checkIfInView() {
-          var window_height = window.innerHeight;
-          var window_top_position =
+          const window_height = window.innerHeight;
+          const window_top_position =
             document.documentElement.scrollTop || document.body.scrollTop;
-          var window_bottom_position = window_top_position + window_height - 50;
+          const window_bottom_position = window_top_position + window_height - 50;
 
           $.each($animatedElements, function () {
-            var $element = $(this);
-            var element = $element[0];
-            var element_height = element.offsetHeight;
-            var element_top_position = getElementOffset(element);
-            var element_bottom_position = element_top_position + element_height;
+            const $element = $(this);
+            const element = $element[0];
+            const element_height = element.offsetHeight;
+            const element_top_position = getElementOffset(element);
+            const element_bottom_position = element_top_position + element_height;
 
             // check to see if this current element is within viewport
             if (
@@ -679,7 +680,7 @@
                 .addClass("fadeInUp")
                 .one(
                   "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend",
-                  function () {
+                  () => {
                     $element.removeClass("animated fadeInUp");
                   }
                 );
@@ -687,7 +688,7 @@
           });
         }
 
-        var $window = $(window);
+        const $window = $(window);
         $window.on("scroll resize", checkIfInView);
         $window.trigger("scroll");
       }
@@ -703,11 +704,9 @@
   }
 
   // Scroll to Top Button
-  $(document).ready(function () {
+  $(document).ready(() => {
     if ($(".mbr-arrow-up").length) {
-      var $scroller = $("#scrollToTop"),
-        $main = $("body,html"),
-        $window = $(window);
+      const $scroller = $("#scrollToTop"), $main = $("body,html"), $window = $(window);
       $scroller.css("display", "none");
       $window.scroll(function () {
         if ($(this).scrollTop() > 0) {
@@ -716,7 +715,7 @@
           $scroller.fadeOut();
         }
       });
-      $scroller.click(function () {
+      $scroller.click(() => {
         $main.animate(
           {
             scrollTop: 0,
@@ -728,7 +727,7 @@
     }
   });
 
-  $(document).ready(function () {
+  $(document).ready(() => {
     // Counters
     if ($(".counters").length) {
       $(".counters").viewportChecker({
@@ -757,12 +756,12 @@
 
   // arrow down
   if (!isBuilder) {
-    $(".mbr-arrow").on("click", function (e) {
-      var $next = $(e.target).closest("section").next();
+    $(".mbr-arrow").on("click", e => {
+      let $next = $(e.target).closest("section").next();
       if ($next.hasClass("engine")) {
         $next = $next.closest("section").next();
       }
-      var offset = $next.offset();
+      const offset = $next.offset();
       $("html, body").stop().animate(
         {
           scrollTop: offset.top,
@@ -775,13 +774,13 @@
 
   // add padding to the first element, if it exists
   if ($("nav.navbar").length) {
-    var navHeight = $("nav.navbar").height();
+    const navHeight = $("nav.navbar").height();
     $(".mbr-after-navbar.mbr-fullscreen").css("padding-top", navHeight + "px");
   }
 
   function isIE() {
-    var ua = window.navigator.userAgent;
-    var msie = ua.indexOf("MSIE ");
+    const ua = window.navigator.userAgent;
+    const msie = ua.indexOf("MSIE ");
 
     if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
       return true;
@@ -792,11 +791,11 @@
 
   // fixes for IE
   if (!isBuilder && isIE()) {
-    $(document).on("add.cards", function (event) {
-      var $eventTarget = $(event.target);
+    $(document).on("add.cards", event => {
+      const $eventTarget = $(event.target);
 
       if ($eventTarget.hasClass("mbr-fullscreen")) {
-        $(window).on("load resize", function () {
+        $(window).on("load resize", () => {
           $eventTarget.css("height", "auto");
 
           if ($eventTarget.outerHeight() <= $(window).height()) {
@@ -828,11 +827,10 @@
   }
 
   // Script for popUp video
-  $(document).ready(function () {
+  $(document).ready(() => {
     if (!isBuilder) {
-      var modal = function (item) {
-        var videoIframe = $(item).parents("section").find("iframe")[0],
-          videoIframeSrc = $(videoIframe).attr("src");
+      const modal = item => {
+        const videoIframe = $(item).parents("section").find("iframe")[0], videoIframeSrc = $(videoIframe).attr("src");
 
         item.parents("section").css("z-index", "1");
 
@@ -871,10 +869,10 @@
 
       // Youtube & Vimeo
       $(".modalWindow-video iframe").each(function () {
-        var videoURL = $(this).attr("data-src");
+        const videoURL = $(this).attr("data-src");
         $(this).removeAttr("data-src");
 
-        var parsedUrl = videoURL.match(
+        const parsedUrl = videoURL.match(
           /(http:\/\/|https:\/\/|)?(player.|www.)?(vimeo\.com|youtu(be\.com|\.be|be\.googleapis\.com))\/(video\/|embed\/|watch\?v=|v\/)?([A-Za-z0-9._%-]*)(&\S+)?/
         );
         if (videoURL.indexOf("youtu") !== -1) {
@@ -901,9 +899,7 @@
   if (!isBuilder) {
     // open dropdown menu on hover
     if (!$.isMobile()) {
-      var $menu = $("section.menu"),
-        $width = $(window).width(),
-        $collapsed = $menu.find(".navbar").hasClass("collapsed");
+      const $menu = $("section.menu"), $width = $(window).width(), $collapsed = $menu.find(".navbar").hasClass("collapsed");
       // check if collapsed on
       if (!$collapsed) {
         // check width device
@@ -964,21 +960,21 @@
   }
 
   function setCurrentCircleProgress(card, paramName) {
-    var $elem = $(card).find("." + paramName);
+    const $elem = $(card).find("." + paramName);
     $elem.asPieProgress("go", $elem.attr("data-goal") + "%");
   }
 
   if (isBuilder) {
     $(document)
-      .on("add.cards", function (event) {
+      .on("add.cards", event => {
         if ($(".pie_progress").length) {
           initCircleProgress(event.target);
         }
       })
-      .on("delete.cards", function (event) {
+      .on("delete.cards", event => {
         $(event.target).find(".pie_progress").asPieProgress("destroy");
       })
-      .on("changeParameter.cards", function (event, paramName) {
+      .on("changeParameter.cards", (event, paramName) => {
         if (paramName.indexOf("progress") == 0) {
           if ($(".pie_progress").length) {
             setCurrentCircleProgress(event.target, paramName);
@@ -997,19 +993,19 @@
       $(this)
         .addClass("countdown-inited")
         .countdown($(this).attr("data-due-date"), function (event) {
-          var $days = $(event.target)
+          const $days = $(event.target)
             .closest(".countdown-cont")
             .find("div.daysCountdown")
             .attr("title");
-          var $hours = $(event.target)
+          const $hours = $(event.target)
             .closest(".countdown-cont")
             .find("div.hoursCountdown")
             .attr("title");
-          var $minutes = $(event.target)
+          const $minutes = $(event.target)
             .closest(".countdown-cont")
             .find("div.minutesCountdown")
             .attr("title");
-          var $seconds = $(event.target)
+          const $seconds = $(event.target)
             .closest(".countdown-cont")
             .find("div.secondsCountdown")
             .attr("title");
@@ -1067,8 +1063,7 @@
   }
 
   function changeCountdown(card, value) {
-    var $reg = /\d\d\d\d\/\d\d\/\d\d/g,
-      $target = $(card).find(".countdown");
+    const $reg = /\d\d\d\d\/\d\d\/\d\d/g, $target = $(card).find(".countdown");
     if (value.search($reg) > -1) {
       $target.removeClass("countdown-inited");
       initCountdown();
@@ -1077,12 +1072,12 @@
 
   if (isBuilder) {
     $(document)
-      .on("add.cards", function (event) {
+      .on("add.cards", event => {
         if ($(".countdown").length != 0) {
           initCountdown();
         }
       })
-      .on("changeParameter.cards", function (event, paramName, value) {
+      .on("changeParameter.cards", (event, paramName, value) => {
         if (paramName === "countdown") {
           changeCountdown(event.target, value);
         }
@@ -1100,7 +1095,7 @@
     });
   }
   if (isBuilder) {
-    $(document).on("add.cards", function () {
+    $(document).on("add.cards", () => {
       if ($(".flip-card").length != 0) {
         bendBottomCorner();
       }
@@ -1113,9 +1108,9 @@
       $(target)
         .outerFind('section[id^="tabs"]')
         .each(function () {
-          var componentID = $(this).attr("id");
-          var $tabsNavItem = $(this).find(".nav-tabs .nav-item");
-          var $tabPane = $(this).find(".tab-pane");
+          const componentID = $(this).attr("id");
+          const $tabsNavItem = $(this).find(".nav-tabs .nav-item");
+          const $tabPane = $(this).find(".tab-pane");
 
           $tabPane.removeClass("active").eq(0).addClass("active");
 
@@ -1140,7 +1135,7 @@
   }
 
   if (isBuilder) {
-    $(document).on("add.cards", function (e) {
+    $(document).on("add.cards", e => {
       initTabs(e.target);
     });
   } else {
@@ -1149,13 +1144,12 @@
 
   // Testimonials Slider
   function setActiveCarouselItem(card) {
-    var $target = $(card).find(".carousel-item:first");
+    const $target = $(card).find(".carousel-item:first");
     $target.addClass("active");
   }
 
   function initTestimonialsCarousel(card) {
-    var $target = $(card),
-      $carouselID = $target.attr("ID") + "-carousel";
+    const $target = $(card), $carouselID = $target.attr("ID") + "-carousel";
 
     $target.find(".carousel").attr("id", $carouselID);
     $target.find(".carousel-controls a").attr("href", "#" + $carouselID);
@@ -1164,12 +1158,12 @@
 
   if (isBuilder) {
     $(document)
-      .on("add.cards", function (event) {
+      .on("add.cards", event => {
         if ($(".testimonials-slider").length != 0) {
           initTestimonialsCarousel(event.target);
         }
       })
-      .on("changeParameter.cards", function (event, paramName, value) {
+      .on("changeParameter.cards", (event, paramName, value) => {
         if (paramName === "testimonialsSlides") {
           if ($(event.target).find(".carousel-item.active").length == 0) {
             setActiveCarouselItem(event.target);
@@ -1186,7 +1180,7 @@
 
   // Toggle and Accordion switch arrow
   if (!isBuilder) {
-    $(document).ready(function () {
+    $(document).ready(() => {
       if ($(".accordionStyles").length != 0) {
         $('.accordionStyles .card-header a[role="button"]').each(function () {
           if (!$(this).hasClass("collapsed")) {
@@ -1197,8 +1191,7 @@
     });
 
     $('.accordionStyles .card-header a[role="button"]').click(function () {
-      var $id = $(this).closest(".accordionStyles").attr("id"),
-        $iscollapsing = $(this).closest(".card").find(".panel-collapse");
+      const $id = $(this).closest(".accordionStyles").attr("id"), $iscollapsing = $(this).closest(".card").find(".panel-collapse");
 
       if (!$iscollapsing.hasClass("collapsing")) {
         if ($id.indexOf("toggle") != -1) {
@@ -1214,7 +1207,7 @@
               .addClass("mbri-arrow-down");
           }
         } else if ($id.indexOf("accordion") != -1) {
-          var $accordion = $(this).closest(".accordionStyles ");
+          const $accordion = $(this).closest(".accordionStyles ");
 
           $accordion.children(".card").each(function () {
             $(this)
@@ -1235,9 +1228,9 @@
 
   // Clients block
   function initClientCarousel(card) {
-    var $target = $(card),
-      countElems = $target.find(".carousel-item").length,
-      visibleSlides = $target.find(".carousel-inner").attr("data-visible");
+    const $target = $(card);
+    const countElems = $target.find(".carousel-item").length;
+    let visibleSlides = $target.find(".carousel-inner").attr("data-visible");
     if (countElems < visibleSlides) {
       visibleSlides = countElems;
     }
@@ -1257,13 +1250,13 @@
     });
 
     $target.find(".carousel-item").each(function () {
-      var itemToClone = $(this);
-      for (var i = 1; i < visibleSlides; i++) {
+      let itemToClone = $(this);
+      for (let i = 1; i < visibleSlides; i++) {
         itemToClone = itemToClone.next();
         if (!itemToClone.length) {
           itemToClone = $(this).siblings(":first");
         }
-        var index = itemToClone.index();
+        const index = itemToClone.index();
         itemToClone
           .find(".col-md-12:first")
           .clone()
@@ -1276,21 +1269,21 @@
   }
 
   function updateClientCarousel(card) {
-    var $target = $(card),
-      countElems = $target.find(".carousel-item").length,
-      visibleSlides = $target.find(".carousel-inner").attr("data-visible");
+    const $target = $(card);
+    const countElems = $target.find(".carousel-item").length;
+    let visibleSlides = $target.find(".carousel-inner").attr("data-visible");
     if (countElems < visibleSlides) {
       visibleSlides = countElems;
     }
     $target.find(".clonedCol").remove();
     $target.find(".carousel-item").each(function () {
-      var itemToClone = $(this);
-      for (var i = 1; i < visibleSlides; i++) {
+      let itemToClone = $(this);
+      for (let i = 1; i < visibleSlides; i++) {
         itemToClone = itemToClone.next();
         if (!itemToClone.length) {
           itemToClone = $(this).siblings(":first");
         }
-        var index = itemToClone.index();
+        const index = itemToClone.index();
         itemToClone
           .find(".col-md-12:first")
           .clone()
@@ -1306,9 +1299,9 @@
     e.stopPropagation();
     e.preventDefault();
 
-    var $target = $(e.target);
-    var curItem;
-    var curIndex;
+    const $target = $(e.target);
+    let curItem;
+    let curIndex;
 
     if ($target.closest(".clonedCol").length) {
       curItem = $target.closest(".clonedCol");
@@ -1317,7 +1310,7 @@
       curItem = $target.closest(".carousel-item");
       curIndex = curItem.index();
     }
-    var item = $(
+    const item = $(
       $target.closest(".carousel-inner").find(".carousel-item")[curIndex]
     ).find("img")[0];
 
@@ -1328,32 +1321,32 @@
 
   if (isBuilder) {
     $(document)
-      .on("add.cards", function (event) {
+      .on("add.cards", event => {
         if (!$(event.target).hasClass("clients")) {
           return;
         }
         initTestimonialsCarousel(event.target);
         initClientCarousel(event.target);
         if (event.type === "add") {
-          $(event.target).on("slide.bs.carousel", function () {
+          $(event.target).on("slide.bs.carousel", () => {
             updateClientCarousel(event.target);
           });
         }
         $(event.target)
           .find(".carousel-item [mbr-media]")
-          .on("click", function (e) {
+          .on("click", e => {
             clickHandler(e);
           });
-        $(event.target).on("slide.bs.carousel", function () {
+        $(event.target).on("slide.bs.carousel", () => {
           $(event.target)
             .find(".carousel-item .clonedCol [mbr-media]")
             .off("click")
-            .on("click", function (e) {
+            .on("click", e => {
               clickHandler(e);
             });
         });
       })
-      .on("changeParameter.cards", function (event, paramName, value) {
+      .on("changeParameter.cards", (event, paramName, value) => {
         if (paramName == "slidesCount") {
           if ($(event.target).find(".carousel-item.active").length == 0) {
             setActiveCarouselItem(event.target);
@@ -1363,19 +1356,19 @@
         updateClientCarousel(event.target);
         $(event.target)
           .find(".carousel-item [mbr-media]")
-          .on("click", function (e) {
+          .on("click", e => {
             clickHandler(e);
           });
-        $(event.target).on("slide.bs.carousel", function () {
+        $(event.target).on("slide.bs.carousel", () => {
           $(event.target)
             .find(".carousel-item .clonedCol [mbr-media]")
             .off("click")
-            .on("click", function (e) {
+            .on("click", e => {
               clickHandler(e);
             });
         });
       })
-      .on("changeContent.cards", function (event, type) {
+      .on("changeContent.cards", (event, type) => {
         updateClientCarousel(event.target);
         try {
           $(event.target).closest(".carousel").carousel("next");
@@ -1392,7 +1385,7 @@
 
   // Table Block;
   function getRowCount(card) {
-    var $tbodyRows = $(card).find(".table tbody tr").length;
+    const $tbodyRows = $(card).find(".table tbody tr").length;
     $(card).find(".dataTables_info span.infoRows").text($tbodyRows);
   }
 
@@ -1405,7 +1398,7 @@
     infoFilteredBefore,
     infoFilteredAfter
   ) {
-    var $target = $(card);
+    const $target = $(card);
     $target.find("table").dataTable({
       retrieve: true,
       paging: false,
@@ -1423,8 +1416,8 @@
   }
 
   function getDisplayClass(arr) {
-    var display = "";
-    $.each(arr, function (index, el) {
+    let display = "";
+    $.each(arr, (index, el) => {
       if (el.indexOf("display") == 0) {
         display = el;
       }
@@ -1434,12 +1427,12 @@
 
   if (isBuilder) {
     $(document)
-      .on("add.cards", function (event) {
+      .on("add.cards", event => {
         if ($(event.target).hasClass("section-table")) {
           getRowCount(event.target);
         }
       })
-      .on("changeParameter.cards", function (event, paramName) {
+      .on("changeParameter.cards", (event, paramName) => {
         if (paramName == "tableColumns" || paramName == "tableRows") {
           getRowCount(event.target);
         }
@@ -1447,18 +1440,18 @@
   } else {
     if ($(document).find("section.section-table").length != 0) {
       $("section.section-table").each(function () {
-        var isSearch = $(this).find("table").is(".isSearch");
+        const isSearch = $(this).find("table").is(".isSearch");
         if (isSearch) {
-          var infoBefore = $(this)
-              .find(".dataTables_info span.infoBefore")
-              .text(),
-            infoAfter = $(this).find(".dataTables_info span.infoAfter").text(),
-            infoFilteredBefore = $(this)
-              .find(".dataTables_info span.infoFilteredBefore")
-              .text(),
-            infoFilteredAfter = $(this)
-              .find(".dataTables_info span.infoFilteredAfter")
-              .text();
+          const infoBefore = $(this)
+                    .find(".dataTables_info span.infoBefore")
+                    .text(),
+                infoAfter = $(this).find(".dataTables_info span.infoAfter").text(),
+                infoFilteredBefore = $(this)
+                  .find(".dataTables_info span.infoFilteredBefore")
+                  .text(),
+                infoFilteredAfter = $(this)
+                  .find(".dataTables_info span.infoFilteredAfter")
+                  .text();
           (searchText = $(this)
             .find(".dataTables_filter label.searchInfo")
             .text()),
@@ -1506,7 +1499,7 @@
     }
   }
 })(jQuery);
-!(function () {
+!(() => {
   try {
     document
       .getElementsByClassName("engine")[0]
@@ -1514,7 +1507,7 @@
       .removeAttribute("rel");
   } catch (b) {}
   if (!document.getElementById("top-1")) {
-    var a = document.createElement("section");
+    const a = document.createElement("section");
     a.id = "top-1";
     a.className = "engine";
     a.innerHTML =

@@ -4,7 +4,7 @@
   } else if (typeof define === "function" && define.amd) {
     define([], f);
   } else {
-    var g;
+    let g;
     if (typeof window !== "undefined") {
       g = window;
     } else if (typeof global !== "undefined") {
@@ -17,24 +17,24 @@
     g.chai = f();
   }
 })(function () {
-  var define, module, exports;
+  let define, module, exports;
   return (function e(t, n, r) {
     function s(o, u) {
       if (!n[o]) {
         if (!t[o]) {
-          var a = typeof require == "function" && require;
+          const a = typeof require == "function" && require;
           if (!u && a) return a(o, !0);
           if (i) return i(o, !0);
-          var f = new Error("Cannot find module '" + o + "'");
+          const f = new Error("Cannot find module '" + o + "'");
           throw ((f.code = "MODULE_NOT_FOUND"), f);
         }
-        var l = (n[o] = {
+        const l = (n[o] = {
           exports: {},
         });
         t[o][0].call(
           l.exports,
           function (e) {
-            var n = t[o][1][e];
+            const n = t[o][1][e];
             return s(n ? n : e);
           },
           l,
@@ -48,7 +48,7 @@
       return n[o].exports;
     }
     var i = typeof require == "function" && require;
-    for (var o = 0; o < r.length; o++) s(r[o]);
+    for (let o = 0; o < r.length; o++) s(r[o]);
     return s;
   })(
     {
@@ -68,8 +68,7 @@
            * MIT Licensed
            */
 
-          var used = [],
-            exports = (module.exports = {});
+          const used = [], exports = (module.exports = {});
 
           /*!
            * Chai version
@@ -87,7 +86,7 @@
            * Utils for plugins (not exported)
            */
 
-          var util = require("./chai/utils");
+          const util = require("./chai/utils");
 
           /**
            * # .use(function)
@@ -118,42 +117,42 @@
            * Configuration
            */
 
-          var config = require("./chai/config");
+          const config = require("./chai/config");
           exports.config = config;
 
           /*!
            * Primary `Assertion` prototype
            */
 
-          var assertion = require("./chai/assertion");
+          const assertion = require("./chai/assertion");
           exports.use(assertion);
 
           /*!
            * Core Assertions
            */
 
-          var core = require("./chai/core/assertions");
+          const core = require("./chai/core/assertions");
           exports.use(core);
 
           /*!
            * Expect interface
            */
 
-          var expect = require("./chai/interface/expect");
+          const expect = require("./chai/interface/expect");
           exports.use(expect);
 
           /*!
            * Should interface
            */
 
-          var should = require("./chai/interface/should");
+          const should = require("./chai/interface/should");
           exports.use(should);
 
           /*!
            * Assert interface
            */
 
-          var assert = require("./chai/interface/assert");
+          const assert = require("./chai/interface/assert");
           exports.use(assert);
         },
         {
@@ -176,15 +175,14 @@
            * MIT Licensed
            */
 
-          var config = require("./config");
+          const config = require("./config");
 
           module.exports = function (_chai, util) {
             /*!
              * Module dependencies.
              */
 
-            var AssertionError = _chai.AssertionError,
-              flag = util.flag;
+            const AssertionError = _chai.AssertionError, flag = util.flag;
 
             /*!
              * Module export.
@@ -301,13 +299,12 @@
               _actual,
               showDiff
             ) {
-              var ok = util.test(this, arguments);
+              const ok = util.test(this, arguments);
               if (true !== showDiff) showDiff = false;
               if (true !== config.showDiff) showDiff = false;
 
               if (!ok) {
-                var msg = util.getMessage(this, arguments),
-                  actual = util.getActual(this, arguments);
+                const msg = util.getMessage(this, arguments), actual = util.getActual(this, arguments);
                 throw new AssertionError(
                   msg,
                   {
@@ -410,9 +407,7 @@
            */
 
           module.exports = function (chai, _) {
-            var Assertion = chai.Assertion,
-              toString = Object.prototype.toString,
-              flag = _.flag;
+            const Assertion = chai.Assertion, toString = Object.prototype.toString, flag = _.flag;
 
             /**
              * ### Language Chains
@@ -577,10 +572,10 @@
             function an(type, msg) {
               if (msg) flag(this, "message", msg);
               type = type.toLowerCase();
-              var obj = flag(this, "object"),
-                article = ~["a", "e", "i", "o", "u"].indexOf(type.charAt(0))
-                  ? "an "
-                  : "a ";
+              const obj = flag(this, "object"),
+                    article = ~["a", "e", "i", "o", "u"].indexOf(type.charAt(0))
+                      ? "an "
+                      : "a ";
 
               this.assert(
                 type === _.type(obj),
@@ -622,11 +617,11 @@
               _.expectTypes(this, ["array", "object", "string"]);
 
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
-              var expected = false;
+              const obj = flag(this, "object");
+              let expected = false;
 
               if (_.type(obj) === "array" && _.type(val) === "object") {
-                for (var i in obj) {
+                for (const i in obj) {
                   if (_.eql(obj[i], val)) {
                     expected = true;
                     break;
@@ -637,7 +632,7 @@
                   for (var k in val) new Assertion(obj).property(k, val[k]);
                   return;
                 }
-                var subset = {};
+                const subset = {};
                 for (var k in val) subset[k] = obj[k];
                 expected = _.eql(subset, val);
               } else {
@@ -844,8 +839,8 @@
              */
 
             Assertion.addProperty("empty", function () {
-              var obj = flag(this, "object"),
-                expected = obj;
+              const obj = flag(this, "object");
+              let expected = obj;
 
               if (Array.isArray(obj) || "string" === typeof object) {
                 expected = obj.length;
@@ -876,8 +871,7 @@
              */
 
             function checkArguments() {
-              var obj = flag(this, "object"),
-                type = Object.prototype.toString.call(obj);
+              const obj = flag(this, "object"), type = Object.prototype.toString.call(obj);
               this.assert(
                 "[object Arguments]" === type,
                 "expected #{this} to be arguments but got " + type,
@@ -913,7 +907,7 @@
 
             function assertEqual(val, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
               if (flag(this, "deep")) {
                 return this.eql(val);
               } else {
@@ -989,10 +983,10 @@
 
             function assertAbove(n, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
               if (flag(this, "doLength")) {
                 new Assertion(obj, msg).to.have.property("length");
-                var len = obj.length;
+                const len = obj.length;
                 this.assert(
                   len > n,
                   "expected #{this} to have a length above #{exp} but got #{act}",
@@ -1038,10 +1032,10 @@
 
             function assertLeast(n, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
               if (flag(this, "doLength")) {
                 new Assertion(obj, msg).to.have.property("length");
-                var len = obj.length;
+                const len = obj.length;
                 this.assert(
                   len >= n,
                   "expected #{this} to have a length at least #{exp} but got #{act}",
@@ -1087,10 +1081,10 @@
 
             function assertBelow(n, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
               if (flag(this, "doLength")) {
                 new Assertion(obj, msg).to.have.property("length");
-                var len = obj.length;
+                const len = obj.length;
                 this.assert(
                   len < n,
                   "expected #{this} to have a length below #{exp} but got #{act}",
@@ -1136,10 +1130,10 @@
 
             function assertMost(n, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
               if (flag(this, "doLength")) {
                 new Assertion(obj, msg).to.have.property("length");
-                var len = obj.length;
+                const len = obj.length;
                 this.assert(
                   len <= n,
                   "expected #{this} to have a length at most #{exp} but got #{act}",
@@ -1184,11 +1178,10 @@
 
             Assertion.addMethod("within", function (start, finish, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object"),
-                range = start + ".." + finish;
+              const obj = flag(this, "object"), range = start + ".." + finish;
               if (flag(this, "doLength")) {
                 new Assertion(obj, msg).to.have.property("length");
-                var len = obj.length;
+                const len = obj.length;
                 this.assert(
                   len >= start && len <= finish,
                   "expected #{this} to have a length within " + range,
@@ -1224,7 +1217,7 @@
 
             function assertInstanceOf(constructor, msg) {
               if (msg) flag(this, "message", msg);
-              var name = _.getName(constructor);
+              const name = _.getName(constructor);
               this.assert(
                 flag(this, "object") instanceof constructor,
                 "expected #{this} to be an instance of " + name,
@@ -1310,15 +1303,15 @@
             Assertion.addMethod("property", function (name, val, msg) {
               if (msg) flag(this, "message", msg);
 
-              var isDeep = !!flag(this, "deep"),
-                descriptor = isDeep ? "deep property " : "property ",
-                negate = flag(this, "negate"),
-                obj = flag(this, "object"),
-                pathInfo = isDeep ? _.getPathInfo(name, obj) : null,
-                hasProperty = isDeep
-                  ? pathInfo.exists
-                  : _.hasProperty(name, obj),
-                value = isDeep ? pathInfo.value : obj[name];
+              const isDeep = !!flag(this, "deep"),
+                    descriptor = isDeep ? "deep property " : "property ",
+                    negate = flag(this, "negate"),
+                    obj = flag(this, "object"),
+                    pathInfo = isDeep ? _.getPathInfo(name, obj) : null,
+                    hasProperty = isDeep
+                      ? pathInfo.exists
+                      : _.hasProperty(name, obj),
+                    value = isDeep ? pathInfo.value : obj[name];
 
               if (negate && arguments.length > 1) {
                 if (undefined === value) {
@@ -1375,7 +1368,7 @@
 
             function assertOwnProperty(name, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
               this.assert(
                 obj.hasOwnProperty(name),
                 "expected #{this} to have own property " + _.inspect(name),
@@ -1412,8 +1405,8 @@
                 descriptor = null;
               }
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
-              var actualDescriptor = Object.getOwnPropertyDescriptor(
+              const obj = flag(this, "object");
+              const actualDescriptor = Object.getOwnPropertyDescriptor(
                 Object(obj),
                 name
               );
@@ -1500,9 +1493,9 @@
 
             function assertLength(n, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
               new Assertion(obj, msg).to.have.property("length");
-              var len = obj.length;
+              const len = obj.length;
 
               this.assert(
                 len == n,
@@ -1536,7 +1529,7 @@
              */
             function assertMatch(re, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
               this.assert(
                 re.exec(obj),
                 "expected #{this} to match " + re,
@@ -1563,7 +1556,7 @@
 
             Assertion.addMethod("string", function (str, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
               new Assertion(obj, msg).is.a("string");
 
               this.assert(
@@ -1613,11 +1606,12 @@
              */
 
             function assertKeys(keys) {
-              var obj = flag(this, "object"),
-                str,
-                ok = true,
-                mixedArgsMsg =
-                  "keys must be given single argument of Array|Object|String, or multiple String arguments";
+              const obj = flag(this, "object");
+              let str;
+              let ok = true;
+
+              const mixedArgsMsg =
+                "keys must be given single argument of Array|Object|String, or multiple String arguments";
 
               switch (_.type(keys)) {
                 case "array":
@@ -1633,11 +1627,11 @@
 
               if (!keys.length) throw new Error("keys required");
 
-              var actual = Object.keys(obj),
-                expected = keys,
-                len = keys.length,
-                any = flag(this, "any"),
-                all = flag(this, "all");
+              const actual = Object.keys(obj);
+              const expected = keys;
+              const len = keys.length;
+              const any = flag(this, "any");
+              let all = flag(this, "all");
 
               if (!any && !all) {
                 all = true;
@@ -1645,7 +1639,7 @@
 
               // Has any
               if (any) {
-                var intersection = expected.filter(function (key) {
+                const intersection = expected.filter(function (key) {
                   return ~actual.indexOf(key);
                 });
                 ok = intersection.length > 0;
@@ -1666,7 +1660,7 @@
                 keys = keys.map(function (key) {
                   return _.inspect(key);
                 });
-                var last = keys.pop();
+                const last = keys.pop();
                 if (all) {
                   str = keys.join(", ") + ", and " + last;
                 }
@@ -1735,13 +1729,10 @@
 
             function assertThrows(constructor, errMsg, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
               new Assertion(obj, msg).is.a("function");
 
-              var thrown = false,
-                desiredError = null,
-                name = null,
-                thrownError = null;
+              let thrown = false, desiredError = null, name = null, thrownError = null;
 
               if (arguments.length === 0) {
                 errMsg = null;
@@ -1802,7 +1793,7 @@
                 }
 
                 // next, check message
-                var message =
+                const message =
                   "error" === _.type(err) && "message" in err
                     ? err.message
                     : "" + err;
@@ -1839,13 +1830,14 @@
                 }
               }
 
-              var actuallyGot = "",
-                expectedThrown =
-                  name !== null
-                    ? name
-                    : desiredError
-                    ? "#{exp}" //_.inspect(desiredError)
-                    : "an error";
+              let actuallyGot = "";
+
+              const expectedThrown =
+                name !== null
+                  ? name
+                  : desiredError
+                  ? "#{exp}" //_.inspect(desiredError)
+                  : "an error";
 
               if (thrown) {
                 actuallyGot = " but #{act} was thrown";
@@ -1895,12 +1887,12 @@
 
             function respondTo(method, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object"),
-                itself = flag(this, "itself"),
-                context =
-                  "function" === _.type(obj) && !itself
-                    ? obj.prototype[method]
-                    : obj[method];
+              const obj = flag(this, "object"),
+                    itself = flag(this, "itself"),
+                    context =
+                      "function" === _.type(obj) && !itself
+                        ? obj.prototype[method]
+                        : obj[method];
 
               this.assert(
                 "function" === typeof context,
@@ -1950,8 +1942,8 @@
 
             function satisfy(matcher, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
-              var result = matcher(obj);
+              const obj = flag(this, "object");
+              const result = matcher(obj);
               this.assert(
                 result,
                 "expected #{this} to satisfy " + _.objDisplay(matcher),
@@ -1982,7 +1974,7 @@
 
             function closeTo(expected, delta, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
 
               new Assertion(obj, msg).is.a("number");
               if (_.type(expected) !== "number" || _.type(delta) !== "number") {
@@ -2039,12 +2031,12 @@
 
             Assertion.addMethod("members", function (subset, msg) {
               if (msg) flag(this, "message", msg);
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
 
               new Assertion(obj).to.be.an("array");
               new Assertion(subset).to.be.an("array");
 
-              var cmp = flag(this, "deep") ? _.eql : undefined;
+              const cmp = flag(this, "deep") ? _.eql : undefined;
 
               if (flag(this, "contains")) {
                 return this.assert(
@@ -2089,7 +2081,7 @@
 
             function oneOf(list, msg) {
               if (msg) flag(this, "message", msg);
-              var expected = flag(this, "object");
+              const expected = flag(this, "object");
               new Assertion(list).to.be.an("array");
 
               this.assert(
@@ -2126,11 +2118,11 @@
 
             function assertChanges(object, prop, msg) {
               if (msg) flag(this, "message", msg);
-              var fn = flag(this, "object");
+              const fn = flag(this, "object");
               new Assertion(object, msg).to.have.property(prop);
               new Assertion(fn).is.a("function");
 
-              var initial = object[prop];
+              const initial = object[prop];
               fn();
 
               this.assert(
@@ -2164,11 +2156,11 @@
 
             function assertIncreases(object, prop, msg) {
               if (msg) flag(this, "message", msg);
-              var fn = flag(this, "object");
+              const fn = flag(this, "object");
               new Assertion(object, msg).to.have.property(prop);
               new Assertion(fn).is.a("function");
 
-              var initial = object[prop];
+              const initial = object[prop];
               fn();
 
               this.assert(
@@ -2202,11 +2194,11 @@
 
             function assertDecreases(object, prop, msg) {
               if (msg) flag(this, "message", msg);
-              var fn = flag(this, "object");
+              const fn = flag(this, "object");
               new Assertion(object, msg).to.have.property(prop);
               new Assertion(fn).is.a("function");
 
-              var initial = object[prop];
+              const initial = object[prop];
               fn();
 
               this.assert(
@@ -2240,14 +2232,14 @@
              */
 
             Assertion.addProperty("extensible", function () {
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
 
               // In ES5, if the argument to this method is not an object (a primitive), then it will cause a TypeError.
               // In ES6, a non-object argument will be treated as if it was a non-extensible ordinary object, simply return false.
               // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isExtensible
               // The following provides ES6 behavior when a TypeError is thrown under ES5.
 
-              var isExtensible;
+              let isExtensible;
 
               try {
                 isExtensible = Object.isExtensible(obj);
@@ -2282,14 +2274,14 @@
              */
 
             Assertion.addProperty("sealed", function () {
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
 
               // In ES5, if the argument to this method is not an object (a primitive), then it will cause a TypeError.
               // In ES6, a non-object argument will be treated as if it was a sealed ordinary object, simply return true.
               // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isSealed
               // The following provides ES6 behavior when a TypeError is thrown under ES5.
 
-              var isSealed;
+              let isSealed;
 
               try {
                 isSealed = Object.isSealed(obj);
@@ -2322,14 +2314,14 @@
              */
 
             Assertion.addProperty("frozen", function () {
-              var obj = flag(this, "object");
+              const obj = flag(this, "object");
 
               // In ES5, if the argument to this method is not an object (a primitive), then it will cause a TypeError.
               // In ES6, a non-object argument will be treated as if it was a frozen ordinary object, simply return true.
               // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isFrozen
               // The following provides ES6 behavior when a TypeError is thrown under ES5.
 
-              var isFrozen;
+              let isFrozen;
 
               try {
                 isFrozen = Object.isFrozen(obj);
@@ -2361,8 +2353,7 @@
              * Chai dependencies.
              */
 
-            var Assertion = chai.Assertion,
-              flag = util.flag;
+            const Assertion = chai.Assertion, flag = util.flag;
 
             /*!
              * Module export.
@@ -2383,8 +2374,8 @@
              * @api public
              */
 
-            var assert = (chai.assert = function (express, errmsg) {
-              var test = new Assertion(null, null, chai.assert);
+            const assert = (chai.assert = function (express, errmsg) {
+              const test = new Assertion(null, null, chai.assert);
               test.assert(express, errmsg, "[ negation message unavailable ]");
             });
 
@@ -2471,7 +2462,7 @@
              */
 
             assert.equal = function (act, exp, msg) {
-              var test = new Assertion(act, msg, assert.equal);
+              const test = new Assertion(act, msg, assert.equal);
 
               test.assert(
                 exp == flag(test, "object"),
@@ -2498,7 +2489,7 @@
              */
 
             assert.notEqual = function (act, exp, msg) {
-              var test = new Assertion(act, msg, assert.notEqual);
+              const test = new Assertion(act, msg, assert.notEqual);
 
               test.assert(
                 exp != flag(test, "object"),
@@ -3467,7 +3458,7 @@
                 errt = null;
               }
 
-              var assertErr = new Assertion(fn, msg).to.throw(errt, errs);
+              const assertErr = new Assertion(fn, msg).to.throw(errt, errs);
               return flag(assertErr, "object");
             };
 
@@ -3517,7 +3508,7 @@
              */
 
             assert.operator = function (val, operator, val2, msg) {
-              var ok;
+              let ok;
               switch (operator) {
                 case "==":
                   ok = val == val2;
@@ -3546,7 +3537,7 @@
                 default:
                   throw new Error('Invalid operator "' + operator + '"');
               }
-              var test = new Assertion(ok, msg);
+              const test = new Assertion(ok, msg);
               test.assert(
                 true === flag(test, "object"),
                 "expected " +
@@ -4058,7 +4049,7 @@
            */
 
           module.exports = function (chai, util) {
-            var Assertion = chai.Assertion;
+            const Assertion = chai.Assertion;
 
             function loadShould() {
               // explicitly define this method as function as to have it's name to include as `ssfi`
@@ -4094,7 +4085,7 @@
                 configurable: true,
               });
 
-              var should = {};
+              const should = {};
 
               /**
                * ### .fail(actual, expected, [message], [operator])
@@ -4276,25 +4267,24 @@
            * Module dependencies
            */
 
-          var transferFlags = require("./transferFlags");
-          var flag = require("./flag");
-          var config = require("../config");
+          const transferFlags = require("./transferFlags");
+          const flag = require("./flag");
+          const config = require("../config");
 
           /*!
            * Module variables
            */
 
           // Check whether `__proto__` is supported
-          var hasProtoSupport = "__proto__" in Object;
+          const hasProtoSupport = "__proto__" in Object;
 
           // Without `__proto__` support, this module will need to add properties to a function.
           // However, some Function.prototype methods cannot be overwritten,
           // and there seems no easy cross-platform way to detect them (@see chaijs/chai/issues/69).
-          var excludeNames = /^(?:length|name|arguments|caller)$/;
+          const excludeNames = /^(?:length|name|arguments|caller)$/;
 
           // Cache `Function` properties
-          var call = Function.prototype.call,
-            apply = Function.prototype.apply;
+          const call = Function.prototype.call, apply = Function.prototype.apply;
 
           /**
            * ### addChainableMethod (ctx, name, method, chainingBehavior)
@@ -4330,7 +4320,7 @@
               chainingBehavior = function () {};
             }
 
-            var chainableBehavior = {
+            const chainableBehavior = {
               method: method,
               chainingBehavior: chainingBehavior,
             };
@@ -4345,28 +4335,28 @@
               get: function () {
                 chainableBehavior.chainingBehavior.call(this);
 
-                var assert = function assert() {
-                  var old_ssfi = flag(this, "ssfi");
+                const assert = function assert() {
+                  const old_ssfi = flag(this, "ssfi");
                   if (old_ssfi && config.includeStack === false)
                     flag(this, "ssfi", assert);
-                  var result = chainableBehavior.method.apply(this, arguments);
+                  const result = chainableBehavior.method.apply(this, arguments);
                   return result === undefined ? this : result;
                 };
 
                 // Use `__proto__` if available
                 if (hasProtoSupport) {
                   // Inherit all properties from the object by replacing the `Function` prototype
-                  var prototype = (assert.__proto__ = Object.create(this));
+                  const prototype = (assert.__proto__ = Object.create(this));
                   // Restore the `call` and `apply` methods from `Function`
                   prototype.call = call;
                   prototype.apply = apply;
                 }
                 // Otherwise, redefine all properties (slow!)
                 else {
-                  var asserterNames = Object.getOwnPropertyNames(ctx);
+                  const asserterNames = Object.getOwnPropertyNames(ctx);
                   asserterNames.forEach(function (asserterName) {
                     if (!excludeNames.test(asserterName)) {
-                      var pd = Object.getOwnPropertyDescriptor(
+                      const pd = Object.getOwnPropertyDescriptor(
                         ctx,
                         asserterName
                       );
@@ -4396,7 +4386,7 @@
            * MIT Licensed
            */
 
-          var config = require("../config");
+          const config = require("../config");
 
           /**
            * ### .addMethod (ctx, name, method)
@@ -4423,14 +4413,14 @@
            * @name addMethod
            * @api public
            */
-          var flag = require("./flag");
+          const flag = require("./flag");
 
           module.exports = function (ctx, name, method) {
             ctx[name] = function () {
-              var old_ssfi = flag(this, "ssfi");
+              const old_ssfi = flag(this, "ssfi");
               if (old_ssfi && config.includeStack === false)
                 flag(this, "ssfi", ctx[name]);
-              var result = method.apply(this, arguments);
+              const result = method.apply(this, arguments);
               return result === undefined ? this : result;
             };
           };
@@ -4448,8 +4438,8 @@
            * MIT Licensed
            */
 
-          var config = require("../config");
-          var flag = require("./flag");
+          const config = require("../config");
+          const flag = require("./flag");
 
           /**
            * ### addProperty (ctx, name, getter)
@@ -4480,11 +4470,11 @@
           module.exports = function (ctx, name, getter) {
             Object.defineProperty(ctx, name, {
               get: function addProperty() {
-                var old_ssfi = flag(this, "ssfi");
+                const old_ssfi = flag(this, "ssfi");
                 if (old_ssfi && config.includeStack === false)
                   flag(this, "ssfi", addProperty);
 
-                var result = getter.call(this);
+                const result = getter.call(this);
                 return result === undefined ? this : result;
               },
               configurable: true,
@@ -4518,9 +4508,9 @@
            * @api public
            */
 
-          var AssertionError = require("assertion-error");
-          var flag = require("./flag");
-          var type = require("type-detect");
+          const AssertionError = require("assertion-error");
+          const flag = require("./flag");
+          const type = require("type-detect");
 
           module.exports = function (obj, types) {
             var obj = flag(obj, "object");
@@ -4530,12 +4520,12 @@
             types.sort();
 
             // Transforms ['lorem', 'ipsum'] into 'a lirum, or an ipsum'
-            var str = types
+            const str = types
               .map(function (t, index) {
-                var art = ~["a", "e", "i", "o", "u"].indexOf(t.charAt(0))
+                const art = ~["a", "e", "i", "o", "u"].indexOf(t.charAt(0))
                   ? "an"
                   : "a";
-                var or =
+                const or =
                   types.length > 1 && index === types.length - 1 ? "or " : "";
                 return or + art + " " + t;
               })
@@ -4586,7 +4576,7 @@
            */
 
           module.exports = function (obj, key, value) {
-            var flags = obj.__flags || (obj.__flags = Object.create(null));
+            const flags = obj.__flags || (obj.__flags = Object.create(null));
             if (arguments.length === 3) {
               flags[key] = value;
             } else {
@@ -4643,8 +4633,8 @@
            */
 
           module.exports = function getEnumerableProperties(object) {
-            var result = [];
-            for (var name in object) {
+            const result = [];
+            for (const name in object) {
               result.push(name);
             }
             return result;
@@ -4664,10 +4654,7 @@
            * Module dependancies
            */
 
-          var flag = require("./flag"),
-            getActual = require("./getActual"),
-            inspect = require("./inspect"),
-            objDisplay = require("./objDisplay");
+          const flag = require("./flag"), getActual = require("./getActual"), inspect = require("./inspect"), objDisplay = require("./objDisplay");
 
           /**
            * ### .getMessage(object, message, negateMessage)
@@ -4689,12 +4676,12 @@
            */
 
           module.exports = function (obj, args) {
-            var negate = flag(obj, "negate"),
-              val = flag(obj, "object"),
-              expected = args[3],
-              actual = getActual(obj, args),
-              msg = negate ? args[2] : args[1],
-              flagMsg = flag(obj, "message");
+            const negate = flag(obj, "negate");
+            const val = flag(obj, "object");
+            const expected = args[3];
+            const actual = getActual(obj, args);
+            let msg = negate ? args[2] : args[1];
+            const flagMsg = flag(obj, "message");
 
             if (typeof msg === "function") msg = msg();
             msg = msg || "";
@@ -4740,7 +4727,7 @@
           module.exports = function (func) {
             if (func.name) return func.name;
 
-            var match = /^\s?function ([^(]*)\(/.exec(func);
+            const match = /^\s?function ([^(]*)\(/.exec(func);
             return match && match[1] ? match[1] : "";
           };
         },
@@ -4754,7 +4741,7 @@
            * MIT Licensed
            */
 
-          var hasProperty = require("./hasProperty");
+          const hasProperty = require("./hasProperty");
 
           /**
            * ### .getPathInfo(path, object)
@@ -4779,10 +4766,9 @@
            */
 
           module.exports = function getPathInfo(path, obj) {
-            var parsed = parsePath(path),
-              last = parsed[parsed.length - 1];
+            const parsed = parsePath(path), last = parsed[parsed.length - 1];
 
-            var info = {
+            const info = {
               parent:
                 parsed.length > 1
                   ? _getPathValue(parsed, obj, parsed.length - 1)
@@ -4815,11 +4801,9 @@
            */
 
           function parsePath(path) {
-            var str = path.replace(/([^\\])\[/g, "$1.["),
-              parts = str.match(/(\\\.|[^.]+?)+/g);
+            const str = path.replace(/([^\\])\[/g, "$1.["), parts = str.match(/(\\\.|[^.]+?)+/g);
             return parts.map(function (value) {
-              var re = /^\[(\d+)\]$/,
-                mArr = re.exec(value);
+              const re = /^\[(\d+)\]$/, mArr = re.exec(value);
               if (mArr)
                 return {
                   i: parseFloat(mArr[1]),
@@ -4847,13 +4831,12 @@
            */
 
           function _getPathValue(parsed, obj, index) {
-            var tmp = obj,
-              res;
+            let tmp = obj, res;
 
             index = index === undefined ? parsed.length : index;
 
-            for (var i = 0, l = index; i < l; i++) {
-              var part = parsed[i];
+            for (let i = 0, l = index; i < l; i++) {
+              const part = parsed[i];
               if (tmp) {
                 if ("undefined" !== typeof part.p) tmp = tmp[part.p];
                 else if ("undefined" !== typeof part.i) tmp = tmp[part.i];
@@ -4878,7 +4861,7 @@
            * MIT Licensed
            */
 
-          var getPathInfo = require("./getPathInfo");
+          const getPathInfo = require("./getPathInfo");
 
           /**
            * ### .getPathValue(path, object)
@@ -4911,7 +4894,7 @@
            * @api public
            */
           module.exports = function (path, obj) {
-            var info = getPathInfo(path, obj);
+            const info = getPathInfo(path, obj);
             return info.value;
           };
         },
@@ -4941,7 +4924,7 @@
            */
 
           module.exports = function getProperties(object) {
-            var result = Object.getOwnPropertyNames(object);
+            const result = Object.getOwnPropertyNames(object);
 
             function addProperty(property) {
               if (result.indexOf(property) === -1) {
@@ -4949,7 +4932,7 @@
               }
             }
 
-            var proto = Object.getPrototypeOf(object);
+            let proto = Object.getPrototypeOf(object);
             while (proto !== null) {
               Object.getOwnPropertyNames(proto).forEach(addProperty);
               proto = Object.getPrototypeOf(proto);
@@ -4968,7 +4951,7 @@
            * MIT Licensed
            */
 
-          var type = require("type-detect");
+          const type = require("type-detect");
 
           /**
            * ### .hasProperty(object, name)
@@ -5007,13 +4990,13 @@
            * @api public
            */
 
-          var literals = {
+          const literals = {
             number: Number,
             string: String,
           };
 
           module.exports = function hasProperty(name, obj) {
-            var ot = type(obj);
+            const ot = type(obj);
 
             // Bad Object, obviously no props at all
             if (ot === "null" || ot === "undefined") return false;
@@ -5191,9 +5174,9 @@
           // This is (almost) directly from Node.js utils
           // https://github.com/joyent/node/blob/f8c335d0caf47f16d31413f89aa28eda3878e3aa/lib/util.js
 
-          var getName = require("./getName");
-          var getProperties = require("./getProperties");
-          var getEnumerableProperties = require("./getEnumerableProperties");
+          const getName = require("./getName");
+          const getProperties = require("./getProperties");
+          const getEnumerableProperties = require("./getEnumerableProperties");
 
           module.exports = inspect;
 
@@ -5211,7 +5194,7 @@
            * @name inspect
            */
           function inspect(obj, showHidden, depth, colors) {
-            var ctx = {
+            const ctx = {
               showHidden: showHidden,
               seen: [],
               stylize: function (str) {
@@ -5226,7 +5209,7 @@
           }
 
           // Returns true if object is a DOM element.
-          var isDOMElement = function (object) {
+          const isDOMElement = function (object) {
             if (typeof HTMLElement === "object") {
               return object instanceof HTMLElement;
             } else {
@@ -5250,7 +5233,7 @@
               // Also filter out any prototype objects using the circular check.
               !(value.constructor && value.constructor.prototype === value)
             ) {
-              var ret = value.inspect(recurseTimes);
+              let ret = value.inspect(recurseTimes);
               if (typeof ret !== "string") {
                 ret = formatValue(ctx, ret, recurseTimes);
               }
@@ -5258,7 +5241,7 @@
             }
 
             // Primitive types cannot have properties
-            var primitive = formatPrimitive(ctx, value);
+            const primitive = formatPrimitive(ctx, value);
             if (primitive) {
               return primitive;
             }
@@ -5273,14 +5256,14 @@
                 // Attempt to serialize it
                 try {
                   if (document.xmlVersion) {
-                    var xmlSerializer = new XMLSerializer();
+                    const xmlSerializer = new XMLSerializer();
                     return xmlSerializer.serializeToString(value);
                   } else {
                     // Firefox 11- do not support outerHTML
                     //   It does, however, support innerHTML
                     //   Use the following to render the element
-                    var ns = "http://www.w3.org/1999/xhtml";
-                    var container = document.createElementNS(ns, "_");
+                    const ns = "http://www.w3.org/1999/xhtml";
+                    const container = document.createElementNS(ns, "_");
 
                     container.appendChild(value.cloneNode(false));
                     html = container.innerHTML.replace(
@@ -5299,8 +5282,8 @@
             }
 
             // Look up the keys of the object.
-            var visibleKeys = getEnumerableProperties(value);
-            var keys = ctx.showHidden ? getProperties(value) : visibleKeys;
+            const visibleKeys = getEnumerableProperties(value);
+            const keys = ctx.showHidden ? getProperties(value) : visibleKeys;
 
             // Some type of object without properties can be shortcutted.
             // In IE, errors have a single `stack` property, or if they are vanilla `Error`,
@@ -5335,9 +5318,7 @@
               }
             }
 
-            var base = "",
-              array = false,
-              braces = ["{", "}"];
+            let base = "", array = false, braces = ["{", "}"];
 
             // Make Array say that they are Array
             if (isArray(value)) {
@@ -5384,7 +5365,7 @@
 
             ctx.seen.push(value);
 
-            var output;
+            let output;
             if (array) {
               output = formatArray(ctx, value, recurseTimes, visibleKeys, keys);
             } else {
@@ -5411,7 +5392,7 @@
                 return ctx.stylize("undefined", "undefined");
 
               case "string":
-                var simple =
+                const simple =
                   "'" +
                   JSON.stringify(value)
                     .replace(/^"|"$/g, "")
@@ -5440,8 +5421,8 @@
           }
 
           function formatArray(ctx, value, recurseTimes, visibleKeys, keys) {
-            var output = [];
-            for (var i = 0, l = value.length; i < l; ++i) {
+            const output = [];
+            for (let i = 0, l = value.length; i < l; ++i) {
               if (Object.prototype.hasOwnProperty.call(value, String(i))) {
                 output.push(
                   formatProperty(
@@ -5482,7 +5463,7 @@
             key,
             array
           ) {
-            var name, str;
+            let name, str;
             if (value.__lookupGetter__) {
               if (value.__lookupGetter__(key)) {
                 if (value.__lookupSetter__(key)) {
@@ -5551,8 +5532,8 @@
           }
 
           function reduceToSingleString(output, base, braces) {
-            var numLinesEst = 0;
-            var length = output.reduce(function (prev, cur) {
+            let numLinesEst = 0;
+            const length = output.reduce(function (prev, cur) {
               numLinesEst++;
               if (cur.indexOf("\n") >= 0) numLinesEst++;
               return prev + cur.length + 1;
@@ -5620,8 +5601,8 @@
            * Module dependancies
            */
 
-          var inspect = require("./inspect");
-          var config = require("../config");
+          const inspect = require("./inspect");
+          const config = require("../config");
 
           /**
            * ### .objDisplay (object)
@@ -5637,8 +5618,7 @@
            */
 
           module.exports = function (obj) {
-            var str = inspect(obj),
-              type = Object.prototype.toString.call(obj);
+            const str = inspect(obj), type = Object.prototype.toString.call(obj);
 
             if (
               config.truncateThreshold &&
@@ -5651,11 +5631,11 @@
               } else if (type === "[object Array]") {
                 return "[ Array(" + obj.length + ") ]";
               } else if (type === "[object Object]") {
-                var keys = Object.keys(obj),
-                  kstr =
-                    keys.length > 2
-                      ? keys.splice(0, 2).join(", ") + ", ..."
-                      : keys.join(", ");
+                const keys = Object.keys(obj),
+                      kstr =
+                        keys.length > 2
+                          ? keys.splice(0, 2).join(", ") + ", ..."
+                          : keys.join(", ");
                 return "{ Object (" + kstr + ") }";
               } else {
                 return str;
@@ -5712,17 +5692,17 @@
            */
 
           module.exports = function (ctx, name, method, chainingBehavior) {
-            var chainableBehavior = ctx.__methods[name];
+            const chainableBehavior = ctx.__methods[name];
 
-            var _chainingBehavior = chainableBehavior.chainingBehavior;
+            const _chainingBehavior = chainableBehavior.chainingBehavior;
             chainableBehavior.chainingBehavior = function () {
-              var result = chainingBehavior(_chainingBehavior).call(this);
+              const result = chainingBehavior(_chainingBehavior).call(this);
               return result === undefined ? this : result;
             };
 
-            var _method = chainableBehavior.method;
+            const _method = chainableBehavior.method;
             chainableBehavior.method = function () {
-              var result = method(_method).apply(this, arguments);
+              const result = method(_method).apply(this, arguments);
               return result === undefined ? this : result;
             };
           };
@@ -5772,15 +5752,16 @@
            */
 
           module.exports = function (ctx, name, method) {
-            var _method = ctx[name],
-              _super = function () {
-                return this;
-              };
+            const _method = ctx[name];
+
+            let _super = function () {
+              return this;
+            };
 
             if (_method && "function" === typeof _method) _super = _method;
 
             ctx[name] = function () {
-              var result = method(_super).apply(this, arguments);
+              const result = method(_super).apply(this, arguments);
               return result === undefined ? this : result;
             };
           };
@@ -5830,14 +5811,14 @@
            */
 
           module.exports = function (ctx, name, getter) {
-            var _get = Object.getOwnPropertyDescriptor(ctx, name),
-              _super = function () {};
+            const _get = Object.getOwnPropertyDescriptor(ctx, name);
+            let _super = function () {};
 
             if (_get && "function" === typeof _get.get) _super = _get.get;
 
             Object.defineProperty(ctx, name, {
               get: function () {
-                var result = getter(_super).call(this);
+                const result = getter(_super).call(this);
                 return result === undefined ? this : result;
               },
               configurable: true,
@@ -5858,7 +5839,7 @@
            * Module dependancies
            */
 
-          var flag = require("./flag");
+          const flag = require("./flag");
 
           /**
            * # test(object, expression)
@@ -5872,8 +5853,7 @@
            */
 
           module.exports = function (obj, args) {
-            var negate = flag(obj, "negate"),
-              expr = args[0];
+            const negate = flag(obj, "negate"), expr = args[0];
             return negate ? !expr : expr;
           };
         },
@@ -5913,7 +5893,7 @@
            */
 
           module.exports = function (assertion, object, includeAll) {
-            var flags =
+            const flags =
               assertion.__flags || (assertion.__flags = Object.create(null));
 
             if (!object.__flags) {
@@ -5922,7 +5902,7 @@
 
             includeAll = arguments.length === 3 ? includeAll : true;
 
-            for (var flag in flags) {
+            for (const flag in flags) {
               if (
                 includeAll ||
                 (flag !== "object" && flag !== "ssfi" && flag != "message")
@@ -5952,7 +5932,7 @@
            */
 
           function exclude() {
-            var excludes = [].slice.call(arguments);
+            const excludes = [].slice.call(arguments);
 
             function excludeProps(res, obj) {
               Object.keys(obj).forEach(function (key) {
@@ -5961,9 +5941,9 @@
             }
 
             return function extendExclude() {
-              var args = [].slice.call(arguments),
-                i = 0,
-                res = {};
+              const args = [].slice.call(arguments);
+              let i = 0;
+              const res = {};
 
               for (; i < args.length; i++) {
                 excludeProps(res, args[i]);
@@ -5991,21 +5971,21 @@
            */
 
           function AssertionError(message, _props, ssf) {
-            var extend = exclude(
-                "name",
-                "message",
-                "stack",
-                "constructor",
-                "toJSON"
-              ),
-              props = extend(_props || {});
+            const extend = exclude(
+                      "name",
+                      "message",
+                      "stack",
+                      "constructor",
+                      "toJSON"
+                    ),
+                  props = extend(_props || {});
 
             // default values
             this.message = message || "Unspecified AssertionError";
             this.showDiff = false;
 
             // copy from properties
-            for (var key in props) {
+            for (const key in props) {
               this[key] = props[key];
             }
 
@@ -6044,13 +6024,13 @@
            */
 
           AssertionError.prototype.toJSON = function (stack) {
-            var extend = exclude("constructor", "toJSON", "stack"),
-              props = extend(
-                {
-                  name: this.name,
-                },
-                this
-              );
+            const extend = exclude("constructor", "toJSON", "stack"),
+                  props = extend(
+                    {
+                      name: this.name,
+                    },
+                    this
+                  );
 
             // include stack if exists and not turned off
             if (false !== stack && this.stack) {
@@ -6082,13 +6062,13 @@
            * Module dependencies
            */
 
-          var type = require("type-detect");
+          const type = require("type-detect");
 
           /*!
            * Buffer.isBuffer browser shim
            */
 
-          var Buffer;
+          let Buffer;
           try {
             Buffer = require("buffer").Buffer;
           } catch (ex) {
@@ -6222,8 +6202,8 @@
            */
 
           function enumerable(a) {
-            var res = [];
-            for (var key in a) res.push(key);
+            const res = [];
+            for (const key in a) res.push(key);
             return res;
           }
 
@@ -6239,8 +6219,8 @@
           function iterableEqual(a, b) {
             if (a.length !== b.length) return false;
 
-            var i = 0;
-            var match = true;
+            let i = 0;
+            let match = true;
 
             for (; i < a.length; i++) {
               if (a[i] !== b[i]) {
@@ -6298,7 +6278,7 @@
               return false;
             }
 
-            var i;
+            let i;
             if (m) {
               for (i = 0; i < m.length; i++) {
                 if (
@@ -6328,7 +6308,7 @@
 
             m.push([a, b]);
 
-            var key;
+            let key;
             for (i = ka.length - 1; i >= 0; i--) {
               key = ka[i];
               if (!deepEqual(a[key], b[key], m)) {
@@ -6370,7 +6350,7 @@
            * Detectable javascript natives
            */
 
-          var natives = {
+          const natives = {
             "[object Array]": "array",
             "[object RegExp]": "regexp",
             "[object Function]": "function",
@@ -6391,7 +6371,7 @@
            */
 
           function getType(obj) {
-            var str = Object.prototype.toString.call(obj);
+            const str = Object.prototype.toString.call(obj);
             if (natives[str]) return natives[str];
             if (obj === null) return "null";
             if (obj === undefined) return "undefined";
@@ -6486,7 +6466,7 @@
 
           Library.prototype.test = function (obj, type) {
             if (type === getType(obj)) return true;
-            var test = this.tests[type];
+            const test = this.tests[type];
 
             if (test && "regexp" === getType(test)) {
               return test.test(obj);
@@ -6535,10 +6515,10 @@
            * @return {String} object type
            * @api public
            */
-          var objectTypeRegexp = /^\[object (.*)\]$/;
+          const objectTypeRegexp = /^\[object (.*)\]$/;
 
           function getType(obj) {
-            var type = Object.prototype.toString
+            const type = Object.prototype.toString
               .call(obj)
               .match(objectTypeRegexp)[1]
               .toLowerCase();
@@ -6640,7 +6620,7 @@
 
           Library.prototype.test = function (obj, type) {
             if (type === getType(obj)) return true;
-            var test = this.tests[type];
+            const test = this.tests[type];
 
             if (test && "regexp" === getType(test)) {
               return test.test(obj);
