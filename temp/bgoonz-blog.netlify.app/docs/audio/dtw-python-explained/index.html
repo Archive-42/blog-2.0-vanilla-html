@@ -262,7 +262,7 @@
 <p><img src="https://miro.medium.com/max/630/1*jDuu7XE8XitCTBSythQICw.png" /></p>
 <p>The training data can be restricted to Tuesday onwards to improve the prediction of energy consumption in future in this case as phase shift was detected on Tuesday. The setup improved the predictions substantially ( &gt; 50%) for the stores for which the reason of shift was not known. This was not possible by traditional ways of one to one comparison of signals.</p>
 <p>In this blog, I will explain how DTW algorithm works and throw some light on the calculation of the similarity score between two time series and its implementation in python. Most of the contents in this blog have been sourced from this <a href="https://ieeexplore.ieee.org/document/1163055">paper</a>, also mentioned in the references section below.</p>
-<ol start="2" type="1">
+<ol type="1">
 <li>Why do we need DTW ?</li>
 </ol>
 <p>Any two time series can be compared using euclidean distance or other similar distances on a one to one basis on time axis. The amplitude of first time series at time T will be compared with amplitude of second time series at time T. This will result into a very poor comparison and similarity score even if the two time series are very similar in shape but out of phase in time.</p>
@@ -569,7 +569,7 @@ b = [1, 2, 2, 2, 2, 2, 2, 2, …, 5]</p>
 </tr>
 </tbody>
 </table>
-<p><span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a></p>
+<p><span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a></p>
 <p><span class="screen-reader-text">Twitter</span></p>
 <p><span class="screen-reader-text">LinkedIn</span></p>
 <p><span class="screen-reader-text">GitHub</span></p>
