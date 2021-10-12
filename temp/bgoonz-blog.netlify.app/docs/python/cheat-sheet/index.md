@@ -1429,7 +1429,7 @@ Manipulating Strings
 
 ### Escape Characters
 
-<table><thead><tr class="header"><th>Escape character</th><th>Prints as</th></tr></thead><tbody><tr class="odd"><td><code>'</code></td><td>Single quote</td></tr><tr class="even"><td><code>"</code></td><td>Double quote</td></tr><tr class="odd"><td><code>/code&gt; </code></td><td>Tab</td></tr><tr class="even"><td><code></code></td><td>Newline (line break)</td></tr><tr class="odd"><td><code>\</code></td><td>Backslash</td></tr></tbody></table>
+<table><thead><tr class="header"><th>Escape character</th><th>Prints as</th></tr></thead><tbody><tr class="odd"><td><code>’</code></td><td>Single quote</td></tr><tr class="even"><td><code>"</code></td><td>Double quote</td></tr><tr class="odd"><td><code>/code&gt; </code></td><td>Tab</td></tr><tr class="even"><td><code></code></td><td>Newline (line break)</td></tr><tr class="odd"><td><code>&lt;/code&gt; </code></td><td>Backslash</td></tr></tbody></table>
 
 Example:
 
@@ -4093,11 +4093,11 @@ will change the returned message.
 
 from functools import wraps
 
-def beg(target*function): <span class="citation" data-cites="wraps">@wraps</span>(target*function) def wrapper(*args, \\*\*kwargs): msg, say*please = target*function(*args, \\*\*kwargs) if say\_please: return “{} {}”.format(msg, “Please! I am poor :(”) return msg
+def beg(target*function): <span class="citation" data-cites="wraps"><span class="citation" data-cites="wraps">@wraps</span></span>(target*function) def wrapper(*args, \\*\*kwargs): msg, say*please = target*function(*args, \\*\*kwargs) if say\_please: return “{} {}”.format(msg, “Please! I am poor :(”) return msg
 
     return wrapper
 
-<span class="citation" data-cites="beg">@beg</span> def say(say*please=False): msg = “Can you buy me a beer?” return msg, say*please
+<span class="citation" data-cites="beg"><span class="citation" data-cites="beg">@beg</span></span> def say(say*please=False): msg = “Can you buy me a beer?” return msg, say*please
 
 print(say()) \# Can you buy me a beer? print(say(say\_please=True)) \# Can you buy me a beer? Please! I am poor :(
 
@@ -4106,7 +4106,7 @@ Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 
