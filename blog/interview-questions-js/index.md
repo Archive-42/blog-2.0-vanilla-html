@@ -4,77 +4,75 @@ This app works best with JavaScript enabled.
 
 <span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="/docs" class="button">Docs</a>
-    -   <a href="/showcase" class="button">Showcase</a>
-    -   <a href="/docs/faq/contact" class="button">Contact!</a>
-    -   <a href="/docs/python/python-ds" class="button">Python</a>
+  - <a href="/docs" class="button">Docs</a>
+  - <a href="/showcase" class="button">Showcase</a>
+  - <a href="/docs/faq/contact" class="button">Contact!</a>
+  - <a href="/docs/python/python-ds" class="button">Python</a>
 
--   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
-    -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
-    -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
-    -   <a href="/blog/platform-docs/" class="button">platform docs</a>
-    -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
-    -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
+  - <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
+  - <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
+  - <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
+  - <a href="/blog/platform-docs/" class="button">platform docs</a>
+  - <a href="/docs/articles/nodejs/" class="button">nodejs</a>
+  - <a href="/blogWcomments/" class="button">Blog w Comments</a>
 
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
-    -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
-    -   <a href="#" class="button">Bootcamp Resources</a>
-    -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
-    -   <a href="/docs/gallery" class="button">Gallery</a>
-    -   <a href="/docs" class="button">Top Repos</a>
+  - <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
+  - <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
+  - <a href="#" class="button">Bootcamp Resources</a>
+  - <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
+  - <a href="/docs/gallery" class="button">Gallery</a>
+  - <a href="/docs" class="button">Top Repos</a>
 
--   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
-    -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+  - <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
+  - <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
 
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
-    -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
-    -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
-    -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
-    -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+  - <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
+  - <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
+  - <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
+  - [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
+  - <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
 
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
-    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
-    -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
-    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
-    -   <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
-    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
-    -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
-    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
-    -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+  - <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
+  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
+  - <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
+  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
+  - <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
+  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
+  - <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
+  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
+  - <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
 
--   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
-    -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
-    -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
-    -   <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
-    -   <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
-    -   <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
-    -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
-    -   <span class="screen-reader-text">Github-Advanced-Search</span>
+- <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+  - <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
+  - <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
+  - <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
+  - <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
+  - <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
+  - <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
+  - <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
+  - <span class="screen-reader-text">Github-Advanced-Search</span>
 
 <span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
 September 11, 2021
 
-Javascript Interview Questions
-==============================
+# Javascript Interview Questions
 
 Object Oriented JavaScript
 
-Javascript Interview Questions:
-===============================
+# Javascript Interview Questions:
 
 1.  ### What are the possible ways to create objects in JavaScript
 
@@ -1219,7 +1217,7 @@ Javascript Interview Questions:
 
     No, they are entirely two different programming languages and have nothing to do with each other. But both of them are Object Oriented Programming languages and like many other languages, they follow similar syntax for basic features(if, else, for, switch, break, continue etc).
 
-100. ### What are events
+100.  ### What are events
 
 <!-- -->
 
@@ -5952,10 +5950,10 @@ Javascript Interview Questions:
         this.country = country;
     }
 
--   1: Undefined
--   2: ReferenceError
--   3: null
--   4: {model: “Honda”, color: “white”, year: “2010”, country: “UK”}
+- 1: Undefined
+- 2: ReferenceError
+- 3: null
+- 4: {model: “Honda”, color: “white”, year: “2010”, country: “UK”}
 
 **Answer**
 
@@ -5963,7 +5961,7 @@ Javascript Interview Questions:
 
 The function declarations are hoisted similar to any variables. So the placement for `Vehicle` function declaration doesn’t make any difference.
 
-------------------------------------------------------------------------
+---
 
 #### 2. What is the output of below code
 
@@ -5976,10 +5974,10 @@ The function declarations are hoisted similar to any variables. So the placement
 
     console.log(foo(), typeof x, typeof y);
 
--   1: 1, undefined and undefined
--   2: ReferenceError: X is not defined
--   3: 1, undefined and number
--   4: 1, number and number
+- 1: 1, undefined and undefined
+- 2: ReferenceError: X is not defined
+- 3: 1, undefined and number
+- 4: 1, number and number
 
 **Answer**
 
@@ -5993,7 +5991,7 @@ Of course the return value of `foo()` is 1 due to the increment operator. But th
 
 Since the block scoped variable x is undefined outside of the function, the type will be undefined too. Whereas the global variable `y` is available outside the function, the value is 0 and type is number.
 
-------------------------------------------------------------------------
+---
 
 #### 3. What is the output of below code
 
@@ -6006,10 +6004,10 @@ Since the block scoped variable x is undefined outside of the function, the type
     }
     main();
 
--   1: A, B and C
--   2: B, A and C
--   3: A and C
--   4: A, C and B
+- 1: A, B and C
+- 2: B, A and C
+- 3: A and C
+- 4: A, C and B
 
 **Answer**
 
@@ -6026,14 +6024,14 @@ The statements order is based on the event loop mechanism. The order of statemen
 7.  The callback moved from message queue to the stack since the stack is empty.
 8.  The console.log for B is added to the stack and display on the console.
 
-------------------------------------------------------------------------
+---
 
 #### 4. What is the output of below equality check
 
     console.log(0.1 + 0.2 === 0.3);
 
--   1: false
--   2: true
+- 1: false
+- 2: true
 
 **Answer**
 
@@ -6041,7 +6039,7 @@ The statements order is based on the event loop mechanism. The order of statemen
 
 This is due to the float point math problem. Since the floating point numbers are encoded in binary format, the addition operations on them lead to rounding errors. Hence, the comparison of floating points doesn’t give expected results. You can find more details about the explanation here [0.30000000000000004.com/](https://0.30000000000000004.com/)
 
-------------------------------------------------------------------------
+---
 
 #### 5. What is the output of below code
 
@@ -6051,10 +6049,10 @@ This is due to the float point math problem. Since the floating point numbers ar
     }
     console.log(y);
 
--   1: 1function
--   2: 1object
--   3: ReferenceError
--   4: 1undefined
+- 1: 1function
+- 2: 1object
+- 3: ReferenceError
+- 4: 1undefined
 
 **Answer**
 
@@ -6075,7 +6073,7 @@ In other words, it is same as
 
 **Note:** It returns 1object for MS Edge browser
 
-------------------------------------------------------------------------
+---
 
 #### 6. What is the output of below code
 
@@ -6087,10 +6085,10 @@ In other words, it is same as
     }
     console.log(foo());
 
--   1: Hello World
--   2: Object {message: “Hello World”}
--   3: Undefined
--   4: SyntaxError
+- 1: Hello World
+- 2: Object {message: “Hello World”}
+- 3: Undefined
+- 4: SyntaxError
 
 **Answer**
 
@@ -6107,7 +6105,7 @@ Whereas if the opening curly brace is along with the return keyword then the fun
     }
     console.log(foo()); // {message: "Hello World"}
 
-------------------------------------------------------------------------
+---
 
 #### 7. What is the output of below code
 
@@ -6117,10 +6115,10 @@ Whereas if the opening curly brace is along with the return keyword then the fun
     console.log(myChars[0]);
     console.log(myChars.length);
 
--   1: \[empty, ‘b’, ‘c’, ‘d’\], empty, 3
--   2: \[null, ‘b’, ‘c’, ‘d’\], empty, 3
--   3: \[empty, ‘b’, ‘c’, ‘d’\], undefined, 4
--   4: \[null, ‘b’, ‘c’, ‘d’\], undefined, 4
+- 1: \[empty, ‘b’, ‘c’, ‘d’\], empty, 3
+- 2: \[null, ‘b’, ‘c’, ‘d’\], empty, 3
+- 3: \[empty, ‘b’, ‘c’, ‘d’\], undefined, 4
+- 4: \[null, ‘b’, ‘c’, ‘d’\], undefined, 4
 
 **Answer**
 
@@ -6128,7 +6126,7 @@ Whereas if the opening curly brace is along with the return keyword then the fun
 
 The `delete` operator will delete the object property but it will not reindex the array or change its length. So the number or elements or length of the array won’t be changed. If you try to print myChars then you can observe that it doesn’t set an undefined value, rather the property is removed from the array. The newer versions of Chrome use `empty` instead of `undefined` to make the difference a bit clearer.
 
-------------------------------------------------------------------------
+---
 
 #### 8. What is the output of below code in latest Chrome
 
@@ -6142,10 +6140,10 @@ The `delete` operator will delete the object property but it will not reindex th
     var array3 = [, , ,];
     console.log(array3);
 
--   1: \[undefined × 3\], \[undefined × 2, 100\], \[undefined × 3\]
--   2: \[empty × 3\], \[empty × 2, 100\], \[empty × 3\]
--   3: \[null × 3\], \[null × 2, 100\], \[null × 3\]
--   4: \[\], \[100\], \[\]
+- 1: \[undefined × 3\], \[undefined × 2, 100\], \[undefined × 3\]
+- 2: \[empty × 3\], \[empty × 2, 100\], \[empty × 3\]
+- 3: \[null × 3\], \[null × 2, 100\], \[null × 3\]
+- 4: \[\], \[100\], \[\]
 
 **Answer**
 
@@ -6153,7 +6151,7 @@ The `delete` operator will delete the object property but it will not reindex th
 
 The latest chrome versions display `sparse array`(they are filled with holes) using this empty x n notation. Whereas the older versions have undefined x n notation. **Note:** The latest version of FF displays `n empty slots` notation.
 
-------------------------------------------------------------------------
+---
 
 #### 9. What is the output of below code
 
@@ -6173,10 +6171,10 @@ The latest chrome versions display `sparse array`(they are filled with holes) us
     console.log(obj.prop2());
     console.log(obj.prop3());
 
--   1: 0, 1, 2
--   2: 0, { return 1 }, 2
--   3: 0, { return 1 }, { return 2 }
--   4: 0, 1, undefined
+- 1: 0, 1, 2
+- 2: 0, { return 1 }, 2
+- 3: 0, { return 1 }, { return 2 }
+- 4: 0, 1, undefined
 
 **Answer**
 
@@ -6184,17 +6182,17 @@ The latest chrome versions display `sparse array`(they are filled with holes) us
 
 ES6 provides method definitions and property shorthands for objects. So both prop2 and prop3 are treated as regular function values.
 
-------------------------------------------------------------------------
+---
 
 #### 10. What is the output of below code
 
     console.log(1 < 2 < 3);
     console.log(3 > 2 > 1);
 
--   1: true, true
--   2: true, false
--   3: SyntaxError, SyntaxError,
--   4: false, false
+- 1: true, true
+- 2: true, false
+- 3: SyntaxError, SyntaxError,
+- 4: false, false
 
 **Answer**
 
@@ -6214,7 +6212,7 @@ Whereas the second statement follows the below order,
 3.  console.log(1 &gt; 1); // False converted as `0` during comparison
 4.  False
 
-------------------------------------------------------------------------
+---
 
 #### 11. What is the output of below code in non-strict mode
 
@@ -6223,10 +6221,10 @@ Whereas the second statement follows the below order,
     }
     printNumbers(1, 2, 3);
 
--   1: 1, 2, 3
--   2: 3, 2, 3
--   3: SyntaxError: Duplicate parameter name not allowed in this context
--   4: 1, 2, 1
+- 1: 1, 2, 3
+- 2: 3, 2, 3
+- 3: SyntaxError: Duplicate parameter name not allowed in this context
+- 4: 1, 2, 1
 
 **Answer**
 
@@ -6236,7 +6234,7 @@ In non-strict mode, the regular JavaScript functions allow duplicate named param
 
 **Note:** In strict mode, duplicate parameters will throw a Syntax Error.
 
-------------------------------------------------------------------------
+---
 
 #### 12. What is the output of below code
 
@@ -6245,10 +6243,10 @@ In non-strict mode, the regular JavaScript functions allow duplicate named param
     };
     printNumbersArrow(1, 2, 3);
 
--   1: 1, 2, 3
--   2: 3, 2, 3
--   3: SyntaxError: Duplicate parameter name not allowed in this context
--   4: 1, 2, 1
+- 1: 1, 2, 3
+- 2: 3, 2, 3
+- 3: SyntaxError: Duplicate parameter name not allowed in this context
+- 4: 1, 2, 1
 
 **Answer**
 
@@ -6256,17 +6254,17 @@ In non-strict mode, the regular JavaScript functions allow duplicate named param
 
 Unlike regular functions, the arrow functions doesn’t not allow duplicate parameters in either strict or non-strict mode. So you can see `SyntaxError` in the console.
 
-------------------------------------------------------------------------
+---
 
 #### 13. What is the output of below code
 
     const arrowFunc = () => arguments.length;
     console.log(arrowFunc(1, 2, 3));
 
--   1: ReferenceError: arguments is not defined
--   2: 3
--   3: undefined
--   4: null
+- 1: ReferenceError: arguments is not defined
+- 2: 3
+- 3: undefined
+- 4: null
 
 **Answer**
 
@@ -6286,15 +6284,15 @@ But If you still want to use an arrow function then rest operator on arguments p
     const arrowFunc = (...args) => args.length;
     console.log(arrowFunc(1, 2, 3));
 
-------------------------------------------------------------------------
+---
 
 #### 14. What is the output of below code
 
     console.log(String.prototype.trimLeft.name === 'trimLeft');
     console.log(String.prototype.trimLeft.name === 'trimStart');
 
--   1: True, False
--   2: False, True
+- 1: True, False
+- 2: False, True
 
 **Answer**
 
@@ -6302,16 +6300,16 @@ But If you still want to use an arrow function then rest operator on arguments p
 
 In order to be consistent with functions like `String.prototype.padStart`, the standard method name for trimming the whitespaces is considered as `trimStart`. Due to web web compatibility reasons, the old method name ‘trimLeft’ still acts as an alias for ‘trimStart’. Hence, the prototype for ‘trimLeft’ is always ‘trimStart’
 
-------------------------------------------------------------------------
+---
 
 #### 15. What is the output of below code
 
     console.log(Math.max());
 
--   1: undefined
--   2: Infinity
--   3: 0
--   4: -Infinity
+- 1: undefined
+- 2: Infinity
+- 3: 0
+- 4: -Infinity
 
 **Answer**
 
@@ -6319,17 +6317,17 @@ In order to be consistent with functions like `String.prototype.padStart`, the s
 
 -Infinity is the initial comparant because almost every other value is bigger. So when no arguments are provided, -Infinity is going to be returned. **Note:** Zero number of arguments is a valid case.
 
-------------------------------------------------------------------------
+---
 
 #### 16. What is the output of below code
 
     console.log(10 == [10]);
     console.log(10 == [[[[[[[10]]]]]]]);
 
--   1: True, True
--   2: True, False
--   3: False, False
--   4: False, True
+- 1: True, True
+- 2: True, False
+- 3: False, False
+- 4: False, True
 
 **Answer**
 
@@ -6341,17 +6339,17 @@ As per the comparison algorithm in the ECMAScript specification(ECMA-262), the a
 
 So it doesn’t matter about number brackets(\[\]) around the number, it is always converted to a number in the expression.
 
-------------------------------------------------------------------------
+---
 
 #### 17. What is the output of below code
 
     console.log(10 + '10');
     console.log(10 - '10');
 
--   1: 20, 0
--   2: 1010, 0
--   3: 1010, 10-10
--   4: NaN, NaN
+- 1: 20, 0
+- 2: 1010, 0
+- 3: 1010, 10-10
+- 4: NaN, NaN
 
 **Answer**
 
@@ -6359,7 +6357,7 @@ So it doesn’t matter about number brackets(\[\]) around the number, it is alwa
 
 The concatenation operator(+) is applicable for both number and string types. So if any operand is string type then both operands concatenated as strings. Whereas subtract(-) operator tries to convert the operands as number type.
 
-------------------------------------------------------------------------
+---
 
 #### 18. What is the output of below code
 
@@ -6370,10 +6368,10 @@ The concatenation operator(+) is applicable for both number and string types. So
         console.log("I'm False");
     }
 
--   1: True, I’m True
--   2: True, I’m False
--   3: False, I’m True
--   4: False, I’m False
+- 1: True, I’m True
+- 2: True, I’m False
+- 3: False, I’m True
+- 4: False, I’m False
 
 **Answer**
 
@@ -6385,10 +6383,10 @@ In comparison operators, the expression `[0]` converted to Number(\[0\].valueOf(
 
     console.log([1, 2] + [3, 4]);
 
--   1: \[1,2,3,4\]
--   2: \[1,2\]\[3,4\]
--   3: SyntaxError
--   4: 1,23,4
+- 1: \[1,2,3,4\]
+- 2: \[1,2\]\[3,4\]
+- 3: SyntaxError
+- 4: 1,23,4
 
 **Answer**
 
@@ -6396,7 +6394,7 @@ In comparison operators, the expression `[0]` converted to Number(\[0\].valueOf(
 
 The + operator is not meant or defined for arrays. So it converts arrays into strings and concatenates them.
 
-------------------------------------------------------------------------
+---
 
 #### 20. What is the output of below code
 
@@ -6406,10 +6404,10 @@ The + operator is not meant or defined for arrays. So it converts arrays into st
     const browser = new Set('Firefox');
     console.log(browser);
 
--   1: {1, 2, 3, 4}, {“F”, “i”, “r”, “e”, “f”, “o”, “x”}
--   2: {1, 2, 3, 4}, {“F”, “i”, “r”, “e”, “o”, “x”}
--   3: \[1, 2, 3, 4\], \[“F”, “i”, “r”, “e”, “o”, “x”\]
--   4: {1, 1, 2, 3, 4}, {“F”, “i”, “r”, “e”, “f”, “o”, “x”}
+- 1: {1, 2, 3, 4}, {“F”, “i”, “r”, “e”, “f”, “o”, “x”}
+- 2: {1, 2, 3, 4}, {“F”, “i”, “r”, “e”, “o”, “x”}
+- 3: \[1, 2, 3, 4\], \[“F”, “i”, “r”, “e”, “o”, “x”\]
+- 4: {1, 1, 2, 3, 4}, {“F”, “i”, “r”, “e”, “f”, “o”, “x”}
 
 **Answer**
 
@@ -6417,14 +6415,14 @@ The + operator is not meant or defined for arrays. So it converts arrays into st
 
 Since `Set` object is a collection of unique values, it won’t allow duplicate values in the collection. At the same time, it is case sensitive data structure.
 
-------------------------------------------------------------------------
+---
 
 #### 21. What is the output of below code
 
     console.log(NaN === NaN);
 
--   1: True
--   2: False
+- 1: True
+- 2: False
 
 **Answer**
 
@@ -6432,17 +6430,17 @@ Since `Set` object is a collection of unique values, it won’t allow duplicate 
 
 JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never equal for floating-point numbers.
 
-------------------------------------------------------------------------
+---
 
 #### 22. What is the output of below code
 
     let numbers = [1, 2, 3, 4, NaN];
     console.log(numbers.indexOf(NaN));
 
--   1: 4
--   2: NaN
--   3: SyntaxError
--   4: -1
+- 1: 4
+- 2: NaN
+- 3: SyntaxError
+- 4: -1
 
 **Answer**
 
@@ -6455,17 +6453,17 @@ The `indexOf` uses strict equality operator(===) internally and `NaN === NaN` ev
 
     console.log(numbers.includes(NaN)); // true
 
-------------------------------------------------------------------------
+---
 
 #### 23. What is the output of below code
 
     let [a, ...b,] = [1, 2, 3, 4, 5];
     console.log(a, b);
 
--   1: 1, \[2, 3, 4, 5\]
--   2: 1, {2, 3, 4, 5}
--   3: SyntaxError
--   4: 1, \[2, 3, 4\]
+- 1: 1, \[2, 3, 4, 5\]
+- 2: 1, {2, 3, 4, 5}
+- 3: SyntaxError
+- 4: 1, \[2, 3, 4\]
 
 **Answer**
 
@@ -6476,7 +6474,7 @@ When using rest parameters, trailing commas are not allowed and will throw a Syn
     let [a, ...b] = [1, 2, 3, 4, 5];
     console.log(a, b); // 1, [2, 3, 4, 5]
 
-------------------------------------------------------------------------
+---
 
 #### 25. What is the output of below code
 
@@ -6485,10 +6483,10 @@ When using rest parameters, trailing commas are not allowed and will throw a Syn
     }
     console.log(func());
 
--   1: Promise {&lt;fulfilled&gt;: 10}
--   2: 10
--   3: SyntaxError
--   4: Promise {&lt;rejected&gt;: 10}
+- 1: Promise {&lt;fulfilled&gt;: 10}
+- 2: 10
+- 3: SyntaxError
+- 4: Promise {&lt;rejected&gt;: 10}
 
 **Answer**
 
@@ -6500,7 +6498,7 @@ Async functions always return a promise. But even if the return value of an asyn
         return Promise.resolve(10);
     }
 
-------------------------------------------------------------------------
+---
 
 #### 26. What is the output of below code
 
@@ -6509,10 +6507,10 @@ Async functions always return a promise. But even if the return value of an asyn
     }
     console.log(func());
 
--   1: Promise {&lt;fulfilled&gt;: 10}
--   2: 10
--   3: SyntaxError
--   4: Promise {&lt;resolved&gt;: undefined}
+- 1: Promise {&lt;fulfilled&gt;: 10}
+- 2: 10
+- 3: SyntaxError
+- 4: Promise {&lt;resolved&gt;: undefined}
 
 **Answer**
 
@@ -6524,7 +6522,7 @@ The await expression returns value 10 with promise resolution and the code after
         return Promise.resolve(10).then(() => undefined);
     }
 
-------------------------------------------------------------------------
+---
 
 #### 27. What is the output of below code
 
@@ -6545,10 +6543,10 @@ The await expression returns value 10 with promise resolution and the code after
 
     processArray([1, 2, 3, 4]);
 
--   1: SyntaxError
--   2: 1, 2, 3, 4
--   3: 4, 4, 4, 4
--   4: 4, 3, 2, 1
+- 1: SyntaxError
+- 2: 1, 2, 3, 4
+- 3: 4, 4, 4, 4
+- 4: 4, 3, 2, 1
 
 **Answer**
 
@@ -6556,7 +6554,7 @@ The await expression returns value 10 with promise resolution and the code after
 
 Even though “processArray” is an async function, the anonymous function that we use for `forEach` is synchronous. If you use await inside a synchronous function then it throws a syntax error.
 
-------------------------------------------------------------------------
+---
 
 #### 28. What is the output of below code
 
@@ -6577,10 +6575,10 @@ Even though “processArray” is an async function, the anonymous function that
     }
     process([1, 2, 3, 5]);
 
--   1: 1 2 3 5 and Process completed!
--   2: 5 5 5 5 and Process completed!
--   3: Process completed! and 5 5 5 5
--   4: Process completed! and 1 2 3 5
+- 1: 1 2 3 5 and Process completed!
+- 2: 5 5 5 5 and Process completed!
+- 3: Process completed! and 5 5 5 5
+- 4: Process completed! and 1 2 3 5
 
 **Answer**
 
@@ -6597,7 +6595,7 @@ But you control the array sequence using for..of loop,
         console.log('Process completed!');
     }
 
-------------------------------------------------------------------------
+---
 
 #### 29. What is the output of below code
 
@@ -6605,10 +6603,10 @@ But you control the array sequence using for..of loop,
     set.add('+0').add('-0').add(NaN).add(undefined).add(NaN);
     console.log(set);
 
--   1: Set(4) {“+0”, “-0”, NaN, undefined}
--   2: Set(3) {“+0”, NaN, undefined}
--   3: Set(5) {“+0”, “-0”, NaN, undefined, NaN}
--   4: Set(4) {“+0”, NaN, undefined, NaN}
+- 1: Set(4) {“+0”, “-0”, NaN, undefined}
+- 2: Set(3) {“+0”, NaN, undefined}
+- 3: Set(5) {“+0”, “-0”, NaN, undefined, NaN}
+- 4: Set(4) {“+0”, NaN, undefined, NaN}
 
 **Answer**
 
@@ -6619,7 +6617,7 @@ Set has few exceptions from equality check,
 1.  All NaN values are equal
 2.  Both +0 and -0 considered as different values
 
-------------------------------------------------------------------------
+---
 
 #### 30. What is the output of below code
 
@@ -6631,10 +6629,10 @@ Set has few exceptions from equality check,
 
     cnsooe.log(sym1 === sym2, sym3 === sym4);
 
--   1: true, true
--   2: true, false
--   3: false, true
--   4: false, false
+- 1: true, true
+- 2: true, false
+- 3: false, true
+- 4: false, false
 
 **Answer**
 
@@ -6647,17 +6645,17 @@ Symbol follows below conventions,
 
 **Note:** The symbol description is just useful for debugging purposes.
 
-------------------------------------------------------------------------
+---
 
 #### 31. What is the output of below code
 
     const sym1 = new Symbol('one');
     console.log(sym1);
 
--   1: SyntaxError
--   2: one
--   3: Symbol(‘one’)
--   4: Symbol
+- 1: SyntaxError
+- 2: one
+- 3: Symbol(‘one’)
+- 4: Symbol
 
 **Answer**
 
@@ -6665,7 +6663,7 @@ Symbol follows below conventions,
 
 `Symbol` is a just a standard function and not an object constructor(unlike other primitives new Boolean, new String and new Number). So if you try to call it with the new operator will result in a TypeError
 
-------------------------------------------------------------------------
+---
 
 #### 32. What is the output of below code
 
@@ -6684,10 +6682,10 @@ Symbol follows below conventions,
         console.log('It is a number!');
     }
 
--   1: SyntaxError
--   2: It is not a string!, It is not a number!
--   3: It is not a string!, It is a number!
--   4: It is a string!, It is a number!
+- 1: SyntaxError
+- 2: It is not a string!, It is not a number!
+- 3: It is not a string!, It is a number!
+- 4: It is a string!, It is a number!
 
 **Answer**
 
@@ -6695,17 +6693,17 @@ Symbol follows below conventions,
 
 The return value of `typeof myNumber (OR) typeof myString` is always the truthy value (either “number” or “string”). Since ! operator converts the value to a boolean value, the value of both `!typeof myNumber or !typeof myString` is always false. Hence the if condition fails and control goes to else block.
 
-------------------------------------------------------------------------
+---
 
 #### 33. What is the output of below code
 
     console.log(JSON.stringify({ myArray: ['one', undefined, function () {}, Symbol('')] }));
     console.log(JSON.stringify({ [Symbol.for('one')]: 'one' }, [Symbol.for('one')]));
 
--   1: {“myArray”:\[‘one’, undefined, {}, Symbol\]}, {}
--   2: {“myArray”:\[‘one’, null,null,null\]}, {}
--   3: {“myArray”:\[‘one’, null,null,null\]}, “{ \[Symbol.for(‘one’)\]: ‘one’ }, \[Symbol.for(‘one’)\]”
--   4: {“myArray”:\[‘one’, undefined, function(){}, Symbol(’’)\]}, {}
+- 1: {“myArray”:\[‘one’, undefined, {}, Symbol\]}, {}
+- 2: {“myArray”:\[‘one’, null,null,null\]}, {}
+- 3: {“myArray”:\[‘one’, null,null,null\]}, “{ \[Symbol.for(‘one’)\]: ‘one’ }, \[Symbol.for(‘one’)\]”
+- 4: {“myArray”:\[‘one’, undefined, function(){}, Symbol(’’)\]}, {}
 
 **Answer**
 
@@ -6716,7 +6714,7 @@ The symbols has below constraints,
 1.  The undefined, Functions, and Symbols are not valid JSON values. So those values are either omitted (in an object) or changed to null (in an array). Hence, it returns null values for the value array.
 2.  All Symbol-keyed properties will be completely ignored. Hence it returns an empty object({}).
 
-------------------------------------------------------------------------
+---
 
 #### 34. What is the output of below code
 
@@ -6735,8 +6733,8 @@ The symbols has below constraints,
     new A();
     new B();
 
--   1: A, A
--   2: A, B
+- 1: A, A
+- 2: A, B
 
 **Answer**
 
@@ -6744,17 +6742,17 @@ The symbols has below constraints,
 
 Using constructors, `new.target` refers to the constructor (points to the class definition of class which is initialized) that was directly invoked by new. This also applies to the case if the constructor is in a parent class and was delegated from a child constructor.
 
-------------------------------------------------------------------------
+---
 
 #### 35. What is the output of below code
 
     const [x, ...y,] = [1, 2, 3, 4];
     console.log(x, y);
 
--   1: 1, \[2, 3, 4\]
--   2: 1, \[2, 3\]
--   3: 1, \[2\]
--   4: SyntaxError
+- 1: 1, \[2, 3, 4\]
+- 2: 1, \[2, 3\]
+- 3: 1, \[2\]
+- 4: SyntaxError
 
 **Answer**
 
@@ -6762,7 +6760,7 @@ Using constructors, `new.target` refers to the constructor (points to the class 
 
 It throws a syntax error because the rest element should not have a trailing comma. You should always consider using a rest operator as the last element.
 
-------------------------------------------------------------------------
+---
 
 #### 36. What is the output of below code
 
@@ -6771,10 +6769,10 @@ It throws a syntax error because the rest element should not have a trailing com
     console.log(x);
     console.log(y);
 
--   1: 30, 20
--   2: 10, 20
--   3: 10, undefined
--   4: 30, undefined
+- 1: 30, 20
+- 2: 10, 20
+- 3: 10, undefined
+- 4: 30, undefined
 
 **Answer**
 
@@ -6785,7 +6783,7 @@ The object property follows below rules,
 1.  The object properties can be retrieved and assigned to a variable with a different name
 2.  The property assigned a default value when the retrieved value is `undefined`
 
-------------------------------------------------------------------------
+---
 
 #### 37. What is the output of below code
 
@@ -6795,10 +6793,10 @@ The object property follows below rules,
 
     area();
 
--   1: 200
--   2: Error
--   3: undefined
--   4: 0
+- 1: 200
+- 2: Error
+- 3: undefined
+- 4: 0
 
 **Answer**
 
@@ -6828,7 +6826,7 @@ You can avoid the error with either of the below changes,
 
     area();
 
-------------------------------------------------------------------------
+---
 
 #### 38. What is the output of below code
 
@@ -6841,10 +6839,10 @@ You can avoid the error with either of the below changes,
     const [, , { name }] = props;
     console.log(name);
 
--   1: Tom
--   2: Error
--   3: undefined
--   4: John
+- 1: Tom
+- 2: Error
+- 3: undefined
+- 4: John
 
 **Answer**
 
@@ -6852,7 +6850,7 @@ You can avoid the error with either of the below changes,
 
 It is possible to combine Array and Object destructuring. In this case, the third element in the array props accessed first followed by name property in the object.
 
-------------------------------------------------------------------------
+---
 
 #### 39. What is the output of below code
 
@@ -6865,10 +6863,10 @@ It is possible to combine Array and Object destructuring. In this case, the thir
     checkType('');
     checkType(null);
 
--   1: number, undefined, string, object
--   2: undefined, undefined, string, object
--   3: number, number, string, object
--   4: number, number, number, number
+- 1: number, undefined, string, object
+- 2: undefined, undefined, string, object
+- 3: number, number, string, object
+- 4: number, number, number, number
 
 **Answer**
 
@@ -6881,7 +6879,7 @@ Hence, the result of function calls categorized as below,
 1.  The first two function calls logs number type since the type of default value is number
 2.  The type of ’’ and null values are string and object type respectively.
 
-------------------------------------------------------------------------
+---
 
 #### 40. What is the output of below code
 
@@ -6893,8 +6891,8 @@ Hence, the result of function calls categorized as below,
     console.log(add('Orange'));
     console.log(add('Apple'));
 
--   1: \[‘Orange’\], \[‘Orange’, ‘Apple’\]
--   2: \[‘Orange’\], \[‘Apple’\]
+- 1: \[‘Orange’\], \[‘Orange’, ‘Apple’\]
+- 2: \[‘Orange’\], \[‘Apple’\]
 
 **Answer**
 
@@ -6902,7 +6900,7 @@ Hence, the result of function calls categorized as below,
 
 Since the default argument is evaluated at call time, a new object is created each time the function is called. So in this case, the new array is created and an element pushed to the default empty array.
 
-------------------------------------------------------------------------
+---
 
 #### 41. What is the output of below code
 
@@ -6913,8 +6911,8 @@ Since the default argument is evaluated at call time, a new object is created ea
     greet('Hello', 'John');
     greet('Hello', 'John', 'Good morning!');
 
--   1: SyntaxError
--   2: \[‘Hello’, ‘John’, ‘Hello John’\], \[‘Hello’, ‘John’, ‘Good morning!’\]
+- 1: SyntaxError
+- 2: \[‘Hello’, ‘John’, ‘Hello John’\], \[‘Hello’, ‘John’, ‘Good morning!’\]
 
 **Answer**
 
@@ -6922,7 +6920,7 @@ Since the default argument is evaluated at call time, a new object is created ea
 
 Since parameters defined earlier are available to later default parameters, this code snippet doesn’t throw any error.
 
-------------------------------------------------------------------------
+---
 
 #### 42. What is the output of below code
 
@@ -6933,8 +6931,8 @@ Since parameters defined earlier are available to later default parameters, this
     }
     outer();
 
--   1: ReferenceError
--   2: Inner
+- 1: ReferenceError
+- 2: Inner
 
 **Answer**
 
@@ -6942,7 +6940,7 @@ Since parameters defined earlier are available to later default parameters, this
 
 The functions and variables declared in the function body cannot be referred from default value parameter initializers. If you still try to access, it throws a run-time ReferenceError(i.e, `inner` is not defined).
 
-------------------------------------------------------------------------
+---
 
 #### 43. What is the output of below code
 
@@ -6953,10 +6951,10 @@ The functions and variables declared in the function body cannot be referred fro
     myFun(1, 2, 3, 4, 5);
     myFun(1, 2);
 
--   1: \[3, 4, 5\], undefined
--   2: SyntaxError
--   3: \[3, 4, 5\], \[\]
--   4: \[3, 4, 5\], \[undefined\]
+- 1: \[3, 4, 5\], undefined
+- 2: SyntaxError
+- 3: \[3, 4, 5\], \[\]
+- 4: \[3, 4, 5\], \[undefined\]
 
 **Answer**
 
@@ -6964,7 +6962,7 @@ The functions and variables declared in the function body cannot be referred fro
 
 The rest parameter is used to hold the remaining parameters of a function and it becomes an empty array if the argument is not provided.
 
-------------------------------------------------------------------------
+---
 
 #### 44. What is the output of below code
 
@@ -6972,10 +6970,10 @@ The rest parameter is used to hold the remaining parameters of a function and it
     const array = [...obj];
     console.log(array);
 
--   1: \[‘key’, ‘value’\]
--   2: TypeError
--   3: \[\]
--   4: \[‘key’\]
+- 1: \[‘key’, ‘value’\]
+- 2: TypeError
+- 3: \[\]
+- 4: \[‘key’\]
 
 **Answer**
 
@@ -6983,7 +6981,7 @@ The rest parameter is used to hold the remaining parameters of a function and it
 
 Spread syntax can be applied only to iterable objects. By default, Objects are not iterable, but they become iterable when used in an Array, or with iterating functions such as `map(), reduce(), and assign()`. If you still try to do it, it still throws `TypeError: obj is not iterable`.
 
-------------------------------------------------------------------------
+---
 
 #### 45. What is the output of below code
 
@@ -6995,10 +6993,10 @@ Spread syntax can be applied only to iterable objects. By default, Objects are n
     var myGenObj = new myGenFunc();
     console.log(myGenObj.next().value);
 
--   1: 1
--   2: undefined
--   3: SyntaxError
--   4: TypeError
+- 1: 1
+- 2: undefined
+- 3: SyntaxError
+- 4: TypeError
 
 **Answer**
 
@@ -7006,7 +7004,7 @@ Spread syntax can be applied only to iterable objects. By default, Objects are n
 
 Generators are not constructible type. But if you still proceed to do, there will be an error saying “TypeError: myGenFunc is not a constructor”
 
-------------------------------------------------------------------------
+---
 
 #### 46. What is the output of below code
 
@@ -7021,10 +7019,10 @@ Generators are not constructible type. But if you still proceed to do, there wil
     console.log(myGenObj.next());
     console.log(myGenObj.next());
 
--   1: { value: 1, done: false }, { value: 2, done: true }, { value: undefined, done: true }
--   2: { value: 1, done: false }, { value: 2, done: false }, { value: undefined, done: true }
--   3: { value: 1, done: false }, { value: 2, done: true }, { value: 3, done: true }
--   4: { value: 1, done: false }, { value: 2, done: false }, { value: 3, done: true }
+- 1: { value: 1, done: false }, { value: 2, done: true }, { value: undefined, done: true }
+- 2: { value: 1, done: false }, { value: 2, done: false }, { value: undefined, done: true }
+- 3: { value: 1, done: false }, { value: 2, done: true }, { value: 3, done: true }
+- 4: { value: 1, done: false }, { value: 2, done: false }, { value: 3, done: true }
 
 **Answer**
 
@@ -7032,7 +7030,7 @@ Generators are not constructible type. But if you still proceed to do, there wil
 
 A return statement in a generator function will make the generator finish. If a value is returned, it will be set as the value property of the object and done property to true. When a generator is finished, subsequent next() calls return an object of this form: `{value: undefined, done: true}`.
 
-------------------------------------------------------------------------
+---
 
 #### 47. What is the output of below code
 
@@ -7050,10 +7048,10 @@ A return statement in a generator function will make the generator finish. If a 
         console.log(value);
     }
 
--   1: 1,2,3 and 1,2,3
--   2: 1,2,3 and 4,5,6
--   3: 1 and 1
--   4: 1
+- 1: 1,2,3 and 1,2,3
+- 2: 1,2,3 and 4,5,6
+- 3: 1 and 1
+- 4: 1
 
 **Answer**
 
@@ -7061,15 +7059,15 @@ A return statement in a generator function will make the generator finish. If a 
 
 The generator should not be re-used once the iterator is closed. i.e, Upon exiting a loop(on completion or using break & return), the generator is closed and trying to iterate over it again does not yield any more results. Hence, the second loop doesn’t print any value.
 
-------------------------------------------------------------------------
+---
 
 #### 48. What is the output of below code
 
     const num = 0o38;
     console.log(num);
 
--   1: SyntaxError
--   2: 38
+- 1: SyntaxError
+- 2: 38
 
 **Answer**
 
@@ -7077,7 +7075,7 @@ The generator should not be re-used once the iterator is closed. i.e, Upon exiti
 
 If you use an invalid number(outside of 0-7 range) in the octal literal, JavaScript will throw a SyntaxError. In ES5, it treats the octal literal as a decimal number.
 
-------------------------------------------------------------------------
+---
 
 #### 49. What is the output of below code
 
@@ -7098,8 +7096,8 @@ If you use an invalid number(outside of 0-7 range) in the octal literal, JavaScr
         }
     }
 
--   1: 100
--   2: ReferenceError
+- 1: 100
+- 2: ReferenceError
 
 **Answer**
 
@@ -7109,7 +7107,7 @@ Unlike function declarations, class declarations are not hoisted. i.e, First You
 
 **Note:** Class expressions also applies to the same hoisting restrictions of class declarations.
 
-------------------------------------------------------------------------
+---
 
 #### 50. What is the output of below code
 
@@ -7130,10 +7128,10 @@ Unlike function declarations, class declarations are not hoisted. i.e, First You
     let run = Person.run;
     console.log(run());
 
--   1: undefined, undefined
--   2: Person, Person
--   3: SyntaxError
--   4: Window, Window
+- 1: undefined, undefined
+- 2: Person, Person
+- 3: SyntaxError
+- 4: Window, Window
 
 **Answer**
 
@@ -7141,7 +7139,7 @@ Unlike function declarations, class declarations are not hoisted. i.e, First You
 
 When a regular or prototype method is called without a value for **this**, the methods return an initial this value if the value is not undefined. Otherwise global window object will be returned. In our case, the initial `this` value is undefined so both methods return window objects.
 
-------------------------------------------------------------------------
+---
 
 #### 51. What is the output of below code
 
@@ -7165,10 +7163,10 @@ When a regular or prototype method is called without a value for **this**, the m
     const car = new Car('BMW');
     console.log(car.start());
 
--   1: SyntaxError
--   2: BMW vehicle started, BMW car started
--   3: BMW car started, BMW vehicle started
--   4: BMW car started, BMW car started
+- 1: SyntaxError
+- 2: BMW vehicle started, BMW car started
+- 3: BMW car started, BMW vehicle started
+- 4: BMW car started, BMW car started
 
 **Answer**
 
@@ -7176,7 +7174,7 @@ When a regular or prototype method is called without a value for **this**, the m
 
 The super keyword is used to call methods of a superclass. Unlike other languages the super invocation doesn’t need to be a first statement. i.e, The statements will be executed in the same order of code.
 
-------------------------------------------------------------------------
+---
 
 #### 52. What is the output of below code
 
@@ -7184,10 +7182,10 @@ The super keyword is used to call methods of a superclass. Unlike other language
     USER.age = 25;
     console.log(USER.age);
 
--   1: 30
--   2: 25
--   3: Uncaught TypeError
--   4: SyntaxError
+- 1: 30
+- 2: 25
+- 3: Uncaught TypeError
+- 4: SyntaxError
 
 **Answer**
 
@@ -7195,14 +7193,14 @@ The super keyword is used to call methods of a superclass. Unlike other language
 
 Even though we used constant variables, the content of it is an object and the object’s contents (e.g properties) can be altered. Hence, the change is going to be valid in this case.
 
-------------------------------------------------------------------------
+---
 
 #### 53. What is the output of below code
 
     console.log('🙂' === '🙂');
 
--   1: false
--   2: true
+- 1: false
+- 2: true
 
 **Answer**
 
@@ -7210,16 +7208,16 @@ Even though we used constant variables, the content of it is an object and the o
 
 Emojis are unicodes and the unicode for smile symbol is “U+1F642”. The unicode comparision of same emojies is equivalent to string comparison. Hence, the output is always true.
 
-------------------------------------------------------------------------
+---
 
 #### 54. What is the output of below code?
 
     console.log(typeof typeof typeof true);
 
--   1: string
--   2: boolean
--   3: NaN
--   4: number
+- 1: string
+- 2: boolean
+- 3: NaN
+- 4: number
 
 **Answer**
 
@@ -7227,7 +7225,7 @@ Emojis are unicodes and the unicode for smile symbol is “U+1F642”. The unico
 
 The typeof operator on any primitive returns a string value. So even if you apply the chain of typeof operators on the return value, it is always string.
 
-------------------------------------------------------------------------
+---
 
 #### 55. What is the output of below code?
 
@@ -7239,10 +7237,10 @@ The typeof operator on any primitive returns a string value. So even if you appl
         console.log('Else');
     }
 
--   1: If
--   2: Else
--   3: NaN
--   4: SyntaxError
+- 1: If
+- 2: Else
+- 3: NaN
+- 4: SyntaxError
 
 **Answer**
 
@@ -7253,7 +7251,7 @@ The typeof operator on any primitive returns a string value. So even if you appl
 
 Hence the above code block always goes to if section.
 
-------------------------------------------------------------------------
+---
 
 #### 55. What is the output of below code in non strict mode?
 
@@ -7263,10 +7261,10 @@ Hence the above code block always goes to if section.
 
     console.log(msg.name);
 
--   1: ""
--   2: Error
--   3: John
--   4: Undefined
+- 1: ""
+- 2: Error
+- 3: John
+- 4: Undefined
 
 **Answer**
 
@@ -7274,7 +7272,7 @@ Hence the above code block always goes to if section.
 
 It returns undefined for non-strict mode and returns Error for strict mode. In non-strict mode, the wrapper object is going to be created and get the mentioned property. But the object get disappeared after accessing the property in next line.
 
-------------------------------------------------------------------------
+---
 
 #### 56. What is the output of below code?
 
@@ -7288,10 +7286,10 @@ It returns undefined for non-strict mode and returns Error for strict mode. In n
         console.log(count);
     })();
 
--   1: 11, 10
--   2: 11, 11
--   3: 10, 11
--   4: 10, 10
+- 1: 11, 10
+- 2: 11, 11
+- 3: 10, 11
+- 4: 10, 10
 
 **Answer**
 
@@ -7301,9 +7299,9 @@ It returns undefined for non-strict mode and returns Error for strict mode. In n
 
 The innerFunc is a closure which captures the count variable from the outerscope. i.e, 10. But the conditional has another local variable `count` which overwrites the ourter `count` variable. So the first console.log displays value 11. Whereas the second console.log logs 10 by capturing the count variable from outerscope.
 
-------------------------------------------------------------------------
+---
 
-------------------------------------------------------------------------
+---
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color: transparent">freefind</span></a></td></tr></tbody></table>
 
