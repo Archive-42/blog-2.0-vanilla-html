@@ -4,244 +4,243 @@ This app works best with JavaScript enabled.
 
 <span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="/docs" class="button">Docs</a>
-    -   <a href="/showcase" class="button">Showcase</a>
-    -   <a href="/docs/faq/contact" class="button">Contact!</a>
-    -   <a href="/docs/python/python-ds" class="button">Python</a>
+  - <a href="/docs" class="button">Docs</a>
+  - <a href="/showcase" class="button">Showcase</a>
+  - <a href="/docs/faq/contact" class="button">Contact!</a>
+  - <a href="/docs/python/python-ds" class="button">Python</a>
 
--   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
-    -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
-    -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
-    -   <a href="/blog/platform-docs/" class="button">platform docs</a>
-    -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
-    -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
+  - <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
+  - <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
+  - <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
+  - <a href="/blog/platform-docs/" class="button">platform docs</a>
+  - <a href="/docs/articles/nodejs/" class="button">nodejs</a>
+  - <a href="/blogWcomments/" class="button">Blog w Comments</a>
 
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
-    -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
-    -   <a href="#" class="button">Bootcamp Resources</a>
-    -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
-    -   <a href="/docs/gallery" class="button">Gallery</a>
-    -   <a href="/docs" class="button">Top Repos</a>
+  - <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
+  - <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
+  - <a href="#" class="button">Bootcamp Resources</a>
+  - <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
+  - <a href="/docs/gallery" class="button">Gallery</a>
+  - <a href="/docs" class="button">Top Repos</a>
 
--   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
-    -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+  - <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
+  - <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
 
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
-    -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
-    -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
-    -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
-    -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+  - <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
+  - <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
+  - <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
+  - [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
+  - <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
 
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+- <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-    -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
-    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
-    -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
-    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
-    -   <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
-    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
-    -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
-    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
-    -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+  - <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
+  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
+  - <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
+  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
+  - <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
+  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
+  - <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
+  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
+  - <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
 
--   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
-    -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
-    -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
-    -   <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
-    -   <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
-    -   <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
-    -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
-    -   <span class="screen-reader-text">Github-Advanced-Search</span>
+- <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+  - <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
+  - <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
+  - <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
+  - <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
+  - <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
+  - <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
+  - <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
+  - <span class="screen-reader-text">Github-Advanced-Search</span>
 
 <span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
 Navigate Docs<span class="icon-angle-right" data-aria-hidden="true"></span>
 
--   [Docs](/docs/)
--   [About](/docs/about/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Docs](/docs/)
+- [About](/docs/about/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [Job Search](/docs/about/job-search/)
-    -   [Youtube](/docs/about/intrests/)
-    -   [Resume](/docs/about/resume/)
-    -   [Engineering Portfolio](/docs/about/eng-portfolio/)
-    -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
+  - [Job Search](/docs/about/job-search/)
+  - [Youtube](/docs/about/intrests/)
+  - [Resume](/docs/about/resume/)
+  - [Engineering Portfolio](/docs/about/eng-portfolio/)
+  - [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
 
--   [Articles](/docs/articles/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Articles](/docs/articles/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [The HTTP Protocol](/docs/articles/http/)
-    -   [How The Web Works](/docs/articles/how-the-web-works/)
-    -   [Sorting Algorithms](/docs/articles/node-package-manager/)
-    -   [Introduction to npm](/docs/articles/npm/)
-    -   [lorem-ipsum](/docs/articles/semantic-html/)
-    -   [The Uniform Resource Locator (URL)](/docs/articles/the-uniform-resource-locator-(url)/)
-    -   [Firebase](/docs/articles/understanding-firebase/)
-    -   [Web Standards Checklist](/docs/articles/web-standards-checklist/)
-    -   [Web Developer Tools](/docs/articles/webdev-tools/)
-    -   [where-is-npm-pack](/docs/articles/node-cli-args/)
-    -   [Node Export Module](/docs/articles/node-env-variables/)
-    -   [The-package-lock.json-file](/docs/articles/node-repl/)
-    -   [node-cli-args](/docs/articles/node-run-cli/)
-    -   [packagejson](/docs/articles/node-js-language/)
-    -   [npm global or local packages](/docs/articles/v8/)
-    -   [Common Modules](/docs/articles/node-common-modules/)
-    -   [Node Buffers](/docs/articles/buffers/)
-    -   [Dev Dependencies](/docs/articles/dev-dep/)
-    -   [Fs-Module](/docs/articles/fs-module/)
-    -   [The Node.js Event Loop](/docs/articles/event-loop/)
-    -   [Install](/docs/articles/install/)
-    -   [Web Dev Review](/docs/articles/basic-web-dev/)
-    -   [module-exports](/docs/articles/module-exports/)
-    -   [Intro To Node](/docs/articles/intro/)
-    -   [Javascript and Node](/docs/articles/nodejs/)
-    -   [Node vs Browser](/docs/articles/nodevsbrowser/)
-    -   [The npx Node.js Package Runner](/docs/articles/npx/)
-    -   [Reading Files](/docs/articles/reading-files/)
-    -   [Semantic Versioning](/docs/articles/semantic/)
-    -   [OS-Module](/docs/articles/os-module/)
-    -   [Writing Files](/docs/articles/writing-files/)
-    -   [Node APIs With Express](/docs/articles/node-api-express/)
+  - [The HTTP Protocol](/docs/articles/http/)
+  - [How The Web Works](/docs/articles/how-the-web-works/)
+  - [Sorting Algorithms](/docs/articles/node-package-manager/)
+  - [Introduction to npm](/docs/articles/npm/)
+  - [lorem-ipsum](/docs/articles/semantic-html/)
+  - [The Uniform Resource Locator (URL)](</docs/articles/the-uniform-resource-locator-(url)/>)
+  - [Firebase](/docs/articles/understanding-firebase/)
+  - [Web Standards Checklist](/docs/articles/web-standards-checklist/)
+  - [Web Developer Tools](/docs/articles/webdev-tools/)
+  - [where-is-npm-pack](/docs/articles/node-cli-args/)
+  - [Node Export Module](/docs/articles/node-env-variables/)
+  - [The-package-lock.json-file](/docs/articles/node-repl/)
+  - [node-cli-args](/docs/articles/node-run-cli/)
+  - [packagejson](/docs/articles/node-js-language/)
+  - [npm global or local packages](/docs/articles/v8/)
+  - [Common Modules](/docs/articles/node-common-modules/)
+  - [Node Buffers](/docs/articles/buffers/)
+  - [Dev Dependencies](/docs/articles/dev-dep/)
+  - [Fs-Module](/docs/articles/fs-module/)
+  - [The Node.js Event Loop](/docs/articles/event-loop/)
+  - [Install](/docs/articles/install/)
+  - [Web Dev Review](/docs/articles/basic-web-dev/)
+  - [module-exports](/docs/articles/module-exports/)
+  - [Intro To Node](/docs/articles/intro/)
+  - [Javascript and Node](/docs/articles/nodejs/)
+  - [Node vs Browser](/docs/articles/nodevsbrowser/)
+  - [The npx Node.js Package Runner](/docs/articles/npx/)
+  - [Reading Files](/docs/articles/reading-files/)
+  - [Semantic Versioning](/docs/articles/semantic/)
+  - [OS-Module](/docs/articles/os-module/)
+  - [Writing Files](/docs/articles/writing-files/)
+  - [Node APIs With Express](/docs/articles/node-api-express/)
 
--   [Audio](/docs/audio/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Audio](/docs/audio/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [Audio](/docs/audio/audio/)
-    -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
-    -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
-    -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
-    -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
-    -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
+  - [Audio](/docs/audio/audio/)
+  - [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
+  - [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
+  - [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
+  - [Discrete Fast Fourier Transform](/docs/audio/dfft/)
+  - [Fast Fourier Transform](/docs/audio/discrete-fft/)
 
--   [Community](/docs/community/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Community](/docs/community/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [Video Chat](/docs/community/video-chat/)
+  - [Video Chat](/docs/community/video-chat/)
 
--   [Content](/docs/content/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Content](/docs/content/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [Lambda School Projects](/docs/content/lambda-projects/)
-    -   [Projects](/docs/content/projects/)
-    -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
-    -   [History API](/docs/content/history-api/)
-    -   [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
-    -   [Trouble Shooting](/docs/content/trouble-shooting/)
-    -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
-    -   [Archive](/docs/content/archive/)
-    -   [Embeded Websites & Projects](/docs/content/recent-projects/)
-    -   [Algorithms & Data Structures](/docs/content/algo/)
+  - [Lambda School Projects](/docs/content/lambda-projects/)
+  - [Projects](/docs/content/projects/)
+  - [RECENT PROJECTS](/docs/content/data-structures-algo/)
+  - [History API](/docs/content/history-api/)
+  - [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
+  - [Trouble Shooting](/docs/content/trouble-shooting/)
+  - [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
+  - [Archive](/docs/content/archive/)
+  - [Embeded Websites & Projects](/docs/content/recent-projects/)
+  - [Algorithms & Data Structures](/docs/content/algo/)
 
--   [Documentation](/docs/docs/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Documentation](/docs/docs/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [Apendix](/docs/docs/appendix/)
-    -   [lorem-ipsum](/docs/docs/bash/)
-    -   [Await](/docs/docs/await-keyword/)
-    -   [Data Structures Docs](/docs/docs/data-structures-docs/)
-    -   [Learn Css](/docs/docs/css/)
-    -   [Markdown](/docs/docs/markdown/)
-    -   [Git Repo List](/docs/docs/git-repos/)
-    -   [lorem-ipsum](/docs/docs/git-reference/)
-    -   [Sitemap](/docs/docs/sitemap/)
-    -   [Regular Expressions](/docs/docs/regex-in-js/)
-    -   [Useful Snippets](/docs/docs/content/)
-    -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
+  - [Apendix](/docs/docs/appendix/)
+  - [lorem-ipsum](/docs/docs/bash/)
+  - [Await](/docs/docs/await-keyword/)
+  - [Data Structures Docs](/docs/docs/data-structures-docs/)
+  - [Learn Css](/docs/docs/css/)
+  - [Markdown](/docs/docs/markdown/)
+  - [Git Repo List](/docs/docs/git-repos/)
+  - [lorem-ipsum](/docs/docs/git-reference/)
+  - [Sitemap](/docs/docs/sitemap/)
+  - [Regular Expressions](/docs/docs/regex-in-js/)
+  - [Useful Snippets](/docs/docs/content/)
+  - [lorem-ipsum](/docs/docs/no-whiteboarding/)
 
--   [FAQ](/docs/faq/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [FAQ](/docs/faq/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [Plug-ins](/docs/faq/plug-ins/)
-    -   [Contact!](/docs/faq/contact/)
+  - [Plug-ins](/docs/faq/plug-ins/)
+  - [Contact!](/docs/faq/contact/)
 
--   [Javascript](/docs/javascript/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Javascript](/docs/javascript/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [Javascript Concepts Review](/docs/javascript/review/)
-    -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
-    -   [Constructor Functions](/docs/javascript/constructor-functions/)
+  - [Javascript Concepts Review](/docs/javascript/review/)
+  - [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
+  - [Constructor Functions](/docs/javascript/constructor-functions/)
 
--   [Interactive Examples](/docs/interact/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Interactive Examples](/docs/interact/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
-    -   [Callstack Visualizer](/docs/interact/callstack-visual/)
-    -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
-    -   [Clock](/docs/interact/clock/)
-    -   [Other Websites](/docs/interact/other-sites/)
+  - [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
+  - [Callstack Visualizer](/docs/interact/callstack-visual/)
+  - [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
+  - [Clock](/docs/interact/clock/)
+  - [Other Websites](/docs/interact/other-sites/)
 
--   [Medium](/docs/medium/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Medium](/docs/medium/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [My Sites](/docs/medium/my-websites/)
-    -   [Medium](/docs/medium/medium-links/)
+  - [My Sites](/docs/medium/my-websites/)
+  - [Medium](/docs/medium/medium-links/)
 
--   [Quick Reference](/docs/quick-reference/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Quick Reference](/docs/quick-reference/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
-    -   [Git Bash](/docs/quick-reference/git-bash/)
-    -   [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
-    -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
-    -   [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
-    -   [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
-    -   [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
-    -   [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
-    -   [Quick Links](/docs/quick-reference/quick-links/)
-    -   [Understanding PATH](/docs/quick-reference/understanding-path/)
-    -   [Developer Resources](/docs/quick-reference/resources/)
-    -   [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
-    -   [Installation](/docs/quick-reference/installation/)
-    -   [Top Repos](/docs/quick-reference/topRepos/)
-    -   [Github Search](/docs/quick-reference/github-search/)
-    -   [Awesome Lists](/docs/quick-reference/awesome-lists/)
-    -   [new-repo-git](/docs/quick-reference/new-repo-instructions/)
-    -   [Notes Template](/docs/quick-reference/notes-template/)
-    -   [vscode](/docs/quick-reference/vscode/)
-    -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
-    -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
-    -   [vscode-themes](/docs/quick-reference/vscode-themes/)
+  - [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
+  - [Git Bash](/docs/quick-reference/git-bash/)
+  - [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
+  - [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
+  - [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
+  - [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
+  - [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
+  - [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
+  - [Quick Links](/docs/quick-reference/quick-links/)
+  - [Understanding PATH](/docs/quick-reference/understanding-path/)
+  - [Developer Resources](/docs/quick-reference/resources/)
+  - [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
+  - [Installation](/docs/quick-reference/installation/)
+  - [Top Repos](/docs/quick-reference/topRepos/)
+  - [Github Search](/docs/quick-reference/github-search/)
+  - [Awesome Lists](/docs/quick-reference/awesome-lists/)
+  - [new-repo-git](/docs/quick-reference/new-repo-instructions/)
+  - [Notes Template](/docs/quick-reference/notes-template/)
+  - [vscode](/docs/quick-reference/vscode/)
+  - [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
+  - [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
+  - [vscode-themes](/docs/quick-reference/vscode-themes/)
 
--   [React](/docs/react/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [React](/docs/react/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [React Class Components Demo](/docs/react/demo/)
-    -   [React Cheat Sheets:](/docs/react/cheatsheet/)
-    -   [Introducing JSX](/docs/react/jsx/)
-    -   [Rendering Elements With React](/docs/react/render-elements/)
-    -   [React In Depth](/docs/react/react-in-depth/)
-    -   [Intro To React](/docs/react/react2/)
-    -   [React Docs](/docs/react/react-docs/)
-    -   [npx-create-react-app](/docs/react/createReactApp/)
+  - [React Class Components Demo](/docs/react/demo/)
+  - [React Cheat Sheets:](/docs/react/cheatsheet/)
+  - [Introducing JSX](/docs/react/jsx/)
+  - [Rendering Elements With React](/docs/react/render-elements/)
+  - [React In Depth](/docs/react/react-in-depth/)
+  - [Intro To React](/docs/react/react2/)
+  - [React Docs](/docs/react/react-docs/)
+  - [npx-create-react-app](/docs/react/createReactApp/)
 
--   [Tools](/docs/tools/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+- [Tools](/docs/tools/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
 
-    -   [more tools](/docs/tools/more-tools/)
-    -   [Data Structures](/docs/tools/data-structures/)
-    -   [General Utilities](/docs/tools/dev-utilities/)
-    -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
-    -   [md and html](/docs/tools/markdown-html/)
+  - [more tools](/docs/tools/more-tools/)
+  - [Data Structures](/docs/tools/data-structures/)
+  - [General Utilities](/docs/tools/dev-utilities/)
+  - [The google cloud cheat sheet](/docs/tools/cloudstorage/)
+  - [md and html](/docs/tools/markdown-html/)
 
--   [My Python Docs](/docs/python/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
-    -   [lorem-ipsum](/docs/python/functions/)
-    -   [lorem-ipsum](/docs/python/flow-control/)
-    -   [lorem-ipsum](/docs/python/basics/)
-    -   [lorem-ipsum](/docs/python/comprehensive-guide/)
-    -   [google-sheets-api](/docs/python/google-sheets-api/)
-    -   [Practice](/docs/python/examples/)
-    -   [lorem-ipsum](/docs/python/intro-for-js-devs/)
-    -   [Python General Notes](/docs/python/python-ds/)
-    -   [Python Cheat Sheet](/docs/python/cheat-sheet/)
-    -   [Python Snippets](/docs/python/snippets/)
-    -   [Python at length](/docs/python/at-length/)
+- [My Python Docs](/docs/python/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
+  - [lorem-ipsum](/docs/python/functions/)
+  - [lorem-ipsum](/docs/python/flow-control/)
+  - [lorem-ipsum](/docs/python/basics/)
+  - [lorem-ipsum](/docs/python/comprehensive-guide/)
+  - [google-sheets-api](/docs/python/google-sheets-api/)
+  - [Practice](/docs/python/examples/)
+  - [lorem-ipsum](/docs/python/intro-for-js-devs/)
+  - [Python General Notes](/docs/python/python-ds/)
+  - [Python Cheat Sheet](/docs/python/cheat-sheet/)
+  - [Python Snippets](/docs/python/snippets/)
+  - [Python at length](/docs/python/at-length/)
 
-lorem-ipsum
-===========
+# lorem-ipsum
 
 Three different aspects of web site production:
 
--   Content – the text, images, etc. What the user wants to read.
--   Style – how the content is arranged on the page, fonts, colours, page style.
--   Behaviour – how users interact with the site, data processing, dynamic page elements.
+- Content – the text, images, etc. What the user wants to read.
+- Style – how the content is arranged on the page, fonts, colours, page style.
+- Behaviour – how users interact with the site, data processing, dynamic page elements.
 
 Since each requires different skills, a good (software) design would seperate them.
 
@@ -249,8 +248,7 @@ Each of these areas has a different associated technology in the web world: HTML
 
 Note that it hasn’t always been this way, HTML can do a bunch of Style things (eg. the &lt;font&gt; tag) but now that we have good standards compliant browser we don’t need to use them.
 
-Document Production
--------------------
+## Document Production
 
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Metal_movable_type.jpg/640px-Metal_movable_type.jpg)
 
@@ -270,8 +268,7 @@ If we fast-forward to the software tools we have today for document production, 
 
 So, to summarise this little discussion of history, there have always been people who’s expertise is the way that a text is rendered on the page. With the onset of desktop publishing software, there has been a tendency for the author to spend time in document design, meaning that the relevant expertise was not being applied. However, modern software now allows for the designer’s voice to be heard again through the use of stylesheets and document templates. This leaves the author to concentrate on the text meaning they will be more productive and should produce better looking documents as well.
 
-Web Document Production
------------------------
+## Web Document Production
 
 Fundamentally, the web is a technology for delivering content to readers through a document based interface (the web browser). So, producing web content is a document production process and as such, should parallel the ideas discussed above. It’s interesting to look at the development of HTML and see how it parallels the developments described above.
 
@@ -285,27 +282,25 @@ All of these additions to HTML and the mis-use of existing tags meant that a lan
 
 The current suite of web languages understood by your browser (HTML, CSS and Javascript) each serve different roles in the web development process:
 
--   HTML - Content
--   CSS - Style
--   Javascript - Behaviour
+- HTML - Content
+- CSS - Style
+- Javascript - Behaviour
 
 The third of these - Javascript and Behaviour - refer to the way that Javascript can be used to change the way that the user interacts with the page. This doesn’t really have an analogue in the print document production world but it’s an important aspect of modern web content production. It fits into this framework because the behavioural changes that Javascript can introduce should not be the concern of the content author or the visual designer (though both might have opinions on what they’d like to see).
 
 It is useful to think of these three aspects of web design as independent things. The same web content could be presented using alternate stylesheets and have a completely different impact. Similarly, Javascript can be used to change the way that a user interacts with content, making it more usable. We can see the Style and Behaviour aspects as layers that are applied to the core Content to enhance it for the user.
 
-The Separation of Concerns
---------------------------
+## The Separation of Concerns
 
 From a Computer Science/Software Engineering point of view there is a very important principle called the [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) (SoC) that is illustrated perfectly by the way that the various web languages have evolved. The SoC principle is about partitioning the work that we do in software development into parts that can be considered separately. This is achieved by *modularisation* within a software project and is helped by things like classes and interface descriptions between modules
 
--   in fact these things have been developed to support SoC.
+- in fact these things have been developed to support SoC.
 
 The SoC principle allows us to develop large complex software by allowing us to concentrate on different aspects of the solution. It could be that we do that alone, spending time on one aspect and then another, or as a team with different people assigned to different aspects. Either way, being able to work on part of the problem makes it manageable and improves the overall quality of the solution.
 
 In web development, the separation of concerns is supported by the different languages that work together to build a modern web application. It is important to recognise this and make sure that we use each of these tools in such a way as to respect their roles and capabilities. So, while it is possible to use HTML structures to make text large and bold for a heading, we don’t, we use one of the header tags and rely on the stylesheet to apply the appropriate settings. Having the author respect good HTML usage means that the designer can make assumptions about the page structure in the stylesheet and ensure that the document appearance is consistent for the user.
 
-Semantic HTML Markup
---------------------
+## Semantic HTML Markup
 
 One corollary of this kind of thinking is that each component that we use should be used as it was designed and according to it’s role in the overall picture. In particular for HTML this implies that the markup we use should encode only the *structure* of the document rather than aspects of the *appearance* which is properly dealt with using CSS. Further, this means that we should use markup in a way that imparts useful *meaning* to the document structure. This is generally known as using *Semantic HTML* ([Wikipedia](http://en.wikipedia.org/wiki/Semantic_HTML), [POSH](http://microformats.org/wiki/posh) on Microformats.org) and is the current best practice in HTML authoring.
 
@@ -337,12 +332,11 @@ Another motivation for using semantic markup is for users who cannot read via a 
 
 1.  Find an appropriate HTML tag to mark up the following items:
 
-    -   the name of a book that you are citing in an essay
-    -   a fragment of computer code, eg. a bit of Python
-    -   an abbreviation or acronym and it’s expansion (e.g. HTML - Hypertext Markup language)
+    - the name of a book that you are citing in an essay
+    - a fragment of computer code, eg. a bit of Python
+    - an abbreviation or acronym and it’s expansion (e.g. HTML - Hypertext Markup language)
 
-Extending the Semantics of HTML
--------------------------------
+## Extending the Semantics of HTML
 
 The tag set defined by the HTML standard supports a wide range of content and was designed to cover the most common document structures and entities that appear on the web. However, the designers of HTML couldn’t forsee everything that you might want to mark in your documents and so an extension mechanism is included such that you can effectively add new semantics to existing tags. This is the HTML class attribute which allows you to enter a user defined class for any tag. It is effectively a specialisation of any tag that can be used to encode special meanings for your documents.
 
@@ -360,18 +354,16 @@ One final note about the use of classes to convey new semantics. It is possible 
 
 Note that I have to encode the HTML markup as entity references using the & notation so that they appear correctly when you view them in the web browser (view source to check this out). Having more than one class name means that I can apply standard styling to code examples and special style for different languages. It also means that I could write a script to pull out all of the examples in a given language if I wanted to check their syntax etc.
 
-A View of HTML
-==============
+# A View of HTML
 
 Rather than being a chapter that will teach you the HTML language this will be a chapter about the language, how it works, why it has the structures it does and what you should and shouldn’t do with it.
 
 Most people will know some HTML by now (assuming you’ve been studying computing for a while or have a general interest in the web). My task here is not to teach you HTML or act as a reference for the language, there are plenty of resources around that will do this. Some examples are:
 
--   [w3schools HTML tutorial](http://www.w3schools.com/html/default.asp) w3schools is one of the most widely used tutorial and reference sites on the web for HTML and other web technologies.
--   [Learn HTML](https://developer.mozilla.org/en-US/learn/html) from the Mozilla Developer Network, the organisation that produces the Firefox browser. This page has pointers to a number of HTML tutorials and resources.
+- [w3schools HTML tutorial](http://www.w3schools.com/html/default.asp) w3schools is one of the most widely used tutorial and reference sites on the web for HTML and other web technologies.
+- [Learn HTML](https://developer.mozilla.org/en-US/learn/html) from the Mozilla Developer Network, the organisation that produces the Firefox browser. This page has pointers to a number of HTML tutorials and resources.
 
-About HTML
-----------
+## About HTML
 
 HTML is a *markup language*, which is a formal language used to add encode structured documents, often by mixing formal elements and plain text. Another example is the LaTeX language used to typeset scientific and technical documents. Here’s a fragment of LaTeX that shows the use of commands preceded by a backslash character and curly braces to enclose text:
 
@@ -385,8 +377,7 @@ HTML is based on an earlier standard called SGML (Standard Generalised Markup la
 
 Importantly, HTML is a *markup language* not a *programming language*. The job of a markup language is to record the structure of a document; that structure can then be interpreted by a program to generate some output. A programming language contains instructions that will be executed (or interpreted) to carry out some action or compute some result.
 
-Versions of HTML
-----------------
+## Versions of HTML
 
 The first version of HTML was developed by Tim Berners-Lee as part of his World Wide Web project along with the HTTP protocol and the URL syntax. At first it was a very simple language for encoding articles and so had tags for headings, paragraphs, lists etc. Later, the language evolved to encompas new features in the browser such as the ability to display images, tables and modify the font that text was displayed in. The evolution of HTML has been quite gradual and at times part of intense competition between browser vendors (look up the [Browser Wars](http://en.wikipedia.org/wiki/Browser_wars) to get the full story). The Internet Engineering Task Force (IETF) and later the World Wide Web Consortium (W3C) tried to standardise the language but it took some time for industry practice to align with the W3C standards. Luckily now we are in a period of relative stability where the standards process aligns well with what the major browsers are able to understand.
 
@@ -402,13 +393,11 @@ One of the motivations for introducing XHTML was to try to encourage web develop
 
 Around this time there was a move towards having more automated clients consuming web content. One group was the search engine developers who were just interested in the textual content of pages but other groups were trying to glean real data from the web. For example, price comparison services were starting up which tried to extract pricing information from store listings. Other services might try to find event information from web pages. All of these services needed to parse the HTML structure and had problems when the HTML was badly structured; this became known as [Tag Soup](http://essaysfromexodus.scripting.com/whatIsTagSoup) since one could not rely on proper HTML structure it was just treated as an unstructured collection of tagged text. Permissive parsers such as [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/) (Python) and [Tagsoup](http://home.ccil.org/~cowan/XML/tagsoup/) (Java) were developed to cope with the messy markup and give the developer as much detail as possible from the page.
 
-HTML5
-=====
+# HTML5
 
 The most recent version of HTML is HTML5 - note the name with no spaces which is quite different to earlier versions. HTML5 was a big change in the way that the standard was put together and followed a long break in the development of standards for HTML: HTML 4.0.1 was last updated in 2000, HTML5 was finally released in 2012. The goal of HTML5 was to standardise current practice in browsers, rather than to define new structures or limit what was possible. The W3C worked with the browser developers to agree on standards for new technologies that they had introduced. For example, being able to include audio and video elements in HTML had been possible in some browsers; HTML5 defined a standard for these that all browser vendors could agree on and implement.
 
-Jump to Section
----------------
+## Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color: transparent">freefind</span></a></td></tr></tbody></table>
 

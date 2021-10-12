@@ -1,272 +1,737 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>dfft</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
-</head>
-<body>
-<p>This app works best with JavaScript enabled.</p>
-<p><a href="/"><img src="https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png" alt="webdevhub logo" /></a></p>
-<p><span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span></p>
-<ul>
-<li><p><a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></p>
-<ul>
-<li><a href="/docs" class="button">Docs</a></li>
-<li><a href="/showcase" class="button">Showcase</a></li>
-<li><a href="/docs/faq/contact" class="button">Contact!</a></li>
-<li><a href="/docs/python/python-ds" class="button">Python</a></li>
-</ul></li>
-<li><p><a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></p>
-<ul>
-<li><a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a></li>
-<li><a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a></li>
-<li><a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a></li>
-<li><a href="/blog/platform-docs/" class="button">platform docs</a></li>
-<li><a href="/docs/articles/nodejs/" class="button">nodejs</a></li>
-<li><a href="/blogWcomments/" class="button">Blog w Comments</a></li>
-</ul></li>
-<li><p><a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></p>
-<ul>
-<li><a href="https://bryanguner.medium.com/" class="button">Medium Articles</a></li>
-<li><a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a></li>
-<li><a href="#" class="button">Bootcamp Resources</a></li>
-<li><a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a></li>
-<li><a href="/docs/gallery" class="button">Gallery</a></li>
-<li><a href="/docs" class="button">Top Repos</a></li>
-</ul></li>
-<li><p><a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></p>
-<ul>
-<li><a href="/docs/audio/audio" class="button">DTW-guitar-effects</a></li>
-<li><a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a></li>
-</ul></li>
-<li><p><a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></p>
-<ul>
-<li><a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a></li>
-<li><a href="https://meditate42app.netlify.app/" class="button">Meditation App</a></li>
-<li><a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a></li>
-<li><a href="https://bgoonz.github.io/searchAwesome/">SearchAwesome</a></li>
-<li><a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a></li>
-</ul></li>
-<li><p><a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span></p>
-<ul>
-<li><a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a></li>
-<li><a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a></li>
-<li><a href="https://bgoonz-games.netlify.app/" class="button">Games</a></li>
-<li><a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a></li>
-<li><a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a></li>
-<li><a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a></li>
-<li><a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a></li>
-<li><a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a></li>
-<li><a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a></li>
-</ul></li>
-<li><a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-<ul>
-<li><a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a></li>
-<li><a href="https://devtools42.netlify.app/" class="button">Text Tools</a></li>
-<li><a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a></li>
-<li><a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a></li>
-<li><a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a></li>
-<li><a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a></li>
-<li><a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a></li>
-<li><span class="screen-reader-text">Github-Advanced-Search</span></li>
-</ul></li>
-</ul>
-<p><span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span></p>
-<p>Navigate Docs<span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/">Docs</a></li>
-<li><p><a href="/docs/about/">About</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/about/job-search/">Job Search</a></li>
-<li><a href="/docs/about/intrests/">Youtube</a></li>
-<li><a href="/docs/about/resume/">Resume</a></li>
-<li><a href="/docs/about/eng-portfolio/">Engineering Portfolio</a></li>
-<li><a href="/docs/about/hobbies-n-interests/">My Hobbies &amp; Interests</a></li>
-</ul></li>
-<li><p><a href="/docs/articles/">Articles</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/articles/http/">The HTTP Protocol</a></li>
-<li><a href="/docs/articles/how-the-web-works/">How The Web Works</a></li>
-<li><a href="/docs/articles/node-package-manager/">Sorting Algorithms</a></li>
-<li><a href="/docs/articles/npm/">Introduction to npm</a></li>
-<li><a href="/docs/articles/semantic-html/">lorem-ipsum</a></li>
-<li><a href="/docs/articles/the-uniform-resource-locator-(url)/">The Uniform Resource Locator (URL)</a></li>
-<li><a href="/docs/articles/understanding-firebase/">Firebase</a></li>
-<li><a href="/docs/articles/web-standards-checklist/">Web Standards Checklist</a></li>
-<li><a href="/docs/articles/webdev-tools/">Web Developer Tools</a></li>
-<li><a href="/docs/articles/node-cli-args/">where-is-npm-pack</a></li>
-<li><a href="/docs/articles/node-env-variables/">Node Export Module</a></li>
-<li><a href="/docs/articles/node-repl/">The-package-lock.json-file</a></li>
-<li><a href="/docs/articles/node-run-cli/">node-cli-args</a></li>
-<li><a href="/docs/articles/node-js-language/">packagejson</a></li>
-<li><a href="/docs/articles/v8/">npm global or local packages</a></li>
-<li><a href="/docs/articles/node-common-modules/">Common Modules</a></li>
-<li><a href="/docs/articles/buffers/">Node Buffers</a></li>
-<li><a href="/docs/articles/dev-dep/">Dev Dependencies</a></li>
-<li><a href="/docs/articles/fs-module/">Fs-Module</a></li>
-<li><a href="/docs/articles/event-loop/">The Node.js Event Loop</a></li>
-<li><a href="/docs/articles/install/">Install</a></li>
-<li><a href="/docs/articles/basic-web-dev/">Web Dev Review</a></li>
-<li><a href="/docs/articles/module-exports/">module-exports</a></li>
-<li><a href="/docs/articles/intro/">Intro To Node</a></li>
-<li><a href="/docs/articles/nodejs/">Javascript and Node</a></li>
-<li><a href="/docs/articles/nodevsbrowser/">Node vs Browser</a></li>
-<li><a href="/docs/articles/npx/">The npx Node.js Package Runner</a></li>
-<li><a href="/docs/articles/reading-files/">Reading Files</a></li>
-<li><a href="/docs/articles/semantic/">Semantic Versioning</a></li>
-<li><a href="/docs/articles/os-module/">OS-Module</a></li>
-<li><a href="/docs/articles/writing-files/">Writing Files</a></li>
-<li><a href="/docs/articles/node-api-express/">Node APIs With Express</a></li>
-</ul></li>
-<li><p><a href="/docs/audio/">Audio</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/audio/audio/">Audio</a></li>
-<li><a href="/docs/audio/audio-feature-extraction/">Audio Feature Extraction</a></li>
-<li><a href="/docs/audio/dynamic-time-warping/">dynamic-time-warping</a></li>
-<li><a href="/docs/audio/dtw-python-explained/">Dynamic Time Warping Algorithm Explained (Python)</a></li>
-<li><a href="/docs/audio/dfft/">Discrete Fast Fourier Transform</a></li>
-<li><a href="/docs/audio/discrete-fft/">Fast Fourier Transform</a></li>
-</ul></li>
-<li><p><a href="/docs/community/">Community</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/community/video-chat/">Video Chat</a></li>
-</ul></li>
-<li><p><a href="/docs/content/">Content</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/content/lambda-projects/">Lambda School Projects</a></li>
-<li><a href="/docs/content/projects/">Projects</a></li>
-<li><a href="/docs/content/data-structures-algo/">RECENT PROJECTS</a></li>
-<li><a href="/docs/content/history-api/">History API</a></li>
-<li><a href="/docs/content/js-async-n-callbacks/">JavaScript Asynchronous Programming and Callbacks</a></li>
-<li><a href="/docs/content/trouble-shooting/">Trouble Shooting</a></li>
-<li><a href="/docs/content/gatsby-Queries-Mutations/">Queries and Mutations (Gatsby)</a></li>
-<li><a href="/docs/content/archive/">Archive</a></li>
-<li><a href="/docs/content/recent-projects/">Embeded Websites &amp; Projects</a></li>
-<li><a href="/docs/content/algo/">Algorithms &amp; Data Structures</a></li>
-</ul></li>
-<li><p><a href="/docs/docs/">Documentation</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/docs/appendix/">Apendix</a></li>
-<li><a href="/docs/docs/bash/">lorem-ipsum</a></li>
-<li><a href="/docs/docs/await-keyword/">Await</a></li>
-<li><a href="/docs/docs/data-structures-docs/">Data Structures Docs</a></li>
-<li><a href="/docs/docs/css/">Learn Css</a></li>
-<li><a href="/docs/docs/markdown/">Markdown</a></li>
-<li><a href="/docs/docs/git-repos/">Git Repo List</a></li>
-<li><a href="/docs/docs/git-reference/">lorem-ipsum</a></li>
-<li><a href="/docs/docs/sitemap/">Sitemap</a></li>
-<li><a href="/docs/docs/regex-in-js/">Regular Expressions</a></li>
-<li><a href="/docs/docs/content/">Useful Snippets</a></li>
-<li><a href="/docs/docs/no-whiteboarding/">lorem-ipsum</a></li>
-</ul></li>
-<li><p><a href="/docs/faq/">FAQ</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/faq/plug-ins/">Plug-ins</a></li>
-<li><a href="/docs/faq/contact/">Contact!</a></li>
-</ul></li>
-<li><p><a href="/docs/javascript/">Javascript</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/javascript/review/">Javascript Concepts Review</a></li>
-<li><a href="/docs/javascript/bigo/">A Very Quick Guide To Calculating Big O Computational Complexity</a></li>
-<li><a href="/docs/javascript/constructor-functions/">Constructor Functions</a></li>
-</ul></li>
-<li><p><a href="/docs/interact/">Interactive Examples</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/interact/jupyter-notebooks/">Jupyter Notebooks</a></li>
-<li><a href="/docs/interact/callstack-visual/">Callstack Visualizer</a></li>
-<li><a href="/docs/interact/video-chat/">Zumzi Video Conferencing (Mesibo API Backend)</a></li>
-<li><a href="/docs/interact/clock/">Clock</a></li>
-<li><a href="/docs/interact/other-sites/">Other Websites</a></li>
-</ul></li>
-<li><p><a href="/docs/medium/">Medium</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/medium/my-websites/">My Sites</a></li>
-<li><a href="/docs/medium/medium-links/">Medium</a></li>
-</ul></li>
-<li><p><a href="/docs/quick-reference/">Quick Reference</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/quick-reference/awesome-static/">Awesome Static Site Resources</a></li>
-<li><a href="/docs/quick-reference/git-bash/">Git Bash</a></li>
-<li><a href="/docs/quick-reference/minifiction/">How To Minify Code For Better Web Performance</a></li>
-<li><a href="/docs/quick-reference/markdown-dropdowns/">lorem-ipsum</a></li>
-<li><a href="/docs/quick-reference/psql-setup/">PostgreSQL Setup</a></li>
-<li><a href="/docs/quick-reference/pull-request-rubric/">Pull Request Template</a></li>
-<li><a href="/docs/quick-reference/heroku-error-codes/">Heroku Error Codes</a></li>
-<li><a href="/docs/quick-reference/psql/">Postgresql Cheat Sheet</a></li>
-<li><a href="/docs/quick-reference/quick-links/">Quick Links</a></li>
-<li><a href="/docs/quick-reference/understanding-path/">Understanding PATH</a></li>
-<li><a href="/docs/quick-reference/resources/">Developer Resources</a></li>
-<li><a href="/docs/quick-reference/google-firebase/">Firebase (Firebasics)</a></li>
-<li><a href="/docs/quick-reference/installation/">Installation</a></li>
-<li><a href="/docs/quick-reference/topRepos/">Top Repos</a></li>
-<li><a href="/docs/quick-reference/github-search/">Github Search</a></li>
-<li><a href="/docs/quick-reference/awesome-lists/">Awesome Lists</a></li>
-<li><a href="/docs/quick-reference/new-repo-instructions/">new-repo-git</a></li>
-<li><a href="/docs/quick-reference/notes-template/">Notes Template</a></li>
-<li><a href="/docs/quick-reference/vscode/">vscode</a></li>
-<li><a href="/docs/quick-reference/Emmet/">Emmet Cheat Sheet</a></li>
-<li><a href="/docs/quick-reference/create-react-app/">Getting Started W Create React App</a></li>
-<li><a href="/docs/quick-reference/vscode-themes/">vscode-themes</a></li>
-</ul></li>
-<li><p><a href="/docs/react/">React</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/react/demo/">React Class Components Demo</a></li>
-<li><a href="/docs/react/cheatsheet/">React Cheat Sheets:</a></li>
-<li><a href="/docs/react/jsx/">Introducing JSX</a></li>
-<li><a href="/docs/react/render-elements/">Rendering Elements With React</a></li>
-<li><a href="/docs/react/react-in-depth/">React In Depth</a></li>
-<li><a href="/docs/react/react2/">Intro To React</a></li>
-<li><a href="/docs/react/react-docs/">React Docs</a></li>
-<li><a href="/docs/react/createReactApp/">npx-create-react-app</a></li>
-</ul></li>
-<li><p><a href="/docs/tools/">Tools</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span></p>
-<ul>
-<li><a href="/docs/tools/more-tools/">more tools</a></li>
-<li><a href="/docs/tools/data-structures/">Data Structures</a></li>
-<li><a href="/docs/tools/dev-utilities/">General Utilities</a></li>
-<li><a href="/docs/tools/cloudstorage/">The google cloud cheat sheet</a></li>
-<li><a href="/docs/tools/markdown-html/">md and html</a></li>
-</ul></li>
-<li><a href="/docs/python/">My Python Docs</a> <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
-<ul>
-<li><a href="/docs/python/functions/">lorem-ipsum</a></li>
-<li><a href="/docs/python/flow-control/">lorem-ipsum</a></li>
-<li><a href="/docs/python/basics/">lorem-ipsum</a></li>
-<li><a href="/docs/python/comprehensive-guide/">lorem-ipsum</a></li>
-<li><a href="/docs/python/google-sheets-api/">google-sheets-api</a></li>
-<li><a href="/docs/python/examples/">Practice</a></li>
-<li><a href="/docs/python/intro-for-js-devs/">lorem-ipsum</a></li>
-<li><a href="/docs/python/python-ds/">Python General Notes</a></li>
-<li><a href="/docs/python/cheat-sheet/">Python Cheat Sheet</a></li>
-<li><a href="/docs/python/snippets/">Python Snippets</a></li>
-<li><a href="/docs/python/at-length/">Python at length</a></li>
-</ul></li>
-</ul>
-<h1 id="discrete-fast-fourier-transform">Discrete Fast Fourier Transform</h1>
-<h1 id="frequency-and-the-fast-fourier-transform">Frequency and the fast Fourier transform</h1>
-<blockquote>
-<p>If you want to find the secrets of the universe, think in terms of energy, frequency and vibration.</p>
-<p>— Nikola Tesla</p>
-</blockquote>
-<p><em>This chapter was written in collaboration with SW’s father, PW van der Walt.</em></p>
-<h2 id="introducing-frequency">Introducing frequency</h2>
-<p>We’ll start by setting up some plotting styles and importing the usual suspects:</p>
-<pre><code># Make plots appear inline, set custom plotting style
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>dfft</title>
+    <style type="text/css">
+      code {
+        white-space: pre-wrap;
+      }
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      span.underline {
+        text-decoration: underline;
+      }
+      div.column {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <p>This app works best with JavaScript enabled.</p>
+    <p>
+      <a href="/"
+        ><img
+          src="https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png"
+          alt="webdevhub logo"
+      /></a>
+    </p>
+    <p>
+      <span class="screen-reader-text">Open Menu</span
+      ><span class="icon-close" data-aria-hidden="true"></span>
+    </p>
+    <ul>
+      <li>
+        <p>
+          <a href="/docs/sitemap" class="button">Navigation</a>
+          <span class="icon-angle-right" data-aria-hidden="true"></span
+          ><span class="screen-reader-text">Sub-menu</span>
+        </p>
+        <ul>
+          <li><a href="/docs" class="button">Docs</a></li>
+          <li><a href="/showcase" class="button">Showcase</a></li>
+          <li><a href="/docs/faq/contact" class="button">Contact!</a></li>
+          <li><a href="/docs/python/python-ds" class="button">Python</a></li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/blog/" class="button">Blog</a>
+          <span class="icon-angle-right" data-aria-hidden="true"></span
+          ><span class="screen-reader-text">Sub-menu</span>
+        </p>
+        <ul>
+          <li>
+            <a href="https://bgoonz.blogspot.com/" class="button"
+              >Blog-Post-Archive</a
+            >
+          </li>
+          <li>
+            <a href="https://blog-w-comments.vercel.app/" class="button"
+              >Top Blog Posts</a
+            >
+          </li>
+          <li>
+            <a href="/docs/articles/ds-algo-overview/" class="button"
+              >ds-algo</a
+            >
+          </li>
+          <li>
+            <a href="/blog/platform-docs/" class="button">platform docs</a>
+          </li>
+          <li><a href="/docs/articles/nodejs/" class="button">nodejs</a></li>
+          <li><a href="/blogWcomments/" class="button">Blog w Comments</a></li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a
+            href="https://github.com/bgoonz/UsefulResourceRepo2.0"
+            class="button"
+            >Archive</a
+          >
+          <span class="icon-angle-right" data-aria-hidden="true"></span
+          ><span class="screen-reader-text">Sub-menu</span>
+        </p>
+        <ul>
+          <li>
+            <a href="https://bryanguner.medium.com/" class="button"
+              >Medium Articles</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/bgoonz/Learning-Assets" class="button"
+              >Resource-Archive-Server</a
+            >
+          </li>
+          <li><a href="#" class="button">Bootcamp Resources</a></li>
+          <li>
+            <a href="https://web-dev-resource-hub.netlify.app/" class="button"
+              >OG-Blog</a
+            >
+          </li>
+          <li><a href="/docs/gallery" class="button">Gallery</a></li>
+          <li><a href="/docs" class="button">Top Repos</a></li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/audio/audio" class="button">Audio</a>
+          <span class="icon-angle-right" data-aria-hidden="true"></span
+          ><span class="screen-reader-text">Sub-menu</span>
+        </p>
+        <ul>
+          <li>
+            <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
+          </li>
+          <li>
+            <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="https://project-portfolio42.netlify.app/" class="button"
+            >Projects</a
+          >
+          <span class="icon-angle-right" data-aria-hidden="true"></span
+          ><span class="screen-reader-text">Sub-menu</span>
+        </p>
+        <ul>
+          <li>
+            <a href="https://potluck-landing.netlify.app/" class="button"
+              >Potluck Planner</a
+            >
+          </li>
+          <li>
+            <a href="https://meditate42app.netlify.app/" class="button"
+              >Meditation App</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://panoramic-eggplant-452e4.netlify.app/"
+              class="button"
+              >WebAudioLab</a
+            >
+          </li>
+          <li>
+            <a href="https://bgoonz.github.io/searchAwesome/">SearchAwesome</a>
+          </li>
+          <li>
+            <a href="https://bg-portfolio.netlify.app/" class="button"
+              >Condensed -Portfolio</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button"
+            >External Nav</a
+          >
+          <span class="icon-angle-right" data-aria-hidden="true"></span
+          ><span class="screen-reader-text">Sub-menu</span>
+        </p>
+        <ul>
+          <li>
+            <a href="https://friendly-panda-b61ab.netlify.app/" class="button"
+              >Embeds Blog</a
+            >
+          </li>
+          <li>
+            <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button"
+              >alt-blogs</a
+            >
+          </li>
+          <li>
+            <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
+          </li>
+          <li>
+            <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button"
+              >Blog Backup</a
+            >
+          </li>
+          <li>
+            <a href="https://bgoonz-cv.netlify.app/" class="button"
+              >Cover Letter</a
+            >
+          </li>
+          <li>
+            <a href="https://project-portfolio42.netlify.app/" class="button"
+              >Project Centric</a
+            >
+          </li>
+          <li>
+            <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
+          </li>
+          <li>
+            <a href="https://project-portfolio42.netlify.app/" class="button"
+              >Project Portfolio Gallery</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://bgoonz.github.io/github-stats-website/"
+              class="button"
+              >github-stats-website</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/docs/tools" class="button">Tools</a>
+        <span class="icon-angle-right" data-aria-hidden="true"></span
+        ><span class="screen-reader-text">Sub-menu</span>
+        <ul>
+          <li>
+            <a href="https://githtmlpreview.netlify.app/" class="button"
+              >Github HTML Previewer</a
+            >
+          </li>
+          <li>
+            <a href="https://devtools42.netlify.app/" class="button"
+              >Text Tools</a
+            >
+          </li>
+          <li>
+            <a href="https://ternary42.netlify.app/" class="button"
+              >Ternary 2 If Else</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://determined-dijkstra-ee7390.netlify.app/"
+              class="button"
+              >Job Search Resources</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/bgoonz/web-dev-setup-checker"
+              class="button"
+              >Setup Checker</a
+            >
+          </li>
+          <li>
+            <a href="https://potluck-landing.netlify.app/" class="button"
+              >PotluckPlanner</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://web-dev-interview-prep-quiz-website.netlify.app/"
+              class="button"
+              >WebDev Quizzes</a
+            >
+          </li>
+          <li>
+            <span class="screen-reader-text">Github-Advanced-Search</span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      <span class="screen-reader-text">Close Menu</span
+      ><span class="icon-menu" data-aria-hidden="true"></span>
+    </p>
+    <p>
+      Navigate Docs<span
+        class="icon-angle-right"
+        data-aria-hidden="true"
+      ></span>
+    </p>
+    <ul>
+      <li><a href="/docs/">Docs</a></li>
+      <li>
+        <p>
+          <a href="/docs/about/">About</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li><a href="/docs/about/job-search/">Job Search</a></li>
+          <li><a href="/docs/about/intrests/">Youtube</a></li>
+          <li><a href="/docs/about/resume/">Resume</a></li>
+          <li>
+            <a href="/docs/about/eng-portfolio/">Engineering Portfolio</a>
+          </li>
+          <li>
+            <a href="/docs/about/hobbies-n-interests/"
+              >My Hobbies &amp; Interests</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/articles/">Articles</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li><a href="/docs/articles/http/">The HTTP Protocol</a></li>
+          <li>
+            <a href="/docs/articles/how-the-web-works/">How The Web Works</a>
+          </li>
+          <li>
+            <a href="/docs/articles/node-package-manager/"
+              >Sorting Algorithms</a
+            >
+          </li>
+          <li><a href="/docs/articles/npm/">Introduction to npm</a></li>
+          <li><a href="/docs/articles/semantic-html/">lorem-ipsum</a></li>
+          <li>
+            <a href="/docs/articles/the-uniform-resource-locator-(url)/"
+              >The Uniform Resource Locator (URL)</a
+            >
+          </li>
+          <li><a href="/docs/articles/understanding-firebase/">Firebase</a></li>
+          <li>
+            <a href="/docs/articles/web-standards-checklist/"
+              >Web Standards Checklist</a
+            >
+          </li>
+          <li>
+            <a href="/docs/articles/webdev-tools/">Web Developer Tools</a>
+          </li>
+          <li><a href="/docs/articles/node-cli-args/">where-is-npm-pack</a></li>
+          <li>
+            <a href="/docs/articles/node-env-variables/">Node Export Module</a>
+          </li>
+          <li>
+            <a href="/docs/articles/node-repl/">The-package-lock.json-file</a>
+          </li>
+          <li><a href="/docs/articles/node-run-cli/">node-cli-args</a></li>
+          <li><a href="/docs/articles/node-js-language/">packagejson</a></li>
+          <li><a href="/docs/articles/v8/">npm global or local packages</a></li>
+          <li>
+            <a href="/docs/articles/node-common-modules/">Common Modules</a>
+          </li>
+          <li><a href="/docs/articles/buffers/">Node Buffers</a></li>
+          <li><a href="/docs/articles/dev-dep/">Dev Dependencies</a></li>
+          <li><a href="/docs/articles/fs-module/">Fs-Module</a></li>
+          <li>
+            <a href="/docs/articles/event-loop/">The Node.js Event Loop</a>
+          </li>
+          <li><a href="/docs/articles/install/">Install</a></li>
+          <li><a href="/docs/articles/basic-web-dev/">Web Dev Review</a></li>
+          <li><a href="/docs/articles/module-exports/">module-exports</a></li>
+          <li><a href="/docs/articles/intro/">Intro To Node</a></li>
+          <li><a href="/docs/articles/nodejs/">Javascript and Node</a></li>
+          <li><a href="/docs/articles/nodevsbrowser/">Node vs Browser</a></li>
+          <li>
+            <a href="/docs/articles/npx/">The npx Node.js Package Runner</a>
+          </li>
+          <li><a href="/docs/articles/reading-files/">Reading Files</a></li>
+          <li><a href="/docs/articles/semantic/">Semantic Versioning</a></li>
+          <li><a href="/docs/articles/os-module/">OS-Module</a></li>
+          <li><a href="/docs/articles/writing-files/">Writing Files</a></li>
+          <li>
+            <a href="/docs/articles/node-api-express/"
+              >Node APIs With Express</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/audio/">Audio</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li><a href="/docs/audio/audio/">Audio</a></li>
+          <li>
+            <a href="/docs/audio/audio-feature-extraction/"
+              >Audio Feature Extraction</a
+            >
+          </li>
+          <li>
+            <a href="/docs/audio/dynamic-time-warping/">dynamic-time-warping</a>
+          </li>
+          <li>
+            <a href="/docs/audio/dtw-python-explained/"
+              >Dynamic Time Warping Algorithm Explained (Python)</a
+            >
+          </li>
+          <li>
+            <a href="/docs/audio/dfft/">Discrete Fast Fourier Transform</a>
+          </li>
+          <li>
+            <a href="/docs/audio/discrete-fft/">Fast Fourier Transform</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/community/">Community</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li><a href="/docs/community/video-chat/">Video Chat</a></li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/content/">Content</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li>
+            <a href="/docs/content/lambda-projects/">Lambda School Projects</a>
+          </li>
+          <li><a href="/docs/content/projects/">Projects</a></li>
+          <li>
+            <a href="/docs/content/data-structures-algo/">RECENT PROJECTS</a>
+          </li>
+          <li><a href="/docs/content/history-api/">History API</a></li>
+          <li>
+            <a href="/docs/content/js-async-n-callbacks/"
+              >JavaScript Asynchronous Programming and Callbacks</a
+            >
+          </li>
+          <li>
+            <a href="/docs/content/trouble-shooting/">Trouble Shooting</a>
+          </li>
+          <li>
+            <a href="/docs/content/gatsby-Queries-Mutations/"
+              >Queries and Mutations (Gatsby)</a
+            >
+          </li>
+          <li><a href="/docs/content/archive/">Archive</a></li>
+          <li>
+            <a href="/docs/content/recent-projects/"
+              >Embeded Websites &amp; Projects</a
+            >
+          </li>
+          <li>
+            <a href="/docs/content/algo/">Algorithms &amp; Data Structures</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/docs/">Documentation</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li><a href="/docs/docs/appendix/">Apendix</a></li>
+          <li><a href="/docs/docs/bash/">lorem-ipsum</a></li>
+          <li><a href="/docs/docs/await-keyword/">Await</a></li>
+          <li>
+            <a href="/docs/docs/data-structures-docs/">Data Structures Docs</a>
+          </li>
+          <li><a href="/docs/docs/css/">Learn Css</a></li>
+          <li><a href="/docs/docs/markdown/">Markdown</a></li>
+          <li><a href="/docs/docs/git-repos/">Git Repo List</a></li>
+          <li><a href="/docs/docs/git-reference/">lorem-ipsum</a></li>
+          <li><a href="/docs/docs/sitemap/">Sitemap</a></li>
+          <li><a href="/docs/docs/regex-in-js/">Regular Expressions</a></li>
+          <li><a href="/docs/docs/content/">Useful Snippets</a></li>
+          <li><a href="/docs/docs/no-whiteboarding/">lorem-ipsum</a></li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/faq/">FAQ</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li><a href="/docs/faq/plug-ins/">Plug-ins</a></li>
+          <li><a href="/docs/faq/contact/">Contact!</a></li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/javascript/">Javascript</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li>
+            <a href="/docs/javascript/review/">Javascript Concepts Review</a>
+          </li>
+          <li>
+            <a href="/docs/javascript/bigo/"
+              >A Very Quick Guide To Calculating Big O Computational
+              Complexity</a
+            >
+          </li>
+          <li>
+            <a href="/docs/javascript/constructor-functions/"
+              >Constructor Functions</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/interact/">Interactive Examples</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li>
+            <a href="/docs/interact/jupyter-notebooks/">Jupyter Notebooks</a>
+          </li>
+          <li>
+            <a href="/docs/interact/callstack-visual/">Callstack Visualizer</a>
+          </li>
+          <li>
+            <a href="/docs/interact/video-chat/"
+              >Zumzi Video Conferencing (Mesibo API Backend)</a
+            >
+          </li>
+          <li><a href="/docs/interact/clock/">Clock</a></li>
+          <li><a href="/docs/interact/other-sites/">Other Websites</a></li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/medium/">Medium</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li><a href="/docs/medium/my-websites/">My Sites</a></li>
+          <li><a href="/docs/medium/medium-links/">Medium</a></li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/quick-reference/">Quick Reference</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li>
+            <a href="/docs/quick-reference/awesome-static/"
+              >Awesome Static Site Resources</a
+            >
+          </li>
+          <li><a href="/docs/quick-reference/git-bash/">Git Bash</a></li>
+          <li>
+            <a href="/docs/quick-reference/minifiction/"
+              >How To Minify Code For Better Web Performance</a
+            >
+          </li>
+          <li>
+            <a href="/docs/quick-reference/markdown-dropdowns/">lorem-ipsum</a>
+          </li>
+          <li>
+            <a href="/docs/quick-reference/psql-setup/">PostgreSQL Setup</a>
+          </li>
+          <li>
+            <a href="/docs/quick-reference/pull-request-rubric/"
+              >Pull Request Template</a
+            >
+          </li>
+          <li>
+            <a href="/docs/quick-reference/heroku-error-codes/"
+              >Heroku Error Codes</a
+            >
+          </li>
+          <li>
+            <a href="/docs/quick-reference/psql/">Postgresql Cheat Sheet</a>
+          </li>
+          <li><a href="/docs/quick-reference/quick-links/">Quick Links</a></li>
+          <li>
+            <a href="/docs/quick-reference/understanding-path/"
+              >Understanding PATH</a
+            >
+          </li>
+          <li>
+            <a href="/docs/quick-reference/resources/">Developer Resources</a>
+          </li>
+          <li>
+            <a href="/docs/quick-reference/google-firebase/"
+              >Firebase (Firebasics)</a
+            >
+          </li>
+          <li>
+            <a href="/docs/quick-reference/installation/">Installation</a>
+          </li>
+          <li><a href="/docs/quick-reference/topRepos/">Top Repos</a></li>
+          <li>
+            <a href="/docs/quick-reference/github-search/">Github Search</a>
+          </li>
+          <li>
+            <a href="/docs/quick-reference/awesome-lists/">Awesome Lists</a>
+          </li>
+          <li>
+            <a href="/docs/quick-reference/new-repo-instructions/"
+              >new-repo-git</a
+            >
+          </li>
+          <li>
+            <a href="/docs/quick-reference/notes-template/">Notes Template</a>
+          </li>
+          <li><a href="/docs/quick-reference/vscode/">vscode</a></li>
+          <li><a href="/docs/quick-reference/Emmet/">Emmet Cheat Sheet</a></li>
+          <li>
+            <a href="/docs/quick-reference/create-react-app/"
+              >Getting Started W Create React App</a
+            >
+          </li>
+          <li>
+            <a href="/docs/quick-reference/vscode-themes/">vscode-themes</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/react/">React</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li><a href="/docs/react/demo/">React Class Components Demo</a></li>
+          <li><a href="/docs/react/cheatsheet/">React Cheat Sheets:</a></li>
+          <li><a href="/docs/react/jsx/">Introducing JSX</a></li>
+          <li>
+            <a href="/docs/react/render-elements/"
+              >Rendering Elements With React</a
+            >
+          </li>
+          <li><a href="/docs/react/react-in-depth/">React In Depth</a></li>
+          <li><a href="/docs/react/react2/">Intro To React</a></li>
+          <li><a href="/docs/react/react-docs/">React Docs</a></li>
+          <li>
+            <a href="/docs/react/createReactApp/">npx-create-react-app</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <a href="/docs/tools/">Tools</a>
+          <span class="screen-reader-text">Submenu</span
+          ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        </p>
+        <ul>
+          <li><a href="/docs/tools/more-tools/">more tools</a></li>
+          <li><a href="/docs/tools/data-structures/">Data Structures</a></li>
+          <li><a href="/docs/tools/dev-utilities/">General Utilities</a></li>
+          <li>
+            <a href="/docs/tools/cloudstorage/">The google cloud cheat sheet</a>
+          </li>
+          <li><a href="/docs/tools/markdown-html/">md and html</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="/docs/python/">My Python Docs</a>
+        <span class="screen-reader-text">Submenu</span
+        ><span class="icon-angle-right" data-aria-hidden="true"></span>
+        <ul>
+          <li><a href="/docs/python/functions/">lorem-ipsum</a></li>
+          <li><a href="/docs/python/flow-control/">lorem-ipsum</a></li>
+          <li><a href="/docs/python/basics/">lorem-ipsum</a></li>
+          <li><a href="/docs/python/comprehensive-guide/">lorem-ipsum</a></li>
+          <li>
+            <a href="/docs/python/google-sheets-api/">google-sheets-api</a>
+          </li>
+          <li><a href="/docs/python/examples/">Practice</a></li>
+          <li><a href="/docs/python/intro-for-js-devs/">lorem-ipsum</a></li>
+          <li><a href="/docs/python/python-ds/">Python General Notes</a></li>
+          <li><a href="/docs/python/cheat-sheet/">Python Cheat Sheet</a></li>
+          <li><a href="/docs/python/snippets/">Python Snippets</a></li>
+          <li><a href="/docs/python/at-length/">Python at length</a></li>
+        </ul>
+      </li>
+    </ul>
+    <h1 id="discrete-fast-fourier-transform">
+      Discrete Fast Fourier Transform
+    </h1>
+    <h1 id="frequency-and-the-fast-fourier-transform">
+      Frequency and the fast Fourier transform
+    </h1>
+    <blockquote>
+      <p>
+        If you want to find the secrets of the universe, think in terms of
+        energy, frequency and vibration.
+      </p>
+      <p>— Nikola Tesla</p>
+    </blockquote>
+    <p>
+      <em
+        >This chapter was written in collaboration with SW’s father, PW van der
+        Walt.</em
+      >
+    </p>
+    <h2 id="introducing-frequency">Introducing frequency</h2>
+    <p>
+      We’ll start by setting up some plotting styles and importing the usual
+      suspects:
+    </p>
+    <pre><code># Make plots appear inline, set custom plotting style
 %matplotlib inline
 import matplotlib.pyplot as plt
 plt.style.use(&#39;style/elegant.mplstyle&#39;)
 
 import numpy as np</code></pre>
-<p>The discrete<sup><a href="#fn-discrete" class="footnote-ref">discrete</a></sup> Fourier transform (DFT) is a mathematical technique to convert temporal or spatial data into <em>frequency domain</em> data. <em>Frequency</em> is a familiar concept, due to its colloquial occurrence in the English language: the lowest notes your headphones can rumble out are around 20 Hertz, whereas middle C on a piano lies around 261.6 Hertz. Hertz (Hz), or oscillations per second, in this case literally refers to the number of times per second at which the membrane inside the headphone moves to-and-fro. That, in turn, creates compressed pulses of air which, upon arrival at your eardrum, induces a vibration at the same frequency. So, if you take a simple periodic function, <span class="math inline"><span class="math inline">$\\\\sin(10 \\\\times 2 \\\\pi t)$</span></span>, you can view it as a wave:</p>
-<pre><code>f = 10  # Frequency, in cycles per second, or Hertz
+    <p>
+      The discrete<sup
+        ><a href="#fn-discrete" class="footnote-ref">discrete</a></sup
+      >
+      Fourier transform (DFT) is a mathematical technique to convert temporal or
+      spatial data into <em>frequency domain</em> data. <em>Frequency</em> is a
+      familiar concept, due to its colloquial occurrence in the English
+      language: the lowest notes your headphones can rumble out are around 20
+      Hertz, whereas middle C on a piano lies around 261.6 Hertz. Hertz (Hz), or
+      oscillations per second, in this case literally refers to the number of
+      times per second at which the membrane inside the headphone moves
+      to-and-fro. That, in turn, creates compressed pulses of air which, upon
+      arrival at your eardrum, induces a vibration at the same frequency. So, if
+      you take a simple periodic function,
+      <span class="math inline"
+        ><span class="math inline"
+          >$\\\\sin(10 \\\\times 2 \\\\pi t)$</span
+        ></span
+      >, you can view it as a wave:
+    </p>
+    <pre><code>f = 10  # Frequency, in cycles per second, or Hertz
 f_s = 100  # Sampling rate, or number of measurements per second
 
 t = np.linspace(0, 2, 2 * f_s, endpoint=False)
@@ -276,9 +741,20 @@ fig, ax = plt.subplots()
 ax.plot(t, x)
 ax.set_xlabel(&#39;Time [s]&#39;)
 ax.set_ylabel(&#39;Signal amplitude&#39;);</code></pre>
-<p>Or you can equivalently think of it as a repeating signal of <em>frequency</em> 10 Hertz (it repeats once every <span class="math inline">1/10</span> seconds—a length of time we call its <em>period</em>). Although we naturally associate frequency with time, it can equally well be applied to space. E.g., a photo of a textile patterns exhibits high <em>spatial frequency</em>, whereas the sky or other smooth objects have low spatial frequency.</p>
-<p>Let us now examine our sinusoid through application of the discrete Fourier transform:</p>
-<pre><code>from scipy import fftpack
+    <p>
+      Or you can equivalently think of it as a repeating signal of
+      <em>frequency</em> 10 Hertz (it repeats once every
+      <span class="math inline">1/10</span> seconds—a length of time we call its
+      <em>period</em>). Although we naturally associate frequency with time, it
+      can equally well be applied to space. E.g., a photo of a textile patterns
+      exhibits high <em>spatial frequency</em>, whereas the sky or other smooth
+      objects have low spatial frequency.
+    </p>
+    <p>
+      Let us now examine our sinusoid through application of the discrete
+      Fourier transform:
+    </p>
+    <pre><code>from scipy import fftpack
 
 X = fftpack.fft(x)
 freqs = fftpack.fftfreq(len(x)) * f_s
@@ -290,28 +766,81 @@ ax.set_xlabel(&#39;Frequency in Hertz [Hz]&#39;)
 ax.set_ylabel(&#39;Frequency Domain (Spectrum) Magnitude&#39;)
 ax.set_xlim(-f_s / 2, f_s / 2)
 ax.set_ylim(-5, 110)</code></pre>
-<p>We see that the output of the FFT is a one-dimensional array of the same shape as the input, containing complex values. All values are zero, except for two entries. Traditionally, we visualize the magnitude of the result as a <em>stem plot</em>, in which the height of each stem corresponds to the underlying value.</p>
-<p>(We explain why you see positive and negative frequencies later on in the sidebox titled “Discrete Fourier transforms”. You may also refer to that section for a more in-depth overview of the underlying mathematics.)</p>
-<p>The Fourier transform takes us from the <em>time</em> to the <em>frequency</em> domain, and this turns out to have a massive number of applications. The <em>fast Fourier transform</em> is an algorithm for computing the discrete Fourier transform; it achieves its high speed by storing and re-using results of computations as it progresses.</p>
-<p>In this chapter, we examine a few applications of the discrete Fourier transform to demonstrate that the FFT can be applied to multidimensional data (not just 1D measurements) to achieve a variety of goals.</p>
-<h2 id="illustration-a-birdsong-spectrogram">Illustration: a birdsong spectrogram</h2>
-<p>Let’s start with one of the most common applications, converting a sound signal (consisting of variations of air pressure over time) to a <em>spectrogram</em>. You might have seen spectrograms on your music player’s equalizer view, or even on an old-school stereo.</p>
-<figure>
-<img src="../images/sergey_gerasimuk_numark-eq-2600-IMG_0236.JPG" alt="The Numark EQ2600 Stereo Equalizer; image used with permission from the author, Sergey Gerasimuk. Source: http://sgerasimuk.blogspot.com/2014/06/numark-eq-2600-10-band-stereo-graphic.html" /><figcaption>The Numark EQ2600 Stereo Equalizer; image used with permission from the author, Sergey Gerasimuk. Source: http://sgerasimuk.blogspot.com/2014/06/numark-eq-2600-10-band-stereo-graphic.html</figcaption>
-</figure>
-<p>Listen to the following snippet of nightingale birdsong (released under CC BY 4.0 at <a href="http://www.orangefreesounds.com/nightingale-sound/" class="uri">http://www.orangefreesounds.com/nightingale-sound/</a>):</p>
-<pre><code>from IPython.display import Audio
+    <p>
+      We see that the output of the FFT is a one-dimensional array of the same
+      shape as the input, containing complex values. All values are zero, except
+      for two entries. Traditionally, we visualize the magnitude of the result
+      as a <em>stem plot</em>, in which the height of each stem corresponds to
+      the underlying value.
+    </p>
+    <p>
+      (We explain why you see positive and negative frequencies later on in the
+      sidebox titled “Discrete Fourier transforms”. You may also refer to that
+      section for a more in-depth overview of the underlying mathematics.)
+    </p>
+    <p>
+      The Fourier transform takes us from the <em>time</em> to the
+      <em>frequency</em> domain, and this turns out to have a massive number of
+      applications. The <em>fast Fourier transform</em> is an algorithm for
+      computing the discrete Fourier transform; it achieves its high speed by
+      storing and re-using results of computations as it progresses.
+    </p>
+    <p>
+      In this chapter, we examine a few applications of the discrete Fourier
+      transform to demonstrate that the FFT can be applied to multidimensional
+      data (not just 1D measurements) to achieve a variety of goals.
+    </p>
+    <h2 id="illustration-a-birdsong-spectrogram">
+      Illustration: a birdsong spectrogram
+    </h2>
+    <p>
+      Let’s start with one of the most common applications, converting a sound
+      signal (consisting of variations of air pressure over time) to a
+      <em>spectrogram</em>. You might have seen spectrograms on your music
+      player’s equalizer view, or even on an old-school stereo.
+    </p>
+    <figure>
+      <img
+        src="../images/sergey_gerasimuk_numark-eq-2600-IMG_0236.JPG"
+        alt="The Numark EQ2600 Stereo Equalizer; image used with permission from the author, Sergey Gerasimuk. Source: http://sgerasimuk.blogspot.com/2014/06/numark-eq-2600-10-band-stereo-graphic.html"
+      />
+      <figcaption>
+        The Numark EQ2600 Stereo Equalizer; image used with permission from the
+        author, Sergey Gerasimuk. Source:
+        http://sgerasimuk.blogspot.com/2014/06/numark-eq-2600-10-band-stereo-graphic.html
+      </figcaption>
+    </figure>
+    <p>
+      Listen to the following snippet of nightingale birdsong (released under CC
+      BY 4.0 at
+      <a href="http://www.orangefreesounds.com/nightingale-sound/" class="uri"
+        >http://www.orangefreesounds.com/nightingale-sound/</a
+      >):
+    </p>
+    <pre><code>from IPython.display import Audio
 Audio(&#39;data/nightingale.wav&#39;)</code></pre>
-<p>If you are reading the paper version of this book, you’ll have to use your imagination! It goes something like this: chee-chee-woorrrr-hee-hee cheet-wheet-hoorrr-chi rrr-whi-wheo-wheo-wheo-wheo-wheo-wheo.</p>
-<p>Since we realise that not everyone is fluent in bird-speak, perhaps it’s best if we visualize the measurements—better known as “the signal”—instead.</p>
-<p>We load the audio file, which gives us the sampling rate (number of measurements per second) as well as audio data as an <code>(N, 2)</code> array—two columns because this is a stereo recording.</p>
-<pre><code>from scipy.io import wavfile
+    <p>
+      If you are reading the paper version of this book, you’ll have to use your
+      imagination! It goes something like this: chee-chee-woorrrr-hee-hee
+      cheet-wheet-hoorrr-chi rrr-whi-wheo-wheo-wheo-wheo-wheo-wheo.
+    </p>
+    <p>
+      Since we realise that not everyone is fluent in bird-speak, perhaps it’s
+      best if we visualize the measurements—better known as “the
+      signal”—instead.
+    </p>
+    <p>
+      We load the audio file, which gives us the sampling rate (number of
+      measurements per second) as well as audio data as an
+      <code>(N, 2)</code> array—two columns because this is a stereo recording.
+    </p>
+    <pre><code>from scipy.io import wavfile
 
 rate, audio = wavfile.read(&#39;data/nightingale.wav&#39;)</code></pre>
-<p>We convert to mono by averaging the left and right channels.</p>
-<pre><code>audio = np.mean(audio, axis=1)</code></pre>
-<p>Then, calculate the length of the snippet and plot the audio.</p>
-<pre><code>N = audio.shape[0]
+    <p>We convert to mono by averaging the left and right channels.</p>
+    <pre><code>audio = np.mean(audio, axis=1)</code></pre>
+    <p>Then, calculate the length of the snippet and plot the audio.</p>
+    <pre><code>N = audio.shape[0]
 L = N / rate
 
 print(f&#39;Audio length: {L:.2f} seconds&#39;)
@@ -320,34 +849,101 @@ f, ax = plt.subplots()
 ax.plot(np.arange(N) / rate, audio)
 ax.set_xlabel(&#39;Time [s]&#39;)
 ax.set_ylabel(&#39;Amplitude [unknown]&#39;);</code></pre>
-<p>Well, that’s not very satisfying, is it? If I sent this voltage to a speaker, I might hear a bird chirping, but I can’t very well imagine how it would sound like in my head. Is there a better way of <em>seeing</em> what is going on?</p>
-<p>There is, and it is called the discrete Fourier transform, where discrete refers to the recording consisting of time-spaced sound measurements, in contrast to a continual recording as, e.g., on magnetic tape (remember casettes?). The discrete Fourier transform is often computed using the <em>fast Fourier transform</em> (FFT) algorithm, a name informally used to refer to the DFT itself. The DFT tells us which frequencies or “notes” to expect in our signal.</p>
-<p>Of course, a bird sings many notes throughout the song, so we’d also like to know <em>when</em> each note occurs. The Fourier transform takes a signal in the time domain (i.e., a set of measurements over time) and turns it into a spectrum—a set of frequencies with corresponding (complex<sup><a href="#fn-complex" class="footnote-ref">complex</a></sup>) values. The spectrum does not contain any information about time! <sup><a href="#fn-time" class="footnote-ref">time</a></sup></p>
-<p>So, to find both the frequencies and the time at which they were sung, we’ll need to be somewhat clever. Our strategy is as follows: take the audio signal, split it into small, overlapping slices, and apply the Fourier transform to each (a technique known as the Short Time Fourier Transform).</p>
-<p>We’ll split the signal into slices of 1024 samples—that’s about 0.02 seconds of audio. Why we choose 1024 and not 1000 we’ll explain in a second when we examine performance. The slices will overlap by 100 samples as shown here:</p>
-<figure>
-<img src="../figures/generated/sliding_window.png" alt="A sliding window operation" /><figcaption>A sliding window operation</figcaption>
-</figure>
-<p>Start by chopping up the signal into slices of 1024 samples, each slice overlapping the previous by 100 samples. The resulting <code>slices</code> object contains one slice per row.</p>
-<pre><code>from skimage import util
+    <p>
+      Well, that’s not very satisfying, is it? If I sent this voltage to a
+      speaker, I might hear a bird chirping, but I can’t very well imagine how
+      it would sound like in my head. Is there a better way of
+      <em>seeing</em> what is going on?
+    </p>
+    <p>
+      There is, and it is called the discrete Fourier transform, where discrete
+      refers to the recording consisting of time-spaced sound measurements, in
+      contrast to a continual recording as, e.g., on magnetic tape (remember
+      casettes?). The discrete Fourier transform is often computed using the
+      <em>fast Fourier transform</em> (FFT) algorithm, a name informally used to
+      refer to the DFT itself. The DFT tells us which frequencies or “notes” to
+      expect in our signal.
+    </p>
+    <p>
+      Of course, a bird sings many notes throughout the song, so we’d also like
+      to know <em>when</em> each note occurs. The Fourier transform takes a
+      signal in the time domain (i.e., a set of measurements over time) and
+      turns it into a spectrum—a set of frequencies with corresponding
+      (complex<sup><a href="#fn-complex" class="footnote-ref">complex</a></sup
+      >) values. The spectrum does not contain any information about time!
+      <sup><a href="#fn-time" class="footnote-ref">time</a></sup>
+    </p>
+    <p>
+      So, to find both the frequencies and the time at which they were sung,
+      we’ll need to be somewhat clever. Our strategy is as follows: take the
+      audio signal, split it into small, overlapping slices, and apply the
+      Fourier transform to each (a technique known as the Short Time Fourier
+      Transform).
+    </p>
+    <p>
+      We’ll split the signal into slices of 1024 samples—that’s about 0.02
+      seconds of audio. Why we choose 1024 and not 1000 we’ll explain in a
+      second when we examine performance. The slices will overlap by 100 samples
+      as shown here:
+    </p>
+    <figure>
+      <img
+        src="../figures/generated/sliding_window.png"
+        alt="A sliding window operation"
+      />
+      <figcaption>A sliding window operation</figcaption>
+    </figure>
+    <p>
+      Start by chopping up the signal into slices of 1024 samples, each slice
+      overlapping the previous by 100 samples. The resulting
+      <code>slices</code> object contains one slice per row.
+    </p>
+    <pre><code>from skimage import util
 
 M = 1024
 
 slices = util.view_as_windows(audio, window_shape=(M,), step=100)
 print(f&#39;Audio shape: {audio.shape}, Sliced audio shape: {slices.shape}&#39;)</code></pre>
-<p>Generate a windowing function (see the section on windowing for a discussion of the underlying assumptions and interpretations of each) and multiply it with the signal:</p>
-<pre><code>win = np.hanning(M + 1)[:-1]
+    <p>
+      Generate a windowing function (see the section on windowing for a
+      discussion of the underlying assumptions and interpretations of each) and
+      multiply it with the signal:
+    </p>
+    <pre><code>win = np.hanning(M + 1)[:-1]
 slices = slices * win</code></pre>
-<p>It’s more convenient to have one slice per column, so we take the transpose:</p>
-<pre><code>slices = slices.T
+    <p>
+      It’s more convenient to have one slice per column, so we take the
+      transpose:
+    </p>
+    <pre><code>slices = slices.T
 print(&#39;Shape of `slices`:&#39;, slices.shape)</code></pre>
-<p>For each slice, calculate the discrete Fourier transform. The DFT returns both positive and negative frequencies (more on that in “Frequencies and their ordering”), so we slice out the positive M / 2 frequencies for now.</p>
-<pre><code>spectrum = np.fft.fft(slices, axis=0)[:M // 2 + 1:-1]
+    <p>
+      For each slice, calculate the discrete Fourier transform. The DFT returns
+      both positive and negative frequencies (more on that in “Frequencies and
+      their ordering”), so we slice out the positive M / 2 frequencies for now.
+    </p>
+    <pre><code>spectrum = np.fft.fft(slices, axis=0)[:M // 2 + 1:-1]
 spectrum = np.abs(spectrum)</code></pre>
-<p>(As a quick aside, you’ll note that we use <code>scipy.fftpack.fft</code> and <code>np.fft</code> interchangeably. NumPy provides basic FFT functionality, which SciPy extends further, but both include an <code>fft</code> function, based on the Fortran FFTPACK.)</p>
-<p>The spectrum can contain both very large and very small values. Taking the log compresses the range significantly.</p>
-<p>Here we do a log plot of the ratio of the signal divided by the maximum signal. The specific unit used for the ratio is the decibel, <span class="math inline"><span class="math inline">$20 log\\\_{10}\\\\left(\\\\mathrm{amplitude ratio}\\\\right)$</span></span>.</p>
-<pre><code>f, ax = plt.subplots(figsize=(4.8, 2.4))
+    <p>
+      (As a quick aside, you’ll note that we use
+      <code>scipy.fftpack.fft</code> and <code>np.fft</code> interchangeably.
+      NumPy provides basic FFT functionality, which SciPy extends further, but
+      both include an <code>fft</code> function, based on the Fortran FFTPACK.)
+    </p>
+    <p>
+      The spectrum can contain both very large and very small values. Taking the
+      log compresses the range significantly.
+    </p>
+    <p>
+      Here we do a log plot of the ratio of the signal divided by the maximum
+      signal. The specific unit used for the ratio is the decibel,
+      <span class="math inline"
+        ><span class="math inline"
+          >$20 log\\\_{10}\\\\left(\\\\mathrm{amplitude ratio}\\\\right)$</span
+        ></span
+      >.
+    </p>
+    <pre><code>f, ax = plt.subplots(figsize=(4.8, 2.4))
 
 S = np.abs(spectrum)
 S = 20 * np.log10(S / np.max(S))
@@ -357,9 +953,18 @@ ax.imshow(S, origin=&#39;lower&#39;, cmap=&#39;viridis&#39;,
 ax.axis(&#39;tight&#39;)
 ax.set_ylabel(&#39;Frequency [kHz]&#39;)
 ax.set_xlabel(&#39;Time [s]&#39;);</code></pre>
-<p>Much better! We can now see the frequencies vary over time, and it corresponds to the way the audio sounds. See if you can match my earlier description: chee-chee-woorrrr-hee-hee cheet-wheet-hoorrr-chi rrr-whi-wheo-wheo-wheo-wheo-wheo-wheo (I didn’t transcribe the section from 3 to 5 seconds—that’s another bird).</p>
-<p>SciPy already includes an implementation of this procedure as <code>scipy.signal.spectrogram</code>, which can be invoked as follows:</p>
-<pre><code>from scipy import signal
+    <p>
+      Much better! We can now see the frequencies vary over time, and it
+      corresponds to the way the audio sounds. See if you can match my earlier
+      description: chee-chee-woorrrr-hee-hee cheet-wheet-hoorrr-chi
+      rrr-whi-wheo-wheo-wheo-wheo-wheo-wheo (I didn’t transcribe the section
+      from 3 to 5 seconds—that’s another bird).
+    </p>
+    <p>
+      SciPy already includes an implementation of this procedure as
+      <code>scipy.signal.spectrogram</code>, which can be invoked as follows:
+    </p>
+    <pre><code>from scipy import signal
 
 freqs, times, Sx = signal.spectrogram(audio, fs=rate, window=&#39;hanning&#39;,
                                       nperseg=1024, noverlap=M - 100,
@@ -369,30 +974,127 @@ f, ax = plt.subplots(figsize=(4.8, 2.4))
 ax.pcolormesh(times, freqs / 1000, 10 * np.log10(Sx), cmap=&#39;viridis&#39;)
 ax.set_ylabel(&#39;Frequency [kHz]&#39;)
 ax.set_xlabel(&#39;Time [s]&#39;);</code></pre>
-<p>The only differences are that SciPy returns the spectrum magnitude squared (which turns measured voltage into measured energy), and multiplies it by some normalization factors<sup><a href="#fn-scaling" class="footnote-ref">scaling</a></sup>.</p>
-<h2 id="history">History</h2>
-<p>Tracing the exact origins of the Fourier transform is tricky. Some related procedures go as far back as Babylonian times, but it was the hot topics of calculating asteroid orbits and solving the heat (flow) equation that led to several breakthroughs in the early 1800s. Whom exactly among Clairaut, Lagrange, Euler, Gauss and D’Alembert we should thank is not exactly clear, but Gauss was the first to describe the fast Fourier transform (an algorithm for computing the discrete Fourier transform, popularized by Cooley and Tukey in 1965). Joseph Fourier, after whom the transform is named, first claimed that <em>arbitrary</em> periodic <sup><a href="#fn-periodic" class="footnote-ref">periodic</a></sup> functions can be expressed as a sum of trigonometric functions.</p>
-<h2 id="implementation">Implementation</h2>
-<p>The discrete Fourier transform functionality in SciPy lives in the `scipy.fftpack`` module. Among other things, it provides the following DFT-related functionality:</p>
-<ul>
-<li><code>fft</code>, <code>fft2</code>, <code>fftn</code>: Compute the discrete Fourier transform using the Fast Fourier Transform algorithm in 1, 2, or <code>n</code> dimensions.</li>
-<li><code>ifft</code>, <code>ifft2</code>, <code>ifftn</code>: Compute the inverse of the DFT</li>
-<li><code>dct</code>, <code>idct</code>, <code>dst</code>, <code>idst</code>: Compute the cosine and sine transforms, and their inverses.</li>
-<li><code>fftshift</code>, <code>ifftshift</code>: Shift the zero-frequency component to the center of the spectrum and back, respectively (more about that soon).</li>
-<li><code>fftfreq</code>: Return the discrete Fourier transform sample frequencies.</li>
-<li><code>rfft</code>: Compute the DFT of a real sequence, exploiting the symmetry of the resulting spectrum for increased performance. Also used by <code>fft</code> internally when applicable.</li>
-</ul>
-<p>This is complemented by the following functions in NumPy:</p>
-<ul>
-<li><code>np.hanning</code>, <code>np.hamming</code>, <code>np.bartlett</code>, <code>np.blackman</code>, <code>np.kaiser</code>: Tapered windowing functions.</li>
-</ul>
-<p>It is also used to perform fast convolutions of large inputs by <code>scipy.signal.fftconvolve</code>.</p>
-<p>SciPy wraps the Fortran FFTPACK library—it is not the fastest out there, but unlike packages such as FFTW, it has a permissive free software license.</p>
-<h2 id="choosing-the-length-of-the-discrete-fourier-transform-dft">Choosing the length of the discrete Fourier transform (DFT)</h2>
-<p>A naive calculation of the DFT takes <span class="math inline"><span class="math inline">$\\\\mathcal{O}\\\\left(N^2\\\\right)$</span></span> operations <sup><a href="#fn-big_o" class="footnote-ref">big_o</a></sup>. How come? Well, you have <span class="math inline"><em>N</em></span> (complex) sinusoids of different frequencies (<span class="math inline"><span class="math inline">$2 \\\\pi f \\\\times 0, 2 \\\\pi f \\\\times 1, 2 \\\\pi f \\\\times 3, ..., 2 \\\\pi f \\\\times (N - 1)$</span></span>), and you want to see how strongly your signal corresponds to each. Starting with the first, you take the dot product with the signal (which, in itself, entails <span class="math inline"><em>N</em></span> multiplication operations). Repeating this operation <span class="math inline"><em>N</em></span> times, once for each sinusoid, then gives <span class="math inline"><em>N</em><sup>2</sup></span> operations.</p>
-<p>Now, contrast that with the fast Fourier transform, which is <span class="math inline"><span class="math inline">$\\\\mathcal{O}\\\\left(N \\\\log N\\\\right)$</span></span> in the ideal case due to the clever re-use of calculations—a great improvement! However, the classical Cooley-Tukey algorithm implemented in FFTPACK (and used by SciPy) recursively breaks up the transform into smaller (prime-sized) pieces and only shows this improvement for “smooth” input lengths (an input length is considered smooth when its largest prime factor is small). For large prime-sized pieces, the Bluestein or Rader algorithms can be used in conjunction with the Cooley-Tukey algorithm, but this optimization is not implemented in FFTPACK.<sup><a href="#fn-fast" class="footnote-ref">fast</a></sup></p>
-<p>Let us illustrate:</p>
-<pre><code>import time
+    <p>
+      The only differences are that SciPy returns the spectrum magnitude squared
+      (which turns measured voltage into measured energy), and multiplies it by
+      some normalization factors<sup
+        ><a href="#fn-scaling" class="footnote-ref">scaling</a></sup
+      >.
+    </p>
+    <h2 id="history">History</h2>
+    <p>
+      Tracing the exact origins of the Fourier transform is tricky. Some related
+      procedures go as far back as Babylonian times, but it was the hot topics
+      of calculating asteroid orbits and solving the heat (flow) equation that
+      led to several breakthroughs in the early 1800s. Whom exactly among
+      Clairaut, Lagrange, Euler, Gauss and D’Alembert we should thank is not
+      exactly clear, but Gauss was the first to describe the fast Fourier
+      transform (an algorithm for computing the discrete Fourier transform,
+      popularized by Cooley and Tukey in 1965). Joseph Fourier, after whom the
+      transform is named, first claimed that <em>arbitrary</em> periodic
+      <sup><a href="#fn-periodic" class="footnote-ref">periodic</a></sup>
+      functions can be expressed as a sum of trigonometric functions.
+    </p>
+    <h2 id="implementation">Implementation</h2>
+    <p>
+      The discrete Fourier transform functionality in SciPy lives in the
+      `scipy.fftpack`` module. Among other things, it provides the following
+      DFT-related functionality:
+    </p>
+    <ul>
+      <li>
+        <code>fft</code>, <code>fft2</code>, <code>fftn</code>: Compute the
+        discrete Fourier transform using the Fast Fourier Transform algorithm in
+        1, 2, or <code>n</code> dimensions.
+      </li>
+      <li>
+        <code>ifft</code>, <code>ifft2</code>, <code>ifftn</code>: Compute the
+        inverse of the DFT
+      </li>
+      <li>
+        <code>dct</code>, <code>idct</code>, <code>dst</code>,
+        <code>idst</code>: Compute the cosine and sine transforms, and their
+        inverses.
+      </li>
+      <li>
+        <code>fftshift</code>, <code>ifftshift</code>: Shift the zero-frequency
+        component to the center of the spectrum and back, respectively (more
+        about that soon).
+      </li>
+      <li>
+        <code>fftfreq</code>: Return the discrete Fourier transform sample
+        frequencies.
+      </li>
+      <li>
+        <code>rfft</code>: Compute the DFT of a real sequence, exploiting the
+        symmetry of the resulting spectrum for increased performance. Also used
+        by <code>fft</code> internally when applicable.
+      </li>
+    </ul>
+    <p>This is complemented by the following functions in NumPy:</p>
+    <ul>
+      <li>
+        <code>np.hanning</code>, <code>np.hamming</code>,
+        <code>np.bartlett</code>, <code>np.blackman</code>,
+        <code>np.kaiser</code>: Tapered windowing functions.
+      </li>
+    </ul>
+    <p>
+      It is also used to perform fast convolutions of large inputs by
+      <code>scipy.signal.fftconvolve</code>.
+    </p>
+    <p>
+      SciPy wraps the Fortran FFTPACK library—it is not the fastest out there,
+      but unlike packages such as FFTW, it has a permissive free software
+      license.
+    </p>
+    <h2 id="choosing-the-length-of-the-discrete-fourier-transform-dft">
+      Choosing the length of the discrete Fourier transform (DFT)
+    </h2>
+    <p>
+      A naive calculation of the DFT takes
+      <span class="math inline"
+        ><span class="math inline"
+          >$\\\\mathcal{O}\\\\left(N^2\\\\right)$</span
+        ></span
+      >
+      operations <sup><a href="#fn-big_o" class="footnote-ref">big_o</a></sup
+      >. How come? Well, you have
+      <span class="math inline"><em>N</em></span> (complex) sinusoids of
+      different frequencies (<span class="math inline"
+        ><span class="math inline"
+          >$2 \\\\pi f \\\\times 0, 2 \\\\pi f \\\\times 1, 2 \\\\pi f \\\\times
+          3, ..., 2 \\\\pi f \\\\times (N - 1)$</span
+        ></span
+      >), and you want to see how strongly your signal corresponds to each.
+      Starting with the first, you take the dot product with the signal (which,
+      in itself, entails
+      <span class="math inline"><em>N</em></span> multiplication operations).
+      Repeating this operation
+      <span class="math inline"><em>N</em></span> times, once for each sinusoid,
+      then gives
+      <span class="math inline"><em>N</em><sup>2</sup></span> operations.
+    </p>
+    <p>
+      Now, contrast that with the fast Fourier transform, which is
+      <span class="math inline"
+        ><span class="math inline"
+          >$\\\\mathcal{O}\\\\left(N \\\\log N\\\\right)$</span
+        ></span
+      >
+      in the ideal case due to the clever re-use of calculations—a great
+      improvement! However, the classical Cooley-Tukey algorithm implemented in
+      FFTPACK (and used by SciPy) recursively breaks up the transform into
+      smaller (prime-sized) pieces and only shows this improvement for “smooth”
+      input lengths (an input length is considered smooth when its largest prime
+      factor is small). For large prime-sized pieces, the Bluestein or Rader
+      algorithms can be used in conjunction with the Cooley-Tukey algorithm, but
+      this optimization is not implemented in FFTPACK.<sup
+        ><a href="#fn-fast" class="footnote-ref">fast</a></sup
+      >
+    </p>
+    <p>Let us illustrate:</p>
+    <pre><code>import time
 
 from scipy import fftpack
 from sympy import factorint
@@ -429,53 +1131,291 @@ ax0.set_ylabel(&#39;Execution time (µs)&#39;)
 ax1.stem(lengths, smoothness)
 ax1.set_ylabel(&#39;Smoothness of input length\n(lower is better)&#39;)
 ax1.set_xlabel(&#39;Length of input&#39;);</code></pre>
-<p>The intuition is that, for smooth input lengths, the FFT can be broken up into many small pieces. After performing the FFT on the first piece, those results can be reused in subsequent computations. This explains why we chose a length of 1024 for our audio slices earlier—it has a smoothness of only 2, resulting in the optimal “radix-2 Cooley-Tukey” algorithm, which computes the FFT using only <span class="math inline"><span class="math inline">$(N/2) \\\\log\\\_2 N = 5120$</span></span> complex multiplications, instead of <span class="math inline"><em>N</em><sup>2</sup> = 1048576</span>. Choosing <span class="math inline"><em>N</em> = 2<sup><em>m</em></sup></span> always ensures a maximally smooth <span class="math inline"><em>N</em></span> (and, thus, the fastest FFT).</p>
-<h2 id="more-discrete-fourier-transform-concepts">More discrete Fourier transform concepts</h2>
-<p>Next, we present a couple of common concepts worth knowing before operating heavy Fourier transform machinery, whereafter we tackle another real-world problem: analyzing target detection in radar data.</p>
-<h3 id="frequencies-and-their-ordering">Frequencies and their ordering</h3>
-<p>For historical reasons, most implementations return an array where frequencies vary from low-to-high-to-low (see the box “Discrete Fourier transforms” for further explanation of frequencies). E.g., when we do the real Fourier transform of a signal of all ones, an input that has no variation and therefore only has the slowest, constant Fourier component (also known as the “DC” or Direct Current component—just electronics jargon for “mean of the signal”), we see this DC component appearing as the first entry:</p>
-<pre><code>from scipy import fftpack
+    <p>
+      The intuition is that, for smooth input lengths, the FFT can be broken up
+      into many small pieces. After performing the FFT on the first piece, those
+      results can be reused in subsequent computations. This explains why we
+      chose a length of 1024 for our audio slices earlier—it has a smoothness of
+      only 2, resulting in the optimal “radix-2 Cooley-Tukey” algorithm, which
+      computes the FFT using only
+      <span class="math inline"
+        ><span class="math inline">$(N/2) \\\\log\\\_2 N = 5120$</span></span
+      >
+      complex multiplications, instead of
+      <span class="math inline"><em>N</em><sup>2</sup> = 1048576</span>.
+      Choosing
+      <span class="math inline"
+        ><em>N</em> = 2<sup><em>m</em></sup></span
+      >
+      always ensures a maximally smooth
+      <span class="math inline"><em>N</em></span> (and, thus, the fastest FFT).
+    </p>
+    <h2 id="more-discrete-fourier-transform-concepts">
+      More discrete Fourier transform concepts
+    </h2>
+    <p>
+      Next, we present a couple of common concepts worth knowing before
+      operating heavy Fourier transform machinery, whereafter we tackle another
+      real-world problem: analyzing target detection in radar data.
+    </p>
+    <h3 id="frequencies-and-their-ordering">Frequencies and their ordering</h3>
+    <p>
+      For historical reasons, most implementations return an array where
+      frequencies vary from low-to-high-to-low (see the box “Discrete Fourier
+      transforms” for further explanation of frequencies). E.g., when we do the
+      real Fourier transform of a signal of all ones, an input that has no
+      variation and therefore only has the slowest, constant Fourier component
+      (also known as the “DC” or Direct Current component—just electronics
+      jargon for “mean of the signal”), we see this DC component appearing as
+      the first entry:
+    </p>
+    <pre><code>from scipy import fftpack
 N = 10
 
 fftpack.fft(np.ones(N))  # The first component is np.mean(x) * N</code></pre>
-<p>When we try the FFT on a rapidly changing signal, we see a high frequency component appear:</p>
-<pre><code>z = np.ones(10)
+    <p>
+      When we try the FFT on a rapidly changing signal, we see a high frequency
+      component appear:
+    </p>
+    <pre><code>z = np.ones(10)
 z[::2] = -1
 
 print(f&#39;Applying FFT to {z}&#39;)
 fftpack.fft(z)</code></pre>
-<p>Note that the FFT returns a complex spectrum which, in the case of real inputs, is conjugate symmetrical (i.e., symmetric in the real part, and anti-symmetric in the imaginary part):</p>
-<pre><code>x = np.array([1, 5, 12, 7, 3, 0, 4, 3, 2, 8])
+    <p>
+      Note that the FFT returns a complex spectrum which, in the case of real
+      inputs, is conjugate symmetrical (i.e., symmetric in the real part, and
+      anti-symmetric in the imaginary part):
+    </p>
+    <pre><code>x = np.array([1, 5, 12, 7, 3, 0, 4, 3, 2, 8])
 X = fftpack.fft(x)
 
 with np.printoptions(precision=2):
     print(&quot;Real part:     &quot;, X.real)
     print(&quot;Imaginary part:&quot;, X.imag)</code></pre>
-<p>(And, again, recall that the first component is <code>np.mean(x) * N</code>.)</p>
-<p>The <code>fftfreq</code> function tells us which frequencies we are looking at specifically:</p>
-<pre><code>fftpack.fftfreq(10)</code></pre>
-<p>The result tells us that our maximum component occured at a frequency of 0.5 cycles per sample. This agrees with the input, where a minus-one-plus-one cycle repeated every second sample.</p>
-<p>Sometimes, it is convenient to view the spectrum organized slightly differently, from high-negative to low to-high-positive (for now, we won’t dive too deeply into the concept of negative frequency, other than saying a real-world sine wave is produced by a combination of positive and negative frequencies). We re-shuffle the spectrum using the <code>fftshift</code> function.</p>
-<blockquote>
-<p><strong>Discrete Fourier transforms {.callout}</strong></p>
-<p>The Discrete Fourier Transform (DFT) converts a sequence of <span class="math inline"><em>N</em></span> equally spaced real or complex samples <span class="math inline"><span class="math inline">$x\*{0},x\*{1},\\\\ldots, x\*{N-1}$</span></span> of a function <span class="math inline"><em>x</em>(<em>t</em>)</span> of time (or another variable, depending on the application) into a sequence of <span class="math inline"><em>N</em></span> complex numbers <span class="math inline"><em>X</em> * <em>k</em></span> by the summation</p>
-<p><span class="math display"><br /><span class="math display">$$ X\*{k}=\\\\sum\*{n=0}^{N-1}x\\\_{n}e^{-j2\\\\pi kn/N},;k=0,1,\\\\ldots, N-1. $$</span><br /></span></p>
-<p>With the numbers <span class="math inline"><em>X</em> * <em>k</em></span> known, the inverse DFT _exactly* recovers the sample values <span class="math inline"><em>x</em>_<em>n</em></span> through the summation</p>
-<p><span class="math display"><br /><span class="math display">$$x\*{n}=\\\\frac{1}{N}\\\\sum\*{k=0}^{N-1}X\\\_{k}e^{j2\\\\pi kn/N}.$$</span><br /></span></p>
-<p>Keeping in mind that <span class="math inline"><span class="math inline">$e^{j\\\\theta}=\\\\cos\\\\theta+j\\\\sin\\\\theta,$</span></span> the last equation shows that the DFT has decomposed the sequence <span class="math inline"><em>x</em> * <em>n</em></span> into a complex discrete Fourier series with coefficients <span class="math inline"><em>X</em> * <em>k</em></span>. Comparing the DFT with a continuous complex Fourier series</p>
-<p><span class="math display"><br /><span class="math display">$$x(t)=\\\\sum\*{n=-\\\\infty}^{\\\\infty}c\*{n}e^{jn\\\\omega\\\_{0}t},$$</span><br /></span></p>
-<p>the DFT is a <em>finite</em> series with <span class="math inline"><em>N</em></span> terms defined at the equally spaced discrete instances of the <em>angle</em> <span class="math inline"><span class="math inline">$(\\\\omega\*{0}t\*{n})=2\\\\pi\\\\frac{k}{N}$</span></span> in the interval <span class="math inline"><span class="math inline">$\\\[0,2\\\\pi)$</span></span>, i.e. <em>including</em> <span class="math inline">0</span> and <em>excluding</em> <span class="math inline"><span class="math inline">$2\\\\pi$</span></span>. This automatically normalizes the DFT so that time does not appear explicitly in the forward or inverse transform.</p>
-<p>If the original function <span class="math inline"><em>x</em>(<em>t</em>)</span> is limited in frequency to less than half of the sampling frequency (the so-called <em>Nyquist frequency</em>), interpolation between sample values produced by the inverse DFT will usually give a faithful reconstruction of <span class="math inline"><em>x</em>(<em>t</em>)</span>. If <span class="math inline"><em>x</em>(<em>t</em>)</span> is <em>not</em> limited as such, the inverse DFT can, in general, not be used to reconstruct <span class="math inline"><em>x</em>(<em>t</em>)</span> by interpolation. Note that this limit does not imply that there are <em>no</em> methods that can do such a reconstruction—see, e.g., compressed sensing, or finite rate of innovation sampling.</p>
-<p>The function <span class="math inline"><span class="math inline">$e^{j2\\\\pi k/N}=\\\\left(e^{j2\\\\pi/N}\\\\right)^{k}=w^{k}$</span></span> takes on discrete values between <span class="math inline">0</span> and <span class="math inline"><span class="math inline">$2\\\\pi\\\\frac{N-1}{N}$</span></span> on the unit circle in the complex plane. The function <span class="math inline"><span class="math inline">$e^{j2\\\\pi kn/N}=w^{kn}$</span></span> encircles the origin <span class="math inline"><span class="math inline">$n\\\\frac{N-1}{N}$</span></span> times, thus generating harmonics of the fundamental sinusoid for which <span class="math inline"><em>n</em> = 1</span>.</p>
-<p>The way in which we defined the DFT leads to a few subtleties when <span class="math inline"><span class="math inline">$n&amp;gt;\\\\frac{N}{2}$</span></span>, for even <span class="math inline"><em>N</em></span> <sup><a href="#fn-odd_n" class="footnote-ref">odd_n</a></sup>. The function <span class="math inline"><span class="math inline">$e^{j2\\\\pi kn/N}$</span></span> is plotted for increasing values of <span class="math inline"><em>k</em></span> in the figure below, for the cases <span class="math inline"><em>n</em> = 1</span> to <span class="math inline"><em>n</em> = <em>N</em> − 1</span> for <span class="math inline"><em>N</em> = 16</span>. When <span class="math inline"><em>k</em></span> increases from <span class="math inline"><em>k</em></span> to <span class="math inline"><em>k</em> + 1</span>, the angle increases by <span class="math inline"><span class="math inline">$\\\\frac{2\\\\pi n}{N}$</span></span>. When <span class="math inline"><em>n</em> = 1</span>, the step is <span class="math inline"><span class="math inline">$\\\\frac{2\\\\pi}{N}$</span></span>. When <span class="math inline"><em>n</em> = <em>N</em> − 1</span>, the angle increases by <span class="math inline"><span class="math inline">$2\\\\pi\\\\frac{N-1}{N}=2\\\\pi-\\\\frac{2\\\\pi}{N}$</span></span>. Since <span class="math inline"><span class="math inline">$2\\\\pi$</span></span> is precisely once around the circle, the step equates to <span class="math inline"><span class="math inline">$-\\\\frac{2\\\\pi}{N}$</span></span>, i.e. in the direction of a negative frequency. The components up to <span class="math inline"><em>N</em>/2</span> represent <em>positive</em> frequency components, those above <span class="math inline"><em>N</em>/2</span> up to <span class="math inline"><em>N</em> − 1</span> represent <em>negative</em> frequencies. The angle increment for the component <span class="math inline"><em>N</em>/2</span> for <span class="math inline"><em>N</em></span> even advances precisely halfway around the circle for each increment in <span class="math inline"><em>k</em></span> and can therefore be interpreted as either a positive or a negative frequency. This component of the DFT represents the Nyquist Frequency, i.e. half of the sampling frequency, and is useful to orientate oneself when looking at DFT graphics.</p>
-<p>The FFT in turn is simply a special and highly efficient algorithm for calculating the DFT. Whereas a straightforward calculation of the DFT takes of the order of <span class="math inline"><em>N</em><sup>2</sup></span> calculations to compute, the FFT algorithm requires of the order <span class="math inline"><span class="math inline">$N\\\\log N$</span></span> calculations. The FFT was the key to the wide-spread use of the DFT in real-time applications and was included in a list of the top <span class="math inline">10</span> algorithms of the <span class="math inline">20<sup><em>th</em></sup></span> century by the IEEE journal Computing in Science &amp; Engineering in the year <span class="math inline">2000</span>.</p>
-<figure>
-<img src="../figures/unit_circle_samples.png" alt="Unit circle samples" /><figcaption>Unit circle samples</figcaption>
-</figure>
-</blockquote>
-<p>Let’s examine the frequency components in a noisy image. Note that, while a static image has no time-varying component, its values do vary across <em>space</em>. The DFT applies equally to either case.</p>
-<p>First, load and display the image:</p>
-<pre><code>from skimage import io
+    <p>
+      (And, again, recall that the first component is
+      <code>np.mean(x) * N</code>.)
+    </p>
+    <p>
+      The <code>fftfreq</code> function tells us which frequencies we are
+      looking at specifically:
+    </p>
+    <pre><code>fftpack.fftfreq(10)</code></pre>
+    <p>
+      The result tells us that our maximum component occured at a frequency of
+      0.5 cycles per sample. This agrees with the input, where a
+      minus-one-plus-one cycle repeated every second sample.
+    </p>
+    <p>
+      Sometimes, it is convenient to view the spectrum organized slightly
+      differently, from high-negative to low to-high-positive (for now, we won’t
+      dive too deeply into the concept of negative frequency, other than saying
+      a real-world sine wave is produced by a combination of positive and
+      negative frequencies). We re-shuffle the spectrum using the
+      <code>fftshift</code> function.
+    </p>
+    <blockquote>
+      <p><strong>Discrete Fourier transforms {.callout}</strong></p>
+      <p>
+        The Discrete Fourier Transform (DFT) converts a sequence of
+        <span class="math inline"><em>N</em></span> equally spaced real or
+        complex samples
+        <span class="math inline"
+          ><span class="math inline"
+            >$x\*{0},x\*{1},\\\\ldots, x\*{N-1}$</span
+          ></span
+        >
+        of a function <span class="math inline"><em>x</em>(<em>t</em>)</span> of
+        time (or another variable, depending on the application) into a sequence
+        of <span class="math inline"><em>N</em></span> complex numbers
+        <span class="math inline"><em>X</em> * <em>k</em></span> by the
+        summation
+      </p>
+      <p>
+        <span class="math display"
+          ><br /><span class="math display"
+            >$$ X\*{k}=\\\\sum\*{n=0}^{N-1}x\\\_{n}e^{-j2\\\\pi
+            kn/N},;k=0,1,\\\\ldots, N-1. $$</span
+          ><br
+        /></span>
+      </p>
+      <p>
+        With the numbers
+        <span class="math inline"><em>X</em> * <em>k</em></span> known, the
+        inverse DFT _exactly* recovers the sample values
+        <span class="math inline"><em>x</em>_<em>n</em></span> through the
+        summation
+      </p>
+      <p>
+        <span class="math display"
+          ><br /><span class="math display"
+            >$$x\*{n}=\\\\frac{1}{N}\\\\sum\*{k=0}^{N-1}X\\\_{k}e^{j2\\\\pi
+            kn/N}.$$</span
+          ><br
+        /></span>
+      </p>
+      <p>
+        Keeping in mind that
+        <span class="math inline"
+          ><span class="math inline"
+            >$e^{j\\\\theta}=\\\\cos\\\\theta+j\\\\sin\\\\theta,$</span
+          ></span
+        >
+        the last equation shows that the DFT has decomposed the sequence
+        <span class="math inline"><em>x</em> * <em>n</em></span> into a complex
+        discrete Fourier series with coefficients
+        <span class="math inline"><em>X</em> * <em>k</em></span
+        >. Comparing the DFT with a continuous complex Fourier series
+      </p>
+      <p>
+        <span class="math display"
+          ><br /><span class="math display"
+            >$$x(t)=\\\\sum\*{n=-\\\\infty}^{\\\\infty}c\*{n}e^{jn\\\\omega\\\_{0}t},$$</span
+          ><br
+        /></span>
+      </p>
+      <p>
+        the DFT is a <em>finite</em> series with
+        <span class="math inline"><em>N</em></span> terms defined at the equally
+        spaced discrete instances of the <em>angle</em>
+        <span class="math inline"
+          ><span class="math inline"
+            >$(\\\\omega\*{0}t\*{n})=2\\\\pi\\\\frac{k}{N}$</span
+          ></span
+        >
+        in the interval
+        <span class="math inline"
+          ><span class="math inline">$\\\[0,2\\\\pi)$</span></span
+        >, i.e. <em>including</em> <span class="math inline">0</span> and
+        <em>excluding</em>
+        <span class="math inline"
+          ><span class="math inline">$2\\\\pi$</span></span
+        >. This automatically normalizes the DFT so that time does not appear
+        explicitly in the forward or inverse transform.
+      </p>
+      <p>
+        If the original function
+        <span class="math inline"><em>x</em>(<em>t</em>)</span> is limited in
+        frequency to less than half of the sampling frequency (the so-called
+        <em>Nyquist frequency</em>), interpolation between sample values
+        produced by the inverse DFT will usually give a faithful reconstruction
+        of <span class="math inline"><em>x</em>(<em>t</em>)</span>. If
+        <span class="math inline"><em>x</em>(<em>t</em>)</span> is
+        <em>not</em> limited as such, the inverse DFT can, in general, not be
+        used to reconstruct
+        <span class="math inline"><em>x</em>(<em>t</em>)</span> by
+        interpolation. Note that this limit does not imply that there are
+        <em>no</em> methods that can do such a reconstruction—see, e.g.,
+        compressed sensing, or finite rate of innovation sampling.
+      </p>
+      <p>
+        The function
+        <span class="math inline"
+          ><span class="math inline"
+            >$e^{j2\\\\pi
+            k/N}=\\\\left(e^{j2\\\\pi/N}\\\\right)^{k}=w^{k}$</span
+          ></span
+        >
+        takes on discrete values between <span class="math inline">0</span> and
+        <span class="math inline"
+          ><span class="math inline">$2\\\\pi\\\\frac{N-1}{N}$</span></span
+        >
+        on the unit circle in the complex plane. The function
+        <span class="math inline"
+          ><span class="math inline">$e^{j2\\\\pi kn/N}=w^{kn}$</span></span
+        >
+        encircles the origin
+        <span class="math inline"
+          ><span class="math inline">$n\\\\frac{N-1}{N}$</span></span
+        >
+        times, thus generating harmonics of the fundamental sinusoid for which
+        <span class="math inline"><em>n</em> = 1</span>.
+      </p>
+      <p>
+        The way in which we defined the DFT leads to a few subtleties when
+        <span class="math inline"
+          ><span class="math inline">$n&amp;gt;\\\\frac{N}{2}$</span></span
+        >, for even <span class="math inline"><em>N</em></span>
+        <sup><a href="#fn-odd_n" class="footnote-ref">odd_n</a></sup
+        >. The function
+        <span class="math inline"
+          ><span class="math inline">$e^{j2\\\\pi kn/N}$</span></span
+        >
+        is plotted for increasing values of
+        <span class="math inline"><em>k</em></span> in the figure below, for the
+        cases <span class="math inline"><em>n</em> = 1</span> to
+        <span class="math inline"><em>n</em> = <em>N</em> − 1</span> for
+        <span class="math inline"><em>N</em> = 16</span>. When
+        <span class="math inline"><em>k</em></span> increases from
+        <span class="math inline"><em>k</em></span> to
+        <span class="math inline"><em>k</em> + 1</span>, the angle increases by
+        <span class="math inline"
+          ><span class="math inline">$\\\\frac{2\\\\pi n}{N}$</span></span
+        >. When <span class="math inline"><em>n</em> = 1</span>, the step is
+        <span class="math inline"
+          ><span class="math inline">$\\\\frac{2\\\\pi}{N}$</span></span
+        >. When <span class="math inline"><em>n</em> = <em>N</em> − 1</span>,
+        the angle increases by
+        <span class="math inline"
+          ><span class="math inline"
+            >$2\\\\pi\\\\frac{N-1}{N}=2\\\\pi-\\\\frac{2\\\\pi}{N}$</span
+          ></span
+        >. Since
+        <span class="math inline"
+          ><span class="math inline">$2\\\\pi$</span></span
+        >
+        is precisely once around the circle, the step equates to
+        <span class="math inline"
+          ><span class="math inline">$-\\\\frac{2\\\\pi}{N}$</span></span
+        >, i.e. in the direction of a negative frequency. The components up to
+        <span class="math inline"><em>N</em>/2</span> represent
+        <em>positive</em> frequency components, those above
+        <span class="math inline"><em>N</em>/2</span> up to
+        <span class="math inline"><em>N</em> − 1</span> represent
+        <em>negative</em> frequencies. The angle increment for the component
+        <span class="math inline"><em>N</em>/2</span> for
+        <span class="math inline"><em>N</em></span> even advances precisely
+        halfway around the circle for each increment in
+        <span class="math inline"><em>k</em></span> and can therefore be
+        interpreted as either a positive or a negative frequency. This component
+        of the DFT represents the Nyquist Frequency, i.e. half of the sampling
+        frequency, and is useful to orientate oneself when looking at DFT
+        graphics.
+      </p>
+      <p>
+        The FFT in turn is simply a special and highly efficient algorithm for
+        calculating the DFT. Whereas a straightforward calculation of the DFT
+        takes of the order of
+        <span class="math inline"><em>N</em><sup>2</sup></span> calculations to
+        compute, the FFT algorithm requires of the order
+        <span class="math inline"
+          ><span class="math inline">$N\\\\log N$</span></span
+        >
+        calculations. The FFT was the key to the wide-spread use of the DFT in
+        real-time applications and was included in a list of the top
+        <span class="math inline">10</span> algorithms of the
+        <span class="math inline"
+          >20<sup><em>th</em></sup></span
+        >
+        century by the IEEE journal Computing in Science &amp; Engineering in
+        the year <span class="math inline">2000</span>.
+      </p>
+      <figure>
+        <img
+          src="../figures/unit_circle_samples.png"
+          alt="Unit circle samples"
+        />
+        <figcaption>Unit circle samples</figcaption>
+      </figure>
+    </blockquote>
+    <p>
+      Let’s examine the frequency components in a noisy image. Note that, while
+      a static image has no time-varying component, its values do vary across
+      <em>space</em>. The DFT applies equally to either case.
+    </p>
+    <p>First, load and display the image:</p>
+    <pre><code>from skimage import io
 image = io.imread(&#39;images/moonlanding.png&#39;)
 M, N = image.shape
 
@@ -483,22 +1423,43 @@ f, ax = plt.subplots(figsize=(4.8, 4.8))
 ax.imshow(image)
 
 print((M, N), image.dtype)</code></pre>
-<p>Do not adjust your monitor! The image you are seeing is real, although clearly distorted by either the measurement or transmission equipment.</p>
-<p>To examine the spectrum of the image, we use <code>fftn</code> (instead of <code>fft</code>) to compute the DFT, since it has more than one dimension. The two-dimensional FFT is equivalent to taking the 1-D FFT across rows and then across columns (or vice versa).</p>
-<pre><code>F = fftpack.fftn(image)
+    <p>
+      Do not adjust your monitor! The image you are seeing is real, although
+      clearly distorted by either the measurement or transmission equipment.
+    </p>
+    <p>
+      To examine the spectrum of the image, we use <code>fftn</code> (instead of
+      <code>fft</code>) to compute the DFT, since it has more than one
+      dimension. The two-dimensional FFT is equivalent to taking the 1-D FFT
+      across rows and then across columns (or vice versa).
+    </p>
+    <pre><code>F = fftpack.fftn(image)
 
 F_magnitude = np.abs(F)
 F_magnitude = fftpack.fftshift(F_magnitude)</code></pre>
-<p>Again, we take the log of the spectrum to compress the range of values, before displaying:</p>
-<pre><code>f, ax = plt.subplots(figsize=(4.8, 4.8))
+    <p>
+      Again, we take the log of the spectrum to compress the range of values,
+      before displaying:
+    </p>
+    <pre><code>f, ax = plt.subplots(figsize=(4.8, 4.8))
 
 ax.imshow(np.log(1 + F_magnitude), cmap=&#39;viridis&#39;,
           extent=(-N // 2, N // 2, -M // 2, M // 2))
 ax.set_title(&#39;Spectrum magnitude&#39;);</code></pre>
-<p>Note the high values around the origin (middle) of the spectrum—these coefficients describe the low frequencies or smooth parts of the image; a vague canvas of the photo. Higher frequency components, spread throughout the spectrum, fill in the edges and detail. Peaks around higher frequencies correspond to the periodic noise.</p>
-<p>From the photo, we can see that the noise (measurement artifacts) is highly periodic, so we hope to remove it by zeroing out the corresponding parts of the spectrum.</p>
-<p>The image with those peaks suppressed indeed looks quite different!</p>
-<pre><code># Set block around center of spectrum to zero
+    <p>
+      Note the high values around the origin (middle) of the spectrum—these
+      coefficients describe the low frequencies or smooth parts of the image; a
+      vague canvas of the photo. Higher frequency components, spread throughout
+      the spectrum, fill in the edges and detail. Peaks around higher
+      frequencies correspond to the periodic noise.
+    </p>
+    <p>
+      From the photo, we can see that the noise (measurement artifacts) is
+      highly periodic, so we hope to remove it by zeroing out the corresponding
+      parts of the spectrum.
+    </p>
+    <p>The image with those peaks suppressed indeed looks quite different!</p>
+    <pre><code># Set block around center of spectrum to zero
 K = 40
 F_magnitude[M // 2 - K: M // 2 + K, N // 2 - K: N // 2 + K] = 0
 
@@ -525,9 +1486,12 @@ ax0.set_title(&#39;Spectrum after suppression&#39;)
 
 ax1.imshow(image_filtered)
 ax1.set_title(&#39;Reconstructed image&#39;);</code></pre>
-<h3 id="windowing">Windowing</h3>
-<p>If we examine the Fourier transform of a rectangular pulse, we see significant sidelobes in the spectrum:</p>
-<pre><code>x = np.zeros(500)
+    <h3 id="windowing">Windowing</h3>
+    <p>
+      If we examine the Fourier transform of a rectangular pulse, we see
+      significant sidelobes in the spectrum:
+    </p>
+    <pre><code>x = np.zeros(500)
 x[100:150] = 1
 
 X = fftpack.fft(x)
@@ -539,11 +1503,29 @@ ax0.set_ylim(-0.1, 1.1)
 
 ax1.plot(fftpack.fftshift(np.abs(X)))
 ax1.set_ylim(-5, 55);</code></pre>
-<p>In theory, you would need a combination of infinitely many sinusoids (frequencies) to represent any abrupt transition; the coefficients would typically have the same sidelobe structure as seen here for the pulse.</p>
-<p>Importantly, the discrete Fourier transform assumes that the input signal is periodic. If the signal is not, the assumption is simply that, right at the end of the signal, it jumps back to its beginning value. Consider the function, <span class="math inline"><em>x</em>(<em>t</em>)</span>, shown here:</p>
-<p><img src="../figures/periodic.png" /></p>
-<p>We only measure the signal for a short time, labeled <span class="math inline"><em>T</em>_<em>eff</em></span>. The Fourier transform assumes that <span class="math inline"><em>x</em>(8) = <em>x</em>(0)</span>, and that the signal is continued as the dashed, rather than the solid line. This introduces a big jump at the edge, with the expected oscillation in the spectrum:</p>
-<pre><code>t = np.linspace(0, 1, 500)
+    <p>
+      In theory, you would need a combination of infinitely many sinusoids
+      (frequencies) to represent any abrupt transition; the coefficients would
+      typically have the same sidelobe structure as seen here for the pulse.
+    </p>
+    <p>
+      Importantly, the discrete Fourier transform assumes that the input signal
+      is periodic. If the signal is not, the assumption is simply that, right at
+      the end of the signal, it jumps back to its beginning value. Consider the
+      function, <span class="math inline"><em>x</em>(<em>t</em>)</span>, shown
+      here:
+    </p>
+    <p><img src="../figures/periodic.png" /></p>
+    <p>
+      We only measure the signal for a short time, labeled
+      <span class="math inline"><em>T</em>_<em>eff</em></span
+      >. The Fourier transform assumes that
+      <span class="math inline"><em>x</em>(8) = <em>x</em>(0)</span>, and that
+      the signal is continued as the dashed, rather than the solid line. This
+      introduces a big jump at the edge, with the expected oscillation in the
+      spectrum:
+    </p>
+    <pre><code>t = np.linspace(0, 1, 500)
 x = np.sin(49 * np.pi * t)
 
 X = fftpack.fft(x)
@@ -555,9 +1537,23 @@ ax0.set_ylim(-1.1, 1.1)
 
 ax1.plot(fftpack.fftfreq(len(t)), np.abs(X))
 ax1.set_ylim(0, 190);</code></pre>
-<p>Instead of the expected two lines, the peaks are spread out in the spectrum.</p>
-<p>We can counter this effect by a process called <em>windowing</em>. The original function is multiplied with a window function such as the Kaiser window <span class="math inline"><span class="math inline">$K(N,\\\\beta)$</span></span>. Here we visualize it for <span class="math inline"><span class="math inline">$\\\\beta$</span></span> ranging from 0 to 100:</p>
-<pre><code>f, ax = plt.subplots()
+    <p>
+      Instead of the expected two lines, the peaks are spread out in the
+      spectrum.
+    </p>
+    <p>
+      We can counter this effect by a process called <em>windowing</em>. The
+      original function is multiplied with a window function such as the Kaiser
+      window
+      <span class="math inline"
+        ><span class="math inline">$K(N,\\\\beta)$</span></span
+      >. Here we visualize it for
+      <span class="math inline"
+        ><span class="math inline">$\\\\beta$</span></span
+      >
+      ranging from 0 to 100:
+    </p>
+    <pre><code>f, ax = plt.subplots()
 
 N = 10
 beta_max = 5
@@ -575,9 +1571,27 @@ sm = plt.cm.ScalarMappable(cmap=colormap, norm=norm)
 sm._A = []
 
 plt.colorbar(sm).set_label(r&#39;Kaiser $\beta$&#39;);</code></pre>
-<p>By changing the parameter <span class="math inline"><span class="math inline">$\\\\beta$</span></span>, the shape of the window can be changed from rectangular (<span class="math inline"><span class="math inline">$\\\\beta=0$</span></span>, no windowing) to a window that produces signals that smoothly increase from zero and decrease to zero at the endpoints of the sampled interval, producing very low side lobes (<span class="math inline"><span class="math inline">$\\\\beta$</span></span> typically between 5 and 10) <sup><a href="#fn-choosing_a_window" class="footnote-ref">choosing_a_window</a></sup>.</p>
-<p>The effect of windowing our previous example is noticeable:</p>
-<pre><code>win = np.kaiser(len(t), 5)
+    <p>
+      By changing the parameter
+      <span class="math inline"
+        ><span class="math inline">$\\\\beta$</span></span
+      >, the shape of the window can be changed from rectangular (<span
+        class="math inline"
+        ><span class="math inline">$\\\\beta=0$</span></span
+      >, no windowing) to a window that produces signals that smoothly increase
+      from zero and decrease to zero at the endpoints of the sampled interval,
+      producing very low side lobes (<span class="math inline"
+        ><span class="math inline">$\\\\beta$</span></span
+      >
+      typically between 5 and 10)
+      <sup
+        ><a href="#fn-choosing_a_window" class="footnote-ref"
+          >choosing_a_window</a
+        ></sup
+      >.
+    </p>
+    <p>The effect of windowing our previous example is noticeable:</p>
+    <pre><code>win = np.kaiser(len(t), 5)
 x_win = x * win
 
 X_win = fftpack.fft(x_win)
@@ -589,37 +1603,154 @@ ax0.set_ylim(-1.1, 1.1)
 
 ax1.plot(fftpack.fftfreq(len(t)), np.abs(X_win))
 ax1.set_ylim(0, 190);</code></pre>
-<h2 id="real-world-application-analyzing-radar-data">Real-world Application: Analyzing Radar Data</h2>
-<p>Linearly modulated FMCW (Frequency-Modulated Continuous-Wave) radars make extensive use of the FFT algorithm for signal processing and provide examples of various applications of the FFT. We will use actual data from an FMCW radar to demonstrate one such an application: target detection.</p>
-<p>Roughly, an FMCW radar works like this (see box “A simple FMCW radar system” for more detail):</p>
-<p>A signal with changing frequency is generated. This signal is transmitted by an antenna, after which it travels outwards, away from the radar. When it hits an object, part of the signal is reflected back to the radar, where it is received, multiplied by a copy of the transmitted signal, and sampled, turning it into numbers that are packed into an array. Our challenge is to interpret those numbers to form meaningful results.</p>
-<p>The multiplication step above is important. From school, recall the trigonometric identity:</p>
-<p>$ \sin(xt) \sin(yt) = \frac{1}{2} \left[ \sin \left( (x - y)t + \frac{\pi}{2} \right) - \sin \left( (x + y)t + \frac{\pi}{2} \right) \right] $</p>
-<p>Thus, if we multiply the received signal by the transmitted signal, we expect two frequency components to appear in the spectrum: one that is the difference in frequencies between the received and transmitted signal, and one that is the sum of their frequencies.</p>
-<p>We are particularly interested in the first, since that gives us some indication of how long it took the signal to reflect back to the radar (in other words, how far away the object is from us!). We discard the other by applying a low-pass filter to the signal (i.e., a filter that discards any high frequencies).</p>
-<blockquote>
-<p><strong>A simple FMCW radar system</strong> {.callout}</p>
-<figure>
-<img src="../figures/FMCW_Block.png" alt="The block diagram of a simple FMCW radar system" /><figcaption>The block diagram of a simple FMCW radar system</figcaption>
-</figure>
-<p>A block diagram of a simple FMCW radar that uses separate transmit and receive antennas is shown above. The radar consists of a waveform generator that generates a sinusoidal signal of which the frequency varies linearly around the required transmit frequency. The generated signal is amplified to the required power level by the transmit amplifier and routed to the transmit antenna via a coupler circuit where a copy of the transmit signal is tapped off. The transmit antenna radiates the transmit signal as an electromagnetic wave in a narrow beam towards the target to be detected. When the wave encounters an object that reflects electromagnetic waves, a fraction of of the energy irradiating the target is reflected back to the receiver as a second electromagnetic wave that propagates in the direction of the radar system. When this wave encounters the receive antenna, the antenna collects the energy in the wave energy impinging on it and converts it to a fluctuating voltage that is fed to the mixer. The mixer multiplies the received signal with a replica of the transmit signal and produces a sinusoidal signal with a frequency equal to the difference in frequency between the transmitted and received signals. The low-pass filter ensures that the received signal is band limited (i.e., does not contain frequencies that we don’t care about) and the receive amplifier strengthens the signal to a suitable amplitude for the analog to digital converter (ADC) that feeds data to the computer.</p>
-</blockquote>
-<p>To summarize, we should note that:</p>
-<ul>
-<li>The data that reaches the computer consists of <span class="math inline"><em>N</em></span> samples sampled (from the multiplied, filtered signal) at a sample frequency of <span class="math inline"><em>f</em>_<em>s</em></span>.</li>
-<li>The <strong>amplitude</strong> of the returned signal varies depending on the <strong>strength of the reflection</strong> (i.e., is a property of the target object and the distance between the target and the radar).</li>
-<li>The <strong>frequency measured</strong> is an indication of the <strong>distance</strong> of the target object from the radar.</li>
-</ul>
-<figure>
-<img src="../figures/FMCW_waveform.png" alt="The frequency relationships in an FMCW radar with linear frequency modulation" /><figcaption>The frequency relationships in an FMCW radar with linear frequency modulation</figcaption>
-</figure>
-<p>To start off, we’ll generate some synthetic signals, after which we’ll turn our focus to the output of an actual radar.</p>
-<p>Recall that the radar is increasing its frequency as it transmits at a rate of <span class="math inline"><em>S</em></span> Hz/s. After a certain amount of time, <span class="math inline"><em>t</em></span>, has passed, the frequency will now be <span class="math inline"><em>tS</em></span> higher. In that same time span, the radar signal has traveled <span class="math inline"><em>d</em> = <em>t</em>/<em>v</em></span> meters, where <span class="math inline"><em>v</em></span> is the speed of the transmitted wave through air (roughly the same as the speed of light, <span class="math inline"><span class="math inline">$3 \\\\times 10^8$</span></span> m/s).</p>
-<p>Combining the above observations, we can calculate the amount of time it would take the signal to travel to, bounce off, and return from a target that is distance <span class="math inline"><em>R</em></span> away:</p>
-<p><span class="math display"><em>t</em><sub><em>R</em></sub> = 2<em>R</em>/<em>v</em></span></p>
-<p>Therefore, the change in frequency for a target at range <span class="math inline"><em>R</em></span> will be:</p>
-<p><span class="math display"><br /><span class="math display">$$ f\\\_{d}= t\_R S = \\\\frac{2RS}{v}$$</span><br /></span></p>
-<pre><code>pi = np.pi
+    <h2 id="real-world-application-analyzing-radar-data">
+      Real-world Application: Analyzing Radar Data
+    </h2>
+    <p>
+      Linearly modulated FMCW (Frequency-Modulated Continuous-Wave) radars make
+      extensive use of the FFT algorithm for signal processing and provide
+      examples of various applications of the FFT. We will use actual data from
+      an FMCW radar to demonstrate one such an application: target detection.
+    </p>
+    <p>
+      Roughly, an FMCW radar works like this (see box “A simple FMCW radar
+      system” for more detail):
+    </p>
+    <p>
+      A signal with changing frequency is generated. This signal is transmitted
+      by an antenna, after which it travels outwards, away from the radar. When
+      it hits an object, part of the signal is reflected back to the radar,
+      where it is received, multiplied by a copy of the transmitted signal, and
+      sampled, turning it into numbers that are packed into an array. Our
+      challenge is to interpret those numbers to form meaningful results.
+    </p>
+    <p>
+      The multiplication step above is important. From school, recall the
+      trigonometric identity:
+    </p>
+    <p>
+      $ \sin(xt) \sin(yt) = \frac{1}{2} \left[ \sin \left( (x - y)t +
+      \frac{\pi}{2} \right) - \sin \left( (x + y)t + \frac{\pi}{2} \right)
+      \right] $
+    </p>
+    <p>
+      Thus, if we multiply the received signal by the transmitted signal, we
+      expect two frequency components to appear in the spectrum: one that is the
+      difference in frequencies between the received and transmitted signal, and
+      one that is the sum of their frequencies.
+    </p>
+    <p>
+      We are particularly interested in the first, since that gives us some
+      indication of how long it took the signal to reflect back to the radar (in
+      other words, how far away the object is from us!). We discard the other by
+      applying a low-pass filter to the signal (i.e., a filter that discards any
+      high frequencies).
+    </p>
+    <blockquote>
+      <p><strong>A simple FMCW radar system</strong> {.callout}</p>
+      <figure>
+        <img
+          src="../figures/FMCW_Block.png"
+          alt="The block diagram of a simple FMCW radar system"
+        />
+        <figcaption>The block diagram of a simple FMCW radar system</figcaption>
+      </figure>
+      <p>
+        A block diagram of a simple FMCW radar that uses separate transmit and
+        receive antennas is shown above. The radar consists of a waveform
+        generator that generates a sinusoidal signal of which the frequency
+        varies linearly around the required transmit frequency. The generated
+        signal is amplified to the required power level by the transmit
+        amplifier and routed to the transmit antenna via a coupler circuit where
+        a copy of the transmit signal is tapped off. The transmit antenna
+        radiates the transmit signal as an electromagnetic wave in a narrow beam
+        towards the target to be detected. When the wave encounters an object
+        that reflects electromagnetic waves, a fraction of of the energy
+        irradiating the target is reflected back to the receiver as a second
+        electromagnetic wave that propagates in the direction of the radar
+        system. When this wave encounters the receive antenna, the antenna
+        collects the energy in the wave energy impinging on it and converts it
+        to a fluctuating voltage that is fed to the mixer. The mixer multiplies
+        the received signal with a replica of the transmit signal and produces a
+        sinusoidal signal with a frequency equal to the difference in frequency
+        between the transmitted and received signals. The low-pass filter
+        ensures that the received signal is band limited (i.e., does not contain
+        frequencies that we don’t care about) and the receive amplifier
+        strengthens the signal to a suitable amplitude for the analog to digital
+        converter (ADC) that feeds data to the computer.
+      </p>
+    </blockquote>
+    <p>To summarize, we should note that:</p>
+    <ul>
+      <li>
+        The data that reaches the computer consists of
+        <span class="math inline"><em>N</em></span> samples sampled (from the
+        multiplied, filtered signal) at a sample frequency of
+        <span class="math inline"><em>f</em>_<em>s</em></span
+        >.
+      </li>
+      <li>
+        The <strong>amplitude</strong> of the returned signal varies depending
+        on the <strong>strength of the reflection</strong> (i.e., is a property
+        of the target object and the distance between the target and the radar).
+      </li>
+      <li>
+        The <strong>frequency measured</strong> is an indication of the
+        <strong>distance</strong> of the target object from the radar.
+      </li>
+    </ul>
+    <figure>
+      <img
+        src="../figures/FMCW_waveform.png"
+        alt="The frequency relationships in an FMCW radar with linear frequency modulation"
+      />
+      <figcaption>
+        The frequency relationships in an FMCW radar with linear frequency
+        modulation
+      </figcaption>
+    </figure>
+    <p>
+      To start off, we’ll generate some synthetic signals, after which we’ll
+      turn our focus to the output of an actual radar.
+    </p>
+    <p>
+      Recall that the radar is increasing its frequency as it transmits at a
+      rate of <span class="math inline"><em>S</em></span> Hz/s. After a certain
+      amount of time, <span class="math inline"><em>t</em></span
+      >, has passed, the frequency will now be
+      <span class="math inline"><em>tS</em></span> higher. In that same time
+      span, the radar signal has traveled
+      <span class="math inline"><em>d</em> = <em>t</em>/<em>v</em></span>
+      meters, where <span class="math inline"><em>v</em></span> is the speed of
+      the transmitted wave through air (roughly the same as the speed of light,
+      <span class="math inline"
+        ><span class="math inline">$3 \\\\times 10^8$</span></span
+      >
+      m/s).
+    </p>
+    <p>
+      Combining the above observations, we can calculate the amount of time it
+      would take the signal to travel to, bounce off, and return from a target
+      that is distance <span class="math inline"><em>R</em></span> away:
+    </p>
+    <p>
+      <span class="math display"
+        ><em>t</em><sub><em>R</em></sub
+        > = 2<em>R</em>/<em>v</em></span
+      >
+    </p>
+    <p>
+      Therefore, the change in frequency for a target at range
+      <span class="math inline"><em>R</em></span> will be:
+    </p>
+    <p>
+      <span class="math display"
+        ><br /><span class="math display"
+          >$$ f\\\_{d}= t\_R S = \\\\frac{2RS}{v}$$</span
+        ><br
+      /></span>
+    </p>
+    <pre><code>pi = np.pi
 
 # Radar parameters
 fs = 78125          # Sampling frequency in Hz, i.e. we sample 78125
@@ -670,13 +1801,49 @@ v_sim = np.sum(M * signals, axis=1)
 ## Blend them together
 # v_single = v0
 # v_sim = (0.33 * v0) + (0.2 * v1) + (0.9 * v2) + (0.02 * v3) + (0.1 * v4)</code></pre>
-<p>Above, we generate a synthetic signal, <span class="math inline"><span class="math inline">$v\\\_\\\\mathrm{single}$</span></span>, received when looking at a single target (see figure below). By counting the number of cycles seen in a given time period, we can compute the frequency of the signal and thus the distance to the target.</p>
-<p>A real radar will rarely receive only a single echo, though. The simulated signal <span class="math inline"><span class="math inline">$v\*\\\\mathrm{sim}$</span></span> shows what a radar signal will look like with five targets at different ranges (including two close to one another at 154 and 159 meters), and <span class="math inline"><span class="math inline">$v\*\\\\mathrm{actual}(t)$</span></span> shows the output signal obtained with an actual radar. When multiple echoes add together, the result makes little intuitive sense; until, that is, we look at it more carefully through the lens of the discrete Fourier transform.</p>
-<figure>
-<img src="../figures/generated/radar_time_signals.png" alt="Receiver output signals: (a) single simulated target (b) five simulated targets (c) actual radar data" /><figcaption>Receiver output signals: (a) single simulated target (b) five simulated targets (c) actual radar data</figcaption>
-</figure>
-<p>The real-world radar data is read from a NumPy-format <code>.npz</code> file (a light-weight, cross-platform and cross-version compatible storage format). These files can be saved with the <code>np.savez</code> or <code>np.savez_compressed</code> functions. Note that SciPy’s <code>io</code> submodule can also easily read other formats, such as MATLAB(R) and NetCDF files.</p>
-<pre><code>data = np.load(&#39;data/radar_scan_0.npz&#39;)
+    <p>
+      Above, we generate a synthetic signal,
+      <span class="math inline"
+        ><span class="math inline">$v\\\_\\\\mathrm{single}$</span></span
+      >, received when looking at a single target (see figure below). By
+      counting the number of cycles seen in a given time period, we can compute
+      the frequency of the signal and thus the distance to the target.
+    </p>
+    <p>
+      A real radar will rarely receive only a single echo, though. The simulated
+      signal
+      <span class="math inline"
+        ><span class="math inline">$v\*\\\\mathrm{sim}$</span></span
+      >
+      shows what a radar signal will look like with five targets at different
+      ranges (including two close to one another at 154 and 159 meters), and
+      <span class="math inline"
+        ><span class="math inline">$v\*\\\\mathrm{actual}(t)$</span></span
+      >
+      shows the output signal obtained with an actual radar. When multiple
+      echoes add together, the result makes little intuitive sense; until, that
+      is, we look at it more carefully through the lens of the discrete Fourier
+      transform.
+    </p>
+    <figure>
+      <img
+        src="../figures/generated/radar_time_signals.png"
+        alt="Receiver output signals: (a) single simulated target (b) five simulated targets (c) actual radar data"
+      />
+      <figcaption>
+        Receiver output signals: (a) single simulated target (b) five simulated
+        targets (c) actual radar data
+      </figcaption>
+    </figure>
+    <p>
+      The real-world radar data is read from a NumPy-format
+      <code>.npz</code> file (a light-weight, cross-platform and cross-version
+      compatible storage format). These files can be saved with the
+      <code>np.savez</code> or <code>np.savez_compressed</code> functions. Note
+      that SciPy’s <code>io</code> submodule can also easily read other formats,
+      such as MATLAB(R) and NetCDF files.
+    </p>
+    <pre><code>data = np.load(&#39;data/radar_scan_0.npz&#39;)
 
 # Load variable &#39;scan&#39; from &#39;radar_scan_0.npz&#39;
 scan = data[&#39;scan&#39;]
@@ -694,27 +1861,74 @@ v_actual = scan[&#39;samples&#39;][5, 14, :]
 # $(2.5 / 8192)$.
 
 v_actual = v_actual * (2.5 / 8192)</code></pre>
-<p>Since <code>.npz</code>-files can store multiple variables, we have to select the one we want: <code>data['scan']</code>. That returns a <em>structured NumPy array</em> with the following fields:</p>
-<ul>
-<li><strong>time</strong> : unsigned 64-bit (8 byte) integer (<code>np.uint64</code>)</li>
-<li><strong>size</strong> : unsigned 32-bit (4 byte) integer (<code>np.uint32</code>)</li>
-<li><p><strong>position</strong></p>
-<ul>
-<li><strong>az</strong> : 32-bit float (<code>np.float32</code>)</li>
-<li><strong>el</strong> : 32-bit float (<code>np.float32</code>)</li>
-<li><strong>region_type</strong> : unsigned 8-bit (1 byte) integer (<code>np.uint8</code>)</li>
-<li><strong>region_ID</strong> : unsigned 16-bit (2 byte) integer (<code>np.uint16</code>)</li>
-<li><strong>gain</strong> : unsigned 8-bit (1 byte) integer (<code>np.uin8</code>)</li>
-<li><strong>samples</strong> : 2048 unsigned 16-bit (2 byte) integers (<code>np.uint16</code>)</li>
-</ul></li>
-</ul>
-<p>While it is true that NumPy arrays are <em>homogeneous</em> (i.e., all the elements inside are the same), it does not mean that those elements cannot be compound elements, as is the case here.</p>
-<p>An individual field is accessed using dictionary syntax:</p>
-<pre><code>azimuths = scan[&#39;position&#39;][&#39;az&#39;]  # Get all azimuth measurements</code></pre>
-<p>To summarize what we’ve seen so far: the shown measurements (<span class="math inline"><span class="math inline">$v\*\\\\mathrm{sim}$</span></span> and <span class="math inline"><span class="math inline">$v\*\\\\mathrm{actual}$</span></span>) are the sum of sinusoidal signals reflected by each of several objects. We need to determine each of the constituent components of these composite radar signals. The FFT is the tool that will do this for us.</p>
-<h3 id="signal-properties-in-the-frequency-domain">Signal properties in the frequency domain</h3>
-<p>First, we take the FFTs of our three signals (synthetic single target, synthetic multi-target, and real) and then display the positive frequency components (i.e., components <span class="math inline">0</span> to <span class="math inline"><em>N</em>/2</span>). These are called the <em>range traces</em> in radar terminology.</p>
-<pre><code>fig, axes = plt.subplots(3, 1, sharex=True, figsize=(4.8, 2.4))
+    <p>
+      Since <code>.npz</code>-files can store multiple variables, we have to
+      select the one we want: <code>data['scan']</code>. That returns a
+      <em>structured NumPy array</em> with the following fields:
+    </p>
+    <ul>
+      <li>
+        <strong>time</strong> : unsigned 64-bit (8 byte) integer
+        (<code>np.uint64</code>)
+      </li>
+      <li>
+        <strong>size</strong> : unsigned 32-bit (4 byte) integer
+        (<code>np.uint32</code>)
+      </li>
+      <li>
+        <p><strong>position</strong></p>
+        <ul>
+          <li><strong>az</strong> : 32-bit float (<code>np.float32</code>)</li>
+          <li><strong>el</strong> : 32-bit float (<code>np.float32</code>)</li>
+          <li>
+            <strong>region_type</strong> : unsigned 8-bit (1 byte) integer
+            (<code>np.uint8</code>)
+          </li>
+          <li>
+            <strong>region_ID</strong> : unsigned 16-bit (2 byte) integer
+            (<code>np.uint16</code>)
+          </li>
+          <li>
+            <strong>gain</strong> : unsigned 8-bit (1 byte) integer
+            (<code>np.uin8</code>)
+          </li>
+          <li>
+            <strong>samples</strong> : 2048 unsigned 16-bit (2 byte) integers
+            (<code>np.uint16</code>)
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      While it is true that NumPy arrays are <em>homogeneous</em> (i.e., all the
+      elements inside are the same), it does not mean that those elements cannot
+      be compound elements, as is the case here.
+    </p>
+    <p>An individual field is accessed using dictionary syntax:</p>
+    <pre><code>azimuths = scan[&#39;position&#39;][&#39;az&#39;]  # Get all azimuth measurements</code></pre>
+    <p>
+      To summarize what we’ve seen so far: the shown measurements (<span
+        class="math inline"
+        ><span class="math inline">$v\*\\\\mathrm{sim}$</span></span
+      >
+      and
+      <span class="math inline"
+        ><span class="math inline">$v\*\\\\mathrm{actual}$</span></span
+      >) are the sum of sinusoidal signals reflected by each of several objects.
+      We need to determine each of the constituent components of these composite
+      radar signals. The FFT is the tool that will do this for us.
+    </p>
+    <h3 id="signal-properties-in-the-frequency-domain">
+      Signal properties in the frequency domain
+    </h3>
+    <p>
+      First, we take the FFTs of our three signals (synthetic single target,
+      synthetic multi-target, and real) and then display the positive frequency
+      components (i.e., components <span class="math inline">0</span> to
+      <span class="math inline"><em>N</em>/2</span>). These are called the
+      <em>range traces</em> in radar terminology.
+    </p>
+    <pre><code>fig, axes = plt.subplots(3, 1, sharex=True, figsize=(4.8, 2.4))
 
 # Take FFTs of our signals.  Note the convention to name FFTs with a
 # capital letter.
@@ -743,16 +1957,61 @@ with plt.style.context(&#39;style/thinner.mplstyle&#39;):
 
     for ax in axes:
         ax.grid()</code></pre>
-<p>Suddenly, the information makes sense!</p>
-<p>The plot for <span class="math inline"><span class="math inline">$|V\*\\\\mathrm{single}|$</span></span> clearly shows a target at component 67, and for <span class="math inline"><span class="math inline">$|V\*\\\\mathrm{sim}|$</span></span> shows the targets that produced the signal that was uninterpretable in the time domain. The real radar signal, <span class="math inline"><span class="math inline">$|V\\\_\\\\mathrm{actual}|$</span></span> shows a large number of targets between component 400 and 500 with a large peak in component 443. This happens to be an echo return from a radar illuminating the high wall of an open-cast mine.</p>
-<p>To get useful information from the plot, we must determine the range! Again, we use the formula:</p>
-<p><span class="math display"><br /><span class="math display">$$R\*{n}=\\\\frac{nv}{2B\*{eff}}$$</span><br /></span></p>
-<p>In radar terminology, each DFT component is known as a <em>range bin</em>.</p>
-<p>This equation also defines the range resolution of the radar: targets will only be distinguishable if they are separated by more than two range bins, i.e.</p>
-<p><span class="math display"><br /><span class="math display">$$\\\\Delta R&amp;gt;\\\\frac{1}{B\\\_{eff}}.$$</span><br /></span></p>
-<p>This is a fundamental property of all types of radar.</p>
-<p>This result is quite satisfying—but the dynamic range is so large that we could very easily miss some peaks. Let’s take the <span class="math inline"><span class="math inline">$\\\\log$</span></span> as before with the spectrogram:</p>
-<pre><code>c = 3e8  # Approximately the speed of light and of
+    <p>Suddenly, the information makes sense!</p>
+    <p>
+      The plot for
+      <span class="math inline"
+        ><span class="math inline">$|V\*\\\\mathrm{single}|$</span></span
+      >
+      clearly shows a target at component 67, and for
+      <span class="math inline"
+        ><span class="math inline">$|V\*\\\\mathrm{sim}|$</span></span
+      >
+      shows the targets that produced the signal that was uninterpretable in the
+      time domain. The real radar signal,
+      <span class="math inline"
+        ><span class="math inline">$|V\\\_\\\\mathrm{actual}|$</span></span
+      >
+      shows a large number of targets between component 400 and 500 with a large
+      peak in component 443. This happens to be an echo return from a radar
+      illuminating the high wall of an open-cast mine.
+    </p>
+    <p>
+      To get useful information from the plot, we must determine the range!
+      Again, we use the formula:
+    </p>
+    <p>
+      <span class="math display"
+        ><br /><span class="math display"
+          >$$R\*{n}=\\\\frac{nv}{2B\*{eff}}$$</span
+        ><br
+      /></span>
+    </p>
+    <p>
+      In radar terminology, each DFT component is known as a <em>range bin</em>.
+    </p>
+    <p>
+      This equation also defines the range resolution of the radar: targets will
+      only be distinguishable if they are separated by more than two range bins,
+      i.e.
+    </p>
+    <p>
+      <span class="math display"
+        ><br /><span class="math display"
+          >$$\\\\Delta R&amp;gt;\\\\frac{1}{B\\\_{eff}}.$$</span
+        ><br
+      /></span>
+    </p>
+    <p>This is a fundamental property of all types of radar.</p>
+    <p>
+      This result is quite satisfying—but the dynamic range is so large that we
+      could very easily miss some peaks. Let’s take the
+      <span class="math inline"
+        ><span class="math inline">$\\\\log$</span></span
+      >
+      as before with the spectrogram:
+    </p>
+    <pre><code>c = 3e8  # Approximately the speed of light and of
          # electromagnetic waves in air
 
 fig, (ax0, ax1, ax2) = plt.subplots(3, 1)
@@ -784,11 +2043,27 @@ ax0.set_xlim(0, 300)  # Change x limits for these plots so that
 ax1.set_xlim(0, 300)  # we are better able to see the shape of the peaks.
 ax2.set_xlim(0, len(V_actual) // 2)
 ax2.set_xlabel(&#39;range&#39;)</code></pre>
-<p>The observable dynamic range is much improved in these plots. For instance, in the real radar signal the <em>noise floor</em> of the radar has become visible (i.e., the level where electronic noise in the system starts to limit the radar’s ability to detect a target).</p>
-<h3 id="windowing-applied">Windowing, applied</h3>
-<p>We’re getting there, but in the spectrum of the simulated signal, we still cannot distinguish the peaks at 154 and 159 meters. Who knows what we’re missing in the real-world signal! To sharpen the peaks, we’ll return to our toolbox and make use of <em>windowing</em>.</p>
-<p>Here are the signals used thus far in this example, windowed with a Kaiser window with <span class="math inline"><span class="math inline">$\\\\beta=6.1$</span></span>:</p>
-<pre><code>f, axes = plt.subplots(3, 1, sharex=True, figsize=(4.8, 2.8))
+    <p>
+      The observable dynamic range is much improved in these plots. For
+      instance, in the real radar signal the <em>noise floor</em> of the radar
+      has become visible (i.e., the level where electronic noise in the system
+      starts to limit the radar’s ability to detect a target).
+    </p>
+    <h3 id="windowing-applied">Windowing, applied</h3>
+    <p>
+      We’re getting there, but in the spectrum of the simulated signal, we still
+      cannot distinguish the peaks at 154 and 159 meters. Who knows what we’re
+      missing in the real-world signal! To sharpen the peaks, we’ll return to
+      our toolbox and make use of <em>windowing</em>.
+    </p>
+    <p>
+      Here are the signals used thus far in this example, windowed with a Kaiser
+      window with
+      <span class="math inline"
+        ><span class="math inline">$\\\\beta=6.1$</span></span
+      >:
+    </p>
+    <pre><code>f, axes = plt.subplots(3, 1, sharex=True, figsize=(4.8, 2.8))
 
 t_ms = t * 1000  # Sample times in milli-second
 
@@ -804,8 +2079,8 @@ for n, (signal, label) in enumerate([(v_single, r&#39;$v_0 [V]$&#39;),
 
 axes[2].set_xlim(0, t_ms[-1])
 axes[2].set_xlabel(&#39;Time [ms]&#39;);</code></pre>
-<p>And the corresponding FFTs (or “range traces”, in radar terms):</p>
-<pre><code>V_single_win = np.fft.fft(w * v_single)
+    <p>And the corresponding FFTs (or “range traces”, in radar terms):</p>
+    <pre><code>V_single_win = np.fft.fft(w * v_single)
 V_sim_win = np.fft.fft(w * v_sim)
 V_actual_win = np.fft.fft(w * v_actual)
 
@@ -826,18 +2101,90 @@ ax1.annotate(&quot;New, previously unseen!&quot;, (160, -35), xytext=(10, 15),
              textcoords=&quot;offset points&quot;, color=&#39;red&#39;, size=&#39;x-small&#39;,
              arrowprops=dict(width=0.5, headwidth=3, headlength=4,
                              fc=&#39;k&#39;, shrink=0.1));</code></pre>
-<p>Compare these with the earlier range traces. There is a dramatic lowering in side lobe level, but at a price: the peaks have changed in shape, widening and becoming less peaky, thus lowering the radar resolution, that is, the ability of the radar to distinguish between two closely space targets. The choice of window is a compromise between side lobe level and resolution. Even so, referring to the trace for <span class="math inline"><span class="math inline">$V\\\_\\\\mathrm{sim}$</span></span>, windowing has dramatically increased our ability to distinguish the small target from its large neighbor.</p>
-<p>In the real radar data range trace windowing has also reduced the side lobes. This is most visible in the depth of the notch between the two groups of targets.</p>
-<h3 id="radar-images">Radar Images</h3>
-<p>Knowing how to analyze a single trace, we can expand to looking at radar images.</p>
-<p>The data is produced by a radar with a parabolic reflector antenna. It produces a highly directive round pencil beam with a <span class="math inline"><span class="math inline">$2^\\\\circ$</span></span> spreading angle between half-power points. When directed with normal incidence at a plane, the radar will illuminate a spot of about <span class="math inline">2</span> meters in diameter at a distance of 60 meters. Outside this spot, the power drops off quite rapidly, but strong echoes from outside the spot will nevertheless still be visible.</p>
-<p>By varying the pencil beam’s azimuth (left-right position) and elevation (up-down position), we can sweep it across the target area of interest. When reflections are picked up, we can calculate the distance to the reflector (the object hit by the radar signal). Together with the current pencil beam azimuth and elevation, this defines the reflector’s position in 3D.</p>
-<p>A rock slope consists of thousands of reflectors. A range bin can be thought of as a large sphere with the radar at its center that intersects the slope along a ragged line. The scatterers on this line will produce reflections in this range bin. The wavelength of the radar (distance the transmitted wave travels in one oscillation second) is about 30 mm. The reflections from scatterers separated by odd multiples of a quarter wavelength in range, about 7.5 mm, will tend to interfere destructively, while those from scatterers separated by multiples of a half wavelength will tend to interfere constructively at the radar. The reflections combine to produce apparent spots of strong reflections. This specific radar moves its antenna in order to scan small regions consisting of <span class="math inline"><span class="math inline">$20^\\\\circ$</span></span> azimuth and <span class="math inline"><span class="math inline">$30^\\\\circ$</span></span> elevation bins scanned in steps of <span class="math inline"><span class="math inline">$0.5^\\\\circ$</span></span>.</p>
-<p>We will now draw some contour plots of the resulting radar data. Please refer to the diagram below to see how the different slices are taken. A first slice at fixed range shows the strength of echoes against elevation and azimuth. Another two slices at fixed elevation and azimuth respectively shows the slope. The stepped construction of the high wall in an opencast mine is visible in the azimuth plane.</p>
-<figure>
-<img src="../figures/axes_slices.png" alt="Diagram showing azimuth, elevation and range slices through data volume" /><figcaption>Diagram showing azimuth, elevation and range slices through data volume</figcaption>
-</figure>
-<pre><code>data = np.load(&#39;data/radar_scan_1.npz&#39;)
+    <p>
+      Compare these with the earlier range traces. There is a dramatic lowering
+      in side lobe level, but at a price: the peaks have changed in shape,
+      widening and becoming less peaky, thus lowering the radar resolution, that
+      is, the ability of the radar to distinguish between two closely space
+      targets. The choice of window is a compromise between side lobe level and
+      resolution. Even so, referring to the trace for
+      <span class="math inline"
+        ><span class="math inline">$V\\\_\\\\mathrm{sim}$</span></span
+      >, windowing has dramatically increased our ability to distinguish the
+      small target from its large neighbor.
+    </p>
+    <p>
+      In the real radar data range trace windowing has also reduced the side
+      lobes. This is most visible in the depth of the notch between the two
+      groups of targets.
+    </p>
+    <h3 id="radar-images">Radar Images</h3>
+    <p>
+      Knowing how to analyze a single trace, we can expand to looking at radar
+      images.
+    </p>
+    <p>
+      The data is produced by a radar with a parabolic reflector antenna. It
+      produces a highly directive round pencil beam with a
+      <span class="math inline"
+        ><span class="math inline">$2^\\\\circ$</span></span
+      >
+      spreading angle between half-power points. When directed with normal
+      incidence at a plane, the radar will illuminate a spot of about
+      <span class="math inline">2</span> meters in diameter at a distance of 60
+      meters. Outside this spot, the power drops off quite rapidly, but strong
+      echoes from outside the spot will nevertheless still be visible.
+    </p>
+    <p>
+      By varying the pencil beam’s azimuth (left-right position) and elevation
+      (up-down position), we can sweep it across the target area of interest.
+      When reflections are picked up, we can calculate the distance to the
+      reflector (the object hit by the radar signal). Together with the current
+      pencil beam azimuth and elevation, this defines the reflector’s position
+      in 3D.
+    </p>
+    <p>
+      A rock slope consists of thousands of reflectors. A range bin can be
+      thought of as a large sphere with the radar at its center that intersects
+      the slope along a ragged line. The scatterers on this line will produce
+      reflections in this range bin. The wavelength of the radar (distance the
+      transmitted wave travels in one oscillation second) is about 30 mm. The
+      reflections from scatterers separated by odd multiples of a quarter
+      wavelength in range, about 7.5 mm, will tend to interfere destructively,
+      while those from scatterers separated by multiples of a half wavelength
+      will tend to interfere constructively at the radar. The reflections
+      combine to produce apparent spots of strong reflections. This specific
+      radar moves its antenna in order to scan small regions consisting of
+      <span class="math inline"
+        ><span class="math inline">$20^\\\\circ$</span></span
+      >
+      azimuth and
+      <span class="math inline"
+        ><span class="math inline">$30^\\\\circ$</span></span
+      >
+      elevation bins scanned in steps of
+      <span class="math inline"
+        ><span class="math inline">$0.5^\\\\circ$</span></span
+      >.
+    </p>
+    <p>
+      We will now draw some contour plots of the resulting radar data. Please
+      refer to the diagram below to see how the different slices are taken. A
+      first slice at fixed range shows the strength of echoes against elevation
+      and azimuth. Another two slices at fixed elevation and azimuth
+      respectively shows the slope. The stepped construction of the high wall in
+      an opencast mine is visible in the azimuth plane.
+    </p>
+    <figure>
+      <img
+        src="../figures/axes_slices.png"
+        alt="Diagram showing azimuth, elevation and range slices through data volume"
+      />
+      <figcaption>
+        Diagram showing azimuth, elevation and range slices through data volume
+      </figcaption>
+    </figure>
+    <pre><code>data = np.load(&#39;data/radar_scan_1.npz&#39;)
 scan = data[&#39;scan&#39;]
 
 # The signal amplitude ranges from -2.5V to +2.5V.  The 14-bit
@@ -873,25 +2220,40 @@ with plt.style.context(&#39;style/thinner.mplstyle&#39;):
     plot_slice(axes[0, 1], V[:, 3, :], &#39;Azimuth=3&#39;, &#39;Range&#39;, &#39;Elevation&#39;)
     plot_slice(axes[1, 0], V[6, :, :].T, &#39;Elevation=6&#39;, &#39;Azimuth&#39;, &#39;Range&#39;)
     axes[1, 1].axis(&#39;off&#39;)</code></pre>
-<h4 id="d-visualization">3D visualization</h4>
-<p>We can also visualize the volume in three dimensions.</p>
-<p>We first compute the argmax (the index of the maximum value) in the range direction. This should give an indication of the range at which the radar beam hit the rock slope. Each argmax index is converted to a three-dimensional (elevation-azimuth-range) coordinate:</p>
-<pre><code>r = np.argmax(V, axis=2)
+    <h4 id="d-visualization">3D visualization</h4>
+    <p>We can also visualize the volume in three dimensions.</p>
+    <p>
+      We first compute the argmax (the index of the maximum value) in the range
+      direction. This should give an indication of the range at which the radar
+      beam hit the rock slope. Each argmax index is converted to a
+      three-dimensional (elevation-azimuth-range) coordinate:
+    </p>
+    <pre><code>r = np.argmax(V, axis=2)
 
 el, az = np.meshgrid(*[np.arange(s) for s in r.shape], indexing=&#39;ij&#39;)
 
 axis_labels = [&#39;Elevation&#39;, &#39;Azimuth&#39;, &#39;Range&#39;]
 coords = np.column_stack((el.flat, az.flat, r.flat))</code></pre>
-<p>Taking these coordinates, we project them onto the plane (by dropping the range coordinate), and perform a Delaunay tesselation. The tesselation returns a set of indices into our coordinates that define triangles (or simplices). While the triangles are strictly speaking defined on the projected coordinates, we use our original coordinates for the reconstruction, thereby adding back the range component:</p>
-<pre><code>from scipy import spatial
+    <p>
+      Taking these coordinates, we project them onto the plane (by dropping the
+      range coordinate), and perform a Delaunay tesselation. The tesselation
+      returns a set of indices into our coordinates that define triangles (or
+      simplices). While the triangles are strictly speaking defined on the
+      projected coordinates, we use our original coordinates for the
+      reconstruction, thereby adding back the range component:
+    </p>
+    <pre><code>from scipy import spatial
 
 d = spatial.Delaunay(coords[:, :2])
 simplexes = coords[d.vertices]</code></pre>
-<p>For display purposes, we swap the range axis to be the first:</p>
-<pre><code>coords = np.roll(coords, shift=-1, axis=1)
+    <p>For display purposes, we swap the range axis to be the first:</p>
+    <pre><code>coords = np.roll(coords, shift=-1, axis=1)
 axis_labels = np.roll(axis_labels, shift=-1)</code></pre>
-<p>Now, Matplotlib’s <code>trisurf</code> can be used to visualize the result:</p>
-<pre><code># This import initializes Matplotlib&#39;s 3D machinery
+    <p>
+      Now, Matplotlib’s <code>trisurf</code> can be used to visualize the
+      result:
+    </p>
+    <pre><code># This import initializes Matplotlib&#39;s 3D machinery
 from mpl_toolkits.mplot3d import Axes3D
 
 # Set up the 3D axis
@@ -908,28 +2270,68 @@ with plt.style.context(&#39;style/thinner.mplstyle&#39;):
 
 # Adjust the camera position to match our diagram above
 ax.view_init(azim=-50);</code></pre>
-<h3 id="further-applications-of-the-fft">Further applications of the FFT</h3>
-<p>The examples above show just one of the uses of the FFT in radar. There are many others, such as movement (Doppler) measurement and target recognition. The fast Fourier transform is pervasive, and is seen anywhere from Magnetic Resonance Imaging (MRI) to statistics. With the basic techniques that this chapter outlines in hand, you should be well equipped to use it!</p>
-<h3 id="further-reading">Further reading</h3>
-<p>On the Fourier transform:</p>
-<ul>
-<li>A. Papoulis, <em>The Fourier Integral and Its Applications</em>, McGraw-Hill, 1960.</li>
-<li>Ronald A. Bracewell, <em>The Fourier Transform and Its Applications</em>, McGraw-Hill, 1986.</li>
-</ul>
-<p>On radar signal processing:</p>
-<ul>
-<li>Mark A. Richards, <em>Principles of Modern Radar: Basic Principles</em>, SciTech, 2010</li>
-<li>Mark A. Richards, <em>Fundamentals of Radar Signal Processing</em>, McGraw-Hill, 2014.</li>
-</ul>
-<p><strong>Exercise:</strong> The FFT is often used to speed up image convolution (convolution is the application of a moving filter mask). Convolve an image with <code>np.ones((5, 5))</code>, using a) numpy’s <code>np.convolve</code> and b) <code>np.fft.fft2</code>. Confirm that the results are identical.</p>
-<p>Hints:</p>
-<ul>
-<li>The convolution of <code>x</code> and <code>y</code> is equivalent to <code>ifft2(X * Y)</code>, where <code>X</code> and <code>Y</code> are the FFTs of x and y respectively.</li>
-<li>In order to multiply <code>X</code> and <code>Y</code>, they have to be the same size. Use <code>np.pad</code> to extend <code>x</code> and <code>y</code> with zeros (toward the right and bottom) <em>before</em> taking their FFT.</li>
-<li>You may see some edge effects. These can be removed by increasing the padding size, so that both <code>x</code> and <code>y</code> have dimensions <code>shape(x) + shape(y) - 1</code>.</li>
-</ul>
-<p><strong>Solution:</strong></p>
-<pre><code>from scipy import signal
+    <h3 id="further-applications-of-the-fft">
+      Further applications of the FFT
+    </h3>
+    <p>
+      The examples above show just one of the uses of the FFT in radar. There
+      are many others, such as movement (Doppler) measurement and target
+      recognition. The fast Fourier transform is pervasive, and is seen anywhere
+      from Magnetic Resonance Imaging (MRI) to statistics. With the basic
+      techniques that this chapter outlines in hand, you should be well equipped
+      to use it!
+    </p>
+    <h3 id="further-reading">Further reading</h3>
+    <p>On the Fourier transform:</p>
+    <ul>
+      <li>
+        A. Papoulis, <em>The Fourier Integral and Its Applications</em>,
+        McGraw-Hill, 1960.
+      </li>
+      <li>
+        Ronald A. Bracewell,
+        <em>The Fourier Transform and Its Applications</em>, McGraw-Hill, 1986.
+      </li>
+    </ul>
+    <p>On radar signal processing:</p>
+    <ul>
+      <li>
+        Mark A. Richards, <em>Principles of Modern Radar: Basic Principles</em>,
+        SciTech, 2010
+      </li>
+      <li>
+        Mark A. Richards, <em>Fundamentals of Radar Signal Processing</em>,
+        McGraw-Hill, 2014.
+      </li>
+    </ul>
+    <p>
+      <strong>Exercise:</strong> The FFT is often used to speed up image
+      convolution (convolution is the application of a moving filter mask).
+      Convolve an image with <code>np.ones((5, 5))</code>, using a) numpy’s
+      <code>np.convolve</code> and b) <code>np.fft.fft2</code>. Confirm that the
+      results are identical.
+    </p>
+    <p>Hints:</p>
+    <ul>
+      <li>
+        The convolution of <code>x</code> and <code>y</code> is equivalent to
+        <code>ifft2(X * Y)</code>, where <code>X</code> and <code>Y</code> are
+        the FFTs of x and y respectively.
+      </li>
+      <li>
+        In order to multiply <code>X</code> and <code>Y</code>, they have to be
+        the same size. Use <code>np.pad</code> to extend <code>x</code> and
+        <code>y</code> with zeros (toward the right and bottom)
+        <em>before</em> taking their FFT.
+      </li>
+      <li>
+        You may see some edge effects. These can be removed by increasing the
+        padding size, so that both <code>x</code> and <code>y</code> have
+        dimensions <code>shape(x) + shape(y) - 1</code>.
+      </li>
+    </ul>
+    <p><strong>Solution:</strong></p>
+    <pre><code>from scipy import signal
 
 x = np.random.random((50, 50))
 y = np.ones((5, 5))
@@ -947,68 +2349,189 @@ print(&#39;Resulting shape:&#39;, zz.shape, &#39; &lt;-- Why?&#39;)
 z = signal.convolve2d(x, y)
 
 print(&#39;Results are equal?&#39;, np.allclose(zz, z))</code></pre>
-<hr />
-<ol type="1">
-<li><p>The discrete Fourier transform operates on sampled data, in contrast to the standard Fourier transform which is defined for continuous functions.</p>
-<p><a href="#fnref-discrete" class="footnote-backref">↩</a></p></li>
-<li><p>The Fourier transform essentially tells us how to combine a set of sinusoids of varying frequency to form the input signal. The spectrum consists of complex numbers—one for each sinusoid. A complex number encodes two things: a magnitude and an angle. The magnitude is the strength of the sinusoid in the signal, and the angle how much it is shifted in time. At this point, we only care about the magnitude, which we calculate using <code>np.abs</code>.</p>
-<p><a href="#fnref-complex" class="footnote-backref">↩</a></p></li>
-<li><p>For more on techniques for calculating both (approximate) frequencies and time of occurrence, read up on wavelet analysis.</p>
-<p><a href="#fnref-time" class="footnote-backref">↩</a></p></li>
-<li><p>SciPy goes to some effort to preserve the energy in the spectrum. Therefore, when taking only half the components (for N even), it multiplies the remaining components, apart from the first and last components, by two (those two components are “shared” by the two halves of the spectrum). It also normalizes the window by dividing it by its sum.</p>
-<p><a href="#fnref-scaling" class="footnote-backref">↩</a></p></li>
-<li><p>The period can, in fact, also be infinite! The general continuous Fourier transform provides for this possibility. Discrete Fourier transforms are generally defined over a finite interval, and this is implicitly the period of the time domain function that is transformed. In other words, if you do the inverse discrete Fourier transform, you <em>always</em> get a periodic signal out.</p>
-<p><a href="#fnref-periodic" class="footnote-backref">↩</a></p></li>
-<li><p>In computer science, the computational cost of an algorithm is often expressed in “Big O” notation. The notation gives us an indication of how an algorithm’s execution time scales with an increasing number of elements. If an algorithm is <span class="math inline"><span class="math inline">$\\\\mathcal{O}(N)$</span></span>, it means its execution time increases linearly with the number of input elements (for example, searching for a given value in an unsorted list is <span class="math inline"><span class="math inline">$\\\\mathcal{O}\\\\left(N\\\\right)$</span></span>). Bubble sort is an example of an <span class="math inline"><span class="math inline">$O\\\\left(N^2\\\\right)$</span></span> algorithm; the exact number of operations performed may, hypothetically, be <span class="math inline"><span class="math inline">$N + \\\\frac{1}{2} N^2$</span></span>, meaning that the computational cost grows quadratically with the number of input elements.</p>
-<p><a href="#fnref-big_o" class="footnote-backref">↩</a></p></li>
-<li><p>While ideally we don’t want to reimplement existing algorithms, sometimes it becomes necessary in order to obtain the best execution speeds possible, and tools like <a href="http://cython.org">Cython</a>—which compiles Python to C—and <a href="http://numba.pydata.org">Numba</a>—which does just-in-time compilation of Python code—make life a lot easier (and faster!). If you are able to use GPL-licenced software, you may consider using <a href="https://github.com/hgomersall/pyFFTW">PyFFTW</a> for faster FFTs.</p>
-<p><a href="#fnref-fast" class="footnote-backref">↩</a></p></li>
-<li><p>We leave it as an exercise for the reader to picture the situation for <span class="math inline"><em>N</em></span> odd. In this chapter, all examples use even-order DFTs.</p>
-<p><a href="#fnref-odd_n" class="footnote-backref">↩</a></p></li>
-<li><p>The classical windowing functions include Hann, Hamming, and Blackman. They differ in their sidelobe levels and in the broadening of the main lobe (in the Fourier domain). A modern and flexible window function that is close to optimal for most applications is the Kaiser window—a good approximation to the optimal prolate spheroid window, which concentrates the most energy into the main lobe. The Kaiser window can be tuned to suit the particular application, as illustrated in the main text, by adjusting the parameter <span class="math inline"><span class="math inline">$\\\\beta$</span></span>.</p>
-<p><a href="#fnref-choosing_a_window" class="footnote-backref">↩</a></p></li>
-</ol>
-<h2 id="jump-to-section">Jump to Section</h2>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">
-<a href="https://search.freefind.com/siteindex.html?si=14588965">index</a>
-</td>
-<td style="text-align: center;">
-<a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a>
-</td>
-<td style="text-align: right;">
-<a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-<tr class="even">
-<td>
-<a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color: transparent">freefind</span></a>
-</td>
-</tr>
-</tbody>
-</table>
-<p><span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a></p>
-<p><span class="screen-reader-text">Twitter</span></p>
-<p><span class="screen-reader-text">LinkedIn</span></p>
-<p><span class="screen-reader-text">GitHub</span></p>
-<p><span class="screen-reader-text">Youtube</span></p>
-<p><span class="screen-reader-text">Instagram</span></p>
-<p><span class="screen-reader-text">dev.to</span></p>
-<p>Save to PDF</p>
-<p><span class="screen-reader-text">Back to top</span></p>
-<p><img src="https://queue.simpleanalyticscdn.com/noscript.gif" /></p>
-</body>
+    <hr />
+    <ol type="1">
+      <li>
+        <p>
+          The discrete Fourier transform operates on sampled data, in contrast
+          to the standard Fourier transform which is defined for continuous
+          functions.
+        </p>
+        <p><a href="#fnref-discrete" class="footnote-backref">↩</a></p>
+      </li>
+      <li>
+        <p>
+          The Fourier transform essentially tells us how to combine a set of
+          sinusoids of varying frequency to form the input signal. The spectrum
+          consists of complex numbers—one for each sinusoid. A complex number
+          encodes two things: a magnitude and an angle. The magnitude is the
+          strength of the sinusoid in the signal, and the angle how much it is
+          shifted in time. At this point, we only care about the magnitude,
+          which we calculate using <code>np.abs</code>.
+        </p>
+        <p><a href="#fnref-complex" class="footnote-backref">↩</a></p>
+      </li>
+      <li>
+        <p>
+          For more on techniques for calculating both (approximate) frequencies
+          and time of occurrence, read up on wavelet analysis.
+        </p>
+        <p><a href="#fnref-time" class="footnote-backref">↩</a></p>
+      </li>
+      <li>
+        <p>
+          SciPy goes to some effort to preserve the energy in the spectrum.
+          Therefore, when taking only half the components (for N even), it
+          multiplies the remaining components, apart from the first and last
+          components, by two (those two components are “shared” by the two
+          halves of the spectrum). It also normalizes the window by dividing it
+          by its sum.
+        </p>
+        <p><a href="#fnref-scaling" class="footnote-backref">↩</a></p>
+      </li>
+      <li>
+        <p>
+          The period can, in fact, also be infinite! The general continuous
+          Fourier transform provides for this possibility. Discrete Fourier
+          transforms are generally defined over a finite interval, and this is
+          implicitly the period of the time domain function that is transformed.
+          In other words, if you do the inverse discrete Fourier transform, you
+          <em>always</em> get a periodic signal out.
+        </p>
+        <p><a href="#fnref-periodic" class="footnote-backref">↩</a></p>
+      </li>
+      <li>
+        <p>
+          In computer science, the computational cost of an algorithm is often
+          expressed in “Big O” notation. The notation gives us an indication of
+          how an algorithm’s execution time scales with an increasing number of
+          elements. If an algorithm is
+          <span class="math inline"
+            ><span class="math inline">$\\\\mathcal{O}(N)$</span></span
+          >, it means its execution time increases linearly with the number of
+          input elements (for example, searching for a given value in an
+          unsorted list is
+          <span class="math inline"
+            ><span class="math inline"
+              >$\\\\mathcal{O}\\\\left(N\\\\right)$</span
+            ></span
+          >). Bubble sort is an example of an
+          <span class="math inline"
+            ><span class="math inline">$O\\\\left(N^2\\\\right)$</span></span
+          >
+          algorithm; the exact number of operations performed may,
+          hypothetically, be
+          <span class="math inline"
+            ><span class="math inline">$N + \\\\frac{1}{2} N^2$</span></span
+          >, meaning that the computational cost grows quadratically with the
+          number of input elements.
+        </p>
+        <p><a href="#fnref-big_o" class="footnote-backref">↩</a></p>
+      </li>
+      <li>
+        <p>
+          While ideally we don’t want to reimplement existing algorithms,
+          sometimes it becomes necessary in order to obtain the best execution
+          speeds possible, and tools like
+          <a href="http://cython.org">Cython</a>—which compiles Python to C—and
+          <a href="http://numba.pydata.org">Numba</a>—which does just-in-time
+          compilation of Python code—make life a lot easier (and faster!). If
+          you are able to use GPL-licenced software, you may consider using
+          <a href="https://github.com/hgomersall/pyFFTW">PyFFTW</a> for faster
+          FFTs.
+        </p>
+        <p><a href="#fnref-fast" class="footnote-backref">↩</a></p>
+      </li>
+      <li>
+        <p>
+          We leave it as an exercise for the reader to picture the situation for
+          <span class="math inline"><em>N</em></span> odd. In this chapter, all
+          examples use even-order DFTs.
+        </p>
+        <p><a href="#fnref-odd_n" class="footnote-backref">↩</a></p>
+      </li>
+      <li>
+        <p>
+          The classical windowing functions include Hann, Hamming, and Blackman.
+          They differ in their sidelobe levels and in the broadening of the main
+          lobe (in the Fourier domain). A modern and flexible window function
+          that is close to optimal for most applications is the Kaiser window—a
+          good approximation to the optimal prolate spheroid window, which
+          concentrates the most energy into the main lobe. The Kaiser window can
+          be tuned to suit the particular application, as illustrated in the
+          main text, by adjusting the parameter
+          <span class="math inline"
+            ><span class="math inline">$\\\\beta$</span></span
+          >.
+        </p>
+        <p><a href="#fnref-choosing_a_window" class="footnote-backref">↩</a></p>
+      </li>
+    </ol>
+    <h2 id="jump-to-section">Jump to Section</h2>
+    <table>
+      <colgroup>
+        <col style="width: 100%" />
+      </colgroup>
+      <tbody>
+        <tr class="odd">
+          <td>
+            <table>
+              <tbody>
+                <tr class="odd">
+                  <td style="text-align: left">
+                    <a
+                      href="https://search.freefind.com/siteindex.html?si=14588965"
+                      >index</a
+                    >
+                  </td>
+                  <td style="text-align: center">
+                    <a
+                      href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0"
+                      >sitemap</a
+                    >
+                  </td>
+                  <td style="text-align: right">
+                    <a
+                      href="https://search.freefind.com/find.html?si=14588965&amp;pid=a"
+                      >advanced</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr class="even">
+          <td>
+            <a href="https://www.freefind.com">search engine</a
+            ><a href="https://www.freefind.com"
+              >by<span style="color: transparent">freefind</span></a
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <span class="copyright"
+        ><span class="citation" data-cites="bgoonz"
+          ><span class="citation" data-cites="bgoonz">@bgoonz</span></span
+        >
+        on almost every platform</span
+      ><a href="https://bryanguner.medium.com/" class="button">Medium</a
+      ><a
+        href="https://optimistic-lewin-8586ae.netlify.app/blm.zip"
+        class="button"
+        >BLM</a
+      >
+    </p>
+    <p><span class="screen-reader-text">Twitter</span></p>
+    <p><span class="screen-reader-text">LinkedIn</span></p>
+    <p><span class="screen-reader-text">GitHub</span></p>
+    <p><span class="screen-reader-text">Youtube</span></p>
+    <p><span class="screen-reader-text">Instagram</span></p>
+    <p><span class="screen-reader-text">dev.to</span></p>
+    <p>Save to PDF</p>
+    <p><span class="screen-reader-text">Back to top</span></p>
+    <p><img src="https://queue.simpleanalyticscdn.com/noscript.gif" /></p>
+  </body>
 </html>
