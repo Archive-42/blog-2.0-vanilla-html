@@ -4,73 +4,75 @@ This app works best with JavaScript enabled.
 
 <span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
-- <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="/docs" class="button">Docs</a>
-  - <a href="/showcase" class="button">Showcase</a>
-  - <a href="/docs/faq/contact" class="button">Contact!</a>
-  - <a href="/docs/python/python-ds" class="button">Python</a>
+    -   <a href="/docs" class="button">Docs</a>
+    -   <a href="/showcase" class="button">Showcase</a>
+    -   <a href="/docs/faq/contact" class="button">Contact!</a>
+    -   <a href="/docs/python/python-ds" class="button">Python</a>
 
-- <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
-  - <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
-  - <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
-  - <a href="/blog/platform-docs/" class="button">platform docs</a>
-  - <a href="/docs/articles/nodejs/" class="button">nodejs</a>
-  - <a href="/blogWcomments/" class="button">Blog w Comments</a>
+    -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
+    -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
+    -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
+    -   <a href="/blog/platform-docs/" class="button">platform docs</a>
+    -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
+    -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
 
-- <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
-  - <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
-  - <a href="#" class="button">Bootcamp Resources</a>
-  - <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
-  - <a href="/docs/gallery" class="button">Gallery</a>
-  - <a href="/docs" class="button">Top Repos</a>
+    -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
+    -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
+    -   <a href="#" class="button">Bootcamp Resources</a>
+    -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
+    -   <a href="/docs/gallery" class="button">Gallery</a>
+    -   <a href="/docs" class="button">Top Repos</a>
 
-- <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
-  - <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+    -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
+    -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
 
-- <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
-  - <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
-  - <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
-  - [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
-  - <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+    -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
+    -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
+    -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
+    -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
+    -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
 
-- <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
-  - <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
-  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
-  - <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
-  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
-  - <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
-  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
-  - <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
-  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
-  - <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+    -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
+    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
+    -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
+    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
+    -   <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
+    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
+    -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
+    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
+    -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
 
-- <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-  - <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
-  - <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
-  - <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
-  - <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
-  - <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
-  - <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
-  - <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
-  - <span class="screen-reader-text">Github-Advanced-Search</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+    -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
+    -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
+    -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
+    -   <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
+    -   <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
+    -   <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
+    -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
+    -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
 <span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
 July 26, 2021
 
-# Webscraping w nodejs
+Webscraping w nodejs
+====================
 
-# Web Scraping with Node.js
+Web Scraping with Node.js
+=========================
 
 > So what’s web scraping anyway? It involves automating away the laborious task of collecting information from websites. There are a lot of use cases for web scraping: you might want to collect prices from various e-commerce sites for a price comparison site. Or perhaps you need flight times and
 
@@ -82,8 +84,8 @@ There are a lot of use cases for web scraping: you might want to collect prices 
 
 Getting started with web scraping is easy, and the process can be broken down into two main parts:
 
-- acquiring the data using an HTML request library or a headless browser,
-- and parsing the data to get the exact information you want.
+-   acquiring the data using an HTML request library or a headless browser,
+-   and parsing the data to get the exact information you want.
 
 This guide will walk you through the process with the popular Node.js [request-promise](https://github.com/request/request-promise) module, [CheerioJS](https://github.com/cheeriojs/cheerio), and [Puppeteer](https://github.com/GoogleChrome/puppeteer). Working through the examples in this guide, you will learn all the tips and tricks you need to become a pro at gathering any data you need with Node.js!
 
@@ -119,7 +121,7 @@ Now, simply click inspect, and Chrome will bring up its DevTools pane, allowing 
 
 Awesome, Chrome DevTools is now showing us the exact pattern we should be looking for in the code (a “big” tag with a hyperlink inside of it). Let’s use Cheerio.js to parse the HTML we received earlier to return a list of links to the individual Wikipedia pages of U.S. presidents.
 
-<table><tbody><tr class="odd"><td></td><td>const rp = require(‘request-promise’);</td></tr><tr class="even"><td></td><td>const $ = require(‘cheerio’);</td></tr><tr class="odd"><td></td><td>const url = ‘https://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_States’;</td></tr><tr class="even"><td></td><td></td></tr><tr class="odd"><td></td><td>rp(url)</td></tr><tr class="even"><td></td><td>.then(function(html){</td></tr><tr class="odd"><td></td><td>//success!</td></tr><tr class="even"><td></td><td>console.log(<span class="math inline">$('big &amp;gt; a', html).length);&lt;/td&gt;&lt;/tr&gt;&lt;tr class="odd"&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;console.log($</span>(‘big &gt; a’, html));</td></tr><tr class="odd"><td></td><td>})</td></tr><tr class="even"><td></td><td>.catch(function(err){</td></tr><tr class="odd"><td></td><td>//handle error</td></tr><tr class="even"><td></td><td>});</td></tr></tbody></table>
+<table><tbody><tr class="odd"><td></td><td>const rp = require(‘request-promise’);</td></tr><tr class="even"><td></td><td>const $ = require(‘cheerio’);</td></tr><tr class="odd"><td></td><td>const url = ‘https://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_States’;</td></tr><tr class="even"><td></td><td></td></tr><tr class="odd"><td></td><td>rp(url)</td></tr><tr class="even"><td></td><td>.then(function(html){</td></tr><tr class="odd"><td></td><td>//success!</td></tr><tr class="even"><td></td><td>console.log(<span class="math inline"><span class="math inline">$('big &amp;amp;gt; a', html).length);&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr class="odd"&amp;gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;console.log($</span></span>(‘big &gt; a’, html));</td></tr><tr class="odd"><td></td><td>})</td></tr><tr class="even"><td></td><td>.catch(function(err){</td></tr><tr class="odd"><td></td><td>//handle error</td></tr><tr class="even"><td></td><td>});</td></tr></tbody></table>
 
 Output:
 
@@ -149,7 +151,7 @@ Let’s once again use Chrome DevTools to find the syntax of the code we want to
 
 So we see that the name is in a class called “firstHeading” and the birthday is in a class called “bday”. Let’s modify our code to use Cheerio.js to extract these two classes.
 
-<table><tbody><tr class="odd"><td></td><td>const rp = require(‘request-promise’);</td></tr><tr class="even"><td></td><td>const $ = require(‘cheerio’);</td></tr><tr class="odd"><td></td><td>const url = ‘https://en.wikipedia.org/wiki/George_Washington’;</td></tr><tr class="even"><td></td><td></td></tr><tr class="odd"><td></td><td>rp(url)</td></tr><tr class="even"><td></td><td>.then(function(html) {</td></tr><tr class="odd"><td></td><td>console.log(<span class="math inline">$('.firstHeading', html).text());&lt;/td&gt;&lt;/tr&gt;&lt;tr class="even"&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;console.log($</span>(‘.bday’, html).text());</td></tr><tr class="even"><td></td><td>})</td></tr><tr class="odd"><td></td><td>.catch(function(err) {</td></tr><tr class="even"><td></td><td>//handle error</td></tr><tr class="odd"><td></td><td>});</td></tr></tbody></table>
+<table><tbody><tr class="odd"><td></td><td>const rp = require(‘request-promise’);</td></tr><tr class="even"><td></td><td>const $ = require(‘cheerio’);</td></tr><tr class="odd"><td></td><td>const url = ‘https://en.wikipedia.org/wiki/George_Washington’;</td></tr><tr class="even"><td></td><td></td></tr><tr class="odd"><td></td><td>rp(url)</td></tr><tr class="even"><td></td><td>.then(function(html) {</td></tr><tr class="odd"><td></td><td>console.log(<span class="math inline"><span class="math inline">$('.firstHeading', html).text());&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr class="even"&amp;gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;console.log($</span></span>(‘.bday’, html).text());</td></tr><tr class="even"><td></td><td>})</td></tr><tr class="odd"><td></td><td>.catch(function(err) {</td></tr><tr class="even"><td></td><td>//handle error</td></tr><tr class="odd"><td></td><td>});</td></tr></tbody></table>
 
 Output:
 
@@ -207,7 +209,7 @@ Now we can use Chrome DevTools like we did in the previous example.
 
 It looks like Reddit is putting the titles inside “h2” tags. Let’s use Cheerio.js to extract the h2 tags from the page.
 
-<table><tbody><tr class="odd"><td></td><td>const puppeteer = require(‘puppeteer’);</td></tr><tr class="even"><td></td><td>const $ = require(‘cheerio’);</td></tr><tr class="odd"><td></td><td>const url = ‘https://www.reddit.com’;</td></tr><tr class="even"><td></td><td></td></tr><tr class="odd"><td></td><td>puppeteer</td></tr><tr class="even"><td></td><td>.launch()</td></tr><tr class="odd"><td></td><td>.then(function(browser) {</td></tr><tr class="even"><td></td><td>return browser.newPage();</td></tr><tr class="odd"><td></td><td>})</td></tr><tr class="even"><td></td><td>.then(function(page) {</td></tr><tr class="odd"><td></td><td>return page.goto(url).then(function() {</td></tr><tr class="even"><td></td><td>return page.content();</td></tr><tr class="odd"><td></td><td>});</td></tr><tr class="even"><td></td><td>})</td></tr><tr class="odd"><td></td><td>.then(function(html) {</td></tr><tr class="even"><td></td><td><span class="math inline">$('h2', html).each(function() {&lt;/td&gt;&lt;/tr&gt;&lt;tr class="odd"&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;console.log($</span>(this).text());</td></tr><tr class="odd"><td></td><td>});</td></tr><tr class="even"><td></td><td>})</td></tr><tr class="odd"><td></td><td>.catch(function(err) {</td></tr><tr class="even"><td></td><td>//handle error</td></tr><tr class="odd"><td></td><td>});</td></tr></tbody></table>
+<table><tbody><tr class="odd"><td></td><td>const puppeteer = require(‘puppeteer’);</td></tr><tr class="even"><td></td><td>const $ = require(‘cheerio’);</td></tr><tr class="odd"><td></td><td>const url = ‘https://www.reddit.com’;</td></tr><tr class="even"><td></td><td></td></tr><tr class="odd"><td></td><td>puppeteer</td></tr><tr class="even"><td></td><td>.launch()</td></tr><tr class="odd"><td></td><td>.then(function(browser) {</td></tr><tr class="even"><td></td><td>return browser.newPage();</td></tr><tr class="odd"><td></td><td>})</td></tr><tr class="even"><td></td><td>.then(function(page) {</td></tr><tr class="odd"><td></td><td>return page.goto(url).then(function() {</td></tr><tr class="even"><td></td><td>return page.content();</td></tr><tr class="odd"><td></td><td>});</td></tr><tr class="even"><td></td><td>})</td></tr><tr class="odd"><td></td><td>.then(function(html) {</td></tr><tr class="even"><td></td><td><span class="math inline"><span class="math inline">$('h2', html).each(function() {&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr class="odd"&amp;gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;console.log($</span></span>(this).text());</td></tr><tr class="odd"><td></td><td>});</td></tr><tr class="even"><td></td><td>})</td></tr><tr class="odd"><td></td><td>.catch(function(err) {</td></tr><tr class="even"><td></td><td>//handle error</td></tr><tr class="odd"><td></td><td>});</td></tr></tbody></table>
 
 Output:
 
@@ -217,18 +219,18 @@ Output:
 
 And there’s the list! At this point you should feel comfortable writing your first web scraper to gather data from any website. Here are a few additional resources that you may find helpful during your web scraping journey:
 
-- [List of web scraping proxy services](https://www.scraperapi.com/blog/the-10-best-rotating-proxy-services-for-web-scraping)
-- [List of handy web scraping tools](https://www.scraperapi.com/blog/the-10-best-web-scraping-tools)
-- [List of web scraping tips](https://www.scraperapi.com/blog/5-tips-for-web-scraping)
-- [Comparison of web scraping proxies](https://www.scraperapi.com/blog/free-shared-dedicated-datacenter-residential-rotating-proxies-for-web-scraping)
-- [Cheerio Documentation](https://github.com/cheeriojs/cheerio)
-- [Puppeteer Documentation](https://github.com/GoogleChrome/puppeteer)
+-   [List of web scraping proxy services](https://www.scraperapi.com/blog/the-10-best-rotating-proxy-services-for-web-scraping)
+-   [List of handy web scraping tools](https://www.scraperapi.com/blog/the-10-best-web-scraping-tools)
+-   [List of web scraping tips](https://www.scraperapi.com/blog/5-tips-for-web-scraping)
+-   [Comparison of web scraping proxies](https://www.scraperapi.com/blog/free-shared-dedicated-datacenter-residential-rotating-proxies-for-web-scraping)
+-   [Cheerio Documentation](https://github.com/cheeriojs/cheerio)
+-   [Puppeteer Documentation](https://github.com/GoogleChrome/puppeteer)
 
----
+------------------------------------------------------------------------
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color: transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 
