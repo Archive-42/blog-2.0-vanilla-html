@@ -2180,4 +2180,1065 @@ HTTP request sent, awaiting response... 200 OK
 Length: 4493 (4.4K) [text/x-python3]
 Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/bfs_zero_one_shortest_path.py’
 
-     0K ....
+     0K ....                                                  100%  196K=0.02s
+
+2021-10-12 20:43:52 (196 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/bfs_zero_one_shortest_path.py’ saved [4493/4493]
+
+--2021-10-12 20:43:52--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/bidirectional_a_star.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8213 (8.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/bidirectional_a_star.py’
+
+     0K ........                                              100%  484K=0.02s
+
+2021-10-12 20:43:52 (484 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/bidirectional_a_star.py’ saved [8213/8213]
+
+--2021-10-12 20:43:52--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/bidirectional_breadth_first_search.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5741 (5.6K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/bidirectional_breadth_first_search.py’
+
+     0K .....                                                 100%  257K=0.02s
+
+2021-10-12 20:43:52 (257 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/bidirectional_breadth_first_search.py’ saved [5741/5741]
+
+--2021-10-12 20:43:52--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/breadth_first_search.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2316 (2.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/breadth_first_search.py’
+
+     0K ..                                                    100%  103K=0.02s
+
+2021-10-12 20:43:53 (103 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/breadth_first_search.py’ saved [2316/2316]
+
+--2021-10-12 20:43:53--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/breadth_first_search_2.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1060 (1.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/breadth_first_search_2.py’
+
+     0K .                                                     100% 47.2K=0.02s
+
+2021-10-12 20:43:53 (47.2 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/breadth_first_search_2.py’ saved [1060/1060]
+
+--2021-10-12 20:43:53--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/breadth_first_search_shortest_path.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2840 (2.8K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/breadth_first_search_shortest_path.py’
+
+     0K ..                                                    100%  126K=0.02s
+
+2021-10-12 20:43:53 (126 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/breadth_first_search_shortest_path.py’ saved [2840/2840]
+
+--2021-10-12 20:43:53--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/check_bipartite_graph_bfs.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1304 (1.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/check_bipartite_graph_bfs.py’
+
+     0K .                                                     100% 50.0K=0.03s
+
+2021-10-12 20:43:53 (50.0 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/check_bipartite_graph_bfs.py’ saved [1304/1304]
+
+--2021-10-12 20:43:53--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/check_bipartite_graph_dfs.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1024 (1.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/check_bipartite_graph_dfs.py’
+
+     0K .                                                     100% 45.7K=0.02s
+
+2021-10-12 20:43:53 (45.7 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/check_bipartite_graph_dfs.py’ saved [1024/1024]
+
+--2021-10-12 20:43:53--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/connected_components.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1430 (1.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/connected_components.py’
+
+     0K .                                                     100% 55.8K=0.03s
+
+2021-10-12 20:43:53 (55.8 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/connected_components.py’ saved [1430/1430]
+
+--2021-10-12 20:43:53--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/depth_first_search.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1395 (1.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/depth_first_search.py’
+
+     0K .                                                     100% 45.1K=0.03s
+
+2021-10-12 20:43:54 (45.1 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/depth_first_search.py’ saved [1395/1395]
+
+--2021-10-12 20:43:54--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/depth_first_search_2.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1668 (1.6K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/depth_first_search_2.py’
+
+     0K .                                                     100% 74.3K=0.02s
+
+2021-10-12 20:43:54 (74.3 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/depth_first_search_2.py’ saved [1668/1668]
+
+--2021-10-12 20:43:54--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dijkstra.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3199 (3.1K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dijkstra.py’
+
+     0K ...                                                   100%  139K=0.02s
+
+2021-10-12 20:43:54 (139 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dijkstra.py’ saved [3199/3199]
+
+--2021-10-12 20:43:54--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dijkstra_2.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1540 (1.5K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dijkstra_2.py’
+
+     0K .                                                     100% 68.7K=0.02s
+
+2021-10-12 20:43:55 (68.7 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dijkstra_2.py’ saved [1540/1540]
+
+--2021-10-12 20:43:55--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dijkstra_algorithm.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6542 (6.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dijkstra_algorithm.py’
+
+     0K ......                                                100%  291K=0.02s
+
+2021-10-12 20:43:55 (291 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dijkstra_algorithm.py’ saved [6542/6542]
+
+--2021-10-12 20:43:55--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dinic.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3055 (3.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dinic.py’
+
+     0K ..                                                    100%  133K=0.02s
+
+2021-10-12 20:43:55 (133 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/dinic.py’ saved [3055/3055]
+
+--2021-10-12 20:43:55--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/directed_and_undirected_%28weighted%29_graph.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16094 (16K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/directed_and_undirected_(weighted)_graph.py’
+
+     0K .......... .....                                      100%  707K=0.02s
+
+2021-10-12 20:43:55 (707 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/directed_and_undirected_(weighted)_graph.py’ saved [16094/16094]
+
+--2021-10-12 20:43:55--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/edmonds_karp_multiple_source_and_sink.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6447 (6.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/edmonds_karp_multiple_source_and_sink.py’
+
+     0K ......                                                100%  288K=0.02s
+
+2021-10-12 20:43:56 (288 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/edmonds_karp_multiple_source_and_sink.py’ saved [6447/6447]
+
+--2021-10-12 20:43:56--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/eulerian_path_and_circuit_for_undirected_graph.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2037 (2.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/eulerian_path_and_circuit_for_undirected_graph.py’
+
+     0K .                                                     100% 90.8K=0.02s
+
+2021-10-12 20:43:56 (90.8 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/eulerian_path_and_circuit_for_undirected_graph.py’ saved [2037/2037]
+
+--2021-10-12 20:43:56--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/even_tree.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1298 (1.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/even_tree.py’
+
+     0K .                                                     100% 57.7K=0.02s
+
+2021-10-12 20:43:56 (57.7 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/even_tree.py’ saved [1298/1298]
+
+--2021-10-12 20:43:56--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/finding_bridges.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 976 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/finding_bridges.py’
+
+     0K                                                       100% 42.5K=0.02s
+
+2021-10-12 20:43:56 (42.5 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/finding_bridges.py’ saved [976/976]
+
+--2021-10-12 20:43:56--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/frequent_pattern_graph_miner.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7147 (7.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/frequent_pattern_graph_miner.py’
+
+     0K ......                                                100%  318K=0.02s
+
+2021-10-12 20:43:56 (318 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/frequent_pattern_graph_miner.py’ saved [7147/7147]
+
+--2021-10-12 20:43:56--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/g_topological_sort.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 946 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/g_topological_sort.py’
+
+     0K                                                       100% 42.1K=0.02s
+
+2021-10-12 20:43:57 (42.1 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/g_topological_sort.py’ saved [946/946]
+
+--2021-10-12 20:43:57--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/gale_shapley_bigraph.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1977 (1.9K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/gale_shapley_bigraph.py’
+
+     0K .                                                     100% 87.9K=0.02s
+
+2021-10-12 20:43:57 (87.9 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/gale_shapley_bigraph.py’ saved [1977/1977]
+
+--2021-10-12 20:43:57--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/graph_list.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6195 (6.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/graph_list.py’
+
+     0K ......                                                100%  275K=0.02s
+
+2021-10-12 20:43:57 (275 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/graph_list.py’ saved [6195/6195]
+
+--2021-10-12 20:43:57--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/graph_matrix.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 482 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/graph_matrix.py’
+
+     0K                                                       100% 45.5M=0s
+
+2021-10-12 20:43:57 (45.5 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/graph_matrix.py’ saved [482/482]
+
+--2021-10-12 20:43:57--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/graphs_floyd_warshall.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3218 (3.1K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/graphs_floyd_warshall.py’
+
+     0K ...                                                   100%  141K=0.02s
+
+2021-10-12 20:43:57 (141 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/graphs_floyd_warshall.py’ saved [3218/3218]
+
+--2021-10-12 20:43:57--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/greedy_best_first.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5028 (4.9K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/greedy_best_first.py’
+
+     0K ....                                                  100%  223K=0.02s
+
+2021-10-12 20:43:58 (223 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/greedy_best_first.py’ saved [5028/5028]
+
+--2021-10-12 20:43:58--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/kahns_algorithm_long.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 806 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/kahns_algorithm_long.py’
+
+     0K                                                       100%  139M=0s
+
+2021-10-12 20:43:58 (139 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/kahns_algorithm_long.py’ saved [806/806]
+
+--2021-10-12 20:43:58--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/kahns_algorithm_topo.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 819 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/kahns_algorithm_topo.py’
+
+     0K                                                       100% 78.6M=0s
+
+2021-10-12 20:43:58 (78.6 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/kahns_algorithm_topo.py’ saved [819/819]
+
+--2021-10-12 20:43:58--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/karger.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2575 (2.5K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/karger.py’
+
+     0K ..                                                    100%  112K=0.02s
+
+2021-10-12 20:43:58 (112 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/karger.py’ saved [2575/2575]
+
+--2021-10-12 20:43:58--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/markov_chain.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2067 (2.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/markov_chain.py’
+
+     0K ..                                                    100% 92.2K=0.02s
+
+2021-10-12 20:43:59 (92.2 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/markov_chain.py’ saved [2067/2067]
+
+--2021-10-12 20:43:59--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_boruvka.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5706 (5.6K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_boruvka.py’
+
+     0K .....                                                 100%  255K=0.02s
+
+2021-10-12 20:43:59 (255 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_boruvka.py’ saved [5706/5706]
+
+--2021-10-12 20:43:59--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_kruskal.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1393 (1.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_kruskal.py’
+
+     0K .                                                     100% 61.1K=0.02s
+
+2021-10-12 20:43:59 (61.1 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_kruskal.py’ saved [1393/1393]
+
+--2021-10-12 20:43:59--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_kruskal2.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3498 (3.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_kruskal2.py’
+
+     0K ...                                                   100%  156K=0.02s
+
+2021-10-12 20:44:00 (156 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_kruskal2.py’ saved [3498/3498]
+
+--2021-10-12 20:44:00--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_prims.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3838 (3.7K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_prims.py’
+
+     0K ...                                                   100%  171K=0.02s
+
+2021-10-12 20:44:00 (171 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_prims.py’ saved [3838/3838]
+
+--2021-10-12 20:44:00--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_prims2.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9049 (8.8K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_prims2.py’
+
+     0K ........                                              100%  401K=0.02s
+
+2021-10-12 20:44:00 (401 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/minimum_spanning_tree_prims2.py’ saved [9049/9049]
+
+--2021-10-12 20:44:00--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/multi_heuristic_astar.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8534 (8.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/multi_heuristic_astar.py’
+
+     0K ........                                              100%  378K=0.02s
+
+2021-10-12 20:44:01 (378 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/multi_heuristic_astar.py’ saved [8534/8534]
+
+--2021-10-12 20:44:01--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/page_rank.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1482 (1.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/page_rank.py’
+
+     0K .                                                     100% 65.7K=0.02s
+
+2021-10-12 20:44:01 (65.7 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/page_rank.py’ saved [1482/1482]
+
+--2021-10-12 20:44:01--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/prim.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3503 (3.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/prim.py’
+
+     0K ...                                                   100%  144K=0.02s
+
+2021-10-12 20:44:01 (144 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/prim.py’ saved [3503/3503]
+
+--2021-10-12 20:44:01--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:01 ERROR 404: Not Found.
+
+--2021-10-12 20:44:01--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:01 ERROR 404: Not Found.
+
+--2021-10-12 20:44:01--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/scc_kosaraju.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1072 (1.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/scc_kosaraju.py’
+
+     0K .                                                     100% 46.9K=0.02s
+
+2021-10-12 20:44:02 (46.9 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/scc_kosaraju.py’ saved [1072/1072]
+
+--2021-10-12 20:44:02--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/strongly_connected_components.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2456 (2.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/strongly_connected_components.py’
+
+     0K ..                                                    100%  101K=0.02s
+
+2021-10-12 20:44:02 (101 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/strongly_connected_components.py’ saved [2456/2456]
+
+--2021-10-12 20:44:02--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/tarjans_scc.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2652 (2.6K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/tarjans_scc.py’
+
+     0K ..                                                    100% 99.2K=0.03s
+
+2021-10-12 20:44:02 (99.2 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/graphs/tarjans_scc.py’ saved [2652/2652]
+
+--2021-10-12 20:44:02--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:02 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:02--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/adler32.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 786 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/adler32.py’
+
+     0K                                                       100% 85.2M=0s
+
+2021-10-12 20:44:03 (85.2 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/adler32.py’ saved [786/786]
+
+--2021-10-12 20:44:03--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/chaos_machine.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2429 (2.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/chaos_machine.py’
+
+     0K ..                                                    100%  107K=0.02s
+
+2021-10-12 20:44:03 (107 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/chaos_machine.py’ saved [2429/2429]
+
+--2021-10-12 20:44:03--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/djb2.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 871 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/djb2.py’
+
+     0K                                                       100% 38.8K=0.02s
+
+2021-10-12 20:44:03 (38.8 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/djb2.py’ saved [871/871]
+
+--2021-10-12 20:44:03--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/enigma_machine.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1705 (1.7K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/enigma_machine.py’
+
+     0K .                                                     100% 75.8K=0.02s
+
+2021-10-12 20:44:03 (75.8 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/enigma_machine.py’ saved [1705/1705]
+
+--2021-10-12 20:44:03--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/hamming_code.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9403 (9.2K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/hamming_code.py’
+
+     0K .........                                             100%  418K=0.02s
+
+2021-10-12 20:44:04 (418 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/hamming_code.py’ saved [9403/9403]
+
+--2021-10-12 20:44:04--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/md5.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4658 (4.5K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/md5.py’
+
+     0K ....                                                  100%  203K=0.02s
+
+2021-10-12 20:44:04 (203 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/md5.py’ saved [4658/4658]
+
+--2021-10-12 20:44:04--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:04 ERROR 404: Not Found.
+
+--2021-10-12 20:44:04--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:04 ERROR 404: Not Found.
+
+--2021-10-12 20:44:04--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/sdbm.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1342 (1.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/sdbm.py’
+
+     0K .                                                     100% 59.8K=0.02s
+
+2021-10-12 20:44:05 (59.8 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/sdbm.py’ saved [1342/1342]
+
+--2021-10-12 20:44:05--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/sha1.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6502 (6.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/sha1.py’
+
+     0K ......                                                100%  289K=0.02s
+
+2021-10-12 20:44:05 (289 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/hashes/sha1.py’ saved [6502/6502]
+
+--2021-10-12 20:44:05--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/README.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1512 (1.5K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/README.md’
+
+     0K .                                                     100% 65.1K=0.02s
+
+2021-10-12 20:44:05 (65.1 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/README.md’ saved [1512/1512]
+
+--2021-10-12 20:44:05--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:05 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:05--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/greedy_knapsack.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3711 (3.6K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/greedy_knapsack.py’
+
+     0K ...                                                   100%  160K=0.02s
+
+2021-10-12 20:44:06 (160 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/greedy_knapsack.py’ saved [3711/3711]
+
+--2021-10-12 20:44:06--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/knapsack.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1438 (1.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/knapsack.py’
+
+     0K .                                                     100% 62.3K=0.02s
+
+2021-10-12 20:44:06 (62.3 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/knapsack.py’ saved [1438/1438]
+
+--2021-10-12 20:44:06--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:06 ERROR 404: Not Found.
+
+--2021-10-12 20:44:06--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/knapsack/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:06 ERROR 404: Not Found.
+
+--2021-10-12 20:44:06--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/linear_algebra/README.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2602 (2.5K) [text/markdown]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/linear_algebra/README.md’
+
+     0K ..                                                    100%  116K=0.02s
+
+2021-10-12 20:44:06 (116 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/linear_algebra/README.md’ saved [2602/2602]
+
+--2021-10-12 20:44:06--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/linear_algebra/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/linear_algebra/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:07 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/linear_algebra/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:07--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/linear_algebra/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:07 ERROR 404: Not Found.
+
+--2021-10-12 20:44:07--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/linear_algebra/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:07 ERROR 404: Not Found.
+
+--2021-10-12 20:44:07--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:07 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:07--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/ex_data.csv
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1485 (1.5K) [text/csv]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/ex_data.csv’
+
+     0K .                                                     100% 65.9K=0.02s
+
+2021-10-12 20:44:08 (65.9 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/ex_data.csv’ saved [1485/1485]
+
+--2021-10-12 20:44:08--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:08 ERROR 404: Not Found.
+
+--2021-10-12 20:44:08--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:08 ERROR 404: Not Found.
+
+--2021-10-12 20:44:08--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/run.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5639 (5.5K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/run.py’
+
+     0K .....                                                 100%  246K=0.02s
+
+2021-10-12 20:44:08 (246 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/forecasting/run.py’ saved [5639/5639]
+
+--2021-10-12 20:44:08--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:08 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:08--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/lstm_prediction.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2265 (2.2K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/lstm_prediction.py’
+
+     0K ..                                                    100% 97.5K=0.02s
+
+2021-10-12 20:44:09 (97.5 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/lstm_prediction.py’ saved [2265/2265]
+
+--2021-10-12 20:44:09--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:09 ERROR 404: Not Found.
+
+--2021-10-12 20:44:09--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:09 ERROR 404: Not Found.
+
+--2021-10-12 20:44:09--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/sample_data.csv
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 71663 (70K) [text/csv]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/sample_data.csv’
+
+     0K .......... .......... .......... .......... .......... 71%  198K 0s
+    50K .......... .........                                  100% 39.8M=0.3s
+
+2021-10-12 20:44:09 (277 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/machine_learning/lstm/sample_data.csv’ saved [71663/71663]
+
+--2021-10-12 20:44:09--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/images/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/images/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:10 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/images/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:10--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/images/gaussian.png
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 39136 (38K) [image/png]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/images/gaussian.png’
+
+     0K .......... .......... .......... ........             100%  565K=0.07s
+
+2021-10-12 20:44:10 (565 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/images/gaussian.png’ saved [39136/39136]
+
+--2021-10-12 20:44:10--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/images/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:10 ERROR 404: Not Found.
+
+--2021-10-12 20:44:10--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/images/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:10 ERROR 404: Not Found.
+
+--2021-10-12 20:44:10--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:10 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:10--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/arithmetic_mean.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1720 (1.7K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/arithmetic_mean.py’
+
+     0K .                                                     100% 76.5K=0.02s
+
+2021-10-12 20:44:11 (76.5 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/arithmetic_mean.py’ saved [1720/1720]
+
+--2021-10-12 20:44:11--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/geometric_mean.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2022 (2.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/geometric_mean.py’
+
+     0K .                                                     100% 87.2K=0.02s
+
+2021-10-12 20:44:11 (87.2 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/geometric_mean.py’ saved [2022/2022]
+
+--2021-10-12 20:44:11--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/geometric_series.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2236 (2.2K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/geometric_series.py’
+
+     0K ..                                                    100% 89.3K=0.02s
+
+2021-10-12 20:44:11 (89.3 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/geometric_series.py’ saved [2236/2236]
+
+--2021-10-12 20:44:11--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/harmonic_series.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1253 (1.2K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/harmonic_series.py’
+
+     0K .                                                     100% 55.5K=0.02s
+
+2021-10-12 20:44:12 (55.5 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/harmonic_series.py’ saved [1253/1253]
+
+--2021-10-12 20:44:12--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/p_series.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1255 (1.2K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/p_series.py’
+
+     0K .                                                     100% 54.4K=0.02s
+
+2021-10-12 20:44:12 (54.4 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/p_series.py’ saved [1255/1255]
+
+--2021-10-12 20:44:12--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:12 ERROR 404: Not Found.
+
+--2021-10-12 20:44:12--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/maths/series/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:12 ERROR 404: Not Found.
+
+--2021-10-12 20:44:12--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:12 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:12--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/count_islands_in_matrix.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1383 (1.4K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/count_islands_in_matrix.py’
+
+     0K .                                                     100% 59.8K=0.02s
+
+2021-10-12 20:44:13 (59.8 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/count_islands_in_matrix.py’ saved [1383/1383]
+
+--2021-10-12 20:44:13--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/inverse_of_matrix.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1733 (1.7K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/inverse_of_matrix.py’
+
+     0K .                                                     100% 72.0K=0.02s
+
+2021-10-12 20:44:13 (72.0 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/inverse_of_matrix.py’ saved [1733/1733]
+
+--2021-10-12 20:44:13--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/matrix_class.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10622 (10K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/matrix_class.py’
+
+     0K ..........                                            100%  466K=0.02s
+
+2021-10-12 20:44:13 (466 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/matrix_class.py’ saved [10622/10622]
+
+--2021-10-12 20:44:13--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/matrix_operation.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5333 (5.2K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/matrix_operation.py’
+
+     0K .....                                                 100%  234K=0.02s
+
+2021-10-12 20:44:13 (234 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/matrix_operation.py’ saved [5333/5333]
+
+--2021-10-12 20:44:13--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/nth_fibonacci_using_matrix_exponentiation.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2636 (2.6K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/nth_fibonacci_using_matrix_exponentiation.py’
+
+     0K ..                                                    100%  114K=0.02s
+
+2021-10-12 20:44:14 (114 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/nth_fibonacci_using_matrix_exponentiation.py’ saved [2636/2636]
+
+--2021-10-12 20:44:14--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:14 ERROR 404: Not Found.
+
+--2021-10-12 20:44:14--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:14 ERROR 404: Not Found.
+
+--2021-10-12 20:44:14--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/rotate_matrix.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2663 (2.6K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/rotate_matrix.py’
+
+     0K ..                                                    100%  118K=0.02s
+
+2021-10-12 20:44:14 (118 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/rotate_matrix.py’ saved [2663/2663]
+
+--2021-10-12 20:44:14--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/searching_in_sorted_matrix.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1308 (1.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/searching_in_sorted_matrix.py’
+
+     0K .                                                     100% 51.0K=0.03s
+
+2021-10-12 20:44:14 (51.0 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/searching_in_sorted_matrix.py’ saved [1308/1308]
+
+--2021-10-12 20:44:14--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/sherman_morrison.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7894 (7.7K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/sherman_morrison.py’
+
+     0K .......                                               100%  207K=0.04s
+
+2021-10-12 20:44:15 (207 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/sherman_morrison.py’ saved [7894/7894]
+
+--2021-10-12 20:44:15--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/spiral_print.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1745 (1.7K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/spiral_print.py’
+
+     0K .                                                     100% 69.7K=0.02s
+
+2021-10-12 20:44:15 (69.7 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/matrix/spiral_print.py’ saved [1745/1745]
+
+--2021-10-12 20:44:15--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:15 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:15--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/ford_fulkerson.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1507 (1.5K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/ford_fulkerson.py’
+
+     0K .                                                     100% 65.8K=0.02s
+
+2021-10-12 20:44:15 (65.8 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/ford_fulkerson.py’ saved [1507/1507]
+
+--2021-10-12 20:44:15--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/minimum_cut.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1672 (1.6K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/minimum_cut.py’
+
+     0K .                                                     100% 72.4K=0.02s
+
+2021-10-12 20:44:16 (72.4 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/minimum_cut.py’ saved [1672/1672]
+
+--2021-10-12 20:44:16--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:16 ERROR 404: Not Found.
+
+--2021-10-12 20:44:16--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/networking_flow/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:16 ERROR 404: Not Found.
+
+--2021-10-12 20:44:16--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/2_hidden_layers_neural_network.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11697 (11K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/2_hidden_layers_neural_network.py’
+
+     0K .......... .                                          100%  514K=0.02s
+
+2021-10-12 20:44:16 (514 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/2_hidden_layers_neural_network.py’ saved [11697/11697]
+
+--2021-10-12 20:44:16--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:16 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:16--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/back_propagation_neural_network.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5995 (5.9K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/back_propagation_neural_network.py’
+
+     0K .....                                                 100%  266K=0.02s
+
+2021-10-12 20:44:17 (266 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/back_propagation_neural_network.py’ saved [5995/5995]
+
+--2021-10-12 20:44:17--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/convolution_neural_network.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14261 (14K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/convolution_neural_network.py’
+
+     0K .......... ...                                        100%  219K=0.06s
+
+2021-10-12 20:44:17 (219 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/convolution_neural_network.py’ saved [14261/14261]
+
+--2021-10-12 20:44:17--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/gan.py_tf
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16020 (16K) [application/octet-stream]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/gan.py_tf’
+
+     0K .......... .....                                      100%  642K=0.02s
+
+2021-10-12 20:44:17 (642 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/gan.py_tf’ saved [16020/16020]
+
+--2021-10-12 20:44:17--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/input_data.py_tf
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12056 (12K) [application/octet-stream]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/input_data.py_tf’
+
+     0K .......... .                                          100%  537K=0.02s
+
+2021-10-12 20:44:17 (537 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/input_data.py_tf’ saved [12056/12056]
+
+--2021-10-12 20:44:17--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/perceptron.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6890 (6.7K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/perceptron.py’
+
+     0K ......                                                100%  308K=0.02s
+
+2021-10-12 20:44:18 (308 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/perceptron.py’ saved [6890/6890]
+
+--2021-10-12 20:44:18--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:18 ERROR 404: Not Found.
+
+--2021-10-12 20:44:18--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/neural_network/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:44:18 ERROR 404: Not Found.
+
+--2021-10-12 20:44:18--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/__init__.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/__init__.py’
+
+     0K                                                        0.00 =0s
+
+2021-10-12 20:44:18 (0.00 B/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/__init__.py’ saved [0/0]
+
+--2021-10-12 20:44:18--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/activity_selection.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1234 (1.2K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/activity_selection.py’
+
+     0K .                                                     100% 54.9K=0.02s
+
+2021-10-12 20:44:18 (54.9 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/activity_selection.py’ saved [1234/1234]
+
+--2021-10-12 20:44:18--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/davis%E2%80%93putnam%E2%80%93logemann%E2%80%93loveland.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11384 (11K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/davis–putnam–logemann–loveland.py’
+
+     0K .......... .                                          100% 29.7M=0s
+
+2021-10-12 20:44:19 (29.7 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/davis–putnam–logemann–loveland.py’ saved [11384/11384]
+
+--2021-10-12 20:44:19--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/dijkstra_bankers_algorithm.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8466 (8.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/dijkstra_bankers_algorithm.py’
+
+     0K ........                                              100%  334K=0.02s
+
+2021-10-12 20:44:19 (334 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/dijkstra_bankers_algorithm.py’ saved [8466/8466]
+
+--2021-10-12 20:44:19--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/doomsday.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1569 (1.5K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/other/doomsday.py’
+
+     0K .
