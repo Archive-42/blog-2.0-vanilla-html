@@ -1463,7 +1463,7 @@ Prints as
 <tbody>
 <tr class="odd">
 <td>
-<code>'</code>
+<code>’</code>
 </td>
 <td>
 Single quote
@@ -1479,7 +1479,7 @@ Double quote
 </tr>
 <tr class="odd">
 <td>
-<code>/code&gt;
+<code>/code&gt; </code>
 </td>
 <td>
 Tab
@@ -1495,7 +1495,7 @@ Newline (line break)
 </tr>
 <tr class="odd">
 <td>
-<code>\</code>
+<code>&lt;/code&gt;
 </td>
 <td>
 Backslash
@@ -1960,7 +1960,7 @@ any character, except newline characters.
 </tr>
 <tr class="even">
 <td>
-<code>/code&gt;, <code></code>, and <code></code>
+<code>/code&gt;, </code>, and <code></code>
 </td>
 <td>
 a digit, word, or space character, resectively.
@@ -2853,7 +2853,7 @@ class WithoutExplicitTypes:
 <h1 id="all-other-values-are-true">All other values are True</h1>
 <p>bool(0) # =&gt; False bool("") # =&gt; False bool([]) # =&gt; False bool({}) # =&gt; False bool(()) # =&gt; False</p>
 <p>####################################################</p>
-<ol start="2" type="1">
+<ol type="1">
 <li>Variables and Collections</li>
 </ol>
 <hr />
@@ -2993,7 +2993,7 @@ class WithoutExplicitTypes:
 <h1 id="check-for-existence-in-a-set-with-in">Check for existence in a set with in</h1>
 <p>2 in filled<em>set # =&gt; True 10 in filled</em>set # =&gt; False</p>
 <p>####################################################</p>
-<ol start="3" type="1">
+<ol type="1">
 <li>Control Flow and Iterables</li>
 </ol>
 <hr />
@@ -3044,7 +3044,7 @@ class WithoutExplicitTypes:
 <h1 id="you-can-grab-all-the-elements-of-an-iterable-or-iterator-by-calling-list-on-it.">You can grab all the elements of an iterable or iterator by calling list() on it.</h1>
 <p>list(our<em>iterable) # =&gt; Returns [“one”, “two”, “three”] list(our</em>iterator) # =&gt; Returns [] because state is saved</p>
 <p>####################################################</p>
-<ol start="4" type="1">
+<ol type="1">
 <li>Functions</li>
 </ol>
 <hr />
@@ -3092,7 +3092,7 @@ class WithoutExplicitTypes:
 <h1 id="you-can-construct-set-and-dict-comprehensions-as-well.">You can construct set and dict comprehensions as well.</h1>
 <p>{x for x in ‘abcddeef’ if x not in ‘abc’} # =&gt; {‘d’, ‘e’, ‘f’} {x: x**2 for x in range(5)} # =&gt; {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}</p>
 <p>####################################################</p>
-<ol start="5" type="1">
+<ol type="1">
 <li>Modules</li>
 </ol>
 <hr />
@@ -3118,7 +3118,7 @@ class WithoutExplicitTypes:
 <h1 id="this-happens-because-the-local-folder-has-priority">This happens because the local folder has priority</h1>
 <h1 id="over-pythons-built-in-libraries.">over Python’s built-in libraries.</h1>
 <p>####################################################</p>
-<ol start="6" type="1">
+<ol type="1">
 <li>Classes</li>
 </ol>
 <hr />
@@ -3352,7 +3352,7 @@ print(sup.age)              # =&gt; 100
 # Inherited attribute from 2nd ancestor whose default value was overridden.
 print(&#39;Can I fly? &#39; + str(sup.fly)) # =&gt; Can I fly? False</code></pre>
 <p>####################################################</p>
-<ol start="7" type="1">
+<ol type="1">
 <li>Advanced</li>
 </ol>
 <hr />
@@ -3373,9 +3373,9 @@ print(&#39;Can I fly? &#39; + str(sup.fly)) # =&gt; Can I fly? False</code></pre
 <h1 id="in-this-example-beg-wraps-say.-if-say_please-is-true-then-it">In this example <code>beg</code> wraps <code>say</code>. If say_please is True then it</h1>
 <h1 id="will-change-the-returned-message.">will change the returned message.</h1>
 <p>from functools import wraps</p>
-<p>def beg(target<em>function): <span class="citation" data-cites="wraps">@wraps</span>(target</em>function) def wrapper(*args, *<em>kwargs): msg, say</em>please = target<em>function(</em>args, **kwargs) if say_please: return “{} {}”.format(msg, “Please! I am poor :(”) return msg</p>
+<p>def beg(target<em>function): <span class="citation" data-cites="wraps"><span class="citation" data-cites="wraps">@wraps</span></span>(target</em>function) def wrapper(*args, *<em>kwargs): msg, say</em>please = target<em>function(</em>args, **kwargs) if say_please: return “{} {}”.format(msg, “Please! I am poor :(”) return msg</p>
 <pre><code>return wrapper</code></pre>
-<p><span class="citation" data-cites="beg">@beg</span> def say(say<em>please=False): msg = “Can you buy me a beer?” return msg, say</em>please</p>
+<p><span class="citation" data-cites="beg"><span class="citation" data-cites="beg">@beg</span></span> def say(say<em>please=False): msg = “Can you buy me a beer?” return msg, say</em>please</p>
 <p>print(say()) # Can you buy me a beer? print(say(say_please=True)) # Can you buy me a beer? Please! I am poor :(</p>
 <h2 id="jump-to-section">Jump to Section</h2>
 <table>
@@ -3409,7 +3409,7 @@ print(&#39;Can I fly? &#39; + str(sup.fly)) # =&gt; Can I fly? False</code></pre
 </tr>
 </tbody>
 </table>
-<p><span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a></p>
+<p><span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a></p>
 <p><span class="screen-reader-text">Twitter</span></p>
 <p><span class="screen-reader-text">LinkedIn</span></p>
 <p><span class="screen-reader-text">GitHub</span></p>
