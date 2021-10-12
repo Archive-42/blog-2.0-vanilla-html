@@ -246,7 +246,7 @@ Data structures are being used in almost every program or software system that h
 
 In this article, I will be briefly explaining 8 commonly used data structures every programmer must know.
 
-{% embed url=“<span class="citation" data-cites="bgoonz/DATASTRUCTURES-NOTES">\[https://replit.com/@bgoonz/DATASTRUCTURES-NOTES\\\\\\\#sorting/insertion\\\\\\\_sort/insertion.py\]</span>(https://replit.com/<span class="citation" data-cites="bgoonz/DATASTRUCTURES-NOTES%5C#sorting/insertion%5C_sort/insertion.py">@bgoonz/DATASTRUCTURES-NOTES%5C\#sorting/insertion%5C\_sort/insertion.py</span>)” %}
+{% embed url=“<span class="citation" data-cites="bgoonz/DATASTRUCTURES-NOTES">\[https://replit.com/<span class="citation" data-cites="bgoonz/DATASTRUCTURES-NOTES">@bgoonz/DATASTRUCTURES-NOTES</span>\\\\\\\#sorting/insertion\\\\\\\_sort/insertion.py\]</span>(https://replit.com/<span class="citation" data-cites="bgoonz/DATASTRUCTURES-NOTES%5C#sorting/insertion%5C_sort/insertion.py"><span class="citation" data-cites="bgoonz/DATASTRUCTURES-NOTES%5C">@bgoonz/DATASTRUCTURES-NOTES%5C</span>\#sorting/insertion%5C\_sort/insertion.py</span>)” %}
 
 1.  Arrays <span id="31ab"></span>
 
@@ -500,7 +500,7 @@ Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

@@ -338,7 +338,7 @@ Creating things that change my every day life.
 
 > Mahatma Gandhi
 
-| \#\# Portfolio:
+\#\# Portfolio:
 
 [netlify](https://portfolio42.netlify.app/) |
 =============================================
@@ -599,11 +599,11 @@ the method string.replaceAll(search, replaceWith) replaces all appearances of se
 
 ------------------------------------------------------------------------
 
-See Older Snippets! \#\#\#\# This Week’s snippets: — &gt;will replace any spaces in file names with an underscore! \`\`\`bash for file in \*; do mv “$file” \`echo <span class="math inline">$file | tr ' ' '\\\_'\\\` ; done \\\#\\\# TAKING IT A STEP FURTHER: \\\# Let's do it recursivley: function RecurseDirs () { oldIFS=$</span>IFS IFS=<span class="math inline">$'\\\\n' for f in "$</span>@" do \# YOUR CODE HERE!
+See Older Snippets! \#\#\#\# This Week’s snippets: — &gt;will replace any spaces in file names with an underscore! \`\`\`bash for file in \*; do mv “<span class="math inline">$file” \\\`echo &lt;span class="math inline"&gt;$</span>file | tr ’ ’ ‘\\\_’\\\` ; done \\\#\\\# TAKING IT A STEP FURTHER: \\\# Let’s do it recursivley: function RecurseDirs () { oldIFS=<span class="math inline">$&lt;/span&gt;IFS IFS=&lt;span class="math inline"&gt;$</span>‘\\\\n’ for f in”$@" do \# YOUR CODE HERE!
 
 \[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)\]
 
-for file in \*; do mv “$file” `echo $file | tr ' ' '_'` ; done if \[\[ -d “<span class="math inline">${f}" \\\]\\\]; then cd "$</span>{f}” RecurseDirs <span class="math inline">$(ls -1 ".") cd .. fi done IFS=$</span>oldIFS } RecurseDirs “./”
+for file in \*; do mv “$file” `echo $file | tr ' ' '_'` ; done if \[\[ -d “<span class="math inline"><span class="math inline">${f}" \\\\\\\]\\\\\\\]; then cd "$</span></span>{f}” RecurseDirs <span class="math inline"><span class="math inline">$(ls -1 ".") cd .. fi done IFS=$</span></span>oldIFS } RecurseDirs “./”
 
      ---
      ### Copy to clipboard jQuerry
@@ -893,7 +893,7 @@ Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

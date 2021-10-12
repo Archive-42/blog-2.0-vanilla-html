@@ -270,37 +270,37 @@ Meditation App
 Fancy Portfolio
 ===============
 
-See the Pen [searchblog2.0](https://codepen.io/bgoonz/pen/LYyBwEp) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [searchblog2.0](https://codepen.io/bgoonz/pen/LYyBwEp) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen [Fibonacci Carousel](https://replit.com/@bgoonz/Comments-1#index.html) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [Fibonacci Carousel](https://replit.com/@bgoonz/Comments-1#index.html) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen [Fibonacci Carousel](https://codepen.io/bgoonz/pen/JjNagJo) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [Fibonacci Carousel](https://codepen.io/bgoonz/pen/JjNagJo) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen [embed-twitter-feed](https://codepen.io/bgoonz/pen/poPOqEO) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [embed-twitter-feed](https://codepen.io/bgoonz/pen/poPOqEO) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen <span class="citation" data-cites="keyframers">\[3D Cover Flow in React! | @keyframers 3.7\]</span>(https://codepen.io/bgoonz42/pen/RwpeaWr) by Bryan C Guner (<span class="citation" data-cites="bgoonz42">\[@bgoonz42\]</span>(https://codepen.io/bgoonz42)) on [CodePen](https://codepen.io).
+See the Pen <span class="citation" data-cites="keyframers">\[3D Cover Flow in React! | <span class="citation" data-cites="keyframers">@keyframers</span> 3.7\]</span>(https://codepen.io/bgoonz42/pen/RwpeaWr) by Bryan C Guner (<span class="citation" data-cites="bgoonz42">\[<span class="citation" data-cites="bgoonz42">@bgoonz42</span>\]</span>(https://codepen.io/bgoonz42)) on [CodePen](https://codepen.io).
 
-See the Pen [Simple Typing Carousel](https://codepen.io/bgoonz/pen/ExZvGoZ) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [Simple Typing Carousel](https://codepen.io/bgoonz/pen/ExZvGoZ) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen <span class="citation" data-cites="keyframers">\[3D Cover Flow in React! | @keyframers 3.7\]</span>(https://codepen.io/bgoonz42/pen/RwpeaWr) by Bryan C Guner (<span class="citation" data-cites="bgoonz42">\[@bgoonz42\]</span>(https://codepen.io/bgoonz42)) on [CodePen](https://codepen.io).
+See the Pen <span class="citation" data-cites="keyframers">\[3D Cover Flow in React! | <span class="citation" data-cites="keyframers">@keyframers</span> 3.7\]</span>(https://codepen.io/bgoonz42/pen/RwpeaWr) by Bryan C Guner (<span class="citation" data-cites="bgoonz42">\[<span class="citation" data-cites="bgoonz42">@bgoonz42</span>\]</span>(https://codepen.io/bgoonz42)) on [CodePen](https://codepen.io).
 
-See the Pen [Video Background 1](https://codepen.io/bgoonz/pen/BaRLKBd) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [Video Background 1](https://codepen.io/bgoonz/pen/BaRLKBd) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen [CSS-only Colorful Calendar Concept](https://codepen.io/bgoonz/pen/vYmKQYj) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [CSS-only Colorful Calendar Concept](https://codepen.io/bgoonz/pen/vYmKQYj) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen [FullTextSearchjs](https://codepen.io/bgoonz/pen/QWvMWoQ) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [FullTextSearchjs](https://codepen.io/bgoonz/pen/QWvMWoQ) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen [CSS Grid: Info Card](https://codepen.io/bgoonz42/pen/MWmpjmy) by Bryan C Guner (<span class="citation" data-cites="bgoonz42">\[@bgoonz42\]</span>(https://codepen.io/bgoonz42)) on [CodePen](https://codepen.io).
+See the Pen [CSS Grid: Info Card](https://codepen.io/bgoonz42/pen/MWmpjmy) by Bryan C Guner (<span class="citation" data-cites="bgoonz42">\[<span class="citation" data-cites="bgoonz42">@bgoonz42</span>\]</span>(https://codepen.io/bgoonz42)) on [CodePen](https://codepen.io).
 
-See the Pen [CSS-only Colorful Calendar Concept](https://codepen.io/bgoonz/pen/vYmKQYj) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [CSS-only Colorful Calendar Concept](https://codepen.io/bgoonz/pen/vYmKQYj) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen [Dashed Border Generator](https://codepen.io/bgoonz/pen/wvdgypd) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [Dashed Border Generator](https://codepen.io/bgoonz/pen/wvdgypd) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen [Particle tornado](https://codepen.io/bgoonz/pen/VwPwRvr) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [Particle tornado](https://codepen.io/bgoonz/pen/VwPwRvr) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen [A Simple Fade Effect on Scroll](https://codepen.io/bgoonz/pen/OJWzbRa) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [A Simple Fade Effect on Scroll](https://codepen.io/bgoonz/pen/OJWzbRa) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
-See the Pen [Controlled Text Example](https://codepen.io/bgoonz/pen/oNZYbjZ) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[@bgoonz\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
+See the Pen [Controlled Text Example](https://codepen.io/bgoonz/pen/oNZYbjZ) by Bryan C Guner (<span class="citation" data-cites="bgoonz">\[<span class="citation" data-cites="bgoonz">@bgoonz</span>\]</span>(https://codepen.io/bgoonz)) on [CodePen](https://codepen.io).
 
         <br>
         <br>
@@ -549,7 +549,7 @@ Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

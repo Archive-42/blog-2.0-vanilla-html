@@ -258,7 +258,7 @@ We’ll start by setting up some plotting styles and importing the usual suspect
 
     import numpy as np
 
-The discrete<sup><a href="#fn-discrete" class="footnote-ref">discrete</a></sup> Fourier transform (DFT) is a mathematical technique to convert temporal or spatial data into *frequency domain* data. *Frequency* is a familiar concept, due to its colloquial occurrence in the English language: the lowest notes your headphones can rumble out are around 20 Hertz, whereas middle C on a piano lies around 261.6 Hertz. Hertz (Hz), or oscillations per second, in this case literally refers to the number of times per second at which the membrane inside the headphone moves to-and-fro. That, in turn, creates compressed pulses of air which, upon arrival at your eardrum, induces a vibration at the same frequency. So, if you take a simple periodic function, <span class="math inline">$\\\\sin(10 \\\\times 2 \\\\pi t)$</span>, you can view it as a wave:
+The discrete<sup><a href="#fn-discrete" class="footnote-ref">discrete</a></sup> Fourier transform (DFT) is a mathematical technique to convert temporal or spatial data into *frequency domain* data. *Frequency* is a familiar concept, due to its colloquial occurrence in the English language: the lowest notes your headphones can rumble out are around 20 Hertz, whereas middle C on a piano lies around 261.6 Hertz. Hertz (Hz), or oscillations per second, in this case literally refers to the number of times per second at which the membrane inside the headphone moves to-and-fro. That, in turn, creates compressed pulses of air which, upon arrival at your eardrum, induces a vibration at the same frequency. So, if you take a simple periodic function, <span class="math inline"><span class="math inline">$\\\\\\\\sin(10 \\\\\\\\times 2 \\\\\\\\pi t)$</span></span>, you can view it as a wave:
 
     f = 10  # Frequency, in cycles per second, or Hertz
     f_s = 100  # Sampling rate, or number of measurements per second
@@ -374,7 +374,7 @@ For each slice, calculate the discrete Fourier transform. The DFT returns both p
 
 The spectrum can contain both very large and very small values. Taking the log compresses the range significantly.
 
-Here we do a log plot of the ratio of the signal divided by the maximum signal. The specific unit used for the ratio is the decibel, <span class="math inline">$20 log\\\_{10}\\\\left(\\\\mathrm{amplitude ratio}\\\\right)$</span>.
+Here we do a log plot of the ratio of the signal divided by the maximum signal. The specific unit used for the ratio is the decibel, <span class="math inline"><span class="math inline">$20 log\\\\\\\_{10}\\\\\\\\left(\\\\\\\\mathrm{amplitude ratio}\\\\\\\\right)$</span></span>.
 
     f, ax = plt.subplots(figsize=(4.8, 2.4))
 
@@ -432,9 +432,9 @@ SciPy wraps the Fortran FFTPACK library—it is not the fastest out there, but u
 Choosing the length of the discrete Fourier transform (DFT)
 -----------------------------------------------------------
 
-A naive calculation of the DFT takes <span class="math inline">$\\\\mathcal{O}\\\\left(N^2\\\\right)$</span> operations <sup><a href="#fn-big_o" class="footnote-ref">big_o</a></sup>. How come? Well, you have <span class="math inline">*N*</span> (complex) sinusoids of different frequencies (<span class="math inline">$2 \\\\pi f \\\\times 0, 2 \\\\pi f \\\\times 1, 2 \\\\pi f \\\\times 3, ..., 2 \\\\pi f \\\\times (N - 1)$</span>), and you want to see how strongly your signal corresponds to each. Starting with the first, you take the dot product with the signal (which, in itself, entails <span class="math inline">*N*</span> multiplication operations). Repeating this operation <span class="math inline">*N*</span> times, once for each sinusoid, then gives <span class="math inline">*N*<sup>2</sup></span> operations.
+A naive calculation of the DFT takes <span class="math inline"><span class="math inline">$\\\\\\\\mathcal{O}\\\\\\\\left(N^2\\\\\\\\right)$</span></span> operations <sup><a href="#fn-big_o" class="footnote-ref">big_o</a></sup>. How come? Well, you have <span class="math inline">*N*</span> (complex) sinusoids of different frequencies (<span class="math inline"><span class="math inline">$2 \\\\\\\\pi f \\\\\\\\times 0, 2 \\\\\\\\pi f \\\\\\\\times 1, 2 \\\\\\\\pi f \\\\\\\\times 3, ..., 2 \\\\\\\\pi f \\\\\\\\times (N - 1)$</span></span>), and you want to see how strongly your signal corresponds to each. Starting with the first, you take the dot product with the signal (which, in itself, entails <span class="math inline">*N*</span> multiplication operations). Repeating this operation <span class="math inline">*N*</span> times, once for each sinusoid, then gives <span class="math inline">*N*<sup>2</sup></span> operations.
 
-Now, contrast that with the fast Fourier transform, which is <span class="math inline">$\\\\mathcal{O}\\\\left(N \\\\log N\\\\right)$</span> in the ideal case due to the clever re-use of calculations—a great improvement! However, the classical Cooley-Tukey algorithm implemented in FFTPACK (and used by SciPy) recursively breaks up the transform into smaller (prime-sized) pieces and only shows this improvement for “smooth” input lengths (an input length is considered smooth when its largest prime factor is small). For large prime-sized pieces, the Bluestein or Rader algorithms can be used in conjunction with the Cooley-Tukey algorithm, but this optimization is not implemented in FFTPACK.<sup><a href="#fn-fast" class="footnote-ref">fast</a></sup>
+Now, contrast that with the fast Fourier transform, which is <span class="math inline"><span class="math inline">$\\\\\\\\mathcal{O}\\\\\\\\left(N \\\\\\\\log N\\\\\\\\right)$</span></span> in the ideal case due to the clever re-use of calculations—a great improvement! However, the classical Cooley-Tukey algorithm implemented in FFTPACK (and used by SciPy) recursively breaks up the transform into smaller (prime-sized) pieces and only shows this improvement for “smooth” input lengths (an input length is considered smooth when its largest prime factor is small). For large prime-sized pieces, the Bluestein or Rader algorithms can be used in conjunction with the Cooley-Tukey algorithm, but this optimization is not implemented in FFTPACK.<sup><a href="#fn-fast" class="footnote-ref">fast</a></sup>
 
 Let us illustrate:
 
@@ -476,7 +476,7 @@ Let us illustrate:
     ax1.set_ylabel('Smoothness of input length\n(lower is better)')
     ax1.set_xlabel('Length of input');
 
-The intuition is that, for smooth input lengths, the FFT can be broken up into many small pieces. After performing the FFT on the first piece, those results can be reused in subsequent computations. This explains why we chose a length of 1024 for our audio slices earlier—it has a smoothness of only 2, resulting in the optimal “radix-2 Cooley-Tukey” algorithm, which computes the FFT using only <span class="math inline">$(N/2) \\\\log\\\_2 N = 5120$</span> complex multiplications, instead of <span class="math inline">*N*<sup>2</sup> = 1048576</span>. Choosing <span class="math inline">*N* = 2<sup>*m*</sup></span> always ensures a maximally smooth <span class="math inline">*N*</span> (and, thus, the fastest FFT).
+The intuition is that, for smooth input lengths, the FFT can be broken up into many small pieces. After performing the FFT on the first piece, those results can be reused in subsequent computations. This explains why we chose a length of 1024 for our audio slices earlier—it has a smoothness of only 2, resulting in the optimal “radix-2 Cooley-Tukey” algorithm, which computes the FFT using only <span class="math inline"><span class="math inline">$(N/2) \\\\\\\\log\\\\\\\_2 N = 5120$</span></span> complex multiplications, instead of <span class="math inline">*N*<sup>2</sup> = 1048576</span>. Choosing <span class="math inline">*N* = 2<sup>*m*</sup></span> always ensures a maximally smooth <span class="math inline">*N*</span> (and, thus, the fastest FFT).
 
 More discrete Fourier transform concepts
 ----------------------------------------
@@ -521,30 +521,33 @@ Sometimes, it is convenient to view the spectrum organized slightly differently,
 
 > **Discrete Fourier transforms {.callout}**
 >
-> The Discrete Fourier Transform (DFT) converts a sequence of <span class="math inline">*N*</span> equally spaced real or complex samples <span class="math inline">$x\*{0},x\*{1},\\\\ldots, x\*{N-1}$</span> of a function <span class="math inline">*x*(*t*)</span> of time (or another variable, depending on the application) into a sequence of <span class="math inline">*N*</span> complex numbers <span class="math inline">*X* \* *k*</span> by the summation
+> The Discrete Fourier Transform (DFT) converts a sequence of <span class="math inline">*N*</span> equally spaced real or complex samples <span class="math inline"><span class="math inline">$x\\\*{0},x\\\*{1},\\\\\\\\ldots, x\\\*{N-1}$</span></span> of a function <span class="math inline">*x*(*t*)</span> of time (or another variable, depending on the application) into a sequence of <span class="math inline">*N*</span> complex numbers <span class="math inline">*X* \* *k*</span> by the summation
 >
->   
-> <span class="math display">$$ X\*{k}=\\\\sum\*{n=0}^{N-1}x\\\_{n}e^{-j2\\\\pi kn/N},;k=0,1,\\\\ldots, N-1. $$</span>  
+> <span class="math display">  
+> <span class="math display">$$ X\\\*{k}=\\\\\\\\sum\\\*{n=0}^{N-1}x\\\\\\\_{n}e^{-j2\\\\\\\\pi kn/N},;k=0,1,\\\\\\\\ldots, N-1. $$</span>  
+> </span>
 >
 > With the numbers <span class="math inline">*X* \* *k*</span> known, the inverse DFT \_exactly\* recovers the sample values <span class="math inline">*x*\_*n*</span> through the summation
 >
->   
-> <span class="math display">$$x\*{n}=\\\\frac{1}{N}\\\\sum\*{k=0}^{N-1}X\\\_{k}e^{j2\\\\pi kn/N}.$$</span>  
+> <span class="math display">  
+> <span class="math display">$$x\\\*{n}=\\\\\\\\frac{1}{N}\\\\\\\\sum\\\*{k=0}^{N-1}X\\\\\\\_{k}e^{j2\\\\\\\\pi kn/N}.$$</span>  
+> </span>
 >
-> Keeping in mind that <span class="math inline">$e^{j\\\\theta}=\\\\cos\\\\theta+j\\\\sin\\\\theta,$</span> the last equation shows that the DFT has decomposed the sequence <span class="math inline">*x* \* *n*</span> into a complex discrete Fourier series with coefficients <span class="math inline">*X* \* *k*</span>. Comparing the DFT with a continuous complex Fourier series
+> Keeping in mind that <span class="math inline"><span class="math inline">$e^{j\\\\\\\\theta}=\\\\\\\\cos\\\\\\\\theta+j\\\\\\\\sin\\\\\\\\theta,$</span></span> the last equation shows that the DFT has decomposed the sequence <span class="math inline">*x* \* *n*</span> into a complex discrete Fourier series with coefficients <span class="math inline">*X* \* *k*</span>. Comparing the DFT with a continuous complex Fourier series
 >
->   
-> <span class="math display">$$x(t)=\\\\sum\*{n=-\\\\infty}^{\\\\infty}c\*{n}e^{jn\\\\omega\\\_{0}t},$$</span>  
+> <span class="math display">  
+> <span class="math display">$$x(t)=\\\\\\\\sum\\\*{n=-\\\\\\\\infty}^{\\\\\\\\infty}c\\\*{n}e^{jn\\\\\\\\omega\\\\\\\_{0}t},$$</span>  
+> </span>
 >
-> the DFT is a *finite* series with <span class="math inline">*N*</span> terms defined at the equally spaced discrete instances of the *angle* <span class="math inline">$(\\\\omega\*{0}t\*{n})=2\\\\pi\\\\frac{k}{N}$</span> in the interval <span class="math inline">$\\\[0,2\\\\pi)$</span>, i.e. *including* <span class="math inline">0</span> and *excluding* <span class="math inline">$2\\\\pi$</span>. This automatically normalizes the DFT so that time does not appear explicitly in the forward or inverse transform.
+> the DFT is a *finite* series with <span class="math inline">*N*</span> terms defined at the equally spaced discrete instances of the *angle* <span class="math inline"><span class="math inline">$(\\\\\\\\omega\\\*{0}t\\\*{n})=2\\\\\\\\pi\\\\\\\\frac{k}{N}$</span></span> in the interval <span class="math inline"><span class="math inline">$\\\\\\\[0,2\\\\\\\\pi)$</span></span>, i.e. *including* <span class="math inline">0</span> and *excluding* <span class="math inline"><span class="math inline">$2\\\\\\\\pi$</span></span>. This automatically normalizes the DFT so that time does not appear explicitly in the forward or inverse transform.
 >
 > If the original function <span class="math inline">*x*(*t*)</span> is limited in frequency to less than half of the sampling frequency (the so-called *Nyquist frequency*), interpolation between sample values produced by the inverse DFT will usually give a faithful reconstruction of <span class="math inline">*x*(*t*)</span>. If <span class="math inline">*x*(*t*)</span> is *not* limited as such, the inverse DFT can, in general, not be used to reconstruct <span class="math inline">*x*(*t*)</span> by interpolation. Note that this limit does not imply that there are *no* methods that can do such a reconstruction—see, e.g., compressed sensing, or finite rate of innovation sampling.
 >
-> The function <span class="math inline">$e^{j2\\\\pi k/N}=\\\\left(e^{j2\\\\pi/N}\\\\right)^{k}=w^{k}$</span> takes on discrete values between <span class="math inline">0</span> and <span class="math inline">$2\\\\pi\\\\frac{N-1}{N}$</span> on the unit circle in the complex plane. The function <span class="math inline">$e^{j2\\\\pi kn/N}=w^{kn}$</span> encircles the origin <span class="math inline">$n\\\\frac{N-1}{N}$</span> times, thus generating harmonics of the fundamental sinusoid for which <span class="math inline">*n* = 1</span>.
+> The function <span class="math inline"><span class="math inline">$e^{j2\\\\\\\\pi k/N}=\\\\\\\\left(e^{j2\\\\\\\\pi/N}\\\\\\\\right)^{k}=w^{k}$</span></span> takes on discrete values between <span class="math inline">0</span> and <span class="math inline"><span class="math inline">$2\\\\\\\\pi\\\\\\\\frac{N-1}{N}$</span></span> on the unit circle in the complex plane. The function <span class="math inline"><span class="math inline">$e^{j2\\\\\\\\pi kn/N}=w^{kn}$</span></span> encircles the origin <span class="math inline"><span class="math inline">$n\\\\\\\\frac{N-1}{N}$</span></span> times, thus generating harmonics of the fundamental sinusoid for which <span class="math inline">*n* = 1</span>.
 >
-> The way in which we defined the DFT leads to a few subtleties when <span class="math inline">$n&gt;\\\\frac{N}{2}$</span>, for even <span class="math inline">*N*</span> <sup><a href="#fn-odd_n" class="footnote-ref">odd_n</a></sup>. The function <span class="math inline">$e^{j2\\\\pi kn/N}$</span> is plotted for increasing values of <span class="math inline">*k*</span> in the figure below, for the cases <span class="math inline">*n* = 1</span> to <span class="math inline">*n* = *N* − 1</span> for <span class="math inline">*N* = 16</span>. When <span class="math inline">*k*</span> increases from <span class="math inline">*k*</span> to <span class="math inline">*k* + 1</span>, the angle increases by <span class="math inline">$\\\\frac{2\\\\pi n}{N}$</span>. When <span class="math inline">*n* = 1</span>, the step is <span class="math inline">$\\\\frac{2\\\\pi}{N}$</span>. When <span class="math inline">*n* = *N* − 1</span>, the angle increases by <span class="math inline">$2\\\\pi\\\\frac{N-1}{N}=2\\\\pi-\\\\frac{2\\\\pi}{N}$</span>. Since <span class="math inline">$2\\\\pi$</span> is precisely once around the circle, the step equates to <span class="math inline">$-\\\\frac{2\\\\pi}{N}$</span>, i.e. in the direction of a negative frequency. The components up to <span class="math inline">*N*/2</span> represent *positive* frequency components, those above <span class="math inline">*N*/2</span> up to <span class="math inline">*N* − 1</span> represent *negative* frequencies. The angle increment for the component <span class="math inline">*N*/2</span> for <span class="math inline">*N*</span> even advances precisely halfway around the circle for each increment in <span class="math inline">*k*</span> and can therefore be interpreted as either a positive or a negative frequency. This component of the DFT represents the Nyquist Frequency, i.e. half of the sampling frequency, and is useful to orientate oneself when looking at DFT graphics.
+> The way in which we defined the DFT leads to a few subtleties when <span class="math inline"><span class="math inline">$n&gt;\\\\\\\\frac{N}{2}$</span></span>, for even <span class="math inline">*N*</span> <sup><a href="#fn-odd_n" class="footnote-ref">odd_n</a></sup>. The function <span class="math inline"><span class="math inline">$e^{j2\\\\\\\\pi kn/N}$</span></span> is plotted for increasing values of <span class="math inline">*k*</span> in the figure below, for the cases <span class="math inline">*n* = 1</span> to <span class="math inline">*n* = *N* − 1</span> for <span class="math inline">*N* = 16</span>. When <span class="math inline">*k*</span> increases from <span class="math inline">*k*</span> to <span class="math inline">*k* + 1</span>, the angle increases by <span class="math inline"><span class="math inline">$\\\\\\\\frac{2\\\\\\\\pi n}{N}$</span></span>. When <span class="math inline">*n* = 1</span>, the step is <span class="math inline"><span class="math inline">$\\\\\\\\frac{2\\\\\\\\pi}{N}$</span></span>. When <span class="math inline">*n* = *N* − 1</span>, the angle increases by <span class="math inline"><span class="math inline">$2\\\\\\\\pi\\\\\\\\frac{N-1}{N}=2\\\\\\\\pi-\\\\\\\\frac{2\\\\\\\\pi}{N}$</span></span>. Since <span class="math inline"><span class="math inline">$2\\\\\\\\pi$</span></span> is precisely once around the circle, the step equates to <span class="math inline"><span class="math inline">$-\\\\\\\\frac{2\\\\\\\\pi}{N}$</span></span>, i.e. in the direction of a negative frequency. The components up to <span class="math inline">*N*/2</span> represent *positive* frequency components, those above <span class="math inline">*N*/2</span> up to <span class="math inline">*N* − 1</span> represent *negative* frequencies. The angle increment for the component <span class="math inline">*N*/2</span> for <span class="math inline">*N*</span> even advances precisely halfway around the circle for each increment in <span class="math inline">*k*</span> and can therefore be interpreted as either a positive or a negative frequency. This component of the DFT represents the Nyquist Frequency, i.e. half of the sampling frequency, and is useful to orientate oneself when looking at DFT graphics.
 >
-> The FFT in turn is simply a special and highly efficient algorithm for calculating the DFT. Whereas a straightforward calculation of the DFT takes of the order of <span class="math inline">*N*<sup>2</sup></span> calculations to compute, the FFT algorithm requires of the order <span class="math inline">$N\\\\log N$</span> calculations. The FFT was the key to the wide-spread use of the DFT in real-time applications and was included in a list of the top <span class="math inline">10</span> algorithms of the <span class="math inline">20<sup>*th*</sup></span> century by the IEEE journal Computing in Science & Engineering in the year <span class="math inline">2000</span>.
+> The FFT in turn is simply a special and highly efficient algorithm for calculating the DFT. Whereas a straightforward calculation of the DFT takes of the order of <span class="math inline">*N*<sup>2</sup></span> calculations to compute, the FFT algorithm requires of the order <span class="math inline"><span class="math inline">$N\\\\\\\\log N$</span></span> calculations. The FFT was the key to the wide-spread use of the DFT in real-time applications and was included in a list of the top <span class="math inline">10</span> algorithms of the <span class="math inline">20<sup>*th*</sup></span> century by the IEEE journal Computing in Science & Engineering in the year <span class="math inline">2000</span>.
 >
 > ![Unit circle samples](../figures/unit_circle_samples.png)
 
@@ -652,7 +655,7 @@ We only measure the signal for a short time, labeled <span class="math inline">*
 
 Instead of the expected two lines, the peaks are spread out in the spectrum.
 
-We can counter this effect by a process called *windowing*. The original function is multiplied with a window function such as the Kaiser window <span class="math inline">$K(N,\\\\beta)$</span>. Here we visualize it for <span class="math inline">$\\\\beta$</span> ranging from 0 to 100:
+We can counter this effect by a process called *windowing*. The original function is multiplied with a window function such as the Kaiser window <span class="math inline"><span class="math inline">$K(N,\\\\\\\\beta)$</span></span>. Here we visualize it for <span class="math inline"><span class="math inline">$\\\\\\\\beta$</span></span> ranging from 0 to 100:
 
     f, ax = plt.subplots()
 
@@ -673,7 +676,7 @@ We can counter this effect by a process called *windowing*. The original functio
 
     plt.colorbar(sm).set_label(r'Kaiser $\beta$');
 
-By changing the parameter <span class="math inline">$\\\\beta$</span>, the shape of the window can be changed from rectangular (<span class="math inline">$\\\\beta=0$</span>, no windowing) to a window that produces signals that smoothly increase from zero and decrease to zero at the endpoints of the sampled interval, producing very low side lobes (<span class="math inline">$\\\\beta$</span> typically between 5 and 10) <sup><a href="#fn-choosing_a_window" class="footnote-ref">choosing_a_window</a></sup>.
+By changing the parameter <span class="math inline"><span class="math inline">$\\\\\\\\beta$</span></span>, the shape of the window can be changed from rectangular (<span class="math inline"><span class="math inline">$\\\\\\\\beta=0$</span></span>, no windowing) to a window that produces signals that smoothly increase from zero and decrease to zero at the endpoints of the sampled interval, producing very low side lobes (<span class="math inline"><span class="math inline">$\\\\\\\\beta$</span></span> typically between 5 and 10) <sup><a href="#fn-choosing_a_window" class="footnote-ref">choosing_a_window</a></sup>.
 
 The effect of windowing our previous example is noticeable:
 
@@ -723,17 +726,17 @@ To summarize, we should note that:
 
 To start off, we’ll generate some synthetic signals, after which we’ll turn our focus to the output of an actual radar.
 
-Recall that the radar is increasing its frequency as it transmits at a rate of <span class="math inline">*S*</span> Hz/s. After a certain amount of time, <span class="math inline">*t*</span>, has passed, the frequency will now be <span class="math inline">*tS*</span> higher. In that same time span, the radar signal has traveled <span class="math inline">*d* = *t*/*v*</span> meters, where <span class="math inline">*v*</span> is the speed of the transmitted wave through air (roughly the same as the speed of light, <span class="math inline">$3 \\\\times 10^8$</span> m/s).
+Recall that the radar is increasing its frequency as it transmits at a rate of <span class="math inline">*S*</span> Hz/s. After a certain amount of time, <span class="math inline">*t*</span>, has passed, the frequency will now be <span class="math inline">*tS*</span> higher. In that same time span, the radar signal has traveled <span class="math inline">*d* = *t*/*v*</span> meters, where <span class="math inline">*v*</span> is the speed of the transmitted wave through air (roughly the same as the speed of light, <span class="math inline"><span class="math inline">$3 \\\\\\\\times 10^8$</span></span> m/s).
 
 Combining the above observations, we can calculate the amount of time it would take the signal to travel to, bounce off, and return from a target that is distance <span class="math inline">*R*</span> away:
 
-  
-<span class="math display">*t*<sub>*R*</sub> = 2*R*/*v*</span>  
+<span class="math display">*t*<sub>*R*</sub> = 2*R*/*v*</span>
 
 Therefore, the change in frequency for a target at range <span class="math inline">*R*</span> will be:
 
-  
-<span class="math display">$$ f\\\_{d}= t\_R S = \\\\frac{2RS}{v}$$</span>  
+<span class="math display">  
+<span class="math display">$$ f\\\\\\\_{d}= t\\\_R S = \\\\\\\\frac{2RS}{v}$$</span>  
+</span>
 
     pi = np.pi
 
@@ -787,9 +790,9 @@ Therefore, the change in frequency for a target at range <span class="math inlin
     # v_single = v0
     # v_sim = (0.33 * v0) + (0.2 * v1) + (0.9 * v2) + (0.02 * v3) + (0.1 * v4)
 
-Above, we generate a synthetic signal, <span class="math inline">$v\\\_\\\\mathrm{single}$</span>, received when looking at a single target (see figure below). By counting the number of cycles seen in a given time period, we can compute the frequency of the signal and thus the distance to the target.
+Above, we generate a synthetic signal, <span class="math inline"><span class="math inline">$v\\\\\\\_\\\\\\\\mathrm{single}$</span></span>, received when looking at a single target (see figure below). By counting the number of cycles seen in a given time period, we can compute the frequency of the signal and thus the distance to the target.
 
-A real radar will rarely receive only a single echo, though. The simulated signal <span class="math inline">$v\*\\\\mathrm{sim}$</span> shows what a radar signal will look like with five targets at different ranges (including two close to one another at 154 and 159 meters), and <span class="math inline">$v\*\\\\mathrm{actual}(t)$</span> shows the output signal obtained with an actual radar. When multiple echoes add together, the result makes little intuitive sense; until, that is, we look at it more carefully through the lens of the discrete Fourier transform.
+A real radar will rarely receive only a single echo, though. The simulated signal <span class="math inline"><span class="math inline">$v\\\*\\\\\\\\mathrm{sim}$</span></span> shows what a radar signal will look like with five targets at different ranges (including two close to one another at 154 and 159 meters), and <span class="math inline"><span class="math inline">$v\\\*\\\\\\\\mathrm{actual}(t)$</span></span> shows the output signal obtained with an actual radar. When multiple echoes add together, the result makes little intuitive sense; until, that is, we look at it more carefully through the lens of the discrete Fourier transform.
 
 ![Receiver output signals: (a) single simulated target (b) five simulated targets (c) actual radar data](../figures/generated/radar_time_signals.png)
 
@@ -833,7 +836,7 @@ An individual field is accessed using dictionary syntax:
 
     azimuths = scan['position']['az']  # Get all azimuth measurements
 
-To summarize what we’ve seen so far: the shown measurements (<span class="math inline">$v\*\\\\mathrm{sim}$</span> and <span class="math inline">$v\*\\\\mathrm{actual}$</span>) are the sum of sinusoidal signals reflected by each of several objects. We need to determine each of the constituent components of these composite radar signals. The FFT is the tool that will do this for us.
+To summarize what we’ve seen so far: the shown measurements (<span class="math inline"><span class="math inline">$v\\\*\\\\\\\\mathrm{sim}$</span></span> and <span class="math inline"><span class="math inline">$v\\\*\\\\\\\\mathrm{actual}$</span></span>) are the sum of sinusoidal signals reflected by each of several objects. We need to determine each of the constituent components of these composite radar signals. The FFT is the tool that will do this for us.
 
 ### Signal properties in the frequency domain
 
@@ -871,23 +874,25 @@ First, we take the FFTs of our three signals (synthetic single target, synthetic
 
 Suddenly, the information makes sense!
 
-The plot for <span class="math inline">$|V\*\\\\mathrm{single}|$</span> clearly shows a target at component 67, and for <span class="math inline">$|V\*\\\\mathrm{sim}|$</span> shows the targets that produced the signal that was uninterpretable in the time domain. The real radar signal, <span class="math inline">$|V\\\_\\\\mathrm{actual}|$</span> shows a large number of targets between component 400 and 500 with a large peak in component 443. This happens to be an echo return from a radar illuminating the high wall of an open-cast mine.
+The plot for <span class="math inline"><span class="math inline">$|V\\\*\\\\\\\\mathrm{single}|$</span></span> clearly shows a target at component 67, and for <span class="math inline"><span class="math inline">$|V\\\*\\\\\\\\mathrm{sim}|$</span></span> shows the targets that produced the signal that was uninterpretable in the time domain. The real radar signal, <span class="math inline"><span class="math inline">$|V\\\\\\\_\\\\\\\\mathrm{actual}|$</span></span> shows a large number of targets between component 400 and 500 with a large peak in component 443. This happens to be an echo return from a radar illuminating the high wall of an open-cast mine.
 
 To get useful information from the plot, we must determine the range! Again, we use the formula:
 
-  
-<span class="math display">$$R\*{n}=\\\\frac{nv}{2B\*{eff}}$$</span>  
+<span class="math display">  
+<span class="math display">$$R\\\*{n}=\\\\\\\\frac{nv}{2B\\\*{eff}}$$</span>  
+</span>
 
 In radar terminology, each DFT component is known as a *range bin*.
 
 This equation also defines the range resolution of the radar: targets will only be distinguishable if they are separated by more than two range bins, i.e.
 
-  
-<span class="math display">$$\\\\Delta R&gt;\\\\frac{1}{B\\\_{eff}}.$$</span>  
+<span class="math display">  
+<span class="math display">$$\\\\\\\\Delta R&gt;\\\\\\\\frac{1}{B\\\\\\\_{eff}}.$$</span>  
+</span>
 
 This is a fundamental property of all types of radar.
 
-This result is quite satisfying—but the dynamic range is so large that we could very easily miss some peaks. Let’s take the <span class="math inline">$\\\\log$</span> as before with the spectrogram:
+This result is quite satisfying—but the dynamic range is so large that we could very easily miss some peaks. Let’s take the <span class="math inline"><span class="math inline">$\\\\\\\\log$</span></span> as before with the spectrogram:
 
     c = 3e8  # Approximately the speed of light and of
              # electromagnetic waves in air
@@ -928,7 +933,7 @@ The observable dynamic range is much improved in these plots. For instance, in t
 
 We’re getting there, but in the spectrum of the simulated signal, we still cannot distinguish the peaks at 154 and 159 meters. Who knows what we’re missing in the real-world signal! To sharpen the peaks, we’ll return to our toolbox and make use of *windowing*.
 
-Here are the signals used thus far in this example, windowed with a Kaiser window with <span class="math inline">$\\\\beta=6.1$</span>:
+Here are the signals used thus far in this example, windowed with a Kaiser window with <span class="math inline"><span class="math inline">$\\\\\\\\beta=6.1$</span></span>:
 
     f, axes = plt.subplots(3, 1, sharex=True, figsize=(4.8, 2.8))
 
@@ -971,7 +976,7 @@ And the corresponding FFTs (or “range traces”, in radar terms):
                  arrowprops=dict(width=0.5, headwidth=3, headlength=4,
                                  fc='k', shrink=0.1));
 
-Compare these with the earlier range traces. There is a dramatic lowering in side lobe level, but at a price: the peaks have changed in shape, widening and becoming less peaky, thus lowering the radar resolution, that is, the ability of the radar to distinguish between two closely space targets. The choice of window is a compromise between side lobe level and resolution. Even so, referring to the trace for <span class="math inline">$V\\\_\\\\mathrm{sim}$</span>, windowing has dramatically increased our ability to distinguish the small target from its large neighbor.
+Compare these with the earlier range traces. There is a dramatic lowering in side lobe level, but at a price: the peaks have changed in shape, widening and becoming less peaky, thus lowering the radar resolution, that is, the ability of the radar to distinguish between two closely space targets. The choice of window is a compromise between side lobe level and resolution. Even so, referring to the trace for <span class="math inline"><span class="math inline">$V\\\\\\\_\\\\\\\\mathrm{sim}$</span></span>, windowing has dramatically increased our ability to distinguish the small target from its large neighbor.
 
 In the real radar data range trace windowing has also reduced the side lobes. This is most visible in the depth of the notch between the two groups of targets.
 
@@ -979,11 +984,11 @@ In the real radar data range trace windowing has also reduced the side lobes. Th
 
 Knowing how to analyze a single trace, we can expand to looking at radar images.
 
-The data is produced by a radar with a parabolic reflector antenna. It produces a highly directive round pencil beam with a <span class="math inline">$2^\\\\circ$</span> spreading angle between half-power points. When directed with normal incidence at a plane, the radar will illuminate a spot of about <span class="math inline">2</span> meters in diameter at a distance of 60 meters. Outside this spot, the power drops off quite rapidly, but strong echoes from outside the spot will nevertheless still be visible.
+The data is produced by a radar with a parabolic reflector antenna. It produces a highly directive round pencil beam with a <span class="math inline"><span class="math inline">$2^\\\\\\\\circ$</span></span> spreading angle between half-power points. When directed with normal incidence at a plane, the radar will illuminate a spot of about <span class="math inline">2</span> meters in diameter at a distance of 60 meters. Outside this spot, the power drops off quite rapidly, but strong echoes from outside the spot will nevertheless still be visible.
 
 By varying the pencil beam’s azimuth (left-right position) and elevation (up-down position), we can sweep it across the target area of interest. When reflections are picked up, we can calculate the distance to the reflector (the object hit by the radar signal). Together with the current pencil beam azimuth and elevation, this defines the reflector’s position in 3D.
 
-A rock slope consists of thousands of reflectors. A range bin can be thought of as a large sphere with the radar at its center that intersects the slope along a ragged line. The scatterers on this line will produce reflections in this range bin. The wavelength of the radar (distance the transmitted wave travels in one oscillation second) is about 30 mm. The reflections from scatterers separated by odd multiples of a quarter wavelength in range, about 7.5 mm, will tend to interfere destructively, while those from scatterers separated by multiples of a half wavelength will tend to interfere constructively at the radar. The reflections combine to produce apparent spots of strong reflections. This specific radar moves its antenna in order to scan small regions consisting of <span class="math inline">$20^\\\\circ$</span> azimuth and <span class="math inline">$30^\\\\circ$</span> elevation bins scanned in steps of <span class="math inline">$0.5^\\\\circ$</span>.
+A rock slope consists of thousands of reflectors. A range bin can be thought of as a large sphere with the radar at its center that intersects the slope along a ragged line. The scatterers on this line will produce reflections in this range bin. The wavelength of the radar (distance the transmitted wave travels in one oscillation second) is about 30 mm. The reflections from scatterers separated by odd multiples of a quarter wavelength in range, about 7.5 mm, will tend to interfere destructively, while those from scatterers separated by multiples of a half wavelength will tend to interfere constructively at the radar. The reflections combine to produce apparent spots of strong reflections. This specific radar moves its antenna in order to scan small regions consisting of <span class="math inline"><span class="math inline">$20^\\\\\\\\circ$</span></span> azimuth and <span class="math inline"><span class="math inline">$30^\\\\\\\\circ$</span></span> elevation bins scanned in steps of <span class="math inline"><span class="math inline">$0.5^\\\\\\\\circ$</span></span>.
 
 We will now draw some contour plots of the resulting radar data. Please refer to the diagram below to see how the different slices are taken. A first slice at fixed range shows the strength of echoes against elevation and azimuth. Another two slices at fixed elevation and azimuth respectively shows the slope. The stepped construction of the high wall in an opencast mine is visible in the azimuth plane.
 
@@ -1138,7 +1143,7 @@ Hints:
 
     <a href="#fnref-periodic" class="footnote-backref">↩</a>
 
-6.  In computer science, the computational cost of an algorithm is often expressed in “Big O” notation. The notation gives us an indication of how an algorithm’s execution time scales with an increasing number of elements. If an algorithm is <span class="math inline">$\\\\mathcal{O}(N)$</span>, it means its execution time increases linearly with the number of input elements (for example, searching for a given value in an unsorted list is <span class="math inline">$\\\\mathcal{O}\\\\left(N\\\\right)$</span>). Bubble sort is an example of an <span class="math inline">$O\\\\left(N^2\\\\right)$</span> algorithm; the exact number of operations performed may, hypothetically, be <span class="math inline">$N + \\\\frac{1}{2} N^2$</span>, meaning that the computational cost grows quadratically with the number of input elements.
+6.  In computer science, the computational cost of an algorithm is often expressed in “Big O” notation. The notation gives us an indication of how an algorithm’s execution time scales with an increasing number of elements. If an algorithm is <span class="math inline"><span class="math inline">$\\\\\\\\mathcal{O}(N)$</span></span>, it means its execution time increases linearly with the number of input elements (for example, searching for a given value in an unsorted list is <span class="math inline"><span class="math inline">$\\\\\\\\mathcal{O}\\\\\\\\left(N\\\\\\\\right)$</span></span>). Bubble sort is an example of an <span class="math inline"><span class="math inline">$O\\\\\\\\left(N^2\\\\\\\\right)$</span></span> algorithm; the exact number of operations performed may, hypothetically, be <span class="math inline"><span class="math inline">$N + \\\\\\\\frac{1}{2} N^2$</span></span>, meaning that the computational cost grows quadratically with the number of input elements.
 
     <a href="#fnref-big_o" class="footnote-backref">↩</a>
 
@@ -1150,7 +1155,7 @@ Hints:
 
     <a href="#fnref-odd_n" class="footnote-backref">↩</a>
 
-9.  The classical windowing functions include Hann, Hamming, and Blackman. They differ in their sidelobe levels and in the broadening of the main lobe (in the Fourier domain). A modern and flexible window function that is close to optimal for most applications is the Kaiser window—a good approximation to the optimal prolate spheroid window, which concentrates the most energy into the main lobe. The Kaiser window can be tuned to suit the particular application, as illustrated in the main text, by adjusting the parameter <span class="math inline">$\\\\beta$</span>.
+9.  The classical windowing functions include Hann, Hamming, and Blackman. They differ in their sidelobe levels and in the broadening of the main lobe (in the Fourier domain). A modern and flexible window function that is close to optimal for most applications is the Kaiser window—a good approximation to the optimal prolate spheroid window, which concentrates the most energy into the main lobe. The Kaiser window can be tuned to suit the particular application, as illustrated in the main text, by adjusting the parameter <span class="math inline"><span class="math inline">$\\\\\\\\beta$</span></span>.
 
     <a href="#fnref-choosing_a_window" class="footnote-backref">↩</a>
 
@@ -1159,7 +1164,7 @@ Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

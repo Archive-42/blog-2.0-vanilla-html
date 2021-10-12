@@ -3400,7 +3400,7 @@ README
 
 [![](https://github.com/bgoonz/python-gitbook/raw/master/.gitbook/assets/image%20%2821%29.png)](https://github.com/bgoonz/python-gitbook/blob/master/.gitbook/assets/image%20%2821%29.png)
 
-{% embed url=“<span class="citation" data-cites="bgoonz/30-days-python">\[https://replit.com/@bgoonz/30-days-python\\\\\\\#01\\\\\*Day\\\\\*Introduction/helloworld.py\]</span>(https://replit.com/<span class="citation" data-cites="bgoonz/30-days-python%5C#01%5C_Day%5C_Introduction/helloworld.py">@bgoonz/30-days-python%5C\#01%5C\_Day%5C\_Introduction/helloworld.py</span>)” caption=“30 days of python practice” %}
+{% embed url=“<span class="citation" data-cites="bgoonz/30-days-python">\[https://replit.com/<span class="citation" data-cites="bgoonz/30-days-python">@bgoonz/30-days-python</span>\\\\\\\#01\\\\\*Day\\\\\*Introduction/helloworld.py\]</span>(https://replit.com/<span class="citation" data-cites="bgoonz/30-days-python%5C#01%5C_Day%5C_Introduction/helloworld.py"><span class="citation" data-cites="bgoonz/30-days-python%5C">@bgoonz/30-days-python%5C</span>\#01%5C\_Day%5C\_Introduction/helloworld.py</span>)” caption=“30 days of python practice” %}
 
 [![](https://github.com/bgoonz/python-gitbook/raw/master/.gitbook/assets/image%20%2822%29.png)](https://github.com/bgoonz/python-gitbook/blob/master/.gitbook/assets/image%20%2822%29.png)
 
@@ -8292,7 +8292,7 @@ Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

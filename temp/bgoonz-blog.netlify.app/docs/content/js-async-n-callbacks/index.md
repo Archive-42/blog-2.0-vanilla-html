@@ -433,7 +433,7 @@ The reason is, that the browser is more than just the runtime. To support the Ru
 
 ![A Diagram explaining the structure of the Event Loop.](https://miro.medium.com/max/630/1*eiYb9y9q_dODrq3XLNEZMQ.png)
 
-Event Loop in JavaScript— <a href="https://medium.com/@aditya.shukla278" class="uri">https://medium.com/@aditya.shukla278</a>
+Event Loop in JavaScript— <a href="https://medium.com/@aditya.shukla278" class="uri">https://medium.com/<span class="citation" data-cites="aditya.shukla278">@aditya.shukla278</span></a>
 
 1.  Javascript Engine/Runtime: Javascript engines like Google V8, SpiderMonkey, Chakra etc. provide the JavaScript Runtime. It consists of two components, *Call Stack* and *Memory Heap*. The Heap is basically used to maintain object and function references which are required by call stack.
 2.  WebAPIs: The Browser provides the APIs like setTimeout, setInterval, document etc. So, while executing the code if a statement with callback is pushed into the stack, that statement is directly popped out of the stack and then these APIs are responsible to add those callbacks into the *event queue*. For eg. `setTimeout(cb1, 2000)` will add the callback function `cb1` in event queue after the 2 seconds.
@@ -465,7 +465,7 @@ Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

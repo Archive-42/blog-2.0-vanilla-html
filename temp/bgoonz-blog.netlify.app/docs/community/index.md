@@ -246,9 +246,9 @@ Community
 
 ------------------------------------------------------------------------
 
-<a href="https://twitter.com/messages/compose?recipient_id=3805104374" class="twitter-dm-button">Message <span class="citation" data-cites="bgooonz">@bgooonz</span></a>
+<a href="https://twitter.com/messages/compose?recipient_id=3805104374" class="twitter-dm-button">Message <span class="citation" data-cites="bgooonz"><span class="citation" data-cites="bgooonz">@bgooonz</span></span></a>
 
-<a href="https://twitter.com/bgooonz" class="twitter-follow-button">Follow <span class="citation" data-cites="bgooonz">@bgooonz</span></a>
+<a href="https://twitter.com/bgooonz" class="twitter-follow-button">Follow <span class="citation" data-cites="bgooonz"><span class="citation" data-cites="bgooonz">@bgooonz</span></span></a>
 
 <a href="https://twitter.com/bgooonz?ref_src=twsrc%5Etfw" class="twitter-timeline">Tweets by bgooonz</a>
 
@@ -259,7 +259,7 @@ Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 
