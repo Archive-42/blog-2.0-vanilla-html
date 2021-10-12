@@ -2970,10 +2970,9 @@ Object Oriented JavaScript
 
 1. ### What is nodejs
 
+   Node.js is a server-side platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. It is an event-based, non-blocking, asynchronous I/O runtime that uses Google's V8 JavaScript engine and libuv library.
 
-    Node.js is a server-side platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. It is an event-based, non-blocking, asynchronous I/O runtime that uses Google's V8 JavaScript engine and libuv library.
-
-232. ### What is an Intl object
+1. ### What is an Intl object
 
 
     The Intl object is the namespace for the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, and date and time formatting. It provides access to several constructors and language sensitive functions.
@@ -5566,18 +5565,17 @@ Object Oriented JavaScript
         Person.staticAge = 30;
         Person.prototype.prototypeAge = 40;
 
-420. ### What is the difference between isNaN and Number.isNaN?
+420.  ### What is the difference between isNaN and Number.isNaN?
 
-1. **isNaN**: The global function `isNaN` converts the argument to a Number and returns true if the resulting value is NaN.
-1. **Number.isNaN**: This method does not convert the argument. But it returns true when the type is a Number and value is NaN.
-
+1.  **isNaN**: The global function `isNaN` converts the argument to a Number and returns true if the resulting value is NaN.
+1.  **Number.isNaN**: This method does not convert the argument. But it returns true when the type is a Number and value is NaN.
 
     Let's see the difference with an example,
 
         isNaN(‘hello’);   // true
         Number.isNaN('hello'); // false
 
-421. ### How to invoke an IIFE without any extra brackets?
+1.  ### How to invoke an IIFE without any extra brackets?
 
 
     Immediately Invoked Function Expressions(IIFE) requires a pair of parenthesis to wrap the function which contains set of statements.
