@@ -4372,4 +4372,339 @@ HTTP request sent, awaiting response... 200 OK
 Length: 3963 (3.9K) [text/x-python3]
 Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/can_string_be_rearranged_as_palindrome.py’
 
-     0K ...
+     0K ...                                                   100%  176K=0.02s
+
+2021-10-12 20:44:48 (176 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/can_string_be_rearranged_as_palindrome.py’ saved [3963/3963]
+
+--2021-10-12 20:44:48--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/capitalize.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 679 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/capitalize.py’
+
+     0K                                                       100% 90.4M=0s
+
+2021-10-12 20:44:49 (90.4 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/capitalize.py’ saved [679/679]
+
+--2021-10-12 20:44:49--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/check_anagrams.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 939 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/check_anagrams.py’
+
+     0K                                                       100% 41.7K=0.02s
+
+2021-10-12 20:44:49 (41.7 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/check_anagrams.py’ saved [939/939]
+
+--2021-10-12 20:44:49--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/check_pangram.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1989 (1.9K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/check_pangram.py’
+
+     0K .                                                     100% 84.8K=0.02s
+
+2021-10-12 20:44:49 (84.8 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/check_pangram.py’ saved [1989/1989]
+
+--2021-10-12 20:44:49--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/detecting_english_programmatically.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1495 (1.5K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/detecting_english_programmatically.py’
+
+     0K .                                                     100% 63.5K=0.02s
+
+2021-10-12 20:44:49 (63.5 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/detecting_english_programmatically.py’ saved [1495/1495]
+
+--2021-10-12 20:44:49--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/dictionary.txt
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 408743 (399K) [text/plain]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/dictionary.txt’
+
+     0K .......... .......... .......... .......... .......... 12%  513K 1s
+    50K .......... .......... .......... .......... .......... 25%  123K 2s
+   100K .......... .......... .......... .......... .......... 37%  241K 1s
+   150K .......... .......... .......... .......... .......... 50%  245K 1s
+   200K .......... .......... .......... .......... .......... 62%  240K 1s
+   250K .......... .......... .......... .......... .......... 75%  245K 0s
+   300K .......... .......... .......... .......... .......... 87%  123K 0s
+   350K .......... .......... .......... .......... ......... 100%  240K=1.9s
+
+2021-10-12 20:44:52 (206 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/dictionary.txt’ saved [408743/408743]
+
+--2021-10-12 20:44:52--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/frequency_finder.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2390 (2.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/frequency_finder.py’
+
+     0K ..                                                    100%  107K=0.02s
+
+2021-10-12 20:44:52 (107 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/frequency_finder.py’ saved [2390/2390]
+
+--2021-10-12 20:44:52--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/is_palindrome.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 902 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/is_palindrome.py’
+
+     0K                                                       100% 40.2K=0.02s
+
+2021-10-12 20:44:52 (40.2 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/is_palindrome.py’ saved [902/902]
+
+--2021-10-12 20:44:52--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/jaro_winkler.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2125 (2.1K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/jaro_winkler.py’
+
+     0K ..                                                    100% 94.2K=0.02s
+
+2021-10-12 20:44:52 (94.2 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/jaro_winkler.py’ saved [2125/2125]
+
+--2021-10-12 20:44:52--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/knuth_morris_pratt.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2121 (2.1K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/knuth_morris_pratt.py’
+
+     0K ..                                                    100% 91.1K=0.02s
+
+2021-10-12 20:44:53 (91.1 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/knuth_morris_pratt.py’ saved [2121/2121]
+
+--2021-10-12 20:44:53--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/levenshtein_distance.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2210 (2.2K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/levenshtein_distance.py’
+
+     0K ..                                                    100% 98.3K=0.02s
+
+2021-10-12 20:45:01 (98.3 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/levenshtein_distance.py’ saved [2210/2210]
+
+--2021-10-12 20:45:01--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/lower.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 628 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/lower.py’
+
+     0K                                                       100% 74.3M=0s
+
+2021-10-12 20:45:01 (74.3 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/lower.py’ saved [628/628]
+
+--2021-10-12 20:45:01--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/manacher.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3902 (3.8K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/manacher.py’
+
+     0K ...                                                   100%  173K=0.02s
+
+2021-10-12 20:45:01 (173 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/manacher.py’ saved [3902/3902]
+
+--2021-10-12 20:45:01--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/min_cost_string_conversion.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4066 (4.0K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/min_cost_string_conversion.py’
+
+     0K ...                                                   100%  179K=0.02s
+
+2021-10-12 20:45:01 (179 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/min_cost_string_conversion.py’ saved [4066/4066]
+
+--2021-10-12 20:45:01--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/naive_string_search.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1200 (1.2K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/naive_string_search.py’
+
+     0K .                                                     100% 53.4K=0.02s
+
+2021-10-12 20:45:02 (53.4 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/naive_string_search.py’ saved [1200/1200]
+
+--2021-10-12 20:45:02--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/palindrome.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1663 (1.6K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/palindrome.py’
+
+     0K .                                                     100% 61.1K=0.03s
+
+2021-10-12 20:45:02 (61.1 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/palindrome.py’ saved [1663/1663]
+
+--2021-10-12 20:45:02--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/prefix_function.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1624 (1.6K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/prefix_function.py’
+
+     0K .                                                     100% 72.3K=0.02s
+
+2021-10-12 20:45:02 (72.3 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/prefix_function.py’ saved [1624/1624]
+
+--2021-10-12 20:45:02--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/rabin_karp.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2604 (2.5K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/rabin_karp.py’
+
+     0K ..                                                    100%  113K=0.02s
+
+2021-10-12 20:45:02 (113 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/rabin_karp.py’ saved [2604/2604]
+
+--2021-10-12 20:45:02--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/remove_duplicate.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 434 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/remove_duplicate.py’
+
+     0K                                                       100% 37.7M=0s
+
+2021-10-12 20:45:03 (37.7 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/remove_duplicate.py’ saved [434/434]
+
+--2021-10-12 20:45:03--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/reverse_letters.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 604 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/reverse_letters.py’
+
+     0K                                                       100% 51.5M=0s
+
+2021-10-12 20:45:03 (51.5 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/reverse_letters.py’ saved [604/604]
+
+--2021-10-12 20:45:03--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/reverse_words.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 342 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/reverse_words.py’
+
+     0K                                                       100% 57.3M=0s
+
+2021-10-12 20:45:03 (57.3 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/reverse_words.py’ saved [342/342]
+
+--2021-10-12 20:45:03--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/right.html
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:03 ERROR 404: Not Found.
+
+--2021-10-12 20:45:03--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/right.md
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 404 Not Found
+2021-10-12 20:45:03 ERROR 404: Not Found.
+
+--2021-10-12 20:45:03--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/split.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 866 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/split.py’
+
+     0K                                                       100% 38.4K=0.02s
+
+2021-10-12 20:45:04 (38.4 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/split.py’ saved [866/866]
+
+--2021-10-12 20:45:04--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/swap_case.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 895 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/swap_case.py’
+
+     0K                                                       100% 39.8K=0.02s
+
+2021-10-12 20:45:04 (39.8 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/swap_case.py’ saved [895/895]
+
+--2021-10-12 20:45:04--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/upper.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 598 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/upper.py’
+
+     0K                                                       100% 52.9M=0s
+
+2021-10-12 20:45:04 (52.9 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/upper.py’ saved [598/598]
+
+--2021-10-12 20:45:04--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/word_occurrence.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 843 [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/word_occurrence.py’
+
+     0K                                                       100%  135M=0s
+
+2021-10-12 20:45:04 (135 MB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/word_occurrence.py’ saved [843/843]
+
+--2021-10-12 20:45:04--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/word_patterns.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1287 (1.3K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/word_patterns.py’
+
+     0K .                                                     100% 56.2K=0.02s
+
+2021-10-12 20:45:05 (56.2 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/word_patterns.py’ saved [1287/1287]
+
+--2021-10-12 20:45:05--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/words.txt
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2493109 (2.4M) [text/plain]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/words.txt’
+
+     0K .......... .......... .......... .......... ..........  2%  199K 12s
+    50K .......... .......... .......... .......... ..........  4%  222K 11s
+   100K .......... .......... .......... .......... ..........  6%  246K 10s
+   150K .......... .......... .......... .......... ..........  8%  243K 10s
+   200K .......... .......... .......... .......... .......... 10%  247K 10s
+   250K .......... .......... .......... .......... .......... 12%  122K 11s
+   300K .......... .......... .......... .......... .......... 14%  243K 10s
+   350K .......... .......... .......... .......... .......... 16%  242K 10s
+   400K .......... .......... .......... .......... .......... 18%  248K 9s
+   450K .......... .......... .......... .......... .......... 20%  247K 9s
+   500K .......... .......... .......... .......... .......... 22%  121K 9s
+   550K .......... .......... .......... .......... .......... 24%  248K 9s
+   600K .......... .......... .......... .......... .......... 26%  244K 9s
+   650K .......... .......... .......... .......... .......... 28%  244K 8s
+   700K .......... .......... .......... .......... .......... 30%  121K 8s
+   750K .......... .......... .......... .......... .......... 32%  243K 8s
+   800K .......... .......... .......... .......... .......... 34%  242K 8s
+   850K .......... .......... .......... .......... .......... 36%  241K 7s
+   900K .......... .......... .......... .......... .......... 39%  238K 7s
+   950K .......... .......... .......... .......... .......... 41%  121K 7s
+  1000K .......... .......... .......... .......... .......... 43%  243K 7s
+  1050K .......... .......... .......... .......... .......... 45%  242K 7s
+  1100K .......... .......... .......... .......... .......... 47%  245K 6s
+  1150K .......... .......... .......... .......... .......... 49%  247K 6s
+  1200K .......... .......... .......... .......... .......... 51%  123K 6s
+  1250K .......... .......... .......... .......... .......... 53%  244K 6s
+  1300K .......... .......... .......... .......... .......... 55%  242K 5s
+  1350K .......... .......... .......... .......... .......... 57%  245K 5s
+  1400K .......... .......... .......... .......... .......... 59%  121K 5s
+  1450K .......... .......... .......... .......... .......... 61%  241K 5s
+  1500K .......... .......... .......... .......... .......... 63%  238K 4s
+  1550K .......... .......... .......... .......... .......... 65%  240K 4s
+  1600K .......... .......... .......... .......... .......... 67%  245K 4s
+  1650K .......... .......... .......... .......... .......... 69%  122K 4s
+  1700K .......... .......... .......... .......... .......... 71%  248K 3s
+  1750K .......... .......... .......... .......... .......... 73%  244K 3s
+  1800K .......... .......... .......... .......... .......... 75%  248K 3s
+  1850K .......... .......... .......... .......... .......... 78%  123K 3s
+  1900K .......... .......... .......... .......... .......... 80%  244K 2s
+  1950K .......... .......... .......... .......... .......... 82%  248K 2s
+  2000K .......... .......... .......... .......... .......... 84%  244K 2s
+  2050K .......... .......... .......... .......... .......... 86%  244K 2s
+  2100K .......... .......... .......... .......... .......... 88%  123K 1s
+  2150K .......... .......... .......... .......... .......... 90%  248K 1s
+  2200K .......... .......... .......... .......... .......... 92%  244K 1s
+  2250K .......... .......... .......... .......... .......... 94%  248K 1s
+  2300K .......... .......... .......... .......... .......... 96%  123K 0s
+  2350K .......... .......... .......... .......... .......... 98%  242K 0s
+  2400K .......... .......... .......... ....                 100%  170K=12s
+
+2021-10-12 20:45:17 (200 KB/s) - ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/words.txt’ saved [2493109/2493109]
+
+--2021-10-12 20:45:17--  https://ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/z_function.py
+Reusing existing connection to ds-unit-5-lambda.netlify.app:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2523 (2.5K) [text/x-python3]
+Saving to: ‘ds-unit-5-lambda.netlify.app/_resources/python-prac/python-mega-algo/strings/z_function.py’
+
+     0K ..
