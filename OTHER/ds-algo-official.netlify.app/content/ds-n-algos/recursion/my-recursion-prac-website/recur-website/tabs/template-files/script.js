@@ -2,7 +2,7 @@
   var isBuilder = $("html").hasClass("is-builder");
 
   $.extend($.easing, {
-    easeInOutCubic: function (x, t, b, c, d) {
+    easeInOutCubic(x, t, b, c, d) {
       if ((t /= d / 2) < 1) return (c / 2) * t * t * t + b;
       return (c / 2) * ((t -= 2) * t * t + 2) + b;
     },
@@ -695,13 +695,7 @@
 
     if ($(".nav-dropdown").length) {
       $(".nav-dropdown").swipe({
-        swipeLeft: function (
-          event,
-          direction,
-          distance,
-          duration,
-          fingerCount
-        ) {
+        swipeLeft(event, direction, distance, duration, fingerCount) {
           $(".navbar-close").click();
         },
       });
@@ -739,7 +733,7 @@
     if ($(".counters").length) {
       $(".counters").viewportChecker({
         offset: 200,
-        callbackFunction: function (elem, action) {
+        callbackFunction(elem, action) {
           $("#" + elem.attr("id") + " .count").each(function () {
             $(this)
               .prop("Counter", 0)
@@ -750,7 +744,7 @@
                 {
                   duration: 3000,
                   easing: "swing",
-                  step: function (now) {
+                  step(now) {
                     $(this).text(Math.ceil(now));
                   },
                 }

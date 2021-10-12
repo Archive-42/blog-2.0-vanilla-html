@@ -20,17 +20,17 @@
 fbq.version = "2.9.33";
 fbq._releaseSegment = "stable";
 fbq.pendingConfigs = ["global_config"];
-(function (a, b, c, d) {
+((a, b, c, d) => {
   var e = {
     exports: {},
   };
   e.exports;
-  (function () {
+  (() => {
     var f = a.fbq;
     f.execStart = a.performance && a.performance.now && a.performance.now();
     if (
-      !(function () {
-        var b = a.postMessage || function () {};
+      !(() => {
+        var b = a.postMessage || (() => {});
         if (!f) {
           b(
             {
@@ -50,7 +50,7 @@ fbq.pendingConfigs = ["global_config"];
       })()
     )
       return;
-    var g = (function () {
+    var g = (() => {
         function a(a, b) {
           var c = [],
             d = !0,
@@ -82,7 +82,7 @@ fbq.pendingConfigs = ["global_config"];
           }
           return c;
         }
-        return function (b, c) {
+        return (b, c) => {
           if (Array.isArray(b)) return b;
           else if (
             (typeof Symbol === "function" ? Symbol.iterator : "@@iterator") in
@@ -95,7 +95,7 @@ fbq.pendingConfigs = ["global_config"];
             );
         };
       })(),
-      h = (function () {
+      h = (() => {
         function a(a, b) {
           for (var c = 0; c < b.length; c++) {
             var d = b[c];
@@ -105,7 +105,7 @@ fbq.pendingConfigs = ["global_config"];
             Object.defineProperty(a, d.key, d);
           }
         }
-        return function (b, c, d) {
+        return (b, c, d) => {
           c && a(b.prototype, c);
           d && a(b, d);
           return b;
@@ -116,10 +116,10 @@ fbq.pendingConfigs = ["global_config"];
         typeof (typeof Symbol === "function"
           ? Symbol.iterator
           : "@@iterator") === "symbol"
-          ? function (a) {
+          ? a => {
               return typeof a;
             }
-          : function (a) {
+          : a => {
               return a &&
                 typeof Symbol === "function" &&
                 a.constructor === Symbol &&
@@ -184,24 +184,24 @@ fbq.pendingConfigs = ["global_config"];
     f.__fbeventsModules ||
       ((f.__fbeventsModules = {}),
       (f.__fbeventsResolvedModules = {}),
-      (f.getFbeventsModules = function (a) {
+      (f.getFbeventsModules = a => {
         f.__fbeventsResolvedModules[a] ||
           (f.__fbeventsResolvedModules[a] = f.__fbeventsModules[a]());
         return f.__fbeventsResolvedModules[a];
       }),
-      (f.fbIsModuleLoaded = function (a) {
+      (f.fbIsModuleLoaded = a => {
         return !!f.__fbeventsModules[a];
       }),
-      (f.ensureModuleRegistered = function (b, a) {
+      (f.ensureModuleRegistered = (b, a) => {
         f.fbIsModuleLoaded(b) || (f.__fbeventsModules[b] = a);
       }));
-    f.ensureModuleRegistered("SignalsConvertNodeToHTMLElement", function () {
-      return (function (f, g, h, j) {
+    f.ensureModuleRegistered("SignalsConvertNodeToHTMLElement", () => {
+      return ((f, g, h, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
 
           function a(a) {
@@ -223,13 +223,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsEventValidation", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsEventValidation", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsLogging"),
             b = a.logUserError,
@@ -451,18 +451,18 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsBaseEvent", function () {
-      return (function (g, i, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsBaseEvent", () => {
+      return ((g, i, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsUtils"),
             b = a.map,
             c = a.keys;
-          a = (function () {
+          a = (() => {
             function a(b) {
               n(this, a),
                 (this._regKey = 0),
@@ -472,18 +472,18 @@ fbq.pendingConfigs = ["global_config"];
             h(a, [
               {
                 key: "listen",
-                value: function (a) {
+                value(a) {
                   var b = this,
                     c = "" + this._regKey++;
                   this._subscriptions[c] = a;
-                  return function () {
+                  return () => {
                     delete b._subscriptions[c];
                   };
                 },
               },
               {
                 key: "listenOnce",
-                value: function (a) {
+                value(a) {
                   var b = null,
                     c = function () {
                       b && b();
@@ -496,7 +496,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "trigger",
-                value: function () {
+                value() {
                   var a = this;
                   for (
                     var d = arguments.length, e = Array(d), f = 0;
@@ -504,7 +504,7 @@ fbq.pendingConfigs = ["global_config"];
                     f++
                   )
                     e[f] = arguments[f];
-                  return b(c(this._subscriptions), function (b) {
+                  return b(c(this._subscriptions), b => {
                     var c;
                     return (c = a._subscriptions)[b].apply(c, e);
                   });
@@ -512,7 +512,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "triggerWeakly",
-                value: function () {
+                value() {
                   var a =
                     this._coerceArgs != null
                       ? this._coerceArgs.apply(this, arguments)
@@ -528,13 +528,13 @@ fbq.pendingConfigs = ["global_config"];
         return l.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsBatcher", function () {
-      return (function (g, i, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsBatcher", () => {
+      return ((g, i, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsConfigStore"),
             b = 1e3,
@@ -549,7 +549,7 @@ fbq.pendingConfigs = ["global_config"];
             var c = a.get(null, "batching");
             return c != null ? c.batchWaitTimeMs : b;
           }
-          var i = (function () {
+          var i = (() => {
             function a(b) {
               n(this, a),
                 (this._waitHandle = null),
@@ -559,10 +559,10 @@ fbq.pendingConfigs = ["global_config"];
             h(a, [
               {
                 key: "addToBatch",
-                value: function (a) {
+                value(a) {
                   var b = this;
                   this._waitHandle == null &&
-                    (this._waitHandle = g.setTimeout(function () {
+                    (this._waitHandle = g.setTimeout(() => {
                       (b._waitHandle = null), b.forceEndBatch();
                     }, e()));
                   this._data.push(a);
@@ -571,7 +571,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "forceEndBatch",
-                value: function () {
+                value() {
                   this._waitHandle != null &&
                     (g.clearTimeout(this._waitHandle),
                     (this._waitHandle = null)),
@@ -589,13 +589,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "signalsFBEventsCoerceAutomaticMatchingConfig",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsTyped"),
               b = a.coerce;
@@ -603,7 +603,7 @@ fbq.pendingConfigs = ["global_config"];
             var c = a.objectWithFields({
               selectedMatchKeys: a.arrayOf(a.string()),
             });
-            k.exports = function (a) {
+            k.exports = a => {
               return b(a, c);
             };
           })();
@@ -613,19 +613,19 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered(
       "signalsFBEventsCoerceBatchingConfig",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsTyped"),
               b = a.Typed,
               c = a.coerce,
               d = a.enforce,
-              e = function (a) {
+              e = a => {
                 var e = c(
                   a,
                   b.objectWithFields({
@@ -646,7 +646,7 @@ fbq.pendingConfigs = ["global_config"];
                       })
                     );
               };
-            k.exports = function (a) {
+            k.exports = a => {
               return c(a, e);
             };
           })();
@@ -656,13 +656,13 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered(
       "signalsFBEventsCoerceInferedEventsConfig",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsCoercePrimitives");
             a.coerceNumber;
@@ -670,7 +670,7 @@ fbq.pendingConfigs = ["global_config"];
 
             function c(a) {
               return b(a, {
-                buttonSelector: function (a) {
+                buttonSelector(a) {
                   return a === "extended" ? "extended" : null;
                 },
               });
@@ -683,13 +683,13 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered(
       "signalsFBEventsCoerceParameterExtractors",
-      function () {
-        return (function (g, h, j, k) {
+      () => {
+        return ((g, h, j, k) => {
           var l = {
             exports: {},
           };
           l.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsUtils"),
               b = a.filter,
@@ -929,13 +929,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("signalsFBEventsCoercePixel", function () {
-      return (function (g, h, j, k) {
+    f.ensureModuleRegistered("signalsFBEventsCoercePixel", () => {
+      return ((g, h, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("signalsFBEventsCoercePixelID"),
             b = f.getFbeventsModules("signalsFBEventsCoerceUserData");
@@ -968,13 +968,13 @@ fbq.pendingConfigs = ["global_config"];
         return l.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("signalsFBEventsCoercePixelID", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("signalsFBEventsCoercePixelID", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsLogging"),
             b = a.logUserError;
@@ -999,13 +999,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsCoercePrimitives", function () {
-      return (function (g, h, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsCoercePrimitives", () => {
+      return ((g, h, j, k) => {
         var m = {
           exports: {},
         };
         m.exports;
-        (function () {
+        (() => {
           "use strict";
           var a =
               Object.assign ||
@@ -1059,7 +1059,7 @@ fbq.pendingConfigs = ["global_config"];
             a = o(a);
             return a == null
               ? null
-              : c(d(a, b), function (a) {
+              : c(d(a, b), a => {
                   return a != null;
                 });
           }
@@ -1076,7 +1076,7 @@ fbq.pendingConfigs = ["global_config"];
             if (d == null) return null;
             b = e(
               Object.keys(d),
-              function (b, e) {
+              (b, e) => {
                 var f = c(d[e]);
                 return f == null ? b : a({}, b, l({}, e, f));
               },
@@ -1086,7 +1086,7 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function t(a) {
-            var b = function (b) {
+            var b = b => {
               return a(b);
             };
             b.nullable = !0;
@@ -1096,7 +1096,7 @@ fbq.pendingConfigs = ["global_config"];
           function u(b, c) {
             var d = n(b);
             if (d == null) return null;
-            b = Object.keys(c).reduce(function (b, e) {
+            b = Object.keys(c).reduce((b, e) => {
               if (b == null) return null;
               var f = c[e],
                 g = d[e];
@@ -1126,13 +1126,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "signalsFBEventsCoerceStandardParameter",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsUtils");
             a = a.FBSet;
@@ -1175,13 +1175,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("signalsFBEventsCoerceUserData", function () {
-      return (function (g, h, j, k) {
+    f.ensureModuleRegistered("signalsFBEventsCoerceUserData", () => {
+      return ((g, h, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsUtils"),
             b = a.each,
@@ -1194,7 +1194,7 @@ fbq.pendingConfigs = ["global_config"];
             )
               return null;
             var d = {};
-            b(c(a), function (b) {
+            b(c(a), b => {
               var c = a[b];
               typeof c === "string" && (d[b] = c);
             });
@@ -1205,13 +1205,13 @@ fbq.pendingConfigs = ["global_config"];
         return l.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsConfigLoadedEvent", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsConfigLoadedEvent", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
             b = f.getFbeventsModules("signalsFBEventsCoercePixelID");
@@ -1226,13 +1226,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsConfigStore", function () {
-      return (function (g, i, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsConfigStore", () => {
+      return ((g, i, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsQE"),
             b = f.getFbeventsModules("SignalsFBEventsProhibitedSourcesTypedef"),
@@ -1274,7 +1274,7 @@ fbq.pendingConfigs = ["global_config"];
               parallelfire: k,
               localcomputation: m,
             };
-          s = (function () {
+          s = (() => {
             function b() {
               n(this, b),
                 (this._configStore = {
@@ -1293,7 +1293,7 @@ fbq.pendingConfigs = ["global_config"];
             h(b, [
               {
                 key: "set",
-                value: function (a, b, c) {
+                value(a, b, c) {
                   a = a == null ? u : o(a);
                   if (a == null) return;
                   b = i(b, j.string());
@@ -1304,7 +1304,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "setExperimental",
-                value: function (b) {
+                value(b) {
                   b = i(
                     b,
                     j.objectWithFields({
@@ -1324,13 +1324,13 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "get",
-                value: function (a, b) {
+                value(a, b) {
                   return this._configStore[b][a != null ? a : u];
                 },
               },
               {
                 key: "getWithGlobalFallback",
-                value: function (a, b) {
+                value(a, b) {
                   var c = u;
                   b = this._configStore[b];
                   a != null &&
@@ -1341,14 +1341,14 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "getAutomaticMatchingConfig",
-                value: function (a) {
+                value(a) {
                   t(new Error("Calling legacy api getAutomaticMatchingConfig"));
                   return this.get(a, "automaticMatching");
                 },
               },
               {
                 key: "getInferredEventsConfig",
-                value: function (a) {
+                value(a) {
                   t(new Error("Calling legacy api getInferredEventsConfig"));
                   return this.get(a, "inferredEvents");
                 },
@@ -1363,13 +1363,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEventsDataProcessingOptionsConfigTypedef",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsTyped");
             a = a.Typed;
@@ -1377,8 +1377,8 @@ fbq.pendingConfigs = ["global_config"];
               dataProcessingOptions: a.withValidation({
                 def: a.arrayOf(a.string()),
                 validators: [
-                  function (a) {
-                    return a.reduce(function (a, b) {
+                  a => {
+                    return a.reduce((a, b) => {
                       return a === !0 && b === "LDU";
                     }, !0);
                   },
@@ -1387,7 +1387,7 @@ fbq.pendingConfigs = ["global_config"];
               dataProcessingCountry: a.withValidation({
                 def: a.allowNull(a.number()),
                 validators: [
-                  function (a) {
+                  a => {
                     return a === null || a === 0 || a === 1;
                   },
                 ],
@@ -1395,7 +1395,7 @@ fbq.pendingConfigs = ["global_config"];
               dataProcessingState: a.withValidation({
                 def: a.allowNull(a.number()),
                 validators: [
-                  function (a) {
+                  a => {
                     return a === null || a === 0 || a === 1e3;
                   },
                 ],
@@ -1407,13 +1407,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("SignalsFBEventsEvents", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsEvents", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
             b = f.getFbeventsModules("SignalsFBEventsConfigLoadedEvent"),
@@ -1454,13 +1454,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsExperimentNames", function () {
-      return (function (f, g, h, i) {
+    f.ensureModuleRegistered("SignalsFBEventsExperimentNames", () => {
+      return ((f, g, h, i) => {
         var j = {
           exports: {},
         };
         j.exports;
-        (function () {
+        (() => {
           "use strict";
           j.exports = {
             BATCHING_EXPERIMENT: "batching",
@@ -1471,13 +1471,13 @@ fbq.pendingConfigs = ["global_config"];
         return j.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsExperimentsTypedef", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsExperimentsTypedef", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsTyped"),
             b = a.Typed;
@@ -1496,13 +1496,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsFBQ", function () {
-      return (function (g, i, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsFBQ", () => {
+      return ((g, i, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a =
               Object.assign ||
@@ -1585,7 +1585,7 @@ fbq.pendingConfigs = ["global_config"];
           function B(a) {
             return !!(x[a] || z[a]);
           }
-          var C = function (a, b, c, d) {
+          var C = (a, b, c, d) => {
             return d == ""
               ? j.CONFIG.CDN_BASE_URL +
                   "signals/config/" +
@@ -1608,7 +1608,7 @@ fbq.pendingConfigs = ["global_config"];
           function D(a, b, c, d) {
             j.loadJSFile(C(a, b, c, d));
           }
-          d = (function () {
+          d = (() => {
             function d(a, b) {
               var e = this;
               n(this, d);
@@ -1622,14 +1622,14 @@ fbq.pendingConfigs = ["global_config"];
               this.RELEASE_SEGMENT = a._releaseSegment;
               this.pixelsByID = b;
               this.fbq = a;
-              r(a.pendingConfigs || [], function (a) {
+              r(a.pendingConfigs || [], a => {
                 return e.locks.lockConfig(a);
               });
             }
             h(d, [
               {
                 key: "optIn",
-                value: function (a, b) {
+                value(a, b) {
                   var c = this,
                     d =
                       arguments.length > 2 && arguments[2] !== void 0
@@ -1643,9 +1643,9 @@ fbq.pendingConfigs = ["global_config"];
                     );
                   B(b) &&
                     (this.optIns.optIn(a, b, d),
-                    r([b].concat(m(z[b] || [])), function (a) {
+                    r([b].concat(m(z[b] || [])), a => {
                       A[a] &&
-                        r(A[a], function (a) {
+                        r(A[a], a => {
                           return c.fbq.loadPlugin(a);
                         });
                     }));
@@ -1654,14 +1654,14 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "optOut",
-                value: function (a, b) {
+                value(a, b) {
                   this.optIns.optOut(a, b);
                   return this;
                 },
               },
               {
                 key: "consent",
-                value: function (a) {
+                value(a) {
                   a === "revoke"
                     ? this.locks.lockConsent()
                     : a === "grant"
@@ -1675,7 +1675,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "setUserProperties",
-                value: function (b, c) {
+                value(b, c) {
                   var d = this.pluginConfig.get(null, "dataProcessingOptions");
                   if (d != null && d.dataProcessingOptions.includes("LDU"))
                     return;
@@ -1698,14 +1698,14 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "trackSingle",
-                value: function (a, c, d, e) {
+                value(a, c, d, e) {
                   b.validateEventAndLog(c, d);
                   return this.trackSingleGeneric(a, c, d, y.TrackSingle, e);
                 },
               },
               {
                 key: "trackSingleCustom",
-                value: function (a, b, c, d) {
+                value(a, b, c, d) {
                   return this.trackSingleGeneric(
                     a,
                     b,
@@ -1717,7 +1717,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "trackSingleSystem",
-                value: function (a, b, c, d) {
+                value(a, b, c, d) {
                   return this.trackSingleGeneric(
                     b,
                     c,
@@ -1730,7 +1730,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "trackSingleGeneric",
-                value: function (b, c, d, e, f, g) {
+                value(b, c, d, e, f, g) {
                   b = typeof b === "string" ? b : b.id;
                   if (
                     !Object.prototype.hasOwnProperty.call(this.pixelsByID, b)
@@ -1757,17 +1757,17 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "_validateSend",
-                value: function (a, c) {
+                value(a, c) {
                   if (!a.eventName || !a.eventName.length)
                     throw new Error("Event name not specified");
                   if (!a.pixelId || !a.pixelId.length)
                     throw new Error("PixelId not specified");
                   a.set &&
                     r(
-                      t(s(a.set), function (a) {
+                      t(s(a.set), a => {
                         return b.validateMetadata(a);
                       }),
-                      function (a) {
+                      a => {
                         if (a.error) throw new Error(a.error);
                         a.warnings.length && r(a.warnings, w);
                       }
@@ -1782,7 +1782,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "_argsHasAnyUserData",
-                value: function (a) {
+                value(a) {
                   var b = a.userData != null && s(a.userData).length > 0;
                   a =
                     a.userDataFormFields != null &&
@@ -1792,7 +1792,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "fire",
-                value: function (a) {
+                value(a) {
                   var b =
                     arguments.length > 1 && arguments[1] !== void 0
                       ? arguments[1]
@@ -1815,7 +1815,7 @@ fbq.pendingConfigs = ["global_config"];
                   c.append("eid", d);
                   var e = a.customParameters;
                   e &&
-                    r(s(e), function (a) {
+                    r(s(e), a => {
                       if (c.containsKey(a))
                         throw new Error(
                           "Custom parameter " + a + " already specified."
@@ -1834,7 +1834,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "callMethod",
-                value: function (a) {
+                value(a) {
                   var b = a[0];
                   a = Array.prototype.slice.call(a, 1);
                   if (typeof b !== "string") {
@@ -1858,7 +1858,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "getDefaultSendData",
-                value: function (a, b, c) {
+                value(a, b, c) {
                   var d = this.getPixel(a);
                   c = {
                     eventData: c || {},
@@ -1881,22 +1881,22 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "getOptedInPixels",
-                value: function (a) {
+                value(a) {
                   var b = this;
-                  return this.optIns.listPixelIds(a).map(function (a) {
+                  return this.optIns.listPixelIds(a).map(a => {
                     return b.pixelsByID[a];
                   });
                 },
               },
               {
                 key: "getPixel",
-                value: function (a) {
+                value(a) {
                   return this.pixelsByID[a];
                 },
               },
               {
                 key: "loadConfig",
-                value: function (a) {
+                value(a) {
                   if (
                     this.fbq.disableConfigLoading === !0 ||
                     Object.prototype.hasOwnProperty.call(this.configsLoaded, a)
@@ -1904,7 +1904,7 @@ fbq.pendingConfigs = ["global_config"];
                     return;
                   this.locks.lockConfig(a);
                   (!this.fbq.pendingConfigs ||
-                    u(this.fbq.pendingConfigs, function (b) {
+                    u(this.fbq.pendingConfigs, b => {
                       return b === a;
                     }) === !1) &&
                     D(
@@ -1919,7 +1919,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "configLoaded",
-                value: function (a) {
+                value(a) {
                   (this.configsLoaded[a] = !0),
                     e.trigger(a),
                     this.locks.releaseConfig(a);
@@ -1933,13 +1933,13 @@ fbq.pendingConfigs = ["global_config"];
         return l.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsFiredEvent", function () {
-      return (function (g, h, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsFiredEvent", () => {
+      return ((g, h, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a =
               Object.assign ||
@@ -1970,84 +1970,84 @@ fbq.pendingConfigs = ["global_config"];
         return l.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsFireLock", function () {
-      return (function (g, i, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsFireLock", () => {
+      return ((g, i, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsUtils"),
             b = a.each,
             c = a.keys;
-          a = (function () {
+          a = (() => {
             function a() {
               n(this, a), (this._locks = {}), (this._callbacks = []);
             }
             h(a, [
               {
                 key: "lock",
-                value: function (a) {
+                value(a) {
                   this._locks[a] = !0;
                 },
               },
               {
                 key: "release",
-                value: function (a) {
+                value(a) {
                   Object.prototype.hasOwnProperty.call(this._locks, a) &&
                     (delete this._locks[a],
                     c(this._locks).length === 0 &&
-                      b(this._callbacks, function (b) {
+                      b(this._callbacks, b => {
                         return b(a);
                       }));
                 },
               },
               {
                 key: "onUnlocked",
-                value: function (a) {
+                value(a) {
                   this._callbacks.push(a);
                 },
               },
               {
                 key: "isLocked",
-                value: function () {
+                value() {
                   return c(this._locks).length > 0;
                 },
               },
               {
                 key: "lockPlugin",
-                value: function (a) {
+                value(a) {
                   this.lock("plugin:" + a);
                 },
               },
               {
                 key: "releasePlugin",
-                value: function (a) {
+                value(a) {
                   this.release("plugin:" + a);
                 },
               },
               {
                 key: "lockConfig",
-                value: function (a) {
+                value(a) {
                   this.lock("config:" + a);
                 },
               },
               {
                 key: "releaseConfig",
-                value: function (a) {
+                value(a) {
                   this.release("config:" + a);
                 },
               },
               {
                 key: "lockConsent",
-                value: function () {
+                value() {
                   this.lock("consent");
                 },
               },
               {
                 key: "unlockConsent",
-                value: function () {
+                value() {
                   this.release("consent");
                 },
               },
@@ -2062,13 +2062,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEventsGetCustomParametersEvent",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
               b = f.getFbeventsModules("signalsFBEventsCoercePixel");
@@ -2086,13 +2086,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("signalsFBEventsGetIsChrome", function () {
-      return (function (f, g, h, i) {
+    f.ensureModuleRegistered("signalsFBEventsGetIsChrome", () => {
+      return ((f, g, h, i) => {
         var j = {
           exports: {},
         };
         j.exports;
-        (function () {
+        (() => {
           "use strict";
 
           function a() {
@@ -2123,13 +2123,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "signalsFBEventsGetIsIosInAppBrowser",
-      function () {
-        return (function (f, g, h, i) {
+      () => {
+        return ((f, g, h, i) => {
           var j = {
             exports: {},
           };
           j.exports;
-          (function () {
+          (() => {
             "use strict";
 
             function a() {
@@ -2153,13 +2153,13 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered(
       "SignalsFBEventsGetIWLParametersEvent",
-      function () {
-        return (function (g, h, j, k) {
+      () => {
+        return ((g, h, j, k) => {
           var l = {
             exports: {},
           };
           l.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
               b = f.getFbeventsModules("SignalsConvertNodeToHTMLElement"),
@@ -2193,13 +2193,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("signalsFBEventsInjectMethod", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("signalsFBEventsInjectMethod", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("signalsFBEventsMakeSafe");
 
@@ -2219,13 +2219,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsIWLBootStrapEvent", function () {
-      return (function (g, h, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsIWLBootStrapEvent", () => {
+      return ((g, h, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
             b = f.getFbeventsModules("signalsFBEventsCoercePixelID");
@@ -2257,13 +2257,13 @@ fbq.pendingConfigs = ["global_config"];
         return l.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsJSLoader", function () {
-      return (function (f, g, h, i) {
+    f.ensureModuleRegistered("SignalsFBEventsJSLoader", () => {
+      return ((f, g, h, i) => {
         var j = {
           exports: {},
         };
         j.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = {
             CDN_BASE_URL: "https://connect.facebook.net/",
@@ -2297,13 +2297,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEventsLegacyExperimentGroupsTypedef",
-      function () {
-        return (function (g, h, j, k) {
+      () => {
+        return ((g, h, j, k) => {
           var l = {
             exports: {},
           };
           l.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsTyped"),
               b = a.Typed;
@@ -2318,7 +2318,7 @@ fbq.pendingConfigs = ["global_config"];
                 ? Object.values(a)
                 : null;
             }
-            var e = function (a) {
+            var e = a => {
               a = Array.isArray(a) ? a : d(a);
               return c(
                 a,
@@ -2345,7 +2345,7 @@ fbq.pendingConfigs = ["global_config"];
                 passRate: a,
               };
             }
-            l.exports = a(e, function (a) {
+            l.exports = a(e, a => {
               return a.map(g);
             });
           })();
@@ -2355,13 +2355,13 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered(
       "SignalsFBEventsLocalComputationConfigTypedef",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsTyped");
             a = a.Typed;
@@ -2403,13 +2403,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("SignalsFBEventsLogging", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsLogging", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsUtils"),
             b = a.isArray,
@@ -2587,7 +2587,7 @@ fbq.pendingConfigs = ["global_config"];
                 return "Invalid User Error.";
             }
           }
-          var B = function (a) {
+          var B = a => {
               if (typeof a === "string") return "'" + a + "'";
               else if (typeof a == "undefined") return "undefined";
               else if (a === null) return "null";
@@ -2603,7 +2603,7 @@ fbq.pendingConfigs = ["global_config"];
                 return "undefined";
               }
             },
-            C = function (a) {
+            C = a => {
               return d(a, B).join(", ");
             };
 
@@ -2675,13 +2675,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("signalsFBEventsMakeSafe", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("signalsFBEventsMakeSafe", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsLogging"),
             b = a.logError;
@@ -2705,13 +2705,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEventsMicrodataConfigTypedef",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsTyped");
             a = a.Typed;
@@ -2719,7 +2719,7 @@ fbq.pendingConfigs = ["global_config"];
               waitTimeMs: a.withValidation({
                 def: a.number(),
                 validators: [
-                  function (a) {
+                  a => {
                     return a > 0 && a < 1e4;
                   },
                 ],
@@ -2731,13 +2731,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("SignalsFBEventsMobileAppBridge", function () {
-      return (function (g, h, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsMobileAppBridge", () => {
+      return ((g, h, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsTelemetry"),
             b = f.getFbeventsModules("SignalsFBEventsUtils"),
@@ -2832,7 +2832,7 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function v(a, b, d) {
-            c(n(a), function (c) {
+            c(n(a), c => {
               return c.sendEvent(a.id, p(b), JSON.stringify(s(d)));
             }),
               t++,
@@ -2847,13 +2847,13 @@ fbq.pendingConfigs = ["global_config"];
         return l.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsNetworkConfig", function () {
-      return (function (f, g, h, i) {
+    f.ensureModuleRegistered("SignalsFBEventsNetworkConfig", () => {
+      return ((f, g, h, i) => {
         var j = {
           exports: {},
         };
         j.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = {
             ENDPOINT: "https://www.facebook.com/tr/",
@@ -2865,13 +2865,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEventsOpenBridgeConfigTypedef",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsTyped"),
               b = a.Typed;
@@ -2890,13 +2890,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("SignalsFBEventsOptIn", function () {
-      return (function (g, i, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsOptIn", () => {
+      return ((g, i, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsUtils"),
             b = a.each,
@@ -2905,9 +2905,9 @@ fbq.pendingConfigs = ["global_config"];
             e = a.some;
 
           function g(a) {
-            b(d(a), function (b) {
+            b(d(a), b => {
               if (
-                e(a[b], function (b) {
+                e(a[b], b => {
                   return Object.prototype.hasOwnProperty.call(a, b);
                 })
               )
@@ -2918,7 +2918,7 @@ fbq.pendingConfigs = ["global_config"];
                 );
             });
           }
-          a = (function () {
+          a = (() => {
             function a() {
               var b =
                 arguments.length > 0 && arguments[0] !== void 0
@@ -2932,7 +2932,7 @@ fbq.pendingConfigs = ["global_config"];
             h(a, [
               {
                 key: "_getOpts",
-                value: function (a) {
+                value(a) {
                   return [].concat(
                     m(
                       Object.prototype.hasOwnProperty.call(this._subOpts, a)
@@ -2945,20 +2945,20 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "_setOpt",
-                value: function (a, b, c) {
+                value(a, b, c) {
                   b = this._opts[b] || (this._opts[b] = {});
                   b[a] = c;
                 },
               },
               {
                 key: "optIn",
-                value: function (a, c) {
+                value(a, c) {
                   var d = this,
                     e =
                       arguments.length > 2 && arguments[2] !== void 0
                         ? arguments[2]
                         : !1;
-                  b(this._getOpts(c), function (b) {
+                  b(this._getOpts(c), b => {
                     var f = e == !0 && d.isOptedOut(a, c);
                     f || d._setOpt(a, b, !0);
                   });
@@ -2967,9 +2967,9 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "optOut",
-                value: function (a, c) {
+                value(a, c) {
                   var d = this;
-                  b(this._getOpts(c), function (b) {
+                  b(this._getOpts(c), b => {
                     return d._setOpt(a, b, !1);
                   });
                   return this;
@@ -2977,22 +2977,22 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "isOptedIn",
-                value: function (a, b) {
+                value(a, b) {
                   return this._opts[b] != null && this._opts[b][a] === !0;
                 },
               },
               {
                 key: "isOptedOut",
-                value: function (a, b) {
+                value(a, b) {
                   return this._opts[b] != null && this._opts[b][a] === !1;
                 },
               },
               {
                 key: "listPixelIds",
-                value: function (a) {
+                value(a) {
                   var b = this._opts[a];
                   return b != null
-                    ? c(d(b), function (a) {
+                    ? c(d(b), a => {
                         return b[a] === !0;
                       })
                     : [];
@@ -3008,13 +3008,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEventsParallelFireConfigTypedef",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsTyped");
             a = a.Typed;
@@ -3027,13 +3027,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("SignalsFBEventsPIIAutomatchedEvent", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsPIIAutomatchedEvent", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
             b = f.getFbeventsModules("signalsFBEventsCoercePixel");
@@ -3048,13 +3048,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsPIIConflictingEvent", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsPIIConflictingEvent", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
             b = f.getFbeventsModules("signalsFBEventsCoercePixel");
@@ -3069,13 +3069,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsPIIInvalidatedEvent", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsPIIInvalidatedEvent", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
             b = f.getFbeventsModules("signalsFBEventsCoercePixel");
@@ -3089,13 +3089,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsPlugin", function () {
-      return (function (f, g, h, i) {
+    f.ensureModuleRegistered("SignalsFBEventsPlugin", () => {
+      return ((f, g, h, i) => {
         var j = {
           exports: {},
         };
         j.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = function a(b) {
             n(this, a),
@@ -3108,13 +3108,13 @@ fbq.pendingConfigs = ["global_config"];
         return j.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsPluginLoadedEvent", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsPluginLoadedEvent", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsBaseEvent");
 
@@ -3127,13 +3127,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsPluginManager", function () {
-      return (function (g, j, k, l) {
+    f.ensureModuleRegistered("SignalsFBEventsPluginManager", () => {
+      return ((g, j, k, l) => {
         var m = {
           exports: {},
         };
         m.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsConfigStore"),
             b = f.getFbeventsModules("SignalsFBEventsEvents"),
@@ -3148,24 +3148,24 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function k(a, b) {
-            if (a === "fbevents") return new g(function () {});
+            if (a === "fbevents") return new g(() => {});
             if (b instanceof g) return b;
             if (
               b == null ||
               (typeof b === "undefined" ? "undefined" : i(b)) !== "object"
             ) {
               e(new Error("Invalid plugin registered " + a));
-              return new g(function () {});
+              return new g(() => {});
             }
             var c = b.__fbEventsPlugin;
             b = b.plugin;
             if (c !== 1 || typeof b !== "function") {
               e(new Error("Invalid plugin registered " + a));
-              return new g(function () {});
+              return new g(() => {});
             }
             return new g(b);
           }
-          b = (function () {
+          b = (() => {
             function b(a, c) {
               n(this, b),
                 (this._loadedPlugins = {}),
@@ -3175,7 +3175,7 @@ fbq.pendingConfigs = ["global_config"];
             h(b, [
               {
                 key: "registerPlugin",
-                value: function (b, d) {
+                value(b, d) {
                   if (
                     Object.prototype.hasOwnProperty.call(this._loadedPlugins, b)
                   )
@@ -3188,7 +3188,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "loadPlugin",
-                value: function (a) {
+                value(a) {
                   if (/^[a-zA-Z]\w+$/.test(a) === !1)
                     throw new Error("Invalid plugin name: " + a);
                   var b = j(a);
@@ -3221,13 +3221,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEventsProhibitedSourcesTypedef",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsTyped"),
               b = a.Typed;
@@ -3245,13 +3245,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("SignalsFBEventsQE", function () {
-      return (function (i, j, k, l) {
+    f.ensureModuleRegistered("SignalsFBEventsQE", () => {
+      return ((i, j, k, l) => {
         var m = {
           exports: {},
         };
         m.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsExperimentsTypedef"),
             b = f.getFbeventsModules(
@@ -3262,14 +3262,14 @@ fbq.pendingConfigs = ["global_config"];
             e = d.coerce;
           d = f.getFbeventsModules("SignalsFBEventsUtils");
           var i = d.reduce,
-            j = function () {
+            j = () => {
               return Math.random();
             };
 
           function k(a) {
             var b = i(
                 a,
-                function (b, c, a) {
+                (b, c, a) => {
                   if (a === 0) {
                     b.push([0, c.allocation]);
                     return b;
@@ -3302,14 +3302,14 @@ fbq.pendingConfigs = ["global_config"];
             }
             return null;
           }
-          d = (function () {
+          d = (() => {
             function d() {
               n(this, d), (this._result = null), (this._hasRolled = !1);
             }
             h(d, [
               {
                 key: "setExperiments",
-                value: function (d) {
+                value(d) {
                   d = e(d, c.waterfall([b, a]));
                   d != null &&
                     ((this._experiments = d),
@@ -3319,7 +3319,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "get",
-                value: function (a) {
+                value(a) {
                   if (!this._hasRolled) {
                     var b = this._experiments;
                     if (b == null) return null;
@@ -3335,7 +3335,7 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "getCustomDataPayload",
-                value: function () {
+                value() {
                   var a = this.get();
                   return a == null
                     ? {}
@@ -3346,14 +3346,14 @@ fbq.pendingConfigs = ["global_config"];
               },
               {
                 key: "isInTestOrControl",
-                value: function (a) {
+                value(a) {
                   var b = this.get();
                   return b != null && b.name === a;
                 },
               },
               {
                 key: "isInTest",
-                value: function (a) {
+                value(a) {
                   var b = this.get();
                   return b != null && b.name === a && b.isInExperimentGroup;
                 },
@@ -3368,13 +3368,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "signalsFBEventsResolveLegacyArguments",
-      function () {
-        return (function (f, h, j, k) {
+      () => {
+        return ((f, h, j, k) => {
           var l = {
             exports: {},
           };
           l.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = "report";
 
@@ -3427,13 +3427,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("signalsFBEventsSendBatch", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("signalsFBEventsSendBatch", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsBatcher"),
             b = f.getFbeventsModules("SignalsFBEventsLogging"),
@@ -3446,7 +3446,7 @@ fbq.pendingConfigs = ["global_config"];
             j = f.getFbeventsModules("signalsFBEventsSendXHR");
 
           function l(a) {
-            a = d(a, function (a) {
+            a = d(a, a => {
               return a.toQueryString();
             });
             a = new e().appendHash({
@@ -3467,7 +3467,7 @@ fbq.pendingConfigs = ["global_config"];
           function n(a) {
             m.addToBatch(a);
           }
-          g.addEventListener("unload", function () {
+          g.addEventListener("unload", () => {
             return m.forceEndBatch();
           });
           k.exports = n;
@@ -3475,13 +3475,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("signalsFBEventsSendBeacon", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("signalsFBEventsSendBeacon", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsQE"),
             b = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
@@ -3503,13 +3503,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("signalsFBEventsSendEvent", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("signalsFBEventsSendEvent", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsEvents"),
             b = a.fired,
@@ -3598,13 +3598,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("signalsFBEventsSendFormPOST", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("signalsFBEventsSendFormPOST", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
             b = f.getFbeventsModules("SignalsFBEventsUtils"),
@@ -3626,14 +3626,14 @@ fbq.pendingConfigs = ["global_config"];
             i.id = e;
             i.name = e;
             f.appendChild(i);
-            c(i, "load", function () {
-              b.each(function (a, b) {
+            c(i, "load", () => {
+              b.each((a, b) => {
                 var c = h.createElement("input");
                 c.name = decodeURIComponent(a);
                 c.value = b;
                 f.appendChild(c);
               }),
-                c(i, "load", function () {
+                c(i, "load", () => {
                   f.parentNode && f.parentNode.removeChild(f);
                 }),
                 f.submit();
@@ -3646,13 +3646,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("signalsFBEventsSendGET", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("signalsFBEventsSendGET", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
             b = 2048;
@@ -3681,13 +3681,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("signalsFBEventsSendXHR", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("signalsFBEventsSendXHR", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsNetworkConfig"),
             b = f.getFbeventsModules("SignalsParamList"),
@@ -3708,7 +3708,7 @@ fbq.pendingConfigs = ["global_config"];
             var f = new XMLHttpRequest();
             f.withCredentials = !0;
             f.open("POST", b);
-            f.onreadystatechange = function () {
+            f.onreadystatechange = () => {
               if (f.readyState !== e.DONE) return;
               f.status !== 200 &&
                 (c != null
@@ -3739,13 +3739,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsSetEventIDEvent", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsSetEventIDEvent", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
             b = f.getFbeventsModules("SignalsParamList"),
@@ -3764,13 +3764,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEventsSetIWLExtractorsEvent",
-      function () {
-        return (function (g, h, j, k) {
+      () => {
+        return ((g, h, j, k) => {
           var l = {
             exports: {},
           };
           l.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
               b = f.getFbeventsModules("SignalsFBEventsUtils"),
@@ -3814,13 +3814,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("SignalsFBEventsTelemetry", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsTelemetry", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsLogging"),
             b = f.getFbeventsModules("SignalsParamList");
@@ -3874,13 +3874,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsTyped", function () {
-      return (function (g, h, m, d) {
+    f.ensureModuleRegistered("SignalsFBEventsTyped", () => {
+      return ((g, h, m, d) => {
         var e = {
           exports: {},
         };
         e.exports;
-        (function () {
+        (() => {
           "use strict";
           var a =
               Object.assign ||
@@ -3898,7 +3898,7 @@ fbq.pendingConfigs = ["global_config"];
           var c = b.reduce;
           b = f.getFbeventsModules("SignalsFBEventsUtils");
           var d = b.isSafeInteger,
-            g = (function (b) {
+            g = (b => {
               k(a, b);
 
               function a() {
@@ -3922,28 +3922,28 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function m() {
-            return function (a) {
+            return a => {
               if (typeof a !== "boolean") throw new g();
               return a;
             };
           }
 
           function o() {
-            return function (a) {
+            return a => {
               if (typeof a !== "number") throw new g();
               return a;
             };
           }
 
           function p() {
-            return function (a) {
+            return a => {
               if (typeof a !== "string") throw new g();
               return a;
             };
           }
 
           function q() {
-            return function (a) {
+            return a => {
               if (
                 (typeof a === "undefined" ? "undefined" : i(a)) !== "object" ||
                 Array.isArray(a) ||
@@ -3955,31 +3955,31 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function r() {
-            return function (a) {
+            return a => {
               if (a == null || !Array.isArray(a)) throw new g();
               return a;
             };
           }
 
           function s(a) {
-            return function (b) {
+            return b => {
               if (h(a).includes(b)) return b;
               throw new g();
             };
           }
 
           function t(a) {
-            return function (b) {
+            return b => {
               return y(b, F.array()).map(a);
             };
           }
 
           function u(b) {
-            return function (e) {
+            return e => {
               var d = y(e, F.object());
               return c(
                 Object.keys(d),
-                function (c, e) {
+                (c, e) => {
                   return a({}, c, l({}, e, b(d[e])));
                 },
                 {}
@@ -3988,17 +3988,17 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function v(a) {
-            return function (b) {
+            return b => {
               return b == null ? null : a(b);
             };
           }
 
           function w(b) {
-            return function (e) {
+            return e => {
               var d = y(e, F.object());
               e = c(
                 Object.keys(b),
-                function (c, e) {
+                (c, e) => {
                   if (c == null) return null;
                   var f = b[e],
                     g = d[e];
@@ -4025,7 +4025,7 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function z(a) {
-            return function (b) {
+            return b => {
               b = y(b, F.string());
               if (a.test(b)) return b;
               throw new g();
@@ -4037,10 +4037,10 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function B(a) {
-            return function (b) {
+            return b => {
               b = y(b, r());
               A(b.length === a.length);
-              return b.map(function (b, c) {
+              return b.map((b, c) => {
                 return y(b, a[c]);
               });
             };
@@ -4049,9 +4049,9 @@ fbq.pendingConfigs = ["global_config"];
           function C(a) {
             var b = a.def,
               c = a.validators;
-            return function (a) {
+            return a => {
               var d = y(a, b);
-              c.forEach(function (a) {
+              c.forEach(a => {
                 if (!a(d)) throw new g();
               });
               return d;
@@ -4061,7 +4061,7 @@ fbq.pendingConfigs = ["global_config"];
 
           function E() {
             return C({
-              def: function (a) {
+              def(a) {
                 var b = x(a, F.number());
                 if (b != null) {
                   F.assert(d(b));
@@ -4070,7 +4070,7 @@ fbq.pendingConfigs = ["global_config"];
                 return y(a, F.string());
               },
               validators: [
-                function (a) {
+                a => {
                   return D.test(a);
                 },
               ],
@@ -4103,20 +4103,20 @@ fbq.pendingConfigs = ["global_config"];
         return e.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsTypeVersioning", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsTypeVersioning", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           var a = f.getFbeventsModules("SignalsFBEventsTyped");
           a.coerce;
           var b = a.enforce,
             c = a.FBEventsCoercionError;
 
           function d(a) {
-            return function (d) {
+            return d => {
               for (var e = 0; e < a.length; e++) {
                 var f = a[e];
                 try {
@@ -4131,7 +4131,7 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function e(a, c) {
-            return function (d) {
+            return d => {
               return c(b(d, a));
             };
           }
@@ -4144,13 +4144,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsUnwantedDataTypedef", function () {
-      return (function (g, h, i, j) {
+    f.ensureModuleRegistered("SignalsFBEventsUnwantedDataTypedef", () => {
+      return ((g, h, i, j) => {
         var k = {
           exports: {},
         };
         k.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("SignalsFBEventsTyped"),
             b = a.Typed;
@@ -4168,13 +4168,13 @@ fbq.pendingConfigs = ["global_config"];
         return k.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsUtils", function () {
-      return (function (f, g, j, k) {
+    f.ensureModuleRegistered("SignalsFBEventsUtils", () => {
+      return ((f, g, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = Object.prototype.toString,
             b = !("addEventListener" in g);
@@ -4224,11 +4224,11 @@ fbq.pendingConfigs = ["global_config"];
           }
           var m =
             Number.isInteger ||
-            function (a) {
+            (a => {
               return (
                 typeof a === "number" && isFinite(a) && Math.floor(a) === a
               );
-            };
+            });
 
           function o(a) {
             return m(a) && a >= 0 && a <= Number.MAX_SAFE_INTEGER;
@@ -4348,22 +4348,22 @@ fbq.pendingConfigs = ["global_config"];
           var B = /^null | null$|^[^(]* null /i,
             C = /^undefined | undefined$|^[^(]* undefined /i;
           A["default"] = A;
-          var D = (function () {
+          var D = (() => {
             function a(b) {
               n(this, a), (this.items = b || []);
             }
             h(a, [
               {
                 key: "has",
-                value: function (a) {
-                  return x.call(this.items, function (b) {
+                value(a) {
+                  return x.call(this.items, b => {
                     return b === a;
                   });
                 },
               },
               {
                 key: "add",
-                value: function (a) {
+                value(a) {
                   this.items.push(a);
                 },
               },
@@ -4385,10 +4385,10 @@ fbq.pendingConfigs = ["global_config"];
           D = {
             FBSet: D,
             castTo: E,
-            each: function (a, b) {
+            each(a, b) {
               v.call(this, a, b);
             },
-            filter: function (a, b) {
+            filter(a, b) {
               return z.call(a, b);
             },
             idx: A,
@@ -4404,7 +4404,7 @@ fbq.pendingConfigs = ["global_config"];
             listenOnce: p,
             map: v,
             reduce: w,
-            some: function (a, b) {
+            some(a, b) {
               return x.call(a, b);
             },
             stringIncludes: F,
@@ -4417,13 +4417,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEventsValidateCustomParametersEvent",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
               b = f.getFbeventsModules("SignalsFBEventsTyped"),
@@ -4447,13 +4447,13 @@ fbq.pendingConfigs = ["global_config"];
     );
     f.ensureModuleRegistered(
       "SignalsFBEventsValidateUrlParametersEvent",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsBaseEvent"),
               b = f.getFbeventsModules("SignalsFBEventsTyped"),
@@ -4475,13 +4475,13 @@ fbq.pendingConfigs = ["global_config"];
         })(a, b, c, d);
       }
     );
-    f.ensureModuleRegistered("SignalsParamList", function () {
-      return (function (f, g, j, k) {
+    f.ensureModuleRegistered("SignalsParamList", () => {
+      return ((f, g, j, k) => {
         var l = {
           exports: {},
         };
         l.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = "deep",
             b = "shallow";
@@ -4497,16 +4497,41 @@ fbq.pendingConfigs = ["global_config"];
             a = typeof a === "undefined" ? "undefined" : i(a);
             return a === "number" || a === "boolean" || a === "string";
           }
-          var e = (function () {
-            function e(a) {
-              n(this, e), (this._params = []), (this._piiTranslator = a);
+          var e = (() => {
+            class e {
+              constructor(a) {
+                n(this, e), (this._params = []), (this._piiTranslator = a);
+              }
+
+              static exports(b, c) {
+                c = a(c);
+                c = c == null ? "www.facebook.com" : "www." + c + ".facebook.com";
+                return "https://" + c + "/signals/iwl.js?pixel_id=" + b;
+              }
+
+              static exports(c) {
+                if (b.indexOf(c) !== -1) return null;
+                var d = a.exec(c);
+                if (d == null) throw new Error("Malformed tier: " + c);
+                return d[1];
+              }
+
+              static onload() {
+                if (!a.FacebookIWL || !a.FacebookIWL.init) return;
+                var b = j(g.ENDPOINT);
+                b != null &&
+                  a.FacebookIWL.set &&
+                  a.FacebookIWL.set("tier", b);
+                d();
+              }
             }
+
             h(
               e,
               [
                 {
                   key: "containsKey",
-                  value: function (a) {
+                  value(a) {
                     for (var b = 0; b < this._params.length; b++)
                       if (this._params[b].name === a) return !0;
                     return !1;
@@ -4514,7 +4539,7 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "get",
-                  value: function (a) {
+                  value(a) {
                     a = a;
                     for (var b = 0; b < this._params.length; b++)
                       if (this._params[b].name === a)
@@ -4524,13 +4549,13 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "getAllParams",
-                  value: function () {
+                  value() {
                     return this._params;
                   },
                 },
                 {
                   key: "replaceEntry",
-                  value: function (a, b) {
+                  value(a, b) {
                     var c = 0;
                     while (c < this._params.length)
                       this._params[c].name === a
@@ -4541,9 +4566,9 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "addRange",
-                  value: function (a) {
+                  value(a) {
                     var c = this;
-                    a.each(function (a, d) {
+                    a.each((a, d) => {
                       return c._append(
                         {
                           name: a,
@@ -4557,7 +4582,7 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "append",
-                  value: function (b, c) {
+                  value(b, c) {
                     var d =
                       arguments.length > 2 && arguments[2] !== void 0
                         ? arguments[2]
@@ -4575,7 +4600,7 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "appendHash",
-                  value: function (b) {
+                  value(b) {
                     var c =
                       arguments.length > 1 && arguments[1] !== void 0
                         ? arguments[1]
@@ -4595,7 +4620,7 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "_append",
-                  value: function (b, e, f) {
+                  value(b, e, f) {
                     var g = b.name;
                     b = b.value;
                     d(b)
@@ -4607,7 +4632,7 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "_translateValue",
-                  value: function (a, b, c) {
+                  value(a, b, c) {
                     if (typeof b === "boolean") return b ? "true" : "false";
                     if (!c) return "" + b;
                     if (!this._piiTranslator) throw new Error();
@@ -4616,7 +4641,7 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "_appendPrimitive",
-                  value: function (a, b, c) {
+                  value(a, b, c) {
                     if (b != null) {
                       b = this._translateValue(a, b, c);
                       b != null &&
@@ -4629,7 +4654,7 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "_appendObject",
-                  value: function (a, c, d) {
+                  value(a, c, d) {
                     var e = null;
                     for (var f in c)
                       if (Object.prototype.hasOwnProperty.call(c, f)) {
@@ -4652,7 +4677,7 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "each",
-                  value: function (a) {
+                  value(a) {
                     for (var b = 0; b < this._params.length; b++) {
                       var c = this._params[b],
                         d = c.name;
@@ -4663,9 +4688,9 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "toQueryString",
-                  value: function () {
+                  value() {
                     var a = [];
-                    this.each(function (b, c) {
+                    this.each((b, c) => {
                       a.push(b + "=" + encodeURIComponent(c));
                     });
                     return a.join("&");
@@ -4673,9 +4698,9 @@ fbq.pendingConfigs = ["global_config"];
                 },
                 {
                   key: "toFormData",
-                  value: function () {
+                  value() {
                     var a = new FormData();
-                    this.each(function (b, c) {
+                    this.each((b, c) => {
                       a.append(b, c);
                     });
                     return a;
@@ -4685,7 +4710,7 @@ fbq.pendingConfigs = ["global_config"];
               [
                 {
                   key: "fromHash",
-                  value: function (a, b) {
+                  value(a, b) {
                     return new e(b).appendHash(a);
                   },
                 },
@@ -4700,16 +4725,16 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEvents.plugins.commonincludes",
-      function () {
-        return (function (g, h, i, j) {
+      () => {
+        return ((g, h, i, j) => {
           var k = {
             exports: {},
           };
           k.exports;
-          (function () {
+          (() => {
             "use strict";
             var a = f.getFbeventsModules("SignalsFBEventsPlugin");
-            k.exports = new a(function (a, b) {});
+            k.exports = new a((a, b) => {});
           })();
           return k.exports;
         })(a, b, c, d);
@@ -4718,22 +4743,22 @@ fbq.pendingConfigs = ["global_config"];
     e.exports = f.getFbeventsModules("SignalsFBEvents.plugins.commonincludes");
     f.registerPlugin &&
       f.registerPlugin("fbevents.plugins.commonincludes", e.exports);
-    f.ensureModuleRegistered("fbevents.plugins.commonincludes", function () {
+    f.ensureModuleRegistered("fbevents.plugins.commonincludes", () => {
       return e.exports;
     });
   })();
 })(window, document, location, history);
-(function (a, b, c, d) {
+((a, b, c, d) => {
   var e = {
     exports: {},
   };
   e.exports;
-  (function () {
+  (() => {
     var f = a.fbq;
     f.execStart = a.performance && a.performance.now && a.performance.now();
     if (
-      !(function () {
-        var b = a.postMessage || function () {};
+      !(() => {
+        var b = a.postMessage || (() => {});
         if (!f) {
           b(
             {
@@ -4756,64 +4781,53 @@ fbq.pendingConfigs = ["global_config"];
     f.__fbeventsModules ||
       ((f.__fbeventsModules = {}),
       (f.__fbeventsResolvedModules = {}),
-      (f.getFbeventsModules = function (a) {
+      (f.getFbeventsModules = a => {
         f.__fbeventsResolvedModules[a] ||
           (f.__fbeventsResolvedModules[a] = f.__fbeventsModules[a]());
         return f.__fbeventsResolvedModules[a];
       }),
-      (f.fbIsModuleLoaded = function (a) {
+      (f.fbIsModuleLoaded = a => {
         return !!f.__fbeventsModules[a];
       }),
-      (f.ensureModuleRegistered = function (b, a) {
+      (f.ensureModuleRegistered = (b, a) => {
         f.fbIsModuleLoaded(b) || (f.__fbeventsModules[b] = a);
       }));
-    f.ensureModuleRegistered("signalsFBEventsGetIwlUrl", function () {
-      return (function (a, b, c, d) {
+    f.ensureModuleRegistered("signalsFBEventsGetIwlUrl", () => {
+      return ((a, b, c, d) => {
         var e = {
           exports: {},
         };
         e.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = f.getFbeventsModules("signalsFBEventsGetTier");
-          e.exports = function (b, c) {
-            c = a(c);
-            c = c == null ? "www.facebook.com" : "www." + c + ".facebook.com";
-            return "https://" + c + "/signals/iwl.js?pixel_id=" + b;
-          };
         })();
         return e.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("signalsFBEventsGetTier", function () {
-      return (function (f, b, c, d) {
+    f.ensureModuleRegistered("signalsFBEventsGetTier", () => {
+      return ((f, b, c, d) => {
         var e = {
           exports: {},
         };
         e.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = /^https:\/\/www\.([A-Za-z0-9\.]+)\.facebook\.com\/tr\/?$/,
             b = ["https://www.facebook.com/tr", "https://www.facebook.com/tr/"];
-          e.exports = function (c) {
-            if (b.indexOf(c) !== -1) return null;
-            var d = a.exec(c);
-            if (d == null) throw new Error("Malformed tier: " + c);
-            return d[1];
-          };
         })();
         return e.exports;
       })(a, b, c, d);
     });
     f.ensureModuleRegistered(
       "SignalsFBEvents.plugins.iwlbootstrapper",
-      function () {
-        return (function (a, b, c, d) {
+      () => {
+        return ((a, b, c, d) => {
           var e = {
             exports: {},
           };
           e.exports;
-          (function () {
+          (() => {
             "use strict";
             var c = f.getFbeventsModules("SignalsFBEventsIWLBootStrapEvent"),
               d = f.getFbeventsModules("SignalsFBEventsLogging"),
@@ -4827,32 +4841,24 @@ fbq.pendingConfigs = ["global_config"];
               n = a.sessionStorage
                 ? a.sessionStorage
                 : {
-                    getItem: function (a) {
+                    getItem(a) {
                       return null;
                     },
-                    removeItem: function (a) {},
-                    setItem: function (a, b) {},
+                    removeItem(a) {},
+                    setItem(a, b) {},
                   };
-            e.exports = new h(function (d, e) {
+            e.exports = new h((d, e) => {
               function h(c, d) {
                 var e = b.createElement("script");
                 e.async = !0;
-                e.onload = function () {
-                  if (!a.FacebookIWL || !a.FacebookIWL.init) return;
-                  var b = j(g.ENDPOINT);
-                  b != null &&
-                    a.FacebookIWL.set &&
-                    a.FacebookIWL.set("tier", b);
-                  d();
-                };
-                a.FacebookIWLSessionEnd = function () {
+                a.FacebookIWLSessionEnd = () => {
                   n.removeItem(m), a.close();
                 };
                 e.src = i(c, g.ENDPOINT);
                 b.body && b.body.appendChild(e);
               }
               var o = !1,
-                p = function (a) {
+                p = a => {
                   return !!(
                     e &&
                     e.pixelsByID &&
@@ -4869,7 +4875,7 @@ fbq.pendingConfigs = ["global_config"];
                   d = b.graphToken,
                   e = b.sessionStartTime;
                 o = !0;
-                h(c, function () {
+                h(c, () => {
                   var b = p(c) ? c : null;
                   a.FacebookIWL.init(b, d, e);
                 });
@@ -4877,7 +4883,7 @@ fbq.pendingConfigs = ["global_config"];
 
               function r(b) {
                 if (o) return;
-                h(b, function () {
+                h(b, () => {
                   return a.FacebookIWL.showConfirmModal(b);
                 });
               }
@@ -4893,11 +4899,11 @@ fbq.pendingConfigs = ["global_config"];
                 ),
                   q();
               }
-              c.listen(function (b) {
+              c.listen(b => {
                 var c = b.graphToken;
                 b = b.pixelID;
                 s(c, b);
-                a.FacebookIWLSessionEnd = function () {
+                a.FacebookIWLSessionEnd = () => {
                   return n.removeItem(m);
                 };
               });
@@ -4961,22 +4967,22 @@ fbq.pendingConfigs = ["global_config"];
     e.exports = f.getFbeventsModules("SignalsFBEvents.plugins.iwlbootstrapper");
     f.registerPlugin &&
       f.registerPlugin("fbevents.plugins.iwlbootstrapper", e.exports);
-    f.ensureModuleRegistered("fbevents.plugins.iwlbootstrapper", function () {
+    f.ensureModuleRegistered("fbevents.plugins.iwlbootstrapper", () => {
       return e.exports;
     });
   })();
 })(window, document, location, history);
-(function (a, b, c, d) {
+((a, b, c, d) => {
   var e = {
     exports: {},
   };
   e.exports;
-  (function () {
+  (() => {
     var f = a.fbq;
     f.execStart = a.performance && a.performance.now && a.performance.now();
     if (
-      !(function () {
-        var b = a.postMessage || function () {};
+      !(() => {
+        var b = a.postMessage || (() => {});
         if (!f) {
           b(
             {
@@ -4999,24 +5005,24 @@ fbq.pendingConfigs = ["global_config"];
     f.__fbeventsModules ||
       ((f.__fbeventsModules = {}),
       (f.__fbeventsResolvedModules = {}),
-      (f.getFbeventsModules = function (a) {
+      (f.getFbeventsModules = a => {
         f.__fbeventsResolvedModules[a] ||
           (f.__fbeventsResolvedModules[a] = f.__fbeventsModules[a]());
         return f.__fbeventsResolvedModules[a];
       }),
-      (f.fbIsModuleLoaded = function (a) {
+      (f.fbIsModuleLoaded = a => {
         return !!f.__fbeventsModules[a];
       }),
-      (f.ensureModuleRegistered = function (b, a) {
+      (f.ensureModuleRegistered = (b, a) => {
         f.fbIsModuleLoaded(b) || (f.__fbeventsModules[b] = a);
       }));
-    f.ensureModuleRegistered("SignalsFBEventsOptTrackingOptions", function () {
-      return (function (f, b, c, d) {
+    f.ensureModuleRegistered("SignalsFBEventsOptTrackingOptions", () => {
+      return ((f, b, c, d) => {
         var e = {
           exports: {},
         };
         e.exports;
-        (function () {
+        (() => {
           "use strict";
           e.exports = {
             AUTO_CONFIG_OPT_OUT: 1 << 0,
@@ -5036,20 +5042,20 @@ fbq.pendingConfigs = ["global_config"];
         return e.exports;
       })(a, b, c, d);
     });
-    f.ensureModuleRegistered("SignalsFBEventsProxyState", function () {
-      return (function (f, b, c, d) {
+    f.ensureModuleRegistered("SignalsFBEventsProxyState", () => {
+      return ((f, b, c, d) => {
         var e = {
           exports: {},
         };
         e.exports;
-        (function () {
+        (() => {
           "use strict";
           var a = !1;
           e.exports = {
-            getShouldProxy: function () {
+            getShouldProxy() {
               return a;
             },
-            setShouldProxy: function (b) {
+            setShouldProxy(b) {
               a = b;
             },
           };
@@ -5059,13 +5065,13 @@ fbq.pendingConfigs = ["global_config"];
     });
     f.ensureModuleRegistered(
       "SignalsFBEvents.plugins.opttracking",
-      function () {
-        return (function (a, b, c, d) {
+      () => {
+        return ((a, b, c, d) => {
           var e = {
             exports: {},
           };
           e.exports;
-          (function () {
+          (() => {
             "use strict";
             var b = f.getFbeventsModules("SignalsFBEventsEvents"),
               c = b.getCustomParameters,
@@ -5112,7 +5118,7 @@ fbq.pendingConfigs = ["global_config"];
 
             function s() {
               if (u(q)) return !0;
-              var b = l(r, function (b) {
+              var b = l(r, b => {
                 return a.document[b] ? !0 : !1;
               });
               if (b) return !0;
@@ -5126,7 +5132,7 @@ fbq.pendingConfigs = ["global_config"];
               )
                 return !0;
               if (b.documentElement && b.documentElement.getAttribute) {
-                b = l(["selenium", "webdriver", "driver"], function (b) {
+                b = l(["selenium", "webdriver", "driver"], b => {
                   return a.document.documentElement.getAttribute(b) ? !0 : !1;
                 });
                 if (b) return !0;
@@ -5140,7 +5146,7 @@ fbq.pendingConfigs = ["global_config"];
             }
 
             function u(b) {
-              b = l(b, function (b) {
+              b = l(b, b => {
                 return a[b] ? !0 : !1;
               });
               return b;
@@ -5161,21 +5167,21 @@ fbq.pendingConfigs = ["global_config"];
                 isSelenium: a,
               };
             }
-            k = new b(function (a, b) {
+            k = new b((a, b) => {
               if (m) return;
               var e = {};
-              h.listen(function (a) {
+              h.listen(a => {
                 a != null && (e[typeof a === "string" ? a : a.id] = !0);
               });
               var k = {};
-              g.listen(function (a) {
+              g.listen(a => {
                 a != null && (k[typeof a === "string" ? a : a.id] = !0);
               });
               var l = {};
-              d.listen(function (a) {
+              d.listen(a => {
                 a != null && (l[typeof a === "string" ? a : a.id] = !0);
               });
-              c.listen(function (c) {
+              c.listen(c => {
                 var d = b.optIns,
                   f = p(
                     c != null && d.isOptedOut(c.id, "AutomaticSetup"),
@@ -5222,22 +5228,22 @@ fbq.pendingConfigs = ["global_config"];
     e.exports = f.getFbeventsModules("SignalsFBEvents.plugins.opttracking");
     f.registerPlugin &&
       f.registerPlugin("fbevents.plugins.opttracking", e.exports);
-    f.ensureModuleRegistered("fbevents.plugins.opttracking", function () {
+    f.ensureModuleRegistered("fbevents.plugins.opttracking", () => {
       return e.exports;
     });
   })();
 })(window, document, location, history);
-(function (a, b, c, d) {
+((a, b, c, d) => {
   var e = {
     exports: {},
   };
   e.exports;
-  (function () {
+  (() => {
     var f = a.fbq;
     f.execStart = a.performance && a.performance.now && a.performance.now();
     if (
-      !(function () {
-        var b = a.postMessage || function () {};
+      !(() => {
+        var b = a.postMessage || (() => {});
         if (!f) {
           b(
             {
@@ -5257,7 +5263,7 @@ fbq.pendingConfigs = ["global_config"];
       })()
     )
       return;
-    var g = (function () {
+    var g = (() => {
       function a(a, b) {
         var c = [],
           d = !0,
@@ -5287,7 +5293,7 @@ fbq.pendingConfigs = ["global_config"];
         }
         return c;
       }
-      return function (b, c) {
+      return (b, c) => {
         if (Array.isArray(b)) return b;
         else if (
           (typeof Symbol === "function" ? Symbol.iterator : "@@iterator") in
@@ -5314,24 +5320,24 @@ fbq.pendingConfigs = ["global_config"];
     f.__fbeventsModules ||
       ((f.__fbeventsModules = {}),
       (f.__fbeventsResolvedModules = {}),
-      (f.getFbeventsModules = function (a) {
+      (f.getFbeventsModules = a => {
         f.__fbeventsResolvedModules[a] ||
           (f.__fbeventsResolvedModules[a] = f.__fbeventsModules[a]());
         return f.__fbeventsResolvedModules[a];
       }),
-      (f.fbIsModuleLoaded = function (a) {
+      (f.fbIsModuleLoaded = a => {
         return !!f.__fbeventsModules[a];
       }),
-      (f.ensureModuleRegistered = function (b, a) {
+      (f.ensureModuleRegistered = (b, a) => {
         f.fbIsModuleLoaded(b) || (f.__fbeventsModules[b] = a);
       }));
-    f.ensureModuleRegistered("SignalsFBEvents", function () {
-      return (function (a, b, c, d) {
+    f.ensureModuleRegistered("SignalsFBEvents", () => {
+      return ((a, b, c, d) => {
         var e = {
           exports: {},
         };
         e.exports;
-        (function () {
+        (() => {
           "use strict";
           var f = a.fbq;
           f.execStart =
@@ -5638,7 +5644,7 @@ fbq.pendingConfigs = ["global_config"];
                 var H = p.validateMetadata(a);
                 H.error && M(H.error);
                 H.warnings &&
-                  H.warnings.forEach(function (a) {
+                  H.warnings.forEach(a => {
                     M(a);
                   });
                 P.call(T, G)
@@ -5741,7 +5747,7 @@ fbq.pendingConfigs = ["global_config"];
             var d = p.validateMetadata(a);
             d.error && M(d.error);
             d.warnings &&
-              d.warnings.forEach(function (a) {
+              d.warnings.forEach(a => {
                 M(a);
               });
             if (P.call(T, c)) {
@@ -5796,7 +5802,7 @@ fbq.pendingConfigs = ["global_config"];
           }
 
           function oa(a, b, c) {
-            S.forEach(function (c) {
+            S.forEach(c => {
               return $({
                 customData: b,
                 eventName: a,
@@ -5818,8 +5824,8 @@ fbq.pendingConfigs = ["global_config"];
             d.append("a", a && a.agent ? a.agent : f.agent);
             a && (d.append("ec", a.eventCount), a.eventCount++);
             b = I.trigger(a, b, c);
-            C(b, function (a) {
-              return C(G(a), function (b) {
+            C(b, a => {
+              return C(G(a), b => {
                 if (d.containsKey(b)) {
                   if (!ha.has(b))
                     throw new Error(
@@ -5888,7 +5894,7 @@ fbq.pendingConfigs = ["global_config"];
               X.apply(f, a);
             }
           }
-          N.onUnlocked(function () {
+          N.onUnlocked(() => {
             qa();
           });
           f.pixelId && ((R = !0), Y(f.pixelId));
@@ -5904,7 +5910,7 @@ fbq.pendingConfigs = ["global_config"];
           function ra() {
             if (f.disablePushState === !0) return;
             if (!d.pushState || !d.replaceState) return;
-            var b = v(function () {
+            var b = v(() => {
               ga = Q;
               Q = c.href;
               if (Q === ga) return;
@@ -5917,7 +5923,7 @@ fbq.pendingConfigs = ["global_config"];
             u(d, "replaceState", b);
             a.addEventListener("popstate", b, !1);
           }
-          H.listenOnce(function () {
+          H.listenOnce(() => {
             ra();
           });
 
@@ -5943,10 +5949,10 @@ fbq.pendingConfigs = ["global_config"];
               (a.getState = ta),
               (a.init = Y),
               (a.set = ja),
-              (a.loadPlugin = function (a) {
+              (a.loadPlugin = a => {
                 return W.loadPlugin(a);
               }),
-              (a.registerPlugin = function (a, b) {
+              (a.registerPlugin = (a, b) => {
                 W.registerPlugin(a, b);
               });
           }
@@ -5962,14 +5968,14 @@ fbq.pendingConfigs = ["global_config"];
     });
     e.exports = f.getFbeventsModules("SignalsFBEvents");
     f.registerPlugin && f.registerPlugin("fbevents", e.exports);
-    f.ensureModuleRegistered("fbevents", function () {
+    f.ensureModuleRegistered("fbevents", () => {
       return e.exports;
     });
   })();
 })(window, document, location, history);
 fbq.registerPlugin("global_config", {
   __fbEventsPlugin: 1,
-  plugin: function (fbq, instance, config) {
+  plugin(fbq, instance, config) {
     fbq.loadPlugin("commonincludes");
     fbq.loadPlugin("opttracking");
     fbq.set("experiments", [
