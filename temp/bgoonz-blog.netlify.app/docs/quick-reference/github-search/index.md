@@ -1,51 +1,38 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs" class="button">Docs</a>
     -   <a href="/showcase" class="button">Showcase</a>
     -   <a href="/docs/faq/contact" class="button">Contact!</a>
     -   <a href="/docs/python/python-ds" class="button">Python</a>
-
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
     -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
     -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
     -   <a href="/blog/platform-docs/" class="button">platform docs</a>
     -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
     -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
-
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
     -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
     -   <a href="#" class="button">Bootcamp Resources</a>
     -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
     -   <a href="/docs/gallery" class="button">Gallery</a>
     -   <a href="/docs" class="button">Top Repos</a>
-
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
     -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
-
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
     -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
     -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
     -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
     -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
-
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
     -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
     -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
@@ -55,9 +42,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
     -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
     -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
-
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
     -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
     -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
@@ -67,21 +52,18 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
     -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
-Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
+Navigate Docs<span class="icon-angle-right" data-aria-hidden="true"></span>
 
 -   [Docs](/docs/)
--   [About](/docs/about/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [About](/docs/about/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Job Search](/docs/about/job-search/)
     -   [Youtube](/docs/about/intrests/)
     -   [Resume](/docs/about/resume/)
     -   [Engineering Portfolio](/docs/about/eng-portfolio/)
     -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
-
--   [Articles](/docs/articles/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Articles](/docs/articles/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [The HTTP Protocol](/docs/articles/http/)
     -   [How The Web Works](/docs/articles/how-the-web-works/)
     -   [Sorting Algorithms](/docs/articles/node-package-manager/)
@@ -114,22 +96,16 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Semantic Versioning](/docs/articles/semantic/)
     -   [Writing Files](/docs/articles/writing-files/)
     -   [Node APIs With Express](/docs/articles/node-api-express/)
-
--   [Audio](/docs/audio/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Audio](/docs/audio/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
     -   [Audio](/docs/audio/audio/)
     -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
     -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
     -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
     -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
-
--   [Community](/docs/community/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Community](/docs/community/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Video Chat](/docs/community/video-chat/)
-
--   [Content](/docs/content/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Content](/docs/content/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
     -   [History API](/docs/content/history-api/)
     -   [Lambda School Projects](/docs/content/lambda-projects/)
@@ -140,9 +116,7 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
     -   [Embeded Websites & Projects](/docs/content/recent-projects/)
     -   [Algorithms & Data Structures](/docs/content/algo/)
-
--   [Documentation](/docs/docs/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Documentation](/docs/docs/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Apendix](/docs/docs/appendix/)
     -   [Await](/docs/docs/await-keyword/)
     -   [Git Reference](/docs/docs/git-reference/)
@@ -155,33 +129,23 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Learn Css](/docs/docs/css/)
     -   [Useful Snippets](/docs/docs/content/)
     -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
-
--   [FAQ](/docs/faq/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [FAQ](/docs/faq/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Plug-ins](/docs/faq/plug-ins/)
     -   [Contact!](/docs/faq/contact/)
-
--   [Javascript](/docs/javascript/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Javascript](/docs/javascript/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Javascript Concepts Review](/docs/javascript/review/)
     -   [Constructor Functions](/docs/javascript/constructor-functions/)
     -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
-
--   [Interactive Examples](/docs/interact/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Interactive Examples](/docs/interact/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Callstack Visualizer](/docs/interact/callstack-visual/)
     -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
     -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
     -   [Other Websites](/docs/interact/other-sites/)
     -   [Clock](/docs/interact/clock/)
-
--   [Medium](/docs/medium/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Medium](/docs/medium/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [My Sites](/docs/medium/my-websites/)
     -   [Medium](/docs/medium/medium-links/)
-
--   [Quick Reference](/docs/quick-reference/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Quick Reference](/docs/quick-reference/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Git Bash](/docs/quick-reference/git-bash/)
     -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
     -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
@@ -204,9 +168,7 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
     -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
     -   [vscode-themes](/docs/quick-reference/vscode-themes/)
-
--   [React](/docs/react/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [React](/docs/react/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [React Cheat Sheets:](/docs/react/cheatsheet/)
     -   [React Class Components Demo](/docs/react/demo/)
     -   [Introducing JSX](/docs/react/jsx/)
@@ -215,17 +177,13 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Intro To React](/docs/react/react2/)
     -   [npx-create-react-app](/docs/react/createReactApp/)
     -   [React Docs](/docs/react/react-docs/)
-
--   [Tools](/docs/tools/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Tools](/docs/tools/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Data Structures](/docs/tools/data-structures/)
     -   [General Utilities](/docs/tools/dev-utilities/)
     -   [more tools](/docs/tools/more-tools/)
     -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
     -   [md and html](/docs/tools/markdown-html/)
-
--   [My Python Docs](/docs/python/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [My Python Docs](/docs/python/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [lorem-ipsum](/docs/python/basics/)
     -   [lorem-ipsum](/docs/python/flow-control/)
     -   [google-sheets-api](/docs/python/google-sheets-api/)
@@ -248,9 +206,9 @@ Search
 
 The GitHub Search API lets you to search for the specific item efficiently.
 
-The Search API helps you search for the specific item you want to find. For example, you can find a user or a specific file in a repository. Think of it the way you think of performing a search on Google. It's designed to help you find the one result you're looking for (or maybe the few results you're looking for). Just like searching on Google, you sometimes want to see a few pages of search results so that you can find the item that best meets your needs. To satisfy that need, the GitHub Search API provides **up to 1,000 results for each search**.
+The Search API helps you search for the specific item you want to find. For example, you can find a user or a specific file in a repository. Think of it the way you think of performing a search on Google. It’s designed to help you find the one result you’re looking for (or maybe the few results you’re looking for). Just like searching on Google, you sometimes want to see a few pages of search results so that you can find the item that best meets your needs. To satisfy that need, the GitHub Search API provides **up to 1,000 results for each search**.
 
-You can narrow your search using queries. To learn more about the search query syntax, see "[Constructing a search query](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/en/rest/reference/search#constructing-a-search-query)."
+You can narrow your search using queries. To learn more about the search query syntax, see “[Constructing a search query](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/en/rest/reference/search#constructing-a-search-query).”
 
 ### [Ranking search results](#ranking-search-results)
 
@@ -274,11 +232,11 @@ For example, if you wanted to search for all *repositories* owned by `defunkt` t
 
     GitHub Octocat in:readme user:defunkt
 
-**Note:** Be sure to use your language's preferred HTML-encoder to construct your query strings. For example:
+**Note:** Be sure to use your language’s preferred HTML-encoder to construct your query strings. For example:
 
     const queryString = 'q=' + encodeURIComponent('GitHub Octocat in:readme user:defunkt');
 
-See "[Searching on GitHub](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/en/articles/searching-on-github)" for a complete list of available qualifiers, their format, and an example of how to use them. For information about how to use operators to match specific quantities, dates, or to exclude results, see "[Understanding the search syntax](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/en/articles/understanding-the-search-syntax)."
+See “[Searching on GitHub](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/en/articles/searching-on-github)” for a complete list of available qualifiers, their format, and an example of how to use them. For information about how to use operators to match specific quantities, dates, or to exclude results, see “[Understanding the search syntax](chrome-extension://cjedbglnccaioiolemnfhjncicchinao/en/articles/understanding-the-search-syntax).”
 
 ### [Limitations on query length](#limitations-on-query-length)
 
@@ -287,7 +245,7 @@ The Search API does not support queries that:
 -   are longer than 256 characters (not including operators or qualifiers).
 -   have more than five `AND`, `OR`, or `NOT` operators.
 
-These search queries will return a "Validation failed" error message.
+These search queries will return a “Validation failed” error message.
 
 ### [Timeouts and incomplete results](#timeouts-and-incomplete-results)
 
@@ -297,7 +255,7 @@ Reaching a timeout does not necessarily mean that search results are incomplete.
 
 ### [Access errors or missing search results](#access-errors-or-missing-search-results)
 
-You need to successfully authenticate and have access to the repositories in your search queries, otherwise, you'll see a `422 Unprocessible Entry` error with a "Validation Failed" message. For example, your search will fail if your query includes `repo:`, `user:`, or `org:` qualifiers that request resources that you don't have access to when you sign in on GitHub.
+You need to successfully authenticate and have access to the repositories in your search queries, otherwise, you’ll see a `422 Unprocessible Entry` error with a “Validation Failed” message. For example, your search will fail if your query includes `repo:`, `user:`, or `org:` qualifiers that request resources that you don’t have access to when you sign in on GitHub.
 
 When your search query requests multiple resources, the response will only contain the resources that you have access to and will **not** provide an error message listing the resources that were not returned.
 
@@ -313,7 +271,7 @@ For example, if you want to find the definition of the `addClass` function insid
 
 `q=addClass+in:file+language:js+repo:jquery/jquery`
 
-This query searches for the keyword `addClass` within a file's contents. The query limits the search to files where the language is JavaScript in the `jquery/jquery` repository.
+This query searches for the keyword `addClass` within a file’s contents. The query limits the search to files where the language is JavaScript in the `jquery/jquery` repository.
 
 #### [Considerations for code search](#considerations-for-code-search)
 
@@ -331,15 +289,15 @@ Due to the complexity of searching code, there are a few restrictions on how sea
 
 Setting to `application/vnd.github.v3+json` is recommended.
 
-| | `q` | string | query |
+| `q` | string | query |
 
-The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query). See "[Searching code](https://help.github.com/articles/searching-code/)" for a detailed list of qualifiers.
+The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query). See “[Searching code](https://help.github.com/articles/searching-code/)” for a detailed list of qualifiers.
 
-| | `sort` | string | query |
+| `sort` | string | query |
 
 Sorts the results of your query. Can only be `indexed`, which indicates how recently a file has been indexed by the GitHub search infrastructure. Default: [best match](https://docs.github.com/rest/reference/search#ranking-search-results)
 
-| | `order` | string | query |
+| `order` | string | query |
 
 Determines whether the first search result returned is the highest number of matches (`desc`) or lowest number of matches (`asc`). This parameter is ignored unless you provide `sort`.
 
@@ -361,7 +319,7 @@ Default: `1` |
       -H "Accept: application/vnd.github.v3+json" \
       https://api.github.com/search/code
 
-##### JavaScript ([@octokit/core.js](https://github.com/octokit/core.js#readme))
+##### JavaScript (<span class="citation" data-cites="octokit/core.js">\[@octokit/core.js\]</span>(https://github.com/octokit/core.js\#readme))
 
     await octokit.request('GET /search/code', {
       q: 'q'
@@ -494,15 +452,15 @@ For example, if you want to find commits related to CSS in the [octocat/Spoon-Kn
 
 This API is under preview and subject to change.[See preview notice](#search-commits-preview-notices)
 
-| | `q` | string | query |
+| `q` | string | query |
 
-The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query). See "[Searching commits](https://help.github.com/articles/searching-commits/)" for a detailed list of qualifiers.
+The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query). See “[Searching commits](https://help.github.com/articles/searching-commits/)” for a detailed list of qualifiers.
 
-| | `sort` | string | query |
+| `sort` | string | query |
 
 Sorts the results of your query by `author-date` or `committer-date`. Default: [best match](https://docs.github.com/rest/reference/search#ranking-search-results)
 
-| | `order` | string | query |
+| `order` | string | query |
 
 Determines whether the first search result returned is the highest number of matches (`desc`) or lowest number of matches (`asc`). This parameter is ignored unless you provide `sort`.
 
@@ -524,7 +482,7 @@ Default: `1` |
       -H "Accept: application/vnd.github.cloak-preview+json" \
       https://api.github.com/search/commits
 
-##### JavaScript ([@octokit/core.js](https://github.com/octokit/core.js#readme))
+##### JavaScript (<span class="citation" data-cites="octokit/core.js">\[@octokit/core.js\]</span>(https://github.com/octokit/core.js\#readme))
 
     await octokit.request('GET /search/commits', {
       q: 'q',
@@ -704,7 +662,7 @@ For example, if you want to find the oldest unresolved Python bugs on Windows. Y
 
 This query searches for the keyword `windows`, within any open issue that is labeled as `bug`. The search runs across repositories whose primary language is Python. The results are sorted by creation date in ascending order, which means the oldest issues appear first in the search results.
 
-**Note:** For [user-to-server](https://docs.github.com/developers/apps/identifying-and-authorizing-users-for-github-apps#user-to-server-requests) GitHub App requests, you can't retrieve a combination of issues and pull requests in a single query. Requests that don't include the `is:issue` or `is:pull-request` qualifier will receive an HTTP `422 Unprocessable Entity` response. To get results for both issues and pull requests, you must send separate queries for issues and pull requests. For more information about the `is` qualifier, see "[Searching only issues or pull requests](https://docs.github.com/github/searching-for-information-on-github/searching-issues-and-pull-requests#search-only-issues-or-pull-requests)."
+**Note:** For [user-to-server](https://docs.github.com/developers/apps/identifying-and-authorizing-users-for-github-apps#user-to-server-requests) GitHub App requests, you can’t retrieve a combination of issues and pull requests in a single query. Requests that don’t include the `is:issue` or `is:pull-request` qualifier will receive an HTTP `422 Unprocessable Entity` response. To get results for both issues and pull requests, you must send separate queries for issues and pull requests. For more information about the `is` qualifier, see “[Searching only issues or pull requests](https://docs.github.com/github/searching-for-information-on-github/searching-issues-and-pull-requests#search-only-issues-or-pull-requests).”
 
     get /search/issues
 
@@ -714,15 +672,15 @@ This query searches for the keyword `windows`, within any open issue that is lab
 
 Setting to `application/vnd.github.v3+json` is recommended.
 
-| | `q` | string | query |
+| `q` | string | query |
 
-The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query). See "[Searching issues and pull requests](https://help.github.com/articles/searching-issues-and-pull-requests/)" for a detailed list of qualifiers.
+The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query). See “[Searching issues and pull requests](https://help.github.com/articles/searching-issues-and-pull-requests/)” for a detailed list of qualifiers.
 
-| | `sort` | string | query |
+| `sort` | string | query |
 
 Sorts the results of your query by the number of `comments`, `reactions`, `reactions-+1`, `reactions--1`, `reactions-smile`, `reactions-thinking_face`, `reactions-heart`, `reactions-tada`, or `interactions`. You can also sort results by how recently the items were `created` or `updated`, Default: [best match](https://docs.github.com/rest/reference/search#ranking-search-results)
 
-| | `order` | string | query |
+| `order` | string | query |
 
 Determines whether the first search result returned is the highest number of matches (`desc`) or lowest number of matches (`asc`). This parameter is ignored unless you provide `sort`.
 
@@ -744,7 +702,7 @@ Default: `1` |
       -H "Accept: application/vnd.github.v3+json" \
       https://api.github.com/search/issues
 
-##### JavaScript ([@octokit/core.js](https://github.com/octokit/core.js#readme))
+##### JavaScript (<span class="citation" data-cites="octokit/core.js">\[@octokit/core.js\]</span>(https://github.com/octokit/core.js\#readme))
 
     await octokit.request('GET /search/issues', {
       q: 'q'
@@ -897,19 +855,19 @@ The labels that best match the query appear first in the search results.
 
 Setting to `application/vnd.github.v3+json` is recommended.
 
-| | `repository_id` | integer | query |
+| `repository_id` | integer | query |
 
 The id of the repository.
 
-| | `q` | string | query |
+| `q` | string | query |
 
 The search keywords. This endpoint does not accept qualifiers in the query. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query).
 
-| | `sort` | string | query |
+| `sort` | string | query |
 
 Sorts the results of your query by when the label was `created` or `updated`. Default: [best match](https://docs.github.com/rest/reference/search#ranking-search-results)
 
-| | `order` | string | query |
+| `order` | string | query |
 
 Determines whether the first search result returned is the highest number of matches (`desc`) or lowest number of matches (`asc`). This parameter is ignored unless you provide `sort`.
 
@@ -931,7 +889,7 @@ Default: `1` |
       -H "Accept: application/vnd.github.v3+json" \
       https://api.github.com/search/labels
 
-##### JavaScript ([@octokit/core.js](https://github.com/octokit/core.js#readme))
+##### JavaScript (<span class="citation" data-cites="octokit/core.js">\[@octokit/core.js\]</span>(https://github.com/octokit/core.js\#readme))
 
     await octokit.request('GET /search/labels', {
       repository_id: 42,
@@ -1015,15 +973,15 @@ When you include the `mercy` preview header, you can also search for multiple to
 
 Setting to `application/vnd.github.v3+json` is recommended.[See preview notice](#search-repositories-preview-notices)
 
-| | `q` | string | query |
+| `q` | string | query |
 
-The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query). See "[Searching for repositories](https://help.github.com/articles/searching-for-repositories/)" for a detailed list of qualifiers.
+The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query). See “[Searching for repositories](https://help.github.com/articles/searching-for-repositories/)” for a detailed list of qualifiers.
 
-| | `sort` | string | query |
+| `sort` | string | query |
 
 Sorts the results of your query by number of `stars`, `forks`, or `help-wanted-issues` or how recently the items were `updated`. Default: [best match](https://docs.github.com/rest/reference/search#ranking-search-results)
 
-| | `order` | string | query |
+| `order` | string | query |
 
 Determines whether the first search result returned is the highest number of matches (`desc`) or lowest number of matches (`asc`). This parameter is ignored unless you provide `sort`.
 
@@ -1045,7 +1003,7 @@ Default: `1` |
       -H "Accept: application/vnd.github.v3+json" \
       https://api.github.com/search/repositories
 
-##### JavaScript ([@octokit/core.js](https://github.com/octokit/core.js#readme))
+##### JavaScript (<span class="citation" data-cites="octokit/core.js">\[@octokit/core.js\]</span>(https://github.com/octokit/core.js\#readme))
 
     await octokit.request('GET /search/repositories', {
       q: 'q'
@@ -1191,11 +1149,11 @@ The `topics` property for repositories on GitHub is currently available for deve
 
 ### [Search topics](#search-topics)
 
-Find topics via various criteria. Results are sorted by best match. This method returns up to 100 results [per page](https://docs.github.com/rest/overview/resources-in-the-rest-api#pagination). See "[Searching topics](https://help.github.com/articles/searching-topics/)" for a detailed list of qualifiers.
+Find topics via various criteria. Results are sorted by best match. This method returns up to 100 results [per page](https://docs.github.com/rest/overview/resources-in-the-rest-api#pagination). See “[Searching topics](https://help.github.com/articles/searching-topics/)” for a detailed list of qualifiers.
 
-When searching for topics, you can get text match metadata for the topic's **short\_description**, **description**, **name**, or **display\_name** field when you pass the `text-match` media type. For more details about how to receive highlighted search results, see [Text match metadata](https://docs.github.com/rest/reference/search#text-match-metadata).
+When searching for topics, you can get text match metadata for the topic’s **short\_description**, **description**, **name**, or **display\_name** field when you pass the `text-match` media type. For more details about how to receive highlighted search results, see [Text match metadata](https://docs.github.com/rest/reference/search#text-match-metadata).
 
-For example, if you want to search for topics related to Ruby that are featured on <https://github.com/topics>. Your query might look like this:
+For example, if you want to search for topics related to Ruby that are featured on <a href="https://github.com/topics" class="uri">https://github.com/topics</a>. Your query might look like this:
 
 `q=ruby+is:featured`
 
@@ -1209,11 +1167,11 @@ This query searches for topics with the keyword `ruby` and limits the results to
 
 This API is under preview and subject to change.[See preview notice](#search-topics-preview-notices)
 
-| | `q` | string | query |
+| `q` | string | query |
 
 The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query).
 
-| | `per_page` | integer | query |
+| `per_page` | integer | query |
 
 Results per page (max 100)
 
@@ -1231,7 +1189,7 @@ Default: `1` |
       -H "Accept: application/vnd.github.mercy-preview+json" \
       https://api.github.com/search/topics
 
-##### JavaScript ([@octokit/core.js](https://github.com/octokit/core.js#readme))
+##### JavaScript (<span class="citation" data-cites="octokit/core.js">\[@octokit/core.js\]</span>(https://github.com/octokit/core.js\#readme))
 
     await octokit.request('GET /search/topics', {
       q: 'q',
@@ -1359,7 +1317,7 @@ Find users via various criteria. This method returns up to 100 results [per page
 
 When searching for users, you can get text match metadata for the issue **login**, **email**, and **name** fields when you pass the `text-match` media type. For more details about highlighting search results, see [Text match metadata](https://docs.github.com/rest/reference/search#text-match-metadata). For more details about how to receive highlighted search results, see [Text match metadata](https://docs.github.com/rest/reference/search#text-match-metadata).
 
-For example, if you're looking for a list of popular users, you might try this query:
+For example, if you’re looking for a list of popular users, you might try this query:
 
 `q=tom+repos:%3E42+followers:%3E1000`
 
@@ -1373,15 +1331,15 @@ This query searches for users with the name `tom`. The results are restricted to
 
 Setting to `application/vnd.github.v3+json` is recommended.
 
-| | `q` | string | query |
+| `q` | string | query |
 
-The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query). See "[Searching users](https://help.github.com/articles/searching-users/)" for a detailed list of qualifiers.
+The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as GitHub.com. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/reference/search#constructing-a-search-query). See “[Searching users](https://help.github.com/articles/searching-users/)” for a detailed list of qualifiers.
 
-| | `sort` | string | query |
+| `sort` | string | query |
 
 Sorts the results of your query by number of `followers` or `repositories`, or when the person `joined` GitHub. Default: [best match](https://docs.github.com/rest/reference/search#ranking-search-results)
 
-| | `order` | string | query |
+| `order` | string | query |
 
 Determines whether the first search result returned is the highest number of matches (`desc`) or lowest number of matches (`asc`). This parameter is ignored unless you provide `sort`.
 
@@ -1403,7 +1361,7 @@ Default: `1` |
       -H "Accept: application/vnd.github.v3+json" \
       https://api.github.com/search/users
 
-##### JavaScript ([@octokit/core.js](https://github.com/octokit/core.js#readme))
+##### JavaScript (<span class="citation" data-cites="octokit/core.js">\[@octokit/core.js\]</span>(https://github.com/octokit/core.js\#readme))
 
     await octokit.request('GET /search/users', {
       q: 'q'
@@ -1473,7 +1431,7 @@ To get this metadata in your search results, specify the `text-match` media type
 
 When you provide the `text-match` media type, you will receive an extra key in the JSON payload called `text_matches` that provides information about the position of your search terms within the text and the `property` that includes the search term. Inside the `text_matches` array, each object includes the following attributes:
 
-<table><thead><tr class="header"><th>Name</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><code>object_url</code></td><td>The URL for the resource that contains a string property matching one of the search terms.</td></tr><tr class="even"><td><code>object_type</code></td><td>The name for the type of resource that exists at the given <code>object_url</code>.</td></tr><tr class="odd"><td><code>property</code></td><td>The name of a property of the resource that exists at <code>object_url</code>. That property is a string that matches one of the search terms. (In the JSON returned from <code>object_url</code>, the full content for the <code>fragment</code> will be found in the property with this name.)</td></tr><tr class="even"><td><code>fragment</code></td><td>A subset of the value of <code>property</code>. This is the text fragment that matches one or more of the search terms.</td></tr><tr class="odd"><td><code>matches</code></td><td>An array of one or more search terms that are present in <code>fragment</code>. The indices (i.e., "offsets") are relative to the fragment. (They are not relative to the <em>full</em> content of <code>property</code>.)</td></tr></tbody></table>
+<table><thead><tr class="header"><th>Name</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><code>object_url</code></td><td>The URL for the resource that contains a string property matching one of the search terms.</td></tr><tr class="even"><td><code>object_type</code></td><td>The name for the type of resource that exists at the given <code>object_url</code>.</td></tr><tr class="odd"><td><code>property</code></td><td>The name of a property of the resource that exists at <code>object_url</code>. That property is a string that matches one of the search terms. (In the JSON returned from <code>object_url</code>, the full content for the <code>fragment</code> will be found in the property with this name.)</td></tr><tr class="even"><td><code>fragment</code></td><td>A subset of the value of <code>property</code>. This is the text fragment that matches one or more of the search terms.</td></tr><tr class="odd"><td><code>matches</code></td><td>An array of one or more search terms that are present in <code>fragment</code>. The indices (i.e., “offsets”) are relative to the fragment. (They are not relative to the <em>full</em> content of <code>property</code>.)</td></tr></tbody></table>
 
 #### [Example](#example)
 
@@ -1486,7 +1444,7 @@ The response will include a `text_matches` array for each search result. In the 
 
 The first text match occurred in the `body` property of the issue. We see a fragment of text from the issue body. The search term (`windows`) appears twice within that fragment, and we have the indices for each occurrence.
 
-The second text match occurred in the `body` property of one of the issue's comments. We have the URL for the issue comment. And of course, we see a fragment of text from the comment body. The search term (`windows`) appears once within that fragment.
+The second text match occurred in the `body` property of one of the issue’s comments. We have the URL for the issue comment. And of course, we see a fragment of text from the comment body. The search term (`windows`) appears once within that fragment.
 
     {
       "text_matches": [
@@ -1533,13 +1491,9 @@ The second text match occurred in the `body` property of one of the issue's comm
 Jump to Section
 ---------------
 
-  
-
-  
-
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

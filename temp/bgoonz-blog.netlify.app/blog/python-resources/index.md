@@ -1,51 +1,38 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs" class="button">Docs</a>
     -   <a href="/showcase" class="button">Showcase</a>
     -   <a href="/docs/faq/contact" class="button">Contact!</a>
     -   <a href="/docs/python/python-ds" class="button">Python</a>
-
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
     -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
     -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
     -   <a href="/blog/platform-docs/" class="button">platform docs</a>
     -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
     -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
-
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
     -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
     -   <a href="#" class="button">Bootcamp Resources</a>
     -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
     -   <a href="/docs/gallery" class="button">Gallery</a>
     -   <a href="/docs" class="button">Top Repos</a>
-
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
     -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
-
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
     -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
     -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
     -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
     -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
-
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
     -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
     -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
@@ -55,9 +42,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
     -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
     -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
-
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
     -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
     -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
@@ -67,7 +52,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
     -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
 June 03, 2021
 
@@ -103,9 +88,9 @@ To determine if your Windows computer already has Python 3:
 2.  Enter the following command and then select the Enter key:
 3.  ConsoleCopy
 
-python --version
+python –version
 
-1.  Running python --version may not return a value, or may return an error message stating *'python' is not recognized as an internal or external command, operable program or batch file.* This indicates Python is not installed on your Windows system.
+1.  Running python –version may not return a value, or may return an error message stating *‘python’ is not recognized as an internal or external command, operable program or batch file.* This indicates Python is not installed on your Windows system.
 2.  If you see the word Python with a set of numbers separated by . characters, some version of Python is installed.
 
 #### i.e.
@@ -116,11 +101,11 @@ python --version
 
 > Download Page:
 >
-> <https://www.python.org/downloads/release/python-395/>
+> <a href="https://www.python.org/downloads/release/python-395/" class="uri">https://www.python.org/downloads/release/python-395/</a>
 
 > Download Link:
 >
-> <https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe>
+> <a href="https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe" class="uri">https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe</a>
 
 ### Install Jupyter Notebooks:
 
@@ -128,7 +113,7 @@ python --version
 
 If you use pip, you can install it with:
 
-If installing using pip install --user, you must add the user-level bin directory to your PATH environment variable in order to launch jupyter lab. If you are using a Unix derivative (FreeBSD, GNU / Linux, OS X), you can achieve this by using export PATH="$HOME/.local/bin:$PATH" command.
+If installing using pip install –user, you must add the user-level bin directory to your PATH environment variable in order to launch jupyter lab. If you are using a Unix derivative (FreeBSD, GNU / Linux, OS X), you can achieve this by using export PATH=“<span class="math inline">*HOME*/.*local*/*bin*:</span>PATH” command.
 
 ### pipenv
 
@@ -166,15 +151,15 @@ Another cool thing that you can generally do with all languages, are comments. I
 
 \# Write some comments!
 
-If you have a huge comment, do **not** comment all the 350 lines, just put ''' before it, and ''' at the end. Technically, this is not a comment but a string, but the computer still ignores it, so we will use it.
+If you have a huge comment, do **not** comment all the 350 lines, just put ’’‘ before it, and ’’’ at the end. Technically, this is not a comment but a string, but the computer still ignores it, so we will use it.
 
 ### New: Variables!
 
-Unlike many other languages, there is no var, let, or const to declare a variable in python. You simply go name = 'value'.
+Unlike many other languages, there is no var, let, or const to declare a variable in python. You simply go name = ‘value’.
 
 Remember, there is a difference between integers and strings. *Remember: String = "".* To convert between these two, you can put an int in a str() function, and a string in a int() function. There is also a less used one, called a float. Mainly, these are integers with decimals. Change them using the float() command.
 
-<https://repl.it/@bgoonz/second-scr?lite=true&referrer=https%3A%2F%2Fbryanguner.medium.com>
+<a href="https://repl.it/@bgoonz/second-scr?lite=true&amp;referrer=https%3A%2F%2Fbryanguner.medium.com" class="uri">https://repl.it/@bgoonz/second-scr?lite=true&amp;referrer=https%3A%2F%2Fbryanguner.medium.com</a>
 
 Instead of using the , in the print function, you can put a + to combine the variables and string.
 
@@ -201,7 +186,7 @@ If you really want to know about the others, view [Py Operators](https://www.tu
 
 ### More Things With Strings
 
-Like the title? Anyways, a ' and a " both indicate a string, but **do not combine them!**
+Like the title? Anyways, a ’ and a " both indicate a string, but **do not combine them!**
 
 *quotes.py*
 
@@ -262,7 +247,7 @@ This will print Hello with a .3 second delay 100 times. This is just one way to
 
 *loop2.py*
 
-<https://storage.googleapis.com/replit/images/1539649280875_37d22e6d49e8e8fbc453631def345387.pn>
+<a href="https://storage.googleapis.com/replit/images/1539649280875_37d22e6d49e8e8fbc453631def345387.pn" class="uri">https://storage.googleapis.com/replit/images/1539649280875_37d22e6d49e8e8fbc453631def345387.pn</a>
 
 #### while Loop
 
@@ -360,13 +345,9 @@ There we go, that’s how you can open files and close files with python
 
 Who doesn’t love a good dare? Here is a program that can generate random dares. The first thing we’ll need to do is as always, import random. Then we’ll make some lists of dares
 
-  
-
-  
-
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

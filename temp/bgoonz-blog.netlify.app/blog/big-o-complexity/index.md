@@ -1,51 +1,38 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs" class="button">Docs</a>
     -   <a href="/showcase" class="button">Showcase</a>
     -   <a href="/docs/faq/contact" class="button">Contact!</a>
     -   <a href="/docs/python/python-ds" class="button">Python</a>
-
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
     -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
     -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
     -   <a href="/blog/platform-docs/" class="button">platform docs</a>
     -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
     -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
-
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
     -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
     -   <a href="#" class="button">Bootcamp Resources</a>
     -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
     -   <a href="/docs/gallery" class="button">Gallery</a>
     -   <a href="/docs" class="button">Top Repos</a>
-
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
     -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
-
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
     -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
     -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
     -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
     -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
-
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
     -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
     -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
@@ -55,9 +42,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
     -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
     -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
-
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
     -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
     -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
@@ -67,7 +52,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
     -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
 September 11, 2021
 
@@ -88,7 +73,7 @@ Space Complexity: O(1)
 
 -   Bubble Sort will always use the same amount of memory regardless of n.
 
-<https://gist.github.com/eengineergz/e67e56bed7c5a20a54851867ba5efef6>
+<a href="https://gist.github.com/eengineergz/e67e56bed7c5a20a54851867ba5efef6" class="uri">https://gist.github.com/eengineergz/e67e56bed7c5a20a54851867ba5efef6</a>
 
 -   The first major sorting algorithm one learns in introductory programming courses.
 -   Gives an intro on how to convert unsorted data into sorted data.
@@ -101,7 +86,7 @@ Space Complexity: O(1)
 -   *Bubbling Up : Term that infers that an item is in motion, moving in some direction, and has some final resting destination.*
 -   *Bubble sort, sorts an array of integers by bubbling the largest integer to the top.*
 
-<https://gist.github.com/eengineergz/fd4acc0c89033bd219ebf9d3ec40b053><https://gist.github.com/eengineergz/80934783c628c70ac2a5a48119a82d54>
+<a href="https://gist.github.com/eengineergz/fd4acc0c89033bd219ebf9d3ec40b053" class="uri">https://gist.github.com/eengineergz/fd4acc0c89033bd219ebf9d3ec40b053</a><a href="https://gist.github.com/eengineergz/80934783c628c70ac2a5a48119a82d54" class="uri">https://gist.github.com/eengineergz/80934783c628c70ac2a5a48119a82d54</a>
 
 -   *Worst Case & Best Case are always the same because it makes nested loops.*
 -   *Double for loops are polynomial time complexity or more specifically in this case Quadratic (Big O) of: O(n²)*
@@ -116,7 +101,7 @@ Space Complexity: O(1)
 
 -   Selection Sort will always use the same amount of memory regardless of n.
 
-<https://gist.github.com/eengineergz/4abc0fe0bf01599b0c4104b0ba633402>
+<a href="https://gist.github.com/eengineergz/4abc0fe0bf01599b0c4104b0ba633402" class="uri">https://gist.github.com/eengineergz/4abc0fe0bf01599b0c4104b0ba633402</a>
 
 -   Selection sort organizes the smallest elements to the start of the array.
 
@@ -128,7 +113,7 @@ Space Complexity: O(1)
 4.  *Increment Min to point to next element.*
 5.  *Repeat until list is sorted.*
 
-<https://gist.github.com/eengineergz/61f130c8e0097572ed908fe2629bdee0>
+<a href="https://gist.github.com/eengineergz/61f130c8e0097572ed908fe2629bdee0" class="uri">https://gist.github.com/eengineergz/61f130c8e0097572ed908fe2629bdee0</a>
 
 ### Insertion Sort
 
@@ -140,7 +125,7 @@ Space Complexity: O(n)
 
 -   Because we are creating a subArray for each element in the original input, our Space Comlexity becomes linear.
 
-<https://gist.github.com/eengineergz/a9f4b8596c7546ac92746db659186d8c>
+<a href="https://gist.github.com/eengineergz/a9f4b8596c7546ac92746db659186d8c" class="uri">https://gist.github.com/eengineergz/a9f4b8596c7546ac92746db659186d8c</a>
 
 ### Merge Sort
 
@@ -151,7 +136,7 @@ Time Complexity: Log Linear O(nlog(n))
 
 ### Example of Merge Sort
 
-<https://gist.github.com/eengineergz/18fbb7edc9f5c4820ccfcecacf3c5e48><https://gist.github.com/eengineergz/cbb533137a7f957d3bc4077395c1ff64>
+<a href="https://gist.github.com/eengineergz/18fbb7edc9f5c4820ccfcecacf3c5e48" class="uri">https://gist.github.com/eengineergz/18fbb7edc9f5c4820ccfcecacf3c5e48</a><a href="https://gist.github.com/eengineergz/cbb533137a7f957d3bc4077395c1ff64" class="uri">https://gist.github.com/eengineergz/cbb533137a7f957d3bc4077395c1ff64</a>
 
 -   **Merge sort is O(nlog(n)) time.**
 -   *We need a function for merging and a function for sorting.*
@@ -176,7 +161,7 @@ Space Complexity: O(n)
 -   It is easy to sort elements of an array relative to a particular target value.
 -   An array of 0 or 1 elements is already trivially sorted.
 
-<https://gist.github.com/eengineergz/24bcbc5248a8c4e1671945e9512da57e>
+<a href="https://gist.github.com/eengineergz/24bcbc5248a8c4e1671945e9512da57e" class="uri">https://gist.github.com/eengineergz/24bcbc5248a8c4e1671945e9512da57e</a>
 
 ### Binary Search
 
@@ -186,11 +171,11 @@ Space Complexity: O(1)
 
 > *Recursive Solution*
 
-<https://gist.github.com/eengineergz/c82c00a4bcba4b69b7d326d6cad3ac8c>
+<a href="https://gist.github.com/eengineergz/c82c00a4bcba4b69b7d326d6cad3ac8c" class="uri">https://gist.github.com/eengineergz/c82c00a4bcba4b69b7d326d6cad3ac8c</a>
 
 > *Min Max Solution*
 
-<https://gist.github.com/eengineergz/eb8d1e1684db15cc2c8af28e13f38751><https://gist.github.com/eengineergz/bc3f576b9795ccef12a108e36f9f820a>
+<a href="https://gist.github.com/eengineergz/eb8d1e1684db15cc2c8af28e13f38751" class="uri">https://gist.github.com/eengineergz/eb8d1e1684db15cc2c8af28e13f38751</a><a href="https://gist.github.com/eengineergz/bc3f576b9795ccef12a108e36f9f820a" class="uri">https://gist.github.com/eengineergz/bc3f576b9795ccef12a108e36f9f820a</a>
 
 -   *Must be conducted on a sorted array.*
 -   *Binary search is logarithmic time, not exponential b/c n is cut down by two, not growing.*
@@ -209,15 +194,11 @@ Space Complexity: O(1)
 5.  *Insert the value*
 6.  *Repeat until list is sorted.*
 
-<https://gist.github.com/eengineergz/ffead1de0836c4bcc6445780a604f617>
-
-  
-
-  
+<a href="https://gist.github.com/eengineergz/ffead1de0836c4bcc6445780a604f617" class="uri">https://gist.github.com/eengineergz/ffead1de0836c4bcc6445780a604f617</a>
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

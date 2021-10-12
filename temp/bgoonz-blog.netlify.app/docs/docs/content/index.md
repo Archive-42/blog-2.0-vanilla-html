@@ -390,7 +390,7 @@ Themeslevelup.gitconnected.com](https://levelup.gitconnected.com/my-favorite-vsc
 *My Awesome JavaScript List Part 2*javascript.plainenglish.io](https://javascript.plainenglish.io/javascript-frameworks-libraries-35931e187a35 "https://javascript.plainenglish.io/javascript-frameworks-libraries-35931e187a35")[](https://javascript.plainenglish.io/javascript-frameworks-libraries-35931e187a35)
 
 [**bgoonz/Cumulative-Resource-List**  
-*List of useful cheatsheets Inspired by <span class="citation" data-cites="sindresorhus">@sindresorhus</span> awesome and improved by these amazing contributors . If you see a…*github.com](https://github.com/bgoonz/Cumulative-Resource-List/tree/master/README-s "https://github.com/bgoonz/Cumulative-Resource-List/tree/master/README-s")[](https://github.com/bgoonz/Cumulative-Resource-List/tree/master/README-s)
+*List of useful cheatsheets Inspired by <span class="citation" data-cites="sindresorhus"><span class="citation" data-cites="sindresorhus">@sindresorhus</span></span> awesome and improved by these amazing contributors . If you see a…*github.com](https://github.com/bgoonz/Cumulative-Resource-List/tree/master/README-s "https://github.com/bgoonz/Cumulative-Resource-List/tree/master/README-s")[](https://github.com/bgoonz/Cumulative-Resource-List/tree/master/README-s)
 
 [**My Favorite VSCode *Themes***  
 Themeslevelup.gitconnected.com](https://levelup.gitconnected.com/my-favorite-vscode-themes-9bab65af3f0f "https://levelup.gitconnected.com/my-favorite-vscode-themes-9bab65af3f0f")[](https://levelup.gitconnected.com/my-favorite-vscode-themes-9bab65af3f0f)
@@ -1281,7 +1281,7 @@ Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz"><span class="citation" data-cites="bgoonz">@bgoonz</span></span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

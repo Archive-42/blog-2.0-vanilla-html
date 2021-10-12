@@ -1,51 +1,38 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs" class="button">Docs</a>
     -   <a href="/showcase" class="button">Showcase</a>
     -   <a href="/docs/faq/contact" class="button">Contact!</a>
     -   <a href="/docs/python/python-ds" class="button">Python</a>
-
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
     -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
     -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
     -   <a href="/blog/platform-docs/" class="button">platform docs</a>
     -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
     -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
-
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
     -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
     -   <a href="#" class="button">Bootcamp Resources</a>
     -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
     -   <a href="/docs/gallery" class="button">Gallery</a>
     -   <a href="/docs" class="button">Top Repos</a>
-
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
     -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
-
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
     -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
     -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
     -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
     -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
-
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
     -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
     -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
@@ -55,9 +42,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
     -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
     -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
-
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
     -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
     -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
@@ -67,21 +52,18 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
     -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
-Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
+Navigate Docs<span class="icon-angle-right" data-aria-hidden="true"></span>
 
 -   [Docs](/docs/)
--   [About](/docs/about/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [About](/docs/about/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Job Search](/docs/about/job-search/)
     -   [Youtube](/docs/about/intrests/)
     -   [Resume](/docs/about/resume/)
     -   [Engineering Portfolio](/docs/about/eng-portfolio/)
     -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
-
--   [Articles](/docs/articles/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Articles](/docs/articles/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [The HTTP Protocol](/docs/articles/http/)
     -   [How The Web Works](/docs/articles/how-the-web-works/)
     -   [Sorting Algorithms](/docs/articles/node-package-manager/)
@@ -114,22 +96,16 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Semantic Versioning](/docs/articles/semantic/)
     -   [Writing Files](/docs/articles/writing-files/)
     -   [Node APIs With Express](/docs/articles/node-api-express/)
-
--   [Audio](/docs/audio/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Audio](/docs/audio/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
     -   [Audio](/docs/audio/audio/)
     -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
     -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
     -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
     -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
-
--   [Community](/docs/community/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Community](/docs/community/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Video Chat](/docs/community/video-chat/)
-
--   [Content](/docs/content/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Content](/docs/content/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
     -   [History API](/docs/content/history-api/)
     -   [Lambda School Projects](/docs/content/lambda-projects/)
@@ -140,9 +116,7 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
     -   [Embeded Websites & Projects](/docs/content/recent-projects/)
     -   [Algorithms & Data Structures](/docs/content/algo/)
-
--   [Documentation](/docs/docs/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Documentation](/docs/docs/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Apendix](/docs/docs/appendix/)
     -   [Await](/docs/docs/await-keyword/)
     -   [Git Reference](/docs/docs/git-reference/)
@@ -155,33 +129,23 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Learn Css](/docs/docs/css/)
     -   [Useful Snippets](/docs/docs/content/)
     -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
-
--   [FAQ](/docs/faq/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [FAQ](/docs/faq/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Plug-ins](/docs/faq/plug-ins/)
     -   [Contact!](/docs/faq/contact/)
-
--   [Javascript](/docs/javascript/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Javascript](/docs/javascript/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Javascript Concepts Review](/docs/javascript/review/)
     -   [Constructor Functions](/docs/javascript/constructor-functions/)
     -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
-
--   [Interactive Examples](/docs/interact/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Interactive Examples](/docs/interact/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Callstack Visualizer](/docs/interact/callstack-visual/)
     -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
     -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
     -   [Other Websites](/docs/interact/other-sites/)
     -   [Clock](/docs/interact/clock/)
-
--   [Medium](/docs/medium/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Medium](/docs/medium/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [My Sites](/docs/medium/my-websites/)
     -   [Medium](/docs/medium/medium-links/)
-
--   [Quick Reference](/docs/quick-reference/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Quick Reference](/docs/quick-reference/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Git Bash](/docs/quick-reference/git-bash/)
     -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
     -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
@@ -204,9 +168,7 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
     -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
     -   [vscode-themes](/docs/quick-reference/vscode-themes/)
-
--   [React](/docs/react/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [React](/docs/react/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [React Cheat Sheets:](/docs/react/cheatsheet/)
     -   [React Class Components Demo](/docs/react/demo/)
     -   [Introducing JSX](/docs/react/jsx/)
@@ -215,17 +177,13 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Intro To React](/docs/react/react2/)
     -   [npx-create-react-app](/docs/react/createReactApp/)
     -   [React Docs](/docs/react/react-docs/)
-
--   [Tools](/docs/tools/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Tools](/docs/tools/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Data Structures](/docs/tools/data-structures/)
     -   [General Utilities](/docs/tools/dev-utilities/)
     -   [more tools](/docs/tools/more-tools/)
     -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
     -   [md and html](/docs/tools/markdown-html/)
-
--   [My Python Docs](/docs/python/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [My Python Docs](/docs/python/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [lorem-ipsum](/docs/python/basics/)
     -   [lorem-ipsum](/docs/python/flow-control/)
     -   [google-sheets-api](/docs/python/google-sheets-api/)
@@ -390,7 +348,7 @@ The code editor has a JSX element similar to what you created in the last challe
 
 > *there are special instances in HTML called “self-closing tags”, or tags that don’t require both an opening and closing tag before another tag can start.*
 
-> *For example the line-break tag can be written as* `<br>` *or as* `<br />,` *but should never be written as* `<br></br>`*, since it doesn't contain any content.*
+> *For example the line-break tag can be written as* `<br>` *or as* `<br />,` *but should never be written as* `<br></br>`*, since it doesn’t contain any content.*
 
 > *In JSX, the rules are a little different. Any JSX element can be written with a self-closing tag, and every element must be closed.  
 > The line-break tag, for example, must always be written as* `<br />` *in order to be valid JSX that can be transpiled.  
@@ -638,64 +596,21 @@ Renders an accordion menu with multiple collapsible content elements.
 -   Define `changeItem`, which will be executed when clicking an `AccordionItem`’s `<button>`.
 -   `changeItem` executes the passed callback, `onItemClick`, and updates `bindIndex` based on the clicked element.
 
-    .accordion-item.collapsed {  display: none;}.accordion-item.expanded {  display: block;}.accordion-button {  display: block;  width: 100%;}
+    .accordion-item.collapsed { display: none;}.accordion-item.expanded { display: block;}.accordion-button { display: block; width: 100%;}
 
-    const AccordionItem = ({ label, isCollapsed, handleClick, children }) =&gt; {
-      return (
-        &lt;&gt;
-          &lt;button className=&quot;accordion-button&quot; onClick={handleClick}&gt;
-            {label}
-          &lt;/button&gt;
-          &lt;div
-            className={`accordion-item ${isCollapsed ? &quot;collapsed&quot; : &quot;expanded&quot;}`}
-            aria-expanded={isCollapsed}
-          &gt;
-            {children}
-          &lt;/div&gt;
-        &lt;/&gt;
-      );
-    };
+    const AccordionItem = ({ label, isCollapsed, handleClick, children }) =&gt; { return ( &lt;&gt; &lt;button className=“accordion-button” onClick={handleClick}&gt; {label} &lt;/button&gt; &lt;div className={`accordion-item ${isCollapsed ? &quot;collapsed&quot; : &quot;expanded&quot;}`} aria-expanded={isCollapsed} &gt; {children} &lt;/div&gt; &lt;/&gt; ); };
 
-    const Accordion = ({ defaultIndex, onItemClick, children }) =&gt; {
-    const [bindIndex, setBindIndex] = React.useState(defaultIndex);
+    const Accordion = ({ defaultIndex, onItemClick, children }) =&gt; { const \[bindIndex, setBindIndex\] = React.useState(defaultIndex);
 
-    const changeItem = (itemIndex) =&gt; {
-    if (typeof onItemClick === &quot;function&quot;) onItemClick(itemIndex);
-    if (itemIndex !== bindIndex) setBindIndex(itemIndex);
-    };
-    const items = children.filter((item) =&gt; item.type.name === &quot;AccordionItem&quot;);
+    const changeItem = (itemIndex) =&gt; { if (typeof onItemClick === “function”) onItemClick(itemIndex); if (itemIndex !== bindIndex) setBindIndex(itemIndex); }; const items = children.filter((item) =&gt; item.type.name === “AccordionItem”);
 
-    return (
-    &lt;&gt;
-    {items.map(({ props }) =&gt; (
-    &lt;AccordionItem
-    isCollapsed={bindIndex !== props.index}
-    label={props.label}
-    handleClick={() =&gt; changeItem(props.index)}
-    children={props.children}
-    /&gt;
-    ))}
-    &lt;/&gt;
-    );
-    };
+    return ( &lt;&gt; {items.map(({ props }) =&gt; ( &lt;AccordionItem isCollapsed={bindIndex !== props.index} label={props.label} handleClick={() =&gt; changeItem(props.index)} children={props.children} /&gt; ))} &lt;/&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(
-      &lt;Accordion defaultIndex=&quot;1&quot; onItemClick={console.log}&gt;
-        &lt;AccordionItem label=&quot;A&quot; index=&quot;1&quot;&gt;
-          Lorem ipsum
-        &lt;/AccordionItem&gt;
-        &lt;AccordionItem label=&quot;B&quot; index=&quot;2&quot;&gt;
-          Dolor sit amet
-        &lt;/AccordionItem&gt;
-      &lt;/Accordion&gt;,
-      document.getElementById(&quot;root&quot;)
-    );
+    ReactDOM.render( &lt;Accordion defaultIndex=“1” onItemClick={console.log}&gt; &lt;AccordionItem label=“A” index=“1”&gt; Lorem ipsum &lt;/AccordionItem&gt; &lt;AccordionItem label=“B” index=“2”&gt; Dolor sit amet &lt;/AccordionItem&gt; &lt;/Accordion&gt;, document.getElementById(“root”) );
 
 ------------------------------------------------------------------------
 
@@ -706,52 +621,23 @@ Renders an alert component with `type` prop.
 -   Use the `useEffect()` hook to update the value of `isShown` to `true` and clear the interval by using `timeoutId` when the component is unmounted.
 -   Define a `closeAlert` function to set the component as removed from the DOM by displaying a fading out animation and set `isShown` to `false` via `setTimeout()`.
 
-    @keyframes leave {  0% {    opacity: 1;  }  100% {    opacity: 0;  }}.alert {  padding: 0.75rem 0.5rem;  margin-bottom: 0.5rem;  text-align: left;  padding-right: 40px;  border-radius: 4px;  font-size: 16px;  position: relative;}.alert.warning {  color: #856404;  background-color: #fff3cd;  border-color: #ffeeba;}.alert.error {  color: #721c24;  background-color: #f8d7da;  border-color: #f5c6cb;}.alert.leaving {  animation: leave 0.5s forwards;}.alert .close {  position: absolute;  top: 0;  right: 0;  padding: 0 0.75rem;  color: #333;  border: 0;  height: 100%;  cursor: pointer;  background: none;  font-weight: 600;  font-size: 16px;}.alert .close:after {  content: "x";}
+    <span class="citation" data-cites="keyframes">@keyframes</span> leave { 0% { opacity: 1; } 100% { opacity: 0; }}.alert { padding: 0.75rem 0.5rem; margin-bottom: 0.5rem; text-align: left; padding-right: 40px; border-radius: 4px; font-size: 16px; position: relative;}.alert.warning { color: \#856404; background-color: \#fff3cd; border-color: \#ffeeba;}.alert.error { color: \#721c24; background-color: \#f8d7da; border-color: \#f5c6cb;}.alert.leaving { animation: leave 0.5s forwards;}.alert .close { position: absolute; top: 0; right: 0; padding: 0 0.75rem; color: \#333; border: 0; height: 100%; cursor: pointer; background: none; font-weight: 600; font-size: 16px;}.alert .close:after { content: “x”;}
 
-    const Alert = ({ isDefaultShown = false, timeout = 250, type, message }) =&gt; {
-      const [isShown, setIsShown] = React.useState(isDefaultShown);
-      const [isLeaving, setIsLeaving] = React.useState(false);
+    const Alert = ({ isDefaultShown = false, timeout = 250, type, message }) =&gt; { const \[isShown, setIsShown\] = React.useState(isDefaultShown); const \[isLeaving, setIsLeaving\] = React.useState(false);
 
     let timeoutId = null;
 
-    React.useEffect(() =&gt; {
-    setIsShown(true);
-    return () =&gt; {
-    clearTimeout(timeoutId);
-    };
-    }, [isDefaultShown, timeout, timeoutId]);
+    React.useEffect(() =&gt; { setIsShown(true); return () =&gt; { clearTimeout(timeoutId); }; }, \[isDefaultShown, timeout, timeoutId\]);
 
-    const closeAlert = () =&gt; {
-    setIsLeaving(true);
-    timeoutId = setTimeout(() =&gt; {
-    setIsLeaving(false);
-    setIsShown(false);
-    }, timeout);
-    };
+    const closeAlert = () =&gt; { setIsLeaving(true); timeoutId = setTimeout(() =&gt; { setIsLeaving(false); setIsShown(false); }, timeout); };
 
-    return (
-    isShown &amp;&amp; (
-    &lt;div
-    className={`alert ${type} ${isLeaving ? &quot;leaving&quot; : &quot;&quot;}`}
-    role=&quot;alert&quot;
-    &gt;
-    &lt;button className=&quot;close&quot; onClick={closeAlert} /&gt;
-    {message}
-    &lt;/div&gt;
-    )
-    );
-    };
+    return ( isShown && ( &lt;div className={`alert ${type} ${isLeaving ? &quot;leaving&quot; : &quot;&quot;}`} role=“alert” &gt; &lt;button className=“close” onClick={closeAlert} /&gt; {message} &lt;/div&gt; ) ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(
-      &lt;Alert type=&quot;info&quot; message=&quot;This is info&quot; /&gt;,
-      document.getElementById(&quot;root&quot;)
-    );
+    ReactDOM.render( &lt;Alert type=“info” message=“This is info” /&gt;, document.getElementById(“root”) );
 
 ------------------------------------------------------------------------
 
@@ -819,48 +705,19 @@ Renders a carousel component.
 -   Compute the `className` for each carousel item while mapping over them and applying it accordingly.
 -   Render the carousel items using `React.cloneElement()` and pass down `...rest` along with the computed `className`.
 
-    .carousel {  position: relative;}.carousel-item {  position: absolute;  visibility: hidden;}.carousel-item.visible {  visibility: visible;}
+    .carousel { position: relative;}.carousel-item { position: absolute; visibility: hidden;}.carousel-item.visible { visibility: visible;}
 
-    const Carousel = ({ carouselItems, ...rest }) =&gt; {
-      const [active, setActive] = React.useState(0);
-      let scrollInterval = null;
+    const Carousel = ({ carouselItems, …rest }) =&gt; { const \[active, setActive\] = React.useState(0); let scrollInterval = null;
 
-    React.useEffect(() =&gt; {
-    scrollInterval = setTimeout(() =&gt; {
-    setActive((active + 1) % carouselItems.length);
-    }, 2000);
-    return () =&gt; clearTimeout(scrollInterval);
-    });
+    React.useEffect(() =&gt; { scrollInterval = setTimeout(() =&gt; { setActive((active + 1) % carouselItems.length); }, 2000); return () =&gt; clearTimeout(scrollInterval); });
 
-    return (
-    &lt;div className=&quot;carousel&quot;&gt;
-    {carouselItems.map((item, index) =&gt; {
-    const activeClass = active === index ? &quot; visible&quot; : &quot;&quot;;
-    return React.cloneElement(item, {
-    ...rest,
-    className: `carousel-item${activeClass}`,
-    });
-    })}
-    &lt;/div&gt;
-    );
-    };
+    return ( &lt;div className=“carousel”&gt; {carouselItems.map((item, index) =&gt; { const activeClass = active === index ? " visible" : ""; return React.cloneElement(item, { …rest, className: `carousel-item${activeClass}`, }); })} &lt;/div&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(
-      &lt;Carousel
-        carouselItems={[
-          &lt;div&gt;carousel item 1&lt;/div&gt;,
-          &lt;div&gt;carousel item 2&lt;/div&gt;,
-          &lt;div&gt;carousel item 3&lt;/div&gt;,
-        ]}
-      /&gt;,
-      document.getElementById(&quot;root&quot;)
-    );
+    ReactDOM.render( &lt;Carousel carouselItems={\[ &lt;div&gt;carousel item 1&lt;/div&gt;, &lt;div&gt;carousel item 2&lt;/div&gt;, &lt;div&gt;carousel item 3&lt;/div&gt;, \]} /&gt;, document.getElementById(“root”) );
 
 ------------------------------------------------------------------------
 
@@ -871,42 +728,17 @@ Renders a component with collapsible content.
 -   Determine the appearance of the content, based on `isCollapsed` and apply the appropriate `className`.
 -   Update the value of the `aria-expanded` attribute based on `isCollapsed` to make the component accessible.
 
-    .collapse-button {  display: block;  width: 100%;}.collapse-content.collapsed {  display: none;}.collapsed-content.expanded {  display: block;}
+    .collapse-button { display: block; width: 100%;}.collapse-content.collapsed { display: none;}.collapsed-content.expanded { display: block;}
 
-    const Collapse = ({ collapsed, children }) =&gt; {
-      const [isCollapsed, setIsCollapsed] = React.useState(collapsed);
+    const Collapse = ({ collapsed, children }) =&gt; { const \[isCollapsed, setIsCollapsed\] = React.useState(collapsed);
 
-    return (
-    &lt;&gt;
-    &lt;button
-    className=&quot;collapse-button&quot;
-    onClick={() =&gt; setIsCollapsed(!isCollapsed)}
-    &gt;
-    {isCollapsed ? &quot;Show&quot; : &quot;Hide&quot;} content
-    &lt;/button&gt;
-    &lt;div
-    className={`collapse-content ${isCollapsed ? &quot;collapsed&quot; : &quot;expanded&quot;}`}
-    aria-expanded={isCollapsed}
-    &gt;
-    {children}
-    &lt;/div&gt;
-    &lt;/&gt;
-    );
-    };
+    return ( &lt;&gt; &lt;button className=“collapse-button” onClick={() =&gt; setIsCollapsed(!isCollapsed)} &gt; {isCollapsed ? “Show” : “Hide”} content &lt;/button&gt; &lt;div className={`collapse-content ${isCollapsed ? &quot;collapsed&quot; : &quot;expanded&quot;}`} aria-expanded={isCollapsed} &gt; {children} &lt;/div&gt; &lt;/&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(
-      &lt;Collapse&gt;
-        &lt;h1&gt;This is a collapse&lt;/h1&gt;
-        &lt;p&gt;Hello world!&lt;/p&gt;
-      &lt;/Collapse&gt;,
-      document.getElementById(&quot;root&quot;)
-    );
+    ReactDOM.render( &lt;Collapse&gt; &lt;h1&gt;This is a collapse&lt;/h1&gt; &lt;p&gt;Hello world!&lt;/p&gt; &lt;/Collapse&gt;, document.getElementById(“root”) );
 
 ------------------------------------------------------------------------
 
@@ -951,7 +783,7 @@ Renders a countdown timer that prints a message when it reaches zero.
 
 -   Use the `useState()` hook to create a state variable to hold the time value, initialize it from the props and destructure it into its components.
 -   Use the `useState()` hook to create the `paused` and `over` state variables, used to prevent the timer from ticking if it’s paused or the time has run out.
--   Create a method `tick`, that updates the time values based on the current value (i.e. decreasing the time by one second).
+-   Create a method `tick`, that updates the time values based on the current value (i.e. decreasing the time by one second).
 -   Create a method `reset`, that resets all state variables to their initial states.
 -   Use the the `useEffect()` hook to call the `tick` method every second via the use of `setInterval()` and use `clearInterval()` to clean up when the component is unmounted.
 -   Use `String.prototype.padStart()` to pad each part of the time array to two characters to create the visual representation of the timer.
@@ -1074,81 +906,27 @@ Renders a file drag and drop component for a single file.
 -   `handleDrag` prevents the browser from opening the dragged file, `handleDragIn` and `handleDragOut` handle the dragged file entering and exiting the component, while `handleDrop` handles the file being dropped and passes it to `onDrop`.
 -   Use the `useEffect()` hook to handle each of the drag and drop events using the previously created methods.
 
-    .filedrop {  min-height: 120px;  border: 3px solid #d3d3d3;  text-align: center;  font-size: 24px;  padding: 32px;  border-radius: 4px;}.filedrop.drag {  border: 3px dashed #1e90ff;}.filedrop.ready {  border: 3px solid #32cd32;}
+    .filedrop { min-height: 120px; border: 3px solid \#d3d3d3; text-align: center; font-size: 24px; padding: 32px; border-radius: 4px;}.filedrop.drag { border: 3px dashed \#1e90ff;}.filedrop.ready { border: 3px solid \#32cd32;}
 
-    const FileDrop = ({ onDrop }) =&gt; {
-      const [drag, setDrag] = React.useState(false);
-      const [filename, setFilename] = React.useState(&quot;&quot;);
-      let dropRef = React.createRef();
-      let dragCounter = 0;
+    const FileDrop = ({ onDrop }) =&gt; { const \[drag, setDrag\] = React.useState(false); const \[filename, setFilename\] = React.useState(""); let dropRef = React.createRef(); let dragCounter = 0;
 
-    const handleDrag = (e) =&gt; {
-    e.preventDefault();
-    e.stopPropagation();
-    };
+    const handleDrag = (e) =&gt; { e.preventDefault(); e.stopPropagation(); };
 
-    const handleDragIn = (e) =&gt; {
-    e.preventDefault();
-    e.stopPropagation();
-    dragCounter++;
-    if (e.dataTransfer.items &amp;&amp; e.dataTransfer.items.length &gt; 0) setDrag(true);
-    };
+    const handleDragIn = (e) =&gt; { e.preventDefault(); e.stopPropagation(); dragCounter++; if (e.dataTransfer.items && e.dataTransfer.items.length &gt; 0) setDrag(true); };
 
-    const handleDragOut = (e) =&gt; {
-    e.preventDefault();
-    e.stopPropagation();
-    dragCounter--;
-    if (dragCounter === 0) setDrag(false);
-    };
+    const handleDragOut = (e) =&gt; { e.preventDefault(); e.stopPropagation(); dragCounter–; if (dragCounter === 0) setDrag(false); };
 
-    const handleDrop = (e) =&gt; {
-    e.preventDefault();
-    e.stopPropagation();
-    setDrag(false);
-    if (e.dataTransfer.files &amp;&amp; e.dataTransfer.files.length &gt; 0) {
-    onDrop(e.dataTransfer.files[0]);
-    setFilename(e.dataTransfer.files[0].name);
-    e.dataTransfer.clearData();
-    dragCounter = 0;
-    }
-    };
+    const handleDrop = (e) =&gt; { e.preventDefault(); e.stopPropagation(); setDrag(false); if (e.dataTransfer.files && e.dataTransfer.files.length &gt; 0) { onDrop(e.dataTransfer.files\[0\]); setFilename(e.dataTransfer.files\[0\].name); e.dataTransfer.clearData(); dragCounter = 0; } };
 
-    React.useEffect(() =&gt; {
-    let div = dropRef.current;
-    div.addEventListener(&quot;dragenter&quot;, handleDragIn);
-    div.addEventListener(&quot;dragleave&quot;, handleDragOut);
-    div.addEventListener(&quot;dragover&quot;, handleDrag);
-    div.addEventListener(&quot;drop&quot;, handleDrop);
-    return () =&gt; {
-    div.removeEventListener(&quot;dragenter&quot;, handleDragIn);
-    div.removeEventListener(&quot;dragleave&quot;, handleDragOut);
-    div.removeEventListener(&quot;dragover&quot;, handleDrag);
-    div.removeEventListener(&quot;drop&quot;, handleDrop);
-    };
-    });
+    React.useEffect(() =&gt; { let div = dropRef.current; div.addEventListener(“dragenter”, handleDragIn); div.addEventListener(“dragleave”, handleDragOut); div.addEventListener(“dragover”, handleDrag); div.addEventListener(“drop”, handleDrop); return () =&gt; { div.removeEventListener(“dragenter”, handleDragIn); div.removeEventListener(“dragleave”, handleDragOut); div.removeEventListener(“dragover”, handleDrag); div.removeEventListener(“drop”, handleDrop); }; });
 
-    return (
-    &lt;div
-    ref={dropRef}
-    className={
-    drag ? &quot;filedrop drag&quot; : filename ? &quot;filedrop ready&quot; : &quot;filedrop&quot;
-    }
-    &gt;
-    {filename &amp;&amp; !drag ? &lt;div&gt;{filename}&lt;/div&gt; : &lt;div&gt;Drop a file here!&lt;/div&gt;}
-    &lt;/div&gt;
-    );
-    };
+    return ( &lt;div ref={dropRef} className={ drag ? “filedrop drag” : filename ? “filedrop ready” : “filedrop” } &gt; {filename && !drag ? &lt;div&gt;{filename}&lt;/div&gt; : &lt;div&gt;Drop a file here!&lt;/div&gt;} &lt;/div&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(
-      &lt;FileDrop onDrop={console.log} /&gt;,
-      document.getElementById(&quot;root&quot;)
-    );
+    ReactDOM.render( &lt;FileDrop onDrop={console.log} /&gt;, document.getElementById(“root”) );
 
 ------------------------------------------------------------------------
 
@@ -1258,34 +1036,15 @@ Renders a spinning loader component.
 -   Render an SVG, whose `height` and `width` are determined by the `size` prop.
 -   Use CSS to animate the SVG, creating a spinning animation.
 
-    .loader {  animation: rotate 2s linear infinite;}@keyframes rotate {  100% {    transform: rotate(360deg);  }}.loader circle {  animation: dash 1.5s ease-in-out infinite;}@keyframes dash {  0% {    stroke-dasharray: 1, 150;    stroke-dashoffset: 0;  }  50% {    stroke-dasharray: 90, 150;    stroke-dashoffset: -35;  }  100% {    stroke-dasharray: 90, 150;    stroke-dashoffset: -124;  }}
+    .loader { animation: rotate 2s linear infinite;}<span class="citation" data-cites="keyframes">@keyframes</span> rotate { 100% { transform: rotate(360deg); }}.loader circle { animation: dash 1.5s ease-in-out infinite;}<span class="citation" data-cites="keyframes">@keyframes</span> dash { 0% { stroke-dasharray: 1, 150; stroke-dashoffset: 0; } 50% { stroke-dasharray: 90, 150; stroke-dashoffset: -35; } 100% { stroke-dasharray: 90, 150; stroke-dashoffset: -124; }}
 
-    const Loader = ({ size }) =&gt; {
-      return (
-        &lt;svg
-          className=&quot;loader&quot;
-          xmlns=&quot;http://www.w3.org/2000/svg&quot;
-          width={size}
-          height={size}
-          viewBox=&quot;0 0 24 24&quot;
-          fill=&quot;none&quot;
-          stroke=&quot;currentColor&quot;
-          strokeWidth=&quot;2&quot;
-          strokeLinecap=&quot;round&quot;
-          strokeLinejoin=&quot;round&quot;
-        &gt;
-          &lt;circle cx=&quot;12&quot; cy=&quot;12&quot; r=&quot;10&quot; /&gt;
-        &lt;/svg&gt;
-      );
-    };
+    const Loader = ({ size }) =&gt; { return ( &lt;svg className=“loader” xmlns=“http://www.w3.org/2000/svg” width={size} height={size} viewBox=“0 0 24 24” fill=“none” stroke=“currentColor” strokeWidth=“2” strokeLinecap=“round” strokeLinejoin=“round” &gt; &lt;circle cx=“12” cy=“12” r=“10” /&gt; &lt;/svg&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(&lt;Loader size={24} /&gt;, document.getElementById(&quot;root&quot;));
+    ReactDOM.render(&lt;Loader size={24} /&gt;, document.getElementById(“root”));
 
 ------------------------------------------------------------------------
 
@@ -1375,64 +1134,21 @@ Renders a Modal component, controllable through events.
 -   Use the `isVisible` prop passed down from the parent to determine if the modal should be displayed or not.
 -   To use the component, import `Modal` only once and then display it by passing a boolean value to the `isVisible` attribute.
 
-    .modal {  position: fixed;  top: 0;  bottom: 0;  left: 0;  right: 0;  width: 100%;  z-index: 9999;  display: flex;  align-items: center;  justify-content: center;  background-color: rgba(0, 0, 0, 0.25);  animation-name: appear;  animation-duration: 300ms;}.modal-dialog {  width: 100%;  max-width: 550px;  background: white;  position: relative;  margin: 0 20px;  max-height: calc(100vh - 40px);  text-align: left;  display: flex;  flex-direction: column;  overflow: hidden;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  -webkit-animation-name: animatetop;  -webkit-animation-duration: 0.4s;  animation-name: slide-in;  animation-duration: 0.5s;}.modal-header,.modal-footer {  display: flex;  align-items: center;  padding: 1rem;}.modal-header {  border-bottom: 1px solid #dbdbdb;  justify-content: space-between;}.modal-footer {  border-top: 1px solid #dbdbdb;  justify-content: flex-end;}.modal-close {  cursor: pointer;  padding: 1rem;  margin: -1rem -1rem -1rem auto;}.modal-body {  overflow: auto;}.modal-content {  padding: 1rem;}@keyframes appear {  from {    opacity: 0;  }  to {    opacity: 1;  }}@keyframes slide-in {  from {    transform: translateY(-150px);  }  to {    transform: translateY(0);  }}
+    .modal { position: fixed; top: 0; bottom: 0; left: 0; right: 0; width: 100%; z-index: 9999; display: flex; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0.25); animation-name: appear; animation-duration: 300ms;}.modal-dialog { width: 100%; max-width: 550px; background: white; position: relative; margin: 0 20px; max-height: calc(100vh - 40px); text-align: left; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); -webkit-animation-name: animatetop; -webkit-animation-duration: 0.4s; animation-name: slide-in; animation-duration: 0.5s;}.modal-header,.modal-footer { display: flex; align-items: center; padding: 1rem;}.modal-header { border-bottom: 1px solid \#dbdbdb; justify-content: space-between;}.modal-footer { border-top: 1px solid \#dbdbdb; justify-content: flex-end;}.modal-close { cursor: pointer; padding: 1rem; margin: -1rem -1rem -1rem auto;}.modal-body { overflow: auto;}.modal-content { padding: 1rem;}<span class="citation" data-cites="keyframes">@keyframes</span> appear { from { opacity: 0; } to { opacity: 1; }}<span class="citation" data-cites="keyframes">@keyframes</span> slide-in { from { transform: translateY(-150px); } to { transform: translateY(0); }}
 
-    const Modal = ({ isVisible = false, title, content, footer, onClose }) =&gt; {
-      const keydownHandler = ({ key }) =&gt; {
-        switch (key) {
-          case &quot;Escape&quot;:
-            onClose();
-            break;
-          default:
-        }
-      };
+    const Modal = ({ isVisible = false, title, content, footer, onClose }) =&gt; { const keydownHandler = ({ key }) =&gt; { switch (key) { case “Escape”: onClose(); break; default: } };
 
-    React.useEffect(() =&gt; {
-    document.addEventListener(&quot;keydown&quot;, keydownHandler);
-    return () =&gt; document.removeEventListener(&quot;keydown&quot;, keydownHandler);
-    });
+    React.useEffect(() =&gt; { document.addEventListener(“keydown”, keydownHandler); return () =&gt; document.removeEventListener(“keydown”, keydownHandler); });
 
-    return !isVisible ? null : (
-    &lt;div className=&quot;modal&quot; onClick={onClose}&gt;
-    &lt;div className=&quot;modal-dialog&quot; onClick={(e) =&gt; e.stopPropagation()}&gt;
-    &lt;div className=&quot;modal-header&quot;&gt;
-    &lt;h3 className=&quot;modal-title&quot;&gt;{title}&lt;/h3&gt;
-    &lt;span className=&quot;modal-close&quot; onClick={onClose}&gt;
-    &amp;times;
-    &lt;/span&gt;
-    &lt;/div&gt;
-    &lt;div className=&quot;modal-body&quot;&gt;
-    &lt;div className=&quot;modal-content&quot;&gt;{content}&lt;/div&gt;
-    &lt;/div&gt;
-    {footer &amp;&amp; &lt;div className=&quot;modal-footer&quot;&gt;{footer}&lt;/div&gt;}
-    &lt;/div&gt;
-    &lt;/div&gt;
-    );
-    };
+    return !isVisible ? null : ( &lt;div className=“modal” onClick={onClose}&gt; &lt;div className=“modal-dialog” onClick={(e) =&gt; e.stopPropagation()}&gt; &lt;div className=“modal-header”&gt; &lt;h3 className=“modal-title”&gt;{title}&lt;/h3&gt; &lt;span className=“modal-close” onClick={onClose}&gt; &times; &lt;/span&gt; &lt;/div&gt; &lt;div className=“modal-body”&gt; &lt;div className=“modal-content”&gt;{content}&lt;/div&gt; &lt;/div&gt; {footer && &lt;div className=“modal-footer”&gt;{footer}&lt;/div&gt;} &lt;/div&gt; &lt;/div&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
+    const App = () =&gt; { const \[isModal, setModal\] = React.useState(false); return ( &lt;&gt; &lt;button onClick={() =&gt; setModal(true)}&gt;Click Here&lt;/button&gt; &lt;Modal isVisible={isModal} title=“Modal Title” content={&lt;p&gt;Add your content here&lt;/p&gt;} footer={&lt;button&gt;Cancel&lt;/button&gt;} onClose={() =&gt; setModal(false)} /&gt; &lt;/&gt; ); };
 
-    ```js
-
-    const App = () =&gt; {
-      const [isModal, setModal] = React.useState(false);
-      return (
-        &lt;&gt;
-          &lt;button onClick={() =&gt; setModal(true)}&gt;Click Here&lt;/button&gt;
-          &lt;Modal
-            isVisible={isModal}
-            title=&quot;Modal Title&quot;
-            content={&lt;p&gt;Add your content here&lt;/p&gt;}
-            footer={&lt;button&gt;Cancel&lt;/button&gt;}
-            onClose={() =&gt; setModal(false)}
-          /&gt;
-        &lt;/&gt;
-      );
-    };
-
-    ReactDOM.render(&lt;App /&gt;, document.getElementById(&quot;root&quot;));
+    ReactDOM.render(&lt;App /&gt;, document.getElementById(“root”));
 
 ------------------------------------------------------------------------
 
@@ -1521,58 +1237,21 @@ Renders a button that animates a ripple effect when clicked.
 -   Use a `useEffect()` hook to reset `coords` whenever the `isRippling` state variable is `false.`
 -   Handle the `onClick` event by updating the `coords` state variable and calling the passed callback.
 
-    .ripple-button {  border-radius: 4px;  border: none;  margin: 8px;  padding: 14px 24px;  background: #1976d2;  color: #fff;  overflow: hidden;  position: relative;  cursor: pointer;}.ripple-button > .ripple {  width: 20px;  height: 20px;  position: absolute;  background: #63a4ff;  display: block;  content: "";  border-radius: 9999px;  opacity: 1;  animation: 0.9s ease 1 forwards ripple-effect;}@keyframes ripple-effect {  0% {    transform: scale(1);    opacity: 1;  }  50% {    transform: scale(10);    opacity: 0.375;  }  100% {    transform: scale(35);    opacity: 0;  }}.ripple-button > .content {  position: relative;  z-index: 2;}
+    .ripple-button { border-radius: 4px; border: none; margin: 8px; padding: 14px 24px; background: \#1976d2; color: \#fff; overflow: hidden; position: relative; cursor: pointer;}.ripple-button &gt; .ripple { width: 20px; height: 20px; position: absolute; background: \#63a4ff; display: block; content: ""; border-radius: 9999px; opacity: 1; animation: 0.9s ease 1 forwards ripple-effect;}<span class="citation" data-cites="keyframes">@keyframes</span> ripple-effect { 0% { transform: scale(1); opacity: 1; } 50% { transform: scale(10); opacity: 0.375; } 100% { transform: scale(35); opacity: 0; }}.ripple-button &gt; .content { position: relative; z-index: 2;}
 
-    const RippleButton = ({ children, onClick }) =&gt; {
-      const [coords, setCoords] = React.useState({ x: -1, y: -1 });
-      const [isRippling, setIsRippling] = React.useState(false);
+    const RippleButton = ({ children, onClick }) =&gt; { const \[coords, setCoords\] = React.useState({ x: -1, y: -1 }); const \[isRippling, setIsRippling\] = React.useState(false);
 
-    React.useEffect(() =&gt; {
-    if (coords.x !== -1 &amp;&amp; coords.y !== -1) {
-    setIsRippling(true);
-    setTimeout(() =&gt; setIsRippling(false), 300);
-    } else setIsRippling(false);
-    }, [coords]);
+    React.useEffect(() =&gt; { if (coords.x !== -1 && coords.y !== -1) { setIsRippling(true); setTimeout(() =&gt; setIsRippling(false), 300); } else setIsRippling(false); }, \[coords\]);
 
-    React.useEffect(() =&gt; {
-    if (!isRippling) setCoords({ x: -1, y: -1 });
-    }, [isRippling]);
+    React.useEffect(() =&gt; { if (!isRippling) setCoords({ x: -1, y: -1 }); }, \[isRippling\]);
 
-    return (
-    &lt;button
-    className=&quot;ripple-button&quot;
-    onClick={(e) =&gt; {
-    const rect = e.target.getBoundingClientRect();
-    setCoords({ x: e.clientX - rect.left, y: e.clientY - rect.top });
-    onClick &amp;&amp; onClick(e);
-    }}
-    &gt;
-    {isRippling ? (
-    &lt;span
-    className=&quot;ripple&quot;
-    style={{
-                left: coords.x,
-                top: coords.y,
-              }}
-    /&gt;
-    ) : (
-    &quot;&quot;
-    )}
-    &lt;span className=&quot;content&quot;&gt;{children}&lt;/span&gt;
-    &lt;/button&gt;
-    );
-    };
+    return ( &lt;button className=“ripple-button” onClick={(e) =&gt; { const rect = e.target.getBoundingClientRect(); setCoords({ x: e.clientX - rect.left, y: e.clientY - rect.top }); onClick && onClick(e); }} &gt; {isRippling ? ( &lt;span className=“ripple” style={{ left: coords.x, top: coords.y, }} /&gt; ) : ( "" )} &lt;span className=“content”&gt;{children}&lt;/span&gt; &lt;/button&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(
-      &lt;RippleButton onClick={(e) =&gt; console.log(e)}&gt;Click me&lt;/RippleButton&gt;,
-      document.getElementById(&quot;root&quot;)
-    );
+    ReactDOM.render( &lt;RippleButton onClick={(e) =&gt; console.log(e)}&gt;Click me&lt;/RippleButton&gt;, document.getElementById(“root”) );
 
 ------------------------------------------------------------------------
 
@@ -1664,52 +1343,9 @@ Renders a star rating component.
 -   Use `Array.from()` to create an array of `5` elements and `Array.prototype.map()` to create individual `<Star>` components.
 -   Handle the `onMouseOver` and `onMouseLeave` events of the wrapping element using `hoverOver` and the `onClick` event using `setRating`.
 
-    .star {  color: #ff9933;  cursor: pointer;}
+    .star { color: \#ff9933; cursor: pointer;}
 
-    const Star = ({ marked, starId }) =&gt; {
-      return (
-        &lt;span data-star-id={starId} className=&quot;star&quot; role=&quot;button&quot;&gt;
-          {marked ? &quot;\u2605&quot; : &quot;\u2606&quot;}
-        &lt;/span&gt;
-      );
-    };
-
-    const StarRating = ({ value }) =&gt; {
-    const [rating, setRating] = React.useState(parseInt(value) || 0);
-    const [selection, setSelection] = React.useState(0);
-
-    const hoverOver = (event) =&gt; {
-    let val = 0;
-    if (event &amp;&amp; event.target &amp;&amp; event.target.getAttribute(&quot;data-star-id&quot;))
-    val = event.target.getAttribute(&quot;data-star-id&quot;);
-    setSelection(val);
-    };
-    return (
-    &lt;div
-    onMouseOut={() =&gt; hoverOver(null)}
-    onClick={(e) =&gt;
-    setRating(e.target.getAttribute(&quot;data-star-id&quot;) || rating)
-    }
-    onMouseOver={hoverOver}
-    &gt;
-    {Array.from({ length: 5 }, (v, i) =&gt; (
-    &lt;Star
-    starId={i + 1}
-    key={`star_${i + 1}`}
-    marked={selection ? selection &gt;= i + 1 : rating &gt;= i + 1}
-    /&gt;
-    ))}
-    &lt;/div&gt;
-    );
-    };
-
-
-
-    <hr />
-
-    ```js
-
-    ReactDOM.render(&lt;StarRating value={2} /&gt;, document.getElementById(&quot;root&quot;));
+    const Star = ({ marked, starId }) =&gt; { return ( &lt;span data-star-id={starId} className=“star” role=“button”&gt; {marked ? "
 
 ------------------------------------------------------------------------
 
@@ -1721,61 +1357,19 @@ Renders a tabbed menu and view component.
 -   `changeTab` executes the passed callback, `onTabClick`, and updates `bindIndex` based on the clicked element.
 -   Use `Array.prototype.map()` on the collected nodes to render the menu and view of the tabs, using the value of `binIndex` to determine the active tab and apply the correct `className`.
 
-    .tab-menu > button {  cursor: pointer;  padding: 8px 16px;  border: 0;  border-bottom: 2px solid transparent;  background: none;}.tab-menu > button.focus {  border-bottom: 2px solid #007bef;}.tab-menu > button:hover {  border-bottom: 2px solid #007bef;}.tab-content {  display: none;}.tab-content.selected {  display: block;}
+    .tab-menu &gt; button { cursor: pointer; padding: 8px 16px; border: 0; border-bottom: 2px solid transparent; background: none;}.tab-menu &gt; button.focus { border-bottom: 2px solid \#007bef;}.tab-menu &gt; button:hover { border-bottom: 2px solid \#007bef;}.tab-content { display: none;}.tab-content.selected { display: block;}
 
-    const TabItem = (props) =&gt; &lt;div {...props} /&gt;;
+    const TabItem = (props) =&gt; &lt;div {…props} /&gt;;
 
-    const Tabs = ({ defaultIndex = 0, onTabClick, children }) =&gt; {
-    const [bindIndex, setBindIndex] = React.useState(defaultIndex);
-    const changeTab = (newIndex) =&gt; {
-    if (typeof onItemClick === &quot;function&quot;) onItemClick(itemIndex);
-    setBindIndex(newIndex);
-    };
-    const items = children.filter((item) =&gt; item.type.name === &quot;TabItem&quot;);
+    const Tabs = ({ defaultIndex = 0, onTabClick, children }) =&gt; { const \[bindIndex, setBindIndex\] = React.useState(defaultIndex); const changeTab = (newIndex) =&gt; { if (typeof onItemClick === “function”) onItemClick(itemIndex); setBindIndex(newIndex); }; const items = children.filter((item) =&gt; item.type.name === “TabItem”);
 
-    return (
-    &lt;div className=&quot;wrapper&quot;&gt;
-    &lt;div className=&quot;tab-menu&quot;&gt;
-    {items.map(({ props: { index, label } }) =&gt; (
-    &lt;button
-    key={`tab-btn-${index}`}
-    onClick={() =&gt; changeTab(index)}
-    className={bindIndex === index ? &quot;focus&quot; : &quot;&quot;}
-    &gt;
-    {label}
-    &lt;/button&gt;
-    ))}
-    &lt;/div&gt;
-    &lt;div className=&quot;tab-view&quot;&gt;
-    {items.map(({ props }) =&gt; (
-    &lt;div
-    {...props}
-    className={`tab-content ${ bindIndex === props.index ? &quot;selected&quot; : &quot;&quot; }`}
-    key={`tab-content-${props.index}`}
-    /&gt;
-    ))}
-    &lt;/div&gt;
-    &lt;/div&gt;
-    );
-    };
+    return ( &lt;div className=“wrapper”&gt; &lt;div className=“tab-menu”&gt; {items.map(({ props: { index, label } }) =&gt; ( &lt;button key={`tab-btn-${index}`} onClick={() =&gt; changeTab(index)} className={bindIndex === index ? “focus” : "“} &gt; {label} &lt;/button&gt; ))} &lt;/div&gt; &lt;div className=”tab-view"&gt; {items.map(({ props }) =&gt; ( &lt;div {…props} className={`tab-content ${ bindIndex === props.index ? &quot;selected&quot; : &quot;&quot; }`} key={`tab-content-${props.index}`} /&gt; ))} &lt;/div&gt; &lt;/div&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(
-      &lt;Tabs defaultIndex=&quot;1&quot; onTabClick={console.log}&gt;
-        &lt;TabItem label=&quot;A&quot; index=&quot;1&quot;&gt;
-          Lorem ipsum
-        &lt;/TabItem&gt;
-        &lt;TabItem label=&quot;B&quot; index=&quot;2&quot;&gt;
-          Dolor sit amet
-        &lt;/TabItem&gt;
-      &lt;/Tabs&gt;,
-      document.getElementById(&quot;root&quot;)
-    );
+    ReactDOM.render( &lt;Tabs defaultIndex=“1” onTabClick={console.log}&gt; &lt;TabItem label=“A” index=“1”&gt; Lorem ipsum &lt;/TabItem&gt; &lt;TabItem label=“B” index=“2”&gt; Dolor sit amet &lt;/TabItem&gt; &lt;/Tabs&gt;, document.getElementById(“root”) );
 
 ------------------------------------------------------------------------
 
@@ -1788,53 +1382,15 @@ Renders a tag input field.
 -   Define the `removeTagData` method, which will be executed on clicking the delete icon in the tag.
 -   Use `Array.prototype.filter()` in the `removeTagData` method to remove the tag using its `index` to filter it out from the `tagData` array.
 
-    .tag-input {  display: flex;  flex-wrap: wrap;  min-height: 48px;  padding: 0 8px;  border: 1px solid #d6d8da;  border-radius: 6px;}.tag-input input {  flex: 1;  border: none;  height: 46px;  font-size: 14px;  padding: 4px 0 0;}.tag-input input:focus {  outline: transparent;}.tags {  display: flex;  flex-wrap: wrap;  padding: 0;  margin: 8px 0 0;}.tag {  width: auto;  height: 32px;  display: flex;  align-items: center;  justify-content: center;  color: #fff;  padding: 0 8px;  font-size: 14px;  list-style: none;  border-radius: 6px;  margin: 0 8px 8px 0;  background: #0052cc;}.tag-title {  margin-top: 3px;}.tag-close-icon {  display: block;  width: 16px;  height: 16px;  line-height: 16px;  text-align: center;  font-size: 14px;  margin-left: 8px;  color: #0052cc;  border-radius: 50%;  background: #fff;  cursor: pointer;}
+    .tag-input { display: flex; flex-wrap: wrap; min-height: 48px; padding: 0 8px; border: 1px solid \#d6d8da; border-radius: 6px;}.tag-input input { flex: 1; border: none; height: 46px; font-size: 14px; padding: 4px 0 0;}.tag-input input:focus { outline: transparent;}.tags { display: flex; flex-wrap: wrap; padding: 0; margin: 8px 0 0;}.tag { width: auto; height: 32px; display: flex; align-items: center; justify-content: center; color: \#fff; padding: 0 8px; font-size: 14px; list-style: none; border-radius: 6px; margin: 0 8px 8px 0; background: \#0052cc;}.tag-title { margin-top: 3px;}.tag-close-icon { display: block; width: 16px; height: 16px; line-height: 16px; text-align: center; font-size: 14px; margin-left: 8px; color: \#0052cc; border-radius: 50%; background: \#fff; cursor: pointer;}
 
-    const TagInput = ({ tags }) =&gt; {
-      const [tagData, setTagData] = React.useState(tags);
-      const removeTagData = (indexToRemove) =&gt; {
-        setTagData([...tagData.filter((_, index) =&gt; index !== indexToRemove)]);
-      };
-      const addTagData = (event) =&gt; {
-        if (event.target.value !== &quot;&quot;) {
-          setTagData([...tagData, event.target.value]);
-          event.target.value = &quot;&quot;;
-        }
-      };
-      return (
-        &lt;div className=&quot;tag-input&quot;&gt;
-          &lt;ul className=&quot;tags&quot;&gt;
-            {tagData.map((tag, index) =&gt; (
-              &lt;li key={index} className=&quot;tag&quot;&gt;
-                &lt;span className=&quot;tag-title&quot;&gt;{tag}&lt;/span&gt;
-                &lt;span
-                  className=&quot;tag-close-icon&quot;
-                  onClick={() =&gt; removeTagData(index)}
-                &gt;
-                  x
-                &lt;/span&gt;
-              &lt;/li&gt;
-            ))}
-          &lt;/ul&gt;
-          &lt;input
-            type=&quot;text&quot;
-            onKeyUp={(event) =&gt; (event.key === &quot;Enter&quot; ? addTagData(event) : null)}
-            placeholder=&quot;Press enter to add a tag&quot;
-          /&gt;
-        &lt;/div&gt;
-      );
-    };
+    const TagInput = ({ tags }) =&gt; { const \[tagData, setTagData\] = React.useState(tags); const removeTagData = (indexToRemove) =&gt; { setTagData(\[…tagData.filter((\_, index) =&gt; index !== indexToRemove)\]); }; const addTagData = (event) =&gt; { if (event.target.value !== "“) { setTagData(\[…tagData, event.target.value\]); event.target.value =”“; } }; return ( &lt;div className=”tag-input“&gt; &lt;ul className=”tags“&gt; {tagData.map((tag, index) =&gt; ( &lt;li key={index} className=”tag“&gt; &lt;span className=”tag-title“&gt;{tag}&lt;/span&gt; &lt;span className=”tag-close-icon" onClick={() =&gt; removeTagData(index)} &gt; x &lt;/span&gt; &lt;/li&gt; ))} &lt;/ul&gt; &lt;input type=“text” onKeyUp={(event) =&gt; (event.key === “Enter” ? addTagData(event) : null)} placeholder=“Press enter to add a tag” /&gt; &lt;/div&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(
-      &lt;TagInput tags={[&quot;Nodejs&quot;, &quot;MongoDB&quot;]} /&gt;,
-      document.getElementById(&quot;root&quot;)
-    );
+    ReactDOM.render( &lt;TagInput tags={\[“Nodejs”, “MongoDB”\]} /&gt;, document.getElementById(“root”) );
 
 ------------------------------------------------------------------------
 
@@ -1880,30 +1436,17 @@ Renders a toggle component.
 -   Use the `useState()` hook to initialize the `isToggleOn` state variable to `defaultToggled`.
 -   Render an `<input>` and bind its `onClick` event to update the `isToggledOn` state variable, applying the appropriate `className` to the wrapping `<label>`.
 
-    .toggle input[type="checkbox"] {  display: none;}.toggle.on {  background-color: green;}.toggle.off {  background-color: red;}
+    .toggle input\[type=“checkbox”\] { display: none;}.toggle.on { background-color: green;}.toggle.off { background-color: red;}
 
-    const Toggle = ({ defaultToggled = false }) =&gt; {
-      const [isToggleOn, setIsToggleOn] = React.useState(defaultToggled);
+    const Toggle = ({ defaultToggled = false }) =&gt; { const \[isToggleOn, setIsToggleOn\] = React.useState(defaultToggled);
 
-    return (
-    &lt;label className={isToggleOn ? &quot;toggle on&quot; : &quot;toggle off&quot;}&gt;
-    &lt;input
-    type=&quot;checkbox&quot;
-    checked={isToggleOn}
-    onChange={() =&gt; setIsToggleOn(!isToggleOn)}
-    /&gt;
-    {isToggleOn ? &quot;ON&quot; : &quot;OFF&quot;}
-    &lt;/label&gt;
-    );
-    };
+    return ( &lt;label className={isToggleOn ? “toggle on” : “toggle off”}&gt; &lt;input type=“checkbox” checked={isToggleOn} onChange={() =&gt; setIsToggleOn(!isToggleOn)} /&gt; {isToggleOn ? “ON” : “OFF”} &lt;/label&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(&lt;Toggle /&gt;, document.getElementById(&quot;root&quot;));
+    ReactDOM.render(&lt;Toggle /&gt;, document.getElementById(“root”));
 
 ------------------------------------------------------------------------
 
@@ -1913,40 +1456,17 @@ Renders a tooltip component.
 -   Render a container element that contains the tooltip element and the `children` passed to the component.
 -   Handle the `onMouseEnter` and `onMouseLeave` methods, by altering the value of the `show` variable, toggling the `className` of the tooltip.
 
-    .tooltip-container {  position: relative;}.tooltip-box {  position: absolute;  background: rgba(0, 0, 0, 0.7);  color: #fff;  padding: 5px;  border-radius: 5px;  top: calc(100% + 5px);  display: none;}.tooltip-box.visible {  display: block;}.tooltip-arrow {  position: absolute;  top: -10px;  left: 50%;  border-width: 5px;  border-style: solid;  border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;}
+    .tooltip-container { position: relative;}.tooltip-box { position: absolute; background: rgba(0, 0, 0, 0.7); color: \#fff; padding: 5px; border-radius: 5px; top: calc(100% + 5px); display: none;}.tooltip-box.visible { display: block;}.tooltip-arrow { position: absolute; top: -10px; left: 50%; border-width: 5px; border-style: solid; border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;}
 
-    const Tooltip = ({ children, text, ...rest }) =&gt; {
-      const [show, setShow] = React.useState(false);
+    const Tooltip = ({ children, text, …rest }) =&gt; { const \[show, setShow\] = React.useState(false);
 
-    return (
-    &lt;div className=&quot;tooltip-container&quot;&gt;
-    &lt;div className={show ? &quot;tooltip-box visible&quot; : &quot;tooltip-box&quot;}&gt;
-    {text}
-    &lt;span className=&quot;tooltip-arrow&quot; /&gt;
-    &lt;/div&gt;
-    &lt;div
-    onMouseEnter={() =&gt; setShow(true)}
-    onMouseLeave={() =&gt; setShow(false)}
-    {...rest}
-    &gt;
-    {children}
-    &lt;/div&gt;
-    &lt;/div&gt;
-    );
-    };
+    return ( &lt;div className=“tooltip-container”&gt; &lt;div className={show ? “tooltip-box visible” : “tooltip-box”}&gt; {text} &lt;span className=“tooltip-arrow” /&gt; &lt;/div&gt; &lt;div onMouseEnter={() =&gt; setShow(true)} onMouseLeave={() =&gt; setShow(false)} {…rest} &gt; {children} &lt;/div&gt; &lt;/div&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    ReactDOM.render(
-      &lt;Tooltip text=&quot;Simple tooltip&quot;&gt;
-        &lt;button&gt;Hover me!&lt;/button&gt;
-      &lt;/Tooltip&gt;,
-      document.getElementById(&quot;root&quot;)
-    );
+    ReactDOM.render( &lt;Tooltip text=“Simple tooltip”&gt; &lt;button&gt;Hover me!&lt;/button&gt; &lt;/Tooltip&gt;, document.getElementById(“root”) );
 
 ------------------------------------------------------------------------
 
@@ -1958,89 +1478,17 @@ Renders a tree view of a JSON object or array with collapsible content.
 -   Determine the appearance of the component, based on `isParentToggled`, `isToggled`, `name` and checking for `Array.isArray()` on `data`.
 -   For each child in `data`, determine if it is an object or array and recursively render a sub-tree or a text element with the appropriate style.
 
-    .tree-element {  margin: 0 0 0 4px;  position: relative;}.tree-element.is-child {  margin-left: 16px;}div.tree-element:before {  content: "";  position: absolute;  top: 24px;  left: 1px;  height: calc(100% - 48px);  border-left: 1px solid gray;}p.tree-element {  margin-left: 16px;}.toggler {  position: absolute;  top: 10px;  left: 0px;  width: 0;  height: 0;  border-top: 4px solid transparent;  border-bottom: 4px solid transparent;  border-left: 5px solid gray;  cursor: pointer;}.toggler.closed {  transform: rotate(90deg);}.collapsed {  display: none;}
+    .tree-element { margin: 0 0 0 4px; position: relative;}.tree-element.is-child { margin-left: 16px;}div.tree-element:before { content: ""; position: absolute; top: 24px; left: 1px; height: calc(100% - 48px); border-left: 1px solid gray;}p.tree-element { margin-left: 16px;}.toggler { position: absolute; top: 10px; left: 0px; width: 0; height: 0; border-top: 4px solid transparent; border-bottom: 4px solid transparent; border-left: 5px solid gray; cursor: pointer;}.toggler.closed { transform: rotate(90deg);}.collapsed { display: none;}
 
-    const TreeView = ({
-      data,
-      toggled = true,
-      name = null,
-      isLast = true,
-      isChildElement = false,
-      isParentToggled = true,
-    }) =&gt; {
-      const [isToggled, setIsToggled] = React.useState(toggled);
-      const isDataArray = Array.isArray(data);
+    const TreeView = ({ data, toggled = true, name = null, isLast = true, isChildElement = false, isParentToggled = true, }) =&gt; { const \[isToggled, setIsToggled\] = React.useState(toggled); const isDataArray = Array.isArray(data);
 
-    return (
-    &lt;div
-    className={`tree-element ${isParentToggled &amp;&amp; &quot;collapsed&quot;} ${ isChildElement &amp;&amp; &quot;is-child&quot; }`}
-    &gt;
-    &lt;span
-    className={isToggled ? &quot;toggler&quot; : &quot;toggler closed&quot;}
-    onClick={() =&gt; setIsToggled(!isToggled)}
-    /&gt;
-    {name ? &lt;strong&gt;&amp;nbsp;&amp;nbsp;{name}: &lt;/strong&gt; : &lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;}
-    {isDataArray ? &quot;[&quot; : &quot;{&quot;}
-    {!isToggled &amp;&amp; &quot;...&quot;}
-    {Object.keys(data).map((v, i, a) =&gt;
-    typeof data[v] === &quot;object&quot; ? (
-    &lt;TreeView
-    key={`${name}-${v}-${i}`}
-    data={data[v]}
-    isLast={i === a.length - 1}
-    name={isDataArray ? null : v}
-    isChildElement
-    isParentToggled={isParentToggled &amp;&amp; isToggled}
-    /&gt;
-    ) : (
-    &lt;p
-    key={`${name}-${v}-${i}`}
-    className={isToggled ? &quot;tree-element&quot; : &quot;tree-element collapsed&quot;}
-    &gt;
-    {isDataArray ? &quot;&quot; : &lt;strong&gt;{v}: &lt;/strong&gt;}
-    {data[v]}
-    {i === a.length - 1 ? &quot;&quot; : &quot;,&quot;}
-    &lt;/p&gt;
-    )
-    )}
-    {isDataArray ? &quot;]&quot; : &quot;}&quot;}
-    {!isLast ? &quot;,&quot; : &quot;&quot;}
-    &lt;/div&gt;
-    );
-    };
+    return ( &lt;div className={`tree-element ${isParentToggled &amp;&amp; &quot;collapsed&quot;} ${ isChildElement &amp;&amp; &quot;is-child&quot; }`} &gt; &lt;span className={isToggled ? “toggler” : “toggler closed”} onClick={() =&gt; setIsToggled(!isToggled)} /&gt; {name ? &lt;strong&gt;&nbsp;&nbsp;{name}: &lt;/strong&gt; : &lt;span&gt;&nbsp;&nbsp;&lt;/span&gt;} {isDataArray ? “\[" : "{"} {!isToggled && "…"} {Object.keys(data).map((v, i, a) =&gt; typeof data\[v\] === "object" ? ( &lt;TreeView key={`${name}-${v}-${i}`} data={data\[v\]} isLast={i === a.length - 1} name={isDataArray ? null : v} isChildElement isParentToggled={isParentToggled && isToggled} /&gt; ) : ( &lt;p key={`${name}-${v}-${i}`} className={isToggled ? "tree-element" : "tree-element collapsed"} &gt; {isDataArray ? "" : &lt;strong&gt;{v}: &lt;/strong&gt;} {data\[v\]} {i === a.length - 1 ? "" : ","} &lt;/p&gt; ) )} {isDataArray ? "\]” : “}”} {!isLast ? “,” : ""} &lt;/div&gt; ); };
 
+    ------------------------------------------------------------------------
 
+    \`\`\`js
 
-    <hr />
-
-    ```js
-
-    const data = {
-      lorem: {
-        ipsum: &quot;dolor sit&quot;,
-        amet: {
-          consectetur: &quot;adipiscing&quot;,
-          elit: [
-            &quot;duis&quot;,
-            &quot;vitae&quot;,
-            {
-              semper: &quot;orci&quot;,
-            },
-            {
-              est: &quot;sed ornare&quot;,
-            },
-            &quot;etiam&quot;,
-            [&quot;laoreet&quot;, &quot;tincidunt&quot;],
-            [&quot;vestibulum&quot;, &quot;ante&quot;],
-          ],
-        },
-        ipsum: &quot;primis&quot;,
-      },
-    };
-    ReactDOM.render(
-      &lt;TreeView data={data} name=&quot;data&quot; /&gt;,
-      document.getElementById(&quot;root&quot;)
-    );
+    const data = { lorem: { ipsum: “dolor sit”, amet: { consectetur: “adipiscing”, elit: \[ “duis”, “vitae”, { semper: “orci”, }, { est: “sed ornare”, }, “etiam”, \[“laoreet”, “tincidunt”\], \[“vestibulum”, “ante”\], \], }, ipsum: “primis”, }, }; ReactDOM.render( &lt;TreeView data={data} name=“data” /&gt;, document.getElementById(“root”) );
 
 ------------------------------------------------------------------------
 
@@ -2501,7 +1949,7 @@ Implements `setInterval` in a declarative manner.
 
 Checks if the current environment matches a given media query and returns the appropriate value.
 
--   Check if `window` and `window.matchMedia` exist, return `whenFalse` if not (e.g. SSR environment or unsupported browser).
+-   Check if `window` and `window.matchMedia` exist, return `whenFalse` if not (e.g. SSR environment or unsupported browser).
 -   Use `window.matchMedia()` to match the given `query`, cast its `matches` property to a boolean and store in a state variable, `match`, using the `useState()` hook.
 -   Use the `useEffect()` hook to add a listener for changes and to clean up the listeners after the hook is destroyed.
 -   Return either `whenTrue` or `whenFalse` based on the value of `match`.
@@ -2594,7 +2042,7 @@ Returns a stateful value, persisted in `localStorage`, and a function to update 
 -   When the component is first mounted, use `Storage.getItem()` to update `value` if there’s a stored value or `Storage.setItem()` to persist the current value.
 -   When `value` is updated, use `Storage.setItem()` to store the new value.
 -   When `name` is updated, use `Storage.setItem()` to create the new key, update the `nameRef` and use `Storage.removeItem()` to remove the previous key from `localStorage`.
--   **NOTE:** The hook is meant for use with primitive values (i.e. not objects) and doesn’t account for changes to `localStorage` due to other code. Both of these issues can be easily handled (e.g. JSON serialization and handling the `'storage'` event).
+-   **NOTE:** The hook is meant for use with primitive values (i.e. not objects) and doesn’t account for changes to `localStorage` due to other code. Both of these issues can be easily handled (e.g. JSON serialization and handling the `'storage'` event).
 
 <!-- -->
 
@@ -2861,13 +2309,9 @@ Handles the `beforeunload` window event.
 Jump to Section
 ---------------
 
-  
-
-  
-
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

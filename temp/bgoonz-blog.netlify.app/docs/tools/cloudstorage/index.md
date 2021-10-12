@@ -1,51 +1,38 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs" class="button">Docs</a>
     -   <a href="/showcase" class="button">Showcase</a>
     -   <a href="/docs/faq/contact" class="button">Contact!</a>
     -   <a href="/docs/python/python-ds" class="button">Python</a>
-
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
     -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
     -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
     -   <a href="/blog/platform-docs/" class="button">platform docs</a>
     -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
     -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
-
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
     -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
     -   <a href="#" class="button">Bootcamp Resources</a>
     -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
     -   <a href="/docs/gallery" class="button">Gallery</a>
     -   <a href="/docs" class="button">Top Repos</a>
-
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
     -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
-
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
     -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
     -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
     -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
     -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
-
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
     -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
     -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
@@ -55,9 +42,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
     -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
     -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
-
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
     -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
     -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
@@ -67,21 +52,18 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
     -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
-Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
+Navigate Docs<span class="icon-angle-right" data-aria-hidden="true"></span>
 
 -   [Docs](/docs/)
--   [About](/docs/about/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [About](/docs/about/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Job Search](/docs/about/job-search/)
     -   [Youtube](/docs/about/intrests/)
     -   [Resume](/docs/about/resume/)
     -   [Engineering Portfolio](/docs/about/eng-portfolio/)
     -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
-
--   [Articles](/docs/articles/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Articles](/docs/articles/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [The HTTP Protocol](/docs/articles/http/)
     -   [How The Web Works](/docs/articles/how-the-web-works/)
     -   [Sorting Algorithms](/docs/articles/node-package-manager/)
@@ -114,22 +96,16 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Semantic Versioning](/docs/articles/semantic/)
     -   [Writing Files](/docs/articles/writing-files/)
     -   [Node APIs With Express](/docs/articles/node-api-express/)
-
--   [Audio](/docs/audio/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Audio](/docs/audio/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
     -   [Audio](/docs/audio/audio/)
     -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
     -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
     -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
     -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
-
--   [Community](/docs/community/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Community](/docs/community/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Video Chat](/docs/community/video-chat/)
-
--   [Content](/docs/content/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Content](/docs/content/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
     -   [History API](/docs/content/history-api/)
     -   [Lambda School Projects](/docs/content/lambda-projects/)
@@ -140,9 +116,7 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
     -   [Embeded Websites & Projects](/docs/content/recent-projects/)
     -   [Algorithms & Data Structures](/docs/content/algo/)
-
--   [Documentation](/docs/docs/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Documentation](/docs/docs/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Apendix](/docs/docs/appendix/)
     -   [Await](/docs/docs/await-keyword/)
     -   [Git Reference](/docs/docs/git-reference/)
@@ -155,33 +129,23 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Learn Css](/docs/docs/css/)
     -   [Useful Snippets](/docs/docs/content/)
     -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
-
--   [FAQ](/docs/faq/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [FAQ](/docs/faq/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Plug-ins](/docs/faq/plug-ins/)
     -   [Contact!](/docs/faq/contact/)
-
--   [Javascript](/docs/javascript/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Javascript](/docs/javascript/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Javascript Concepts Review](/docs/javascript/review/)
     -   [Constructor Functions](/docs/javascript/constructor-functions/)
     -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
-
--   [Interactive Examples](/docs/interact/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Interactive Examples](/docs/interact/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Callstack Visualizer](/docs/interact/callstack-visual/)
     -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
     -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
     -   [Other Websites](/docs/interact/other-sites/)
     -   [Clock](/docs/interact/clock/)
-
--   [Medium](/docs/medium/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Medium](/docs/medium/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [My Sites](/docs/medium/my-websites/)
     -   [Medium](/docs/medium/medium-links/)
-
--   [Quick Reference](/docs/quick-reference/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Quick Reference](/docs/quick-reference/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Git Bash](/docs/quick-reference/git-bash/)
     -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
     -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
@@ -204,9 +168,7 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
     -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
     -   [vscode-themes](/docs/quick-reference/vscode-themes/)
-
--   [React](/docs/react/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [React](/docs/react/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [React Cheat Sheets:](/docs/react/cheatsheet/)
     -   [React Class Components Demo](/docs/react/demo/)
     -   [Introducing JSX](/docs/react/jsx/)
@@ -215,17 +177,13 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Intro To React](/docs/react/react2/)
     -   [npx-create-react-app](/docs/react/createReactApp/)
     -   [React Docs](/docs/react/react-docs/)
-
--   [Tools](/docs/tools/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Tools](/docs/tools/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Data Structures](/docs/tools/data-structures/)
     -   [General Utilities](/docs/tools/dev-utilities/)
     -   [more tools](/docs/tools/more-tools/)
     -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
     -   [md and html](/docs/tools/markdown-html/)
-
--   [My Python Docs](/docs/python/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [My Python Docs](/docs/python/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [lorem-ipsum](/docs/python/basics/)
     -   [lorem-ipsum](/docs/python/flow-control/)
     -   [google-sheets-api](/docs/python/google-sheets-api/)
@@ -290,7 +248,7 @@ Grant and revoke authorization to Cloud SDK
 -   [gcloud auth login](https://cloud.google.com/sdk/gcloud/reference/auth/login): Authorize Google Cloud access for the gcloud tool with Google user credentials and set current account as active.
 -   [gcloud auth activate-service-account](https://cloud.google.com/sdk/gcloud/reference/auth/activate-service-account): Like gcloud auth login but with service account credentials.
 -   [gcloud auth list](https://cloud.google.com/sdk/gcloud/reference/auth/list): List all credentialed accounts.
--   [gcloud auth print-access-token](https://cloud.google.com/sdk/gcloud/reference/auth/print-access-token): Display the current account's access token.
+-   [gcloud auth print-access-token](https://cloud.google.com/sdk/gcloud/reference/auth/print-access-token): Display the current account’s access token.
 -   [gcloud auth revoke](https://cloud.google.com/sdk/gcloud/reference/auth/revoke): Remove access credentials for an account.
 
 ### Projects
@@ -309,7 +267,7 @@ Configuring Cloud Identity & Access Management (IAM) preferences and service acc
 -   [gcloud iam service-accounts create](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/create): Create a service account for a project.
 -   [gcloud iam service-accounts add-iam-policy-binding](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/add-iam-policy-binding): Add an IAM policy binding to a service account.
 -   [gcloud iam service-accounts set-iam-policy-binding](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/set-iam-policy): Replace existing IAM policy binding.
--   [gcloud iam service-accounts keys list](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/list): List a service account's keys.
+-   [gcloud iam service-accounts keys list](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/list): List a service account’s keys.
 
 ### Docker & Google Kubernetes Engine (GKE)
 
@@ -326,10 +284,10 @@ Manage containerized applications on Kubernetes
 Create, run, and manage VMs on Google infrastructure
 
 -   [gcloud compute zones list](https://cloud.google.com/sdk/gcloud/reference/compute/zones/list): List Compute Engine zones.
--   [gcloud compute instances describe](https://cloud.google.com/sdk/gcloud/reference/compute/instances/describe): Display a VM instance's details.
+-   [gcloud compute instances describe](https://cloud.google.com/sdk/gcloud/reference/compute/instances/describe): Display a VM instance’s details.
 -   [gcloud compute instances list](https://cloud.google.com/sdk/gcloud/reference/compute/instances/list): List all VM instances in a project.
 -   [gcloud compute disks snapshot](https://cloud.google.com/sdk/gcloud/reference/compute/disks/snapshot): Create snapshot of persistent disks.
--   [gcloud compute snapshots describe](https://cloud.google.com/sdk/gcloud/reference/compute/snapshots/describe): Display a snapshot's details.
+-   [gcloud compute snapshots describe](https://cloud.google.com/sdk/gcloud/reference/compute/snapshots/describe): Display a snapshot’s details.
 -   [gcloud compute snapshots delete](https://cloud.google.com/sdk/gcloud/reference/compute/snapshots/delete): Delete a snapshot.
 -   [gcloud compute ssh](https://cloud.google.com/sdk/gcloud/reference/compute/ssh): Connect to a VM instance by using SSH.
 
@@ -337,7 +295,7 @@ Create, run, and manage VMs on Google infrastructure
 
 Build highly scalable applications on a fully managed serverless platform
 
--   [gcloud app deploy](https://cloud.google.com/sdk/gcloud/reference/app/deploy): Deploy your app's code and configuration to the App Engine server.
+-   [gcloud app deploy](https://cloud.google.com/sdk/gcloud/reference/app/deploy): Deploy your app’s code and configuration to the App Engine server.
 -   [gcloud app versions list](https://cloud.google.com/sdk/gcloud/reference/app/versions/list): List all versions of all services deployed to the App Engine server.
 -   [gcloud app browse](https://cloud.google.com/sdk/gcloud/reference/app/browse): Open the current app in a web browser.
 -   [gcloud app create](https://cloud.google.com/sdk/gcloud/reference/app/create): Create an App Engine app within your current project.
@@ -348,7 +306,7 @@ Build highly scalable applications on a fully managed serverless platform
 Commands that might come in handy
 
 -   [gcloud kms decrypt](https://cloud.google.com/sdk/gcloud/reference/kms/decrypt): Decrypt ciphertext (to a plaintext file) using a Cloud Key Management Service (Cloud KMS) key.
--   [gcloud logging logs list](https://cloud.google.com/sdk/gcloud/reference/logging/logs/list): List your project's logs.
+-   [gcloud logging logs list](https://cloud.google.com/sdk/gcloud/reference/logging/logs/list): List your project’s logs.
 -   [gcloud sql backups describe](https://cloud.google.com/sdk/gcloud/reference/sql/backups/describe): Display info about a Cloud SQL instance backup.
 -   [gcloud sql export sql](https://cloud.google.com/sdk/gcloud/reference/sql/export/sql): Export data from a Cloud SQL instance to a SQL file.
 
@@ -370,8 +328,8 @@ Arguments can be Positional args or Flags
 
     A flag can be either a:
 
-    -   *Name-value pair* (--foo=bar), or
-    -   *Boolean* (--force/no-force).
+    -   *Name-value pair* (–foo=bar), or
+    -   *Boolean* (–force/no-force).
 
     Additionally, flags can either be:
 
@@ -382,12 +340,12 @@ Arguments can be Positional args or Flags
 
 Some flags are available throughout the gcloud command-line tool experience, like:
 
--   [--help](https://cloud.google.com/sdk/gcloud/reference#--help): For when in doubt; display detailed help for a command.
--   [--project](https://cloud.google.com/sdk/gcloud/reference#--project): If using a project other than the current one.
--   [--quiet](https://cloud.google.com/sdk/gcloud/reference#--quiet): Disabling interactive prompting (and applying default values for inputs).
--   [--verbosity](https://cloud.google.com/sdk/gcloud/reference#--verbosity): Can set verbosity levels at debug, info, warning, error, critical, and none.
--   [--version](https://cloud.google.com/sdk/gcloud/reference#--version): Display gcloud version information.
--   [--format](https://cloud.google.com/sdk/gcloud/reference#--format): Set output format as config, csv, default, diff, disable, flattened, get, json, list, multi, none, object, table, text, value, or yaml.
+-   [–help](https://cloud.google.com/sdk/gcloud/reference#--help): For when in doubt; display detailed help for a command.
+-   [–project](https://cloud.google.com/sdk/gcloud/reference#--project): If using a project other than the current one.
+-   [–quiet](https://cloud.google.com/sdk/gcloud/reference#--quiet): Disabling interactive prompting (and applying default values for inputs).
+-   [–verbosity](https://cloud.google.com/sdk/gcloud/reference#--verbosity): Can set verbosity levels at debug, info, warning, error, critical, and none.
+-   [–version](https://cloud.google.com/sdk/gcloud/reference#--version): Display gcloud version information.
+-   [–format](https://cloud.google.com/sdk/gcloud/reference#--format): Set output format as config, csv, default, diff, disable, flattened, get, json, list, multi, none, object, table, text, value, or yaml.
 
 ### Cleaning up results
 
@@ -410,7 +368,7 @@ The gcloud command-line tool is a tree; non-leaf nodes are command groups and le
 
 Most gcloud commands follow the following format:
 
-For example: gcloud + compute + instances + create + example-instance-1 + --zone=us-central1-a
+For example: gcloud + compute + instances + create + example-instance-1 + –zone=us-central1-a
 
 #### Release level
 
@@ -444,20 +402,16 @@ For example: gcloud + compute + instances + create + example-instance-1 + --zon
 
 #### Flags
 
-*Flags* refer to the additional arguments, --flag-name(=value), passed in to the command after positional args.
+*Flags* refer to the additional arguments, –flag-name(=value), passed in to the command after positional args.
 
-*Example:* --machine-type=&lt;MACHINE\_TYPE&gt; and --preemptible are optional flags for gcloud compute instances create.
+*Example:* –machine-type=&lt;MACHINE\_TYPE&gt; and –preemptible are optional flags for gcloud compute instances create.
 
 Jump to Section
 ---------------
 
-  
-
-  
-
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

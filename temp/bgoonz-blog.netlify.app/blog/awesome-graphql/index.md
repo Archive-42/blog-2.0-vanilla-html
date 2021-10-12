@@ -1,51 +1,38 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs" class="button">Docs</a>
     -   <a href="/showcase" class="button">Showcase</a>
     -   <a href="/docs/faq/contact" class="button">Contact!</a>
     -   <a href="/docs/python/python-ds" class="button">Python</a>
-
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
     -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
     -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
     -   <a href="/blog/platform-docs/" class="button">platform docs</a>
     -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
     -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
-
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
     -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
     -   <a href="#" class="button">Bootcamp Resources</a>
     -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
     -   <a href="/docs/gallery" class="button">Gallery</a>
     -   <a href="/docs" class="button">Top Repos</a>
-
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
     -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
-
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
     -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
     -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
     -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
     -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
-
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
     -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
     -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
@@ -55,9 +42,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
     -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
     -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
-
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
     -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
     -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
@@ -67,7 +52,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
     -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
 September 30, 2021
 
@@ -186,7 +171,7 @@ Libraries
 -   [graph.ql](https://github.com/matthewmueller/graph.ql) - Faster and simpler technique for creating and querying GraphQL schemas.
 -   [react-reach](https://github.com/kennetpostigo/react-reach) - A library to communicate with Graphql through Redux
 -   [Lokka](https://github.com/kadirahq/lokka) - Simple JavaScript client for GraphQL, which you can use anywhere.
--   [Strapi](http://strapi.io/documentation/graphql) - Open-source Node.js framework that supports "GraphQL" out of the box.
+-   [Strapi](http://strapi.io/documentation/graphql) - Open-source Node.js framework that supports “GraphQL” out of the box.
 -   [GraysQL](https://github.com/larsbs/graysql) - A GraphQL manager and loader.
 -   [graysql-orm-loader](https://github.com/larsbs/graysql-orm-loader) - A GraysQL extension to load a GraphQL schema from an ORM.
 -   [Annotated GraphQL](https://github.com/almilo/annotated-graphql) - Proof of Concept for annotations in GraphQL (i.e.: transform an existing REST api into a GraphQL endpoint).
@@ -259,7 +244,7 @@ Libraries
 
 ### Ruby Libraries
 
--   [graphql-ruby](https://github.com/rmosolgo/graphql-ruby) - Ruby implementation of Facebook's GraphQL.
+-   [graphql-ruby](https://github.com/rmosolgo/graphql-ruby) - Ruby implementation of Facebook’s GraphQL.
 -   [graphql-parser](https://github.com/Shopify/graphql-parser) - A small ruby gem wrapping the libgraphqlparser C library for parsing GraphQL.
 -   [graphql-client](https://github.com/github/graphql-client) - A Ruby library for declaring, composing and executing GraphQL queries.
 -   [graphql-batch](https://github.com/Shopify/graphql-batch) - A query batching executor for the graphql gem.
@@ -302,7 +287,7 @@ Libraries
 
 -   [graphql-java](https://github.com/graphql-java/graphql-java) - GraphQL Java implementation.
 -   [graphql-java-type-generator](https://github.com/graphql-java/graphql-java-type-generator) - Auto-generates types for use with GraphQL Java
--   [schemagen-graphql](https://github.com/bpatters/schemagen-graphql) - Schema generation and execution package that turns POJO's into a GraphQL Java queryable set of objects. Enables exposing any service as a GraphQL service using Annotations.
+-   [schemagen-graphql](https://github.com/bpatters/schemagen-graphql) - Schema generation and execution package that turns POJO’s into a GraphQL Java queryable set of objects. Enables exposing any service as a GraphQL service using Annotations.
 -   [graphql-java-annotations](https://github.com/graphql-java/graphql-java-annotations) - Provides annotations-based syntax for schema definition with GraphQL Java.
 -   [spring-graphql-common](https://github.com/oembedler/spring-graphql-common) - Spring Framework GraphQL Library.
 -   [graphql-spring-boot](https://github.com/graphql-java/graphql-spring-boot) - GraphQL and GraphiQL Spring Framework Boot Starters.
@@ -327,7 +312,7 @@ Libraries
 -   [c-graphqlparser](https://github.com/tecbot/c-graphqlparser) - Go-gettable version of the libgraphqlparser C library for parsing GraphQL.
 -   [tallstreet-graphql](https://github.com/tallstreet/graphql) - GraphQL parser and server for Go that leverages libgraphqlparser
 -   [go-graphql](https://github.com/playlyfe/go-graphql) - A powerful GraphQL server implementation for Golang
--   [dataloader](https://github.com/nicksrandall/dataloader) - Implementation of Facebook's DataLoader in Golang
+-   [dataloader](https://github.com/nicksrandall/dataloader) - Implementation of Facebook’s DataLoader in Golang
 
 ### Scala Libraries
 
@@ -444,19 +429,19 @@ Tools
 -   [graphqlviz](https://github.com/sheerun/graphqlviz) - GraphQL API visualizer in Node.js
 -   [Relay Playground](http://facebook.github.io/relay/prototyping/playground.html)
 -   [GraphQL AST Explorer](http://dferber90.github.io/graphql-ast-explorer/) - Explore the AST of a GraphQL document interactively
--   [GraphQLHub](https://www.graphqlhub.com/) - Query public API's schemas (e.g. Reddit, Twitter, Github, etc) using GraphiQL
+-   [GraphQLHub](https://www.graphqlhub.com/) - Query public API’s schemas (e.g. Reddit, Twitter, Github, etc) using GraphiQL
 -   [js-graphql-intellij-plugin](https://github.com/jimkyndemeyer/js-graphql-intellij-plugin/) - GraphQL language support for IntelliJ IDEA and WebStorm, including Relay.QL tagged templates in JavaScript and TypeScript.
 -   [gdom](https://github.com/syrusakbary/gdom) - DOM Traversing and Scraping using GraphQL.
 -   [Annotated GraphQL Server](https://github.com/almilo/annotated-graphql-server) - Server for annotated GraphQL showing how to transform a REST api into a GraphQL endpoint with annotations.
 -   [Model Visualizer](http://nathanrandal.com/graphql-visualizer/) - A small webapp that generates an ERD-like visualization of a GraphQL endpoint from an introspection query.
 -   [GraphQL Network](https://github.com/Ghirro/graphql-network) - A chrome dev-tools extension for debugging GraphQL network requests.
 -   [eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql) - An ESLint plugin that checks your GraphQL strings against a schema.
--   [AST Explorer](https://astexplorer.net/) - Select "GraphQL" at the top, explore the GraphQL AST and highlight different parts by clicking in the query.
+-   [AST Explorer](https://astexplorer.net/) - Select “GraphQL” at the top, explore the GraphQL AST and highlight different parts by clicking in the query.
 -   [vim-graphql](https://github.com/jparise/vim-graphql) - A Vim plugin that provides GraphQL file detection and syntax highlighting.
 -   [GraphQL CMS](https://github.com/sarkistlt/graphql-auto-generating-cms) - Use your existing GraphQL schema to generate simple for use, fully functional CMS in a couple steps.
 -   [graphdoc](https://github.com/2fd/graphdoc) - Static page generator for documenting GraphQL Schema.
 -   [graphql-autocomplete](https://github.com/orionsoft/atom-graphql-autocomplete) - Autocomplete and lint from a GraphQL endpoint in Atom.
--   [GraphQL IDE](https://github.com/redound/graphql-ide) - An extensive IDE for exploring GraphQL API's.
+-   [GraphQL IDE](https://github.com/redound/graphql-ide) - An extensive IDE for exploring GraphQL API’s.
 -   [Swagger to GraphQL](https://github.com/yarax/swagger-to-graphql) - GraphQL types builder based on REST API described in Swagger. Allows to migrate to GraphQL from REST for 5 minutes
 -   [GraphQL Voyager](https://github.com/APIs-guru/graphql-voyager) - Represent any GraphQL API as an interactive graph.
 -   [GraphQL Docs](https://graphql-docs.com/) - Instantly create beautiful GraphQL API docs hosted online.
@@ -499,7 +484,7 @@ Examples
 -   [nodejs-api-starter](https://github.com/kriasoft/nodejs-api-starter) - Boilerplate and tooling for authoring data API backends with Node.js and GraphQL
 -   [swapi-graphql](https://github.com/graphql/swapi-graphql) - A GraphQL schema and server wrapping [swapi](http://swapi.co/).
 -   [graphql-server](https://github.com/RisingStack/graphql-server) - GraphQL server with Mongoose (MongoDB) and Node.js.
--   [graphql-intro](https://github.com/clayallsopp/graphql-intro) - <https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2>
+-   [graphql-intro](https://github.com/clayallsopp/graphql-intro) - <a href="https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2" class="uri">https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2</a>
 -   [graphql-aws](https://github.com/jonsharratt/graphql-aws) - Amazon AWS GraphQL API Server.
 -   [graffiti-todo](https://github.com/RisingStack/graffiti-todo) - Example Relay TodoMVC application using graffiti-mongoose.
 -   [devknoll/gist:8b274f1c5d05230bfade](https://gist.github.com/devknoll/8b274f1c5d05230bfade)
@@ -515,7 +500,7 @@ Examples
 -   [serverless-graphql-blog](https://github.com/serverless/serverless-graphql-blog) - A Serverless Blog leveraging GraphQL to offer a REST API with only 1 endpoint
 -   [relay-cart](https://github.com/soonlive/relay-cart) - A simple shopping cart example leveraging relay & GraphQL with routing and pagination.
 -   [graphql-loader](https://github.com/applification/graphql-loader) - Example project to illustrate GraphQL, Express and Facebook DataLoader to connect to third party REST API
--   [swapi-graphql-lambda](https://github.com/alvinthen/swapi-graphql-lambda) - A GraphQL schema hosted in AWS Lambda wrapping <http://swapi.co/>
+-   [swapi-graphql-lambda](https://github.com/alvinthen/swapi-graphql-lambda) - A GraphQL schema hosted in AWS Lambda wrapping <a href="http://swapi.co/" class="uri">http://swapi.co/</a>
 -   [Apollo Client documentation](http://dev.apollodata.com/react/) - Documentation and example for building GraphQL apps using apollo client
 -   [Apollo Server tools, products, and libraries documentation](https://www.apollographql.com/docs/) - Documentation, tutorial and examples for building GraphQL server and connecting to SQL, MongoDB and REST endpoints.
 -   [Apollo Link](https://www.apollographql.com/docs/link/) - The official guide for getting started with Apollo Link - a standard interface for modifying control flow of GraphQL requests and fetching GraphQL results.
@@ -543,7 +528,7 @@ Examples
 ### Ruby Examples
 
 -   [graphql-ruby-demo](https://github.com/rmosolgo/graphql-ruby-demo) - Use graphql-ruby to expose a Rails app.
--   [github-graphql-rails-example](https://github.com/github/github-graphql-rails-example) - Example Rails app using GitHub's GraphQL API.
+-   [github-graphql-rails-example](https://github.com/github/github-graphql-rails-example) - Example Rails app using GitHub’s GraphQL API.
 -   [relay-on-rails](https://github.com/nethsix/relay-on-rails) - Barebones starter kit for Relay application with Rails GraphQL server.
 -   [relay-rails-blog](https://github.com/gauravtiwari/relay-rails-blog) - A graphql, relay and standard rails application powered demo weblog.
 -   [to*eat*app](https://github.com/jcdavison/to_eat_app) - A sample graphql/rails/relay application with a related 3-part article series.
@@ -570,7 +555,7 @@ Examples
 
 ### PHP Examples
 
--   [Siler's GraphQL guide](https://siler.leocavalcante.com/graphql/) - A guide on how to build a PHP GraphQL endpoint.
+-   [Siler’s GraphQL guide](https://siler.leocavalcante.com/graphql/) - A guide on how to build a PHP GraphQL endpoint.
 -   [Laravel GraphQL](https://github.com/ardani/laravel-graphql) - A sample integrating GraphQL with Laravel
 -   [Adding a GraphQL API to your Symfony Flex application](https://symfony.fi/entry/adding-a-graphql-api-to-your-symfony-flex-app)
 
@@ -592,7 +577,7 @@ Videos
 -   [Building and Deploying Relay with Facebook](https://www.youtube.com/watch?t=643&v=Pxdgu2XIAAg)
 -   [Introduction to GraphQL](https://vimeo.com/144817545)
 -   [Exploring GraphQL@Scale](https://www.youtube.com/watch?v=_9RgHXqH8J0)
--   [What's Next for Phoenix by Chris McCord](https://www.youtube.com/watch?v=IMUpYOc9z3c&feature=youtu.be)
+-   [What’s Next for Phoenix by Chris McCord](https://www.youtube.com/watch?v=IMUpYOc9z3c&feature=youtu.be)
 -   [GraphQL with Nick Schrock](https://www.youtube.com/watch?v=Ed6oJXKt3-M)
 -   [Build a GraphQL server for Node.js using PostgreSQL/MySQL](https://www.youtube.com/watch?v=DNPVqK_woRQ)
 -   [GraphQL server tutorial for Node.js with SQL, MongoDB and REST](https://www.youtube.com/watch?v=PHabPhgRUuU)
@@ -635,9 +620,9 @@ Posts
 -   [Github GraphQL API React Example](https://medium.com/@katopz/github-graphql-api-react-example-eace824d7b61)
 -   [Testing a GraphQL Server using Jest](https://medium.com/entria/testing-a-graphql-server-using-jest-4e00d0e4980e)
 -   [How to implement viewerCanSee in GraphQL](https://medium.com/entria/how-to-implement-viewercansee-in-graphql-78cc48de7464)
--   [Introducing Yelp's Local Graph](https://engineeringblog.yelp.com/2017/05/introducing-yelps-local-graph.html)
+-   [Introducing Yelp’s Local Graph](https://engineeringblog.yelp.com/2017/05/introducing-yelps-local-graph.html)
 -   [Sharing data in a Microservices Architecture using GraphQL](https://labs.getninjas.com.br/sharing-data-in-a-microservices-architecture-using-graphql-97db59357602)
--   [Let's build a node.js GraphQL server for fetching Spotify REST API, in German](https://blog.codecentric.de/2017/09/graphql-mit-spotify-teil-1-server/) | [in English](https://blog.codecentric.de/en/2017/01/lets-build-spotify-graphql-server/)
+-   [Let’s build a node.js GraphQL server for fetching Spotify REST API, in German](https://blog.codecentric.de/2017/09/graphql-mit-spotify-teil-1-server/) | [in English](https://blog.codecentric.de/en/2017/01/lets-build-spotify-graphql-server/)
 -   [“Client-side only” realtime web applications with Firebase, GraphQL and apollo-client 2.0](https://medium.com/@pierrecriulanscy/client-side-only-realtime-web-applications-with-firebase-graphql-and-apollo-client-2-0-9606160f7cf8)
 
 Tutorials
@@ -648,13 +633,9 @@ Tutorials
 -   [Learn Relay](https://www.learnrelay.org/) - A comprehensive introduction to Relay
 -   [Learn Apollo](https://www.learnapollo.com/) - A hands-on tutorial for Apollo GraphQL Client
 
-  
-
-  
-
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

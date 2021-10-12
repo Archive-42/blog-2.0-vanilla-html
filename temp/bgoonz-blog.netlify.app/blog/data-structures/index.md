@@ -1,51 +1,38 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs" class="button">Docs</a>
     -   <a href="/showcase" class="button">Showcase</a>
     -   <a href="/docs/faq/contact" class="button">Contact!</a>
     -   <a href="/docs/python/python-ds" class="button">Python</a>
-
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
     -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
     -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
     -   <a href="/blog/platform-docs/" class="button">platform docs</a>
     -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
     -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
-
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
     -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
     -   <a href="#" class="button">Bootcamp Resources</a>
     -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
     -   <a href="/docs/gallery" class="button">Gallery</a>
     -   <a href="/docs" class="button">Top Repos</a>
-
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
     -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
-
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
     -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
     -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
     -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
     -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
-
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
     -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
     -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
@@ -55,9 +42,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
     -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
     -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
-
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
     -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
     -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
@@ -67,7 +52,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
     -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
 September 14, 2021
 
@@ -84,7 +69,7 @@ Data Structures & Algorithms
 
 [DS Algo Codebase](https://github.com/bgoonz/Data-Structures-Algos-Codebase)
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#115-distinct-subsequenceshttpsleetcodecomproblemsdistinct-subsequencesdescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#115-distinct-subsequenceshttpsleetcodecomproblemsdistinct-subsequencesdescription)
 
 ➤ [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)
 ------------------------------------------------------------------------------------------------
@@ -165,11 +150,11 @@ Dynamic array can be used.
 
 ------------------------------------------------------------------------
 
-Difficulty: Medium Related Topics: "Tree": <https://leetcode.com/tag/tree> "Depth-first Search": <https://leetcode.com/tag/depth-first-search> Similar Questions: "Populating Next Right Pointers in Each Node II": <https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii> "Binary Tree Right Side View": <https://leetcode.com/problems/binary-tree-right-side-view>
+Difficulty: Medium Related Topics: “Tree”: <a href="https://leetcode.com/tag/tree" class="uri">https://leetcode.com/tag/tree</a> “Depth-first Search”: <a href="https://leetcode.com/tag/depth-first-search" class="uri">https://leetcode.com/tag/depth-first-search</a> Similar Questions: “Populating Next Right Pointers in Each Node II”: <a href="https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii" class="uri">https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii</a> “Binary Tree Right Side View”: <a href="https://leetcode.com/problems/binary-tree-right-side-view" class="uri">https://leetcode.com/problems/binary-tree-right-side-view</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#116-populating-next-right-pointers-in-each-nodehttpsleetcodecomproblemspopulating-next-right-pointers-in-each-nodedescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#116-populating-next-right-pointers-in-each-nodehttpsleetcodecomproblemspopulating-next-right-pointers-in-each-nodedescription)
 
 ➤ [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -295,11 +280,11 @@ Level order traversal.
 
 ------------------------------------------------------------------------
 
-Difficulty: Medium Related Topics: "Tree": <https://leetcode.com/tag/tree> "Depth-first Search": <https://leetcode.com/tag/depth-first-search> Similar Questions: "Populating Next Right Pointers in Each Node": <https://leetcode.com/problems/populating-next-right-pointers-in-each-node>
+Difficulty: Medium Related Topics: “Tree”: <a href="https://leetcode.com/tag/tree" class="uri">https://leetcode.com/tag/tree</a> “Depth-first Search”: <a href="https://leetcode.com/tag/depth-first-search" class="uri">https://leetcode.com/tag/depth-first-search</a> Similar Questions: “Populating Next Right Pointers in Each Node”: <a href="https://leetcode.com/problems/populating-next-right-pointers-in-each-node" class="uri">https://leetcode.com/problems/populating-next-right-pointers-in-each-node</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#117-populating-next-right-pointers-in-each-node-iihttpsleetcodecomproblemspopulating-next-right-pointers-in-each-node-iidescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#117-populating-next-right-pointers-in-each-node-iihttpsleetcodecomproblemspopulating-next-right-pointers-in-each-node-iidescription)
 
 ➤ [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)
 --------------------------------------------------------------------------------------------------------------------------------------------------
@@ -430,22 +415,22 @@ Level order traversal. Exact same as [116. Populating Next Right Pointers in Eac
 
 ------------------------------------------------------------------------
 
-Difficulty: Easy Related Topics: "Array": <https://leetcode.com/tag/array> Similar Questions: "Pascal's Triangle II": <https://leetcode.com/problems/pascals-triangle-ii>
+Difficulty: Easy Related Topics: “Array”: <a href="https://leetcode.com/tag/array" class="uri">https://leetcode.com/tag/array</a> Similar Questions: “Pascal’s Triangle II”: <a href="https://leetcode.com/problems/pascals-triangle-ii" class="uri">https://leetcode.com/problems/pascals-triangle-ii</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#118-pascals-trianglehttpsleetcodecomproblemspascals-triangledescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#118-pascals-trianglehttpsleetcodecomproblemspascals-triangledescription)
 
-➤ [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)
+➤ [118. Pascal’s Triangle](https://leetcode.com/problems/pascals-triangle/description/)
 ---------------------------------------------------------------------------------------
 
 ### Problem:
 
-Given a non-negative integer *numRows*, generate the first *numRows* of Pascal's triangle.
+Given a non-negative integer *numRows*, generate the first *numRows* of Pascal’s triangle.
 
 ![PascalTriangleAnimated2.gif](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
-In Pascal's triangle, each number is the sum of the two numbers directly above it.
+In Pascal’s triangle, each number is the sum of the two numbers directly above it.
 
 **Example:**
 
@@ -488,24 +473,24 @@ Dynamic Programming 101.
 
 ------------------------------------------------------------------------
 
-Difficulty: Easy Related Topics: "Array": <https://leetcode.com/tag/array> Similar Questions: "Pascal's Triangle": <https://leetcode.com/problems/pascals-triangle>
+Difficulty: Easy Related Topics: “Array”: <a href="https://leetcode.com/tag/array" class="uri">https://leetcode.com/tag/array</a> Similar Questions: “Pascal’s Triangle”: <a href="https://leetcode.com/problems/pascals-triangle" class="uri">https://leetcode.com/problems/pascals-triangle</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#119-pascals-triangle-iihttpsleetcodecomproblemspascals-triangle-iidescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#119-pascals-triangle-iihttpsleetcodecomproblemspascals-triangle-iidescription)
 
-➤ [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)
+➤ [119. Pascal’s Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)
 ---------------------------------------------------------------------------------------------
 
 ### Problem:
 
-Given a non-negative index *k* where *k* ≤ 33, return the *k*th index row of the Pascal's triangle.
+Given a non-negative index *k* where *k* ≤ 33, return the *k*th index row of the Pascal’s triangle.
 
 Note that the row index starts from 0.
 
 ![PascalTriangleAnimated2.gif](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
-In Pascal's triangle, each number is the sum of the two numbers directly above it.
+In Pascal’s triangle, each number is the sum of the two numbers directly above it.
 
 **Example:**
 
@@ -544,11 +529,11 @@ State `(i, j)` depends on `(i-1, j)` and `(i-1, j-1)`. So to access `(i-1, j-1)`
 
 ------------------------------------------------------------------------
 
-Difficulty: Medium Related Topics: "Array": <https://leetcode.com/tag/array> "Dynamic Programming": <https://leetcode.com/tag/dynamic-programming>
+Difficulty: Medium Related Topics: “Array”: <a href="https://leetcode.com/tag/array" class="uri">https://leetcode.com/tag/array</a> “Dynamic Programming”: <a href="https://leetcode.com/tag/dynamic-programming" class="uri">https://leetcode.com/tag/dynamic-programming</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#120-trianglehttpsleetcodecomproblemstriangledescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#120-trianglehttpsleetcodecomproblemstriangledescription)
 
 ➤ [120. Triangle](https://leetcode.com/problems/triangle/description/)
 ----------------------------------------------------------------------
@@ -604,11 +589,11 @@ Dynamic array can be used.
 
 ------------------------------------------------------------------------
 
-Difficulty: Easy Related Topics: "Array": <https://leetcode.com/tag/array> "Dynamic Programming": <https://leetcode.com/tag/dynamic-programming> Similar Questions: "Maximum Subarray": <https://leetcode.com/problems/maximum-subarray> "Best Time to Buy and Sell Stock II": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii> "Best Time to Buy and Sell Stock III": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii> "Best Time to Buy and Sell Stock IV": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv> "Best Time to Buy and Sell Stock with Cooldown": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown>
+Difficulty: Easy Related Topics: “Array”: <a href="https://leetcode.com/tag/array" class="uri">https://leetcode.com/tag/array</a> “Dynamic Programming”: <a href="https://leetcode.com/tag/dynamic-programming" class="uri">https://leetcode.com/tag/dynamic-programming</a> Similar Questions: “Maximum Subarray”: <a href="https://leetcode.com/problems/maximum-subarray" class="uri">https://leetcode.com/problems/maximum-subarray</a> “Best Time to Buy and Sell Stock II”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii</a> “Best Time to Buy and Sell Stock III”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii</a> “Best Time to Buy and Sell Stock IV”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv</a> “Best Time to Buy and Sell Stock with Cooldown”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#121-best-time-to-buy-and-sell-stockhttpsleetcodecomproblemsbest-time-to-buy-and-sell-stockdescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#121-best-time-to-buy-and-sell-stockhttpsleetcodecomproblemsbest-time-to-buy-and-sell-stockdescription)
 
 ➤ [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 --------------------------------------------------------------------------------------------------------------------
@@ -660,11 +645,11 @@ Because `price[j]` is lower that the base, using `j` as new base is guaranteed t
 
 ------------------------------------------------------------------------
 
-Difficulty: Easy Related Topics: "Array": <https://leetcode.com/tag/array> "Greedy": <https://leetcode.com/tag/greedy> Similar Questions: "Best Time to Buy and Sell Stock": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock> "Best Time to Buy and Sell Stock III": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii> "Best Time to Buy and Sell Stock IV": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv> "Best Time to Buy and Sell Stock with Cooldown": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown> "Best Time to Buy and Sell Stock with Transaction Fee": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee>
+Difficulty: Easy Related Topics: “Array”: <a href="https://leetcode.com/tag/array" class="uri">https://leetcode.com/tag/array</a> “Greedy”: <a href="https://leetcode.com/tag/greedy" class="uri">https://leetcode.com/tag/greedy</a> Similar Questions: “Best Time to Buy and Sell Stock”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock</a> “Best Time to Buy and Sell Stock III”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii</a> “Best Time to Buy and Sell Stock IV”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv</a> “Best Time to Buy and Sell Stock with Cooldown”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown</a> “Best Time to Buy and Sell Stock with Transaction Fee”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#122-best-time-to-buy-and-sell-stock-iihttpsleetcodecomproblemsbest-time-to-buy-and-sell-stock-iidescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#122-best-time-to-buy-and-sell-stock-iihttpsleetcodecomproblemsbest-time-to-buy-and-sell-stock-iidescription)
 
 ➤ [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 --------------------------------------------------------------------------------------------------------------------------
@@ -718,11 +703,11 @@ Sell immediately after the price drops. Or in other perspective, it is the sum o
 
 ------------------------------------------------------------------------
 
-Difficulty: Hard Related Topics: "Array": <https://leetcode.com/tag/array> "Dynamic Programming": <https://leetcode.com/tag/dynamic-programming> Similar Questions: "Best Time to Buy and Sell Stock": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock> "Best Time to Buy and Sell Stock II": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii> "Best Time to Buy and Sell Stock IV": <https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv> "Maximum Sum of 3 Non-Overlapping Subarrays": <https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays>
+Difficulty: Hard Related Topics: “Array”: <a href="https://leetcode.com/tag/array" class="uri">https://leetcode.com/tag/array</a> “Dynamic Programming”: <a href="https://leetcode.com/tag/dynamic-programming" class="uri">https://leetcode.com/tag/dynamic-programming</a> Similar Questions: “Best Time to Buy and Sell Stock”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock</a> “Best Time to Buy and Sell Stock II”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii</a> “Best Time to Buy and Sell Stock IV”: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv" class="uri">https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv</a> “Maximum Sum of 3 Non-Overlapping Subarrays”: <a href="https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays" class="uri">https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#123-best-time-to-buy-and-sell-stock-iiihttpsleetcodecomproblemsbest-time-to-buy-and-sell-stock-iiidescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#123-best-time-to-buy-and-sell-stock-iiihttpsleetcodecomproblemsbest-time-to-buy-and-sell-stock-iiidescription)
 
 ➤ [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
 ----------------------------------------------------------------------------------------------------------------------------
@@ -758,7 +743,7 @@ Design an algorithm to find the maximum profit. You may complete at most *two* t
 
 ### Solution:
 
-Multiple transactions may not be engaged in at the same time. That means if we view the days that involed in the same transaction as a group, there won't be any intersection. We may complete at most *two* transactions, so divide the days into two groups, `[0...k]` and `[k...n-1]`. Notice `k` exists in both groups because technically we can sell out then immediately buy in at the same day.
+Multiple transactions may not be engaged in at the same time. That means if we view the days that involed in the same transaction as a group, there won’t be any intersection. We may complete at most *two* transactions, so divide the days into two groups, `[0...k]` and `[k...n-1]`. Notice `k` exists in both groups because technically we can sell out then immediately buy in at the same day.
 
 Define `p1(i)` to be the max profit of day `[0...i]`. This is just like the problem of [121. Best Time to Buy and Sell Stock](./121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md).
 
@@ -803,11 +788,11 @@ Define `f(k)` to be `p1(k) + p2(k)`. We need to get `max( f(0), ..., f(n-1) )`.
 
 ------------------------------------------------------------------------
 
-Difficulty: Hard Related Topics: "Tree": <https://leetcode.com/tag/tree> "Depth-first Search": <https://leetcode.com/tag/depth-first-search> Similar Questions: "Path Sum": <https://leetcode.com/problems/path-sum> "Sum Root to Leaf Numbers": <https://leetcode.com/problems/sum-root-to-leaf-numbers> "Path Sum IV": <https://leetcode.com/problems/path-sum-iv> "Longest Univalue Path": <https://leetcode.com/problems/longest-univalue-path>
+Difficulty: Hard Related Topics: “Tree”: <a href="https://leetcode.com/tag/tree" class="uri">https://leetcode.com/tag/tree</a> “Depth-first Search”: <a href="https://leetcode.com/tag/depth-first-search" class="uri">https://leetcode.com/tag/depth-first-search</a> Similar Questions: “Path Sum”: <a href="https://leetcode.com/problems/path-sum" class="uri">https://leetcode.com/problems/path-sum</a> “Sum Root to Leaf Numbers”: <a href="https://leetcode.com/problems/sum-root-to-leaf-numbers" class="uri">https://leetcode.com/problems/sum-root-to-leaf-numbers</a> “Path Sum IV”: <a href="https://leetcode.com/problems/path-sum-iv" class="uri">https://leetcode.com/problems/path-sum-iv</a> “Longest Univalue Path”: <a href="https://leetcode.com/problems/longest-univalue-path" class="uri">https://leetcode.com/problems/longest-univalue-path</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#124-binary-tree-maximum-path-sumhttpsleetcodecomproblemsbinary-tree-maximum-path-sumdescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#124-binary-tree-maximum-path-sumhttpsleetcodecomproblemsbinary-tree-maximum-path-sumdescription)
 
 ➤ [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 --------------------------------------------------------------------------------------------------------------
@@ -932,11 +917,11 @@ Just return the later (max sum of a path that ends with `root`). Maintain a glob
 
 ------------------------------------------------------------------------
 
-Difficulty: Easy Related Topics: "Two Pointers": <https://leetcode.com/tag/two-pointers> "String": <https://leetcode.com/tag/string> Similar Questions: "Palindrome Linked List": <https://leetcode.com/problems/palindrome-linked-list> "Valid Palindrome II": <https://leetcode.com/problems/valid-palindrome-ii>
+Difficulty: Easy Related Topics: “Two Pointers”: <a href="https://leetcode.com/tag/two-pointers" class="uri">https://leetcode.com/tag/two-pointers</a> “String”: <a href="https://leetcode.com/tag/string" class="uri">https://leetcode.com/tag/string</a> Similar Questions: “Palindrome Linked List”: <a href="https://leetcode.com/problems/palindrome-linked-list" class="uri">https://leetcode.com/problems/palindrome-linked-list</a> “Valid Palindrome II”: <a href="https://leetcode.com/problems/valid-palindrome-ii" class="uri">https://leetcode.com/problems/valid-palindrome-ii</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#125-valid-palindromehttpsleetcodecomproblemsvalid-palindromedescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#125-valid-palindromehttpsleetcodecomproblemsvalid-palindromedescription)
 
 ➤ [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
 --------------------------------------------------------------------------------------
@@ -1030,18 +1015,18 @@ Compare the char codes.
 
 ------------------------------------------------------------------------
 
-Difficulty: Hard Related Topics: "Array": <https://leetcode.com/tag/array> "String": <https://leetcode.com/tag/string> "Backtracking": <https://leetcode.com/tag/backtracking> "Breadth-first Search": <https://leetcode.com/tag/breadth-first-search> Similar Questions: "Word Ladder": <https://leetcode.com/problems/word-ladder>
+Difficulty: Hard Related Topics: “Array”: <a href="https://leetcode.com/tag/array" class="uri">https://leetcode.com/tag/array</a> “String”: <a href="https://leetcode.com/tag/string" class="uri">https://leetcode.com/tag/string</a> “Backtracking”: <a href="https://leetcode.com/tag/backtracking" class="uri">https://leetcode.com/tag/backtracking</a> “Breadth-first Search”: <a href="https://leetcode.com/tag/breadth-first-search" class="uri">https://leetcode.com/tag/breadth-first-search</a> Similar Questions: “Word Ladder”: <a href="https://leetcode.com/problems/word-ladder" class="uri">https://leetcode.com/problems/word-ladder</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#126-word-ladder-iihttpsleetcodecomproblemsword-ladder-iidescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#126-word-ladder-iihttpsleetcodecomproblemsword-ladder-iidescription)
 
 ➤ [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/)
 ----------------------------------------------------------------------------------
 
 ### Problem:
 
-Given two words (*beginWord* and *endWord*), and a dictionary's word list, find all shortest transformation sequence(s) from *beginWord* to *endWord*, such that:
+Given two words (*beginWord* and *endWord*), and a dictionary’s word list, find all shortest transformation sequence(s) from *beginWord* to *endWord*, such that:
 
 1.  Only one letter can be changed at a time
 2.  Each transformed word must exist in the word list. Note that *beginWord* is *not* a transformed word.
@@ -1148,18 +1133,18 @@ The items in the queue are not just words now. Parent nodes are also kept so tha
 
 ------------------------------------------------------------------------
 
-Difficulty: Medium Related Topics: "Breadth-first Search": <https://leetcode.com/tag/breadth-first-search> Similar Questions: "Word Ladder II": <https://leetcode.com/problems/word-ladder-ii> "Minimum Genetic Mutation": <https://leetcode.com/problems/minimum-genetic-mutation>
+Difficulty: Medium Related Topics: “Breadth-first Search”: <a href="https://leetcode.com/tag/breadth-first-search" class="uri">https://leetcode.com/tag/breadth-first-search</a> Similar Questions: “Word Ladder II”: <a href="https://leetcode.com/problems/word-ladder-ii" class="uri">https://leetcode.com/problems/word-ladder-ii</a> “Minimum Genetic Mutation”: <a href="https://leetcode.com/problems/minimum-genetic-mutation" class="uri">https://leetcode.com/problems/minimum-genetic-mutation</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#127-word-ladderhttpsleetcodecomproblemsword-ladderdescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#127-word-ladderhttpsleetcodecomproblemsword-ladderdescription)
 
 ➤ [127. Word Ladder](https://leetcode.com/problems/word-ladder/description/)
 ----------------------------------------------------------------------------
 
 ### Problem:
 
-Given two words (*beginWord* and *endWord*), and a dictionary's word list, find the length of shortest transformation sequence from *beginWord* to *endWord*, such that:
+Given two words (*beginWord* and *endWord*), and a dictionary’s word list, find the length of shortest transformation sequence from *beginWord* to *endWord*, such that:
 
 1.  Only one letter can be changed at a time.
 2.  Each transformed word must exist in the word list. Note that *beginWord* is *not* a transformed word.
@@ -1201,7 +1186,7 @@ Think of it as building a tree, with `begineWord` as root and `endWord` as leave
 
 The best way control the depth (length of the shortest transformations) while building the tree is level-order traversal (BFS).
 
-We do not actually build the tree because it is expensive (astronomical if the list is huge). In fact, we only need one shortest path. So just like Dijkstra's algorithm, we say that the first time (level `i`) we encounter a word that turns out to be in a shortest path, then level `i` is the lowest level this word could ever get. We can safely remove it from the `wordList`.
+We do not actually build the tree because it is expensive (astronomical if the list is huge). In fact, we only need one shortest path. So just like Dijkstra’s algorithm, we say that the first time (level `i`) we encounter a word that turns out to be in a shortest path, then level `i` is the lowest level this word could ever get. We can safely remove it from the `wordList`.
 
 To find all the next words, instead of filtering the `wordList`, enumerate all 25 possible words and check if in `wordList`.
 
@@ -1253,11 +1238,11 @@ To find all the next words, instead of filtering the `wordList`, enumerate all 2
 
 ------------------------------------------------------------------------
 
-Difficulty: Hard Related Topics: "Array": <https://leetcode.com/tag/array> "Union Find": <https://leetcode.com/tag/union-find> Similar Questions: "Binary Tree Longest Consecutive Sequence": <https://leetcode.com/problems/binary-tree-longest-consecutive-sequence>
+Difficulty: Hard Related Topics: “Array”: <a href="https://leetcode.com/tag/array" class="uri">https://leetcode.com/tag/array</a> “Union Find”: <a href="https://leetcode.com/tag/union-find" class="uri">https://leetcode.com/tag/union-find</a> Similar Questions: “Binary Tree Longest Consecutive Sequence”: <a href="https://leetcode.com/problems/binary-tree-longest-consecutive-sequence" class="uri">https://leetcode.com/problems/binary-tree-longest-consecutive-sequence</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#128-longest-consecutive-sequencehttpsleetcodecomproblemslongest-consecutive-sequencedescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#128-longest-consecutive-sequencehttpsleetcodecomproblemslongest-consecutive-sequencedescription)
 
 ➤ [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 --------------------------------------------------------------------------------------------------------------
@@ -1276,7 +1261,7 @@ Your algorithm should run in O(*n*) complexity.
 
 ### Solution:
 
-Build a Set from the list. Pick a number, find all it's adjacent numbers that are also in the Set. Count them and remove them all from the Set. Repeat until the Set is empty. Time complexity O(n + n) = O(n).
+Build a Set from the list. Pick a number, find all it’s adjacent numbers that are also in the Set. Count them and remove them all from the Set. Repeat until the Set is empty. Time complexity O(n + n) = O(n).
 
     /**
      * @param {number[]} nums
@@ -1304,11 +1289,11 @@ Build a Set from the list. Pick a number, find all it's adjacent numbers that ar
 
 ------------------------------------------------------------------------
 
-Difficulty: Medium Related Topics: "Tree": <https://leetcode.com/tag/tree> "Depth-first Search": <https://leetcode.com/tag/depth-first-search> Similar Questions: "Path Sum": <https://leetcode.com/problems/path-sum> "Binary Tree Maximum Path Sum": <https://leetcode.com/problems/binary-tree-maximum-path-sum>
+Difficulty: Medium Related Topics: “Tree”: <a href="https://leetcode.com/tag/tree" class="uri">https://leetcode.com/tag/tree</a> “Depth-first Search”: <a href="https://leetcode.com/tag/depth-first-search" class="uri">https://leetcode.com/tag/depth-first-search</a> Similar Questions: “Path Sum”: <a href="https://leetcode.com/problems/path-sum" class="uri">https://leetcode.com/problems/path-sum</a> “Binary Tree Maximum Path Sum”: <a href="https://leetcode.com/problems/binary-tree-maximum-path-sum" class="uri">https://leetcode.com/problems/binary-tree-maximum-path-sum</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#129-sum-root-to-leaf-numbershttpsleetcodecomproblemssum-root-to-leaf-numbersdescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#129-sum-root-to-leaf-numbershttpsleetcodecomproblemssum-root-to-leaf-numbersdescription)
 
 ➤ [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
 ------------------------------------------------------------------------------------------------------
@@ -1375,11 +1360,11 @@ To write a clean solution for this promblem, use `0` as indicator of leaf node. 
 
 ------------------------------------------------------------------------
 
-Difficulty: Medium Related Topics: "Depth-first Search": <https://leetcode.com/tag/depth-first-search> "Breadth-first Search": <https://leetcode.com/tag/breadth-first-search> "Union Find": <https://leetcode.com/tag/union-find> Similar Questions: "Number of Islands": <https://leetcode.com/problems/number-of-islands> "Walls and Gates": <https://leetcode.com/problems/walls-and-gates>
+Difficulty: Medium Related Topics: “Depth-first Search”: <a href="https://leetcode.com/tag/depth-first-search" class="uri">https://leetcode.com/tag/depth-first-search</a> “Breadth-first Search”: <a href="https://leetcode.com/tag/breadth-first-search" class="uri">https://leetcode.com/tag/breadth-first-search</a> “Union Find”: <a href="https://leetcode.com/tag/union-find" class="uri">https://leetcode.com/tag/union-find</a> Similar Questions: “Number of Islands”: <a href="https://leetcode.com/problems/number-of-islands" class="uri">https://leetcode.com/problems/number-of-islands</a> “Walls and Gates”: <a href="https://leetcode.com/problems/walls-and-gates" class="uri">https://leetcode.com/problems/walls-and-gates</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#130-surrounded-regionshttpsleetcodecomproblemssurrounded-regionsdescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#130-surrounded-regionshttpsleetcodecomproblemssurrounded-regionsdescription)
 
 ➤ [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/)
 ------------------------------------------------------------------------------------------
@@ -1406,7 +1391,7 @@ After running your function, the board should be:
 
 **Explanation:**
 
-Surrounded regions shouldn't be on the border, which means that any `'O'` on the border of the board are not flipped to `'X'`. Any `'O'` that is not on the border and it is not connected to an `'O'` on the border will be flipped to `'X'`. Two cells are connected if they are adjacent cells connected horizontally or vertically.
+Surrounded regions shouldn’t be on the border, which means that any `'O'` on the border of the board are not flipped to `'X'`. Any `'O'` that is not on the border and it is not connected to an `'O'` on the border will be flipped to `'X'`. Two cells are connected if they are adjacent cells connected horizontally or vertically.
 
 ### Solution:
 
@@ -1491,11 +1476,11 @@ So both BFS and DFS are good. I prefer BFS when pruning is not needed in favor o
 
 ------------------------------------------------------------------------
 
-Difficulty: Medium Related Topics: "Depth-first Search": <https://leetcode.com/tag/depth-first-search> "Breadth-first Search": <https://leetcode.com/tag/breadth-first-search> "Graph": <https://leetcode.com/tag/graph> Similar Questions: "Copy List with Random Pointer": <https://leetcode.com/problems/copy-list-with-random-pointer>
+Difficulty: Medium Related Topics: “Depth-first Search”: <a href="https://leetcode.com/tag/depth-first-search" class="uri">https://leetcode.com/tag/depth-first-search</a> “Breadth-first Search”: <a href="https://leetcode.com/tag/breadth-first-search" class="uri">https://leetcode.com/tag/breadth-first-search</a> “Graph”: <a href="https://leetcode.com/tag/graph" class="uri">https://leetcode.com/tag/graph</a> Similar Questions: “Copy List with Random Pointer”: <a href="https://leetcode.com/problems/copy-list-with-random-pointer" class="uri">https://leetcode.com/problems/copy-list-with-random-pointer</a>
 
 ------------------------------------------------------------------------
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#133-clone-graphhttpsleetcodecomproblemsclone-graphdescription)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#133-clone-graphhttpsleetcodecomproblemsclone-graphdescription)
 
 ➤ [133. Clone Graph](https://leetcode.com/problems/clone-graph/description/)
 ----------------------------------------------------------------------------
@@ -1504,7 +1489,7 @@ Difficulty: Medium Related Topics: "Depth-first Search": <https://leetcode.com/t
 
 Given the head of a graph, return a deep copy (clone) of the graph. Each node in the graph contains a `label` (`int`) and a list (`List[UndirectedGraphNode]`) of its `neighbors`. There is an edge between the given node and each of the nodes in its neighbors.
 
-OJ's undirected graph serialization (so you can understand error output):
+OJ’s undirected graph serialization (so you can understand error output):
 
 Nodes are labeled uniquely.
 
@@ -1527,7 +1512,7 @@ Visually, the graph looks like the following:
              / \
              \_/
 
-**Note**: The information about the tree serialization is only meant so that you can understand error output if you get a wrong answer. You don't need to understand the serialization to solve the problem.
+**Note**: The information about the tree serialization is only meant so that you can understand error output if you get a wrong answer. You don’t need to understand the serialization to solve the problem.
 
 ### Solution:
 
@@ -1562,7 +1547,7 @@ DFS. Cache the visited node before entering the next recursion.
         }
     };
 
-![alt text](https://github.com/everthis/leetcode-js/blob/master/images/binary-tree-upside-down.webp "binary-tree-upside-down")
+alt text
 
     /**
      * Definition for a binary tree node.
@@ -1627,7 +1612,7 @@ DFS. Cache the visited node before entering the next recursion.
         return maxSum > 0 ? Math.max(maxSum, sum - minSum) : maxSum;
     };
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#balanced-binary-tree---leetcode)
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#balanced-binary-tree---leetcode)
 
 ➤ Balanced Binary Tree - LeetCode
 =================================
@@ -1697,7 +1682,7 @@ Basically, the deletion can be divided into two stages:
 
 ![](https://assets.leetcode.com/uploads/2020/09/04/del_node_1.jpg)
 
-**Input:** root = \[5,3,6,2,4,null,7\], key = 3 **Output:** \[5,4,6,2,null,null,7\] **Explanation:** Given key to delete is 3. So we find the node with value 3 and delete it. One valid answer is \[5,4,6,2,null,null,7\], shown in the above BST. Please notice that another valid answer is \[5,2,6,null,4,null,7\] and it's also accepted. ![](https://assets.leetcode.com/uploads/2020/09/04/del_node_supp.jpg)
+**Input:** root = \[5,3,6,2,4,null,7\], key = 3 **Output:** \[5,4,6,2,null,null,7\] **Explanation:** Given key to delete is 3. So we find the node with value 3 and delete it. One valid answer is \[5,4,6,2,null,null,7\], shown in the above BST. Please notice that another valid answer is \[5,2,6,null,4,null,7\] and it’s also accepted. ![](https://assets.leetcode.com/uploads/2020/09/04/del_node_supp.jpg)
 
 **Example 2:**
 
@@ -1740,15 +1725,11 @@ Basically, the deletion can be divided into two stages:
         return rooms;
     };
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-)
-
-  
-
-  
+[![—————————————————–](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-)
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

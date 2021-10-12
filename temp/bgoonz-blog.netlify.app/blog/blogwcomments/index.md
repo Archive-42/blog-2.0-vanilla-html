@@ -1,51 +1,38 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs" class="button">Docs</a>
     -   <a href="/showcase" class="button">Showcase</a>
     -   <a href="/docs/faq/contact" class="button">Contact!</a>
     -   <a href="/docs/python/python-ds" class="button">Python</a>
-
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
     -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
     -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
     -   <a href="/blog/platform-docs/" class="button">platform docs</a>
     -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
     -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
-
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
     -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
     -   <a href="#" class="button">Bootcamp Resources</a>
     -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
     -   <a href="/docs/gallery" class="button">Gallery</a>
     -   <a href="/docs" class="button">Top Repos</a>
-
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
     -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
-
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
     -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
     -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
     -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
     -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
-
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
     -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
     -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
@@ -55,9 +42,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
     -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
     -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
-
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
     -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
     -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
@@ -67,7 +52,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
     -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
 July 26, 2021
 
@@ -81,7 +66,7 @@ lorem-ipsum
 A **database is a collection of data organized for easy retrieval and manipulation**.
 -------------------------------------------------------------------------------------
 
-We're concerned only with digital databases, those that run on computers or other electronic devices. Digital databases have been around since the 1960s. Relational databases, those which store "related" data, are the oldest and most common type of database in use today.
+We’re concerned only with digital databases, those that run on computers or other electronic devices. Digital databases have been around since the 1960s. Relational databases, those which store “related” data, are the oldest and most common type of database in use today.
 
 ### **Data Persistence**
 
@@ -120,15 +105,15 @@ The syntax for SQL is English-like and requires fewer symbols than programming l
 
 It is declarative and concise, which means there is a lot less to learn to use it effectively.
 
-When learning SQL, it is helpful to understand that each command is designed for a different purpose. If we classify the commands by purpose, we'll end up with the following sub-categories of SQL:
+When learning SQL, it is helpful to understand that each command is designed for a different purpose. If we classify the commands by purpose, we’ll end up with the following sub-categories of SQL:
 
 -   **Data Definition Language (DDL)**: used to modify database objects. Some examples are: CREATE TABLE, ALTER TABLE, and DROP TABLE.
 -   **Data Manipulation Language (DML)**: used to manipulate the data stored in the database. Some examples are: INSERT, UPDATE, and DELETE.
 -   **Data Query Language (DQL)**: used to ask questions about the data stored in the database. The most commonly used SQL command is SELECT, and it falls in this category.
--   **Data Control Language (DCL)**: used to manage database security and user's access to data. These commands fall into the realm of Database Administrators. Some examples are GRANT and REVOKE.
+-   **Data Control Language (DCL)**: used to manage database security and user’s access to data. These commands fall into the realm of Database Administrators. Some examples are GRANT and REVOKE.
 -   **Transaction Control Commands**: used for managing groups of statements that must execute as a unit or not execute at all. Examples are COMMIT and ROLLBACK.
 
-As a developer, you'll need to get familiar with DDL and become proficient using DML and DQL. This lesson will cover only DML and DQL commands.
+As a developer, you’ll need to get familiar with DDL and become proficient using DML and DQL. This lesson will cover only DML and DQL commands.
 
 **Overview**
 ------------
@@ -149,19 +134,19 @@ To pick the fields we want to see, we use a comma-separated list:
 
 The return of that statement would hold all records from the listed fields.
 
-We can extend the SELECT command's capabilities using clauses for things like filtering, sorting, pagination, and more.
+We can extend the SELECT command’s capabilities using clauses for things like filtering, sorting, pagination, and more.
 
 It is possible to query multiple tables in a single query. But, in this section, we only perform queries on a single table. We will cover performing queries on multiple tables in another section.
 
 ### **Insert**
 
-To **insert** new data into a table, we'll use the INSERT command. The basic syntax for an INSERT statement is this:
+To **insert** new data into a table, we’ll use the INSERT command. The basic syntax for an INSERT statement is this:
 
 Using this formula, we can specify which values will be inserted into which fields like so:
 
 ### **Modify**
 
-**Modifying** a database consists of updating and removing records. For these operations, we'll use UPDATE and DELETE commands, respectively.
+**Modifying** a database consists of updating and removing records. For these operations, we’ll use UPDATE and DELETE commands, respectively.
 
 The basic syntax for an UPDATE statement is:
 
@@ -176,7 +161,7 @@ When querying a database, the default result will be every entry in the given ta
 
 A WHERE clause can help in both cases.
 
-Here's an example where we might only want to find customers living in Berlin.
+Here’s an example where we might only want to find customers living in Berlin.
 
 We can also chain together WHERE clauses using OR and AND to limit our results further.
 
@@ -184,7 +169,7 @@ The following query includes only records that match both criteria.
 
 And this query includes records that match either criteria.
 
-These operators can be combined and grouped with parentheses to add complex selection logic. They behave similarly to what you're used to in programming languages.
+These operators can be combined and grouped with parentheses to add complex selection logic. They behave similarly to what you’re used to in programming languages.
 
 You can read more about SQLite operators from [w3resource (Links to an external site.)](https://www.w3resource.com/sqlite/operators.php).
 
@@ -194,13 +179,13 @@ Other comparison operators also work in WHERE conditions, such as &gt;, &lt;
 
 ### **Ordering results using the ORDER BY clause**
 
-Query results are shown in the same order the data was inserted. To control how the data is sorted, we can use the ORDER BY clause. Let's see an example.
+Query results are shown in the same order the data was inserted. To control how the data is sorted, we can use the ORDER BY clause. Let’s see an example.
 
-We can pass a list of field names to order by and optionally choose asc or desc for the sort direction. The default is asc, so it doesn't need to be specified.
+We can pass a list of field names to order by and optionally choose asc or desc for the sort direction. The default is asc, so it doesn’t need to be specified.
 
 Some SQL engines also support using field abbreviations when sorting.
 
-In this case, the results are sorted by the department in ascending order first and then by salary in descending order. The numbers refer to the fields' position in the *selection* portion of the query, so 1 would be *name*, 2 would be *salary*, and so on.
+In this case, the results are sorted by the department in ascending order first and then by salary in descending order. The numbers refer to the fields’ position in the *selection* portion of the query, so 1 would be *name*, 2 would be *salary*, and so on.
 
 Note that the WHERE clause should come after the FROM clause. The ORDER BY clause always goes last.
 
@@ -228,7 +213,7 @@ Technically the WHERE clause is not required, but leaving it off would result 
 
 When removing a record or set of records, we need only identify which record(s) to remove using a WHERE clause:
 
-Once again, the WHERE clause is not required, but leaving it off would remove every record in the table, so it's essential.
+Once again, the WHERE clause is not required, but leaving it off would remove every record in the table, so it’s essential.
 
 **Overview**
 ------------
@@ -248,13 +233,13 @@ We will use a **query builder** called [knex.js (Links to an external site.)
 
 ### **Knex Setup**
 
-To use Knex in a repository, we'll need to add two libraries:
+To use Knex in a repository, we’ll need to add two libraries:
 
-knex is our query builder library, and sqlite3 allows us to interface with a sqlite database. We'll learn more about sqlite and other **database management systems** in the following module. For now, know that you need both libraries.
+knex is our query builder library, and sqlite3 allows us to interface with a sqlite database. We’ll learn more about sqlite and other **database management systems** in the following module. For now, know that you need both libraries.
 
 Next, we use Knex to set up a config file:
 
-To use the query builder elsewhere in our code, we need to call knex and pass in a config object. We'll be discussing Knex configuration more in a future module. Still, we only need the client, connection, and useNullAsDefault keys as shown above. The filename should point towards the pre-existing database file, which can be recognized by the .db3 extension.
+To use the query builder elsewhere in our code, we need to call knex and pass in a config object. We’ll be discussing Knex configuration more in a future module. Still, we only need the client, connection, and useNullAsDefault keys as shown above. The filename should point towards the pre-existing database file, which can be recognized by the .db3 extension.
 
 **GOTCHA**: The file path to the database should be with respect to the **root** of the repo, not the configuration file itself.
 
@@ -266,7 +251,7 @@ The db object provides methods that allow us to begin building queries.
 
 In Knex, the equivalent of SELECT \* FROM users is:
 
-There's a simpler way to write the same command:
+There’s a simpler way to write the same command:
 
 Using this, we could write a GET endpoint.
 
@@ -274,19 +259,19 @@ Using this, we could write a GET endpoint.
 
 Knex also allows for a where clause. In Knex, we could write SELECT \* FROM users WHERE id=1 as
 
-This method will resolve to an array containing a single entry like so: \[{ id: 1, name: 'bill' }\].
+This method will resolve to an array containing a single entry like so: \[{ id: 1, name: ‘bill’ }\].
 
 Using this, we might add a GET endpoint where a specific user:
 
 ### **INSERT using Knex**
 
-In Knex, the equivalent of INSERT INTO users (name, age) VALUES ('Eva', 32) is:
+In Knex, the equivalent of INSERT INTO users (name, age) VALUES (‘Eva’, 32) is:
 
 The insert method in Knex will resolve to an array containing the newly created id for that user like so: \[3\].
 
 ### **UPDATE using Knex**
 
-In knex, the equivalent of UPDATE users SET name='Ava', age=33 WHERE id=3; is:
+In knex, the equivalent of UPDATE users SET name=‘Ava’, age=33 WHERE id=3; is:
 
 Note that the where method comes before update, unlike in SQL.
 
@@ -315,7 +300,7 @@ To manage digital databases we use specialized software called **D**ata**B**ase
 
 In less technical terms, we need a type of software that will allow us to create, access, and generally manage our databases. In the world of relational databases, we specifically use Relational Database Mangement Systems (RDBMs). Some examples are Postgres, SQLite, MySQL, and Oracle.
 
-Choosing a DBMS determines everything from how you set up your database, to where and how the data is stored, to what SQL commands you can use. Most systems share the core of the SQL language that you've already learned.
+Choosing a DBMS determines everything from how you set up your database, to where and how the data is stored, to what SQL commands you can use. Most systems share the core of the SQL language that you’ve already learned.
 
 In other words, you can expect SELECT, UPDATE, INSERT, WHERE , and the like to be the same across all DBMSs, but the subtleties of the language may vary.
 
@@ -338,7 +323,7 @@ For a more detailed look at SQLite Studio, follow along in the video above.
 **Overview**
 ------------
 
-A **database schema** is the shape of our database. It defines what tables we'll have, which columns should exist within the tables and any restrictions on each column.
+A **database schema** is the shape of our database. It defines what tables we’ll have, which columns should exist within the tables and any restrictions on each column.
 
 A well-designed database schema keeps the data well organized and can help ensure high-quality data.
 
@@ -397,7 +382,7 @@ Another critical component of schema design is to understand how different table
 
 Knex provides a **schema builder**, which allows us to write code to design our database schema. However, beyond thinking about columns and constraints, we must also consider updates.
 
-When a schema needs to be updated, a developer must feel confident that the changes go into effect everywhere. This means schema updates on the developer's local machine, on any testing or staging versions, on the production database, and then on any other developer's local machines. This is where **migrations** come into play.
+When a schema needs to be updated, a developer must feel confident that the changes go into effect everywhere. This means schema updates on the developer’s local machine, on any testing or staging versions, on the production database, and then on any other developer’s local machines. This is where **migrations** come into play.
 
 A database migration describes changes made to the structure of a database. Migrations include things like adding new objects, adding new tables, and modifying existing objects or tables.
 
@@ -416,19 +401,19 @@ To start, add the knex and sqlite3 libraries to your repository.
 
 npm install knex sqlite3
 
-We've seen how to use manually create a config object to get started with Knex, but the best practice is to use the following command:
+We’ve seen how to use manually create a config object to get started with Knex, but the best practice is to use the following command:
 
-Or, if Knex isn't globally installed:
+Or, if Knex isn’t globally installed:
 
 This command will generate a file in your root folder called knexfile.js. It will be auto populated with three config objects, based on different environments. We can delete all except for the development object.
 
-We'll need to update the location (or desired location) of the database as well as add the useNullAsDefault option. The latter option prevents crashes when working with sqlite3.
+We’ll need to update the location (or desired location) of the database as well as add the useNullAsDefault option. The latter option prevents crashes when working with sqlite3.
 
 Now, wherever we configure our database, we may use the following syntax instead of hardcoding in a config object.
 
 ### **Knex Migrations**
 
-Once our knexfile is set up, we can begin creating **migrations**. Though it's not required, we are going to add an addition option to the config object to specify a directory for the migration files.
+Once our knexfile is set up, we can begin creating **migrations**. Though it’s not required, we are going to add an addition option to the config object to specify a directory for the migration files.
 
 We can generate a new migration with the following command:
 
@@ -452,15 +437,15 @@ Note if the database does not exist, this command will auto-generate one. We can
 
 ### **Changes and Rollbacks**
 
-If later down the road, we realize you need to update your schema, you shouldn't edit the migration file. Instead, you will want to create a new migration with the command:
+If later down the road, we realize you need to update your schema, you shouldn’t edit the migration file. Instead, you will want to create a new migration with the command:
 
 knex migrate:make accounts-schema-update
 
-Once we've written our updates into this file we save and close with:
+Once we’ve written our updates into this file we save and close with:
 
 knex migrate:latest
 
-If we migrate our database and then quickly realize something isn't right, we can edit the migration file. However, first, we need to **rolllback** (or undo) our last migration with:
+If we migrate our database and then quickly realize something isn’t right, we can edit the migration file. However, first, we need to **rolllback** (or undo) our last migration with:
 
 knex migrate:rollback
 
@@ -473,7 +458,7 @@ Finally, we are free to rerun that file with knex migrate latest.
 
 Knex provides a **schema builder**, which allows us to write code to design our database schema. However, beyond thinking about columns and constraints, we must also consider updates.
 
-When a schema needs to be updated, a developer must feel confident that the changes go into effect everywhere. This means schema updates on the developer's local machine, on any testing or staging versions, on the production database, and then on any other developer's local machines. This is where **migrations** come into play.
+When a schema needs to be updated, a developer must feel confident that the changes go into effect everywhere. This means schema updates on the developer’s local machine, on any testing or staging versions, on the production database, and then on any other developer’s local machines. This is where **migrations** come into play.
 
 A database migration describes changes made to the structure of a database. Migrations include things like adding new objects, adding new tables, and modifying existing objects or tables.
 
@@ -492,19 +477,19 @@ To start, add the knex and sqlite3 libraries to your repository.
 
 npm install knex sqlite3
 
-We've seen how to use manually create a config object to get started with Knex, but the best practice is to use the following command:
+We’ve seen how to use manually create a config object to get started with Knex, but the best practice is to use the following command:
 
-Or, if Knex isn't globally installed:
+Or, if Knex isn’t globally installed:
 
 This command will generate a file in your root folder called knexfile.js. It will be auto populated with three config objects, based on different environments. We can delete all except for the development object.
 
-We'll need to update the location (or desired location) of the database as well as add the useNullAsDefault option. The latter option prevents crashes when working with sqlite3.
+We’ll need to update the location (or desired location) of the database as well as add the useNullAsDefault option. The latter option prevents crashes when working with sqlite3.
 
 Now, wherever we configure our database, we may use the following syntax instead of hardcoding in a config object.
 
 ### **Knex Migrations**
 
-Once our knexfile is set up, we can begin creating **migrations**. Though it's not required, we are going to add an addition option to the config object to specify a directory for the migration files.
+Once our knexfile is set up, we can begin creating **migrations**. Though it’s not required, we are going to add an addition option to the config object to specify a directory for the migration files.
 
 We can generate a new migration with the following command:
 
@@ -528,15 +513,15 @@ Note if the database does not exist, this command will auto-generate one. We can
 
 ### **Changes and Rollbacks**
 
-If later down the road, we realize you need to update your schema, you shouldn't edit the migration file. Instead, you will want to create a new migration with the command:
+If later down the road, we realize you need to update your schema, you shouldn’t edit the migration file. Instead, you will want to create a new migration with the command:
 
 knex migrate:make accounts-schema-update
 
-Once we've written our updates into this file we save and close with:
+Once we’ve written our updates into this file we save and close with:
 
 knex migrate:latest
 
-If we migrate our database and then quickly realize something isn't right, we can edit the migration file. However, first, we need to **rolllback** (or undo) our last migration with:
+If we migrate our database and then quickly realize something isn’t right, we can edit the migration file. However, first, we need to **rolllback** (or undo) our last migration with:
 
 knex migrate:rollback
 
@@ -558,7 +543,7 @@ Similarly to migrations, we want to customize where our seed files are generated
 
 To create a seed run: knex seed:make 001-seedName
 
-Numbering is a good idea because Knex doesn't attach a timestamp to the name like migrate does. Adding numbers to the file name, we can control the order in which they run.
+Numbering is a good idea because Knex doesn’t attach a timestamp to the name like migrate does. Adding numbers to the file name, we can control the order in which they run.
 
 We want to create seeds for our accounts table:
 
@@ -593,7 +578,7 @@ The farm*id in the ranchers table is an example of a foreign key. Each entr
 
 If we could only see the ranchers table, we would know that John, Jane, and Jen all work together and that Jim and Jay also work together. However, to know where any of them work, we would need to look at the farms table.
 
-Now that we understand the basics of querying data from a single table, let's move on to selecting data from multiple tables using JOIN operations.
+Now that we understand the basics of querying data from a single table, let’s move on to selecting data from multiple tables using JOIN operations.
 
 **Overview**
 ------------
@@ -612,7 +597,7 @@ There are different types of joins; some are listed below:
 
 Using joins requires that the two tables of interest contain at least one field with shared information. For example, if a *departments* table has an *id* field, and an employee table has a *department\_id* field, and the values that exist in the *id* column of the *departments* table live in the *department\_id* field of the employee table, we can use those fields to join both tables like so:
 
-This query will return the data from both tables for every instance where the ON condition is true. If there are employees with no value for department*id or where the value stored in the field does not correspond to an existing id in the* departments *table, then that record will NOT be returned. In a similar fashion, any records from the* departments *table that don't have an employee associated with them will also be omitted from the results. Basically, if the* id\* does not show as the value of department\_id for an employee, it won't be able to join.
+This query will return the data from both tables for every instance where the ON condition is true. If there are employees with no value for department*id or where the value stored in the field does not correspond to an existing id in the* departments *table, then that record will NOT be returned. In a similar fashion, any records from the* departments *table that don’t have an employee associated with them will also be omitted from the results. Basically, if the* id\* does not show as the value of department\_id for an employee, it won’t be able to join.
 
 We can shorten the condition by giving the table names an alias. This is a common practice. Below is the same example using aliases, picking which fields to return and sorting the results:
 
@@ -639,7 +624,7 @@ A JOIN works on two or more tables if they have at least one common field and ha
 
 JOIN keeps the base tables (structure and data) unchanged.
 
-Join vs. Subquery
+Join vs. Subquery
 =================
 
 -   JOINs are faster than a subquery and it is very rare that the opposite.
@@ -670,7 +655,7 @@ This type of EQUI JOIN returns all rows from tables where the key record of one 
 
 1.  SQL OUTER JOIN
 
-This type of EQUI JOIN returns all rows from one table and only those rows from the secondary table where the joined condition is satisfying i.e. the columns are equal in both tables.
+This type of EQUI JOIN returns all rows from one table and only those rows from the secondary table where the joined condition is satisfying i.e. the columns are equal in both tables.
 
 In order to perform a JOIN query, the required information we need are:
 
@@ -692,7 +677,7 @@ In order to perform a JOIN query, the required information we need are:
 
 **Sample table: foods**
 
-To join two tables 'company' and 'foods', the following SQL statement can be used :
+To join two tables ‘company’ and ‘foods’, the following SQL statement can be used :
 
 **SQL Code:**
 
@@ -732,12 +717,12 @@ Day \#4:
 
 Normalization is the process of designing or refactoring database tables for maximum consistency and minimum redundancy.
 
-With objects, we're used to *denormalized* data, stored with ease of use and speed in mind. Non-normalized tables are considered ineffective in relational databases.
+With objects, we’re used to *denormalized* data, stored with ease of use and speed in mind. Non-normalized tables are considered ineffective in relational databases.
 
 **Follow Along**
 ----------------
 
-**Data normalization** is a deep topic in database design. To begin thinking about it, we'll explore a few basic guidelines and some data examples that violate these rules.
+**Data normalization** is a deep topic in database design. To begin thinking about it, we’ll explore a few basic guidelines and some data examples that violate these rules.
 
 ### **Normalization Guidelines**
 
@@ -755,11 +740,11 @@ This table has two issues. There is no proper id field (as multiple farms may ha
 
 [Untitled](https://www.notion.so/075ad6dd99ac48698625d7b56ca67bef)
 
-While we have now eliminated the first two issues, we now have multiple entries in one field, separated by commas. This isn't good either, as its another example of denormalization. There is no "array" data type in a relational database, so each field must contain only one data point.
+While we have now eliminated the first two issues, we now have multiple entries in one field, separated by commas. This isn’t good either, as its another example of denormalization. There is no “array” data type in a relational database, so each field must contain only one data point.
 
 [Untitled](https://www.notion.so/375a15b0cb3f444a8698cd6cb3a08fe0)
 
-Now we've solved the multiple fields issue, but we created repeating data (the farm field), which is also an example of denormalization. As well, we can see that if we were tracking additional ranch information (such as annual revenue), that field is only vaguely related to the animal information.
+Now we’ve solved the multiple fields issue, but we created repeating data (the farm field), which is also an example of denormalization. As well, we can see that if we were tracking additional ranch information (such as annual revenue), that field is only vaguely related to the animal information.
 
 **When these issues begin arising in your schema design, it means that you should separate information into two or more tables.**
 
@@ -812,7 +797,7 @@ The farm\_id is the foreign key that links farms and projections together.
 
 Notes about one-to-one relationships:
 
--   The foreign key should always have a unique constraint to prevent duplicate entries. In the example above, we wouldn't want to allow multiple projections records for one farm.
+-   The foreign key should always have a unique constraint to prevent duplicate entries. In the example above, we wouldn’t want to allow multiple projections records for one farm.
 -   The foreign key can be in either table. For example, we may have had a projection\_id in the farms table instead. A good rule of thumb is to put the foreign key in whichever table is more auxiliary to the other.
 -   You can represent one-to-one data in a single table *without* creating anomalies. However, it is sometimes prudent to use two tables as shown above to keep separate concerns in separate tables.
 
@@ -828,7 +813,7 @@ This is the most common type of relationship between entities. Some other exampl
 -   One user can have many posts.
 -   One post can have many comments.
 
-Manage this type of relationship by adding a foreign key on the "many" table of the relationship that points to the primary key on the "one" table. Consider the farms and ranchers tables.
+Manage this type of relationship by adding a foreign key on the “many” table of the relationship that points to the primary key on the “one” table. Consider the farms and ranchers tables.
 
 [Untitled](https://www.notion.so/7dfd2e69c9804a01845f2e9b716a5ac2)
 
@@ -867,11 +852,11 @@ We have to consider the way that delete and updates through our API will imp
 
 ### **Foreign Key Setup**
 
-In Knex, foreign key restrictions don't automatically work. Whenever using foreign keys in your schema, add the following code to your knexfile. This will prevent users from entering bad data into a foreign key column.
+In Knex, foreign key restrictions don’t automatically work. Whenever using foreign keys in your schema, add the following code to your knexfile. This will prevent users from entering bad data into a foreign key column.
 
 ### **Migrations**
 
-Let's look at how we might track our farms and ranchers using Knex. In our migration file's up function, we would want to create two tables:
+Let’s look at how we might track our farms and ranchers using Knex. In our migration file’s up function, we would want to create two tables:
 
 Note that the foreign key can only be created *after* the reference table.
 
@@ -881,7 +866,7 @@ In the case of a many-to-many relationship, the syntax for creating an intermedi
 
 ### **Seeds**
 
-Order is also a concern when seeding. We want to create seeds in the **same** order we created our tables. In other words, don't create a seed with a foreign key, until that reference record exists.
+Order is also a concern when seeding. We want to create seeds in the **same** order we created our tables. In other words, don’t create a seed with a foreign key, until that reference record exists.
 
 In our example, make sure to write the 01-farms seed file and then the 02-ranchers seed file.
 
@@ -897,13 +882,9 @@ If a user attempt to delete a record that is referenced by another record (such 
 
 If we want that to override this default, we can delete or update with **cascade**. With cascade, deleting a record also deletes all referencing records, we can set that up in our schema.
 
-  
-
-  
-
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

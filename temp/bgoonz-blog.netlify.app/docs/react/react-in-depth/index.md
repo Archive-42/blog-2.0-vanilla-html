@@ -1,51 +1,38 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs" class="button">Docs</a>
     -   <a href="/showcase" class="button">Showcase</a>
     -   <a href="/docs/faq/contact" class="button">Contact!</a>
     -   <a href="/docs/python/python-ds" class="button">Python</a>
-
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
     -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
     -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
     -   <a href="/blog/platform-docs/" class="button">platform docs</a>
     -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
     -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
-
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
     -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
     -   <a href="#" class="button">Bootcamp Resources</a>
     -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
     -   <a href="/docs/gallery" class="button">Gallery</a>
     -   <a href="/docs" class="button">Top Repos</a>
-
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
     -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
-
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
     -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
     -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
     -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
     -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
-
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
     -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
     -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
@@ -55,9 +42,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
     -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
     -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
-
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
     -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
     -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
@@ -67,21 +52,18 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
     -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
-Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
+Navigate Docs<span class="icon-angle-right" data-aria-hidden="true"></span>
 
 -   [Docs](/docs/)
--   [About](/docs/about/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [About](/docs/about/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Job Search](/docs/about/job-search/)
     -   [Youtube](/docs/about/intrests/)
     -   [Resume](/docs/about/resume/)
     -   [Engineering Portfolio](/docs/about/eng-portfolio/)
     -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
-
--   [Articles](/docs/articles/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Articles](/docs/articles/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [The HTTP Protocol](/docs/articles/http/)
     -   [How The Web Works](/docs/articles/how-the-web-works/)
     -   [Sorting Algorithms](/docs/articles/node-package-manager/)
@@ -114,22 +96,16 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Semantic Versioning](/docs/articles/semantic/)
     -   [Writing Files](/docs/articles/writing-files/)
     -   [Node APIs With Express](/docs/articles/node-api-express/)
-
--   [Audio](/docs/audio/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Audio](/docs/audio/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
     -   [Audio](/docs/audio/audio/)
     -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
     -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
     -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
     -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
-
--   [Community](/docs/community/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Community](/docs/community/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Video Chat](/docs/community/video-chat/)
-
--   [Content](/docs/content/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Content](/docs/content/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
     -   [History API](/docs/content/history-api/)
     -   [Lambda School Projects](/docs/content/lambda-projects/)
@@ -140,9 +116,7 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
     -   [Embeded Websites & Projects](/docs/content/recent-projects/)
     -   [Algorithms & Data Structures](/docs/content/algo/)
-
--   [Documentation](/docs/docs/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Documentation](/docs/docs/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Apendix](/docs/docs/appendix/)
     -   [Await](/docs/docs/await-keyword/)
     -   [Git Reference](/docs/docs/git-reference/)
@@ -155,33 +129,23 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Learn Css](/docs/docs/css/)
     -   [Useful Snippets](/docs/docs/content/)
     -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
-
--   [FAQ](/docs/faq/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [FAQ](/docs/faq/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Plug-ins](/docs/faq/plug-ins/)
     -   [Contact!](/docs/faq/contact/)
-
--   [Javascript](/docs/javascript/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Javascript](/docs/javascript/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Javascript Concepts Review](/docs/javascript/review/)
     -   [Constructor Functions](/docs/javascript/constructor-functions/)
     -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
-
--   [Interactive Examples](/docs/interact/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Interactive Examples](/docs/interact/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Callstack Visualizer](/docs/interact/callstack-visual/)
     -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
     -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
     -   [Other Websites](/docs/interact/other-sites/)
     -   [Clock](/docs/interact/clock/)
-
--   [Medium](/docs/medium/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Medium](/docs/medium/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [My Sites](/docs/medium/my-websites/)
     -   [Medium](/docs/medium/medium-links/)
-
--   [Quick Reference](/docs/quick-reference/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Quick Reference](/docs/quick-reference/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Git Bash](/docs/quick-reference/git-bash/)
     -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
     -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
@@ -204,9 +168,7 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
     -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
     -   [vscode-themes](/docs/quick-reference/vscode-themes/)
-
--   [React](/docs/react/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [React](/docs/react/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [React Cheat Sheets:](/docs/react/cheatsheet/)
     -   [React Class Components Demo](/docs/react/demo/)
     -   [Introducing JSX](/docs/react/jsx/)
@@ -215,17 +177,13 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Intro To React](/docs/react/react2/)
     -   [npx-create-react-app](/docs/react/createReactApp/)
     -   [React Docs](/docs/react/react-docs/)
-
--   [Tools](/docs/tools/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Tools](/docs/tools/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Data Structures](/docs/tools/data-structures/)
     -   [General Utilities](/docs/tools/dev-utilities/)
     -   [more tools](/docs/tools/more-tools/)
     -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
     -   [md and html](/docs/tools/markdown-html/)
-
--   [My Python Docs](/docs/python/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [My Python Docs](/docs/python/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [lorem-ipsum](/docs/python/basics/)
     -   [lorem-ipsum](/docs/python/flow-control/)
     -   [google-sheets-api](/docs/python/google-sheets-api/)
@@ -260,7 +218,7 @@ Random Things to Remember
 -   Class Components require render() method to return JSX.
 -   Functional Components directly return JSX.
 -   Class is className in React.
--   When parsing for an integer just chain Number.parseInt("123")
+-   When parsing for an integer just chain Number.parseInt(“123”)
 -   Use ternary operator if you want to make a conditional inside a fragment.
 
 <!-- -->
@@ -301,7 +259,7 @@ Front-End History
 <!-- -->
 
 -   HMR : (Hot Module Replacement) When you make changes to your source code the changes are delivered in real-time.
--   React Developers created something called Flux Architecture to moderate how their web page consumes and modifies data received from back-end API's.
+-   React Developers created something called Flux Architecture to moderate how their web page consumes and modifies data received from back-end API’s.
 
 <!-- -->
 
@@ -368,7 +326,7 @@ Aliasing imports
 
 Browser support for ES6 Modules
 
--   ES6 Modules can only be used when a JS file is specified as a module. &lt;script type="module" src="./wallet.js"&gt;&lt;/script&gt;
+-   ES6 Modules can only be used when a JS file is specified as a module. &lt;script type=“module” src=“./wallet.js”&gt;&lt;/script&gt;
 -   You can get browser support for ES6 modules by adding module into your script tag.
 
 Notes
@@ -377,7 +335,7 @@ Notes
 JSX In Depth
 ============
 
--   Remember that JSX is just syntactic sugar for the built in React.createElement(component, props, ...children)
+-   Remember that JSX is just syntactic sugar for the built in React.createElement(component, props, …children)
 -   React Library must always be in scope from your JSX code.
 -   Use Dot Notation for JSX Type
 -   User-Defined Components Must Be Capitalized &lt;Foo /&gt; vs &lt;div&gt;
@@ -513,8 +471,8 @@ Route path params
 
 <!-- -->
 
--   {...props} spreads out the router's props.
--   props.match.params is used to access the match prop's parameters.
+-   {…props} spreads out the router’s props.
+-   props.match.params is used to access the match prop’s parameters.
 -   Useful keys on the match object:
 -   isExact : boolean that tells you whether or not the URL exactly matches the path.
 -   url : the currentURL
@@ -539,8 +497,8 @@ React Router Navigation
 -   Adds extra styling, when the path it links to matches the current path.
 -   As it’s name suggests, it is used to Nav Bars.
 -   Takes three props:
--   activeClassName : allows you to set a CSS class name for styling. (default set to 'active')
--   activeStyle : style object that is applied inline when it's to prop. matches the current URL.
+-   activeClassName : allows you to set a CSS class name for styling. (default set to ‘active’)
+-   activeStyle : style object that is applied inline when it’s to prop. matches the current URL.
 -   exact prop is a boolean that defaults to false; you can set it to true to apply requirement of an exact URL match.
 -   exact can also be used as a flag instead of a reg. property value.
 -   benefit of adding this is so that you don’t trigger other matches. Switching between routes
@@ -559,7 +517,7 @@ History
 -   History allows you to update the URL programmatically.
 -   Contains two useful methods:
 -   push : Adds a new URL to the end of the history stack.
--   replace : Replaces the current URL on the history stack, so the back button won't take you to it.
+-   replace : Replaces the current URL on the history stack, so the back button won’t take you to it.
 
 Nested Routes
 =============
@@ -577,13 +535,13 @@ React Builds
 
 -   Build : Process of converting code into something that can actually execute or run on the target platform.
 -   In regards to React, the minimum a build should do is convert JSX to something that browsers can understand. Reviewing common terminology
--   Linting : Process of using a tool to analyze your code to catch common errors, bugs, inconsistencies etc...
+-   Linting : Process of using a tool to analyze your code to catch common errors, bugs, inconsistencies etc…
 -   Transpilation : Process of converting source code, like JS, from one version to another.
 -   Minification : Process of removing all unnecessary characters in your code.
 -   Bundling : Process of combining multiple code files into a single file.
--   Tree Shaking : Process of removing unused or dead code from your application before it's bundled. Configuration or code?
+-   Tree Shaking : Process of removing unused or dead code from your application before it’s bundled. Configuration or code?
 -   Configuration allows developers to create build tasks by declaring either JSON, XML, or YAML without explicitly writing every step in the process.
--   Coding or Scripting simply requires code. Babel and webpack (yes, that's intentionally a lowercase 'w')
+-   Coding or Scripting simply requires code. Babel and webpack (yes, that’s intentionally a lowercase ‘w’)
 -   Babel : Code Transpiler that allows you to use all of the latest features and syntax wihtout worrying about what browsers support what.
 -   webpack : Allows developers to use JS modules w/o requiring users to use a browser that natively supports ES modules.
 -   Create React App uses webpack and Babel under the hood to build applications. The Create React App build process
@@ -596,7 +554,7 @@ React Builds
 -   webpack-dev-starter compiles app.
 -   index.html is loaded into browser
 -   file watcher is started to watch for changes. Ejecting
--   There is a script in Create React App called eject that allows you to 'eject' your application and expose all the hidden stuff. Preparing to deploy a React application for production
+-   There is a script in Create React App called eject that allows you to ‘eject’ your application and expose all the hidden stuff. Preparing to deploy a React application for production
 -   Defining Env Variables
 
 Configuring the supported browsers
@@ -613,7 +571,7 @@ Introduction to React
 
 -   Simply a nice library that turns data into DOM.
 -   Tree Diffing : Fast comparison and patching of data by comparing the current virtual DOM and new virtual DOM - updating only the pieces that change.
--   It's just a tree with some fancy diffing
+-   It’s just a tree with some fancy diffing
 
 Create Element
 ==============
@@ -624,7 +582,7 @@ From JavaScript To DOM
 
 <!-- -->
 
--   Type : Type of element to create, i.e. a string for an HTML element or a reference to a function or class that is a React component.
+-   Type : Type of element to create, i.e. a string for an HTML element or a reference to a function or class that is a React component.
 -   Props : Object that contains data to render the element.
 -   Children : Children of the elemet, as many as you want. Creating elements
 -   Our rendering goal:
@@ -637,7 +595,7 @@ From JavaScript To DOM
 -   Two a
 -   There are certain attributes we want to appear in the DOM for these tags as well:
 -   Each li has a class (or className in React)
--   Both a ele's have href attributes
+-   Both a ele’s have href attributes
 -   Also keep in mind the parent child relationships happening between the tags.
 -   ul is the parent of both li
 -   Each li has an a element as a child
@@ -659,7 +617,7 @@ Create Element
 
 React.createElement Demo
 
--   Can import non-local dependencies with import 'package-link'
+-   Can import non-local dependencies with import ‘package-link’
 
 <!-- -->
 
@@ -677,7 +635,7 @@ React Version
 -   You can change in the devTools Network tab the internet speed to check for values that may be undefined to hangle with defaultProps.
 -   If we fetch multiple pieces of data, we can render many things by using map.
 -   You need to assign a unique key to each of the clues.
--   We need to keep track of them individually so that React can easily refer to a specific one if there is an issue. clue =&gt; { key:clue.id, ...clue }
+-   We need to keep track of them individually so that React can easily refer to a specific one if there is an issue. clue =&gt; { key:clue.id, …clue }
 
 <!-- -->
 
@@ -717,7 +675,7 @@ JSX Version
 -   Property Names:
 -   checked : Attribute of input components such as checkbox or radio, use it to set whether the component is checked or not.
 -   className : Used to specify a CSS class.
--   dangerouslySetInnerHTML : React's equivalent of innerHTML because it is risky to cross-site scripting attacks.
+-   dangerouslySetInnerHTML : React’s equivalent of innerHTML because it is risky to cross-site scripting attacks.
 -   htmlFor : Because for is protected keyword, React elements use this instead.
 -   onChange : Event fired whenever a form field is changed.
 -   style : Accepts a JS object with camelCase properties rather than a CSS string.
@@ -745,7 +703,7 @@ Notes
 Using Custom CRA Templates
 ==========================
 
-Using a Custom Template npx create-react-app my-app --template @appacademy/simple
+Using a Custom Template npx create-react-app my-app –template <span class="citation" data-cites="appacademy/simple">@appacademy/simple</span>
 
 -   Keep in mind that using create-react-app automatically initializes a git repository for you!
 -   App Academy custom template for creating a react app.
@@ -869,7 +827,7 @@ Handling Events![](https://miro.medium.com/max/1400/0*c24XQBvqBBg0Eztz)![](https
 
 <!-- -->
 
--   Experimental Syntax : Syntax that has been proposed to add to ECMAScript but hasn't officially been added to the language specification yet.
+-   Experimental Syntax : Syntax that has been proposed to add to ECMAScript but hasn’t officially been added to the language specification yet.
 -   It’s good to pick one approach and use it consistently, either:
 -   Class Properties & Arrow Functions
 -   Bind Method & This Keyword The SyntheticEvent object
@@ -884,11 +842,11 @@ Forms in React
 *Exercise being done in a separate file* Random Notes
 
 -   onChange : detects when a value of an input element changes.
--   Assigning onChange to our input fields makes our component's state update in real time during user input.
+-   Assigning onChange to our input fields makes our component’s state update in real time during user input.
 -   Dont forget to add preventDefault onto form submissions to deal with the default behavior of the browser refreshing the page!
 -   submittedOn: new Date(), Can be added to a form, most likely will persist into a DB.
 -   Controlled Components
--   We use the onChange event handlers on form fields to keep our component's state as the "one source of truth"
+-   We use the onChange event handlers on form fields to keep our component’s state as the “one source of truth”
 -   Adding an onChange event handler to every single input can massively bloat your code.
 -   Try assiging it to it’s own method to apply everywhere.
 -   textarea is handled differently in react: it takes in a value property to handle what the inner text will be.
@@ -1042,7 +1000,7 @@ What is Flux?
 -   Actions : Begins the data flow of data, simple object that contains a type; type indicates the type of change to be performed.
 -   Dispatcher : Mechanism for distributing actions to the store.
 -   Store : The entire state of the application, responsible for updating the state of your app.
--   View : Unit of code that's responsible for rendering the user interface. Used to re-render the application when actions and changes occur.
+-   View : Unit of code that’s responsible for rendering the user interface. Used to re-render the application when actions and changes occur.
 
 <!-- -->
 
@@ -1061,8 +1019,8 @@ Store
 
 -   Simply an object that holds the application state wrapped in an API.
 -   Three methods:
--   getState() : Returns the store's current state.
--   dispatch(action) : Passes an action into the store's reducer to tell it what info to update.
+-   getState() : Returns the store’s current state.
+-   dispatch(action) : Passes an action into the store’s reducer to tell it what info to update.
 -   subscribe(callback) : Registers a callback to be triggered whenever the store updates. Updating the Store
 
 Subscribing to the store
@@ -1118,7 +1076,7 @@ React Router Introduction
 
 Now that you know how to render components in a React app, how do you handle rendering different components for different website pages? React Router is the answer!
 
-Think of how you have created server-side routes in Express. Take the following URL and server-side route. Notice how the /users/:userId path corresponds with the <http://localhost:3000/users/2> URL to render a specific HTML page.
+Think of how you have created server-side routes in Express. Take the following URL and server-side route. Notice how the /users/:userId path corresponds with the <a href="http://localhost:3000/users/2" class="uri">http://localhost:3000/users/2</a> URL to render a specific HTML page.
 
 In the default React setup, you lose the ability to create routes in the same manner as in Express. This is what React Router aims to solve!
 
@@ -1147,12 +1105,12 @@ BrowserRouter
 
 BrowserRouter is the primary component of the router that wraps your route hierarchy. It creates a React context that passes routing information down to all its descendent components. For example, if you want to give &lt;App&gt; and all its children components access to React Router, you would wrap &lt;App&gt; like so:
 
-Now you can route the rendering of certain components to certain URLs (i.e [https://www.website.com/profile](https://www.website.com/profile).)[).](https://www.website.com/profile).)
+Now you can route the rendering of certain components to certain URLs (i.e <https://www.website.com/profile>.)[).](https://www.website.com/profile).)
 
 HashRouter
 ==========
 
-Alternatively, you could import and use HashRouter from react-router-dom. Links for applications that use &lt;HashRouter&gt; would look like <https://www.website.com/#/profile> (with an \# between the domain and path).
+Alternatively, you could import and use HashRouter from react-router-dom. Links for applications that use &lt;HashRouter&gt; would look like <a href="https://www.website.com/#/profile" class="uri">https://www.website.com/#/profile</a> (with an \# between the domain and path).
 
 You’ll focus on using the &lt;BrowserRouter&gt;.
 
@@ -1163,14 +1121,14 @@ React Router helps your React application render specific components based on th
 
 The &lt;Route&gt; component is used to wrap another component, causing that component to only be rendered if a certain URL is matched. The behavior of the &lt;Route&gt; component is controlled by the following props: path, component, exact, and render (optional).
 
-Create a simple Users component that returns &lt;h1&gt;This is the users index!&lt;/h1&gt;. Now let's refactor your index.js file so that you can create your routes within the component:
+Create a simple Users component that returns &lt;h1&gt;This is the users index!&lt;/h1&gt;. Now let’s refactor your index.js file so that you can create your routes within the component:
 
-Note that BrowserRouter can only have a single child component, so the snippet above wraps all routes within parent a &lt;div&gt; element. Now let's create some routes!
+Note that BrowserRouter can only have a single child component, so the snippet above wraps all routes within parent a &lt;div&gt; element. Now let’s create some routes!
 
 component
 =========
 
-Begin with the component prop. This prop takes a reference to the component to be rendered. Let's render your App component:
+Begin with the component prop. This prop takes a reference to the component to be rendered. Let’s render your App component:
 
 Now you’ll need to connect a path to the component!
 
@@ -1179,7 +1137,7 @@ path
 
 The wrapped component will only be rendered when the path is matched. The path matches the URL when it matches some initial portion of the URL. For example, a path of / would match both of the following URLs: / and /users. (Because /users begins with a / it matches the path /)
 
-Take a moment to navigate to <http://localhost:3000/users> to see how both the App component and Users component are rendering.
+Take a moment to navigate to <a href="http://localhost:3000/users" class="uri">http://localhost:3000/users</a> to see how both the App component and Users component are rendering.
 
 exact
 =====
@@ -1195,9 +1153,9 @@ The difference between using component and render is that component return
 
 It can be helpful to use render instead of component in your &lt;Route&gt; when you need to pass props into the rendered component. For example, imagine that you needed to pass the users object as a prop to your Users component. Then you could pass in props from Root to Users by returning the Users component like so:
 
-As a reminder, BrowserRouter can only have a single child component. That's why you have wrapped all your routes within parent a &lt;div&gt; element.
+As a reminder, BrowserRouter can only have a single child component. That’s why you have wrapped all your routes within parent a &lt;div&gt; element.
 
-With this Root component, you will always render the &lt;h1&gt;Hi, I'm Root!&lt;/h1&gt;, regardless of the path. Because of the first &lt;Route&gt;, you will only render the App component if the path exactly matches /. Because of the second &lt;Route&gt;, you will only render the Users component if the path matches /users.
+With this Root component, you will always render the &lt;h1&gt;Hi, I’m Root!&lt;/h1&gt;, regardless of the path. Because of the first &lt;Route&gt;, you will only render the App component if the path exactly matches /. Because of the second &lt;Route&gt;, you will only render the Users component if the path matches /users.
 
 Route path params
 =================
@@ -1208,16 +1166,16 @@ For example, take the route below:
 
 The router would break down the full /users/:userId/photos path to two parts: /users, :userId.
 
-The Profile component's props would have access to the :userId part of the <http://localhost:3000/users/:userId/photos> URL through the props with router parameter information. You would access the the match prop's parameters (props.match.params). If you are using the render prop of the Route component, make sure to spread the props back into the component if you want it to know about the "match" parameters.
+The Profile component’s props would have access to the :userId part of the <a href="http://localhost:3000/users/:userId/photos" class="uri">http://localhost:3000/users/:userId/photos</a> URL through the props with router parameter information. You would access the the match prop’s parameters (props.match.params). If you are using the render prop of the Route component, make sure to spread the props back into the component if you want it to know about the “match” parameters.
 
-The params object would then have a property of userId which would hold the value of the :userId *wildcard* value. Let's render the userId parameter in a user profile component. Take a moment to create a Profile.js file with the following code:
+The params object would then have a property of userId which would hold the value of the :userId *wildcard* value. Let’s render the userId parameter in a user profile component. Take a moment to create a Profile.js file with the following code:
 
 Notice how it uses the match prop to access the :userId parameter from the URL. You can use this wildcard to make and AJAX call to fetch the user information from the database and render the return data in the Profile component. Recall that your Profile component was rendered at the path /users/:userId. Thus you can use your userId parameters from match.params to fetch a specific user:
 
 Match
 =====
 
-Now that you’ve seen your React Router’s match prop in action, let's go over more about [route props](https://reacttraining.com/react-router/web/api/Route/route-props)! React Router passes information to the components as route props, accessible to all components with access to the React Router. The three props it makes available are location, match and history. You've learned about props.match.params, but now let's review the other properties of the match prop!
+Now that you’ve seen your React Router’s match prop in action, let’s go over more about [route props](https://reacttraining.com/react-router/web/api/Route/route-props)! React Router passes information to the components as route props, accessible to all components with access to the React Router. The three props it makes available are location, match and history. You’ve learned about props.match.params, but now let’s review the other properties of the match prop!
 
 This is an object that contains important information about how the current URL matches the route path. Here are some of the more useful keys on the match object:
 
@@ -1248,14 +1206,14 @@ Now that you know how to create front-end routes with React Router, you’ll nee
 
 In this article, you’ll be working off of the demo project you built in the React Router Intro reading. When you finish this article, you should be able to use the following components from the react-router-dom library:
 
--   &lt;Link&gt; or &lt;NavLink&gt; to create links with absolute paths to routes in your application (like "/users/1"); and,
--   &lt;Redirect&gt; to redirect a user to another path (i.e. a login page when the user is not logged in); and
--   React Router’s history prop to update a browser's URL programmatically.
+-   &lt;Link&gt; or &lt;NavLink&gt; to create links with absolute paths to routes in your application (like “/users/1”); and,
+-   &lt;Redirect&gt; to redirect a user to another path (i.e. a login page when the user is not logged in); and
+-   React Router’s history prop to update a browser’s URL programmatically.
 
 Adding links for navigation
 ===========================
 
-React Router’s &lt;Link&gt; is one way to simplify navigation around your app. It issues an on-click navigation event to a route defined in your app's router. Using &lt;Link&gt; renders an anchor tag with a correctly set href attribute.
+React Router’s &lt;Link&gt; is one way to simplify navigation around your app. It issues an on-click navigation event to a route defined in your app’s router. Using &lt;Link&gt; renders an anchor tag with a correctly set href attribute.
 
 Link
 ====
@@ -1302,32 +1260,32 @@ You came across styling issues when the /users and /users/1 paths matched th
 
 React Router’s &lt;Switch&gt; component allows you to only render one &lt;Route&gt; even if several match the current URL. You can nest as many Routes as you wish between the opening and closing Switch tags, but only the first one that matches the current URL will be rendered.
 
-This is particularly useful if you want a default component that will only render if none of our other routes match. View the example below. Without the Switch, DefaultComponent would always render. Since there isn't set a path in the DefaultComponent route, it will simply use the default path of /. Now the DefaultComponent will only render when neither of the preceding routes match.
+This is particularly useful if you want a default component that will only render if none of our other routes match. View the example below. Without the Switch, DefaultComponent would always render. Since there isn’t set a path in the DefaultComponent route, it will simply use the default path of /. Now the DefaultComponent will only render when neither of the preceding routes match.
 
 Import Switch from react-router-dom and add &lt;Switch&gt; tags around your routes to take care of ordering and switching between your routes! Begin by adding the following route to the bottom of your routes to render that a 404: Page not found message:
 
 This is what your Root component should look like at this point:
 
-Now you have control over the precedence of rendered components! Try navigating to <http://localhost:3000/asdf> or any other route you have not defined. The &lt;h1&gt;404: Page not found&lt;/h1&gt; JSX of the last &lt;Route&gt; will be rendered whenever the browser attempts to visit an undefined route.
+Now you have control over the precedence of rendered components! Try navigating to <a href="http://localhost:3000/asdf" class="uri">http://localhost:3000/asdf</a> or any other route you have not defined. The &lt;h1&gt;404: Page not found&lt;/h1&gt; JSX of the last &lt;Route&gt; will be rendered whenever the browser attempts to visit an undefined route.
 
 Redirecting users
 =================
 
 But what if you want to redirect users to a login page when they aren’t logged in? The &lt;Redirect&gt; component from React Router helps you redirect users!
 
-The component takes only one prop: to. When it renders, it replaces the current URL with the value of its to prop. Typically you conditionally render &lt;Redirect&gt; to redirect the user away from some page you don't want them to visit. The example below checks whether there is a defined currentUser prop. If so, the &lt;Route&gt; will render the Home component. Otherwise, it will redirect the user to the /login path.
+The component takes only one prop: to. When it renders, it replaces the current URL with the value of its to prop. Typically you conditionally render &lt;Redirect&gt; to redirect the user away from some page you don’t want them to visit. The example below checks whether there is a defined currentUser prop. If so, the &lt;Route&gt; will render the Home component. Otherwise, it will redirect the user to the /login path.
 
 Note: you will learn how to use a more flexible auth pattern — don’t directly imitate this example.
 
 History
 =======
 
-You know how to redirect users with a &lt;Redirect&gt; component, but what if you need to redirect users programmatically? You've learned about the React Router's match prop, but now let's go over another one of the [route props](https://reacttraining.com/react-router/web/api/Route/route-props): history!
+You know how to redirect users with a &lt;Redirect&gt; component, but what if you need to redirect users programmatically? You’ve learned about the React Router’s match prop, but now let’s go over another one of the [route props](https://reacttraining.com/react-router/web/api/Route/route-props): history!
 
 This prop lets you update the URL programmatically. For example, suppose you want to push a new URL when the user clicks a button. It has two useful methods:
 
 -   push - This adds a new URL to the end of the history stack. That means that clicking the back button will take the browser to the previous URL. Note that pushing the same URL multiple times in a row will have no effect; the URL will still only show up on the stack once. In development mode, pushing the same URL twice in a row will generate a console warning. This warning is disabled in production mode.
--   replace - This replaces the current URL on the history stack, so the back button won't take you to it. For example:
+-   replace - This replaces the current URL on the history stack, so the back button won’t take you to it. For example:
 
 What you learned
 ================
@@ -1363,7 +1321,7 @@ What are nested routes?
 
 Now let’s dive into a user profile component to understand what are nested routes! Imagine you have a route in your application’s entry file to each user’s profile like so:
 
-This means that upon navigating to <http://localhost:3000/users/1>, you would render the following Profile component and the userId parameter within props.match.params would have the value of "1".
+This means that upon navigating to <a href="http://localhost:3000/users/1" class="uri">http://localhost:3000/users/1</a>, you would render the following Profile component and the userId parameter within props.match.params would have the value of “1”.
 
 Since this route is not created until the Profile component is rendered, you are dynamically creating your nested /users/:userId/posts and /users/:userId/photos routes. Remember that your match prop also has other helpful properties. You can use match.url instead of /users/${id} in your profile links. You can also use match.path instead of /users/:userId in your profile routes. Remember that you can destructure url, path, and params from your match prop!
 
@@ -1398,7 +1356,7 @@ The need for front-end builds predates React. Over the years, developers have fo
 
 Sometimes developers extend JavaScript and CSS with something like [TypeScript](https://www.typescriptlang.org/) or [Sass](https://sass-lang.com/). Using these non-standard languages and syntaxes require you to use a build process to convert your code into standard JavaScript and CSS that can actually run in the browser.
 
-Browser-based applications also require a fair amount of optimization to deliver the best, or at least acceptable, experience to end users. Front-end build processes could be configured to lint code, run unit tests, optimize images, minify and bundle code, and more — all automatically at the press of a button (i.e. running a command at the terminal).
+Browser-based applications also require a fair amount of optimization to deliver the best, or at least acceptable, experience to end users. Front-end build processes could be configured to lint code, run unit tests, optimize images, minify and bundle code, and more — all automatically at the press of a button (i.e. running a command at the terminal).
 
 JavaScript versions and the growth of front-end builds
 ======================================================
@@ -1418,7 +1376,7 @@ Linting is process of using a tool to analyze your code to catch common programm
 
 Transpilation is the process of converting source code, like JavaScript, from one version to another version. Usually this means converting newer versions of JavaScript, [ES2019](https://www.ecma-international.org/ecma-262/10.0/index.html) or [ES2021](https://tc39.es/ecma262/), to a version that’s more widely supported by browsers, like [ES2015](http://www.ecma-international.org/ecma-262/6.0/), or even [ES5](https://www.ecma-international.org/ecma-262/5.1/) or [ES3](https://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf) (if you need to support the browser that your parents or grandparents use).
 
-Minification is the process of removing all unnecessary characters in your code (e.g. white space characters, new line characters, comments) to produce an overall smaller file. Minification tools will often also rename identifers in your code (i.e. parameter and variable names) in the quest for smaller and smaller file sizes. Source maps can also be generated to allow debugging tools to cross reference between minified code and the original source code.
+Minification is the process of removing all unnecessary characters in your code (e.g. white space characters, new line characters, comments) to produce an overall smaller file. Minification tools will often also rename identifers in your code (i.e. parameter and variable names) in the quest for smaller and smaller file sizes. Source maps can also be generated to allow debugging tools to cross reference between minified code and the original source code.
 
 Bundling is the process of combining multiple code files into a single file. Creating a bundle (or a handful of bundles) reduces the number of requests that a client needs to make to the server.
 
@@ -1468,11 +1426,11 @@ Create React App provides a script that you can run to “eject” your applicat
 
 > *The need to customize Create React App rarely happens. Also, don’t eject an actual project as it’s a one-way trip! Once a Create React App project has been ejected, there’s no going back (though you could always undo the ejection process by reverting to an earlier commit if you’re using source control).*
 
-To eject your application from Create React App, run the command npm run eject. You'll be prompted if you want to continue; type "y" to continue with the ejection process. Once the ejection process has completed, you can review the files that were previously hidden from you.
+To eject your application from Create React App, run the command npm run eject. You’ll be prompted if you want to continue; type “y” to continue with the ejection process. Once the ejection process has completed, you can review the files that were previously hidden from you.
 
-In the package.json file, you'll see the following npm scripts:
+In the package.json file, you’ll see the following npm scripts:
 
-You can open the ./scripts/start.js file to see the code that's executed when you run npm start.
+You can open the ./scripts/start.js file to see the code that’s executed when you run npm start.
 
 If you’re curious about the webpack configuration, you can open and review the ./config/webpack.config.js.
 
@@ -1504,11 +1462,11 @@ The [browserl.ist](https://browserl.ist/) website can be used to see the brows
 Creating a production build
 ===========================
 
-To create a production build, run the command npm run build. The production build process bundles React in production mode and optimizes the build for the best performance. When the command completes, you'll find your production ready files in the build folder.
+To create a production build, run the command npm run build. The production build process bundles React in production mode and optimizes the build for the best performance. When the command completes, you’ll find your production ready files in the build folder.
 
 Now your application is ready to be deployed!
 
-> *For more information about how to deploy a Create React App project into production, see \_\[*this page*\](<https://facebook.github.io/create-react-app/docs/deployment>)* in the official documentation.\_
+> *For more information about how to deploy a Create React App project into production, see \_\[*this page*\](<a href="https://facebook.github.io/create-react-app/docs/deployment" class="uri">https://facebook.github.io/create-react-app/docs/deployment</a>)* in the official documentation.\_
 
 What you learned
 ================
@@ -1561,7 +1519,7 @@ Phase 0: Setup
 
 Begin by creating a new React project:
 
-Now you’ll remove all the contents of your src and all the contents from your public directory to build the application architecture from scratch! After you have deleted all your files within the directories, create a new index.html file in your public folder. Use the html:5 emmet shortcut to generate an HTML template. Title your page "Rainbow Routes" and create a div with an id of root in your DOM's &lt;body&gt; element. Create an index.css file in your src directory with the following code. Now let's create your entry file!
+Now you’ll remove all the contents of your src and all the contents from your public directory to build the application architecture from scratch! After you have deleted all your files within the directories, create a new index.html file in your public folder. Use the html:5 emmet shortcut to generate an HTML template. Title your page “Rainbow Routes” and create a div with an id of root in your DOM’s &lt;body&gt; element. Create an index.css file in your src directory with the following code. Now let’s create your entry file!
 
 Create an index.js entry file in the src directory. At the top of the file, make sure to import React from the react package and ReactDOM from the react-dom package. Make sure to also import your the index.css file you just created! This will take care of styling your *rainbow routes*.
 
@@ -1577,7 +1535,7 @@ You’re going to be rendering a lot of components, so let’s keep your src d
 
 Your Rainbow component will act as the home page or default path (/) of your application. Import the Rainbow component into your entry file and have your Root component render &lt;Rainbow /&gt; wrapped within &lt;BrowserRouter&gt; tags, like so:
 
-Within your Rainbow component, you'll be rendering &lt;NavLink&gt; and &lt;Route&gt; components to add different navigation paths to different components. Let's create all the components you will render!
+Within your Rainbow component, you’ll be rendering &lt;NavLink&gt; and &lt;Route&gt; components to add different navigation paths to different components. Let’s create all the components you will render!
 
 Create files for the following components in your ./src/components directory:
 
@@ -1593,20 +1551,20 @@ Your Red and Blue components will look something like this:
 
 Your Green, Indigo, Orange, Violet, and Yellow components will look something like this:
 
-Now start your server and verify you can see the “Rainbow Router!” header from your Rainbow component. Currently there is no functionality. Let's fix that!
+Now start your server and verify you can see the “Rainbow Router!” header from your Rainbow component. Currently there is no functionality. Let’s fix that!
 
 Phase 1: Routes
 ===============
 
-As a reminder, wrapping the Rainbow component in &lt;BrowserRouter&gt; tags makes the router available to all descendent React Router components. Now open the Rainbow.js file. You're going to render some of your color components from here. Ultimately you want your routes to look like this.
+As a reminder, wrapping the Rainbow component in &lt;BrowserRouter&gt; tags makes the router available to all descendent React Router components. Now open the Rainbow.js file. You’re going to render some of your color components from here. Ultimately you want your routes to look like this.
 
 URLComponents/Rainbow/redRainbow -&gt; Red/red/orangeRainbow -&gt; Red -&gt; Orange/red/yellowRainbow -&gt; Red -&gt; Yellow/greenRainbow -&gt; Green/blueRainbow -&gt; Blue/blue/indigoRainbow -&gt; Blue -&gt; Indigo/violetRainbow -&gt; Violet
 
-This means that the Red, Green, Blue, and Violet components need to render in the Rainbow component, but only when you are at the corresponding URL. You'll do this with Route components. Begin by importing the Red, Green, Blue, and Violet components into your Rainbow.js file. Then add the necessary Route components inside the div with id="rainbow" in the Rainbow component. For example to render the Red component with the /red path, you would use the following Route component:
+This means that the Red, Green, Blue, and Violet components need to render in the Rainbow component, but only when you are at the corresponding URL. You’ll do this with Route components. Begin by importing the Red, Green, Blue, and Violet components into your Rainbow.js file. Then add the necessary Route components inside the div with id=“rainbow” in the Rainbow component. For example to render the Red component with the /red path, you would use the following Route component:
 
-Test that your code works! Manually type in each URL you just created, and you should see the color component pop up. Remember, these are React Routes, so the paths you created will come after the /. For example, your default rainbow route will look like <http://localhost:3000/> while your red route will look like [http://localhost:3000/red](http://localhost:3000/red.)[.](http://localhost:3000/red.)
+Test that your code works! Manually type in each URL you just created, and you should see the color component pop up. Remember, these are React Routes, so the paths you created will come after the /. For example, your default rainbow route will look like <a href="http://localhost:3000/" class="uri">http://localhost:3000/</a> while your red route will look like [http://localhost:3000/red](http://localhost:3000/red.)[.](http://localhost:3000/red.)
 
-You want to nest the Orange and Yellow components inside the Red component, and the Indigo component inside the Blue component. Remember to import your components to use them in a Route tag. You'll have to go add the corresponding Route tags to the Red.js and Blue.js files. Make sure to use the correct nested paths, such as "/red/orange" for the orange Route.
+You want to nest the Orange and Yellow components inside the Red component, and the Indigo component inside the Blue component. Remember to import your components to use them in a Route tag. You’ll have to go add the corresponding Route tags to the Red.js and Blue.js files. Make sure to use the correct nested paths, such as “/red/orange” for the orange Route.
 
 Phase 2: Links
 ==============
@@ -1624,9 +1582,9 @@ Phase 3: NavLinks
 
 It would be nice if our links gave us some indication of which route you were at. Fortunately, React Router has a special component for that very purpose: NavLink. NavLinks get an extra CSS class when their to prop matches the current URL. By default this class is called active.
 
-Go ahead and switch all your Links to NavLinks. If you open the app you won't see any change yet. That's because you haven't added any special styling to the active class. Go ahead and open the index.css file. Create an .active class and add the line font-weight: 700. Now your active links will be bold. Isn't that nice!
+Go ahead and switch all your Links to NavLinks. If you open the app you won’t see any change yet. That’s because you haven’t added any special styling to the active class. Go ahead and open the index.css file. Create an .active class and add the line font-weight: 700. Now your active links will be bold. Isn’t that nice!
 
-The only problem is that now the Blue only link is active even when the path is /blue/indigo. That doesn't make a lot of sense. Let's add the exact flag to that link so it will only be active when its to exactly matches the current path. Now it should look like:
+The only problem is that now the Blue only link is active even when the path is /blue/indigo. That doesn’t make a lot of sense. Let’s add the exact flag to that link so it will only be active when its to exactly matches the current path. Now it should look like:
 
 Do the same for the Red only link. Everything should be working now.
 
@@ -1637,7 +1595,7 @@ You’ve already set up NavLink to bold the link text using the .active clas
 
 You can set the class that React Router sets to an active NavLink by adding the activeClassName prop.
 
-For instance, when we are at a route matching the below NavLink's to prop, the component will have a class of .parent-active applied:
+For instance, when we are at a route matching the below NavLink’s to prop, the component will have a class of .parent-active applied:
 
 This allows much more flexibility to style an active NavLink!
 
@@ -1657,17 +1615,17 @@ Phase 0: Setup
 
 Begin by using the [create-react-app](https://github.com/facebook/create-react-app) package to create a React application:
 
-> *Remember that using the create-react-app command initializes your project as a Git repository. If you use the ls -a to view the hidden files in your project, you'll see the .git file.*
+> *Remember that using the create-react-app command initializes your project as a Git repository. If you use the ls -a to view the hidden files in your project, you’ll see the .git file.*
 
 Update the App component:
 
 -   Wrap the &lt;h1&gt; element with a &lt;div&gt; element; and
--   Change the &lt;h1&gt; element content to something like "Exploring React Builds".
+-   Change the &lt;h1&gt; element content to something like “Exploring React Builds”.
 
 Phase 1: Using CSS modules
 ==========================
 
-You’ve already seen an example of using the import keyword to import a stylesheet into a module so that it'll be included in your application build. That's the technique being used to include the global index.css stylesheet:
+You’ve already seen an example of using the import keyword to import a stylesheet into a module so that it’ll be included in your application build. That’s the technique being used to include the global index.css stylesheet:
 
 You can also leverage [CSS modules](https://github.com/css-modules/css-modules) in your Create React App projects. CSS Modules scope stylesheet class names so that they are unique to a specific React component. This allows you to create class names without having to worry if they might collide with class names used in another component.
 
@@ -1680,11 +1638,11 @@ Add a new css-modules folder to the src folder. Within that folder, add the 
 
 Then update the contents of each file to the following:
 
-Notice how the .heading CSS class name is being used within each component to set the color of the &lt;h1&gt; element. For the HeadingA component, the color is green, and for the HeadingB component, the color is red. Using the file naming convention \[name\].module.css let's Create React App know that we want these stylesheets to be processed as CSS Modules. Using CSS Modules allows the .heading class name to be reused across components without any issue.
+Notice how the .heading CSS class name is being used within each component to set the color of the &lt;h1&gt; element. For the HeadingA component, the color is green, and for the HeadingB component, the color is red. Using the file naming convention \[name\].module.css let’s Create React App know that we want these stylesheets to be processed as CSS Modules. Using CSS Modules allows the .heading class name to be reused across components without any issue.
 
 To see this feature in action, update your App component to render both of your new components:
 
-Then run your application (npm start) to see "Heading A" and "Heading B" displayed respectively in green and red. If you use the browser's developer tools to inspect "Heading A", you'll see that the .heading class name has been modified so that it's unique to the HeadingA component:
+Then run your application (npm start) to see “Heading A” and “Heading B” displayed respectively in green and red. If you use the browser’s developer tools to inspect “Heading A”, you’ll see that the .heading class name has been modified so that it’s unique to the HeadingA component:
 
 CSS Modules is an example of how a front-end build process can be used to modify code to enable a feature that’s not natively supported by browsers.
 
@@ -1695,17 +1653,17 @@ Create React App configures webpack with support for loading images (as well as 
 
 Download any image of off the Web or [click here](https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Modular-Curriculum/content/react-redux/topics/react-builds/assets/react-builds-cat.png) to download the below image.
 
-Then within the src folder add a new folder named image. Within that folder add a new component file named Image.js. Also add your downloaded image file to the image folder (so it's a sibling to the Image.js file).
+Then within the src folder add a new folder named image. Within that folder add a new component file named Image.js. Also add your downloaded image file to the image folder (so it’s a sibling to the Image.js file).
 
 Update the contents of the Image.js file to this:
 
-You can import an image into a component using the import keyword. This tells webpack to include the image in the build. Notice that when you import an image into a module, you'll get a path to the image's location within the build. You can use this path to set the src attribute on an &lt;img&gt; element.
+You can import an image into a component using the import keyword. This tells webpack to include the image in the build. Notice that when you import an image into a module, you’ll get a path to the image’s location within the build. You can use this path to set the src attribute on an &lt;img&gt; element.
 
-> *Be sure to update the image import statement to the correct file name if you're using your own image!*
+> *Be sure to update the image import statement to the correct file name if you’re using your own image!*
 
 Now update the App component to import and render the Image component:
 
-If you run your application (npm start) you'll see your image displayed on the page! You can also open your browser's developer tools and view the "Sources" for the current page. If you can expand the localhost:3000 &gt; static &gt; media node on the left, you can see the image file that webpack copied to your build.
+If you run your application (npm start) you’ll see your image displayed on the page! You can also open your browser’s developer tools and view the “Sources” for the current page. If you can expand the localhost:3000 &gt; static &gt; media node on the left, you can see the image file that webpack copied to your build.
 
 Images in stylesheets
 =====================
@@ -1721,17 +1679,17 @@ Phase 3: Updating the supported browsers (and its affect on code transpilation)
 
 Earlier you learned about the browerslist setting in the package.json file and now adjusting these targets affect how your code will be transpiled:
 
-The production list specifies the browsers to target when creating a production build and the development list specifics the browsers to target when running the application using npm start. Currently, you're targeting relatively recent versions of the major browsers when creating a development build. Targeting older browser versions results in your code being transpiled to an older version of JavaScript.
+The production list specifies the browsers to target when creating a production build and the development list specifics the browsers to target when running the application using npm start. Currently, you’re targeting relatively recent versions of the major browsers when creating a development build. Targeting older browser versions results in your code being transpiled to an older version of JavaScript.
 
 To experiment with this configuration option, let’s add a class component to the project. Add a new folder named class-component to the src folder. Within that folder, add a file named ClassComponent.js containing the following code:
 
 Don’t forget to update your App component to render the new component:
 
-Now run your application using npm start. Open your browser's developer tools and view the "Sources" for the current page. Expand the localhost:3000 &gt; static &gt; js node on the left and select the main.chunk.js file. Press CMD+F on macOS or CTRL+F on Windows to search the file for "Class Component". Here's what the transpiled code looks like for the ClassComponent class:
+Now run your application using npm start. Open your browser’s developer tools and view the “Sources” for the current page. Expand the localhost:3000 &gt; static &gt; js node on the left and select the main.chunk.js file. Press CMD+F on macOS or CTRL+F on Windows to search the file for “Class Component”. Here’s what the transpiled code looks like for the ClassComponent class:
 
-> *Have you wondered yet why you need to use the developer tools to view the bundles generated by Create React App? Remember that when you run npm start, Create React App builds your application using \_\[*webpack-dev-server*\](<https://webpack.js.org/configuration/dev-server/>)*. To keep things as performant as possible, the bundles generated by *\[*webpack-dev-server*\](<https://webpack.js.org/configuration/dev-server/>)* are stored in memory instead of writing them to the file system.\_
+> *Have you wondered yet why you need to use the developer tools to view the bundles generated by Create React App? Remember that when you run npm start, Create React App builds your application using \_\[*webpack-dev-server*\](<a href="https://webpack.js.org/configuration/dev-server/" class="uri">https://webpack.js.org/configuration/dev-server/</a>)*. To keep things as performant as possible, the bundles generated by *\[*webpack-dev-server*\](<a href="https://webpack.js.org/configuration/dev-server/" class="uri">https://webpack.js.org/configuration/dev-server/</a>)* are stored in memory instead of writing them to the file system.\_
 
-The JSX in the component’s render method has been converted to JavaScript but the ClassComponent ES2015 class is left alone. This makes sense though as JSX isn't natively supported by any browser while ES2015 classes have been natively supported by browsers for awhile now.
+The JSX in the component’s render method has been converted to JavaScript but the ClassComponent ES2015 class is left alone. This makes sense though as JSX isn’t natively supported by any browser while ES2015 classes have been natively supported by browsers for awhile now.
 
 But what if you need to target a version of a browser that doesn’t support ES2015 classes? You can use the [“Can I use…”](https://caniuse.com/#feat=es6-class) website to see when browsers started supporting ES2105 (or ES6) classes. Starting with version 49, Chrome natively supported classes. But imagine that you need to support Chrome going back to version 30, a version of Chrome that doesn’t support classes.
 
@@ -1739,7 +1697,7 @@ Change the browserslist.development property in the package.json file to thi
 
 The query chrome &gt;= 30 specifies that you want to target Chrome version 30 or newer.
 
-> *The \_\[*browserl.ist*\](<https://browserl.ist/>)* website can be used to see the browsers supported by your configured browserslist.\_
+> *The \_\[*browserl.ist*\](<a href="https://browserl.ist/" class="uri">https://browserl.ist/</a>)* website can be used to see the browsers supported by your configured browserslist.\_
 
 Stop your application if it’s currently running. Delete the ./node\_modules/.cache folder and run npm start again. Then view the main.chunk.js bundle again in the developer tools:
 
@@ -1764,9 +1722,9 @@ Environment variables can also be referred to in regular JavaScript code:
 
 You can also reference environment variables in your ./public/index.html file like this:
 
-Run your application again using npm start. Open your browser's developer tools and view the "Sources" for the current page. Expand the localhost:3000 node on the left and select (index). Notice that the text %REACT*APP*TITLE% within the &lt;title&gt; element has been converted to the text literal Exploring React Builds:
+Run your application again using npm start. Open your browser’s developer tools and view the “Sources” for the current page. Expand the localhost:3000 node on the left and select (index). Notice that the text %REACT*APP*TITLE% within the &lt;title&gt; element has been converted to the text literal Exploring React Builds:
 
-If you expand the localhost:3000 &gt; static &gt; js node on the left and select the main.chunk.js file, you can see how the App component's JSX has been converted to JavaScript:
+If you expand the localhost:3000 &gt; static &gt; js node on the left and select the main.chunk.js file, you can see how the App component’s JSX has been converted to JavaScript:
 
 Here’s a closer look at the relevant React.createElement method call:
 
@@ -1795,7 +1753,7 @@ Creating a production build
 
 To create a production build, run the command npm run build from the root of your project. The output in the terminal should look something like this:
 
-Ignore the comments about using serve to deploy your application (i.e. npm install -g serve and serve -s build). In the next step, you'll create a simple Express application to server your React application.
+Ignore the comments about using serve to deploy your application (i.e. npm install -g serve and serve -s build). In the next step, you’ll create a simple Express application to server your React application.
 
 Serving a React application using Express
 =========================================
@@ -1815,23 +1773,19 @@ This simple Express application will:
 
 Now add a folder named public to the root of your Express project. Copy the files from the build folder in your Create React App project to the public folder in the Express application project. Then run your application using the command node app.js.
 
-Open a browser and browse to the URL <http://localhost:9000/>. You should see your React application served from your Express application! Be sure to click the navigation links to verify that all of your configured routes work as expected.
+Open a browser and browse to the URL <a href="http://localhost:9000/" class="uri">http://localhost:9000/</a>. You should see your React application served from your Express application! Be sure to click the navigation links to verify that all of your configured routes work as expected.
 
-Also, because you configured Express to serve the ./public/index.html file for any request that doesn't match a static file, you can "deep link" to any of your React application's routes:
+Also, because you configured Express to serve the ./public/index.html file for any request that doesn’t match a static file, you can “deep link” to any of your React application’s routes:
 
--   <http://localhost:9000/image>
--   <http://localhost:9000/class-component>
+-   <a href="http://localhost:9000/image" class="uri">http://localhost:9000/image</a>
+-   <a href="http://localhost:9000/class-component" class="uri">http://localhost:9000/class-component</a>
 
 Jump to Section
 ---------------
 
-  
-
-  
-
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 

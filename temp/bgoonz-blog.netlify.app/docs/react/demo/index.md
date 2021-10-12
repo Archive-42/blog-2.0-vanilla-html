@@ -1,51 +1,38 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
-<span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
+<span class="screen-reader-text">Open Menu</span><span class="icon-close" data-aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/sitemap" class="button">Navigation</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs" class="button">Docs</a>
     -   <a href="/showcase" class="button">Showcase</a>
     -   <a href="/docs/faq/contact" class="button">Contact!</a>
     -   <a href="/docs/python/python-ds" class="button">Python</a>
-
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/blog/" class="button">Blog</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
     -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
     -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
     -   <a href="/blog/platform-docs/" class="button">platform docs</a>
     -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
     -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
-
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
     -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
     -   <a href="#" class="button">Bootcamp Resources</a>
     -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
     -   <a href="/docs/gallery" class="button">Gallery</a>
     -   <a href="/docs" class="button">Top Repos</a>
-
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/audio/audio" class="button">Audio</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
     -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
-
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
     -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
     -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
     -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
     -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
-
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
     -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
     -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
@@ -55,9 +42,7 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
     -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
     -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
-
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+-   <a href="/docs/tools" class="button">Tools</a> <span class="icon-angle-right" data-aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
     -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
     -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
     -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
@@ -67,21 +52,18 @@ This app works best with JavaScript enabled.
     -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
     -   <span class="screen-reader-text">Github-Advanced-Search</span>
 
-<span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
+<span class="screen-reader-text">Close Menu</span><span class="icon-menu" data-aria-hidden="true"></span>
 
-Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
+Navigate Docs<span class="icon-angle-right" data-aria-hidden="true"></span>
 
 -   [Docs](/docs/)
--   [About](/docs/about/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [About](/docs/about/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Job Search](/docs/about/job-search/)
     -   [Youtube](/docs/about/intrests/)
     -   [Resume](/docs/about/resume/)
     -   [Engineering Portfolio](/docs/about/eng-portfolio/)
     -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
-
--   [Articles](/docs/articles/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Articles](/docs/articles/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [The HTTP Protocol](/docs/articles/http/)
     -   [How The Web Works](/docs/articles/how-the-web-works/)
     -   [Sorting Algorithms](/docs/articles/node-package-manager/)
@@ -114,22 +96,16 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Semantic Versioning](/docs/articles/semantic/)
     -   [Writing Files](/docs/articles/writing-files/)
     -   [Node APIs With Express](/docs/articles/node-api-express/)
-
--   [Audio](/docs/audio/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Audio](/docs/audio/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
     -   [Audio](/docs/audio/audio/)
     -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
     -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
     -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
     -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
-
--   [Community](/docs/community/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Community](/docs/community/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Video Chat](/docs/community/video-chat/)
-
--   [Content](/docs/content/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Content](/docs/content/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
     -   [History API](/docs/content/history-api/)
     -   [Lambda School Projects](/docs/content/lambda-projects/)
@@ -140,9 +116,7 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
     -   [Embeded Websites & Projects](/docs/content/recent-projects/)
     -   [Algorithms & Data Structures](/docs/content/algo/)
-
--   [Documentation](/docs/docs/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Documentation](/docs/docs/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Apendix](/docs/docs/appendix/)
     -   [Await](/docs/docs/await-keyword/)
     -   [Git Reference](/docs/docs/git-reference/)
@@ -155,33 +129,23 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Learn Css](/docs/docs/css/)
     -   [Useful Snippets](/docs/docs/content/)
     -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
-
--   [FAQ](/docs/faq/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [FAQ](/docs/faq/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Plug-ins](/docs/faq/plug-ins/)
     -   [Contact!](/docs/faq/contact/)
-
--   [Javascript](/docs/javascript/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Javascript](/docs/javascript/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Javascript Concepts Review](/docs/javascript/review/)
     -   [Constructor Functions](/docs/javascript/constructor-functions/)
     -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
-
--   [Interactive Examples](/docs/interact/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Interactive Examples](/docs/interact/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Callstack Visualizer](/docs/interact/callstack-visual/)
     -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
     -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
     -   [Other Websites](/docs/interact/other-sites/)
     -   [Clock](/docs/interact/clock/)
-
--   [Medium](/docs/medium/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Medium](/docs/medium/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [My Sites](/docs/medium/my-websites/)
     -   [Medium](/docs/medium/medium-links/)
-
--   [Quick Reference](/docs/quick-reference/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Quick Reference](/docs/quick-reference/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Git Bash](/docs/quick-reference/git-bash/)
     -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
     -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
@@ -204,9 +168,7 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
     -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
     -   [vscode-themes](/docs/quick-reference/vscode-themes/)
-
--   [React](/docs/react/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [React](/docs/react/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [React Cheat Sheets:](/docs/react/cheatsheet/)
     -   [React Class Components Demo](/docs/react/demo/)
     -   [Introducing JSX](/docs/react/jsx/)
@@ -215,17 +177,13 @@ Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
     -   [Intro To React](/docs/react/react2/)
     -   [npx-create-react-app](/docs/react/createReactApp/)
     -   [React Docs](/docs/react/react-docs/)
-
--   [Tools](/docs/tools/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [Tools](/docs/tools/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [Data Structures](/docs/tools/data-structures/)
     -   [General Utilities](/docs/tools/dev-utilities/)
     -   [more tools](/docs/tools/more-tools/)
     -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
     -   [md and html](/docs/tools/markdown-html/)
-
--   [My Python Docs](/docs/python/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+-   [My Python Docs](/docs/python/) <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" data-aria-hidden="true"></span>
     -   [lorem-ipsum](/docs/python/basics/)
     -   [lorem-ipsum](/docs/python/flow-control/)
     -   [google-sheets-api](/docs/python/google-sheets-api/)
@@ -370,7 +328,7 @@ If you need to interact with the browser, perform your work in `componentDidMoun
 
 > *Note*
 >
-> `* will not be invoked if* [`\](<https://reactjs.org/docs/react-component.html#shouldcomponentupdate>) *returns false.*
+> `* will not be invoked if* [`\](<a href="https://reactjs.org/docs/react-component.html#shouldcomponentupdate" class="uri">https://reactjs.org/docs/react-component.html#shouldcomponentupdate</a>) *returns false.*
 
 The export statement at the bottom of the file also stays, completely unchanged. Our class component will thus look like this:
 
@@ -384,9 +342,9 @@ The export statement at the bottom of the file also stays, completely unchanged.
 
     export default BasicClassComponent;
 
-**Notice that our `BasicClassComponent` inherits from the base `Component` class that we imported from the React library, by virtue of the 'extends' keyword.**
+**Notice that our `BasicClassComponent` inherits from the base `Component` class that we imported from the React library, by virtue of the ‘extends’ keyword.**
 
-*That being said, there's nothing in this minimal component that takes advantage of any of those inherited methods.*
+*That being said, there’s nothing in this minimal component that takes advantage of any of those inherited methods.*
 
 **All we have is a method on our component class called `render` that returns the same div tag.**
 
@@ -434,12 +392,12 @@ Our class component with state will look a lot like the basic class component we
 
 **So far, the only new thing going on here is the constructor block. If you recall how classes in JavaScript work, classes need constructors.**
 
-**Additionally, if a class is extending off of another class and wants access to its parent class’s methods and properties, then the `super` function needs to be called inside the class's constructor function.**
+**Additionally, if a class is extending off of another class and wants access to its parent class’s methods and properties, then the `super` function needs to be called inside the class’s constructor function.**
 
 ### Point being, the constructor function and the call to the `super` function are *not* associated with React, they are associated with all JavaScript classes. <span id="7791"></span>
 
 -   Then there is the \`\`\*\* property inside the constructor function that is set as an empty object\*\*.
--   We're adding a property called `state` to our class and setting it to an empty object.
+-   We’re adding a property called `state` to our class and setting it to an empty object.
 
 ### State objects in React are always just plain old objects. <span id="2e40"></span>
 
@@ -449,7 +407,7 @@ That is because we had no need for them since all our class component was doing 
 
 **The constructor is needed here because that is where we need to initialize our state object.**
 
-**The call to `super` is needed because we can't reference `this` inside of our constructor without a call to `super` first.**
+**The call to `super` is needed because we can’t reference `this` inside of our constructor without a call to `super` first.**
 
 Ok, now let’s actually use this state object.
 
@@ -556,9 +514,9 @@ The more interesting thing is what is going on within the bodies of these method
 
 -   `setState` in fact *is* provided to us by React.
 
-It is the standard way to update a component's state.
+It is the standard way to update a component’s state.
 
-It's the *only* way you should ever update a component's state. It may seem more verbose than necessary, but there are good reasons for why you should be doing it this way.
+It’s the *only* way you should ever update a component’s state. It may seem more verbose than necessary, but there are good reasons for why you should be doing it this way.
 
 Unlike the lifecycle methods above (which React calls for you), the methods below are the methods *you* can call from your components.
 
@@ -613,15 +571,15 @@ Subsequent calls will override values from previous calls in the same cycle, so 
       return {quantity: state.quantity + 1};
     });
 
-### So the way to use `setState` to update a component's state is to pass it an object with each of the state keys you wish to update, along with the updated value. <span id="bd27"></span>
+### So the way to use `setState` to update a component’s state is to pass it an object with each of the state keys you wish to update, along with the updated value. <span id="bd27"></span>
 
-In our `increment` method we said "I would like to update the `aNumber` property on my component state by adding one to it and then setting the new value as my new `aNumber` ".
+In our `increment` method we said “I would like to update the `aNumber` property on my component state by adding one to it and then setting the new value as my new `aNumber`”.
 
-The same thing happens in our `decrement` method, only we're subtracting instead of adding.
+The same thing happens in our `decrement` method, only we’re subtracting instead of adding.
 
 Then the other new concept we’re running into here is how to actually call these methods we’ve added to our class.![](https://miro.medium.com/max/60/1*k8t5QBcMvHDX521sd4pC4g.png?q=20)![](https://miro.medium.com/max/856/1*k8t5QBcMvHDX521sd4pC4g.png)
 
-We added two HTML button tags within our `render` function, then in their respective `onClick` handlers, we specify the method that should be called whenever this button gets clicked. So whenever we click either of the buttons, our state gets updated appropriately and our component will re-render to show the correct value we're expecting.
+We added two HTML button tags within our `render` function, then in their respective `onClick` handlers, we specify the method that should be called whenever this button gets clicked. So whenever we click either of the buttons, our state gets updated appropriately and our component will re-render to show the correct value we’re expecting.
 
 Class Component Iterating State <span id="e859"></span>
 -------------------------------------------------------
@@ -680,17 +638,17 @@ The first change to note is that our state object now has an ‘ingredients’ a
 
 The ingredients array contains the elements that we’ll want to render in our list.
 
-The `addIngredient` and `handleIngredientInput` methods we've added to our class receives a parameter called 'event'.
+The `addIngredient` and `handleIngredientInput` methods we’ve added to our class receives a parameter called ‘event’.
 
-This event object is part of the browser's API.
+This event object is part of the browser’s API.
 
 When we interact with some DOM element, **such as clicking on an HTML button, the** ***function that is invoked upon that button being clicked*** **actually receives the event object.**
 
--   So when we type some input into an input tag, we're able grab each character that was typed into the input field through the event object parameter.
+-   So when we type some input into an input tag, we’re able grab each character that was typed into the input field through the event object parameter.
 -   The `handleIngredientInput` method is what gets invoked every time the user presses a key to enter text in the input box for adding a new ingredient.
 -   Every character the user types gets persisted in the `newIngredient` field on the state object.
 
-We're able to grab the text in the input box using `event.target.value`
+We’re able to grab the text in the input box using `event.target.value`
 
 **Which holds the value of the string text that is currently in the input box**.
 
@@ -698,7 +656,7 @@ We're able to grab the text in the input box using `event.target.value`
 
 Breaking down the `addIngredient` method, we see this `event.preventDefault()` invocation.
 
-This is because this method will be used upon submitting a form, and it turns out that submitting a form triggers some default form behavior that we don't want to trigger when we submit the form (**namely refreshing the entire page**).
+This is because this method will be used upon submitting a form, and it turns out that submitting a form triggers some default form behavior that we don’t want to trigger when we submit the form (**namely refreshing the entire page**).
 
 > `event.preventDefault()` will prevent this default form behavior, meaning our form will only do what we want it to do when it is submitted.
 
@@ -716,7 +674,7 @@ So all we have to do now is call `setState` appropriately in order to update the
 
 Additionally, we also set the `newIngredient` field back to an empty string in order to clear out the input field once we submit a new ingredient.
 
-Now it's ready to accept more user input!
+Now it’s ready to accept more user input!
 
 ![](https://miro.medium.com/max/60/1*LXx7WeP_5wFRfYa45snSEA.png?q=20)
 
@@ -730,7 +688,7 @@ This is a very common pattern for rendering everything inside an array.
 
 Then we have an HTML form which contains an input field.
 
-The purpose of this form is to allow a user to add new ingredients to the list. Note that we’re passing our `addIngredient` method to the form's `onSubmit` handler.
+The purpose of this form is to allow a user to add new ingredients to the list. Note that we’re passing our `addIngredient` method to the form’s `onSubmit` handler.
 
 This means that our `addIngredient` method gets invoked whenever our form is submitted.
 
@@ -798,7 +756,7 @@ The only two other differences in this component are that we’re importing a `C
 
 `ChildComponent` is another React component.
 
-Notice that we're using it just as if it were any other HTML tag.
+Notice that we’re using it just as if it were any other HTML tag.
 
 **This is how we lay out our component hierarchy: the ChildComponent is rendered within the ParentComponent.**
 
@@ -849,7 +807,7 @@ The overall structure of the child component is nothing we haven’t seen. It’
 
 **A component accesses its props via the `this.props` object.**
 
-*Any prop a parent component passes down to a child component is accessible inside the child component's `this.prop` object.*
+*Any prop a parent component passes down to a child component is accessible inside the child component’s `this.prop` object.*
 
 So our child component keeps its own state that tracks whether the component has been clicked or not.
 
@@ -1042,23 +1000,23 @@ makes React one of the speediest front-end libraries available.![](https://miro.
 
 Small examples of data flow, see if you can get the code to work.
 
-<https://codepen.io/bgoonz/embed/WNpoLbg?default-tab=&theme-id=>
+<a href="https://codepen.io/bgoonz/embed/WNpoLbg?default-tab=&amp;theme-id=" class="uri">https://codepen.io/bgoonz/embed/WNpoLbg?default-tab=&amp;theme-id=</a>
 
-{% embed url="[https://codepen.io/bgoonz/embed/BaWQGQp?default-tab=\\&theme-id=](https://codepen.io/bgoonz/embed/BaWQGQp?default-tab=%5C&theme-id=)" %}
+{% embed url=“[https://codepen.io/bgoonz/embed/BaWQGQp?default-tab=\\&theme-id=](https://codepen.io/bgoonz/embed/BaWQGQp?default-tab=%5C&theme-id=)” %}
 
 ### 9. Creating lists with map <span id="6790"></span>
 
-{% embed url="[https://codepen.io/bgoonz/embed/XWMNoJr?default-tab=\\&theme-id=](https://codepen.io/bgoonz/embed/XWMNoJr?default-tab=%5C&theme-id=)" %}
+{% embed url=“[https://codepen.io/bgoonz/embed/XWMNoJr?default-tab=\\&theme-id=](https://codepen.io/bgoonz/embed/XWMNoJr?default-tab=%5C&theme-id=)” %}
 
 The parent component passes down to the child component as props.
 
 Using props to access names and map to loop through each list item. Then passing this by using props.
 
-{% embed url="[https://codepen.io/bgoonz/embed/gOmLZbX?default-tab=\\&theme-id=](https://codepen.io/bgoonz/embed/gOmLZbX?default-tab=%5C&theme-id=)" %}
+{% embed url=“[https://codepen.io/bgoonz/embed/gOmLZbX?default-tab=\\&theme-id=](https://codepen.io/bgoonz/embed/gOmLZbX?default-tab=%5C&theme-id=)” %}
 
 Checking data to see if Boolean is true then adding detail to the list.
 
-{% embed url="[https://codepen.io/bgoonz/embed/WNpoLbg?default-tab=\\&theme-id=](https://codepen.io/bgoonz/embed/WNpoLbg?default-tab=%5C&theme-id=)" %}
+{% embed url=“[https://codepen.io/bgoonz/embed/WNpoLbg?default-tab=\\&theme-id=](https://codepen.io/bgoonz/embed/WNpoLbg?default-tab=%5C&theme-id=)” %}
 
 ### 10. Prop types <span id="18ed"></span>
 
@@ -1097,13 +1055,9 @@ React allows you to interface with other libraries and frameworks. This example 
 Jump to Section
 ---------------
 
-  
-
-  
-
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
-<span class="copyright">@bgoonz on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
+<span class="copyright"><span class="citation" data-cites="bgoonz">@bgoonz</span> on almost every platform</span><a href="https://bryanguner.medium.com/" class="button">Medium</a><a href="https://optimistic-lewin-8586ae.netlify.app/blm.zip" class="button">BLM</a>
 
 <span class="screen-reader-text">Twitter</span>
 
