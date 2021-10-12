@@ -1,245 +1,261 @@
 This app works best with JavaScript enabled.
 
-  
-
 [![webdevhub logo](https://d33wubrfki0l68.cloudfront.net/71199c39f8515c2ec6a7db98b837a0f39887ecc3/5558d/images/logo-circle.png)](/)
 
 <span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span>
 
--   <a href="/docs/sitemap" class="button">Navigation</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="/docs" class="button">Docs</a>
-    -   <a href="/showcase" class="button">Showcase</a>
-    -   <a href="/docs/faq/contact" class="button">Contact!</a>
-    -   <a href="/docs/python/python-ds" class="button">Python</a>
+- <a href="/docs/sitemap" class="button">Navigation</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
--   <a href="/blog/" class="button">Blog</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
-    -   <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
-    -   <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
-    -   <a href="/blog/platform-docs/" class="button">platform docs</a>
-    -   <a href="/docs/articles/nodejs/" class="button">nodejs</a>
-    -   <a href="/blogWcomments/" class="button">Blog w Comments</a>
+  - <a href="/docs" class="button">Docs</a>
+  - <a href="/showcase" class="button">Showcase</a>
+  - <a href="/docs/faq/contact" class="button">Contact!</a>
+  - <a href="/docs/python/python-ds" class="button">Python</a>
 
--   <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
-    -   <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
-    -   <a href="#" class="button">Bootcamp Resources</a>
-    -   <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
-    -   <a href="/docs/gallery" class="button">Gallery</a>
-    -   <a href="/docs" class="button">Top Repos</a>
+- <a href="/blog/" class="button">Blog</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
--   <a href="/docs/audio/audio" class="button">Audio</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
-    -   <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+  - <a href="https://bgoonz.blogspot.com/" class="button">Blog-Post-Archive</a>
+  - <a href="https://blog-w-comments.vercel.app/" class="button">Top Blog Posts</a>
+  - <a href="/docs/articles/ds-algo-overview/" class="button">ds-algo</a>
+  - <a href="/blog/platform-docs/" class="button">platform docs</a>
+  - <a href="/docs/articles/nodejs/" class="button">nodejs</a>
+  - <a href="/blogWcomments/" class="button">Blog w Comments</a>
 
--   <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
-    -   <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
-    -   <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
-    -   [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
-    -   <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+- <a href="https://github.com/bgoonz/UsefulResourceRepo2.0" class="button">Archive</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
 
--   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
-    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
-    -   <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
-    -   <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
-    -   <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
-    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
-    -   <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
-    -   <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
-    -   <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+  - <a href="https://bryanguner.medium.com/" class="button">Medium Articles</a>
+  - <a href="https://github.com/bgoonz/Learning-Assets" class="button">Resource-Archive-Server</a>
+  - <a href="#" class="button">Bootcamp Resources</a>
+  - <a href="https://web-dev-resource-hub.netlify.app/" class="button">OG-Blog</a>
+  - <a href="/docs/gallery" class="button">Gallery</a>
+  - <a href="/docs" class="button">Top Repos</a>
 
--   <a href="/docs/tools" class="button">Tools</a>
-    <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
-    -   <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
-    -   <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
-    -   <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
-    -   <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
-    -   <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
-    -   <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
-    -   <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
-    -   <span class="screen-reader-text">Github-Advanced-Search</span>
+- <a href="/docs/audio/audio" class="button">Audio</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+
+  - <a href="/docs/audio/audio" class="button">DTW-guitar-effects</a>
+  - <a href="/docs/audio/dfft" class="button">Fast Fourier Transform</a>
+
+- <a href="https://project-portfolio42.netlify.app/" class="button">Projects</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+
+  - <a href="https://potluck-landing.netlify.app/" class="button">Potluck Planner</a>
+  - <a href="https://meditate42app.netlify.app/" class="button">Meditation App</a>
+  - <a href="https://panoramic-eggplant-452e4.netlify.app/" class="button">WebAudioLab</a>
+  - [SearchAwesome](https://bgoonz.github.io/searchAwesome/)
+  - <a href="https://bg-portfolio.netlify.app/" class="button">Condensed -Portfolio</a>
+
+- <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">External Nav</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+
+  - <a href="https://friendly-panda-b61ab.netlify.app/" class="button">Embeds Blog</a>
+  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">alt-blogs</a>
+  - <a href="https://bgoonz-games.netlify.app/" class="button">Games</a>
+  - <a href="https://bgoonz-blog-v3-0.netlify.app/" class="button">Blog Backup</a>
+  - <a href="https://bgoonz-cv.netlify.app/" class="button">Cover Letter</a>
+  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Centric</a>
+  - <a href="https://web-dev-hub.com/" class="button">Wordpress Blog</a>
+  - <a href="https://project-portfolio42.netlify.app/" class="button">Project Portfolio Gallery</a>
+  - <a href="https://bgoonz.github.io/github-stats-website/" class="button">github-stats-website</a>
+
+- <a href="/docs/tools" class="button">Tools</a>
+  <span class="icon-angle-right" aria-hidden="true"></span><span class="screen-reader-text">Sub-menu</span>
+  - <a href="https://githtmlpreview.netlify.app/" class="button">Github HTML Previewer</a>
+  - <a href="https://devtools42.netlify.app/" class="button">Text Tools</a>
+  - <a href="https://ternary42.netlify.app/" class="button">Ternary 2 If Else</a>
+  - <a href="https://determined-dijkstra-ee7390.netlify.app/" class="button">Job Search Resources</a>
+  - <a href="https://github.com/bgoonz/web-dev-setup-checker" class="button">Setup Checker</a>
+  - <a href="https://potluck-landing.netlify.app/" class="button">PotluckPlanner</a>
+  - <a href="https://web-dev-interview-prep-quiz-website.netlify.app/" class="button">WebDev Quizzes</a>
+  - <span class="screen-reader-text">Github-Advanced-Search</span>
 
 <span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span>
 
 Navigate Docs<span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Docs](/docs/)
--   [About](/docs/about/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Job Search](/docs/about/job-search/)
-    -   [Youtube](/docs/about/intrests/)
-    -   [Resume](/docs/about/resume/)
-    -   [Engineering Portfolio](/docs/about/eng-portfolio/)
-    -   [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
+- [Docs](/docs/)
+- [About](/docs/about/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Articles](/docs/articles/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [The HTTP Protocol](/docs/articles/http/)
-    -   [How The Web Works](/docs/articles/how-the-web-works/)
-    -   [Sorting Algorithms](/docs/articles/node-package-manager/)
-    -   [Introduction to npm](/docs/articles/npm/)
-    -   [lorem-ipsum](/docs/articles/semantic-html/)
-    -   [The Uniform Resource Locator (URL)](/docs/articles/the-uniform-resource-locator-(url)/)
-    -   [Firebase](/docs/articles/understanding-firebase/)
-    -   [Web Standards Checklist](/docs/articles/web-standards-checklist/)
-    -   [Web Developer Tools](/docs/articles/webdev-tools/)
-    -   [where-is-npm-pack](/docs/articles/node-cli-args/)
-    -   [Node Export Module](/docs/articles/node-env-variables/)
-    -   [The-package-lock.json-file](/docs/articles/node-repl/)
-    -   [node-cli-args](/docs/articles/node-run-cli/)
-    -   [packagejson](/docs/articles/node-js-language/)
-    -   [npm global or local packages](/docs/articles/v8/)
-    -   [Common Modules](/docs/articles/node-common-modules/)
-    -   [Node Buffers](/docs/articles/buffers/)
-    -   [Dev Dependencies](/docs/articles/dev-dep/)
-    -   [Fs-Module](/docs/articles/fs-module/)
-    -   [The Node.js Event Loop](/docs/articles/event-loop/)
-    -   [Install](/docs/articles/install/)
-    -   [Web Dev Review](/docs/articles/basic-web-dev/)
-    -   [module-exports](/docs/articles/module-exports/)
-    -   [Intro To Node](/docs/articles/intro/)
-    -   [Javascript and Node](/docs/articles/nodejs/)
-    -   [Node vs Browser](/docs/articles/nodevsbrowser/)
-    -   [The npx Node.js Package Runner](/docs/articles/npx/)
-    -   [Reading Files](/docs/articles/reading-files/)
-    -   [Semantic Versioning](/docs/articles/semantic/)
-    -   [OS-Module](/docs/articles/os-module/)
-    -   [Writing Files](/docs/articles/writing-files/)
-    -   [Node APIs With Express](/docs/articles/node-api-express/)
+  - [Job Search](/docs/about/job-search/)
+  - [Youtube](/docs/about/intrests/)
+  - [Resume](/docs/about/resume/)
+  - [Engineering Portfolio](/docs/about/eng-portfolio/)
+  - [My Hobbies & Interests](/docs/about/hobbies-n-interests/)
 
--   [Audio](/docs/audio/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Audio](/docs/audio/audio/)
-    -   [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
-    -   [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
-    -   [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
-    -   [Discrete Fast Fourier Transform](/docs/audio/dfft/)
-    -   [Fast Fourier Transform](/docs/audio/discrete-fft/)
+- [Articles](/docs/articles/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Community](/docs/community/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Video Chat](/docs/community/video-chat/)
+  - [The HTTP Protocol](/docs/articles/http/)
+  - [How The Web Works](/docs/articles/how-the-web-works/)
+  - [Sorting Algorithms](/docs/articles/node-package-manager/)
+  - [Introduction to npm](/docs/articles/npm/)
+  - [lorem-ipsum](/docs/articles/semantic-html/)
+  - [The Uniform Resource Locator (URL)](</docs/articles/the-uniform-resource-locator-(url)/>)
+  - [Firebase](/docs/articles/understanding-firebase/)
+  - [Web Standards Checklist](/docs/articles/web-standards-checklist/)
+  - [Web Developer Tools](/docs/articles/webdev-tools/)
+  - [where-is-npm-pack](/docs/articles/node-cli-args/)
+  - [Node Export Module](/docs/articles/node-env-variables/)
+  - [The-package-lock.json-file](/docs/articles/node-repl/)
+  - [node-cli-args](/docs/articles/node-run-cli/)
+  - [packagejson](/docs/articles/node-js-language/)
+  - [npm global or local packages](/docs/articles/v8/)
+  - [Common Modules](/docs/articles/node-common-modules/)
+  - [Node Buffers](/docs/articles/buffers/)
+  - [Dev Dependencies](/docs/articles/dev-dep/)
+  - [Fs-Module](/docs/articles/fs-module/)
+  - [The Node.js Event Loop](/docs/articles/event-loop/)
+  - [Install](/docs/articles/install/)
+  - [Web Dev Review](/docs/articles/basic-web-dev/)
+  - [module-exports](/docs/articles/module-exports/)
+  - [Intro To Node](/docs/articles/intro/)
+  - [Javascript and Node](/docs/articles/nodejs/)
+  - [Node vs Browser](/docs/articles/nodevsbrowser/)
+  - [The npx Node.js Package Runner](/docs/articles/npx/)
+  - [Reading Files](/docs/articles/reading-files/)
+  - [Semantic Versioning](/docs/articles/semantic/)
+  - [OS-Module](/docs/articles/os-module/)
+  - [Writing Files](/docs/articles/writing-files/)
+  - [Node APIs With Express](/docs/articles/node-api-express/)
 
--   [Content](/docs/content/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Lambda School Projects](/docs/content/lambda-projects/)
-    -   [Projects](/docs/content/projects/)
-    -   [RECENT PROJECTS](/docs/content/data-structures-algo/)
-    -   [History API](/docs/content/history-api/)
-    -   [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
-    -   [Trouble Shooting](/docs/content/trouble-shooting/)
-    -   [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
-    -   [Archive](/docs/content/archive/)
-    -   [Embeded Websites & Projects](/docs/content/recent-projects/)
-    -   [Algorithms & Data Structures](/docs/content/algo/)
+- [Audio](/docs/audio/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Documentation](/docs/docs/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Apendix](/docs/docs/appendix/)
-    -   [lorem-ipsum](/docs/docs/bash/)
-    -   [Await](/docs/docs/await-keyword/)
-    -   [Data Structures Docs](/docs/docs/data-structures-docs/)
-    -   [Learn Css](/docs/docs/css/)
-    -   [Markdown](/docs/docs/markdown/)
-    -   [Git Repo List](/docs/docs/git-repos/)
-    -   [lorem-ipsum](/docs/docs/git-reference/)
-    -   [Sitemap](/docs/docs/sitemap/)
-    -   [Regular Expressions](/docs/docs/regex-in-js/)
-    -   [Useful Snippets](/docs/docs/content/)
-    -   [lorem-ipsum](/docs/docs/no-whiteboarding/)
+  - [Audio](/docs/audio/audio/)
+  - [Audio Feature Extraction](/docs/audio/audio-feature-extraction/)
+  - [dynamic-time-warping](/docs/audio/dynamic-time-warping/)
+  - [Dynamic Time Warping Algorithm Explained (Python)](/docs/audio/dtw-python-explained/)
+  - [Discrete Fast Fourier Transform](/docs/audio/dfft/)
+  - [Fast Fourier Transform](/docs/audio/discrete-fft/)
 
--   [FAQ](/docs/faq/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Plug-ins](/docs/faq/plug-ins/)
-    -   [Contact!](/docs/faq/contact/)
+- [Community](/docs/community/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Javascript](/docs/javascript/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Javascript Concepts Review](/docs/javascript/review/)
-    -   [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
-    -   [Constructor Functions](/docs/javascript/constructor-functions/)
+  - [Video Chat](/docs/community/video-chat/)
 
--   [Interactive Examples](/docs/interact/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
-    -   [Callstack Visualizer](/docs/interact/callstack-visual/)
-    -   [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
-    -   [Clock](/docs/interact/clock/)
-    -   [Other Websites](/docs/interact/other-sites/)
+- [Content](/docs/content/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [Medium](/docs/medium/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [My Sites](/docs/medium/my-websites/)
-    -   [Medium](/docs/medium/medium-links/)
+  - [Lambda School Projects](/docs/content/lambda-projects/)
+  - [Projects](/docs/content/projects/)
+  - [RECENT PROJECTS](/docs/content/data-structures-algo/)
+  - [History API](/docs/content/history-api/)
+  - [JavaScript Asynchronous Programming and Callbacks](/docs/content/js-async-n-callbacks/)
+  - [Trouble Shooting](/docs/content/trouble-shooting/)
+  - [Queries and Mutations (Gatsby)](/docs/content/gatsby-Queries-Mutations/)
+  - [Archive](/docs/content/archive/)
+  - [Embeded Websites & Projects](/docs/content/recent-projects/)
+  - [Algorithms & Data Structures](/docs/content/algo/)
 
--   [Quick Reference](/docs/quick-reference/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
-    -   [Git Bash](/docs/quick-reference/git-bash/)
-    -   [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
-    -   [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
-    -   [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
-    -   [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
-    -   [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
-    -   [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
-    -   [Quick Links](/docs/quick-reference/quick-links/)
-    -   [Understanding PATH](/docs/quick-reference/understanding-path/)
-    -   [Developer Resources](/docs/quick-reference/resources/)
-    -   [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
-    -   [Installation](/docs/quick-reference/installation/)
-    -   [Top Repos](/docs/quick-reference/topRepos/)
-    -   [Github Search](/docs/quick-reference/github-search/)
-    -   [Awesome Lists](/docs/quick-reference/awesome-lists/)
-    -   [new-repo-git](/docs/quick-reference/new-repo-instructions/)
-    -   [Notes Template](/docs/quick-reference/notes-template/)
-    -   [vscode](/docs/quick-reference/vscode/)
-    -   [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
-    -   [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
-    -   [vscode-themes](/docs/quick-reference/vscode-themes/)
+- [Documentation](/docs/docs/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [React](/docs/react/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [React Class Components Demo](/docs/react/demo/)
-    -   [React Cheat Sheets:](/docs/react/cheatsheet/)
-    -   [Introducing JSX](/docs/react/jsx/)
-    -   [Rendering Elements With React](/docs/react/render-elements/)
-    -   [React In Depth](/docs/react/react-in-depth/)
-    -   [Intro To React](/docs/react/react2/)
-    -   [React Docs](/docs/react/react-docs/)
-    -   [npx-create-react-app](/docs/react/createReactApp/)
+  - [Apendix](/docs/docs/appendix/)
+  - [lorem-ipsum](/docs/docs/bash/)
+  - [Await](/docs/docs/await-keyword/)
+  - [Data Structures Docs](/docs/docs/data-structures-docs/)
+  - [Learn Css](/docs/docs/css/)
+  - [Markdown](/docs/docs/markdown/)
+  - [Git Repo List](/docs/docs/git-repos/)
+  - [lorem-ipsum](/docs/docs/git-reference/)
+  - [Sitemap](/docs/docs/sitemap/)
+  - [Regular Expressions](/docs/docs/regex-in-js/)
+  - [Useful Snippets](/docs/docs/content/)
+  - [lorem-ipsum](/docs/docs/no-whiteboarding/)
 
--   [Tools](/docs/tools/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [more tools](/docs/tools/more-tools/)
-    -   [Data Structures](/docs/tools/data-structures/)
-    -   [General Utilities](/docs/tools/dev-utilities/)
-    -   [The google cloud cheat sheet](/docs/tools/cloudstorage/)
-    -   [md and html](/docs/tools/markdown-html/)
+- [FAQ](/docs/faq/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
 
--   [My Python Docs](/docs/python/)
-    <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
-    -   [lorem-ipsum](/docs/python/functions/)
-    -   [lorem-ipsum](/docs/python/flow-control/)
-    -   [lorem-ipsum](/docs/python/basics/)
-    -   [lorem-ipsum](/docs/python/comprehensive-guide/)
-    -   [google-sheets-api](/docs/python/google-sheets-api/)
-    -   [Practice](/docs/python/examples/)
-    -   [lorem-ipsum](/docs/python/intro-for-js-devs/)
-    -   [Python General Notes](/docs/python/python-ds/)
-    -   [Python Cheat Sheet](/docs/python/cheat-sheet/)
-    -   [Python Snippets](/docs/python/snippets/)
-    -   [Python at length](/docs/python/at-length/)
+  - [Plug-ins](/docs/faq/plug-ins/)
+  - [Contact!](/docs/faq/contact/)
 
-Useful Snippets
-===============
+- [Javascript](/docs/javascript/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+
+  - [Javascript Concepts Review](/docs/javascript/review/)
+  - [A Very Quick Guide To Calculating Big O Computational Complexity](/docs/javascript/bigo/)
+  - [Constructor Functions](/docs/javascript/constructor-functions/)
+
+- [Interactive Examples](/docs/interact/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+
+  - [Jupyter Notebooks](/docs/interact/jupyter-notebooks/)
+  - [Callstack Visualizer](/docs/interact/callstack-visual/)
+  - [Zumzi Video Conferencing (Mesibo API Backend)](/docs/interact/video-chat/)
+  - [Clock](/docs/interact/clock/)
+  - [Other Websites](/docs/interact/other-sites/)
+
+- [Medium](/docs/medium/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+
+  - [My Sites](/docs/medium/my-websites/)
+  - [Medium](/docs/medium/medium-links/)
+
+- [Quick Reference](/docs/quick-reference/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+
+  - [Awesome Static Site Resources](/docs/quick-reference/awesome-static/)
+  - [Git Bash](/docs/quick-reference/git-bash/)
+  - [How To Minify Code For Better Web Performance](/docs/quick-reference/minifiction/)
+  - [lorem-ipsum](/docs/quick-reference/markdown-dropdowns/)
+  - [PostgreSQL Setup](/docs/quick-reference/psql-setup/)
+  - [Pull Request Template](/docs/quick-reference/pull-request-rubric/)
+  - [Heroku Error Codes](/docs/quick-reference/heroku-error-codes/)
+  - [Postgresql Cheat Sheet](/docs/quick-reference/psql/)
+  - [Quick Links](/docs/quick-reference/quick-links/)
+  - [Understanding PATH](/docs/quick-reference/understanding-path/)
+  - [Developer Resources](/docs/quick-reference/resources/)
+  - [Firebase (Firebasics)](/docs/quick-reference/google-firebase/)
+  - [Installation](/docs/quick-reference/installation/)
+  - [Top Repos](/docs/quick-reference/topRepos/)
+  - [Github Search](/docs/quick-reference/github-search/)
+  - [Awesome Lists](/docs/quick-reference/awesome-lists/)
+  - [new-repo-git](/docs/quick-reference/new-repo-instructions/)
+  - [Notes Template](/docs/quick-reference/notes-template/)
+  - [vscode](/docs/quick-reference/vscode/)
+  - [Emmet Cheat Sheet](/docs/quick-reference/Emmet/)
+  - [Getting Started W Create React App](/docs/quick-reference/create-react-app/)
+  - [vscode-themes](/docs/quick-reference/vscode-themes/)
+
+- [React](/docs/react/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+
+  - [React Class Components Demo](/docs/react/demo/)
+  - [React Cheat Sheets:](/docs/react/cheatsheet/)
+  - [Introducing JSX](/docs/react/jsx/)
+  - [Rendering Elements With React](/docs/react/render-elements/)
+  - [React In Depth](/docs/react/react-in-depth/)
+  - [Intro To React](/docs/react/react2/)
+  - [React Docs](/docs/react/react-docs/)
+  - [npx-create-react-app](/docs/react/createReactApp/)
+
+- [Tools](/docs/tools/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+
+  - [more tools](/docs/tools/more-tools/)
+  - [Data Structures](/docs/tools/data-structures/)
+  - [General Utilities](/docs/tools/dev-utilities/)
+  - [The google cloud cheat sheet](/docs/tools/cloudstorage/)
+  - [md and html](/docs/tools/markdown-html/)
+
+- [My Python Docs](/docs/python/)
+  <span class="screen-reader-text">Submenu</span><span class="icon-angle-right" aria-hidden="true"></span>
+  - [lorem-ipsum](/docs/python/functions/)
+  - [lorem-ipsum](/docs/python/flow-control/)
+  - [lorem-ipsum](/docs/python/basics/)
+  - [lorem-ipsum](/docs/python/comprehensive-guide/)
+  - [google-sheets-api](/docs/python/google-sheets-api/)
+  - [Practice](/docs/python/examples/)
+  - [lorem-ipsum](/docs/python/intro-for-js-devs/)
+  - [Python General Notes](/docs/python/python-ds/)
+  - [Python Cheat Sheet](/docs/python/cheat-sheet/)
+  - [Python Snippets](/docs/python/snippets/)
+  - [Python at length](/docs/python/at-length/)
+
+# Useful Snippets
 
 ### A list of all of my articles to link to future posts
 
@@ -455,12 +471,11 @@ Exported from [Medium](https://medium.com/) on July 13, 2021.
 
 [view raw](https://gist.github.com/bgoonz/674c3f169d75d5ab9453d4c7ffbdd821/raw/6df51b57737eabd32d1c68c57e110600f471619a/A-list-of-my-articles.md)[A-list-of-my-articles.md](https://gist.github.com/bgoonz/674c3f169d75d5ab9453d4c7ffbdd821#file-a-list-of-my-articles-md) hosted with ❤ by [GitHub](https://github.com/)
 
-A Very Quick Guide To Calculating Big O Computational Complexity
-================================================================
+# A Very Quick Guide To Calculating Big O Computational Complexity
 
 Big O: big picture, broad strokes, not details
 
-------------------------------------------------------------------------
+---
 
 ### A Very Quick Guide To Calculating Big O Computational Complexity
 
@@ -487,44 +502,44 @@ no loops or exit & return = O(1)
 **recursive**: as you add more terms, increase in time as you add input diminishes  
 **recursion**: when you define something in terms of itself, a function that calls itself
 
--   used because of ability to maintain state at diffferent levels of recursion
--   inherently carries large footprint
--   every time function called, you add call to stack
+- used because of ability to maintain state at diffferent levels of recursion
+- inherently carries large footprint
+- every time function called, you add call to stack
 
 **iterative**: use loops instead of recursion (preferred)
 
--   favor readability over performance
+- favor readability over performance
 
 `O(n log(n))` & `O(log(n))`: dividing/halving
 
--   if code employs recursion/divide-and-conquer strategy
--   what power do i need to power my base to get n
+- if code employs recursion/divide-and-conquer strategy
+- what power do i need to power my base to get n
 
 ### Time Definitions
 
--   **constant**: does not scale with input, will take same amount of time
--   for any input size n, constant time performs same number of operations every time
--   **logarithmic**: increases number of operations it performs as logarithmic function of input size n
--   function log n grows very slowly, so as n gets longer, number of operations the algorithm needs to perform doesn't increase very much
--   halving
--   **linear**: increases number of operations it performs as linear function of input size n
--   number of additional operations needed to perform grows in direct proportion to increase in input size n
--   **log-linear**: increases number of operations it performs as log-linear function of input size n
--   looking over every element and doing work on each one
--   **quadratic**: increases number of operations it performs as quadratic function of input size n
--   **exponential**: increases number of operations it performs as exponential function of input size n
--   number of nested loops increases as function of n
--   **polynomial**: as size of input increases, runtime/space used will grow at a faster rate
--   **factorial**: as size of input increases, runtime/space used will grow astronomically even with relatively small inputs
--   **rate of growth**: how fast a function grows with input size
+- **constant**: does not scale with input, will take same amount of time
+- for any input size n, constant time performs same number of operations every time
+- **logarithmic**: increases number of operations it performs as logarithmic function of input size n
+- function log n grows very slowly, so as n gets longer, number of operations the algorithm needs to perform doesn't increase very much
+- halving
+- **linear**: increases number of operations it performs as linear function of input size n
+- number of additional operations needed to perform grows in direct proportion to increase in input size n
+- **log-linear**: increases number of operations it performs as log-linear function of input size n
+- looking over every element and doing work on each one
+- **quadratic**: increases number of operations it performs as quadratic function of input size n
+- **exponential**: increases number of operations it performs as exponential function of input size n
+- number of nested loops increases as function of n
+- **polynomial**: as size of input increases, runtime/space used will grow at a faster rate
+- **factorial**: as size of input increases, runtime/space used will grow astronomically even with relatively small inputs
+- **rate of growth**: how fast a function grows with input size
 
 [![](https://camo.githubusercontent.com/ef0eac5be0b1dfbf2b062560dc14031c3d971790e74f827eed32ac7643c1a526/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a35743275386e31754b68696f497a5a495858327a62672e706e67)](https://camo.githubusercontent.com/ef0eac5be0b1dfbf2b062560dc14031c3d971790e74f827eed32ac7643c1a526/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a35743275386e31754b68696f497a5a495858327a62672e706e67)
 
 ### Space Complexity
 
--   How does the space usage scale/change as input gets very large?
--   What auxiliary space does your algorithm use or is it in place (constant)?
--   Runtime stack space counts as part of space complexity unless told otherwise.
+- How does the space usage scale/change as input gets very large?
+- What auxiliary space does your algorithm use or is it in place (constant)?
+- Runtime stack space counts as part of space complexity unless told otherwise.
 
 ### Sorting Algorithms
 
@@ -551,12 +566,11 @@ Exported from [Medium](https://medium.com/) on July 13, 2021.
 
 [view raw](https://gist.github.com/bgoonz/674c3f169d75d5ab9453d4c7ffbdd821/raw/6df51b57737eabd32d1c68c57e110600f471619a/A-Very-Qui.md)[A-Very-Qui.md](https://gist.github.com/bgoonz/674c3f169d75d5ab9453d4c7ffbdd821#file-a-very-qui-md) hosted with ❤ by [GitHub](https://github.com/)
 
-Array Callback Methods Implemented With For Loops
-=================================================
+# Array Callback Methods Implemented With For Loops
 
 How to implement array callback methods in JavaScript
 
-------------------------------------------------------------------------
+---
 
 ### Array Callback Methods Implemented With For Loops
 
@@ -566,11 +580,11 @@ How to implement array callback methods in JavaScript
 
 #### Functions are called "First Class Objects" in JavaScript because:
 
--   A function is an instance of the Object type
--   A function can have properties and has a link back to its constructor method
--   You can store the function in a variable
--   You can pass the function as a parameter to another function
--   You can return the function from a function
+- A function is an instance of the Object type
+- A function can have properties and has a link back to its constructor method
+- You can store the function in a variable
+- You can pass the function as a parameter to another function
+- You can return the function from a function
 
 What do you think will be printed in the following:
 
@@ -753,7 +767,7 @@ References:
 [**Introduction: callbacks**  
 *To demonstrate the use of callbacks, promises and other abstract concepts, we'll be using some browser methods...*javascript.info](https://javascript.info/callbacks "https://javascript.info/callbacks")[](https://javascript.info/callbacks)
 
-*More content at* [***plainenglish.io***](http://plainenglish.io/)
+*More content at* [**_plainenglish.io_**](http://plainenglish.io/)
 
 By [Bryan Guner](https://medium.com/@bryanguner) on [May 27, 2021](https://medium.com/p/d08875df6777).
 
@@ -763,12 +777,11 @@ Exported from [Medium](https://medium.com/) on July 13, 2021.
 
 [view raw](https://gist.github.com/bgoonz/674c3f169d75d5ab9453d4c7ffbdd821/raw/6df51b57737eabd32d1c68c57e110600f471619a/Array-Call.md)[Array-Call.md](https://gist.github.com/bgoonz/674c3f169d75d5ab9453d4c7ffbdd821#file-array-call-md) hosted with ❤ by [GitHub](https://github.com/)
 
-Bash Commands That Save Me Time and Frustration
-===============================================
+# Bash Commands That Save Me Time and Frustration
 
 Here's a list of bash commands that stand between me and insanity.
 
-------------------------------------------------------------------------
+---
 
 ### Bash Commands That Save Me Time and Frustration
 
@@ -791,7 +804,7 @@ Here's a list of bash commands that stand between me and insanity.
 
 ### Getting Started (Advanced Users Skip Section):
 
-------------------------------------------------------------------------
+---
 
 #### ✔ Check the Current Directory ➡ `pwd`:
 
@@ -809,14 +822,14 @@ To see the list of files and directories in the current directory use `ls` com
 
 Shows all of my files and directories of my Desktop directory.
 
--   To show the contents of a directory pass the directory name to the `ls` command i.e. `ls directory_name`.
--   Some useful `ls` command options:-
+- To show the contents of a directory pass the directory name to the `ls` command i.e. `ls directory_name`.
+- Some useful `ls` command options:-
 
 OptionDescriptionls -alist all files including hidden file starting with '.'ls -llist with the long formatls -lalist long format including hidden files
 
 #### ✔ Create a Directory ➡ `mkdir`:
 
-We can create a new folder using the `mkdir` command. To use it type `mkdir                         folder_name`.
+We can create a new folder using the `mkdir` command. To use it type `mkdir folder_name`.
 
 [![](https://camo.githubusercontent.com/8c10a898b8f52be59dc0723ab2dd0784c22c12a325ffe5cc64a38f07341ef90e/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a6d33644479433976524a42555a5378522e676966)](https://camo.githubusercontent.com/8c10a898b8f52be59dc0723ab2dd0784c22c12a325ffe5cc64a38f07341ef90e/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a6d33644479433976524a42555a5378522e676966)
 
@@ -826,7 +839,7 @@ I created a cli-practice directory in my working directory i.e. Desktop director
 
 #### ✔ Move Between Directories ➡ `cd`:
 
-It's used to change directory or to move other directories. To use it type `cd                         directory_name`.
+It's used to change directory or to move other directories. To use it type `cd directory_name`.
 
 [![](https://camo.githubusercontent.com/d78e325dda59d59be4bd151dd85d3b1966324cb205da2eb540f1372e8195b280/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a33344b4778543247386f4e4d446e49632e676966)](https://camo.githubusercontent.com/d78e325dda59d59be4bd151dd85d3b1966324cb205da2eb540f1372e8195b280/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a33344b4778543247386f4e4d446e49632e676966)
 
@@ -850,7 +863,7 @@ Now open your hello.txt file in your text editor and write *Hello Everyone!* i
 
 #### ✔ Display the Content of a File ➡ `cat`:
 
-We can display the content of a file using the `cat` command. To use it type `cat                         file_name`.
+We can display the content of a file using the `cat` command. To use it type `cat file_name`.
 
 [![](https://camo.githubusercontent.com/ffe71e48a1a9bd9b118265c18a81e0b49a515cf40453416134dfca52567bb82c/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a694b6635773951464e43654c527638612e676966)](https://camo.githubusercontent.com/ffe71e48a1a9bd9b118265c18a81e0b49a515cf40453416134dfca52567bb82c/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a694b6635773951464e43654c527638612e676966)
 
@@ -890,13 +903,13 @@ Renamed my hello.txt file to the hi.txt file and html directory to the folder di
 
 To do this, we use the `cp` command.
 
--   You can copy a file by entering `cp file_to_copy new_file_name`.
+- You can copy a file by entering `cp file_to_copy new_file_name`.
 
 [![](https://camo.githubusercontent.com/9b67b2ef374ba0f1457b24007824ea5b65ca861a100397322d1a13f30a70818f/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a6b434c56744b4e396f4b5062486652462e676966)](https://camo.githubusercontent.com/9b67b2ef374ba0f1457b24007824ea5b65ca861a100397322d1a13f30a70818f/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a6b434c56744b4e396f4b5062486652462e676966)
 
 Copied my hi.txt file content into hello.txt file. For confirmation open your hello.txt file in your text editor.
 
--   You can also copy a directory by adding the `-r` option, like `cp -r                           directory_to_copy new_directory_name`.
+- You can also copy a directory by adding the `-r` option, like `cp -r directory_to_copy new_directory_name`.
 
 *The* `-r` *option for "recursive" means that it will copy all of the files including the files inside of subfolders.*
 
@@ -908,13 +921,13 @@ Here I copied all of the files from the folder to folder-copy.
 
 To do this, we use the `rm` command.
 
--   To remove a file, you can use the command like `rm file_to_remove`.
+- To remove a file, you can use the command like `rm file_to_remove`.
 
 [![](https://camo.githubusercontent.com/e35ef5a179966ed8271639d381b997455862bb77794f0b8c219f7ffada7168da/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a6f68436d6474686439325f4841365a652e676966)](https://camo.githubusercontent.com/e35ef5a179966ed8271639d381b997455862bb77794f0b8c219f7ffada7168da/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a6f68436d6474686439325f4841365a652e676966)
 
 Here I removed my hi.txt file.
 
--   To remove a directory, use the command like `rm -r directory_to_remove`.
+- To remove a directory, use the command like `rm -r directory_to_remove`.
 
 [![](https://camo.githubusercontent.com/5622af09767bfd626db8e52f5e040afeaf16be692b75a3069f7b01d74c1c4ee6/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a766f44627a7753707732344132526a512e676966)](https://camo.githubusercontent.com/5622af09767bfd626db8e52f5e040afeaf16be692b75a3069f7b01d74c1c4ee6/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f302a766f44627a7753707732344132526a512e676966)
 
@@ -926,9 +939,9 @@ Clear command is used to clear the terminal screen.
 
 #### ✔ Home Directory ➡ `~`:
 
-The Home directory is represented by `~`. The Home directory refers to the base directory for the user. If we want to move to the Home directory we can use `cd                         ~` command. Or we can only use `cd` command.
+The Home directory is represented by `~`. The Home directory refers to the base directory for the user. If we want to move to the Home directory we can use `cd ~` command. Or we can only use `cd` command.
 
-------------------------------------------------------------------------
+---
 
 ### MY COMMANDS:
 
@@ -940,7 +953,7 @@ The Home directory is represented by `~`. The Home directory refers to the base
 
     find . -name "*.zip" -type f -print -delete
 
-------------------------------------------------------------------------
+---
 
 ### 2.) Install node modules recursively:
 
@@ -948,7 +961,7 @@ The Home directory is represented by `~`. The Home directory refers to the base
 
     npm-recursive-install
 
-------------------------------------------------------------------------
+---
 
 ### 3.) Clean up unnecessary files/folders in git repo:
 
@@ -1027,7 +1040,7 @@ The following output from my bash shell corresponds to the directory:
 
 !!!Use with caution as this command removes the attribution of the work from it's original authors!!!!!find . ( -name "*SECURITY.txt" -o -name "*RELEASE.txt" -o -name "*CHANGELOG.txt" -o -name "*LICENSE.txt" -o -name "*CONTRIBUTING.txt" -name "*HISTORY.md" -o -name "*LICENSE" -o -name "*SECURITY.md" -o -name "*RELEASE.md" -o -name "*CHANGELOG.md" -o -name "*LICENSE.md" -o -name "*CODE*OF*CONDUCT.md" -o -name "\*CONTRIBUTING.md" ) -exec rm -rf -- {} +
 
-------------------------------------------------------------------------
+---
 
 ### 4.) Generate index.html file that links to all other files in working directory:
 
@@ -1119,7 +1132,7 @@ The following output from my bash shell corresponds to the directory:
 
 [![](https://camo.githubusercontent.com/ce04a06e4fc2c23c62fd6a9dbea96125b5920b8c53a1c62434325989768cd1a7/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a414f5962577655474e39794a3463654e7a41474773772e706e67)](https://camo.githubusercontent.com/ce04a06e4fc2c23c62fd6a9dbea96125b5920b8c53a1c62434325989768cd1a7/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a414f5962577655474e39794a3463654e7a41474773772e706e67)
 
-------------------------------------------------------------------------
+---
 
 ### 5.) Download all links to a files of a specified extension on a user provided (url) webpage:
 
@@ -1129,7 +1142,7 @@ The following output from my bash shell corresponds to the directory:
 
 [![](https://camo.githubusercontent.com/02861c1b49280db7ab6c017bc4dc93f0d22b7385e2b33e2154fc3e734b1da3c7/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313230302f312a38657656504f5f7a2d5f5441547a6b634454703135512e706e67)](https://camo.githubusercontent.com/02861c1b49280db7ab6c017bc4dc93f0d22b7385e2b33e2154fc3e734b1da3c7/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313230302f312a38657656504f5f7a2d5f5441547a6b634454703135512e706e67)
 
-------------------------------------------------------------------------
+---
 
 ### 6.)Recursively remove lines of text containing the string badFolder from files in the working directory.
 
@@ -1181,7 +1194,7 @@ The following output from my bash shell corresponds to the directory:
 
     Posted Thursday, April 22, 2021 by Teon Brooks
 
-***I modified the command slightly to apply only to files called 'result.md':***
+**_I modified the command slightly to apply only to files called 'result.md':_**
 
 > The result is :
 
@@ -1218,7 +1231,7 @@ The following output from my bash shell corresponds to the directory:
 [**bgoonz/bash-commands-walkthrough**  
 *to accompany the medium article I am writing. Contribute to bgoonz/bash-commands-walkthrough development by creating an...*github.com](https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/6-remove-lines-contaning-bad-text "https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/6-remove-lines-contaning-bad-text")[](https://github.com/bgoonz/bash-commands-walkthrough/tree/master/steps/6-remove-lines-contaning-bad-text)
 
-------------------------------------------------------------------------
+---
 
 ### 7.) Execute command recursively:
 
@@ -1244,7 +1257,7 @@ The following output from my bash shell corresponds to the directory:
 
 [![](https://camo.githubusercontent.com/1d5d06c2c92fbb7a3f42080beacb2ae8e3e0e9887220cfe81ba851eff627c753/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313230302f312a6a71726a4e654275526d5472447433766d5135304c512e706e67)](https://camo.githubusercontent.com/1d5d06c2c92fbb7a3f42080beacb2ae8e3e0e9887220cfe81ba851eff627c753/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313230302f312a6a71726a4e654275526d5472447433766d5135304c512e706e67)
 
-*If you want to run any bash script recursively all you have to do is substitue out line \#9 with the command you want to run once in every sub-folder.*
+_If you want to run any bash script recursively all you have to do is substitue out line \#9 with the command you want to run once in every sub-folder._
 
     function RecurseDirs ()
     {
@@ -1272,7 +1285,7 @@ The following output from my bash shell corresponds to the directory:
     }
     RecurseDirs "./"
 
-------------------------------------------------------------------------
+---
 
 ### TBC....
 
@@ -1280,12 +1293,7 @@ The following output from my bash shell corresponds to the directory:
 
 9. Copy any text between
 
-Jump to Section
----------------
-
-  
-
-  
+## Jump to Section
 
 <table><colgroup><col style="width: 100%" /></colgroup><tbody><tr class="odd"><td><table><tbody><tr class="odd"><td style="text-align: left;"><a href="https://search.freefind.com/siteindex.html?si=14588965">index</a></td><td style="text-align: center;"><a href="https://search.freefind.com/find.html?si=14588965&amp;m=0&amp;p=0">sitemap</a></td><td style="text-align: right;"><a href="https://search.freefind.com/find.html?si=14588965&amp;pid=a">advanced</a></td></tr></tbody></table></td></tr><tr class="even"><td><a href="https://www.freefind.com">search engine</a><a href="https://www.freefind.com">by<span style="color:transparent">freefind</span></a></td></tr></tbody></table>
 
